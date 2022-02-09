@@ -1,0 +1,9 @@
+/**/node_modules
+.vscode
+/library/more
+/library/projects/*
+!/library/projects/package
+!/library/projects/websites
+
+/library/website/*
+!/library/website/overview.php

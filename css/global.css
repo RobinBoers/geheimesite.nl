@@ -1,0 +1,358 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Fira+Sans+Condensed:ital,wght@1,200&family=Merriweather&family=Poppins:wght@600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .h-content {
+        height: max-content;
+    }
+
+    /* Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .no-scrollbar {
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+    }
+
+    .pixelart {
+        image-rendering: -moz-crisp-edges;
+        image-rendering: crisp-edges;
+        image-rendering: pixelated;
+    }
+
+    .max-w-text {
+        max-width: 650px;
+    }
+
+    .supplement {
+        @apply brightness-125 dark:brightness-75 text-center italic text-sm;
+    }
+}
+
+@layer base {
+    /* General */
+
+    hr {
+        border-width: 0px;
+        border-top: 1px solid gray;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    /** Hyperlinks **/
+
+    a:not(.button, .no-underline) {
+        @apply hover:underline decoration-2 underline-offset-4;
+    }
+
+    a {
+        @apply text-black dark:text-white underline decoration-vibrant hover:bg-vibrant hover:text-black;
+    }
+
+    /** Scrollbar hack **/
+    html {
+        margin-left: calc(100vw - 100%);
+        margin-right: 0;
+    }
+
+    /** Smooth scrolling **/
+    html {
+        scroll-behavior: smooth;
+    }
+
+    /** Borderbox hack **/
+    html {
+        box-sizing: border-box;
+    }
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+    }
+
+    /* Typography */
+
+    /** Base **/
+    @media screen and (min-width: 900px) {
+        html,
+        .root {
+            font-size: 21px;
+            line-height: 33px;
+        }
+        body {
+            height: 100vh;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            font-family: "Merriweather", serif;
+            font-size: 21px;
+            line-height: 33px;
+        }
+        h1,
+        .h1 {
+            font-family: "Poppins", sans-serif;
+            font-size: 42px;
+            line-height: 66px;
+            margin-top: 33px;
+            margin-bottom: 33px;
+        }
+        h2,
+        .h2 {
+            font-family: "Fira Sans Condensed", sans-serif;
+            font-size: 30px;
+            line-height: 33px;
+            margin-top: 33px;
+            margin-bottom: 33px;
+        }
+        h3,
+        .h3 {
+            font-size: 25px;
+            line-height: 66px; /* 33px */
+            margin-top: 33px;
+            margin-bottom: 0;
+        }
+        h4,
+        .h4 {
+            font-size: 21px;
+            line-height: 33px;
+            margin-top: 33px;
+            margin-bottom: 0;
+        }
+        h5,
+        .h5 {
+            font-size: 21px;
+            line-height: 33px;
+            margin-top: 33px;
+            margin-bottom: 0;
+        }
+        p,
+        ul,
+        ol,
+        pre,
+        table,
+        blockquote {
+            margin-top: 0;
+            margin-bottom: 33px;
+        }
+        ul ul,
+        ol ol,
+        ul ol,
+        ol ul {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
+
+    /** Smaller screens **/
+    @media screen and (max-width: 900px) {
+        html,
+        .root {
+            font-size: 18px;
+            line-height: 28px;
+        }
+        body,
+        .article {
+            font-family: sans-serif;
+            font-family: "Merriweather", serif;
+            font-size: 18px;
+            line-height: 28px;
+            max-width: 560px;
+            margin: auto;
+        }
+        h1,
+        .h1 {
+            font-family: Poppins, sans-serif;
+            font-size: 36px;
+            line-height: 56px;
+            margin-top: 28px;
+            margin-bottom: 28px;
+        }
+        h2,
+        .h2 {
+            font-family: "Fira Sans Condensed", sans-serif;
+            font-size: 29px;
+            line-height: 28px;
+            margin-top: 28px;
+            margin-bottom: 28px;
+        }
+        h3,
+        .h3 {
+            font-size: 23px;
+            line-height: 56px;
+            margin-top: 28px;
+            margin-bottom: 0px;
+        }
+        h4,
+        .h4 {
+            font-size: 18px;
+            line-height: 28px;
+            margin-top: 28px;
+            margin-bottom: 0px;
+        }
+        h5,
+        .h5 {
+            font-size: 18px;
+            line-height: 28px;
+            margin-top: 28px;
+            margin-bottom: 0px;
+        }
+        p,
+        ul,
+        ol,
+        pre,
+        table,
+        blockquote {
+            margin-top: 0px;
+            margin-bottom: 28px;
+        }
+        ul ul,
+        ol ol,
+        ul ol,
+        ol ul {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+    }
+
+    /** Let's make sure all's aligned **/
+    hr,
+    .hr {
+        margin: -1px 0;
+    }
+    a,
+    b,
+    i,
+    strong,
+    em,
+    small,
+    code {
+        line-height: 0;
+    }
+    sub,
+    sup {
+        line-height: 0;
+        position: relative;
+        vertical-align: baseline;
+    }
+    sup {
+        top: -0.5em;
+    }
+    sub {
+        bottom: -0.25em;
+    }
+
+    figure {
+        @apply my-10;
+    }
+
+    figcaption {
+        @apply supplement;
+    }
+}
+
+@layer components {
+    .input {
+        @apply p-2 bg-white text-black dark:bg-transparent dark:text-white border-2 border-solid border-vibrant my-1 w-full block font-sans text-sm outline-none rounded-none shadow-none;
+    }
+    .button {
+        @apply cursor-pointer bg-vibrant text-black hover:brightness-90 outline-none rounded-none shadow-none;
+    }
+    .md-mark {
+        @apply before:content-[''] before:absolute before:inset-0 before:w-full before:h-full before:bg-md-mark before:bg-no-repeat before:bg-[length:30px] before:bg-[right_7px_bottom_7px] before:brightness-200 before:dark:filter-none;
+    }
+    .title {
+        @apply lowercase font-display text-2xl my-6;
+    }
+    /* .bold {
+        @apply w-[fit-content] bg-black text-white dark:bg-white dark:text-black;
+    } */
+    .bold {
+        @apply font-mono font-bold text-lg text-vibrant;
+    }
+
+    /* General */
+
+    img {
+        @apply select-none;
+    }
+
+    body {
+        @apply text-black bg-white dark:bg-black dark:text-white flex flex-col dark:bg-gradient-to-tr dark:from-slate dark:to-black bg-fixed overflow-x-hidden selection:text-white selection:bg-black/40 dark:selection:text-black dark:selection:bg-white/40;
+    }
+
+    .pageheader {
+        @apply text-center;
+    }
+
+    .page-content {
+        @apply flex-grow lg:w-[1100px] mx-auto;
+    }
+
+    .pageheader nav {
+        @apply w-full md:flex justify-around p-2;
+    }
+
+    .pageheader nav ul {
+        @apply flex flex-col md:flex-row gap-4 p-0 items-center overflow-hidden md:h-auto transition-[height] mb-0;
+    }
+
+    .pageheader nav ul li {
+        @apply list-none lowercase;
+    }
+
+    .pageheader nav ul li a,
+    .pageheader nav ul li.selected {
+        @apply before:content-['<'] after:content-['/>'] no-underline;
+    }
+
+    .pageheader nav ul li.selected {
+        @apply font-bold;
+    }
+
+    .page-footer {
+        @apply p-5 text-center;
+    }
+
+    section,
+    .section {
+        @apply px-2 sm:px-10 md:p-0 mx-auto md:max-w-md lg:max-w-text;
+    }
+
+    .skip-nav {
+        @apply lowercase absolute top-0 transition-transform translate-y-[-120%] focus:translate-y-0 left-[7px] p-4 no-underline bg-black text-white dark:bg-white dark:text-black;
+    }
+
+    .project-grid {
+        @apply p-0 m-0 w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 grid-rows-1 md:gap-2 lg:my-10;
+    }
+
+    .project-grid li {
+        @apply flex flex-col justify-end list-none;
+    }
+
+    .project-grid li h3 {
+        @apply text-sm mt-0 ml-2 md:ml-0;
+    }
+
+    .project-grid li a {
+        @apply no-underline bg-transparent hover:bg-transparent hover:brightness-90;
+    }
+
+    .project-grid li a img {
+        @apply w-full aspect-video object-cover my-2 mr-2;
+    }
+
+    .menu-button {
+        @apply dark:invert h-5 w-5 md:hidden cursor-pointer;
+    }
+
+    .title a {
+        @apply no-underline bg-transparent hover:bg-transparent text-current hover:text-current hover:no-underline decoration-white dark:decoration-black;
+    }
+}

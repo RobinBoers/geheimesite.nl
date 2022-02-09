@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Oeps! — geheimesite.nl | Robin Boers</title>
+
+        <link rel="stylesheet" href="/css/main.css" />
+    </head>
+    <body>
+        <main id="content" class="page-content">
+            <article class="mt-36">
+                <section>
+                <h1>Oeps! Een <code class="bold text-7xl">404</code>.</h1>
+                <p>
+                    Helaas is de webpagina die je zoekt opgegeten... <br/>
+                    <a href="/index.php">Terug naar de homepage</a>
+                </p>
+            </div>
+        </main>
+    </body>
+</html>
