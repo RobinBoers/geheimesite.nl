@@ -6,4 +6,8 @@
 !/library/projects/websites
 
 /library/website/*
+!/library/website/version
 !/library/website/overview.php
+
+connection.php
+connection_online.php

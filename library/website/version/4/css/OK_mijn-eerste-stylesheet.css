@@ -1,0 +1,182 @@
+body {
+font-family: sans-serif;
+background-color: #F8F8FF;
+margin: 000px;
+}
+
+header{
+position: fixed;
+background-color: #F8F8FF;
+top: 0;
+width: 100%;
+border-bottom: 2px solid black;
+}
+article {
+margin-top: 100px;
+}
+header h1 a.green {
+color: lawngreen;
+text-decoration: none;
+}
+nav ul {
+font-family: sans-serif;
+padding: 1em;
+font-weight: bold;
+}
+nav ul li {
+display: block;
+padding-left: 8px;
+font-size: 27px;
+}
+.selectedhome {
+color: red;
+border-left: 3px solid red;
+}
+a.home {
+color: red;
+text-decoration: none;
+}
+a.home:hover {
+background-color: red;
+text-decoration: none;
+color: white;
+}
+.selectedoverons {
+color: skyblue;
+border-left: 3px solid skyblue;
+}
+a.overons {
+color: skyblue;
+text-decoration: none;
+}
+a.overons:hover {
+background-color: skyblue;
+text-decoration: none;
+color: white;
+}
+.selectedagentworden {
+color: plum;
+border-left: 3px solid plum;
+}
+a.agentworden {
+color: plum;
+text-decoration: none;
+}
+a.agentworden:hover {
+background-color: plum;
+text-decoration: none;
+color: white;
+}
+.selectedgeheimtaal {
+color: orange;
+border-left: 3px solid orange;
+}
+a.geheimtaal {
+color: orange;
+text-decoration: none;
+}
+a.geheimtaal:hover {
+background-color: orange;
+text-decoration: none;
+color: white;
+}
+.selectedgames {
+color: greenyellow;
+border-left: 3px solid greenyellow;
+}
+a.games {
+color: greenyellow;
+text-decoration: none;
+}
+a.games:hover {
+background-color: greenyellow;
+text-decoration: none;
+color: white;
+}
+.selectedposten {
+color: darkorchid;
+border-left: 3px solid darkorchid;
+}
+a.posten {
+color: darkorchid;
+text-decoration: none;
+}
+a.posten:hover {
+background-color: darkorchid;
+text-decoration: none;
+color: white;
+}
+a.blogger {
+color: darkorange;
+text-decoration: none;
+}
+a.blogger:hover {
+background-color: darkorange;
+text-decoration: none;
+color: white;
+}
+a.raadsels {
+color: blue;
+text-decoration: none;
+}
+a.raadsels:hover {
+background-color: blue;
+text-decoration: none;
+color: white;
+}
+a:hover{
+text-decoration: underline;
+}
+a:active{
+text-decoration: underline;
+background-color: black;
+color: white;
+}
+
+p.top-tip { 
+border: 4px solid #0000FF; 
+border-radius: 10px; 
+padding: 1em;}
+p.top-tip::before { 
+color: #111111; 
+content:"TOPTIP: "; 
+font-weight: bold; 
+}
+
+footer {
+padding-right: 20px;
+padding-top: 20px;
+border-top: 2px solid gray;
+}
+img.small {
+float: left;
+margin-bottom: 24px;
+margin-right: 24px;
+}
+
+article {
+margin-bottom: 24px;
+padding: 20px;
+}
+article a:visited{
+color: blue;
+}
+article a:link{
+color: blue;
+text-decoration: none;
+}
+article a:hover{
+text-decoration: underline;
+}
+article a:active{
+color: white;
+background-color: black;
+}
+section {
+background-color: white;
+margin-bottom:24px;
+min-height: 200px;
+padding-left: 24px;
+padding-right: 24px;
+border: 2px solid skyblue;
+}

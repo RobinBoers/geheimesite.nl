@@ -1,0 +1,34 @@
+<section class="persoon">
+            <h3>agent RB</h3>
+            <p><img class="small"src="http://www.geheimesite.nl/home/afbeeldingen%20DDDD/agent%20RB.jpg" height="100px" width="150px" alt="3 spion"/></p>
+            <p>Agent RB is de snelste van het team!<br>
+            Hij is ook de leider van de 3SD de spionnen van de DDDD.<br>
+            Ook is hij de maker van deze site!<br><a href="mailto:robin@geheimesite.nl">mail mij</a></p>
+        </section>
+        <section class="persoon">
+            <h3>agent Friday</h3>
+            <p><img class="small" src="http://www.geheimesite.nl/home/afbeeldingen DDDD/agent friday.jpg" height="100px" width="150px" alt="onze computer nerd"/></p>
+            <p>Hij is de brein achter de DDDD.<br>
+            Verder is hij hoofd van de VSD.<br>
+            Ook is hij heel snel behendig.Kortom een perfecte geheim agent!<br></p>
+        </section>
+        <section class="persoon">
+            <h3>agent TF</h3>
+            <p><img class="small" src="http://www.geheimesite.nl/home/afbeeldingen DDDD/agent TF.jpg" height="100px" width="150px" alt="onze beste spion"/></p>
+            <p>Deze gozer is de beste spion ever.<br>
+            Agent TF is beheerder van het camerasysteem van de DDDD.<br>
+            Hij is ook de leider van de geheim-agent-school en teamleider van de GAD.<br></p>
+        </section>
+        <section class="persoon">
+            <h3>agent T</h3>
+            <p><img class="small" src="http://www.geheimesite.nl/home/afbeeldingen DDDD/agent T.jpg" height="100px" width="150px" alt="klimbo van ons team"/></p>
+            <p>Hij is de beste klimmer van ons team en zoals wij hem noemen een "klimbo".<br>
+            Verder bezit hij een ultra-telefoon die contact heeft met Robo-Alien!<br></p>
+        </section>
+<script type="text/javascript">
+function nieuwvenster()
+{
+    window.status="http://www.geheimesite.nl/";
+    window.open("http://www.geheimesite.nl/index.html","","width=400,height=600,status=1");
+}
+</script>

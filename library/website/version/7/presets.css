@@ -1,0 +1,26 @@
+:root {
+	--bg-color-1: rgba(125,125,200,.5);
+	--bg-color-2: rgba(125,200,125,.5);
+	--bg-color-3: rgba(200,125,125,.5);
+	--bg-color-4: rgba(125,125,200,.2);
+}
+html {
+  box-sizing: border-box;
+	font-size: 1.25rem;
+	line-height: 1.5;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	margin: 1em;
+	padding: 0;
+}
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(1px, 1px, 1px, 1px);
+	white-space: nowrap;
+}

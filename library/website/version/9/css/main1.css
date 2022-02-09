@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Roboto');
+/* Media */
+    /* groot scherm */
+        @media all and (min-width: 1020px) {
+            nav.small {
+                display: none;
+            }
+
+        }
+    /* telefoon */
+        @media all and (max-width: 1020px) {
+            p {
+                font-size: 30px;
+            }
+
+            li {
+                font-size: 30px;
+            }
+
+            .large {
+                display: none;
+            }
+            nav {
+                background-color: transparent;
+            }
+            .feedback {
+                display: none;
+            }
+            p, li, table, td, tr, select, option {
+                font-size: 30px;
+            }
+        }
+    /* ipad */
+/* Tekst */
+    .feedback {writing-mode: vertical-lr;text-orientation: upright;float: right;text-decoration: none;}
+    .hoofdletter::first-letter {
+        font-size: 300%;
+    }
+    .hoofdletter::after {
+        content:" ";
+    }
+    .paginaheader h1 {
+        padding-left: 10px;
+    }
+    .aanhaling p {
+        margin-bottom: 0;
+    }
+    .aanhaling p::before {
+        content: "\201C";
+        font-size: 2em;
+        vertical-align: middle;
+        padding-right: .3em;
+        color: rgb(150,150,150);
+    }
+    .aanhaling p::after {
+        content: "\201D";
+        font-size: 2em;
+        vertical-align: middle;
+        padding-left: .3em;
+        color: rgb(150,150,150);
+    }
+    .blog figcaption:first-child {
+        font-size: 1.8em;
+        font-weight: bold;
+        font-style: normal;
+    }
+    .blog figcaption {
+        font-size: 1em;
+        font-weight: normal;
+        font-style: italic;
+    }
+    .paginaheader p {
+         padding-left: 10px;
+    }
+    p.note {
+        width: 500px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        font-family: 'Abel', sans-serif;
+    }
+    p.note::before { 
+        content: url('../../images/tip.png');
+        float: left;
+        margin-right: 4px;
+    }
+    h2 {
+        color: #435061;
+        font-family: Asap,sans-serif;
+        font-size: 45px;
+        margin-bottom: 20px;
+        font-style: italic;
+    }
+    /* cursors
+        body {
+        cursor: url(https://vignette.wikia.nocookie.net/minecraft/images/e/e1/WikiSwordCursor.png),auto;
+        }
+        a:hover {
+        cursor: url(https://vignette.wikia.nocookie.net/minecraft/images/e/e1/WikiSwordCursor.png),auto; 
+        }
+    */
+/* Tabellen */
+    th, td {
+        border: 1px solid #000000;
+        padding: 8px;
+        text-align: left;
+    }
+    td {
+    }
+    td, th {
+        display: table-cell;
+        vertical-align: inherit;
+    }
+    table {
+        font-size: 70%;
+        border-collapse: collapse;
+        width: 100%;
+    }
+/* Elementen */
+    html {background-image: radial-gradient(circle, white, deepskyblue)}
+    body {
+        background-color: white;
+    }
+    main {
+        background-color: white;
+        margin-left: auto; 
+        margin-right: auto;
+        max-width: 1024px; 
+        min-width: 256px; 
+        padding-top: 7px;  
+        padding-left: 23px; 
+        padding-right: 23px;
+        padding-bottom: 20px;
+        margin-bottom: 100px;
+    }
+    article {  
+    }
+    body {
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+/* Formulieren */
+/* class_attributen */
+    .paginaheader {
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        background-color: rgba(150, 200, 255, 0.5);
+        border-bottom-width: 4px;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(150, 200, 255);
+        padding-top: 20px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .background {
+        background-image: radial-gradient(circle, white, deepskyblue);
+    }
+.overzicht li {
+    font-weight: bolder;
+    padding: 0px;
+    margin-bottom: 0;
+}
+.overzicht li a {
+    color: black !important;
+    text-decoration: none;
+}
+.overzicht p {
+    padding: 5px;
+    margin: 0;
+}
+.center {
+    text-align: center;
+}
+/* plaatjes */
+    .small {
+            float: left;
+            margin: 5px;
+    }
+    figcaption {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    figure {
+        margin-left: 0;
+    }
+    img {
+        max-width: 100%;
+        /*height: auto;*/
+    }
+/* Navigatie */
+    /* Menu */
+    nav {
+        font-style: normal;
+    }
+    nav ul li {
+        list-style-type: none;
+        display: inline;
+        padding: 10px;
+    }
+    nav ul li a {
+        color: black !important;
+        text-decoration: none;
+    }
+    nav ul li a:hover {
+        border-bottom: 3px solid deepskyblue;
+    }
+/* Blogs */
+/* vakken */
+    .persoon {
+        margin-bottom: 24px;
+        min-height: 200px;
+        padding-left: 24px;
+        padding-right: 24px;
+        display: block;
+        background-color: white;
+        border: 3px solid skyblue;
+        border-radius: 10px;
+    }
+/* meer */

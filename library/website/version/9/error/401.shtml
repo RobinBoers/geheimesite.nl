@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML>
+<HEAD>
+    <TITLE>
+        401 Authorization Required
+    </TITLE>
+</HEAD>
+<BODY>
+    <H1>Authorization Required</H1>
+    <p>De server heeft waarschijnlijk de verkeerde inloggegevens gekregen, toegang geweigerd.</p>
+    <p>
+        <b>401 error:</b><br>
+        Deze server kon niet verifiëren dat u geautoriseerd bent om toegang te krijgen tot het gevraagde document. U hebt de verkeerde gegevens opgegeven (bijvoorbeeld een slecht wachtwoord) of uw browser begrijpt niet hoe de vereiste legitimatiegegevens moeten worden verstrekt.
+    </p>
+    <p>
+        <b>Orginele 401 error:</b><br>
+        This server could not verify that you are authorized to access the document requested. Either you supplied the wrong credentials (e.g., bad password), or your browser doesn't understand how to supply the credentials required.
+    </p>
+    <hr>
+    <I><!--#echo var="HTTP_HOST" --></I>
+</BODY>
+</HTML>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

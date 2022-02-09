@@ -1,0 +1,7 @@
+AuthUserFile /home/robinb/domains/dddd.geheimesite.nl/public_html/beheerder/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Inloggen Beheerder DDDD"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>

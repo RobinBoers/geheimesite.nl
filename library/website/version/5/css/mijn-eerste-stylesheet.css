@@ -1,0 +1,145 @@
+body {
+background-color: #F8F8FF;
+margin-left: auto; 
+margin-right: auto;
+max-width: 1024px; 
+min-width: 256px; 
+min-height: 900px;
+padding-top: 7px; 
+padding-bottom: 23px; 
+padding-left: 23px; 
+padding-right: 23px;
+}
+header h1 {
+font-family: 'PT Sans Narrow', sans-serif;
+}
+nav ul {
+background-color: white;
+font-family: Clarendon Blk BT;
+padding: 1em;
+font-weight: bold;
+border: 2px solid skyblue;
+border-radius: 10px;
+}
+nav ul  li {
+display: inline;
+border-right: 2px solid skyblue;
+padding-right: 8px;
+}
+nav li.selected {
+color: black;
+}
+nav ul li a:hover {
+text-decoration: underline;
+}
+nav ul li a:visited{
+color:skyblue;
+}
+ul li a {
+color: skyblue;
+list-style-type: none;
+text-decoration: none;
+}
+nav ul li:last-child { 
+border-right: none;
+}
+header {
+background-color: skyblue;
+border: 2px solid white;
+border-radius: 10px;
+padding: 10px;
+}
+header h1 {
+color:white;
+}
+header a{text-decoration: none;}
+a:link{
+color: skyblue;
+list-style-type: none;
+}
+a:hover{
+text-decoration: underline;
+}
+a:visited{
+color:skyblue;
+}
+a:active{
+text-decoration: underline;
+background-color: deepskyblue;
+color: white;
+}
+p.top-tip { 
+border: 4px solid red; 
+border-radius: 10px; 
+background-color: white;
+padding: 1em;
+}
+p.top-tip::before { 
+color: red; 
+content:"LET OP: "; 
+font-weight: bold;
+}
+p.weetje { 
+border: 4px solid darkblue; 
+border-radius: 10px; 
+background-color: deepskyblue;
+padding: 1em;
+color: white;
+}
+p.weetje::before { 
+color: darkblue; 
+content:"WEETJE: "; 
+font-weight: bold;
+}
+@media all and (min-width: 1020px) {
+article {
+float: left;
+width: 62%;
+}
+aside {
+float: right;
+width: 35%;
+margin-left: 10px;
+}
+footer {
+clear: both;
+}
+}
+footer {
+padding-left: 24px;
+}
+img.small {
+float: left;
+margin-bottom: 24px;
+margin-right: 24px;
+}
+img {
+border: 2px solid gray;
+border-radius: 16px;
+}
+article {
+margin-bottom: 24px;
+}
+section {
+background-color: white;
+margin-bottom:24px;
+min-height: 200px;
+padding-left: 24px;
+padding-right: 24px;
+border: 3px solid skyblue;
+border-radius: 10px;
+}
+table {font-size:70%; 
+border-collapse: collapse; 
+width: 100%;
+}
+th,td {
+border:1px solid #000000;
+padding:8px;
+text-align: left;}
+th { 
+background-color: #FCAB68;
+} 
+td { 
+background-color: #BA99C0;
+}

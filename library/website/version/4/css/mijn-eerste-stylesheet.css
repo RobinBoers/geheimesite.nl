@@ -1,0 +1,150 @@
+body {
+font-family: sans-serif;
+background-color: #F8F8FF;
+}
+header h1 a.green {
+color: lawngreen;
+text-decoration: none;
+}
+nav ul {
+font-family: sans-serif;
+padding: 1em;
+font-weight: bold;
+}
+nav ul li {
+display: block;
+padding-left: 8px;
+font-size: 27px;
+}
+nav li.selectedhome {
+color: red;
+border-left: 3px solid red;
+}
+nav li a.home {
+color: red;
+text-decoration: none;
+}
+nav li.selectedoverons {
+color: skyblue;
+border-left: 3px solid skyblue;
+}
+nav li a.overons {
+color: skyblue;
+text-decoration: none;
+}
+nav li.selectedagentworden {
+color: plum;
+border-left: 3px solid plum;
+}
+nav li a.agentworden {
+color: plum;
+text-decoration: none;
+}
+nav li.selectedgeheimtaal {
+color: orange;
+border-left: 3px solid orange;
+}
+nav li a.geheimtaal {
+color: orange;
+text-decoration: none;
+}
+nav li.selectedgames {
+color: greenyellow;
+border-left: 3px solid greenyellow;
+}
+nav li a.games {
+color: greenyellow;
+text-decoration: none;
+}
+nav li.selectedposten {
+color: darkorchid;
+border-left: 3px solid darkorchid;
+}
+nav li a.posten {
+color: darkorchid;
+text-decoration: none;
+}
+nav li a.blogger {
+color: darkorange;
+text-decoration: none;
+}
+nav li a.raadsels {
+color: blue;
+text-decoration: none;
+}
+nav ul li a:hover {
+text-decoration: underline;
+}
+nav ul li:hover {
+background-color: lightgray;
+}
+a:hover{
+text-decoration: underline;
+}
+a:active{
+text-decoration: underline;
+background-color: black;
+color: white;
+}
+
+p.top-tip { 
+border: 4px solid #0000FF; 
+border-radius: 10px; 
+padding: 1em;}
+p.top-tip::before { 
+color: #111111; 
+content:"TOPTIP: "; 
+font-weight: bold; 
+}
+
+@media all and (min-width: 900px) {
+article {
+float: right;
+width: 77%;
+border-left: 2px solid gray;
+}
+header {
+float: left;
+width: 20%;
+}
+footer {
+clear: both;
+}
+}
+footer {
+padding-right: 20px;
+padding-top: 20px;
+border-top: 2px solid gray;
+}
+img.small {
+float: left;
+margin-bottom: 24px;
+margin-right: 24px;
+}
+
+article {
+margin-bottom: 24px;
+padding: 20px;
+}
+article a:visited{
+color: blue;
+}
+article a:link{
+color: blue;
+text-decoration: none;
+}
+article a:hover{
+text-decoration: underline;
+}
+article a:active{
+color: white;
+background-color: black;
+}
+section {
+background-color: white;
+margin-bottom:24px;
+min-height: 200px;
+padding-left: 24px;
+padding-right: 24px;
+border: 2px solid skyblue;
+}

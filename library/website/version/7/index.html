@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<link rel="icon" href="favicon/animated_favicon.gif" type="image/ico" >
+<title>De geheim agenten</title>
+<link type="text/css" rel="stylesheet" href="presets.css"/>
+<meta charset="utf-8"/>
+<meta name="description" content="De geheimesite van de DDDD..."/>
+<meta name="description" content="Welkom in het hoofdkwartier van de DDDD!"/>
+<meta name="description" content="DDDD"/>
+<meta name="description" content="www.geheimesite.nl"/>
+<meta name="description" content="geheimesite.nl"/>
+<meta name="description" content="geheimesite"/>
+<meta name="description" content="De geheim agenten"/>
+<meta name="keywords" content="DDDD,geheimesite,de geheim agenten"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+hr {
+height: 10px;
+background-image: url(images/patroon-steen.jpg);
+border: none;
+}
+footer {
+height: 260px;  
+}
+footer a:hover{
+color: white;
+text-decoration: underline;
+}
+footer a:link{
+color: white;
+text-decoration: none;
+}
+footer a:visited{
+color: white;
+text-decoration: none;
+}
+a:hover{
+text-decoration: underline;
+}
+a:link{
+color: white;
+}
+a:visited{
+color: white;
+}
+footer p {
+font-size: 20px;
+font-family: monospace;
+}
+body {
+font-family: monospace;   
+}
+.main {
+margin-top: 30px;
+margin-left: auto; 
+margin-right: auto;
+max-width: 1024px; 
+min-width: 256px; 
+padding-top: 7px;  
+padding-left: 23px; 
+padding-right: 23px;
+}
+html {
+background-color: #595959;
+}
+p {
+color: white;
+}
+details a {
+text-decoration: none;
+}
+a.not {
+text-decoration: none;
+}
+#informatie {
+background-color: #333;
+width: 100%;
+padding: 10px;
+}
+#informatie p, #informatie h1, #informatie ul li{
+color: white;
+}
+p, h1, h2, h3, h4, h5, h6, ul li, ul{
+color: white;
+}
+.meer_websites p {
+font-size: 10px;
+}
+@media all and (min-width: 900px) {
+    footer adderess {
+    background-color: #333;
+    float: left;
+    }
+    .meer_websites {
+    background-color: #333;
+    font-size: 10px;
+    float: right;
+    padding: 10px;
+    }
+    }
+@media all and (max-width: 920px) {
+footer {
+height: 460px;  
+}
+}
+@media all and (min-width: 1020px) {
+details.top {
+    float: left;
+    padding: 10px;
+    }
+.blend1 {
+	width: 600px;
+	height: 300px;
+	opacity: .8;
+	background-image: url('images/patroon-steen.jpg');
+    filter: drop-shadow(4px 4px 8px black);
+}
+.blend2 {
+	font: 700 3em sans-serif;
+	text-align: center;
+	mix-blend-mode: overlay;
+	background-image: linear-gradient(hsla(0,100%,100%,.1), hsla(0,100%,100%,.5), hsla(0,100%,100%,.1));
+}
+.grid,.grid-blend {
+	display: grid;
+	grid-template-columns: 320px 320px;	
+	grid-gap: 1em;
+	margin-bottom: 2em;
+}
+@import url(presets.css);
+}
+
+#mySidenav{
+object-position: left;
+}
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -80px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+#mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+}
+#about {
+    top: 220px;
+    background-color: #4CAF50;
+}
+#blog {
+    top: 280px;
+    background-color: #2196F3; /* Blue */
+}
+#over-mij {
+    top: 340px;
+    background-color: #f44336; /* Red */
+}
+#tekenen {
+    top: 400px;
+    background-color: #555 /* Light Black */
+}
+ 
+.slideshow-container {
+  max-width: 1000px;
+  margin: auto;
+  position: relative;
+}
+.mySlides {
+    display: none;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  background-color: rgba(0,0,0,0.8);
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: deepskyblue;
+}
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor:pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: deepskyblue;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+} 
+
+img{
+filter: drop-shadow(4px 4px 8px black);
+}
+
+.fade-out {
+	outline: 2px dashed #aaa;
+	padding: .5em;
+	overflow: hidden;
+	background-image: linear-gradient( to bottom, black 60%, rgba(0, 0, 0, .1));
+	-webkit-background-clip: text;
+	background-clip: text;
+    position: relative;
+}
+.fade-out h2 {
+	margin-top: 0;
+}
+.text-fade-out {}
+.lees-alles {
+	position: absolute;
+	bottom: 0;
+	color: white;
+	padding: 8px;
+	background-color: black;
+	text-decoration: none;
+}
+.resize {
+	margin: 50px 0;
+}
+.resize>section {
+	overflow: auto;
+	width: 400px;
+	height: 150px;
+	margin: 8px 0;
+	padding: 8px;
+	border: 2px solid grey;
+	resize: vertical;
+}
+section>h2 {
+	font-size: 1.2em;
+}
+pseudotekst {
+	margin: 8px 0;
+	width: 80%;
+	border: 6px solid grey;
+	border-radius: 6px;
+}
+
+table {font-size:70%; 
+border-collapse: collapse; 
+width: 100%;
+}
+th,td {
+border:1px solid white;
+padding:8px;
+text-align: left;
+color: white;}
+th { 
+background-color: deepskyblue;
+color: white;
+} 
+td {
+color: white;
+}
+
+/* Popup container */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}    
+
+</style>
+</head>
+<body>
+<div class="popup" onclick="myFunction()">Click me!
+  <span class="popuptext" id="myPopup"><h1>Oepsie</h1>
+<p>Je hebt het internet verwijdert...<br></p>
+</span>
+</div> 
+<h1 style="text-align: center;">welkom in het hoofdkwartier van de DDDD</h1>
+<nav>
+<ul>
+<details class="top">
+<summary>Menu</summary>
+<li><a href="#news">News</a></li>
+<li><a href="#geheim_agent_worden">Geheim agent worden</a></li>
+<li><a href="#over">Over ons</a></li>
+<li><a href="#down">Downloads</a></li>
+<li><a href="#abt">About</a></li>
+<li><a href="#geheim_taal">Geheime codes</a></li>
+<li><a href="#informatie">Meer informatie</a></li>
+</details>
+</ul>
+</nav>
+
+
+<div class="main">
+
+<div title="Welkom op http://www.geheimesite.nl !!!" class="grid-blend">
+<div class="blend1">
+<p class="blend2">GeheimeSite</p>
+</div>
+</div>
+
+<p>Hallo wij zijn de geheim agenten van de DDDD<br>
+Dit is onze website! klik op een pagina om hem te bezoeken!<br>
+Je vind er tips, geheimtaal en meer!<br></p>
+<hr>
+<section>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img title="Welkom, dit is ons team!" src="afbeeldingen%20DDDD/afbeelding%20van%20de%20DDDD%20agenten%202.0.jpg" style="width:100%">
+    <div class="text">Welkom, dit is ons team!</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img title="Aliens!!!" src="afbeeldingen%20DDDD/scannen0004.jpg" style="width:100%">
+    <div class="text">Aliens!!!</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img title="De geheime pagina" src="afbeeldingen%20DDDD/geheimepagina2.jpg" style="width:100%">
+    <div class="text">De geheime pagina</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+</section>
+<hr>
+</div>
+
+<div class="main">
+<h2 id="news">News</h2>
+<ul>
+<li><a class="not" target="_blank" href="//e.issuu.com/embed.html#31034058/54511844">Naar de Geheime Courant</a></li>
+</ul>
+<div class="fade-out">
+    <span style="font-size: 14px;color: white;">Nr. update 4.0.1<br /></span>
+	<h2>GeheimeSite News</h2>
+	<p class="text-fade-out">
+    Er is een tijd geleden een nieuwe update gelanceerd.<br>
+    Nr. update 4.0.1<br>
+    Hierbij is er een nieuwe mooie steenachtergrond toegevoegt.<br>
+    Ook een nieuwe footer toegevoegt.<br>
+    Met links naar mijn blog en copyright informatie.<br>
+    </p>
+</div>
+</div>
+
+<div class="main">
+<h1 id="geheim_agent_worden">zo word je geheim agent</h1>
+<p>wil je net als wij geheimagent worden!<br>Prima idee!<br>Volg dan de volgende tips en je bent zo een geheim agent!<br></p>
+<ul>
+    <li><strong>CodeName====</strong></li>
+<p>Bedenk een stoere codenaam!<br>Neem bijvoorbeeld een dag uit de week en dan in het engels.<br>Of de eerste letter van je voor en achternaam.<br>Plak er agent voor en TADA een codenaam!<br></p>
+    <li><strong>Uitrusting</strong></li>
+<p>Zorg voor goede uitrusting zoals bijvoorbeeld een stuk touw, een haak, een riem, eventueel een mes of kompas en stop het allemaal in een klein tasje.<br> Want een DDDD agent is altijd goed uitgerust!<br></p>
+    <li><strong>C0ntact</strong></li>
+<p>Een DDDD agent heeft altijd contact met andere geheim agenten.<br>Regel een comminucatiemiddel zoals een walkietalkie.<br>Heb je er geen?<br>Geen probleem dan verzin je zelf een stoere gadjet!<br></p>
+    <li><strong>Code$</strong></li>
+<p>Een echte DDDD agent kent meer dan een geheime code.<br>Kijk onder het tablat Geheime codes voor geheime codes!<br></p>
+    <li><strong>L00k</strong></li>
+Doe je regenjas aan een nepsnor op en een zonnebril op!<br>Voor je staat eengeheim agent!<br><br>
+    <li><strong>ClubName===</strong></li>
+<p>Richt zelf een spionnen club op!<br>lees zo doe je dat!<br></p>
+</ul>
+
+<h2>zo maak je een spionnenclub</h2>
+
+<h3>wil jij ook een spionnenclub beginnen?</h3>
+<p>
+Wil je net als wij een spionnenclub hebben!<br>
+Prima idee!<br>
+Volg dan de volgende tips en je hebt zo een spionnenclub!<br>
+</p>
+
+<ul>
+    <li><strong>ClubName===</strong></li>
+<p>
+Bedenk een stoere clubnaam!<br>Neem bijvoorbeeld een dier zoals een aldelaar dan heet jouw club <strong>De Adelaar</strong>.<br>Of neem een plant, 2 nullen en een getal zoals: eik 005! plak er club voor of achter en <strong>TADA</strong><br>
+</p>
+    <li><strong>Led3n</strong></li>
+<p>Zorg dat er minstens 3 leden zijn!<br></p>
+
+    <li><strong>Code$</strong></li>
+<p>Verzin een clubtaal of neem er een van de pagina 'geheime codes' om zo geheimen met elkaar te bespreken<br></p>
+    <li><strong>M0ney</strong></li>
+<p>
+Bak koekjes en verkoop ze, als jullie geld verdienen kan je voor de spionnenclub ijsjes enzo kopen!
+</p>
+    <li><strong>H00fdkwartier</strong></li>
+<p>Zorg voor een mooi hoofdkwartier.<br>Het kan de schuur van een van je vrienden zijn, jouw kamer, of de hoek van het schoolplein!<br>Zorg wel dat je de geheime papieren van de club er wel kan opbergen.<br></p>
+    <li><strong>F0rm$</strong></li>
+<p>Maak een paar geheime formelieren voor de club!<br></p>
+    <li><strong>Battl3</strong></li>
+<p>Als er nog een spionnenclub in de buurt is kan je wedstrijdjes tegen elkaar doen!<br></p>
+</ul>
+<p>Nu heb je een perfecte spionnenclub.<br>Nu kan je bijvoorbeeld op alienjacht (als de aliens niet op jullie jagen) of wedstrijdjes doen!<br></p>
+<p class="top-tip">kijk wel uit dat als je een mes meeneemt om bijvoorbeeld takken te slijpen, touw door te zagen en nog veel meer, dat je altijd van je af en naar niemand toe snijd! zorg ook dat het mes vergrendeling heeft!</p>
+</div>
+
+<div class="main">
+<h1 id="over">Over ons</h1>
+<p>Hallo wij zijn de geheim agenten.<br>
+Wij werken voor de DDDD en geheimzinnige ruimte orginisatie die zich bekommert om de veiligheid van het heelal.<br>
+Op deze site vind je geheimtaal, een digitale krant met de laaste DDDD nieuwtjes en tips om een geheim agent te worden!<br></p>
+<hr>
+<section>
+<h3>agent RB</h3>
+<p><img class=small src="afbeeldingen%20DDDD/agent%20RB.jpg" height="100px" width="150px" alt="3 spion"/></p>
+<p>Agent RB is de snelste van het team!<br>
+hij is ook de leider van de 3SD de spionnen van de DDDD.<br>
+Ook is hij de maker van deze site!<br></p>
+</section>
+<hr>
+<section>
+<h3>agent Friday</h3>
+<p><img class=small src="afbeeldingen DDDD/agent friday.jpg" height="100px" width="150px" alt="onze computer nerd"/></p>
+<p>Hij is de brein achter de DDDD.<br>
+verder is hij hoofd van de VSD.<br>
+Ook is hij heel snel behendig.Kortom een perfecte geheim agent!<br></p>
+</section>
+<hr>
+<section>
+<h3>agent TF</h3>
+<p><img class=small src="afbeeldingen DDDD/agent TF.jpg" height="100px" width="150px" alt="onze beste spion"/></p>
+<p>deze gozer is de beste spion ever.<br>
+agent TF is beheerder van het camerasysteem van de DDDD.<br>
+hij is ook de leider van de geheim-agent-school en teamleider van de GAD<br></p>
+</section>
+<hr>
+<section>
+<h3>agent T</h3>
+<p><img class=small src="afbeeldingen DDDD/agent T.jpg" height="100px" width="150px" alt="klimbo van ons team"/></p>
+<p>Hij is de beste klimmer van ons team en zoals wij hem noemen een "klimbo".<br>
+verder bezit hij een ultra-telefoon die contact heeft met Robo-Alien!<br></p>
+</section>
+<hr>
+
+</div>
+
+
+<div class="main">
+<h1 id="down">Downloads</h1>
+<p>Hier vind je onze avonturen.<br>
+Ook vind je er een digitale versie van de DDDD-handboek bundel.<br>
+GRATIS te lezen.<br>
+Je kunt ze downloaden<br>
+Als je geen Word op je computer hebt staan moet je op 'tekstversie' klikken.<br></p>
+<h2>DDDD HANDBOEK 1 - GIDS</h2>
+<ul>
+<li><a class="not" href="verhalen/DDDD%20HANDBOEK%201%20-%20GIDS.docx">downloaden</a></li>
+<li><a class="not" href="verhalen/DDDD%20HANDBOEK%201%20-%20GIDS.txt">tekstversie</a></li>
+<li><a class="not" href="verhalen/DDDD%20HANDBOEK%201%20-%20GIDS.pdf">PDF versie</a></li>
+</ul>
+<a href="verhalen/DDDD%20HANDBOEK%201%20-%20GIDS.docx">
+<img class=small src="http://www.geheimesite.nl/afbeeldingen%20DDDD/afbeelding%20van%20de%20DDDD%20agenten%202.0.jpg" height="100%" width="100%" alt="Download nu het HANDBOEK deel 1!!!"/></a>
+
+</div>
+<div class="main">
+<h1 id="abt">About</h1>
+<hr />
+<span>
+<p>deze site is gebouwd met HTML en CSS.<br />
+dat zijn programmeertalen.<br />
+ik&nbsp; kan jullie nog wel stukken uit de code van mijn website laten zien.<br />
+meer weten?<br />
+in&nbsp; Chrome moet je rechts klikken en op paginabron weergeven klikken.<br />
+en in Edge of Internet Explorer moet je F12 indrukken.<br /></p>
+</span>
+<hr />
+<p>dit is de code van een oude <a href="#over">over-ons</a> pagina:<br /></p>
+<br />
+<hr />
+<p>
+&lt;!DOCTYPE html&gt;<br />
+&lt;html&gt;<br />
+&lt;head&gt;<br />
+&lt;title&gt;Over ons - geheimesite.nl&lt;/title&gt;<br />
+&lt;link type="text/css" rel="stylesheet" href="css/mijn-eerste-stylesheet.css"/&gt;<br />
+&lt;meta charset="utf-8"/&gt;&lt;/head&gt;<br />
+&lt;body&gt;<br />
+&lt;header&gt;<br />
+&lt;h1&gt;<br />
+&lt;sup&gt;De&lt;sup&gt;geheim agenten&lt;/h1&gt;<br />
+&lt;nav&gt;<br />
+&lt;ul&gt;<br />
+&lt;li&gt;&lt;a href="index.html"&gt;home&lt;/a&gt;&lt;/li&gt;<br />
+&lt;li class="selected"&gt;over ons&lt;/li&gt;<br />
+&lt;li&gt;&lt;a href="zo word je geheim agent.html"&gt;geheim agent worden&lt;/a&gt;&lt;/li&gt;<br />
+&lt;li&gt;&lt;a href="geheimtaal.html"&gt;geheime codes&lt;/a&gt;&lt;/li&gt;<br />
+&lt;/ul&gt;<br />
+&lt;/nav&gt;<br />
+&lt;/header&gt;<br />
+&lt;article&gt;<br />
+&lt;p&gt;hier ben je: &lt;a href="index.html"&gt;Home&lt;/a&gt;&gt;&lt;a href="over-ons.html"&gt;over ons&lt;/a&gt;<br />
+&lt;h1&gt;<br />
+&lt;sup&gt;Ontmoet De&lt;sup&gt;geheim agenten&lt;/h1&gt;<br />
+&lt;p&gt;Hallo ik ben robin&lt;/P&gt;<br />
+&lt;p&gt;op mijn blog post ik best veel over de DDDD (vind ik zelf)&lt;/p&gt;<br />
+&lt;p&gt;DDDD staat voor: de dienst van buitenaardse dimensies en domeinen&lt;/p&gt;<br />
+&lt;p&gt;ik en mijn vrienden werken voor de DDDD en geheimzinnige ruimte orginisatie die zich bekommert om de veiligheid van het heelal.&lt;/p&gt;<br />
+&lt;p&gt;op deze site vind je geheimtaal, een digitale krant met de laaste DDDD nieuwtjes en tips om een geheim agent te worden!&lt;/p&gt;<br />
+&lt;iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d9563.160317801914!2d4.2665959694589075!3d51.918528781609616!3m2!1i1024!2i768!4f13.1!5e0!3m2!1snl!2snl!4v1505928965601" width="800" height="600" frameborder="0" style="border:0" allowfullscreen&gt;&lt;/iframe&gt;<br />
+&lt;section&gt;<br />
+&lt;h3&gt;agent RB&lt;/h3&gt;<br />
+&lt;p&gt;&lt;img class=small src="afbeeldingen%20DDDD/agent%20RB.jpg" height="100px" width="150px" alt="3 spion"/&gt;&lt;/p&gt;<br />
+&lt;p&gt;Agent RB is de snelste van het team!&lt;/p&gt;<br />
+&lt;p&gt;hij is ook de leider van de 3SD de spionnen van de DDDD.&lt;/p&gt;<br />
+&lt;p&gt;Ook is hij de maker van deze site!&lt;/p&gt;<br />
+&lt;a href="agent-RB.html"&gt;meer info&lt;/a&gt;<br />
+&lt;/section&gt;<br />
+&lt;section&gt;<br />
+&lt;h3&gt;agent Friday&lt;/h3&gt;<br />
+&lt;p&gt;&lt;img class=small src="afbeeldingen DDDD/agent friday.jpg" height="100px" width="150px" alt="onze computer nerd"/&gt;&lt;/p&gt;<br />
+&lt;p&gt;Hij is de brein achter de DDDD.&lt;/p&gt;<br />
+&lt;p&gt;verder is hij hoofd van de VSD.&lt;/p&gt;<br />
+&lt;p&gt;Ook is hij heel snel behendig.Kortom een perfecte geheim agent!&lt;/p&gt;<br />
+&lt;a href="agent-Friday.html"&gt;meer info&lt;/a&gt;<br />
+&lt;/section&gt;<br />
+&lt;section&gt;<br />
+&lt;h3&gt;agent TF&lt;/h3&gt;<br />
+&lt;p&gt;&lt;img class=small src="afbeeldingen DDDD/agent TF.jpg" height="100px" width="150px" alt="onze beste spion"/&gt;&lt;/p&gt;<br />
+&lt;p&gt;deze gozer is de beste spion ever.&lt;/p&gt;<br />
+&lt;p&gt;agent TF is beheerder van het camerasysteem van de DDDD.&lt;/p&gt;<br />
+&lt;p&gt;hij is ook de leider van de geheim-agent-school&lt;/p&gt;<br />
+&lt;a href="agent-TF.html"&gt;meer info&lt;/a&gt;<br />
+&lt;/section&gt;<br />
+&lt;section&gt;<br />
+&lt;h3&gt;agent T&lt;/h3&gt;<br />
+&lt;p&gt;&lt;img class=small src="afbeeldingen DDDD/agent T.jpg" height="100px" width="150px" alt="klimbo van ons team"/&gt;&lt;/p&gt;<br />
+&lt;p&gt;Hij is de beste klimmer van ons team en zoals wij het noemen een "klimbo"!&lt;/p&gt;<br />
+&lt;a href="agent-T.html"&gt;meer info&lt;/a&gt;<br />
+&lt;/section&gt;<br />
+&lt;section&gt;<br />
+&lt;h3&gt;Jims Blond&lt;/h3&gt;<br />
+&lt;p&gt;&lt;img class=small src="afbeeldingen DDDD/agent T.jpg" height="100px" width="150px" alt="klimbo van ons team"/&gt;&lt;/p&gt;<br />
+&lt;p&gt;dit is een vrij nieuwe agent hij heeft alle nieuwe gadjets als eerst&lt;/p&gt;<br />
+&lt;p&gt;zijn beste gadjet is een vulpenbom en&nbsp; hierin zit ook een verborgen walkitalkie, geheugenwisser, zaklamp en navigatiesysteem!&lt;/p&gt;<br />
+&lt;/section&gt;<br />
+&lt;/article&gt;<br />
+&lt;footer&gt;<br />
+&lt;p&gt;Alle informatie op deze website valt onder het copyright van de Geheim Agenten&lt;/p&gt;<br />
+&lt;/footer&gt;<br />
+&lt;/body&gt;<br />
+&lt;/html&gt;
+<br />
+</p>
+</div>
+
+<div class="main">
+<h1 id="geheim_taal">Geheim Taal</h1>
+<p>Een goede geheimagent kent meer dan een code!</p>
+<hr>
+<h3>O Taal</h3>
+<p>In deze taal zet je tussen alle letters een O!</p>
+<hr>
+<h3>Omgekeerd</h3>
+<p>A=z en Z=a in deze taal!</p>
+<table><tr> <th>letter</th> <th>ontcijfering</th> </tr>
+    <tr><td>A</td><td>Z</td></tr>
+    <tr><td>B</td><td>Y</td></tr>
+    <tr><td>C</td><td>X</td></tr>
+    <tr><td>C</td><td>W</td></tr>
+    <tr><td>E</td><td>V</td></tr>
+    <tr><td>F</td><td>U</td></tr>
+    <tr><td>G</td><td>T</td></tr>
+    <tr><td>H</td><td>S</td></tr>
+    <tr><td>I</td><td>R</td></tr>
+    <tr><td>J</td><td>Q</td></tr>
+    <tr><td>K</td><td>P</td></tr>
+    <tr><td>L</td><td>O</td></tr>
+    <tr><td>M</td><td>N</td></tr>
+    <tr><td>N</td><td>M</td></tr>
+    <tr><td>O</td><td>L</td></tr>
+    <tr><td>P</td><td>K</td></tr>
+    <tr><td>Q</td><td>J</td></tr>
+    <tr><td>R</td><td>I</td></tr>
+    <tr><td>S</td><td>H</td></tr>
+    <tr><td>T</td><td>G</td></tr>
+    <tr><td>U</td><td>F</td></tr>
+    <tr><td>V</td><td>E</td></tr>
+    <tr><td>W</td><td>D</td></tr>
+    <tr><td>X</td><td>C</td></tr>
+    <tr><td>Y</td><td>B</td></tr>
+    <tr><td>Z</td><td>A</td></tr>
+</table>
+<hr>
+<h3>Achterstevoren</h3>
+<p>In deze taal zet je elk woord achtsevoren zo: dleebroov!</p>
+<hr>
+<h3>Sijferbrei</h3>
+<p>A=1 en Z=26 in deze taal...</p>
+<table><tr> <th>letter</th> <th>cijfer</th> </tr>
+    <tr><td>A</td><td>1</td></tr>
+    <tr><td>B</td><td>2</td></tr>
+    <tr><td>C</td><td>3</td></tr>
+    <tr><td>d</td><td>4</td></tr>
+    <tr><td>E</td><td>5</td></tr>
+    <tr><td>F</td><td>6</td></tr>
+    <tr><td>G</td><td>7</td></tr>
+    <tr><td>H</td><td>8</td></tr>
+    <tr><td>I</td><td>9</td></tr>
+    <tr><td>J</td><td>10</td></tr>
+    <tr><td>K</td><td>11</td></tr>
+    <tr><td>L</td><td>12</td></tr>
+    <tr><td>M</td><td>13</td></tr>
+    <tr><td>N</td><td>14</td></tr>
+    <tr><td>O</td><td>15</td></tr>
+    <tr><td>P</td><td>16</td></tr>
+    <tr><td>Q</td><td>17</td></tr>
+    <tr><td>R</td><td>18</td></tr>
+    <tr><td>S</td><td>19</td></tr>
+    <tr><td>T</td><td>20</td></tr>
+    <tr><td>U</td><td>21</td></tr>
+    <tr><td>V</td><td>22</td></tr>
+    <tr><td>W</td><td>23</td></tr>
+    <tr><td>X</td><td>24</td></tr>
+    <tr><td>Y</td><td>25</td></tr>
+    <tr><td>Z</td><td>26</td></tr>
+</table>
+<hr>
+<h3>Cijferen</h3>
+<p>Dit precies het tegenovergestelde van sijferbrei.</p>
+<p>Z=1 en A=26.</p>
+<table><tr> <th>letter</th> <th>cijfer</th> </tr>
+    <tr><td>A</td><td>26</td></tr>
+    <tr><td>B</td><td>25</td></tr>
+    <tr><td>C</td><td>24</td></tr>
+    <tr><td>C</td><td>23</td></tr>
+    <tr><td>E</td><td>22</td></tr>
+    <tr><td>F</td><td>21</td></tr>
+    <tr><td>G</td><td>20</td></tr>
+    <tr><td>H</td><td>19</td></tr>
+    <tr><td>I</td><td>18</td></tr>
+    <tr><td>J</td><td>17</td></tr>
+    <tr><td>K</td><td>16</td></tr>
+    <tr><td>L</td><td>15</td></tr>
+    <tr><td>M</td><td>14</td></tr>
+    <tr><td>N</td><td>13</td></tr>
+    <tr><td>O</td><td>12</td></tr>
+    <tr><td>P</td><td>11</td></tr>
+    <tr><td>Q</td><td>10</td></tr>
+    <tr><td>R</td><td>9</td></tr>
+    <tr><td>S</td><td>8</td></tr>
+    <tr><td>T</td><td>7</td></tr>
+    <tr><td>U</td><td>6</td></tr>
+    <tr><td>V</td><td>5</td></tr>
+    <tr><td>W</td><td>4</td></tr>
+    <tr><td>X</td><td>3</td></tr>
+    <tr><td>Y</td><td>2</td></tr>
+    <tr><td>Z</td><td>1</td></tr>
+</table>
+<hr>
+<h3>Onkraakbaar</h3>
+<p>Knip uit een A4 velletje een cirkel.<br>
+Leg deze cirkel op een ander velletje.<br>
+Hierna teken je op gelijke afstand 26 geheime tekentjes op de cirkel.<br>
+Teken nu buiten de cirkel naast de tekentjes de letters A tot Z.<br>
+Zet de cirkel precies in het midden vast met een punaise.<br>
+Maak dezelfde cirkel nu nog een keer.<br>
+Geef die aan je vriend/vriendin.<br>
+Nu zet je aan de bovenkant van je geheime brief een tekentje en een letter.<br>Dan weet je vriend/vriendin hoe ze de schijf moet neerleggen en kan de brief ontcijferen!<br></p>
+<hr>
+</div>
+
+<div class="main">
+<nav>
+<ul>
+<details>
+<summary>Menu</summary>
+<li><a href="#news">News</a></li>
+<li><a href="#geheim_agent_worden">Geheim agent worden</a></li>
+<li><a href="#over">Over ons</a></li>
+<li><a href="#down">Downloads</a></li>
+<li><a href="#abt">About</a></li>
+<li><a href="#geheim_taal">Geheime codes</a></li>
+<li><a href="#informatie">Meer informatie</a></li>
+</details>
+</ul>
+</nav>
+</div>
+
+<footer id="informatie">
+<adderess>
+<p style="font-size: 10px;">Gemaakt door:</p>
+<h1>Robin Boers</h1>
+<p>Webbouwer<br></p>
+<p style="font-size: 10px;">&copy;2o17</p>
+</adderess>
+<section class="meer_websites">
+<p>Ook door mij gemaakt:</p>
+<ul>
+<li>Sterrenkruid:  Word februari 2018 gelanceerd!</li>
+</ul>
+<p>Zie ook:</p>
+<ul>
+<li><a href="https://jokessterrenkruid.blogspot.nl/">Sterrenkruid blog</a></li>
+<li><a href="https://roodoranjegeel.blogspot.com">Rood-Oranje-Geel</a></li>
+</ul>
+<p>Vertalen<br></p>
+<div id="google_translate_element"></div>
+</section>
+</footer>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+</script>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<script>
+// When the user clicks on <div>, open the popup
+function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+}
+</script>
+</body>
+</html>

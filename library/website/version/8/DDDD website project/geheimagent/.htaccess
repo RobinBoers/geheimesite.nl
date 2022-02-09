@@ -1,0 +1,7 @@
+AuthUserFile /home/robinb/domains/dddd.geheimesite.nl/public_html/geheimagent/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Inloggen DDDD"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ERROR! 404</title>
+        <link rel="stylesheet" href="http://www.geheimesite.nl/css/main1.css" type="text/css">
+        <meta charset="utf-8"/>
+        <style>
+            body {
+                width: 30%;
+                margin: auto;
+                padding: 10px;
+                color: deepskyblue;
+                border: 3px solid darkblue;
+                font-family: sans-serif;
+            }
+            .aanhaling p {
+                margin-bottom: 0;
+            }
+            .aanhaling p::before {
+                content: "\201C";
+                font-size: 2em;
+                vertical-align: middle;
+                padding-right: .3em;
+                color: rgb(150,150,150);
+            }
+            .aanhaling p::after {
+                content: "\201D";
+                font-size: 2em;
+                vertical-align: middle;
+                padding-left: .3em;
+                color: rgb(150,150,150);
+            }
+            nav {
+        font-style: normal;
+    }
+    nav ul li {
+        list-style-type: none;
+        display: inline;
+        padding: 10px;
+    }
+    nav ul li a {
+        color: black !important;
+        text-decoration: none;
+    }
+    nav ul li a:hover {
+        border-bottom: 3px solid deepskyblue;
+    }
+        </style>
+    </head>
+    <body>
+        <div class="background">
+            <main class="aanhaling">
+                <h1>Help! Er is helemaal geen pagina die zo heet!</h1>
+                <p class="aanhaling">
+                    Sorry, we kunnen geen pagina vinden die zo het: <!--#echo var="REQUEST_URI" --><br>
+                </p>
+                <nav>
+                    <ul>
+                        <li><a href="http://www.geheimesite.nl/">Start!</a></li>
+                        <li><a href="http://www.geheimesite.nl/over-mij.html">Over mij!</a></li>
+                    </ul>
+                </nav>
+                <hr>
+                <i><!--#echo var="HTTP_HOST" --></i>
+            </main>
+        </div>
+    </body>
+</html>

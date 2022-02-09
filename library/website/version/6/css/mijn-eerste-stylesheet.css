@@ -1,0 +1,328 @@
+.main {
+margin-top: 30px;
+margin-left: auto; 
+margin-right: auto;
+max-width: 1024px; 
+min-width: 256px; 
+min-height: 900px;
+padding-top: 7px;  
+padding-left: 23px; 
+padding-right: 23px;
+}
+
+body {
+font-family: monospace;
+}
+html {
+background-color: #F8F8FF;
+}
+footer p {
+font-size: 20px;    
+}
+
+/* NAVIGATIE */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+border-bottom: 5px solid #4CAF50;
+}
+.main {
+padding-top: 50px;
+}
+.topnav a.a {
+border-bottom: 5px solid #4CAF50;
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden; 
+    width: 100%; /* Full width */
+}
+
+/* LINKS */
+a:link{
+color: skyblue;
+list-style-type: none;
+}
+a:visited{
+color:skyblue;
+}
+a:active{
+text-decoration: underline;
+background-color: deepskyblue;
+color: white;
+}
+
+/* VAKKEN */
+p.top-tip { 
+border: 4px solid red; 
+border-radius: 10px; 
+padding: 1em;
+}
+p.top-tip::before { 
+color: red; 
+content:"LET OP: "; 
+font-weight: bold;
+}
+p.weetje { 
+border: 1px solid darkgreen;  
+background-color: #4CAF50;
+padding: 1em;
+color: white;
+}
+p.weetje::before { 
+color: #333; 
+content:"WEETJE: "; 
+font-weight: bold;
+}
+
+/* MODUS TABLET */
+@media all and (min-width: 1020px) {
+article {
+float: left;
+width: 62%;
+}
+aside {
+float: right;
+width: 35%;
+margin-left: 10px;
+}
+footer {
+clear: both;
+}
+}
+
+
+footer {
+padding-left: 24px;
+}
+img.l {float: left;
+margin-bottom: 24px;
+margin-right: 24px;}
+img.r {float: right;
+margin-bottom: 24px;
+margin-right: 24px;}
+img.small {
+float: left;
+margin-bottom: 24px;
+margin-right: 24px;
+border: 2px solid gray;
+border-radius: 10px;
+}
+img {}
+article {
+margin-bottom: 24px;
+}
+section {
+margin-bottom:24px;
+min-height: 200px;
+padding-left: 24px;
+padding-right: 24px;
+}
+
+/* TABELLEN */
+table {font-size:70%; 
+border-collapse: collapse; 
+width: 100%;
+}
+th,td {
+border:1px solid #000000;
+padding:8px;
+text-align: left;}
+th { 
+background-color: #FCAB68;
+} 
+td { 
+background-color: #BA99C0;
+}
+
+/* ZOEKVAK */
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+@media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
+
+/* ZIJBALKNAVIGATIE */
+#mySidenav{
+object-position: left;
+}
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -80px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+#mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+}
+#about {
+    top: 220px;
+    background-color: #4CAF50;
+}
+#blog {
+    top: 280px;
+    background-color: #2196F3; /* Blue */
+}
+#over-mij {
+    top: 340px;
+    background-color: #f44336; /* Red */
+}
+#tekenen {
+    top: 400px;
+    background-color: #555 /* Light Black */
+}
+
+/*DROPDOWNMENU*/
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+}
+/* Add a red background color to navbar links on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+border-bottom: 5px solid #4CAF50;
+}
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+} 
+* {box-sizing:border-box}
+
+/*AFBEELDINGEN*/
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  margin: auto;
+  position: relative;
+}
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  background-color: rgba(0,0,0,0.8);
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #4CAF50;
+}
+/* Caption text */
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+} 

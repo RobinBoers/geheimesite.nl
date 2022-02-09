@@ -1,0 +1,179 @@
+﻿/* TEXT */
+    p.top-tip { 
+    border: 4px solid #0000FF; 
+    border-radius: 10px; 
+    padding: 1em;} 
+    p.top-tip::before { 
+    color: #111111; 
+    content:"TOPTIP: "; 
+    font-weight: bold; 
+    }
+    footer p.copyright {
+    float: left;
+    margin-top: 0px;
+    }
+    footer p.contact {
+    text-align: right;
+    }
+    header h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 0px;
+    color: white;
+    }
+    header p {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    }
+    a {
+    text-decoration: none;
+    }
+/* HOVERS */
+    a img:hover {
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    }
+/* MEDIA */
+    @media all and (min-width: 1020px) {
+        article {
+            float: left;
+            width: 66%;
+        }
+        aside {
+            padding-right: 24px;
+            float: right;
+            width: 34%;
+        }
+        footer {
+            clear: both;
+        }
+    }
+    @media all and (max-width: 1020px) {}
+/* MENU */
+    nav {}
+    nav ul {
+    list-style-type: none;
+    background-color: white;
+    border: 2px solid skyblue; 
+    border-radius: 10px; 
+    font-family: sans-serif; 
+    font-weight: bold; 
+    padding: 16px;
+    }
+    nav ul li {
+    display: inline;
+    border-right: 2px solid black; 
+    padding-right: 8px; 
+    padding-left: 8px;
+    }
+    nav ul li:last-child { 
+    border-right: none;
+    }
+    nav ul li a { 
+    text-decoration: none; 
+    color: 	skyblue;
+    }
+    nav ul li a:hover { 
+    text-decoration: underline; 
+    }
+    nav li.selected { 
+    color: 	white;
+    background-color: skyblue;
+    }
+/* ELEMENTEN */
+    section.onzichtbaar {
+    border: 0px solid white;
+    padding-left: 24px; 
+    padding-right: 24px;
+    margin-bottom: 24px;
+    margin-right: 24px;
+    min-height: 35px;
+    }
+    section {
+    background-color: white;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    padding-left: 24px; 
+    padding-right: 24px;
+    min-height: 350px;
+    margin-bottom: 24px;
+    margin-right: 24px;
+    }
+    aside {}
+    header {
+    background-color: skyblue;
+    border: 2px solid white;
+    border-radius: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    max-width: 1000px;
+    }
+    footer {
+    font-family: monospace;
+    }
+    body {
+    background-color: white;
+    font-family: sans serif;
+    margin-left: auto; 
+    margin-right: auto; 
+    max-width: 1024px; 
+    min-width: 256px; 
+    padding-top: 8px; 
+    padding-bottom: 24px; 
+    padding-left: 24px; 
+    padding-right: 24px;
+    }
+/* CLASSEN */
+/* TABELLEN */
+    table {font-size:70%; 
+    border-collapse: collapse; 
+    width: 100%;
+    }
+    th,td {
+    border:1px solid #000000;
+    padding:8px;
+    text-align: left;}
+    th { 
+    background-color: #FCAB68;
+    } 
+    td { 
+    background-color: #BA99C0;
+    }
+/* PLAATJES */
+    img {
+    border: 2px solid #B1B1B1;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    margin-right: 24px;
+    }
+    img.small {
+    float: left;
+    margin-bottom: 24px;
+    margin-right: 24px;
+    }
+/* HACKS */
+    .fixed {position: fixed;}
+    html {box-sizing: border-box;}
+    html body .region-inner {
+    min-width: 0;
+    max-width: 100%;
+    width: auto;
+    }
+    *, *:before, *:after {box-sizing: inherit; }
+    section.landen {
+    border: none;
+    }
+    .nieuw {
+    float: left;
+    border: 0px !important;
+    background-color: skyblue;
+    border-radius: 10px;
+    padding-left: 24px; 
+    padding-right: 24px;
+    min-height: 350px;
+    margin-bottom: 24px;
+    margin-right: 24px;
+    }
+    ::selection {}

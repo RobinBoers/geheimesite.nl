@@ -1,0 +1,173 @@
+/* Used in SecretSiteCode Playground */
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+}
+body {
+    padding-top: 20px;
+}
+h1, h2 {
+    color: gray;
+    font-style:italic;
+    font-weight: 200;
+    font-family: serif;
+}
+.onderkop {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: serif;
+}
+header {
+/*    position: fixed;*/
+    background-color: deepskyblue;
+    padding: 10px;
+    width: 60%;
+    text-align: center;
+    top:0;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 3px solid gray;
+}
+header h1 {
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bolder;
+} 
+main {
+/*    margin-top: 105px;*/
+    padding: 10px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 3px solid gray;
+}
+.code-input {
+    width: 50%;
+    min-height: 400px;
+    float: left;
+}
+#output {
+    float: right;
+    width: 48%;
+    padding-left: 2%;
+    max-height: 90% !important;
+}
+.edit-content, #edit-content {
+    overflow: auto;
+}
+nav ul li {
+    display: inline;
+    list-style: none;
+    padding-right: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 2px;
+}
+nav ul li a:hover {
+    border-bottom: 2px solid white;
+    transition-duration: 0.2s;
+}
+.selected, .selected a {
+    font-weight:border;
+    color: black !important;
+    background-color: white;
+    padding: 5px;
+    border-color: black !important;
+}
+.playgroundheader {
+    width: 100%;
+    background-color: gold;
+    border-radius: 0px;
+    border-left: 0px solid gray;
+    border-right: 0px solid gray;
+    text-align: right;
+}
+.main {
+    padding-left: 30px;
+    overflow: hidden !important;
+}
+.playgroundjrtext h2 {color: white !important;font-weight: bolder;}
+.playgroundjrtext {
+    position: fixed;
+    top: 33px;
+    left: 120px;
+    color: white !important;
+    font-weight: bolder;
+    background-color: gold;
+    padding: 10px;
+}.back {
+    position: fixed;
+    color: royalblue;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-top-width: 0px;
+    border-left: 0px;
+    border-color: gray;
+    border-style: solid;
+} #htmltext{
+    min-width: 40%;
+    min-height: 500px;
+    resize: none;
+    float: right;
+    border: 3px solid gray;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+/*    font-family: 'Amatic SC', cursive;*/
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 30px;
+    position: fixed;
+    right: 0;
+    top: 180px;
+    outline: none;
+    padding: 5px;
+} #outputjr {
+    float: left;
+    padding-left: 20px;
+}
+.welcometext {
+    padding-left: 20px;
+}
+.app {
+    position: fixed;
+    border: 30px solid black;
+    background-color: gray;
+    text-align: center;
+    width: 25%;
+    padding: 20px;
+    border-radius: 20px;
+    height: 85%;
+    overflow: auto;
+    resize: horizontal;
+}
+    
+.app h1, .app h2, .app h3, .app h4, .app h5, .app h6 {
+    color: black;
+    font-style: normal;
+} .savejr {
+    position: fixed;
+    right: 10px;
+    bottom: 0px;
+}
+.jr .app {
+    left: 20px;
+}
+.editor .app {
+    right: 20px !important;
+} .website {
+    padding-left: 20px;
+}

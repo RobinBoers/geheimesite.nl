@@ -1,0 +1,296 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>404 Not Found</TITLE>
+<link type="text/css" rel="stylesheet" href="http://www.geheimesite.nl/css/mijn-eerste-stylesheet.css"/>
+<meta charset="utf-8"/>
+<script language="JavaScript"><!--
+
+// Dropdownmenu gemaakt met de
+// generator op Anouksweb
+// URL: http://www.anouksweb.nl
+
+function goThere(form){
+	var linkList=form.selectThis.selectedIndex
+	if(!linkList==""){window.location.href=form.selectThis.options[linkList].value;}
+}
+//--></script>
+</HEAD>
+<body>
+<h1>
+<sup>De</sup>geheim agenten</h1>
+<p style="color: skyblue;">www.geheimesite.nl</p>
+<article>
+<p><b>404</b> Thats an error.</p>
+<p>het spijt ons</p>
+<p>De URL <!--#echo var="REQUEST_URI" --> is helaas niet vindbaar op deze server.</p>
+<p>controleer het webadres nog eens</p>
+<p>of ga naar de Home-pagina klik daarvoor op deze link:</p>
+<p><a href="http://www.geheimesite.nl/index.html">WWW.GEHEIMESITE.NL</a></p>
+</article>
+<aside>
+<form name="dropMenu">
+	<select name="selectThis" size="1" onChange="goThere(this.form);">
+	<option selected value="">selecteer pagina
+	<option value="index.html">Home
+	<option value="over-ons.html">Over ons
+	<option value="geheimtaal.html">Geheime code's
+	<option value="zo word je geheim agent.html">Geheim agent worden
+	</select>
+</form>
+</aside>
+<footer>
+<I><!--#echo var="HTTP_HOST" --></I>
+</footer>
+</body></HTML>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

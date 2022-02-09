@@ -1,0 +1,390 @@
+/*******************************************\
+This is a part of the website of Robin Boers
+Made by Robin Boers
+\*******************************************/
+
+/** Algemeen **/
+
+@import url('https://fonts.googleapis.com/css?family=Crete+Round|Playfair+Display&display=swap');
+
+html, body, :root {
+	font-family: sans-serif;
+    margin:0;
+}
+section, .section footer {
+/*    width: 100%;*/
+/*    padding-left: 10%;*/
+/*    overflow: auto;*/
+}
+footer.pagefooter {
+/*    padding: 10px;*/
+/*    text-align: center;*/
+}
+header {
+   /* background-color: lightblue; */
+}
+.cover {
+/*    width: 60%;*/
+}
+.welcometext, .sectiontext {
+/*    font-size: 25px;*/
+}
+.nav {
+/*    width: 100%;*/
+/*    background: #fafafa;*/
+/*    overflow: auto;*/
+}
+nav {
+/*    display: block;*/
+/*    padding-top: 20px;*/
+}
+.logo {
+/*    display: inline;*/
+/*    width: 300px;*/
+}
+nav ul li {
+/*    list-style: none;*/
+/*    display: inline;*/
+/*    padding-right: 20px;*/
+/*    font-size: 20px;*/
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+/** Tekst & Lettertype **/
+
+h1,h2,h3,h4,h5,h6,.kop {
+	/* font-family: 'Playfair Display', serif !important; */
+    font-weight: bold;
+}
+header h1 {
+/*    font-weight:lighter;*/
+}
+.beschrijving {
+/*    font-family: 'Crete Round', serif !important;*/
+}
+
+/** Positionering **/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+.two {
+    width: 50%;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+@media all and (min-width: 993px) {
+    .uitgelicht {
+        position: absolute;
+        bottom: 10px;
+        width: 60%;
+        left:18%;
+    }
+}
+
+@media all and (min-width: 600px) {
+    .smallNavButton {
+        display: none !important;
+    }
+}
+
+@media all and (min-width: 555px) {
+    .hp-menu .w3-button {
+        display:inline;
+    }
+    .hp-small {
+        display:none;
+    }
+    .hp-about-inner {
+        display: flex; /* Makes Image float */
+    }
+} 
+@media all and (max-width: 555px) {
+    .hp-menu .w3-button {
+        /* display: block; */
+        display:none;
+    }
+    .hp-about-inner .about-text {
+        margin-left: 20px;
+    }
+}
+
+@media all and (min-width: 1120px) {
+    .homepagetitle {
+        position: absolute;
+        top: 30%;
+        left:25%;
+        width:50%;
+        right:25%;
+    }
+}
+
+@media all and (min-width: 1250px) {
+    .frame, .hp-about-inner {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+/** Images **/
+
+.codep {
+    background-image: url("../images/code-blur.png");
+}
+
+.parralax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.profilePhoto {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid royalblue;
+}
+
+html {
+    background-image: url(../images/code-blur.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.coverimage {
+    margin-right: 20px;
+    margin-top:10px;
+    max-width:30%;
+    float:left;
+    border-radius:5px;
+}
+
+/** Forms **/
+
+input, button, textarea {
+    border-radius: 4px;
+    border-style: solid;
+    border-color: dimgray;
+    border-width: 1px;
+    height: 30px;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 0;
+    outline: none;
+    background-color: white;
+    -webkit-box-shadow: inset 6px 5px 11px -8px rgba(0,0,0,0.31);
+    -moz-box-shadow: inset 6px 5px 11px -8px rgba(0,0,0,0.31);
+    box-shadow: inset 6px 5px 11px -8px rgba(0,0,0,0.31);
+}
+input[type="submit"], input[type="button"], button {
+    background-color: royalblue;
+    border-color: darkslateblue;
+    color: white;
+    /* display: block; */
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+textarea {
+    min-height: 100px;
+    min-width: 50%;
+    resize: none;
+}
+
+/* Alertbox, thanks to w3schools.com */
+.alert {
+    padding: 5px;
+    padding-right:20px;
+    padding-left:20px;
+    width:100%;
+    background-color: #f44336;
+    color: white;
+}
+
+.alert a {
+    text-decoration: none !important;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+/** Other stuff **/
+
+nav a {
+    text-decoration: none;
+}
+.sector1 .work-vak {
+    min-height: 135px;
+    background-color:#f1f1f1;
+}
+.sector2 .work-vak {
+    min-height: 194px;
+    background-color:#f1f1f1;
+}
+.sector3 .work-vak {
+    min-height: 160px;
+    background-color:#f1f1f1;
+}
+.work-vak {
+    font-weight:bolder;
+    border:2px solid lightgrey;
+}
+.work-vak a {
+    text-decoration:none !important;
+}
+
+/* Zoom effect on hover */
+.work-vak {
+    transition: transform .2s; 
+}
+
+.work-vak:hover {
+    transform: scale(1.1); 
+    z-index:2;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex_i {
+    margin-top: 5px;
+}
+
+@media all and (min-width: 900px) {
+    .flex_i {
+        width:24%;
+    }
+}
+@media all and (max-width: 900px) {
+    .flex_i {
+        width:49%;
+    }
+}
+@media all and (max-width: 500px) {
+    .flex_i {
+        width:100%;
+    }
+}
+
+
+.formlink a {
+    color: royalblue;
+    text-decoration: none;
+}
+.account a {
+    color: royalblue;
+    text-decoration: none;
+    padding: 10px;
+}
+.accout li {
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+/* Nodec class for no decoration on specific hyperlinks */
+
+.nodec, .nodec * {
+    text-decoration: none !important;
+}
+
+/* Side nav for small screens, thanks to w3schools.com */
+
+.small-nav {
+    height: 100%;
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: white; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.25s;
+}
+
+.small-nav a {
+    transition: 0.3s;
+}
+
+.small-nav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.frame {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+    .small-nav {padding-top: 15px;}
+    .small-nav a {font-size: 18px;}
+}
+
+.hp-small, .smallNavButton {
+    cursor: pointer;
+}
+
+.small-nav .w3-button {
+    display:block;
+}
+.hp-about {
+    background-color: #f6d097;
+    padding-top: 30px;
+    padding-bottom:30px;
+}
+
+.me-profile {
+    max-height: 200px;
+    border-radius: 50%;
+    /* float:left; */
+    border: 2px solid royalblue;
+    margin-right: 30px;
+    margin-left:10px;
+}
+.crop {
+    height: 96px;
+    overflow: hidden;
+}
+
+.crop img {
+    margin: -30px 0 0 0px;
+}

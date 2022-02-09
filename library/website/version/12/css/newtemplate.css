@@ -1,0 +1,223 @@
+/* deze code stelt de grootte van de kaders in */ 
+
+html {box-sizing: border-box;}
+
+*, *:before, *:after {box-sizing: inherit; 
+}/* deze code stelt de maximale en minimale breedte van de body in */ 
+
+    nav.small {
+        display: none;
+    }
+/*
+    nav.large {
+        display: none;
+    }
+*/
+
+body {
+background-color: #c2caef;
+/*background-color: thistle;*/
+font-family: sans-serif;
+/*font-family: 'PT Sans Narrow', sans-serif;*/
+margin-left: auto; 
+margin-right: auto; 
+max-width: 1024px; 
+min-width: 256px; 
+padding-top: 8px; 
+padding-bottom: 24px; 
+padding-left: 24px; 
+padding-right: 24px; 
+}
+
+a {
+    color: royalblue;
+    text-decoration: none;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.oldtheme {
+    display: none;
+}
+
+.appsnav {
+    display: none;
+}
+
+/* deze code voegt een mooie achtergrond toe */
+html {
+/*        background-image: radial-gradient(circle, white, deepskyblue);*/
+    background-color: royalblue;
+}/* de header */ 
+
+header { 
+}
+header p {float: left;font-size: 16px;font-weight: bold;margin-top: 0px;}
+
+header .logo {font-size: 16px;text-align: right;}
+header .title {font-size: 16px;text-align: left;}
+header .pagetitle {font-size: 16px;text-align: right;}
+
+/* het menu */nav ul {list-style-type: none;background-color: #FFA07A;
+border: 2px solid black; 
+border-radius: 10px; 
+font-family: sans-serif; 
+font-weight: bold; 
+padding: 16px;}nav ul li {display: inline;border-right: 2px solid #111111; 
+padding-right: 8px; 
+padding-left: 8px;}
+
+nav ul li:last-child { 
+border-right: none;
+}
+nav ul li a { 
+text-decoration: none; 
+color: #111111;}
+
+nav ul li a:hover { 
+text-decoration: underline; 
+}
+
+nav li.selected { 
+color: #606060;}/* biografieeÌˆn */section {
+background-color: #FFFFFF;
+margin-bottom: 24px;
+/*min-height: 320px;*/
+padding-left: 24px;
+padding-right: 24px;
+}
+
+/* het aside-element */
+
+aside {
+}
+
+/* footer */
+
+footer {
+}
+
+footer p.copyright {
+float: left;
+margin-top: 0px;
+}
+
+footer p.contact {
+text-align: right;
+}
+
+img {
+    max-width: 100%;
+}
+
+aside img, .overzicht img {
+    border: none;
+}
+
+.overzicht img {
+    width: 70%;
+    overflow: auto;
+    clear: left;
+    border-radius: 0px;
+}
+
+section section {
+    border: none;
+}
+
+/* kleine plaatjes krijgen een maximale hoogte van 200px */ 
+
+img.small {float: left;height: 200px;margin-bottom: 24px;margin-right: 24px;}/* middelgrote plaatjes mogen de helft van het element waarin ze zich bevinden innemen, met een maximale breedte van 360px */img.medium { 
+max-width: 360px; 
+width: 50%;}/* grote afbeeldingen mogen de hele breedte van het element waarin ze zich bevinden innemen */ 
+
+img.large {width: 100%;}/* deze code voorziet ieder element dat geen kader heeft van een kader */ 
+
+body, section, img {border: 2px solid #B1B1B1;border-radius: 16px;}/* deze code zorgt ervoor dat je webpagina er op schermen van allerlei groottes goed uitziet */ 
+
+@media all and (min-width: 900px) {article {float: left;width: 66%;}aside {float: left;padding-left: 24px;width: 34%;}footer {clear: both;}}
+
+section.new h3::before,section.new h2::before,section.new h1::before {
+    content: "Nieuw:";
+    color: white;
+    font-weight: bold;
+    background-color: darkred;
+    padding: 7px;
+}
+
+.newtext {
+    color: white;
+    font-weight: bold;
+    background-color: darkred;
+    padding: 7px;
+}
+
+table {font-size:70%; 
+border-collapse: collapse; 
+width: 100%;
+}th,td {
+border:1px solid #000000;
+padding:8px;
+text-align: left;}th { 
+} 
+
+p.top-tip { 
+border: 4px solid #0000FF; 
+border-radius: 10px; 
+padding: 1em;} 
+
+p.top-tip::before { 
+color: #111111; 
+content:"TOPTIP: "; 
+font-weight: bold; 
+}
+
+
+/* Formulieren */
+label {
+    display: block;
+    font-weight: bold;
+    font-size: 19px;
+}
+input, button, textarea {
+    border-radius: 4px;
+    border-style: solid;
+    border-color: dimgray;
+    border-width: 1px;
+    height: 30px;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 0;
+    outline: none;
+    background-color: white;
+    -webkit-box-shadow: inset 6px 5px 11px -8px rgba(0,0,0,0.31);
+    -moz-box-shadow: inset 6px 5px 11px -8px rgba(0,0,0,0.31);
+    box-shadow: inset 6px 5px 11px -8px rgba(0,0,0,0.31);
+}
+input:focus, button:focus, textarea:focus {
+    border-width: 1px;
+    border-color: royalblue;
+}
+input[type="submit"], input[type="button"], button {
+    background-color: royalblue;
+    border-color: darkslateblue;
+    color: white;
+/*    display: block;*/
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+.formlink a {
+    text-decoration: none;
+    color: royalblue;
+}
+.formkop {
+    font-style: normal;
+    color: black;
+    font-weight: normal;
+}

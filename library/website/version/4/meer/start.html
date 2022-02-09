@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" href="animated_favicon.ico" type="image/ico" >
+<title>Start - geheimesite.nl</title>
+<link type="text/css" rel="stylesheet" href="../css/mijn-eerste-stylesheet.css"/>
+<meta charset="utf-8"/><style>
+.sidenavf.a {  
+}
+.sidenavf {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F8F8FF;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenavf a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenavf a:hover {
+}
+
+.sidenavf .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenavf {padding-top: 15px;}
+  .sidenavf a {font-size: 18px;}
+}
+</style></head>
+<body>
+<div id="mySidenavf" class="sidenavf">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><span style="color: black;">&times;X</span></a>
+<nav>
+<ul>
+<li class="selectedhome">home</li>
+<li><a class="overons" href="over-ons.html">over ons</a></li>
+<li><a class="agentworden" href="zo word je geheim agent.html">geheim agent worden</a></li>
+<li><a class="geheimtaal" href="geheimtaal.html">geheime codes</a></li>
+<li><a class="games" href="spelletjes.html">games</a></li>
+
+<li><a class="raadsels" href="OUD/ga-naar-geheimepagina.html">raadsels</a></li>
+<li><a class="blogger" href="http://roodoranjegeel.blogspot.nl/">blogger</a></li>
+</ul>
+</nav>
+</div>
+<footer style="background-color: black; padding: 10px;">
+<a style="border-right: 2px solid white; padding: 5px; color: white; text-decoration: none;" href="OUD/index.html">oude Website weergeven</a>
+<a style="border-right: 2px solid white; padding: 5px;color: white; text-decoration: none;" href="inlog.php">inloggen</a>
+<a style="color: white; text-decoration: none;" href="v-start.html">volledig scherm</a>
+</footer>
+<header>
+<h1><b><i><a class="green" href="index.html">www.geheimesite.nl</a></i></b></h1>
+<span style="font-size:30px; cursor:pointer" onclick="openNav()"><img SRC="afbeeldingen DDDD/start.PNG" WIDTH="120" HEIGHT="45" ALIGN="bottom"></span>
+</header>
+<article>
+<h1>welkom in het hoofdkwartier van de DDDD</h1>
+<p>hallo ik ben Robin</p>
+<p>ik heb deze site samen met mijn vrienden gemaakt</p>
+<p>wij noemen ons de geheim agenten van de DDDD</p>
+<p>dit is onze website! klik op een pagina om hem te bezoeken!</p>
+<p>je vind er tips, geheimtaal en meer!</p>
+<li><a href="spelletjes.html">Spelletjes en Games</a></li>
+<li><a href="hoe-is-dit-gemaakt.html">informatie over hoe deze site is gemaakt</a></li>
+<li><a href="http://roodoranjegeel.blogspot.nl/"> mijn blog: http://roodoranjegeel.blogspot.nl/ </a></li>
+<h2>nieuws</h2>
+<iframe style="width:525px; height:371px;" src="//e.issuu.com/embed.html#31034058/54511844" frameborder="0" allowfullscreen></iframe>
+<a href="nieuws-archief.html">meer weergeven...</a>
+</article>
+<header><hr>
+<h3>links naar gave sites</h3>
+<ul>
+<li><a href="http://www.meesrob.nl/">Meester Rob</a></li>
+<li><a href="http://roodoranjegeel.blogspot.nl/">Mijn blog (Rood-Oranje-Geel)</a></li>
+<li><a href="https://www.youtube.com/">YouTube</a></li>
+<li><a href="https://jeugdjournaal.nl/">jeugdjournaal</a></li>
+<li><a href="https://nos.nl/">NOS journaal</a></li>
+<li><a href="https://plus.google.com/102928207794527715881">Mijn Google+</a></li>
+<li><a href="http://www.handleidinghtml.nl/">handleidingen HTML</a></li>
+<li><a href="http://www.nano-tips.com/">CoderDojo Tips</a></li>
+<li><a href="https://www.spelling.bloon-methode.nl/R2index.php">bloon.nl</a></li>
+<li><a href="https://school.nieuwsbegrip.nl/">Nieuwsbegrip XL</a></li>
+<li><a href="http://ikcstartpunt.nl/">IKC startpunt</a></li>
+<li><a href="https://www.debibliotheekmm.nl/">De bibliotheek Maassluis</a></li>
+</ul>
+<hr></header>
+<script>
+function openNav() {
+    document.getElementById("mySidenavf").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenavf").style.width = "0";
+}
+</script>
+</body>
+</html>

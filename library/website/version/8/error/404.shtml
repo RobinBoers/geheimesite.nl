@@ -1,0 +1,296 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>404 Not Found</TITLE>
+<link type="text/css" rel="stylesheet" href="https://www.geheimesite.nl/css/main.css"/>
+<meta charset="utf-8"/>
+<script language="JavaScript"><!--
+
+// Dropdownmenu gemaakt met de
+// generator op Anouksweb
+// URL: http://www.anouksweb.nl
+
+function goThere(form){
+	var linkList=form.selectThis.selectedIndex
+	if(!linkList==""){window.location.href=form.selectThis.options[linkList].value;}
+}
+//--></script>
+</HEAD>
+<body>
+<h1>
+<sup>De</sup>geheim agenten</h1>
+<p style="color: skyblue;">www.geheimesite.nl</p>
+<article>
+<p><b>404</b> Thats an error.</p>
+<p>het spijt ons
+De URL <!--#echo var="REQUEST_URI" --> is helaas niet vindbaar op deze server.
+controleer het webadres nog eens
+of ga naar de Home-pagina klik daarvoor op deze link:</p>
+<p><a href="https://www.geheimesite.nl/index.html">WWW.GEHEIMESITE.NL</a></p>
+</article>
+<aside>
+<form name="dropMenu">
+	<select name="selectThis" size="1" onChange="goThere(this.form);">
+	<option selected value="">selecteer pagina
+	<option value="https://www.geheimesite.nl/index.html">Home
+	<option value="https://www.geheimesite.nl/over-ons_DDDD_NL.html">Over ons
+	<option value="https://www.geheimesite.nl/geheimtaal_DDDD_NL.html">Geheime code's
+	<option value="https://www.geheimesite.nl/zo_word_je_geheim_agent_DDDD_NL.html">Geheim agent worden
+	</select>
+</form>
+</aside>
+<footer>
+<I><!--#echo var="HTTP_HOST" --></I>
+</footer>
+</body></HTML>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

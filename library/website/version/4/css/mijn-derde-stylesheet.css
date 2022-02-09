@@ -1,0 +1,135 @@
+article {
+margin-left: auto; 
+margin-right: auto; 
+max-width: 1024px; 
+min-width: 256px; 
+padding-top: 8px; 
+padding-bottom: 24px; 
+padding-left: 24px; 
+padding-right: 24px; 
+}
+
+body {
+font-family: sans-serif;
+background-color: #F8F8FF;
+}
+a.green {
+color: lawngreen;
+text-decoration: none;
+}
+nav ul {
+background-color: #F8F8FF;
+font-family: Clarendon Blk BT;
+padding: 1em;
+font-weight: bold;
+text-align: center;
+}
+nav ul li {
+display: block;
+padding-left: 8px;
+font-size: 27px;
+}
+nav li a.home {
+color: red;
+text-decoration: none;
+}
+nav li a.overons {
+color: skyblue;
+text-decoration: none;
+}
+nav li a.agentworden {
+color: plum;
+text-decoration: none;
+}
+nav li a.geheimtaal {
+color: orange;
+text-decoration: none;
+}
+nav li a.games {
+color: greenyellow;
+text-decoration: none;
+}
+nav li a.posten {
+color: darkorchid;
+text-decoration: none;
+}
+nav li a.blogger {
+color: darkorange;
+text-decoration: none;
+}
+nav li a.raadsels {
+color: blue;
+text-decoration: none;
+}
+nav ul li a:hover {
+text-decoration: underline;
+}
+nav ul li:hover {
+background-color: lightgray;
+}
+a:hover{
+text-decoration: underline;
+}
+a:active{
+text-decoration: underline;
+background-color: black;
+color: white;
+}
+a:visited{
+color: blue;
+text-decoration: none;
+}
+a:link{
+color: blue;
+text-decoration: none;
+}
+p.LET-OP { 
+border: 4px solid #0000FF; 
+border-radius: 10px; 
+padding: 1em;}
+p.LET-OP::before { 
+color: #111111; 
+content:"TOPTIP: "; 
+font-weight: bold; 
+}
+footer {
+padding-right: 20px;
+padding-top: 20px;
+}
+img.small {
+float: left;
+margin-bottom: 24px;
+margin-right: 24px;
+}
+img.profielfoto {
+height: 25px;
+width: 25px;
+border: 1px solid skyblue;
+border-radius: 50px;
+}
+footer a.uitloggen {
+float: left;
+}
+li.site {
+text-decoration: none;
+}
+section {
+background-color: white;
+margin-bottom:24px;
+min-height: 200px;
+padding-left: 24px;
+padding-right: 24px;
+border: 2px solid skyblue;
+margin-left: 300px;
+margin-right: 300px;
+text-align: left;
+}
+p.top-tip { 
+border: 4px solid #0000FF; 
+border-radius: 10px; 
+padding: 1em;}
+p.top-tip::before { 
+color: #111111; 
+content:"TOPTIP: "; 
+font-weight: bold; 
+}
