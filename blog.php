@@ -29,8 +29,8 @@
         <main id="content" class="page-content">
             <article>
                 
-            <script src="/js/blog.js"></script>
-            <script src="https://webdevelopment-en-meer.blogspot.com/feeds/posts/default?max-results=10&start-index=1&alt=json-in-script&callback=loadtoc"></script>
+                <script src="/js/blog.js"></script>
+                <script src="https://webdevelopment-en-meer.blogspot.com/feeds/posts/default?max-results=10&start-index=1&alt=json-in-script&callback=callback"></script>
                 
             </article>
         </main>
