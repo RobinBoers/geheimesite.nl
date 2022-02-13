@@ -19,6 +19,7 @@
                     <li class="selected">Home</li>
                     <li><a href="/over-mij.php">Over mij</a></li>
                     <li><a href="/projecten.php">Projecten</a></li>
+                    <li><a href="/blog.php">Blog</a></li>
                     <li><a href="https://github.com/RobinBoers">Github</a></li>
                 </ul>
             </nav>

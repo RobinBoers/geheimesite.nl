@@ -57,19 +57,21 @@ function displayToc2() {
     var b = 0;
     while (b < postTitle.length) {
         temp1 = postYearMonth[b];
-        document.write("<p/>");
-        document.write('<h4><b><a href="http://webdevelopment-en-meer.blogspot.com/' + postYearMonth2[b] + '">' + temp1.toUpperCase() + "</a></b></h4>");
         firsti = a;
         do {
             document.write(`
-                <article class="post">
+                <article class="post mt-10">
+                    <div class="text-center my-7 max-w-xl mx-auto">
+                        <h1 id="post-${a}" class="mb-0 text-4xl">${postTitle[a]}</h1>
+                        <p class="my-5 bold">${postTanggal[a]} ${postYearMonth[b]}</p>
+                    </div>
+
                     <section>
-                        ${postTanggal[a]} ${postYearMonth[b]}
-                        <h1><a href="${postUrl[a]}">${postTitle[a]}</a></h1>
                         ${postContent[a]}
                     </section>
                 </article>
-                <hr>
+
+                <hr class="my-7 border-none">
             `);
 
             a = a + 1
