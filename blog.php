@@ -21,7 +21,7 @@
                     <li><a href="/index.php">Home</a></li>
                     <li><a href="/over-mij.php">Over mij</a></li>
                     <li><a href="/projecten.php">Projecten</a></li>
-                    <li><a href="/blog.php">Blog</a></li>
+                    <li class="selected">Blog</li>
                 </ul>
             </nav>
         </header>
