@@ -26,16 +26,22 @@
         </header>
 
         <main id="content" class="page-content mt-0 md:mt-6">
-            <div class="hidden">
-              <a class="h-card" href="https://geheimesite.nl"><img src="/images/me.jpep" alt="Dit ben ik." /> Robin Boers </a>  
-            </div>
             <article class="xl:grid grid-cols-2 gap-10">
-                <section>
-                    <h1 class="text-4xl title font-normal">Robin Boers</h1>
+                <section class="h-card">
+                    <h1 class="p-name text-4xl title font-normal">Robin Boers</h1>
 
                     <p>Ik ben webdesigner, PHP programmeur en tiener. Ik ben 15 jaar oud en ik woon in Maassluis. Welkom op mijn website! Dit is zeg maar een soort van mijn persoonlijke speeltuin. Ik plaats hier mijn projecten zoals games, websites en apps. <!--Je vind sinds kort hier ook mijn blog, al kan je het ook nog steeds op Blogger vinden.--></p>
 
                     <p>Wil je meer over mij weten? Check dan de <a href="/over-mij.php">over mij</a> pagina. Als je mijn projecten wil zien kan je op de <a href="/projecten.php">projecten</a> page kijken. Als je vooral geinterreseerd in de code bent, check dan mijn <a href="https://github.com/RobinBoers">GitHub profiel</a>.</p>
+
+                    <!-- Hidden metadata for IndieWeb -->
+                    <p class="u-note hidden">
+                         I'm a webdesigner, programmer, and nerd living in the Netherlands. I'm 15 years old and I currently work at Qdentity.
+                    </p>
+                    <p class="hidden">
+                         More about me: people sometimes call me <span class="u-nickname">Robijntje</span> and I live in the <span class="p-region">Netherlands</span>. I currently work at <span class="">Qdentity</span> as <span class="p-job-title">Junior Developer</span>. You can find me and my projects at <a href="https://geheimesite.nl" rel="me" class="u-url">geheimesite.nl</a>. If you need to reach me you can contact me at <span class="u-email">robin@geheimesite.nl</span>. 
+                    </p>
+                    <img src="/images/me.jpep" alt="Robin Boers" class="u-photo hidden" />
                 </section>
                 <img class="hidden absolute top-[80px] right-[-350px] lg:block xl:static w-full pixelart max-w-sm" src="/images/robin_pixelart.png" />
             </article>
