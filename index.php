@@ -39,12 +39,12 @@
             <article>
                 <ul class="p-1 m-0 mx-auto max-w-md xl:max-w-none xl:p-0">
                     <li class="inline list-none">
-                        <a class="no-underline button" href="https://www.youtube.com/channel/UCx4li1iMygs5KtqgcU5KGRw">
+                        <a class="no-underline button" href="https://www.youtube.com/channel/UCx4li1iMygs5KtqgcU5KGRw" rel="me">
                             <img src="https://img.shields.io/badge/Robin%20Boers-red?style=for-the-badge&logo=youtube" />
                         </a>
                     </li>
                     <li class="inline list-none">
-                        <a class="no-underline button ml-1" href="https://github.com/RobinBoers">
+                        <a class="no-underline button ml-1" href="https://github.com/RobinBoers" rel="me">
                             <img src="https://img.shields.io/badge/GitHub-333333?style=for-the-badge&logo=github" />
                         </a>
                     </li>
@@ -54,27 +54,29 @@
                         </a>
                     </li> -->
                     <li class="inline list-none">
-                        <a class="no-underline button ml-1" href="https://www.linkedin.com/in/robin-boers-b18691229/">
+                        <a class="no-underline button ml-1" href="https://www.linkedin.com/in/robin-boers-b18691229/" rel="me">
                             <img src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin" />
                         </a>
                     </li>
                     <li class="inline list-none">
-                        <a class="no-underline button ml-1" href="https://nindo.geheimesite.nl/user/crzywebdev">
+                        <a class="no-underline button ml-1" href="https://nindo.geheimesite.nl/user/crzywebdev" rel="me">
                             <img src="https://img.shields.io/badge/crzywebdev-blueviolet?style=for-the-badge&logo=elixir" />
                         </a>
                     </li>
                     <li class="inline list-none">
-                        <a class="no-underline button ml-1" href="https://webdevelopment-en-meer.blogspot.com">
+                        <a class="no-underline button ml-1" href="https://webdevelopment-en-meer.blogspot.com" rel="me">
                             <img src="https://img.shields.io/badge/Webdevelopment--En--Meer-orange?style=for-the-badge&logo=blogger&logoColor=white" />
                         </a>
                     </li>
                     <li class="inline list-none">
-                        <a class="no-underline button ml-1" href="https://robijntje.itch.io">
+                        <a class="no-underline button ml-1" href="https://robijntje.itch.io" rel="me">
                             <img src="https://img.shields.io/badge/Rob1jntje-FA5C5C?style=for-the-badge&logoColor=white&logo=itch.io" />
                         </a>
                     </li>
                     <li class="inline list-none">
-                        <a class="no-underline button ml-1" href="https://reddit.com/u/Robijntje22"> <img src="https://img.shields.io/badge/-u%2FRobijntje22-%23FF4500?style=for-the-badge&logoColor=white&logo=reddit" />&nbsp; </a>
+                        <a class="no-underline button ml-1" href="https://reddit.com/u/Robijntje22" rel="me">
+                                <img src="https://img.shields.io/badge/-u%2FRobijntje22-%23FF4500?style=for-the-badge&logoColor=white&logo=reddit" />
+                        </a>
                     </li>
                 </ul>
             </article>
