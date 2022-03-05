@@ -26,6 +26,9 @@
         </header>
 
         <main id="content" class="page-content mt-0 md:mt-6">
+            <div class="hidden">
+              <a class="h-card" href="https://geheimesite.nl"><img src="/images/me.jpep" alt="Dit ben ik." /> Robin Boers </a>  
+            </div>
             <article class="xl:grid grid-cols-2 gap-10">
                 <section>
                     <h1 class="text-4xl title font-normal">Robin Boers</h1>
