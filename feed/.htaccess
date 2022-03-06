@@ -1,2 +1,2 @@
 RewriteEngine on
-RewriteRule ^(.*)$ http://webdevelopment-en-meer.blogspot.com/feeds/posts/default [P]
+RewriteRule ^(.*)$ https://blog.geheimesite.nl/nl/index.xml [P]

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://geheimesite.nl/en/</loc>
+    <lastmod>2022-03-06T15:26:44+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://geheimesite.nl/en/index.php</loc>
+    <lastmod>2022-03-06T15:26:44+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://geheimesite.nl/en/over-mij.php</loc>
+    <lastmod>2022-03-06T15:26:44+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://geheimesite.nl/en/projecten.php</loc>
+    <lastmod>2022-03-06T15:26:44+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://geheimesite.nl/en/blog.php</loc>
+    <lastmod>2022-03-06T15:26:44+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+</urlset>

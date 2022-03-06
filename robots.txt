@@ -1,2 +1,5 @@
 User-agent: *
 Disallow: /library/website/version/
+
+Sitemap: https://geheimesite.nl/sitemap-nl.xml
+Sitemap: https://geheimesite.nl/sitemap-en.xml

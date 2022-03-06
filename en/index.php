@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="/css/main.css" />
         <script defer src="/js/menu.js"></script>
 
-        <link rel="alternate" hreflang="en" href="https://geheimesite.nl/en/index.php" />
+        <link rel="alternate" hreflang="nl" href="https://geheimesite.nl/index.php" />
     </head>
     <body>
         <a class="skip-nav" href="#content">Skip navigation</a>
@@ -19,9 +19,9 @@
 
                 <ul class="menu">
                     <li class="selected">Home</li>
-                    <li><a href="/over-mij.php">Over mij</a></li>
-                    <li><a href="/projecten.php">Projecten</a></li>
-                    <li><a href="https://blog.geheimesite.nl">Blog</a></li>
+                    <li><a href="/en/about.php">About me</a></li>
+                    <li><a href="/en/projects.php">Projects</a></li>
+                    <li><a href="https://blog.geheimesite.nl/en">Blog</a></li>
                     <li><a href="https://github.com/RobinBoers">Github</a></li>
                 </ul>
             </nav>
@@ -32,11 +32,11 @@
                 <section class="h-card">
                     <h1 class="p-name text-4xl title font-normal">Robin Boers</h1>
 
-                    <p>Ik ben webdesigner, PHP programmeur en tiener. Ik ben 15 jaar oud en ik woon in Maassluis. Welkom op mijn website! Dit is zeg maar een soort van mijn persoonlijke speeltuin. Ik plaats hier mijn projecten zoals games, websites en apps. <!--Je vind sinds kort hier ook mijn blog, al kan je het ook nog steeds op Blogger vinden.--></p>
+                    <p>I'm webdesigner, PHP programmer and teenager. I'm 15 years old and live in the Netherlands. Welcome to my website! This is like my personal playground, my little corner of the web. I post my projects like games, websites and apps here and I also regularly post to <a href="https://blog.geheimesite.nl/en">my blog</a>. </p>
 
-                    <p>Wil je meer over mij weten? Check dan de <a href="/over-mij.php">over mij</a> pagina. Als je mijn projecten wil zien kan je op de <a href="/projecten.php">projecten</a> page kijken. Als je vooral geinterreseerd in de code bent, check dan mijn <a href="https://github.com/RobinBoers">GitHub profiel</a>.</p>
+                    <p>Wanna know more about me? Check the <a href="/over-mij.php">about me</a> page. If yoy want to see my work you can take a look at the <a href="/projecten.php">projects</a> page. If you're mostly interested in the code, check my <a href="https://github.com/RobinBoers">GitHub profile</a>.</p>
 
-                    <p><a href="en" hreflang="en">WTF, I only speak english</a></p>
+                    <p><a href="../" hreflang="nl">I wanna speak dutch again</a></p>
 
                     <!-- Hidden metadata for IndieWeb -->
                     <p class="u-note hidden">
@@ -103,7 +103,7 @@
         <footer class="page-footer">
             &copy;
             <?php echo date("Y"); ?>
-            Robin Boers. Webdesigner en PHP-developer sinds 2017.
+            Robin Boers. Webdesigner and PHP-developer since 2017.
         </footer>
     </body>
 </html>

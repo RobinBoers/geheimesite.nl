@@ -8,6 +8,8 @@
 
         <link rel="stylesheet" href="/css/main.css" />
         <script defer src="/js/menu.js"></script>
+
+        <link rel="alternate" hreflang="en" href="https://geheimesite.nl/en/about.php" />
     </head>
     <body>
         <a class="skip-nav" href="#content">Skip navigation</a>
@@ -21,7 +23,7 @@
                     <li><a href="/index.php">Home</a></li>
                     <li class="selected">Over mij</li>
                     <li><a href="/projecten.php">Projecten</a></li>
-                    <li><a href="/blog.php">Blog</a></li>
+                    <li><a href="https://blog.geheimesite.nl">Blog</a></li>
                 </ul>
             </nav>
         </header>
@@ -32,7 +34,7 @@
                     <section class="lg:mr-0">
                         <h1>Over mij</h1>
                         <p>
-                            Hoi, ik ben Robin. Ik ben 15 jaar oud, ik zit in de derde, en ik woon in Maassluis. Ik houd van programmeren en werk bij Qdentity in Maasland. Deze website is mijn plek om al mijn projecten te showcasen. Ik heb ook een <a href="https://webdevelopment-en-meer.blogspot.com">blog</a> over programmeren, webdevelopment en andere coole shit.
+                            Hoi, ik ben Robin. Ik ben 15 jaar oud, ik zit in de derde, en ik woon in Maassluis. Ik houd van programmeren en werk bij Qdentity in Maasland. Deze website is mijn plek om al mijn projecten te showcasen. Ik heb ook een <a href="https://blog.geheimesite.nl">blog</a> over programmeren, webdevelopment en andere coole shit.
                         </p>
                     </section>
                     <img class="w-full h-60 mb-5 lg:rotate-1 rounded-xl aspect-square object-cover object-right-top lg:mb-0 lg:h-fit lg:w-1/5" src="/images/me.jpeg" alt="Dit ben ik.">

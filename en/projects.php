@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Projecten — geheimesite.nl | Robin Boers</title>
+        <title>Projects — geheimesite.nl | Robin Boers</title>
 
         <link rel="stylesheet" href="/css/main.css" />
         <script defer src="/js/github.js"></script>
         <script defer src="/js/menu.js"></script>
 
-        <link rel="alternate" hreflang="en" href="https://geheimesite.nl/en/projects.php" />
+        <link rel="alternate" hreflang="nl" href="https://geheimesite.nl/projecten.php" />
     </head>
     <body>
         <a class="skip-nav" href="#content">Skip navigation</a>
@@ -21,10 +21,10 @@
             
             <nav>
                 <ul class="menu">
-                    <li><a href="/index.php">Home</a></li>
-                    <li><a href="/over-mij.php">Over mij</a></li>
-                    <li class="selected">Projecten</li>
-                    <li><a href="https://blog.geheimesite.nl">Blog</a></li>
+                    <li><a href="/en/index.php">Home</a></li>
+                    <li><a href="/en/about.php">About me</a></li>
+                    <li class="selected">Projects</li>
+                    <li><a href="https://blog.geheimesite.nl/en">Blog</a></li>
                 </ul>
             </nav>
         </header>
@@ -32,14 +32,14 @@
         <main id="content" class="page-content">
             <article>
                 <section>
-                    <h1>Projecten</h1>
+                    <h1>Projects</h1>
                 </section>  
 
                 <section>
                     <h2>Open-source</h2>
 
                     <p>
-                        Hieronder zie je een selectie van mijn projecten. Al mijn projecten zijn <span class="bold">open-source</span> en op mijn <a href="https://github.com/RobinBoers">GitHub profiel</a> te vinden. 
+                        Below you can see a selection of my projects. All of my projects are <span class="bold">open-source</span> and can be found on my <a href="https://github.com/RobinBoers">GitHub profile</a>. 
                     </p>
                 </section>
 
@@ -50,7 +50,7 @@
                 <section>
                     <h2>Websites</h2>
 
-                    <p>Ik heb een aantal websites ontworpen en gebouwd voor mensen in mijn netwerk. Hieronder een kort overzicht.</p>
+                    <p>I've built websites for many people in my network. Here's a quick summary:</p>
                 </section>
 
                 <ul class="project-grid">
@@ -107,7 +107,7 @@
         </main>
 
         <footer class="page-footer">
-            &copy; <?php echo date("Y"); ?> Robin Boers. Webdesigner en PHP-developer sinds 2017.
+            &copy; <?php echo date("Y"); ?> Robin Boers. Webdesigner and PHP-developer since 2017.
         </footer>
     </body>
 </html>
