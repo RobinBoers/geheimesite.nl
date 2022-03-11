@@ -52,47 +52,47 @@
             <article>
                 <ul class="p-1 m-0 mx-auto max-w-md xl:max-w-none xl:p-0">
                     <li class="inline list-none">
-                        <a class="no-underline button" href="https://www.youtube.com/channel/UCx4li1iMygs5KtqgcU5KGRw" rel="me">
+                        <a class="no-underline button" href="https://www.youtube.com/channel/UCx4li1iMygs5KtqgcU5KGRw" target="_blank" rel="me">
                             <img src="https://img.shields.io/badge/Robin%20Boers-red?style=for-the-badge&logo=youtube" />
                         </a>
                     </li>
                     <li class="inline list-none">
-                        <a class="no-underline button ml-1" href="https://github.com/RobinBoers" rel="me">
+                        <a class="no-underline button ml-1" href="https://github.com/RobinBoers" target="_blank" rel="me">
                             <img src="https://img.shields.io/badge/GitHub-333333?style=for-the-badge&logo=github" />
                         </a>
                     </li>
                     <li class="inline list-none">
-                        <a class="no-underline button ml-1" href="https://discord.gg/DPtKK3UREu">
+                        <a class="no-underline button ml-1" href="https://discord.gg/DPtKK3UREu" target="_blank" rel="me">
                             <img src="https://img.shields.io/discord/712265706132996210?color=7289DA&label=%20&logo=discord&logoColor=white&style=for-the-badge">
                         </a>
                     </li>
                     <li class="inline list-none">
-                        <a class="no-underline button ml-1" href="https://www.linkedin.com/in/robin-boers-b18691229/" rel="me">
+                        <a class="no-underline button ml-1" href="https://www.linkedin.com/in/robin-boers-b18691229/" target="_blank" rel="me">
                             <img src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin" />
                         </a>
                     </li>
                     <li class="inline list-none">
-                        <a class="no-underline button ml-1" href="https://micro.blog/Robijntje" rel="me">
+                        <a class="no-underline button ml-1" href="https://micro.blog/Robijntje" target="_blank" rel="me">
                             <img src="https://img.shields.io/badge/robijntje-ff8800?style=for-the-badge&logo=micro.blog&logoColor=white" />
                         </a>
                     </li>
                     <li class="inline list-none">
-                        <a class="no-underline button ml-1" href="https://www.twitch.tv/Rob1jntje" rel="me">
+                        <a class="no-underline button ml-1" href="https://www.twitch.tv/Rob1jntje" target="_blank" rel="me">
                             <img src="https://img.shields.io/badge/Rob1jntje-blueviolet?style=for-the-badge&logo=twitch&logoColor=white" />
                         </a>
                     </li>
                     <li class="inline list-none">
-                        <a class="no-underline button ml-1" href="https://robijntje.itch.io" rel="me">
+                        <a class="no-underline button ml-1" href="https://robijntje.itch.io" target="_blank" rel="me">
                             <img src="https://img.shields.io/badge/Rob1jntje-FA5C5C?style=for-the-badge&logoColor=white&logo=itch.io" />
                         </a>
                     </li>
                     <!-- <li class="inline list-none">
-                        <a class="no-underline button ml-1" href="https://stackoverflow.com/users/12782055/robinboers" rel="me">
+                        <a class="no-underline button ml-1" href="https://stackoverflow.com/users/12782055/robinboers" target="_blank" rel="me">
                             <img src="https://img.shields.io/badge/RobinBoers-f48225?style=for-the-badge&logo=stackoverflow&logoColor=white" />
                         </a>
                     </li> -->
                     <li class="inline list-none">
-                        <a class="no-underline button ml-1" href="https://reddit.com/u/Robijntje22" rel="me">
+                        <a class="no-underline button ml-1" href="https://reddit.com/u/Robijntje22" target="_blank" rel="me">
                                 <img src="https://img.shields.io/badge/-u%2FRobijntje22-%23FF4500?style=for-the-badge&logoColor=white&logo=reddit" />
                         </a>
                     </li>
