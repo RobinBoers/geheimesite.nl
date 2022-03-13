@@ -10,6 +10,7 @@
         <script defer src="/js/menu.js"></script>
 
         <link rel="alternate" hreflang="en" href="https://geheimesite.nl/en/index.php" />
+        <link rel="feed" href="https://blog.geheimesite.nl">
     </head>
     <body>
         <a class="skip-nav" href="#content">Skip navigation</a>
