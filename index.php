@@ -57,7 +57,7 @@
                     <p class="hidden">
                          More about me: people sometimes call me <span class="u-nickname">Robijntje</span> and I live in the <span class="p-region">Netherlands</span>. I currently work at <span class="">Qdentity</span> as <span class="p-job-title">Junior Developer</span>. You can find me and my projects at <a href="https://geheimesite.nl" rel="me" class="u-url">geheimesite.nl</a>. If you need to reach me you can contact me at <span class="u-email">robin@geheimesite.nl</span>. 
                     </p>
-                    <img src="/images/me.jpep" alt="Robin Boers" class="u-photo hidden" />
+                    <img src="https://geheimesite.nl/images/me.jpep" alt="Robin Boers" class="u-photo hidden" />
                 </section>
                 <img class="hidden absolute top-[80px] right-[-350px] lg:block xl:static w-full pixelart max-w-sm" src="/images/robin_pixelart.png" />
             </article>
