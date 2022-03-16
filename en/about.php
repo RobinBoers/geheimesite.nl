@@ -73,6 +73,11 @@
                         (now only my sister is left 🙈)
                     </p>
                 </section>
+                    <h2>About the site</h2>
+                    <p>My site is built using pure HTML and some PHP for extra magic. The projects page is dynamically filled using the GitHub API to show my recent GitHub projects. For the styling I'm using tailwindcss. The font used for the headings is called Poppins, and for the main content I'm using Merriweather. The display font is Bungee Shade. My blog is built using <a href="https://gohugo.io">Hugo</a> and can be found at <a href="https://github.com/RobinBoers/blog">RobinBoers/blog</a>. The source code for the main site can be found at <a href="https://github.com/RobinBoers/geheimesite.nl">RobinBoers/geheimesite.nl</a>.
+                <section>
+                        
+                </section>
 
                 <section>
                     <h2 id="contact">Contact</h2>

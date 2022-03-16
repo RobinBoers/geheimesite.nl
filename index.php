@@ -11,6 +11,17 @@
 
         <link rel="alternate" hreflang="en" href="https://geheimesite.nl/en/index.php" />
         <link rel="feed" href="https://blog.geheimesite.nl">
+
+        <link rel="microsub" href="https://aperture.p3k.io/microsub/733">
+
+        <!-- IndieAuth -->
+        <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+        <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+        <link rel="me" href="https://github.com/RobinBoers" />
+
+        <!-- Webmention -->
+        <link rel="webmention" href="https://webmention.io/geheimesite.nl/webmention" />
+        <link rel="pingback" href="https://webmention.io/geheimesite.nl/xmlrpc" />
     </head>
     <body>
         <a class="skip-nav" href="#content">Skip navigation</a>
