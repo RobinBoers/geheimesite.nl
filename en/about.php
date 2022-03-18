@@ -85,7 +85,7 @@
                         Wanna send me a message?<br />This is one of my six emailaddresses: <a href="mailto:robin@geheimesite.nl">robin@geheimesite.nl</a><br />
                         Or use the contact form:
                     </p>
-                    <form action="scripts/contact-form.php" method="post">
+                    <form action="../scripts/contact-form.php" method="post">
                         <input class="input" type="text" name="email" placeholder="Emailaddress..." />
                         <input class="input" type="text" name="subject" placeholder="Subject..." />
                         <textarea class="input md-mark resize-none max-h-90" name="message" placeholder="Message..."></textarea>
