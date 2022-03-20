@@ -24,6 +24,7 @@
                     <li><a href="/en/index.php">Home</a></li>
                     <li><a href="/en/about.php">About me</a></li>
                     <li class="selected">Projects</li>
+                    <li><a href="/en/books.php">Books</a></li>
                     <li><a href="https://blog.geheimesite.nl/en">Blog</a></li>
                 </ul>
             </nav>

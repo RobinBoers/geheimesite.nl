@@ -28,6 +28,7 @@ function generateBlacklist() {
         "atom2rss",
         "BetterPainting",
         "ex-german",
+        "blog",
         ""
     ];
 }
@@ -40,8 +41,7 @@ function init() {
 function loadRepositories(username, targetContainer) {
     targetContainer.innerHTML = `<p class="w-full supplement col-span-full ">Querying GitHub for my repositories...</p>`;
 
-    repoData(username, (repoData) => {
-        let repos = JSON.parse(repoData);
+    repoData(username, (repos) => {
         sortRepos(repos);
 
         let elements = [];
@@ -85,8 +85,9 @@ function makeRequest(url) {
 }
 
 function repoData(username, callback) {
-    repoData = makeRequest(`https://api.github.com/users/${username}/repos?per_page=100`);
-    callback(repoData);
+    fetch(`https://api.github.com/users/${username}/repos?per_page=100`)
+        .then(response => response.json())
+        .then(repoData => callback(repoData));
 }
 
 function sortRepos(repos) {

@@ -33,8 +33,9 @@
                     <li class="selected">Home</li>
                     <li><a href="/over-mij.php">Over mij</a></li>
                     <li><a href="/projecten.php">Projecten</a></li>
+                    <li><a href="/boeken.php">Boeken</a></li>
+                    <li><a href="https://blog.geheimesite.nl/notes">Notes</a></li>
                     <li><a href="https://blog.geheimesite.nl">Blog</a></li>
-                    <li><a href="https://github.com/RobinBoers">Github</a></li>
                 </ul>
             </nav>
         </header>

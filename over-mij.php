@@ -23,6 +23,7 @@
                     <li><a href="/index.php">Home</a></li>
                     <li class="selected">Over mij</li>
                     <li><a href="/projecten.php">Projecten</a></li>
+                    <li><a href="/boeken.php">Boeken</a></li>
                     <li><a href="https://blog.geheimesite.nl">Blog</a></li>
                 </ul>
             </nav>
@@ -81,6 +82,13 @@
                     <h2>Wil je ook leren programmeren?</h2>
                     <p>
                         Wil je ook graag een website ontwerpen en bouwen? Kijk dan eens naar het <a href="https://www.bol.com/nl/p/html5-en-css3/9200000096082897/?Referrer=ADVNLGOO002008N-G-81885102689-S-472964216282-9200000096082897&amp;gclid=Cj0KCQjw6KrtBRDLARIsAKzvQIFMPd1hacL4rTnYKdGQlMr0W4vroFFLsIE5e4zanmboMDqEx-B3rHIaAo2REALw_wcB">Handboek HTML5 en CSS3</a>, of het boek waarmee ik het geleerd heb: <a href="https://www.nano-tips.com/">Creeëren met code: Zo maak je een website</a>. Ook is <a href="https://grasshopper.app/">Grasshopper</a> van Code width Google een goed programma, maar ik zou je vooral <a href="https://exercism.org">Exercism</a> aanraden! Het beste advies dat ik je kan geven? Kies een project en ga het gewoon proberen te bouwen. In het ergste geval heb je hulp nodig, die je overigens overal kan krijgen. Je kan bijvoorbeeld altijd naar een CoderDojo gaan! Vind hier meer info over CoderDojo's: <a href="https://coderdojo.nl/">https://coderdojo.nl</a>.
+                    </p>
+                </section>
+
+                <section>
+                    <h2>Over de site</h2>
+                    <p>
+                        Mijn website is gebouwd in pure HTML met wat PHP voor wat extra magie en ik host hem bij <a href="https://www.bhosted.nl?ref=97f4c4a4b13e269e12cfd4f0352ba527">bHosted</a>. De projecten page is dynamisch opgebouwd door mijn projecten de fetchen met de GitHub API. De boeken page is gebouwd met <a href="https://micro.blog">Micro.blog</a> Bookshelves. Voor de styling gebruik ik tailwindcss. Het font voor de headings heet Poppins, en voor de main content gebruik ik Merriweather. Het display font is Bungee Shade. Mijn blog bestaat uit een paar static sites die gebouwd zijn met <a href="https://gohugo.io">Hugo</a> en de source code daarvoor kan gevonden worden in <a href="https://github.com/RobinBoers/blog">RobinBoers/blog</a>. De source code voor deze site kan in <a href="https://github.com/RobinBoers/geheimesite.nl">RobinBoers/geheimesite.nl</a> gevonden worden.
                     </p>
                 </section>
 
