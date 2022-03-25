@@ -1,8 +1,8 @@
 <?php
     include "../connection.php";
 
-    header('Access-Control-Allow-Origin: *');
-    header('Access-Control-Allow-Methods: GET, POST');
+    // header('Access-Control-Allow-Origin: *');
+    // header('Access-Control-Allow-Methods: GET, POST');
 
     if(isset($_POST['url'])){ 
         $requestUrl = $_POST['url'];
@@ -10,6 +10,8 @@
     }
 
     function addView($url) {
+        global $conn;
+        
         $url = $conn->real_escape_string($url);
 
         $select_query = "SELECT * FROM viewcount WHERE url = '$url'";
