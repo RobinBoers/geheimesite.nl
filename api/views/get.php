@@ -1,8 +1,9 @@
 <?php
     include "../connection.php";
 
-    // header('Access-Control-Allow-Origin: *');
-    // header('Access-Control-Allow-Methods: GET, POST');
+    header('Access-Control-Allow-Origin: https://blog.geheimesite.nl');
+    header('Access-Control-Allow-Methods: GET, POST');
+    header('Content-Type: application/json; charset=utf-8');
     
     if(isset($_GET['url'])){ 
         $requestUrl = $_GET['url'];
