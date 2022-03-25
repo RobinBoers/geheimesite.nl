@@ -1,6 +1,9 @@
 <?php
     include "../connection.php";
 
+    header('Access-Control-Allow-Origin: *');
+    header('Access-Control-Allow-Methods: GET, POST');
+
     if(isset($_POST['url'])){ 
         $requestUrl = $_POST['url'];
         addView($requestUrl);
