@@ -19,13 +19,15 @@
         $result = $conn->query($select_query);
 
         if($result->num_rows == 1) {
-            $views = $row->views + 1;
-            $update_query = "UPDATE userinfo SET views='$views' WHERE url='$url'";
-            $conn->query($update_query);
+            while($row = $result->fetch_object()) {
+                $views = $row->views + 1;
+                $update_query = "UPDATE viewcount SET views=$views WHERE url='$url'";
+                $conn->query($update_query);
 
-            echo json_encode("Succes.");
+                echo json_encode("Succes.");
+            }
         } else {
-            $insert_query = "INSERT INTO viewcount (url, views) VALUES ('$url', 0)";
+            $insert_query = "INSERT INTO viewcount (url, views) VALUES ('$url', 1)";
             $conn->query($insert_query);
 
             echo json_encode("Succes.");
