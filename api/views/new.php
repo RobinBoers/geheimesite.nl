@@ -14,20 +14,21 @@
         global $conn;
         
         $url = $conn->real_escape_string($url);
+        $current_month = date('Y-m-01');
 
-        $select_query = "SELECT * FROM viewcount WHERE url = '$url'";
+        $select_query = "SELECT * FROM viewcount WHERE url = '$url' and month='$current_month'";
         $result = $conn->query($select_query);
 
         if($result->num_rows == 1) {
             while($row = $result->fetch_object()) {
                 $views = $row->views + 1;
-                $update_query = "UPDATE viewcount SET views=$views WHERE url='$url'";
+                $update_query = "UPDATE viewcount SET views=$views WHERE url='$url' and month='$current_month'";
                 $conn->query($update_query);
 
                 echo json_encode("Succes.");
             }
         } else {
-            $insert_query = "INSERT INTO viewcount (url, views) VALUES ('$url', 1)";
+            $insert_query = "INSERT INTO viewcount (url, views, month) VALUES ('$url', 1, '$current_month')";
             $conn->query($insert_query);
 
             echo json_encode("Succes.");
