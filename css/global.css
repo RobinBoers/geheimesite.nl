@@ -369,4 +369,12 @@
     .title a {
         @apply no-underline bg-transparent hover:bg-transparent text-current hover:text-current hover:no-underline decoration-white dark:decoration-black;
     }
+
+    .badges {
+        @apply flex flex-wrap justify-center;
+    }
+
+    .badges img {
+        @apply max-h-[30px] w-auto;
+    }
 }

@@ -934,8 +934,23 @@ a:not(.button, .title a:hover):hover{
   }
 }
 
+.badges{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.badges img{
+  max-height: 30px;
+  width: auto;
+}
+
 .pointer-events-none{
   pointer-events: none;
+}
+
+.static{
+  position: static;
 }
 
 .absolute{
@@ -958,6 +973,11 @@ a:not(.button, .title a:hover):hover{
   margin: 0px;
 }
 
+.my-7{
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -966,11 +986,6 @@ a:not(.button, .title a:hover):hover{
 .my-10{
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
-}
-
-.my-7{
-  margin-top: 1.75rem;
-  margin-bottom: 1.75rem;
 }
 
 .my-5{

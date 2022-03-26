@@ -113,6 +113,21 @@
             </article>
         </main>
 
+        <article class="badges hidden">
+            <img src="https://thesiteofbadges.neocities.org/sucks2.gif"><img src="https://theoldnet.com/images/theoldnetanimblur2.gif"><img src="https://thesiteofbadges.neocities.org/neocitiesbutton.gif"><img src="https://anlucas.neocities.org/wwwbutton.gif"><img src="https://www.w3.org/2005/11/MWI-Icons/W3C-MWI.png"><img src="https://validator.w3.org/images/valid_icons/valid-html40"><img src="https://anlucas.neocities.org/best_viewed_with_eyes.gif"><img src="https://anlucas.neocities.org/neocities_button.gif"><img src="https://www.w3.org/html/logo/downloads/HTML5_sticker.svg"><img src="https://validator.w3.org/images/v15445"><img src="https://www.w3.org/Icons/valid-svg12"><img src="https://www.w3.org/Icons/valid-css2-blue"><img src="https://www.w3.org/Icons/SVG/Buttons/svg-w3c-orange.svg"><img src="https://dans-things.com/wp-content/uploads/2018/10/GeoCitiesBadge2.gif"><img src="https://www.w3.org/2005/11/MWI-Icons/mobileOK.png">
+        </article>
+
+        <script>
+            /* Only display wall of badges when it is april fools */
+            function isAprilFools() {
+                var now = new Date();
+                return (now.getMonth() == 3 && now.getDate() == 1);
+            }
+
+            let badgesWall = document.querySelector('.badges')
+            if(isAprilFools()) badgesWall.classList.toggle('hidden')
+        </script>
+
         <footer class="page-footer">
             &copy;
             <?php echo date("Y"); ?>
