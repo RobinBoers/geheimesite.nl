@@ -114,7 +114,27 @@
         </main>
 
         <article class="badges hidden">
-            <img src="https://thesiteofbadges.neocities.org/sucks2.gif"><img src="https://theoldnet.com/images/theoldnetanimblur2.gif"><img src="https://thesiteofbadges.neocities.org/neocitiesbutton.gif"><img src="https://anlucas.neocities.org/wwwbutton.gif"><img src="https://www.w3.org/2005/11/MWI-Icons/W3C-MWI.png"><img src="https://validator.w3.org/images/valid_icons/valid-html40"><img src="https://anlucas.neocities.org/best_viewed_with_eyes.gif"><img src="https://anlucas.neocities.org/neocities_button.gif"><img src="https://www.w3.org/html/logo/downloads/HTML5_sticker.svg"><img src="https://validator.w3.org/images/v15445"><img src="https://www.w3.org/Icons/valid-svg12"><img src="https://www.w3.org/Icons/valid-css2-blue"><img src="https://www.w3.org/Icons/SVG/Buttons/svg-w3c-orange.svg"><img src="https://dans-things.com/wp-content/uploads/2018/10/GeoCitiesBadge2.gif"><img src="https://www.w3.org/2005/11/MWI-Icons/mobileOK.png">
+            <img src="/images/badges/sucks2.gif">
+            <a href="http://www.theoldnet.com/#frombadge">
+                <img src="//theoldnet.com/images/theoldnetanimblur2.gif" title="Are you tired of this new Internet yet? Time to Get TheOldNet!">
+            </a>
+            <a href="https://neocities.com"><img src="/images/badges/neocitiesbutton.gif"></a>
+            <img src="/images/badges/wwwbutton.gif">
+            <!-- <img src="https://www.w3.org/2005/11/MWI-Icons/W3C-MWI.png"> -->
+            <img src="/images/badges/invalidator.png">
+            <!-- <img src="https://validator.w3.org/images/valid_icons/valid-html40"> -->
+            <img src="/images/badges/best_viewed_with_eyes.gif">
+            <a href="https://yesterweb.org/no-to-web3/"><img src="/images/badges/noweb32.gif"></a>
+            <a href="https://neocities.com"><img src="/images/badges/neocities_button.gif"></a>
+            <img src="https://www.w3.org/html/logo/downloads/HTML5_sticker.svg">
+            <!-- <img src="https://validator.w3.org/images/v15445"> -->
+            <img src="https://www.w3.org/Icons/valid-svg12">
+            <img src="https://www.w3.org/Icons/valid-css2-blue">
+            <img src="/images/badges/nft.gif">
+            <img src="https://www.w3.org/Icons/SVG/Buttons/svg-w3c-orange.svg">
+            <img src="/images/badges/GeoCitiesBadge2.gif">
+            <a href="http://www.hat.net/abs/noclick/" ><img src="http://www.hat.net/abs/gif/noclick.gif" alt="[Dont click here!]"></a>
+            <img src="https://www.w3.org/2005/11/MWI-Icons/mobileOK.png">
         </article>
 
         <script>
