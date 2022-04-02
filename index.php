@@ -56,7 +56,7 @@
                          I'm a webdesigner, programmer, and nerd living in the Netherlands. I'm 15 years old and I currently work at Qdentity.
                     </p>
                     <p class="hidden">
-                         More about me: people sometimes call me <span class="u-nickname">Robijntje</span> and I live in the <span class="p-region">Netherlands</span>. I currently work at <span class="">Qdentity</span> as <span class="p-job-title">Junior Developer</span>. You can find me and my projects at <a href="https://geheimesite.nl" rel="me" class="u-url">geheimesite.nl</a>. If you need to reach me you can contact me at <span class="u-email">robin@geheimesite.nl</span>. 
+                         More about me: people sometimes call me <span class="u-nickname">Robijntje</span> and I live in the <span class="p-region">Netherlands</span>. I currently work at <span class="">Qdentity</span> as <span class="p-job-title">Junior Developer</span>. You can find me and my projects at <a href="https://geheimesite.nl" rel="me" class="u-url">geheimesite.nl</a>. If you need to reach me you can contact me at <span class="u-email">robin@geheimesite.nl</span>.
                     </p>
                     <img src="https://geheimesite.nl/images/me.jpeg" alt="Robin Boers" class="u-photo hidden" />
                 </section>
@@ -134,7 +134,8 @@
             <img src="https://www.w3.org/Icons/SVG/Buttons/svg-w3c-orange.svg">
             <img src="/images/badges/GeoCitiesBadge2.gif">
             <a href="http://www.hat.net/abs/noclick/" ><img src="http://www.hat.net/abs/gif/noclick.gif" alt="[Dont click here!]"></a>
-            <img src="https://www.w3.org/2005/11/MWI-Icons/mobileOK.png">
+            <!-- <img src="https://www.w3.org/2005/11/MWI-Icons/mobileOK.png"> -->
+            <img src="/images/badges/didnt-ask.gif">
         </article>
 
         <script>
