@@ -29,6 +29,9 @@ function generateBlacklist() {
         "BetterPainting",
         "ex-german",
         "blog",
+        "geheimesite.nl",
+        "nindo-website",
+        "vscode-elementary-theme",
         ""
     ];
 }
