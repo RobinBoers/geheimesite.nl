@@ -309,11 +309,11 @@
     }
 
     .pageheader nav {
-        @apply w-full md:flex justify-around p-2;
+        @apply w-full lg:flex justify-around p-2;
     }
 
     .pageheader nav ul {
-        @apply flex flex-col md:flex-row gap-4 p-0 items-center overflow-hidden md:h-auto transition-[height] mb-0;
+        @apply flex flex-col lg:flex-row gap-4 p-0 items-center overflow-hidden lg:h-auto transition-[height] mb-0;
     }
 
     .pageheader nav ul li {
@@ -363,7 +363,7 @@
     }
 
     .menu-button {
-        @apply dark:invert h-5 w-5 md:hidden cursor-pointer;
+        @apply dark:invert h-5 w-5 lg:hidden cursor-pointer;
     }
 
     .title a {

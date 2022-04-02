@@ -10,7 +10,7 @@ window.onresize = () => {
 };
 
 function resize() {
-    if (window.innerWidth <= 768) {
+    if (window.innerWidth <= 1024) {
         menu.style.height = 0;
     } else {
         menu.style.height = "auto";
@@ -20,7 +20,7 @@ function resize() {
 function toggleMenu() {
     switch (menu.style.height) {
         case "0px":
-            menu.style.height = "240px";
+            menu.style.height = "260px";
             break;
         default:
             menu.style.height = 0;

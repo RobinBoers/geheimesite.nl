@@ -640,7 +640,7 @@ body::selection{
   padding: 0.5rem;
 }
 
-@media (min-width: 768px){
+@media (min-width: 1024px){
   .pageheader nav{
     display: flex;
   }
@@ -659,7 +659,7 @@ body::selection{
   transition-duration: 150ms;
 }
 
-@media (min-width: 768px){
+@media (min-width: 1024px){
   .pageheader nav ul{
     height: auto;
   }
@@ -885,7 +885,7 @@ a:not(.button, .project-grid li a):hover{
   }
 }
 
-@media (min-width: 768px){
+@media (min-width: 1024px){
   .menu-button{
     display: none;
   }
