@@ -32,6 +32,7 @@ function generateBlacklist() {
         "geheimesite.nl",
         "nindo-website",
         "vscode-elementary-theme",
+        "yesterblog",
         ""
     ];
 }
