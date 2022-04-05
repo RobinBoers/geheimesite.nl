@@ -45,7 +45,7 @@
                 <section class="h-card">
                     <h1 class="p-name text-4xl title font-normal">Robin Boers</h1>
 
-                    <p>I'm webdesigner, PHP programmer and teenager. I'm 15 years old and live in the Netherlands. Welcome to my website! This is like my personal playground, my little corner of the web. I post my projects like games, websites and apps here and I also regularly post to <a href="https://blog.geheimesite.nl/en">my blog</a>. </p>
+                    <p>I'm webdesigner, Elixir programmer and teenager. I'm 15 years old and live in the Netherlands. Welcome to my website! This is like my personal playground, my little corner of the web. I post my projects like games, websites and apps here and I also regularly post to <a href="https://blog.geheimesite.nl/en">my blog</a>. </p>
 
                     <p>Wanna know more about me? Check the <a href="/over-mij.php">about me</a> page. If yoy want to see my work you can take a look at the <a href="/projecten.php">projects</a> page. If you're mostly interested in the code, check my <a href="https://github.com/RobinBoers">GitHub profile</a>.</p>
 
@@ -116,7 +116,7 @@
         <footer class="page-footer">
             &copy;
             <?php echo date("Y"); ?>
-            Robin Boers. Webdesigner and PHP-developer since 2017.
+            Robin Boers. Webdesigner and Elixir programmeur since 2017.
         </footer>
     </body>
 </html>

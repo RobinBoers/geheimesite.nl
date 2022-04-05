@@ -44,7 +44,7 @@
             </article>
         </main>
         <footer class="page-footer">
-            &copy; <?php echo date("Y"); ?> Robin Boers. Webdesigner en PHP-developer sinds 2017.
+            &copy; <?php echo date("Y"); ?> Robin Boers. Webdesigner en Elixir programmeur sinds 2017.
         </footer>
     </body>
 </html>

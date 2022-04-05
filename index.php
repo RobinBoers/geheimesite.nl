@@ -45,7 +45,7 @@
                 <section class="h-card">
                     <h1 class="p-name text-4xl title font-normal">Robin Boers</h1>
 
-                    <p>Ik ben webdesigner, PHP programmeur en tiener. Ik ben 15 jaar oud en ik woon in Maassluis. Welkom op mijn website! Dit is zeg maar een soort van mijn persoonlijke speeltuin. Ik plaats hier mijn projecten zoals games, websites en apps. <!--Je vind sinds kort hier ook mijn blog, al kan je het ook nog steeds op Blogger vinden.--></p>
+                    <p>Ik ben webdesigner, Elixir programmeur en tiener. Ik ben 15 jaar oud en ik woon in Maassluis. Welkom op mijn website! Dit is zeg maar een soort van mijn persoonlijke speeltuin. Ik plaats hier mijn projecten zoals games, websites en apps. <!--Je vind sinds kort hier ook mijn blog, al kan je het ook nog steeds op Blogger vinden.--></p>
 
                     <p>Wil je meer over mij weten? Check dan de <a href="/over-mij.php">over mij</a> pagina. Als je mijn projecten wil zien kan je op de <a href="/projecten.php">projecten</a> page kijken. Als je vooral geinterreseerd in de code bent, check dan mijn <a href="https://github.com/RobinBoers">GitHub profiel</a>.</p>
 
@@ -152,7 +152,7 @@
         <footer class="page-footer">
             &copy;
             <?php echo date("Y"); ?>
-            Robin Boers. Webdesigner en PHP-developer sinds 2017.
+            Robin Boers. Webdesigner en Elixir programmeur sinds 2017.
         </footer>
     </body>
 </html>
