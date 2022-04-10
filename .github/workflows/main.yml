@@ -23,3 +23,6 @@ jobs:
           **/.git*/**
           **/node_modules/**
           library/website/version/**
+          library/projects/websites/**
+          package.json
+          package-lock.json
