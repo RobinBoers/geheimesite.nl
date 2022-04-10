@@ -18,3 +18,8 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         dry-run: true
         server-dir: domains/geheimesite.nl/public_html/
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
+          library/website/version/*
