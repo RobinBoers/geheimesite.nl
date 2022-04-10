@@ -44,20 +44,6 @@
         padding-bottom: 10px;
     }
 
-    /* Posts on blog page */
-    
-    .post * {
-        @apply text-black dark:text-white !important;
-    }
-
-    .post a {
-        @apply text-black dark:text-white underline decoration-vibrant hover:bg-vibrant hover:text-black !important;
-    }
-
-    .post section > a {
-        @apply hover:bg-transparent decoration-transparent !important;
-    }
-
     /** Hyperlinks **/
 
     a:not(.button, .no-underline) {

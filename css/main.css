@@ -9,52 +9,6 @@ hr {
   padding-bottom: 10px;
 }
 
-/* Posts on blog page */
-
-.post *{
-  --tw-text-opacity: 1 !important;
-  color: rgb(13 43 69 / var(--tw-text-opacity)) !important;
-}
-
-@media (prefers-color-scheme: dark){
-  .post *{
-    --tw-text-opacity: 1 !important;
-    color: rgb(255 236 214 / var(--tw-text-opacity)) !important;
-  }
-}
-
-.post a{
-  --tw-text-opacity: 1 !important;
-  color: rgb(13 43 69 / var(--tw-text-opacity)) !important;
-  -webkit-text-decoration-line: underline !important;
-          text-decoration-line: underline !important;
-  -webkit-text-decoration-color: #ffaa5e !important;
-          text-decoration-color: #ffaa5e !important;
-}
-
-.post a:hover{
-  --tw-bg-opacity: 1 !important;
-  background-color: rgb(255 170 94 / var(--tw-bg-opacity)) !important;
-  --tw-text-opacity: 1 !important;
-  color: rgb(13 43 69 / var(--tw-text-opacity)) !important;
-}
-
-@media (prefers-color-scheme: dark){
-  .post a{
-    --tw-text-opacity: 1 !important;
-    color: rgb(255 236 214 / var(--tw-text-opacity)) !important;
-  }
-}
-
-.post section > a{
-  -webkit-text-decoration-color: transparent !important;
-          text-decoration-color: transparent !important;
-}
-
-.post section > a:hover{
-  background-color: transparent !important;
-}
-
 /** Hyperlinks **/
 
 a:not(.button, .no-underline){
