@@ -115,8 +115,8 @@
 
         <article class="badges hidden">
             <img src="/images/badges/sucks2.gif">
-            <a href="http://www.theoldnet.com/#frombadge">
-                <img src="//theoldnet.com/images/theoldnetanimblur2.gif" title="Are you tired of this new Internet yet? Time to Get TheOldNet!">
+            <a href="https://theoldnet.com/#frombadge">
+                <img src="https://theoldnet.com/images/theoldnetanimblur2.gif" title="Are you tired of this new Internet yet? Time to Get TheOldNet!">
             </a>
             <a href="https://neocities.com"><img src="/images/badges/neocitiesbutton.gif"></a>
             <img src="/images/badges/wwwbutton.gif">
@@ -133,7 +133,7 @@
             <img src="/images/badges/nft.gif">
             <img src="https://www.w3.org/Icons/SVG/Buttons/svg-w3c-orange.svg">
             <img src="/images/badges/GeoCitiesBadge2.gif">
-            <a href="http://www.hat.net/abs/noclick/" ><img src="http://www.hat.net/abs/gif/noclick.gif" alt="[Dont click here!]"></a>
+            <a href="http://www.hat.net/abs/noclick/" ><img src="/images/badges/noclick.gif" alt="[Dont click here!]"></a>
             <!-- <img src="https://www.w3.org/2005/11/MWI-Icons/mobileOK.png"> -->
             <img src="/images/badges/didnt-ask.gif">
         </article>
