@@ -60,14 +60,7 @@ function loadBooks(shelveID, targetSelector) {
 }
 
 function bookData(shelveID, callback) {
-    token = "3938D29DCAE2E6A7B2E0"
-    options = {
-        headers: {
-            'Authorization': "Bearer " + token
-        }
-    }
-
-    fetch(`https://micro.blog/books/bookshelves/${shelveID}`, options)
+    fetch(`/api/books/get.php?id=${shelveID}`)
         .then(response => response.json())
         .then(bookData => callback(bookData));
 }

@@ -113,6 +113,8 @@
             </article>
         </main>
 
+        <!-- <script type="text/javascript" src="https://micro.blog/sidebar.js?username=Robijntje"></script> -->
+
         <article class="badges hidden">
             <img src="/images/badges/sucks2.gif">
             <a href="https://theoldnet.com/#frombadge">
