@@ -7,7 +7,9 @@
 
     if(isset($_GET['url'])){ 
         $requestUrl = $_GET['url'];
-        addView($requestUrl);
+        if (strpos($requestUrl, 'https://blog.geheimesite.nl') !== false) {
+            addView($requestUrl);
+        }
     }
 
     function addView($url) {
