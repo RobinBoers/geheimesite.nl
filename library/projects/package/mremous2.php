@@ -14,7 +14,7 @@
         <header class="pageheader">
             <p class="title"><a href="/">Robin Boers</a></p>
 
-            <img src="/images/menu.svg" class="menu-button" />
+            <img src="/images/menu.svg" class="menu-button" hidden />
             <nav>
                 <ul class="menu">
                     <li><a href="/index.php">Home</a></li>

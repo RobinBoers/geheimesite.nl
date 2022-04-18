@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+}
+
+.menu-button {
+    display: none;
+}
+
+.menu {
+    height: auto !important;
+}
+
+input {
+    display: block;
+}
+
+img {
+    max-width: 700px;
+}
+
+@media (prefers-color-scheme: dark) {
+    body,
+    html,
+    main {
+        background-color: #121212;
+        color: white;
+    }
+
+    hr {
+        border-top-color: gray;
+    }
+}

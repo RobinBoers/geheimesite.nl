@@ -27,7 +27,7 @@
         <a class="skip-nav" href="#content">Skip navigation</a>
         <header class="pageheader mb-4">
             <nav class="mt-4">
-                <img src="/images/menu.svg" class="menu-button mb-4" />
+                <img src="/images/menu.svg" class="menu-button mb-4" hidden />
 
                 <ul class="menu">
                     <li class="selected">Home</li>
@@ -52,17 +52,20 @@
                     <p><a href="en" hreflang="en">WTF, I only speak english</a></p>
 
                     <!-- Hidden metadata for IndieWeb -->
-                    <p class="u-note hidden">
-                         I'm a webdesigner, programmer, and nerd living in the Netherlands. I'm 15 years old and I currently work at Qdentity.
-                    </p>
-                    <p class="hidden">
-                         More about me: people sometimes call me <span class="u-nickname">Robijntje</span> and I live in the <span class="p-region">Netherlands</span>. I currently work at <span class="">Qdentity</span> as <span class="p-job-title">Junior Developer</span>. You can find me and my projects at <a href="https://geheimesite.nl" rel="me" class="u-url">geheimesite.nl</a>. If you need to reach me you can contact me at <span class="u-email">robin@geheimesite.nl</span>.
-                    </p>
-                    <img src="https://geheimesite.nl/images/me.jpeg" alt="Robin Boers" class="u-photo hidden" />
+                    <div class="hidden" hidden>
+                        <p class="u-note">
+                            I'm a webdesigner, programmer, and nerd living in the Netherlands. I'm 15 years old and I currently work at Qdentity.
+                        </p>
+                        <p>
+                            More about me: people sometimes call me <span class="u-nickname">Robijntje</span> and I live in the <span class="p-region">Netherlands</span>. I currently work at <span class="">Qdentity</span> as <span class="p-job-title">Junior Developer</span>. You can find me and my projects at <a href="https://geheimesite.nl" rel="me" class="u-url">geheimesite.nl</a>. If you need to reach me you can contact me at <span class="u-email">robin@geheimesite.nl</span>.
+                        </p>
+                        <img src="https://geheimesite.nl/images/me.jpeg" alt="Robin Boers" class="u-photo" />
+                    </div>
                 </section>
                 <img class="hidden absolute top-[80px] right-[-350px] lg:block xl:static w-full pixelart max-w-sm" src="/images/robin_pixelart.png" />
             </article>
             <article>
+                <h2 class="hidden">Socials</h2>
                 <ul class="p-1 m-0 mx-auto max-w-md xl:max-w-none xl:p-0">
                     <li class="inline list-none">
                         <a class="no-underline button" href="https://www.youtube.com/channel/UCx4li1iMygs5KtqgcU5KGRw" target="_blank" rel="me">
@@ -115,7 +118,7 @@
 
         <!-- <script type="text/javascript" src="https://micro.blog/sidebar.js?username=Robijntje"></script> -->
 
-        <article class="badges hidden">
+        <article class="badges hidden" hidden>
             <img src="/images/badges/sucks2.gif">
             <a href="https://theoldnet.com/#frombadge">
                 <img src="https://theoldnet.com/images/theoldnetanimblur2.gif" title="Are you tired of this new Internet yet? Time to Get TheOldNet!">
