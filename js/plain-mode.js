@@ -1,3 +1,9 @@
+// This is an experiment for a simple plain-mode for my website.
+// Inspired by seirdy.one and drewdevault.com
+
+// More info on the implementation here:
+// https://alistapart.com/article/alternate/
+
 function setActiveStyleSheet(title) {
     console.log("Setting theme...");
 
@@ -32,8 +38,8 @@ function getPreferredStyleSheet() {
     return null;
 }
 
-window.onload = () => {
+function initPlainMode() {
     var cookie = localStorage.getItem("style");
     var title = cookie ? cookie : getPreferredStyleSheet();
     setActiveStyleSheet(title);
-};
+}
