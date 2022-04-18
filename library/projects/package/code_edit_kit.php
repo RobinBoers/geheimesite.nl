@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Project: Code Edit Kit — geheimesite.nl | Robin Boers</title>
 
-        <link rel="alternate stylesheet" href="/css/plain.css" disabled="true" title="plain" />       
+        <link rel="alternate stylesheet" href="/css/plain.css" title="plain" />       
         <script src="/js/plain-mode.js"></script>
         
         <link rel="stylesheet" href="/css/main.css" title="default" />
@@ -17,7 +17,7 @@
         <header class="pageheader">
             <p class="title"><a href="/">Robin Boers</a></p>
 
-            <img src="/images/menu.svg" class="menu-button" hidden />
+            <img src="/images/menu.svg"" alt="menu button" class="menu-button" hidden />
             <nav>
                 <ul class="menu">
                     <li><a href="/index.php">Home</a></li>
@@ -33,12 +33,13 @@
                 <section>
                     <h1>Project: Code Edit Kit</h1>
                     <p>
-                        Dit een project, dat ik later in vele andere prjecten heb ingevoegd. Het is een online code-editor. Ik heb voor dit project CodeMirror gebruikt. Ik heb dit project in zowel mijn OS project als in mijn File eXplorer project gebruikt. Het werkt zo: Je maakt een bestand aan, of je upload een bestand. Vervolgens bewerk je het, en download je het weer.</p>
+                        Dit een project, dat ik later in vele andere prjecten heb ingevoegd. Het is een online code-editor. Ik heb voor dit project CodeMirror gebruikt. Ik heb dit project in zowel mijn OS project als in mijn File eXplorer project gebruikt. Het werkt zo: Je maakt een bestand aan, of je upload een bestand. Vervolgens bewerk je het, en download je het weer.
+                    </p>
                     <p class="text-warning">
                         Dit is een oud project wat erg buggy is, en niet meer wordt geüpdate! Ik heb wel een nieuwer project wat hier op lijkt, maar met experimenteel webUSB en webStorage support. Je kan het hier vinden: <a href="VSKodium.php">VSKodium</a>
                     </p>
                 </section>
-                <img class="w-full" src="/images/projects/code-editor.png">
+                <img class="w-full" src="/images/projects/code-editor.png" alt="Screenshot" />
             </article>
         </main>
 

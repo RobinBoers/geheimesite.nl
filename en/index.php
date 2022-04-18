@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Start — geheimesite.nl | Robin Boers</title>
 
-        <link rel="alternate stylesheet" href="/css/plain.css" disabled="true" title="plain" />       
+        <link rel="alternate stylesheet" href="/css/plain.css" title="plain" />       
         <script src="/js/plain-mode.js"></script>
 
         <link rel="stylesheet" href="/css/main.css" title="default" />
@@ -30,7 +30,7 @@
         <a class="skip-nav" href="#content">Skip navigation</a>
         <header class="pageheader mb-4">
             <nav class="mt-4">
-                <img src="/images/menu.svg" class="menu-button mb-4" hidden />
+                <img src="/images/menu.svg" alt="menu button" class="menu-button mb-4" hidden />
 
                 <ul class="menu">
                     <li class="selected">Home</li>
@@ -65,54 +65,54 @@
                         <img src="https://geheimesite.nl/images/me.jpeg" alt="Robin Boers" class="u-photo" />
                     </div>
                 </section>
-                <img class="hidden absolute top-[80px] right-[-350px] lg:block xl:static w-full pixelart max-w-sm" src="/images/robin_pixelart.png" />
+                <img class="hidden absolute top-[80px] right-[-350px] lg:block xl:static w-full pixelart max-w-sm" src="/images/robin_pixelart.png" alt="Pixel art picture of me" />
             </article>
             <article>
                 <h2 class="hidden">Socials</h2>
                 <ul class="p-1 m-0 mx-auto max-w-md xl:max-w-none xl:p-0">
                     <li class="inline list-none">
                         <a class="no-underline button" href="https://www.youtube.com/channel/UCx4li1iMygs5KtqgcU5KGRw" target="_blank" rel="me">
-                            <img src="https://img.shields.io/badge/Robin%20Boers-red?style=for-the-badge&logo=youtube" />
+                            <img src="https://img.shields.io/badge/Robin%20Boers-red?style=for-the-badge&logo=youtube" alt="Robin Boers on YouTube" />
                         </a>
                     </li>
                     <li class="inline list-none">
                         <a class="no-underline button ml-1" href="https://github.com/RobinBoers" target="_blank" rel="me">
-                            <img src="https://img.shields.io/badge/GitHub-333333?style=for-the-badge&logo=github" />
+                            <img src="https://img.shields.io/badge/GitHub-333333?style=for-the-badge&logo=github" alt="RobinBoers on GitHub" />
                         </a>
                     </li>
                     <li class="inline list-none">
                         <a class="no-underline button ml-1" href="https://discord.gg/DPtKK3UREu" target="_blank" rel="me">
-                            <img src="https://img.shields.io/discord/712265706132996210?color=7289DA&label=%20&logo=discord&logoColor=white&style=for-the-badge">
+                            <img src="https://img.shields.io/discord/712265706132996210?color=7289DA&label=%20&logo=discord&logoColor=white&style=for-the-badge" alt="Invite for Robin.io on Discord" />
                         </a>
                     </li>
                     <li class="inline list-none">
                         <a class="no-underline button ml-1" href="https://www.linkedin.com/in/robin-boers-b18691229/" target="_blank" rel="me">
-                            <img src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin" />
+                            <img src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin" alt="robinboers on LinkedIn" />
                         </a>
                     </li>
                     <li class="inline list-none">
                         <a class="no-underline button ml-1" href="https://micro.blog/Robijntje" target="_blank" rel="me">
-                            <img src="https://img.shields.io/badge/robijntje-ff8800?style=for-the-badge&logo=micro.blog&logoColor=white" />
+                            <img src="https://img.shields.io/badge/robijntje-ff8800?style=for-the-badge&logo=micro.blog&logoColor=white" alt="@Robijntje on Micro.blog" />
                         </a>
                     </li>
                     <li class="inline list-none">
                         <a class="no-underline button ml-1" href="https://www.twitch.tv/Rob1jntje" target="_blank" rel="me">
-                            <img src="https://img.shields.io/badge/Rob1jntje-blueviolet?style=for-the-badge&logo=twitch&logoColor=white" />
+                            <img src="https://img.shields.io/badge/Rob1jntje-blueviolet?style=for-the-badge&logo=twitch&logoColor=white" alt="Rob1jntje on Twitch.tv" />
                         </a>
                     </li>
                     <li class="inline list-none">
                         <a class="no-underline button ml-1" href="https://robijntje.itch.io" target="_blank" rel="me">
-                            <img src="https://img.shields.io/badge/Rob1jntje-FA5C5C?style=for-the-badge&logoColor=white&logo=itch.io" />
+                            <img src="https://img.shields.io/badge/Rob1jntje-FA5C5C?style=for-the-badge&logoColor=white&logo=itch.io" alt="Robijntje on Itch.io" />
                         </a>
                     </li>
                     <!-- <li class="inline list-none">
                         <a class="no-underline button ml-1" href="https://stackoverflow.com/users/12782055/robinboers" target="_blank" rel="me">
-                            <img src="https://img.shields.io/badge/RobinBoers-f48225?style=for-the-badge&logo=stackoverflow&logoColor=white" />
+                            <img src="https://img.shields.io/badge/RobinBoers-f48225?style=for-the-badge&logo=stackoverflow&logoColor=white" alt="RobinBoers on Stackoverflow" />
                         </a>
                     </li> -->
                     <li class="inline list-none">
                         <a class="no-underline button ml-1" href="https://reddit.com/u/Robijntje22" target="_blank" rel="me">
-                                <img src="https://img.shields.io/badge/-u%2FRobijntje22-%23FF4500?style=for-the-badge&logoColor=white&logo=reddit" />
+                            <img src="https://img.shields.io/badge/-u%2FRobijntje22-%23FF4500?style=for-the-badge&logoColor=white&logo=reddit" alt="Robijntje22 on Reddit" />
                         </a>
                     </li>
                 </ul>

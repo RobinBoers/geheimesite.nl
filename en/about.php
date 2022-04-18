@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>About me — geheimesite.nl | Robin Boers</title>
 
-        <link rel="alternate stylesheet" href="/css/plain.css" disabled="true" title="plain" />       
+        <link rel="alternate stylesheet" href="/css/plain.css" title="plain" />       
         <script src="/js/plain-mode.js"></script>
 
         <link rel="stylesheet" href="/css/main.css" title="default" />
@@ -19,7 +19,7 @@
         <header class="pageheader">
             <p class="title"><a href="/">Robin Boers</a></p>
 
-            <img src="/images/menu.svg" class="menu-button" hidden />
+            <img src="/images/menu.svg"" alt="menu button" class="menu-button" hidden />
 
             <nav>
                 <ul class="menu">

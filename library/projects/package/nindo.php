@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Project: Nindo — geheimesite.nl | Robin Boers</title>
 
-        <link rel="alternate stylesheet" href="/css/plain.css" disabled="true" title="plain" />       
+        <link rel="alternate stylesheet" href="/css/plain.css" title="plain" />       
         <script src="/js/plain-mode.js"></script>
         
         <link rel="stylesheet" href="/css/main.css" title="default" />
@@ -17,7 +17,7 @@
         <header class="pageheader">
             <p class="title"><a href="/">Robin Boers</a></p>
 
-            <img src="/images/menu.svg" class="menu-button" hidden />
+            <img src="/images/menu.svg"" alt="menu button" class="menu-button" hidden />
             <nav>
                 <ul class="menu">
                     <li><a href="/index.php">Home</a></li>
@@ -63,7 +63,7 @@
                 </section>
 
                 <figure>
-                    <img class="w-full" src="/images/projects/dgaw.png">
+                    <img class="w-full" src="/images/projects/dgaw.png" alt="Eerste versie van de DGAW" />
                     <figcaption>De eerste versie van de DGAW</figcaption>
                 </figure>
 
@@ -76,7 +76,7 @@
                 </section>
             
                 <figure>
-                    <img class="w-full" src="/images/projects/dgaw.png">
+                    <img class="w-full" src="/images/projects/dgaw.png" alt="Redesign met meer functies" />
                     <figcaption>Redesign met meer functies</figcaption>
                 </figure>
 
@@ -143,11 +143,11 @@
                 <section>
 
                     <p>
-                        Je kan hier meer lezen over waarom precies: <a href="https://webdevelopment-en-meer.blogspot.com/2021/01/nindo-is-offline.html">Nindo is offline - Webdevelopment-En-Meer</a>
+                        Je kan hier meer lezen over waarom precies: <a href="https://blog.geheimesite.nl/2021/01/nindo-is-offline.html">Nindo is offline - Webdevelopment-En-Meer</a>
                     </p>
 
                 </section>
-                <img class="w-full" src="/images/projects/nindo.png">
+                <img class="w-full" src="/images/projects/nindo.png" alt="Screenshot" />
             </article>
         </main>
 

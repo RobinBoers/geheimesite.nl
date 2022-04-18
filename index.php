@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Start — geheimesite.nl | Robin Boers</title>
 
-        <link rel="alternate stylesheet" href="/css/plain.css" disabled="true" title="plain" />       
+        <link rel="alternate stylesheet" href="/css/plain.css" title="plain" />       
         <script src="/js/plain-mode.js"></script>
         
         <link rel="stylesheet" href="/css/main.css" title="default" />
@@ -30,7 +30,7 @@
         <a class="skip-nav" href="#content">Skip navigation</a>
         <header class="pageheader mb-4">
             <nav class="mt-4">
-                <img src="/images/menu.svg" class="menu-button mb-4" hidden />
+                <img src="/images/menu.svg" alt="menu button" class="menu-button mb-4" hidden />
 
                 <ul class="menu">
                     <li class="selected">Home</li>
@@ -65,54 +65,54 @@
                         <img src="https://geheimesite.nl/images/me.jpeg" alt="Robin Boers" class="u-photo" />
                     </div>
                 </section>
-                <img class="hidden absolute top-[80px] right-[-350px] lg:block xl:static w-full pixelart max-w-sm" src="/images/robin_pixelart.png" />
+                <img class="hidden absolute top-[80px] right-[-350px] lg:block xl:static w-full pixelart max-w-sm" src="/images/robin_pixelart.png" alt="Pixel art picture of me" />
             </article>
             <article>
                 <h2 class="hidden">Socials</h2>
                 <ul class="p-1 m-0 mx-auto max-w-md xl:max-w-none xl:p-0">
                     <li class="inline list-none">
                         <a class="no-underline button" href="https://www.youtube.com/channel/UCx4li1iMygs5KtqgcU5KGRw" target="_blank" rel="me">
-                            <img src="https://img.shields.io/badge/Robin%20Boers-red?style=for-the-badge&logo=youtube" />
+                            <img src="https://img.shields.io/badge/Robin%20Boers-red?style=for-the-badge&logo=youtube" alt="Robin Boers on YouTube" />
                         </a>
                     </li>
                     <li class="inline list-none">
                         <a class="no-underline button ml-1" href="https://github.com/RobinBoers" target="_blank" rel="me">
-                            <img src="https://img.shields.io/badge/GitHub-333333?style=for-the-badge&logo=github" />
+                            <img src="https://img.shields.io/badge/GitHub-333333?style=for-the-badge&logo=github" alt="RobinBoers on GitHub" />
                         </a>
                     </li>
                     <li class="inline list-none">
                         <a class="no-underline button ml-1" href="https://discord.gg/DPtKK3UREu" target="_blank" rel="me">
-                            <img src="https://img.shields.io/discord/712265706132996210?color=7289DA&label=%20&logo=discord&logoColor=white&style=for-the-badge">
+                            <img src="https://img.shields.io/discord/712265706132996210?color=7289DA&label=%20&logo=discord&logoColor=white&style=for-the-badge" alt="Invite for Robin.io on Discord" />
                         </a>
                     </li>
                     <li class="inline list-none">
                         <a class="no-underline button ml-1" href="https://www.linkedin.com/in/robin-boers-b18691229/" target="_blank" rel="me">
-                            <img src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin" />
+                            <img src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin" alt="robinboers on LinkedIn" />
                         </a>
                     </li>
                     <li class="inline list-none">
                         <a class="no-underline button ml-1" href="https://micro.blog/Robijntje" target="_blank" rel="me">
-                            <img src="https://img.shields.io/badge/robijntje-ff8800?style=for-the-badge&logo=micro.blog&logoColor=white" />
+                            <img src="https://img.shields.io/badge/robijntje-ff8800?style=for-the-badge&logo=micro.blog&logoColor=white" alt="@Robijntje on Micro.blog" />
                         </a>
                     </li>
                     <li class="inline list-none">
                         <a class="no-underline button ml-1" href="https://www.twitch.tv/Rob1jntje" target="_blank" rel="me">
-                            <img src="https://img.shields.io/badge/Rob1jntje-blueviolet?style=for-the-badge&logo=twitch&logoColor=white" />
+                            <img src="https://img.shields.io/badge/Rob1jntje-blueviolet?style=for-the-badge&logo=twitch&logoColor=white" alt="Rob1jntje on Twitch.tv" />
                         </a>
                     </li>
                     <li class="inline list-none">
                         <a class="no-underline button ml-1" href="https://robijntje.itch.io" target="_blank" rel="me">
-                            <img src="https://img.shields.io/badge/Rob1jntje-FA5C5C?style=for-the-badge&logoColor=white&logo=itch.io" />
+                            <img src="https://img.shields.io/badge/Rob1jntje-FA5C5C?style=for-the-badge&logoColor=white&logo=itch.io" alt="Robijntje on Itch.io" />
                         </a>
                     </li>
                     <!-- <li class="inline list-none">
                         <a class="no-underline button ml-1" href="https://stackoverflow.com/users/12782055/robinboers" target="_blank" rel="me">
-                            <img src="https://img.shields.io/badge/RobinBoers-f48225?style=for-the-badge&logo=stackoverflow&logoColor=white" />
+                            <img src="https://img.shields.io/badge/RobinBoers-f48225?style=for-the-badge&logo=stackoverflow&logoColor=white" alt="RobinBoers on Stackoverflow" />
                         </a>
                     </li> -->
                     <li class="inline list-none">
                         <a class="no-underline button ml-1" href="https://reddit.com/u/Robijntje22" target="_blank" rel="me">
-                                <img src="https://img.shields.io/badge/-u%2FRobijntje22-%23FF4500?style=for-the-badge&logoColor=white&logo=reddit" />
+                            <img src="https://img.shields.io/badge/-u%2FRobijntje22-%23FF4500?style=for-the-badge&logoColor=white&logo=reddit" alt="Robijntje22 on Reddit" />
                         </a>
                     </li>
                 </ul>
@@ -122,28 +122,37 @@
         <!-- <script type="text/javascript" src="https://micro.blog/sidebar.js?username=Robijntje"></script> -->
 
         <article class="badges hidden" hidden>
-            <img src="/images/badges/sucks2.gif">
+            <h2 class="hidden">Wall of badges</h2>
+            <img src="/images/badges/sucks2.gif" alt="This site SUCKS!" />
             <a href="https://theoldnet.com/#frombadge">
-                <img src="https://theoldnet.com/images/theoldnetanimblur2.gif" title="Are you tired of this new Internet yet? Time to Get TheOldNet!">
+                <img src="https://theoldnet.com/images/theoldnetanimblur2.gif" alt="The Old Net" />
             </a>
-            <a href="https://neocities.com"><img src="/images/badges/neocitiesbutton.gif"></a>
-            <img src="/images/badges/wwwbutton.gif">
-            <!-- <img src="https://www.w3.org/2005/11/MWI-Icons/W3C-MWI.png"> -->
-            <img src="/images/badges/invalidator.png">
-            <!-- <img src="https://validator.w3.org/images/valid_icons/valid-html40"> -->
-            <img src="/images/badges/best_viewed_with_eyes.gif">
-            <a href="https://yesterweb.org/no-to-web3/"><img src="/images/badges/noweb32.gif"></a>
-            <a href="https://neocities.com"><img src="/images/badges/neocities_button.gif"></a>
-            <img src="https://www.w3.org/html/logo/downloads/HTML5_sticker.svg">
-            <!-- <img src="https://validator.w3.org/images/v15445"> -->
-            <img src="https://www.w3.org/Icons/valid-svg12">
-            <img src="https://www.w3.org/Icons/valid-css2-blue">
-            <img src="/images/badges/nft.gif">
-            <img src="https://www.w3.org/Icons/SVG/Buttons/svg-w3c-orange.svg">
-            <img src="/images/badges/GeoCitiesBadge2.gif">
-            <a href="http://www.hat.net/abs/noclick/" ><img src="/images/badges/noclick.gif" alt="[Dont click here!]"></a>
-            <!-- <img src="https://www.w3.org/2005/11/MWI-Icons/mobileOK.png"> -->
-            <img src="/images/badges/didnt-ask.gif">
+            <a href="https://neocities.com">
+                <img src="/images/badges/neocitiesbutton.gif" alt="Neocities" />
+            </a>
+            <img src="/images/badges/wwwbutton.gif" alt="The World Wide Web" />
+            <!-- <img src="https://www.w3.org/2005/11/MWI-Icons/W3C-MWI.png" alt="W3C Mobile Web Initiative" /> -->
+            <img src="/images/badges/invalidator.png" alt="This is invalid HTML" />
+            <!-- <img src="https://validator.w3.org/images/valid_icons/valid-html40" alt="This is valid HTML" /> -->
+            <img src="/images/badges/best_viewed_with_eyes.gif" alt="This site is best viewed using eyes" />
+            <a href="https://yesterweb.org/no-to-web3/">
+                <img src="/images/badges/noweb32.gif" alt="Keep the web free, stop web3" />
+            </a>
+            <a href="https://neocities.com">
+                <img src="/images/badges/neocities_button.gif" alt="Neocities" />
+            </a>
+            <img src="https://www.w3.org/html/logo/downloads/HTML5_sticker.svg" alt="HTML5 FTW!" />
+            <!-- <img src="https://validator.w3.org/images/v15445" alt="ISO/IEC 15445" /> -->
+            <img src="https://www.w3.org/Icons/valid-svg12" alt="This is a valid SVG" />
+            <img src="https://www.w3.org/Icons/valid-css2-blue" alt="This is built using valid CSS" />
+            <img src="/images/badges/nft.gif" alt="NFT? No fucking thanks." />
+            <img src="https://www.w3.org/Icons/SVG/Buttons/svg-w3c-orange.svg" alt="W3C SVG" />
+            <img src="/images/badges/GeoCitiesBadge2.gif" alt="Geocities" />
+            <a href="http://www.hat.net/abs/noclick/" >
+                <img src="/images/badges/noclick.gif" alt="Dont click here!" title="Dont click here!" />
+            </a>
+            <!-- <img src="https://www.w3.org/2005/11/MWI-Icons/mobileOK.png" alt="This site is Mobile OK" /> -->
+            <img src="/images/badges/didnt-ask.gif" alt="When. Did. I. Ask. " />
         </article>
 
         <script>

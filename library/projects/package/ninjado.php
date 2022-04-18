@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Project: NinjaDO — geheimesite.nl | Robin Boers</title>
 
-        <link rel="alternate stylesheet" href="/css/plain.css" disabled="true" title="plain" />       
+        <link rel="alternate stylesheet" href="/css/plain.css" title="plain" />       
         <script src="/js/plain-mode.js"></script>
         
         <link rel="stylesheet" href="/css/main.css" title="default" />
@@ -17,7 +17,7 @@
         <header class="pageheader">
             <p class="title"><a href="/">Robin Boers</a></p>
 
-            <img src="/images/menu.svg" class="menu-button" hidden />
+            <img src="/images/menu.svg"" alt="menu button" class="menu-button" hidden />
             <nav>
                 <ul class="menu">
                     <li><a href="/index.php">Home</a></li>
@@ -46,7 +46,7 @@
                         De game heeft een singleplayer versie (met andere sprites) die nog simpler is. Die vind je in de  <a href="https://github.com/RobinBoers/NinjaDO/tree/singleplayer">singleplayer branch</a>. Als je wil kan je de <a href="https://code.geheimesite.nl/beta/NinjaDO/singleplayer">live demo</a> spelen. Er is alleen naast rondlopen niks te doen.</p>
 
                 </section>
-                <img class="w-full" src="/images/projects/ninjado2.png">
+                <img class="w-full" src="/images/projects/ninjado2.png" alt="Screenshot" />
             </article>
         </main>
 
