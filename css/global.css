@@ -349,7 +349,7 @@
     }
 
     .menu-button {
-        @apply dark:invert h-5 w-5 lg:hidden cursor-pointer;
+        @apply dark:invert h-5 w-5 inline lg:hidden cursor-pointer;
     }
 
     .title a {
