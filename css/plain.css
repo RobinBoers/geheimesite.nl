@@ -1,4 +1,4 @@
-body {
+html {
     font-family: sans-serif;
 }
 
@@ -19,9 +19,7 @@ img {
 }
 
 @media (prefers-color-scheme: dark) {
-    body,
-    html,
-    main {
+    html {
         background-color: #121212;
         color: white;
     }

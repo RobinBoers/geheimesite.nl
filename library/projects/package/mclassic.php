@@ -6,7 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Project: js0.23-improved — geheimesite.nl | Robin Boers</title>
 
-        <link rel="stylesheet" href="/css/main.css" />
+        <link rel="alternate stylesheet" href="/css/plain.css" disabled="true" title="plain" />       
+        <script src="/js/plain-mode.js"></script>
+        
+        <link rel="stylesheet" href="/css/main.css" title="default" />
         <script defer src="/js/menu.js"></script>
     </head>
     <body>
