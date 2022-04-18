@@ -19,7 +19,7 @@
         <header class="pageheader">
             <p class="title"><a href="/">Robin Boers</a></p>
 
-            <img src="/images/menu.svg"" alt="menu button" class="menu-button" hidden />
+            <img src="/images/menu.svg" alt="menu button" class="menu-button" hidden />
 
             <nav>
                 <ul class="menu">
