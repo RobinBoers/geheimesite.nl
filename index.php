@@ -13,7 +13,7 @@
         <script defer src="/js/menu.js"></script>
 
         <link rel="alternate" hreflang="en" href="https://geheimesite.nl/en/index.php" />
-        <link rel="alternate" type="application/rss+xml" title="Webdevelopment-En-Meer" href="https://blog.geheimesit.nl/index.xml" />
+        <link rel="alternate" type="application/rss+xml" title="Webdevelopment-En-Meer" href="https://blog.geheimesite.nl/index.xml" />
         <link rel="feed" href="https://blog.geheimesite.nl">
 
         <link rel="microsub" href="https://aperture.p3k.io/microsub/733">
