@@ -14,6 +14,8 @@
 
         <link rel="alternate" hreflang="en" href="https://geheimesite.nl/en/index.php" />
         <link rel="alternate" type="application/rss+xml" title="Webdevelopment-En-Meer" href="https://blog.geheimesite.nl/index.xml" />
+        <link rel="alternate" type="application/rss+xml" title="That Crazy Webdev" href="https://blog.geheimesite.nl/en/index.xml" />
+        <link rel="alternate" type="application/rss+xml" title="Notes (Micro.blog)" href="https://blog.geheimesite.nl/notes/index.xml" />
         <link rel="feed" href="https://blog.geheimesite.nl">
 
         <link rel="microsub" href="https://aperture.p3k.io/microsub/733">
