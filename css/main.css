@@ -1056,6 +1056,10 @@ a:not(.button, .title a:hover):hover{
   justify-content: center;
 }
 
+.justify-around{
+  justify-content: space-around;
+}
+
 .gap-10{
   gap: 2.5rem;
 }
@@ -1186,6 +1190,12 @@ a:not(.button, .title a:hover):hover{
 
   .dark\:bg-slate\/70{
     background-color: rgb(17 17 33 / 0.7);
+  }
+}
+
+@media (min-width: 640px){
+  .sm\:flex-row-reverse{
+    flex-direction: row-reverse;
   }
 }
 
