@@ -900,6 +900,53 @@ a:not(.button, .title a:hover):hover{
   width: auto;
 }
 
+.hyperpost{
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  border-width: 1px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(69 109 149 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(206 227 248 / var(--tw-bg-opacity));
+  padding: 1.25rem;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --tw-shadow: 18px 10px 0px 0px rgba(33, 144, 255, 1);
+  --tw-shadow-colored: 18px 10px 0px 0px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+@media (prefers-color-scheme: dark){
+  .hyperpost{
+    --tw-border-opacity: 1;
+    border-color: rgb(23 52 80 / var(--tw-border-opacity));
+  }
+
+  .hyperpost{
+    --tw-bg-opacity: 1;
+    background-color: rgb(69 109 149 / var(--tw-bg-opacity));
+  }
+
+  .hyperpost{
+    --tw-shadow: 18px 10px 0px 0px #cee3f8;
+    --tw-shadow-colored: 18px 10px 0px 0px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+}
+
+.hyperpost p{
+  margin: 0px;
+  --tw-text-opacity: 1;
+  color: rgb(25 60 95 / var(--tw-text-opacity));
+}
+
+@media (prefers-color-scheme: dark){
+  .hyperpost p{
+    --tw-text-opacity: 1;
+    color: rgb(205 230 255 / var(--tw-text-opacity));
+  }
+}
+
 .pointer-events-none{
   pointer-events: none;
 }
@@ -952,6 +999,14 @@ a:not(.button, .title a:hover):hover{
   margin-top: 9rem;
 }
 
+.mb-0{
+  margin-bottom: 0px;
+}
+
+.mb-1{
+  margin-bottom: 0.25rem;
+}
+
 .mb-4{
   margin-bottom: 1rem;
 }
@@ -974,10 +1029,6 @@ a:not(.button, .title a:hover):hover{
 
 .mt-10{
   margin-top: 2.5rem;
-}
-
-.mb-0{
-  margin-bottom: 0px;
 }
 
 .inline{
@@ -1121,9 +1172,18 @@ a:not(.button, .title a:hover):hover{
   text-align: center;
 }
 
+.font-sans{
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 .text-7xl{
   font-size: 4.5rem;
   line-height: 1;
+}
+
+.text-base{
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .text-4xl{
@@ -1135,8 +1195,16 @@ a:not(.button, .title a:hover):hover{
   font-weight: 400;
 }
 
+.font-bold{
+  font-weight: 700;
+}
+
 .italic{
   font-style: italic;
+}
+
+.not-italic{
+  font-style: normal;
 }
 
 .no-underline{

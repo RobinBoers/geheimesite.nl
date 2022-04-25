@@ -10,7 +10,6 @@
         <script src="/js/plain-mode.js"></script>
         
         <link rel="stylesheet" href="/css/main.css" title="default" />
-        <script defer src="/js/menu.js"></script>
 
         <!-- Prevent search engines from indexing -->
         <meta name="robots" content="noindex">

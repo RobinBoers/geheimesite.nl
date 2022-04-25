@@ -41,6 +41,7 @@
                     <li><a href="/en/projects.php">Projects</a></li>
                     <li><a href="/en/books.php">Books</a></li>
                     <li><a href="https://blog.geheimesite.nl/notes">Notes</a></li>
+                    <li><a href="/hyperfeed.php">Hyperfeed</a></li>
                     <li><a href="https://blog.geheimesite.nl/en">Blog</a></li>
                 </ul>
             </nav>
