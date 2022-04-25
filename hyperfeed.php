@@ -128,6 +128,7 @@
                         <li><a class="external" href="https://irkeneon.neocities.org">irkeneon.neocities.org</a></li>
                         <li><a class="external" href="https://kirby.kevinson.org">kirby.kevinson.org</a></li>
                         <li><a class="external" href="https://billwurtz.com">billwurtz.com</a></li>
+                        <li><a class="external" href="https://seapunk.xyz">seapunk.xyz</a></li>
                     </ul>
 
                     <h3>Other personal websites</h3>
