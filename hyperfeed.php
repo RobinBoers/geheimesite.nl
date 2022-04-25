@@ -114,6 +114,7 @@
 
                     <ul>
                         <li><a class="external" href="https://neal.fun">neal.fun</a></li>
+                        <li><a class="external" href="https://www.kickscondor.com">www.kickscondor.com</a></li>
                         <li><a class="external" href="https://sadgrl.online">sadgrl.online</a></li>
                         <li><a class="external" href="https://yesterweb.org">yesterweb.org</a></li>
                         <li><a class="external" href="https://wsmz.gay">wsmz.gay</a></li>
@@ -142,6 +143,7 @@
                         <li><a class="external" href="https://jeena.net">jeena.net</a></li>
                         <li><a class="external" href="https://tonsky.me">tonsky.me</a></li>
                         <li><a class="external" href="https://rehanbutt.com">rehanbutt.com</a></li>
+                        <li><a class="external" href="https://samkirkland.com">samkirkland.com</a></li> 
                         <li><a class="external" href="https://himatt.com">himatt.com</a></li>
                         <li><a class="external" href="http://www.dennisknopf.net">www.dennisknopf.net</a></li>
                         <li><a class="external" href="https://inhji.de">inhji.de</a></li>
