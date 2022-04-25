@@ -135,6 +135,7 @@
                     <h3>Other personal websites</h3>
 
                     <ul>
+                        <li><a class="external" href="https://trxrg.com">trxrg.com</a></li>
                         <li><a class="external" href="https://mxb.dev">mxb.dev</a></li>
                         <li><a class="external" href="https://www.unindented.org">www.unindented.org</a></li>
                         <li><a class="external" href="https://ncase.me">ncase.me</a></li>
