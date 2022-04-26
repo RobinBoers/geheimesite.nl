@@ -51,6 +51,10 @@
 
             <article class="hyperfeed">
                 <section class="hyperpost">
+                    <p><a href="http://patorjk.com">This guy</a> made some awesome tools to <a href="http://patorjk.com/old-school-gaming-filters">apply old-school filters to pictures</a>, <a href="http://patorjk.com/software/taag">to generate ASCII text</a> and much more! Check his site out.</p>
+                </section>
+
+                <section class="hyperpost">
                     <p>I never realised how many octocat images GitHub made! Take a look at the <a class="external" href="https://octodex.github.com">Octodex</a>, a gigantic database of Octocat images created by GitHub employees.</p>
                 </section>
 
