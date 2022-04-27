@@ -51,6 +51,10 @@
 
             <article class="hyperfeed">
                 <section class="hyperpost">
+                    <p>Just bumpend into <a href="https://marijn.uk">Marijn's website</a>, who, in his linkroll, recommended <a href="https://afterthetone.com">After The Tone</a>. It's truely genius. I bet it took them a lot of work to create that site :)</p>
+                </section>
+
+                <section class="hyperpost">
                     <p><a href="http://patorjk.com">This guy</a> made some awesome tools to <a href="http://patorjk.com/old-school-gaming-filters">apply old-school filters to pictures</a>, <a href="http://patorjk.com/software/taag">to generate ASCII text</a> and much more! Check his site out.</p>
                 </section>
 
@@ -118,11 +122,13 @@
 
                     <ul>
                         <li><a class="external" href="https://maya.land">maya.land</a></li>
+                        <li><a class="external" href="https://neustadt.fr">neustadt.fr</a></li>
                         <li><a class="external" href="https://neal.fun">neal.fun</a></li>
                         <li><a class="external" href="https://www.kickscondor.com">www.kickscondor.com</a></li>
                         <li><a class="external" href="https://sadgrl.online">sadgrl.online</a></li>
                         <li><a class="external" href="https://yesterweb.org">yesterweb.org</a></li>
                         <li><a class="external" href="https://wsmz.gay">wsmz.gay</a></li>
+                        <li><a class="external" href="https://satyrs.eu">satyrs.eu</a></li>
                         <li><a class="external" href="https://simone.computer">simone.computer</a></li>
                         <li><a class="external" href="https://rvklein.me">rvklein.me</a></li>
                         <li><a class="external" href="https://doubleloop.net">doubleloop.net</a></li>
