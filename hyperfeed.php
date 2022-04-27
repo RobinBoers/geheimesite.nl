@@ -117,6 +117,7 @@
                     <h3>Beautiful websites 💖</h3>
 
                     <ul>
+                        <li><a class="external" href="https://maya.land">maya.land</a></li>
                         <li><a class="external" href="https://neal.fun">neal.fun</a></li>
                         <li><a class="external" href="https://www.kickscondor.com">www.kickscondor.com</a></li>
                         <li><a class="external" href="https://sadgrl.online">sadgrl.online</a></li>
@@ -134,6 +135,7 @@
                         <li><a class="external" href="https://kirby.kevinson.org">kirby.kevinson.org</a></li>
                         <li><a class="external" href="https://billwurtz.com">billwurtz.com</a></li>
                         <li><a class="external" href="https://seapunk.xyz">seapunk.xyz</a></li>
+                        <li><a class="external" href="https://utsuho.rocks">utsuho.rocks</a></li>
                     </ul>
 
                     <h3>Other personal websites</h3>
