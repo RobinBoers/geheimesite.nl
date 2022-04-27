@@ -123,6 +123,7 @@
                     <ul>
                         <li><a class="external" href="https://maya.land">maya.land</a></li>
                         <li><a class="external" href="https://neustadt.fr">neustadt.fr</a></li>
+                        <li><a class="external" href="https://novov.me">novov.me</a></li>
                         <li><a class="external" href="https://neal.fun">neal.fun</a></li>
                         <li><a class="external" href="https://www.kickscondor.com">www.kickscondor.com</a></li>
                         <li><a class="external" href="https://sadgrl.online">sadgrl.online</a></li>
@@ -167,6 +168,14 @@
                         <li><a class="external" href="https://emersion.fr">emersion.fr</a></li>
                         <li><a class="external" href="https://ricardoruwer.github.io">ricardoruwer.github.io</a></li>
                         <li><a class="external" href="https://mlibre.github.io">mlibre.github.io</a></li>
+                    </ul>
+
+                    <h3>Link directories</h3>
+
+                    <ul>
+                        <li><a href="https://vole.wtf">vole.wtf</a></li>
+                        <li><a href="https://href.cool">href.cool</a></li>
+                        <li><a href="https://links.yesterweb.org">Yesterweb Links</a></li>
                     </ul>
                 </section>
             </article>
