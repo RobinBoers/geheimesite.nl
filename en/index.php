@@ -18,7 +18,9 @@
         <link rel="alternate" type="application/rss+xml" title="Notes (Micro.blog)" href="https://blog.geheimesite.nl/notes/index.xml" />
         <link rel="feed" href="https://blog.geheimesite.nl/en">
 
+        <!-- Micro{pub, sub} -->
         <link rel="microsub" href="https://aperture.p3k.io/microsub/733">
+        <link rel="micropub" href="https://micro.geheimesite.nl/endpoint" />   
 
         <!-- IndieAuth -->
         <link rel="authorization_endpoint" href="https://indieauth.com/auth">
