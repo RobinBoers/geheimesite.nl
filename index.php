@@ -40,7 +40,6 @@
                     <li><a href="/over-mij.php">Over mij</a></li>
                     <li><a href="/projecten.php">Projecten</a></li>
                     <li><a href="/boeken.php">Boeken</a></li>
-                    <li><a href="https://blog.geheimesite.nl/notes">Notes</a></li>
                     <li><a href="/hyperfeed.php">Hyperfeed</a></li>
                     <li><a href="https://blog.geheimesite.nl">Blog</a></li>
                 </ul>
