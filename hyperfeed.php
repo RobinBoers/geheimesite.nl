@@ -63,6 +63,17 @@
                 </section>
 
                 <section class="hyperpost">
+                    <p>Some cool link directories and webrings to look around in: </p>
+
+                    <ul>
+                        <li><a href="https://vole.wtf">vole.wtf</a></li>
+                        <li><a href="https://href.cool">href.cool</a></li>
+                        <li><a href="https://links.yesterweb.org">Yesterweb Links</a></li>
+                        <li><a href="https://webring.xxiivv.com">XXIIVV webring</a></li>
+                    </ul>
+                </section>
+
+                <section class="hyperpost">
                     <p>I had a bit of fun this afternoon: <a class="external" href="https://www.windows93.net">www.windows93.net</a></p>
                 </section>
 
@@ -109,73 +120,67 @@
                 <section class="hyperpost">
                     <p>How to <a class="external" href="https://www.htmhell.dev">not use HTML</a> for dummies: Introducing <dfn>HTMHell</dfn>. A collection of bad practices in HTML, copied from real websites.</p>
                 </section>
-            </article>
 
-            <hr class="my-7 border-none">
+                <hr class="my-7 border-none">
 
-            <article>
                 <section>
-                    <h2>Personal websites</h2>
+                    <h2>Beautiful websites 💖</h2>
                     <p>Some amazing personal and portfolio websites on the interwebs. <a href="#" onclick="clickRandom()">I'm feeling lucky</a></p>
+                </section>
 
-                    <h3>Beautiful websites 💖</h3>
+                <section class="hyperpost">
+                    <h3 hidden>Beautiful websites 💖</h3>
 
-                    <ul>
-                        <li><a class="external" href="https://maya.land">maya.land</a></li>
-                        <li><a class="external" href="https://neustadt.fr">neustadt.fr</a></li>
-                        <li><a class="external" href="https://novov.me">novov.me</a></li>
-                        <li><a class="external" href="https://neal.fun">neal.fun</a></li>
-                        <li><a class="external" href="https://www.kickscondor.com">www.kickscondor.com</a></li>
-                        <li><a class="external" href="https://sadgrl.online">sadgrl.online</a></li>
-                        <li><a class="external" href="https://yesterweb.org">yesterweb.org</a></li>
-                        <li><a class="external" href="https://wsmz.gay">wsmz.gay</a></li>
-                        <li><a class="external" href="https://satyrs.eu">satyrs.eu</a></li>
-                        <li><a class="external" href="https://simone.computer">simone.computer</a></li>
-                        <li><a class="external" href="https://rvklein.me">rvklein.me</a></li>
-                        <li><a class="external" href="https://doubleloop.net">doubleloop.net</a></li>
-                        <li><a class="external" href="https://keeri.neocities.org">keeri.neocities.org</a></li>
-                        <li><a class="external" href="https://sentamal.in">sentamal.in</a></li>
-                        <li><a class="external" href="https://warpzone.site">warpzone.site</a></li>
-                        <li><a class="external" href="https://distantskies.neocities.org">distantskies.neocities.org</a></li>
-                        <li><a class="external" href="https://www.skytopia.com">www.skytopia.com</a></li>
-                        <li><a class="external" href="https://irkeneon.neocities.org">irkeneon.neocities.org</a></li>
-                        <li><a class="external" href="https://kirby.kevinson.org">kirby.kevinson.org</a></li>
-                        <li><a class="external" href="https://billwurtz.com">billwurtz.com</a></li>
-                        <li><a class="external" href="https://seapunk.xyz">seapunk.xyz</a></li>
-                        <li><a class="external" href="https://utsuho.rocks">utsuho.rocks</a></li>
+                    <ul class="tagcloud">
+                        <li><a class="external" data-weight="9" href="https://maya.land">maya.land</a></li>
+                        <li><a class="external" data-weight="9" href="https://neustadt.fr">neustadt.fr</a></li>
+                        <li><a class="external" data-weight="9" href="https://www.kickscondor.com">www.kickscondor.com</a></li>
+                        <li><a class="external" data-weight="8" href="https://sadgrl.online">sadgrl.online</a></li>
+                        <li><a class="external" data-weight="8" href="https://novov.me">novov.me</a></li>
+                        <li><a class="external" data-weight="6" href="https://neal.fun">neal.fun</a></li>
+                        <li><a class="external" data-weight="7" href="https://yesterweb.org">yesterweb.org</a></li>
+                        <li><a class="external" data-weight="6" href="https://wsmz.gay">wsmz.gay</a></li>
+                        <li><a class="external" data-weight="9" href="https://satyrs.eu">satyrs.eu</a></li>
+                        <li><a class="external" data-weight="5" href="https://simone.computer">simone.computer</a></li>
+                        <li><a class="external" data-weight="2" href="https://doubleloop.net">doubleloop.net</a></li>
+                        <li><a class="external" data-weight="4" href="https://keeri.neocities.org">keeri.neocities.org</a></li>
+                        <li><a class="external" data-weight="6" href="https://seapunk.xyz">seapunk.xyz</a></li>
+                        <li><a class="external" data-weight="2" href="https://sentamal.in">sentamal.in</a></li>
+                        <li><a class="external" data-weight="4" href="https://warpzone.site">warpzone.site</a></li>
+                        <li><a class="external" data-weight="4" href="https://distantskies.neocities.org">distantskies.neocities.org</a></li>
+                        <li><a class="external" data-weight="4" href="https://www.skytopia.com">www.skytopia.com</a></li>
+                        <li><a class="external" data-weight="3" href="https://irkeneon.neocities.org">irkeneon.neocities.org</a></li>
+                        <li><a class="external" data-weight="4" href="https://kirby.kevinson.org">kirby.kevinson.org</a></li>
+                        <li><a class="external" data-weight="5" href="https://billwurtz.com">billwurtz.com</a></li>
+                        <li><a class="external" data-weight="2" href="https://rvklein.me">rvklein.me</a></li>
+                        <li><a class="external" data-weight="4" href="https://utsuho.rocks">utsuho.rocks</a></li>
                     </ul>
+                </section>
 
-                    <h3>Other personal websites</h3>
+                <section class="hyperpost">
+                    <h3 hidden>Other personal websites</h3>
 
-                    <ul>
-                        <li><a class="external" href="https://trxrg.com">trxrg.com</a></li>
-                        <li><a class="external" href="https://mxb.dev">mxb.dev</a></li>
-                        <li><a class="external" href="https://www.unindented.org">www.unindented.org</a></li>
-                        <li><a class="external" href="https://ncase.me">ncase.me</a></li>
-                        <li><a class="external" href="https://drewdevault.com">drewdevault.com</a></li>
-                        <li><a class="external" href="https://bruno-simon.com">bruno-simon.com</a></li>
-                        <li><a class="external" href="https://jeena.net">jeena.net</a></li>
-                        <li><a class="external" href="https://tonsky.me">tonsky.me</a></li>
-                        <li><a class="external" href="https://rehanbutt.com">rehanbutt.com</a></li>
-                        <li><a class="external" href="https://samkirkland.com">samkirkland.com</a></li> 
-                        <li><a class="external" href="https://himatt.com">himatt.com</a></li>
-                        <li><a class="external" href="http://www.dennisknopf.net">www.dennisknopf.net</a></li>
-                        <li><a class="external" href="https://inhji.de">inhji.de</a></li>
-                        <li><a class="external" href="https://seirdy.one">seirdy.one</a></li>
-                        <li><a class="external" href="https://macwright.com">macwright.com</a></li>
-                        <li><a class="external" href="https://www.yodiw.com">www.yodiw.com</a></li>
-                        <li><a class="external" href="https://eddiehinkle.com">eddiehinkle.com</a></li>
-                        <li><a class="external" href="https://emersion.fr">emersion.fr</a></li>
-                        <li><a class="external" href="https://ricardoruwer.github.io">ricardoruwer.github.io</a></li>
-                        <li><a class="external" href="https://mlibre.github.io">mlibre.github.io</a></li>
-                    </ul>
-
-                    <h3>Link directories</h3>
-
-                    <ul>
-                        <li><a href="https://vole.wtf">vole.wtf</a></li>
-                        <li><a href="https://href.cool">href.cool</a></li>
-                        <li><a href="https://links.yesterweb.org">Yesterweb Links</a></li>
+                    <ul class="tagcloud">
+                        <li><a class="external" data-weight="8" href="https://trxrg.com">trxrg.com</a></li>
+                        <li><a class="external" data-weight="9" href="https://mxb.dev">mxb.dev</a></li>
+                        <li><a class="external" data-weight="8" href="https://www.unindented.org">www.unindented.org</a></li>
+                        <li><a class="external" data-weight="8" href="https://ncase.me">ncase.me</a></li>
+                        <li><a class="external" data-weight="7" href="https://drewdevault.com">drewdevault.com</a></li>
+                        <li><a class="external" data-weight="4" href="https://bruno-simon.com">bruno-simon.com</a></li>
+                        <li><a class="external" data-weight="3" href="https://jeena.net">jeena.net</a></li>
+                        <li><a class="external" data-weight="8" href="https://tonsky.me">tonsky.me</a></li>
+                        <li><a class="external" data-weight="9" href="https://rehanbutt.com">rehanbutt.com</a></li>
+                        <li><a class="external" data-weight="7" href="https://samkirkland.com">samkirkland.com</a></li> 
+                        <li><a class="external" data-weight="9" href="https://himatt.com">himatt.com</a></li>
+                        <li><a class="external" data-weight="5" href="http://www.dennisknopf.net">www.dennisknopf.net</a></li>
+                        <li><a class="external" data-weight="6" href="https://inhji.de">inhji.de</a></li>
+                        <li><a class="external" data-weight="5" href="https://seirdy.one">seirdy.one</a></li>
+                        <li><a class="external" data-weight="5" href="https://macwright.com">macwright.com</a></li>
+                        <li><a class="external" data-weight="2" href="https://www.yodiw.com">www.yodiw.com</a></li>
+                        <li><a class="external" data-weight="4" href="https://eddiehinkle.com">eddiehinkle.com</a></li>
+                        <li><a class="external" data-weight="6" href="https://emersion.fr">emersion.fr</a></li>
+                        <li><a class="external" data-weight="7" href="https://ricardoruwer.github.io">ricardoruwer.github.io</a></li>
+                        <li><a class="external" data-weight="3" href="https://mlibre.github.io">mlibre.github.io</a></li>
                     </ul>
                 </section>
             </article>

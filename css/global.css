@@ -276,6 +276,27 @@
         @apply font-mono font-bold text-lg text-vibrant;
     }
 
+    .tagcloud {
+        @apply list-none pl-0 flex flex-wrap justify-center items-center leading-10 pt-10;
+    }
+
+    .tagcloud a[data-weight="1"] { --size: 1; }
+    .tagcloud a[data-weight="2"] { --size: 2; }
+    .tagcloud a[data-weight="3"] { --size: 3; }
+    .tagcloud a[data-weight="4"] { --size: 4; }
+    .tagcloud a[data-weight="5"] { --size: 5; }
+    .tagcloud a[data-weight="6"] { --size: 6; }
+    .tagcloud a[data-weight="7"] { --size: 7; }
+    .tagcloud a[data-weight="8"] { --size: 8; }
+    .tagcloud a[data-weight="9"] { --size: 9; }
+
+    .tagcloud a {
+        --size: attr(data-weight number, 2); 
+        font-size: 1.5rem;
+        margin: 0.125rem 0.25rem;
+        font-size: calc(var(--size) * 0.25rem);
+    }
+      
     /* General */
 
     img {
@@ -364,11 +385,46 @@
         @apply max-h-[30px] w-auto;
     }
 
+    .hyperfeed {
+        @apply flex flex-col items-center;
+    }
+
     .hyperpost {
-        @apply bg-[#cee3f8] dark:bg-[#456d95] p-5 my-3 border border-solid border-[#456d95] dark:border-[#173450] font-sans shadow-hyper-light dark:shadow-hyper-dark;
+        @apply bg-[#cee3f8] dark:bg-[#456d95] p-5 my-3 border border-solid border-[#456d95] dark:border-[#173450] font-sans shadow-hyper-light dark:shadow-hyper-dark mx-0 min-w-[550px];
     }
 
     .hyperpost p {
         @apply m-0 text-[#193c5f] dark:text-[#cde6ff];
+    }
+
+    .hyperfeed .hyperpost:nth-child(10n) {
+        margin-left: -18px;
+    }
+    .hyperfeed .hyperpost:nth-child(10n+1) {
+        margin-left: 18px;
+    }
+    .hyperfeed .hyperpost:nth-child(10n+2) {
+        margin-left: -32px;
+    }
+    .hyperfeed .hyperpost:nth-child(10n+3) {
+        margin-left: -8px;
+    }
+    .hyperfeed .hyperpost:nth-child(10n+4) {
+        margin-left: -38px;
+    }
+    .hyperfeed .hyperpost:nth-child(10n+5) {
+        margin-left: 28px;
+    }
+    .hyperfeed .hyperpost:nth-child(10n+6) {
+        margin-left: -18px;
+    }
+    .hyperfeed .hyperpost:nth-child(10n+7) {
+        margin-left: 18px;
+    }
+    .hyperfeed .hyperpost:nth-child(10n+8) {
+        margin-left: -8px;
+    }
+    .hyperfeed .hyperpost:nth-child(10n+9) {
+        margin-left: 32px;
     }
 }

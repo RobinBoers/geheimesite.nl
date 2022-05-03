@@ -467,6 +467,60 @@ figcaption{
   color: rgb(255 170 94 / var(--tw-text-opacity));
 }
 
+.tagcloud{
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0px;
+  padding-top: 2.5rem;
+  line-height: 2.5rem;
+}
+
+.tagcloud a[data-weight="1"] {
+  --size: 1;
+}
+
+.tagcloud a[data-weight="2"] {
+  --size: 2;
+}
+
+.tagcloud a[data-weight="3"] {
+  --size: 3;
+}
+
+.tagcloud a[data-weight="4"] {
+  --size: 4;
+}
+
+.tagcloud a[data-weight="5"] {
+  --size: 5;
+}
+
+.tagcloud a[data-weight="6"] {
+  --size: 6;
+}
+
+.tagcloud a[data-weight="7"] {
+  --size: 7;
+}
+
+.tagcloud a[data-weight="8"] {
+  --size: 8;
+}
+
+.tagcloud a[data-weight="9"] {
+  --size: 9;
+}
+
+.tagcloud a {
+  --size: attr(data-weight number, 2);
+  font-size: 1.5rem;
+  margin: 0.125rem 0.25rem;
+  font-size: calc(var(--size) * 0.25rem);
+}
+
 /* General */
 
 img{
@@ -900,9 +954,18 @@ a:not(.button, .title a:hover):hover{
   width: auto;
 }
 
+.hyperfeed{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .hyperpost{
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
+  margin-left: 0px;
+  margin-right: 0px;
+  min-width: 550px;
   border-width: 1px;
   border-style: solid;
   --tw-border-opacity: 1;
@@ -945,6 +1008,46 @@ a:not(.button, .title a:hover):hover{
     --tw-text-opacity: 1;
     color: rgb(205 230 255 / var(--tw-text-opacity));
   }
+}
+
+.hyperfeed .hyperpost:nth-child(10n) {
+  margin-left: -18px;
+}
+
+.hyperfeed .hyperpost:nth-child(10n+1) {
+  margin-left: 18px;
+}
+
+.hyperfeed .hyperpost:nth-child(10n+2) {
+  margin-left: -32px;
+}
+
+.hyperfeed .hyperpost:nth-child(10n+3) {
+  margin-left: -8px;
+}
+
+.hyperfeed .hyperpost:nth-child(10n+4) {
+  margin-left: -38px;
+}
+
+.hyperfeed .hyperpost:nth-child(10n+5) {
+  margin-left: 28px;
+}
+
+.hyperfeed .hyperpost:nth-child(10n+6) {
+  margin-left: -18px;
+}
+
+.hyperfeed .hyperpost:nth-child(10n+7) {
+  margin-left: 18px;
+}
+
+.hyperfeed .hyperpost:nth-child(10n+8) {
+  margin-left: -8px;
+}
+
+.hyperfeed .hyperpost:nth-child(10n+9) {
+  margin-left: 32px;
 }
 
 .pointer-events-none{

@@ -65,7 +65,7 @@
                             I'm a webdesigner, programmer, and nerd living in the Netherlands. I'm 15 years old and I currently work at Qdentity.
                         </p>
                         <p>
-                            More about me: people sometimes call me <span class="u-nickname">Robijntje</span> and I live in the <span class="p-region">Netherlands</span>. I currently work at <span class="">Qdentity</span> as <span class="p-job-title">Junior Developer</span>. You can find me and my projects at <a href="https://geheimesite.nl" rel="me" class="u-url">geheimesite.nl</a>. If you need to reach me you can contact me at <span class="u-email">robin@geheimesite.nl</span>.
+                            More about me: people sometimes call me <span class="u-nickname">Robijntje</span> and I live in the <span class="p-region">Netherlands</span>. I currently work at <span class="p-org">Qdentity</span> as <span class="p-job-title">Junior Developer</span>. You can find me and my projects at <a href="https://geheimesite.nl/" rel="me" class="u-url">geheimesite.nl</a>. If you need to reach me you can contact me at <span class="u-email">robin@geheimesite.nl</span>.
                         </p>
                         <img src="https://geheimesite.nl/images/me.jpeg" alt="Robin Boers" class="u-photo" />
                     </div>
