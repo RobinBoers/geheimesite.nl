@@ -51,6 +51,10 @@
 
             <article class="hyperfeed">
                 <section class="hyperpost">
+                    <p><a href="https://ohshitgit.com">Oh Shit, Git!?!</a>, 😂 I'm not sure if it'll actually help in a real situation, but it's funny for sure!</p>
+                </section>
+
+                <section class="hyperpost">
                     <p>Just bumped into <a href="https://marijn.uk">Marijn's website</a>, who, in his linkroll, recommended <a href="https://afterthetone.com">After The Tone</a>. It's truely genius. I bet it took them a lot of work to create that site :)</p>
                 </section>
 
