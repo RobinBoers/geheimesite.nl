@@ -13,7 +13,7 @@
         <script defer src="/js/bookshelves.js"></script>
         <script defer src="/js/menu.js"></script>
 
-        <link rel="alternate" hreflang="en" href="https://geheimesite.nl/en/about.php" />
+        <link rel="alternate" hreflang="en" href="https://geheimesite.nl/en/books.php" />
 
         <style>
             .project-grid li a img {
