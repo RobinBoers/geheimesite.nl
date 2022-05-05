@@ -44,6 +44,8 @@
                     <li><a href="/en/projects.php">Projects</a></li>
                     <li><a href="/en/books.php">Books</a></li>
                     <li><a href="/hyperfeed.php">Hyperfeed</a></li>
+                    <li><a href="https://micro.geheimesite.nl">Neolog</a></li>
+                    <li><a href="https://github.com/RobinBoers">GitHub</a></li>
                     <li><a href="https://blog.geheimesite.nl/en">Blog</a></li>
                 </ul>
             </nav>
@@ -160,7 +162,7 @@
                         <div class="flex">
                             <span class="properties">
                                 <span class="dt-published hidden"></span>
-                                <a class="featured-post-date icon u-url" href="#">23 days ago</a>
+                                <a class="featured-post-date icon u-url" href="#"></a>
                             </span>
                         </div>
                         <div id="featured-post-tags" class="flex gap-1 tags"></div>
@@ -173,7 +175,7 @@
                 </div>
             </div>
             <div class="microblog">
-                <h2 class="text-center">Recente posts</h2>
+                <h2 class="text-center">Recent posts</h2>
 
                 <script type="text/javascript" src="https://micro.blog/sidebar.js?username=Robijntje&count=5"></script>
             </div>

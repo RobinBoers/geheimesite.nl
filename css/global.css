@@ -445,28 +445,25 @@
     .hyperfeed .hyperpost:nth-child(10n + 9) {
         margin-left: 32px;
     }
-}
 
-.microblog_timeline {
-    @apply max-w-[600px] mx-auto;
-}
+    .microblog_timeline {
+        @apply max-w-[600px] mx-auto;
+    }
+    
+    .microblog_post {
+        @apply rounded-md p-2 bg-vibrant/20 dark:bg-slate/70 shadow-md my-3;
+    }
+    
+    .microblog_post p {
+        @apply mb-1;
+    }
+    
+    .microblog_time {
+        @apply text-[15px];
+    }
 
-.microblog_post {
-    @apply rounded-md p-2 bg-vibrant/20 dark:bg-slate/70 shadow-md my-3;
-}
-
-.microblog_post p {
-    @apply mb-1;
-}
-
-.microblog_time {
-    @apply text-[15px];
-}
-
-.featured {
-    display: grid;
-    grid-template-columns: 65% 35%;
-    max-width: 70rem;
-    margin: 0 auto;
-    gap: 10px;
+    .featured {
+        @apply mt-10 xl:grid max-w-[70rem] mx-auto gap-[10px];
+        grid-template-columns: 65% 35%;
+    }
 }

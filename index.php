@@ -44,6 +44,8 @@
                     <li><a href="/projecten.php">Projecten</a></li>
                     <li><a href="/boeken.php">Boeken</a></li>
                     <li><a href="/hyperfeed.php">Hyperfeed</a></li>
+                    <li><a href="https://micro.geheimesite.nl">Neolog</a></li>
+                    <li><a href="https://github.com/RobinBoers">GitHub</a></li>
                     <li><a href="https://blog.geheimesite.nl">Blog</a></li>
                 </ul>
             </nav>
@@ -163,8 +165,8 @@
 
         <article class="featured">
             <div class="featured-post">
-                <h2>Featured post</h2>
-                <div class="rounded-md p-6 bg-vibrant/20 dark:bg-slate/70 shadow-md my-5 max-w-[52rem] mx-auto">
+                <h2>Nieuwste post</h2>
+                <div class="rounded-md p-6 bg-vibrant/20 dark:bg-slate/70 shadow-md my-5 section xl:max-w-[52rem] mx-auto">
                     <div class="flex flex-row justify-between items-center">
                         <div rel="author" class="flex items-center gap-5 p-author h-card">
                             <img class="u-photo" src="https://geheimesite.nl/images/me.jpeg" alt="Robin Boers" id="author-img">
@@ -196,7 +198,7 @@
                         <div class="flex">
                             <span class="properties">
                                 <span class="dt-published hidden"></span>
-                                <a class="featured-post-date icon u-url" href="#">23 days ago</a>
+                                <a class="featured-post-date icon u-url" href="#"></a>
                             </span>
                         </div>
                         <div id="featured-post-tags" class="flex gap-1 tags"></div>
@@ -212,6 +214,7 @@
                 <h2 class="text-center">Recente berichten</h2>
 
                 <script type="text/javascript" src="https://micro.blog/sidebar.js?username=Robijntje&count=5"></script>
+                <div class="microblog_timeline microblog_post microblog_time" hidden><!-- force tailwind to include microblog_ classes --></div>
             </div>
         </article>
 
