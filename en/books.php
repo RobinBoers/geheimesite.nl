@@ -10,7 +10,6 @@
         <script src="/js/plain-mode.js"></script>
 
         <link rel="stylesheet" href="/css/main.css" title="default" />
-        <script defer src="/js/bookshelves.js"></script>
         <script defer src="/js/menu.js"></script>
 
         <link rel="alternate" hreflang="nl" href="https://geheimesite.nl/boeken.php" />
@@ -75,7 +74,8 @@
                 <ul class="finished project-grid"></ul>
 
                 <hr class="my-7 border-none">
-                
+
+                <script src="/js/bookshelves.js"></script>                
             </article>
         </main>
 

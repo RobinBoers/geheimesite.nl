@@ -10,7 +10,6 @@
         <script src="/js/plain-mode.js"></script>
         
         <link rel="stylesheet" href="/css/main.css" title="default" />
-        <script defer src="/js/github.js"></script>
         <script defer src="/js/menu.js"></script>
 
         <link rel="alternate" hreflang="en" href="https://geheimesite.nl/en/projects.php" />
@@ -47,7 +46,9 @@
                     </p>
                 </section>
 
-                <ul class="github-projects project-grid"></ul>
+                <ul class="github-projects project-grid">
+                    <script src="/js/github.js"></script>
+                </ul>
 
                 <hr class="my-7 border-none">
 

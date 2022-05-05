@@ -10,6 +10,7 @@
         <script src="/js/plain-mode.js"></script>
 
         <link rel="stylesheet" href="/css/main.css" title="default" />
+        <link rel="stylesheet" href="https://blog.geheimesite.nl/css/feed.css" title="default" />
         <script defer src="/js/menu.js"></script>
 
         <link rel="alternate" hreflang="nl" href="https://geheimesite.nl/index.php" />
@@ -123,6 +124,60 @@
                 </ul>
             </article>
         </main>
+
+        <article class="featured">
+            <div class="featured-post">
+                <h2>Featured post</h2>
+                <div class="rounded-md p-6 bg-vibrant/20 dark:bg-slate/70 shadow-md my-5 max-w-[52rem] mx-auto">
+                    <div class="flex flex-row justify-between items-center">
+                        <div rel="author" class="flex items-center gap-5 p-author h-card">
+                            <img class="u-photo" src="https://geheimesite.nl/images/me.jpeg" alt="Robin Boers" id="author-img">
+                            <div>
+                                <p rel="me" class="p-name font-bold m-0" id="author-name">Robin Boers</p>
+                                <p class="featured-post-date m-0"></p>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <a class="featured-post-link icon u-url" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bookmark">
+                                    <path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <article class="md p-summary e-content">
+                        <h1 class="p-name">
+                            <a class="featured-post-link no-underline hover:bg-vibrant" href="#" id="featured-post-title"></a>
+                        </h1>
+                        <p id="featured-post-summary"></p>
+                        <div id="open">
+                            <a href="#" class="properties featured-post-link">
+                                <strong>[ read more ]</strong>
+                            </a>
+                        </div>
+                    </article>
+                    <div class="flex flex-row justify-between items-center pt-3 properties">
+                        <div class="flex">
+                            <span class="properties">
+                                <span class="dt-published hidden"></span>
+                                <a class="featured-post-date icon u-url" href="#">23 days ago</a>
+                            </span>
+                        </div>
+                        <div id="featured-post-tags" class="flex gap-1 tags"></div>
+                    </div>
+
+                    <script>
+                        const base_url = "https://blog.geheimesite.nl/en";
+                    </script>
+                    <script src="/js/featured-post.js"></script>
+                </div>
+            </div>
+            <div class="microblog">
+                <h2 class="text-center">Recente posts</h2>
+
+                <script type="text/javascript" src="https://micro.blog/sidebar.js?username=Robijntje&count=5"></script>
+            </div>
+        </article>
 
         <footer class="page-footer">
             &copy;
