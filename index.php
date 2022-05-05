@@ -198,7 +198,7 @@
                         <div class="flex">
                             <span class="properties">
                                 <span class="dt-published hidden"></span>
-                                <a class="featured-post-date icon u-url" href="#"></a>
+                                <a class="featured-post-date featured-post-link icon u-url" href="#"></a>
                             </span>
                         </div>
                         <div id="featured-post-tags" class="flex gap-1 tags"></div>

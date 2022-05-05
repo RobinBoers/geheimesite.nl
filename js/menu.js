@@ -20,7 +20,7 @@ function resize() {
 function toggleMenu() {
     switch (menu.style.height) {
         case "0px":
-            menu.style.height = "310px";
+            menu.style.height = "347px";
             break;
         default:
             menu.style.height = 0;
