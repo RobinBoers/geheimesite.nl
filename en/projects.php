@@ -90,15 +90,20 @@
                         </a>
                     </li>
                     <li>
-                        <h3>Stupid Codes</h3>
-                        <a href="https://stupidstuffwastaken.blogspot.com" target="_blank">
-                            <img src="/images/websites/stupid-codes.png" alt="Stupid Codes">
+                        <h3>Neolog</h3>
+                        <a href="https://micro.geheimesite.nl" target="_blank">
+                            <img src="https://raw.githubusercontent.com/RobinBoers/neopub/master/screenshot.png" alt="Stupid Codes">
                         </a>
                     </li>
                     <li>
                         <h3>Webdevelopment-En-Meer</h3>
-                        <a href="https://webdevelopment-en-meer.blogspot.com" target="_blank">
-                            <img src="/images/websites/webdevelopment-en-meer.png" alt="Webdevelopment-En-Meer">
+                        <a href="https://blog.geheimesite.nl" target="_blank">
+                            
+                            <picture>
+                                <source srcset="/images/websites/webdevelopment-en-meer.png" media="(prefers-color-scheme: dark)">
+                                <img src="/images/websites/webdevelopment-en-meer-dark.png" alt="Webdevelopment-En-Meer">
+                            </picture>
+
                         </a>
                     </li>
                     <li>

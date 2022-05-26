@@ -33,6 +33,8 @@ function generateBlacklist() {
         "nindo-website",
         "vscode-elementary-theme",
         "yesterblog",
+        "images",
+        "sterrenkruid",
         ""
     ];
 }
