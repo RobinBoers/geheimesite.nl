@@ -92,7 +92,7 @@
                     <li>
                         <h3>Neolog</h3>
                         <a href="https://micro.geheimesite.nl" target="_blank">
-                            <img src="https://raw.githubusercontent.com/RobinBoers/neopub/master/screenshot.png" alt="Stupid Codes">
+                            <img src="/images/websites/neolog.png" alt="Neolog">
                         </a>
                     </li>
                     <li>
