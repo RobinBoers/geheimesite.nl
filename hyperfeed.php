@@ -146,7 +146,6 @@
                         <li><a class="external" data-weight="6" href="https://wsmz.gay">wsmz.gay</a></li>
                         <li><a class="external" data-weight="9" href="https://satyrs.eu">satyrs.eu</a></li>
                         <li><a class="external" data-weight="5" href="https://simone.computer">simone.computer</a></li>
-                        <li><a class="external" data-weight="8" href="https://www.dandevri.es">dandevri.es</a></li>
                         <li><a class="external" data-weight="2" href="https://doubleloop.net">doubleloop.net</a></li>
                         <li><a class="external" data-weight="9" href="https://seblog.nl">seblog.nl</a></li>
                         <li><a class="external" data-weight="4" href="https://keeri.neocities.org">keeri.neocities.org</a></li>
@@ -177,6 +176,7 @@
                         <li><a class="external" data-weight="8" href="https://tonsky.me">tonsky.me</a></li>
                         <li><a class="external" data-weight="9" href="https://rehanbutt.com">rehanbutt.com</a></li>
                         <li><a class="external" data-weight="7" href="https://samkirkland.com">samkirkland.com</a></li> 
+                        <li><a class="external" data-weight="8" href="https://www.dandevri.es">dandevri.es</a></li>
                         <li><a class="external" data-weight="9" href="https://himatt.com">himatt.com</a></li>
                         <li><a class="external" data-weight="5" href="http://www.dennisknopf.net">www.dennisknopf.net</a></li>
                         <li><a class="external" data-weight="6" href="https://inhji.de">inhji.de</a></li>
