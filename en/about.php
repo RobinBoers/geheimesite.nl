@@ -38,7 +38,7 @@
                     <section class="lg:mr-0">
                         <h1>About me</h1>
                         <p>
-                            Hi, my name is Robin. I was born 15 years ago in Vlaardingen, Netherlands and currently live in Maassluis. I love to thinker with code and I currently work at Qdentity. This site is a place for me to showcase my projects. I also have a <a href="https://blog.geheimesite.nl/en">blog</a> about programming, webdevelopment and other cool shit.
+                            Hi, my name is Robin. I was born 15 years ago in Vlaardingen, Netherlands but I have lived in Maassluis for my entire life. I love to thinker with code and I currently work at Qdentity. This site is a place for me to showcase my projects. I also have a <a href="https://blog.geheimesite.nl/en">blog</a> where I write about programming, webdevelopment and other cool shit.
                         </p>
                     </section>
                     <img class="w-full h-60 mb-5 lg:rotate-1 rounded-xl aspect-square object-cover object-right-top lg:mb-0 lg:h-fit lg:w-1/5" src="/images/me.jpeg" alt="Dit ben ik.">
@@ -46,7 +46,7 @@
 
                 <section>
                     <p>
-                        I also play handball and I have a <a href="https://www.youtube.com/channel/UCx4li1iMygs5KtqgcU5KGRw">YouTube channel</a>, where I make videos about programming, video-editing, computers and a lot of other cool shit.<br />
+                        I also play handball and I have a <a href="https://www.youtube.com/channel/UCx4li1iMygs5KtqgcU5KGRw">YouTube channel</a>, where I make videos about programming, video-editing, computers and a lot of other cool things.<br />
                         I also have a <a href="https://github.com/RobinBoers">GitHub account</a> where most of my projects are hosted under open-source licenses.
                     </p>
                 </section>
@@ -60,7 +60,7 @@
                 <section>
                     <h2>How I learned programming</h2>
                     <p>
-                        I've been coding since I was 10 years old (2017). It started with a book I found at the library about making websites. You have to know I've been a computer nerd since like forever, and knew what almost every button in Windows did. The book was titled <a href="https://www.nano-tips.com/">Creeëren met code: Zo maak je een website</a>, which is Dutch for "Creating with code: How to build a website". So I built my first website, that I launched end-2017. I've saved backups of how my website developed, which you can check out in my <a href="library/website/overview.php">Website Library</a>. Be warned: it is cringe and Dutch.
+                        I've been coding since I was 10 years old (2017). It started with a book I found at the library about making websites. You have to know I've been a computer nerd since like forever, and knew what almost every button in Windows did. The book was titled <a href="https://www.nano-tips.com/">Creeëren met code: Zo maak je een website</a>, which is Dutch for "Creating with code: How to build a website". So I built my first website, that I launched end-2017. I've saved backups of early iterations of my website, which you can check out in my <a href="library/website/overview.php">Website Library</a>. Be warned: it is cringe and Dutch.
                     </p>
 
                 <!-- <div class="flex flex-col lg:flex-row-reverse items-center">   -->
@@ -72,7 +72,7 @@
                         I'm currently learning Linux, Elixir and Phoenix LiveView. I regularly post updates on my blog about what I make, learn and do. I'm always trying to learn new things.
                     </p>
                     <p>
-                        I host my website at <a href="https://www.bhosted.nl?ref=97f4c4a4b13e269e12cfd4f0352ba527">bHosted</a>. I pay about 30 euro per year for my webhosting. I've also built sites for <a href="http://www.groendoenerij.nl">my father</a>, <a href="https://jokessterrenkruid.blogspot.com">my grandmother</a>, <a href="https://thesisevelineboers.blogspot.com/">my mother</a>
+                        I host my website at <a href="https://www.bhosted.nl?ref=97f4c4a4b13e269e12cfd4f0352ba527">bHosted</a>. I pay about 30 euros per year for my webhosting. I've also built sites for <a href="http://www.groendoenerij.nl">my father</a>, <a href="https://jokessterrenkruid.blogspot.com">my grandmother</a>, <a href="https://thesisevelineboers.blogspot.com/">my mother</a>
                         and <a href="https://hvm-oldscool.nl">my grandfather</a>
                         (now only my sister is left 🙈)
                     </p>
@@ -100,7 +100,6 @@
                 </section>
 
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39365.680571004195!2d4.218705347976204!3d51.9274773547032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6be6c29b13c1f%3A0xd6195a4cc083b47a!2sMaassluis!5e0!3m2!1snl!2snl!4v1571501037238!5m2!1snl!2snl" class="my-10 border-0 w-full h-60 grayscale contrast-125 pointer-events-none" allowfullscreen></iframe>
-                
             </article>
         </main>
 

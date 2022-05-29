@@ -110,7 +110,6 @@
                 </section>
 
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39365.680571004195!2d4.218705347976204!3d51.9274773547032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6be6c29b13c1f%3A0xd6195a4cc083b47a!2sMaassluis!5e0!3m2!1snl!2snl!4v1571501037238!5m2!1snl!2snl" class="my-10 border-0 w-full h-60 grayscale contrast-125 pointer-events-none" allowfullscreen></iframe>
-                
             </article>
         </main>
 
