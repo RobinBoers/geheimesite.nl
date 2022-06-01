@@ -152,6 +152,8 @@
                         <li><a class="external" data-weight="6" href="https://seapunk.xyz">seapunk.xyz</a></li>
                         <li><a class="external" data-weight="2" href="https://sentamal.in">sentamal.in</a></li>
                         <li><a class="external" data-weight="4" href="https://warpzone.site">warpzone.site</a></li>
+                        <li><a class="external" data-weight="9" href="https://degenerates.neocities.org">degenerates.neocities.org</a></li>
+                        <li><a class="external" data-weight="7" href="https://0shame.neocities.org">0shame.neocities.org</a></li>
                         <li><a class="external" data-weight="4" href="https://distantskies.neocities.org">distantskies.neocities.org</a></li>
                         <li><a class="external" data-weight="4" href="https://www.skytopia.com">www.skytopia.com</a></li>
                         <li><a class="external" data-weight="3" href="https://irkeneon.neocities.org">irkeneon.neocities.org</a></li>
@@ -175,7 +177,8 @@
                         <li><a class="external" data-weight="3" href="https://jeena.net">jeena.net</a></li>
                         <li><a class="external" data-weight="8" href="https://tonsky.me">tonsky.me</a></li>
                         <li><a class="external" data-weight="9" href="https://rehanbutt.com">rehanbutt.com</a></li>
-                        <li><a class="external" data-weight="7" href="https://samkirkland.com">samkirkland.com</a></li> 
+                        <li><a class="external" data-weight="7" href="https://samkirkland.com">samkirkland.com</a></li>
+                        <li><a class="external" data-weight="8" href="https://thoughts.melonking.net">thoughts.melonking.net</a></li> 
                         <li><a class="external" data-weight="8" href="https://www.dandevri.es">dandevri.es</a></li>
                         <li><a class="external" data-weight="9" href="https://himatt.com">himatt.com</a></li>
                         <li><a class="external" data-weight="5" href="http://www.dennisknopf.net">www.dennisknopf.net</a></li>
