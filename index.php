@@ -10,7 +10,6 @@
         <script src="/js/plain-mode.js"></script>
         
         <link rel="stylesheet" href="/css/main.css" title="default" />
-        <link rel="stylesheet" href="https://blog.geheimesite.nl/css/feed.css" title="default" />
         <script defer src="/js/menu.js"></script>
 
         <link rel="alternate" hreflang="en" href="https://geheimesite.nl/en/index.php" />
@@ -70,7 +69,7 @@
                         <p>
                             More about me: people sometimes call me <span class="u-nickname">Robijntje</span> and I live in the <span class="p-region">Netherlands</span>. I currently work at <span class="p-org">Qdentity</span> as <span class="p-job-title">Junior Developer</span>. You can find me and my projects at <a href="https://geheimesite.nl/" rel="me" class="u-url">geheimesite.nl</a>. If you need to reach me you can contact me at <span class="u-email">robin@geheimesite.nl</span>.
                         </p>
-                        <img src="https://geheimesite.nl/images/me.jpeg" alt="Robin Boers" class="u-photo" />
+                        <img src="/images/me.jpeg" alt="Robin Boers" class="u-photo" />
                     </div>
                 </section>
                 <img class="hidden absolute top-[80px] right-[-350px] lg:block xl:static w-full pixelart max-w-sm" src="/images/robin_pixelart.png" alt="Pixel art picture of me" />
@@ -125,98 +124,62 @@
                     </li>
                 </ul>
             </article>
-        </main>
 
-        <!-- <script type="text/javascript" src="https://micro.blog/sidebar.js?username=Robijntje"></script> -->
+            <article class="badges hidden" hidden>
+                <h2 class="hidden">Wall of badges</h2>
+                <img src="/images/badges/sucks2.gif" alt="This site SUCKS!" />
+                <a href="https://theoldnet.com/#frombadge">
+                    <img src="https://theoldnet.com/images/theoldnetanimblur2.gif" alt="The Old Net" />
+                </a>
+                <a href="https://neocities.com">
+                    <img src="/images/badges/neocitiesbutton.gif" alt="Neocities" />
+                </a>
+                <img src="/images/badges/wwwbutton.gif" alt="The World Wide Web" />
+                <img src="/images/badges/invalidator.png" alt="This is invalid HTML" />
+                <img src="/images/badges/best_viewed_with_eyes.gif" alt="This site is best viewed using eyes" />
+                <a href="https://yesterweb.org/no-to-web3/">
+                    <img src="/images/badges/noweb32.gif" alt="Keep the web free, stop web3" />
+                </a>
+                <a href="https://neocities.com">
+                    <img src="/images/badges/neocities_button.gif" alt="Neocities" />
+                </a>
+                <img src="https://www.w3.org/html/logo/downloads/HTML5_sticker.svg" alt="HTML5 FTW!" />
+                <img src="https://www.w3.org/Icons/valid-svg12" alt="This is a valid SVG" />
+                <img src="https://www.w3.org/Icons/valid-css2-blue" alt="This is built using valid CSS" />
+                <img src="/images/badges/nft.gif" alt="NFT? No fucking thanks." />
+                <img src="https://www.w3.org/Icons/SVG/Buttons/svg-w3c-orange.svg" alt="W3C SVG" />
+                <img src="/images/badges/GeoCitiesBadge2.gif" alt="Geocities" />
+                <a href="http://www.hat.net/abs/noclick/" >
+                    <img src="/images/badges/noclick.gif" alt="Dont click here!" title="Dont click here!" />
+                </a>
+                <img src="/images/badges/didnt-ask.gif" alt="When. Did. I. Ask. " />
+            </article>
 
-        <article class="badges hidden" hidden>
-            <h2 class="hidden">Wall of badges</h2>
-            <img src="/images/badges/sucks2.gif" alt="This site SUCKS!" />
-            <a href="https://theoldnet.com/#frombadge">
-                <img src="https://theoldnet.com/images/theoldnetanimblur2.gif" alt="The Old Net" />
-            </a>
-            <a href="https://neocities.com">
-                <img src="/images/badges/neocitiesbutton.gif" alt="Neocities" />
-            </a>
-            <img src="/images/badges/wwwbutton.gif" alt="The World Wide Web" />
-            <!-- <img src="https://www.w3.org/2005/11/MWI-Icons/W3C-MWI.png" alt="W3C Mobile Web Initiative" /> -->
-            <img src="/images/badges/invalidator.png" alt="This is invalid HTML" />
-            <!-- <img src="https://validator.w3.org/images/valid_icons/valid-html40" alt="This is valid HTML" /> -->
-            <img src="/images/badges/best_viewed_with_eyes.gif" alt="This site is best viewed using eyes" />
-            <a href="https://yesterweb.org/no-to-web3/">
-                <img src="/images/badges/noweb32.gif" alt="Keep the web free, stop web3" />
-            </a>
-            <a href="https://neocities.com">
-                <img src="/images/badges/neocities_button.gif" alt="Neocities" />
-            </a>
-            <img src="https://www.w3.org/html/logo/downloads/HTML5_sticker.svg" alt="HTML5 FTW!" />
-            <!-- <img src="https://validator.w3.org/images/v15445" alt="ISO/IEC 15445" /> -->
-            <img src="https://www.w3.org/Icons/valid-svg12" alt="This is a valid SVG" />
-            <img src="https://www.w3.org/Icons/valid-css2-blue" alt="This is built using valid CSS" />
-            <img src="/images/badges/nft.gif" alt="NFT? No fucking thanks." />
-            <img src="https://www.w3.org/Icons/SVG/Buttons/svg-w3c-orange.svg" alt="W3C SVG" />
-            <img src="/images/badges/GeoCitiesBadge2.gif" alt="Geocities" />
-            <a href="http://www.hat.net/abs/noclick/" >
-                <img src="/images/badges/noclick.gif" alt="Dont click here!" title="Dont click here!" />
-            </a>
-            <!-- <img src="https://www.w3.org/2005/11/MWI-Icons/mobileOK.png" alt="This site is Mobile OK" /> -->
-            <img src="/images/badges/didnt-ask.gif" alt="When. Did. I. Ask. " />
-        </article>
-
-        <article class="featured">
-            <div class="featured-post">
-                <h2>Nieuwste post</h2>
-                <div class="rounded-md p-6 bg-vibrant/20 dark:bg-slate/70 shadow-md my-5 section xl:max-w-[52rem] mx-auto">
-                    <div class="flex flex-row justify-between items-center">
-                        <div rel="author" class="flex items-center gap-5 p-author h-card">
-                            <img class="u-photo" src="https://geheimesite.nl/images/me.jpeg" alt="Robin Boers" id="author-img">
-                            <div>
-                                <p rel="me" class="p-name font-bold m-0" id="author-name">Robin Boers</p>
-                                <p class="featured-post-date m-0"></p>
-                            </div>
-                        </div>
-                        <div class="flex">
-                            <a class="featured-post-link icon u-url" href="#">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bookmark">
-                                    <path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"></path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                    <article class="md p-summary e-content">
-                        <h1 class="p-name">
-                            <a class="featured-post-link no-underline hover:bg-vibrant" href="#" id="featured-post-title"></a>
-                        </h1>
-                        <p id="featured-post-summary"></p>
-                        <div id="open">
+            <article class="featured">
+                <div class="featured-post">
+                    <h2>Nieuwste post</h2>
+                    <div class="h-entry">
+                        <article class="md p-summary e-content">
+                            <h1 class="p-name mb-0">
+                                <a class="featured-post-link no-underline hover:bg-vibrant" href="#" id="featured-post-title"></a>
+                            </h1>
+                            <p class="italic">
+                                Geschreven door <span class="p-author">Robin Boers</span> op <span class="dt-published featured-post-date"></span>
+                            </p>
+                            <p id="featured-post-summary"></p>
                             <a href="#" class="properties featured-post-link">
                                 <strong>[ read more ]</strong>
                             </a>
-                        </div>
-                    </article>
-                    <div class="flex flex-row justify-between items-center pt-3 properties">
-                        <div class="flex">
-                            <span class="properties">
-                                <span class="dt-published hidden"></span>
-                                <a class="featured-post-date featured-post-link icon u-url" href="#"></a>
-                            </span>
-                        </div>
-                        <div id="featured-post-tags" class="flex gap-1 tags"></div>
+                        </article>
+
+                        <script>
+                            const base_url = "https://blog.geheimesite.nl";
+                        </script>
+                        <script src="/js/featured-post.js"></script>
                     </div>
-
-                    <script>
-                        const base_url = "https://blog.geheimesite.nl";
-                    </script>
-                    <script src="/js/featured-post.js"></script>
                 </div>
-            </div>
-            <div class="microblog">
-                <h2 class="text-center">Recente berichten</h2>
-
-                <script type="text/javascript" src="https://micro.blog/sidebar.js?username=Robijntje&count=5"></script>
-                <div class="microblog_timeline microblog_post microblog_time" hidden><!-- force tailwind to include microblog_ classes --></div>
-            </div>
-        </article>
+            </article>
+        </main>
 
         <script>
             /* Only display wall of badges when it is april fools */

@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Fira+Sans+Condensed:ital,wght@1,200&family=Merriweather&family=Poppins:wght@600&display=swap");
 
+:root {
+    --black: 13, 43, 69; /* #0d2b45 */
+    --white: 255, 236, 214; /* #ffecd6 */
+    --vibrant: 255, 170, 94; /* #ffaa5e */
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -447,23 +453,34 @@
     }
 
     .microblog_timeline {
-        @apply max-w-[600px] mx-auto;
+        @apply max-w-[600px];
     }
-    
+
     .microblog_post {
-        @apply rounded-md p-2 bg-vibrant/20 dark:bg-slate/70 shadow-md my-3;
+        @apply rounded-md p-2 dark:bg-slate/70 my-3;
+        /* @apply rounded-md p-2 bg-vibrant/20 dark:bg-slate/70 shadow-md my-3; */
     }
-    
+
     .microblog_post p {
         @apply mb-1;
     }
-    
+
     .microblog_time {
         @apply text-[15px];
     }
 
     .featured {
-        @apply mt-10 xl:grid max-w-[70rem] mx-auto gap-[10px];
+        @apply mt-20;
         grid-template-columns: 65% 35%;
+    }
+
+    .featured p {
+        @apply md:max-w-md lg:max-w-xl;
+    }
+
+    .p-name a {
+        color: inherit !important;
+        background-color: inherit !important;
+        text-decoration: none !important;
     }
 }

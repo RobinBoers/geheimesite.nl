@@ -1,45 +1,21 @@
+function withOpacityValue(variable) {
+    return ({ opacityValue }) => {
+        if (opacityValue === undefined) {
+            return `rgb(var(${variable}))`;
+        }
+        return `rgba(var(${variable}), ${opacityValue})`;
+    };
+}
+
 module.exports = {
     mode: "jit",
-    content: ["./*.{php,html,js,shtml}", "./js/*.js", "./library/projects/package/*.{php,html}", "./library/website/overview.php"],
+    content: ["./*.{php,html,js,shtml}", "./en/*.{php,html,js,shtml}", "./js/*.js", "./library/projects/package/*.{php,html}", "./library/website/overview.php"],
     theme: {
         colors: {
             slate: "#111121",
-
-            // Trying
-
-            // Real options
-
-            // black: "#222323",
-            // white: "#f0f0f6",
-            // vibrant: " #ff5730",
-
-            // black: "#7b4255",
-            // white: "#e6d3b9",
-            // vibrant: "#ea9971",
-
-            // black: "#253657",
-            // white: "#e6d3b9",
-            // vibrant: "#e76d8a",
-
-            // black: "#131324",
-            // white: "#f5fff3",
-            // vibrant: "#5ab9a8",
-
-            // black: "#314e52",
-            // white: "#f3f3f3",
-            // vibrant: "#f2a154",
-
-            black: "#0d2b45",
-            white: "#ffecd6",
-            vibrant: "#ffaa5e",
-
-            // HMMM
-
-            // very good on light mode, but dark mode meh
-            // white: "#ffffd9",
-            // black: "#00334d",
-            // vibrant: "#bf0a0d",
-
+            black: withOpacityValue("--black"),
+            white: withOpacityValue("--white"),
+            vibrant: withOpacityValue("--vibrant"),
             transparent: "transparent",
             current: "currentColor",
         },
@@ -65,3 +41,4 @@ module.exports = {
         preflight: false,
     },
 };
+//#24b9c4
