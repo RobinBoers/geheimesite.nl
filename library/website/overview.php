@@ -20,9 +20,9 @@
             <img src="/images/menu.svg" alt="menu button" class="menu-button" hidden />
             <nav>
                 <ul class="menu">
-                    <li><a href="/index.php">Home</a></li>
-                    <li><a href="/over-mij.php">Over mij</a></li>
-                    <li><a href="/projecten.php">Projecten</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/over-mij">Over mij</a></li>
+                    <li><a href="/projecten">Projecten</a></li>
                     <li><a href="https://blog.geheimesite.nl">Blog</a></li>
                 </ul>
             </nav>

@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="/css/main.css" title="default" />
         <script defer src="/js/menu.js"></script>
 
-        <link rel="alternate" hreflang="nl" href="https://geheimesite.nl/boeken.php" />
+        <link rel="alternate" hreflang="nl" href="https://geheimesite.nl/boeken" />
 
         <style>
             .project-grid li a img {
@@ -29,9 +29,9 @@
 
             <nav>
                 <ul class="menu">
-                    <li><a href="/en/index.php">Home</a></li>
-                    <li><a href="/en/about.php">About me</a></li>
-                    <li><a href="/en/projects.php">Projects</a></li>
+                    <li><a href="/en/">Home</a></li>
+                    <li><a href="/en/about">About me</a></li>
+                    <li><a href="/en/projects">Projects</a></li>
                     <li class="selected">Books</li>
                     <li><a href="https://blog.geheimesite.nl/en">Blog</a></li>
                 </ul>

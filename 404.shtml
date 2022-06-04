@@ -19,7 +19,7 @@
                 <h1>Oeps! Een <code class="bold text-7xl">404</code>.</h1>
                 <p>
                     Helaas is de webpagina die je zoekt opgegeten... <br/>
-                    <a href="/index.php">Terug naar de homepage</a>
+                    <a href="/">Terug naar de homepage</a>
                 </p>
             </div>
         </main>

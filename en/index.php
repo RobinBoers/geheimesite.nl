@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="/css/main.css" title="default" />
         <script defer src="/js/menu.js"></script>
 
-        <link rel="alternate" hreflang="nl" href="https://geheimesite.nl/index.php" />
+        <link rel="alternate" hreflang="nl" href="https://geheimesite.nl/" />
         <link rel="alternate" type="application/rss+xml" title="Webdevelopment-En-Meer" href="https://blog.geheimesite.nl/index.xml" />
         <link rel="alternate" type="application/rss+xml" title="That Crazy Webdev" href="https://blog.geheimesite.nl/en/index.xml" />
         <link rel="alternate" type="application/rss+xml" title="Notes (Micro.blog)" href="https://blog.geheimesite.nl/notes/index.xml" />
@@ -39,9 +39,9 @@
 
                 <ul class="menu">
                     <li class="selected">Home</li>
-                    <li><a href="/en/about.php">About me</a></li>
-                    <li><a href="/en/projects.php">Projects</a></li>
-                    <li><a href="/en/books.php">Books</a></li>
+                    <li><a href="/en/about">About me</a></li>
+                    <li><a href="/en/projects">Projects</a></li>
+                    <li><a href="/en/books">Books</a></li>
                     <li><a href="/hyperfeed.php">Hyperfeed</a></li>
                     <li><a href="https://micro.geheimesite.nl">Neolog</a></li>
                     <li><a href="https://github.com/RobinBoers">GitHub</a></li>
@@ -57,7 +57,7 @@
 
                     <p>I'm webdesigner, Elixir programmer and teenager. I'm 15 years old and live in the Netherlands. Welcome to my website! This is like my personal playground, my little corner of the web. I post my projects like games, websites and apps here and I also regularly post to <a href="https://blog.geheimesite.nl/en">my blog</a>. </p>
 
-                    <p>Wanna know more about me? Check the <a href="/over-mij.php">about me</a> page. If yoy want to see my work you can take a look at the <a href="/projecten.php">projects</a> page. If you're mostly interested in the code, check my <a href="https://github.com/RobinBoers">GitHub profile</a>.</p>
+                    <p>Wanna know more about me? Check the <a href="/en/about">about me</a> page. If yoy want to see my work you can take a look at the <a href="/en/projects">projects</a> page. If you're mostly interested in the code, check my <a href="https://github.com/RobinBoers">GitHub profile</a>.</p>
 
                     <p><a href="../" hreflang="nl">I wanna speak dutch again</a></p>
 

@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="/css/main.css" title="default" />
         <script defer src="/js/menu.js"></script>
 
-        <link rel="alternate" hreflang="nl" href="https://geheimesite.nl/over-mij.php" />
+        <link rel="alternate" hreflang="nl" href="https://geheimesite.nl/over-mij" />
     </head>
     <body>
         <a class="skip-nav" href="#content">Skip navigation</a>
@@ -23,10 +23,10 @@
 
             <nav>
                 <ul class="menu">
-                    <li><a href="/en/index.php">Home</a></li>
+                    <li><a href="/en/">Home</a></li>
                     <li class="selected">About me</li>
-                    <li><a href="/en/projects.php">Projects</a></li>
-                    <li><a href="/en/books.php">Books</a></li>
+                    <li><a href="/en/projects">Projects</a></li>
+                    <li><a href="/en/books">Books</a></li>
                     <li><a href="https://blog.geheimesite.nl/en">Blog</a></li>
                 </ul>
             </nav>

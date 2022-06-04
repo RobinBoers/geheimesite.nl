@@ -26,7 +26,7 @@
             <p class="title"><a href="/">Robin Boers</a></p>
 
             <nav>
-                <a href="/en/index.php">❮ Back</a>
+                <a href="/en/">❮ Back</a>
             </div>
         </header>
 

@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="/css/main.css" title="default" />
         <script defer src="/js/menu.js"></script>
 
-        <link rel="alternate" hreflang="en" href="https://geheimesite.nl/en/index.php" />
+        <link rel="alternate" hreflang="en" href="https://geheimesite.nl/en/" />
         <link rel="alternate" type="application/rss+xml" title="Webdevelopment-En-Meer" href="https://blog.geheimesite.nl/index.xml" />
         <link rel="alternate" type="application/rss+xml" title="That Crazy Webdev" href="https://blog.geheimesite.nl/en/index.xml" />
         <link rel="alternate" type="application/rss+xml" title="Notes (Micro.blog)" href="https://blog.geheimesite.nl/notes/index.xml" />
@@ -39,10 +39,10 @@
 
                 <ul class="menu">
                     <li class="selected">Home</li>
-                    <li><a href="/over-mij.php">Over mij</a></li>
-                    <li><a href="/projecten.php">Projecten</a></li>
-                    <li><a href="/boeken.php">Boeken</a></li>
-                    <li><a href="/hyperfeed.php">Hyperfeed</a></li>
+                    <li><a href="/over-mij">Over mij</a></li>
+                    <li><a href="/projecten">Projecten</a></li>
+                    <li><a href="/boeken">Boeken</a></li>
+                    <li><a href="/hyperfeed">Hyperfeed</a></li>
                     <li><a href="https://micro.geheimesite.nl">Neolog</a></li>
                     <li><a href="https://github.com/RobinBoers">GitHub</a></li>
                     <li><a href="https://blog.geheimesite.nl">Blog</a></li>
@@ -57,7 +57,7 @@
 
                     <p>Ik ben webdesigner, Elixir programmeur en tiener. Ik ben 15 jaar oud en ik woon in Maassluis. Welkom op mijn website! Dit is zeg maar een soort van mijn persoonlijke speeltuin. Ik plaats hier mijn projecten zoals games, websites en apps. <!--Je vind sinds kort hier ook mijn blog, al kan je het ook nog steeds op Blogger vinden.--></p>
 
-                    <p>Wil je meer over mij weten? Check dan de <a href="/over-mij.php">over mij</a> pagina. Als je mijn projecten wil zien kan je op de <a href="/projecten.php">projecten</a> page kijken. Als je vooral geinterreseerd in de code bent, check dan mijn <a href="https://github.com/RobinBoers">GitHub profiel</a>.</p>
+                    <p>Wil je meer over mij weten? Check dan de <a href="/over-mij">over mij</a> pagina. Als je mijn projecten wil zien kan je op de <a href="/projecten">projecten</a> page kijken. Als je vooral geinterreseerd in de code bent, check dan mijn <a href="https://github.com/RobinBoers">GitHub profiel</a>.</p>
 
                     <p><a href="en" hreflang="en">WTF, I only speak english</a></p>
 
@@ -112,11 +112,6 @@
                             <img src="https://img.shields.io/badge/Rob1jntje-FA5C5C?style=for-the-badge&logoColor=white&logo=itch.io" alt="Robijntje on Itch.io" />
                         </a>
                     </li>
-                    <!-- <li class="inline list-none">
-                        <a class="no-underline button ml-1" href="https://stackoverflow.com/users/12782055/robinboers" target="_blank" rel="me">
-                            <img src="https://img.shields.io/badge/RobinBoers-f48225?style=for-the-badge&logo=stackoverflow&logoColor=white" alt="RobinBoers on Stackoverflow" />
-                        </a>
-                    </li> -->
                     <li class="inline list-none">
                         <a class="no-underline button ml-1" href="https://reddit.com/u/Robijntje22" target="_blank" rel="me">
                             <img src="https://img.shields.io/badge/-u%2FRobijntje22-%23FF4500?style=for-the-badge&logoColor=white&logo=reddit" alt="Robijntje22 on Reddit" />

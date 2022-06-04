@@ -20,10 +20,10 @@
             <img src="/images/menu.svg" alt="menu button" class="menu-button" hidden />
             <nav>
                 <ul class="menu">
-                    <li><a href="/index.php">Home</a></li>
-                    <li><a href="/over-mij.php">Over mij</a></li>
-                    <li><a href="/projecten.php">Projecten</a></li>
-                    <li><a href="/boeken.php">Boeken</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/over-mij">Over mij</a></li>
+                    <li><a href="/projecten">Projecten</a></li>
+                    <li><a href="/boeken">Boeken</a></li>
                     <li><a href="https://blog.geheimesite.nl">Blog</a></li>
                 </ul>
             </nav>
@@ -117,7 +117,7 @@
                         <li>Er is weer een Nindo webapp!</li>
                     </ol>
                     
-                    <p>Je vind ze allebei in je Nindo/geheimesite-account dashboard.<br><a href="/account/index.php">Naar je dashboard</a></p>
+                    <p>Je vind ze allebei in je Nindo/geheimesite-account dashboard.<br><a href="/account/">Naar je dashboard</a></p>
                 </div>
 
                 <section>
