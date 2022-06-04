@@ -1,14 +1,22 @@
 on: 
   push:
     branches: [ master ]
-name: Deploy website via FTP
+name: Deploy
 jobs:
   web-deploy:
-    name: Deploy
+    name: Build and deploy
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
       uses: actions/checkout@v2
+
+    - name: Setup node
+      uses: actions/setup-node@v3
+      with:
+        node-version: 16.x
+    
+    - name: Build CSS files
+      run: npm run build
     
     - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
@@ -17,11 +25,11 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         server-dir: domains/geheimesite.nl/public_html/
+        local-dir: ./src/
+        dry-run: true
         exclude: |
-          **/.git*
-          **/.git*/**
-          **/node_modules/**
+          css/source.css
           library/website/version/**
           library/projects/websites/**
-          package.json
-          package-lock.json
+          router.php
+

@@ -11,8 +11,6 @@ if (file_exists($file_path)) {
     require_once($file_path . ".php");
     return true;
 } else {
-    require_once("404.shtml");
+    require_once($_SERVER["DOCUMENT_ROOT"] . "/404.shtml");
     return true;
 }
-
-return true;

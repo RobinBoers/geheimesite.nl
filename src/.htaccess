@@ -12,7 +12,7 @@ AddCharset UTF-8 .php
 </FilesMatch>
 
 # Redirects
-Redirect /framboy /library/projects/package/framboy.php
+RewriteRule /framboy /library/projects/package/framboy.php [NC,L]
 
 # Remove .php from filenames
 RewriteBase /

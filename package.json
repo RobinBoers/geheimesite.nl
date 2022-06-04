@@ -1,5 +1,33 @@
 {
-  "dependencies": {
+  "name": "geheimesite.nl",
+  "version": "16.0.0",
+  "description": "My personal website",
+  "author": "Robijntje",
+  "homepage": "https://geheimesite.nl",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "./server.sh",
+    "build": "./build.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobinBoers/geheimesite.nl.git"
+  },
+  "keywords": [
+    "website",
+    "php",
+    "html",
+    "css",
+    "tailwindcss",
+    "indieweb",
+    "webmentions",
+    "personal"
+  ],
+  "bugs": {
+    "url": "https://github.com/RobinBoers/geheimesite.nl/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
     "tailwindcss": "^3.0.22",
     "tailwindcss-opentype": "^1.0.0"
   }

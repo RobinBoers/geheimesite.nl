@@ -9,7 +9,7 @@ function withOpacityValue(variable) {
 
 module.exports = {
     mode: "jit",
-    content: ["./*.{php,html,js,shtml}", "./en/*.{php,html,js,shtml}", "./js/*.js", "./library/projects/package/*.{php,html}", "./library/website/overview.php"],
+    content: ["./src/*.{php,html,js,shtml}", "./src/en/*.{php,html,js,shtml}", "./src/js/*.js", "./src/library/projects/package/*.{php,html}", "./src/library/website/overview.php"],
     theme: {
         colors: {
             slate: "#111121",
