@@ -1184,8 +1184,21 @@ section, .section{
   border-width: 0px;
 }
 
+.border-2{
+  border-width: 2px;
+}
+
+.border-x-0{
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+
 .border-t-\[7px\]{
   border-top-width: 7px;
+}
+
+.border-solid{
+  border-style: solid;
 }
 
 .border-none{
