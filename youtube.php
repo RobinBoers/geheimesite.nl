@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>How train your algorithm: A look into my YouTube feed — geheimesite.nl | Robin Boers</title>
+        <title>How to train your algorithm: A look into my YouTube feed — geheimesite.nl | Robin Boers</title>
 
         <link rel="alternate stylesheet" href="/css/plain.css" video-title="plain" />       
         <script src="/js/plain-mode.js"></script>
