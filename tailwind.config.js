@@ -36,7 +36,9 @@ module.exports = {
             },
         },
     },
-    plugins: [],
+    plugins: [
+        require('tailwindcss-opentype')
+    ],
     corePlugins: {
         preflight: false,
     },
