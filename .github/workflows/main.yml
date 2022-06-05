@@ -29,7 +29,6 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         server-dir: domains/geheimesite.nl/public_html/
         local-dir: ./src/
-        dry-run: true
         exclude: |
           css/source.css
           /website/v/**
