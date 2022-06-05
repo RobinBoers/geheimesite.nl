@@ -38,7 +38,7 @@
                     <section class="lg:mr-0">
                         <h1>Over mij</h1>
                         <p>
-                            Hoi, ik ben Robin. Ik ben 15 jaar oud, ik zit in de derde, en ik woon in Maassluis. Ik houd van programmeren en werk bij Qdentity in Maasland. Deze website is mijn plek om al mijn projecten te showcasen. Ik heb ook een <a href="https://blog.geheimesite.nl">blog</a> over programmeren, webdevelopment en andere coole shit.
+                            Hoi, ik ben Robin. Ik ben 15 jaar oud, ik zit in drie VWO en ik woon in Maassluis. Ik houd van programmeren en werk als Junior Developer bij Qdentity in Maasland. Deze website is mijn plek om al mijn projecten te showcasen. Ik heb ook een <a href="https://blog.geheimesite.nl">blog</a> over programmeren, webdevelopment en andere coole shit.
                         </p>
                     </section>
                     <img class="w-full h-60 mb-5 lg:rotate-1 rounded-xl aspect-square object-cover object-right-top lg:mb-0 lg:h-fit lg:w-1/5" src="/assets/images/me.jpeg" alt="Dit ben ik">
@@ -46,8 +46,8 @@
 
                 <section>
                     <p>
-                        Verder speel ik handbal en heb ik een <a href="https://www.youtube.com/channel/UCx4li1iMygs5KtqgcU5KGRw">YouTube kanaal</a>, waar ik video's maak over onder andere programmeren, video-editten en andere interrestante dingen (voor mij dan).<br />
-                        Ook heb ik een <a href="https://github.com/RobinBoers">GitHub account</a> waar ik de meeste van mijn projecten op zet.
+                        Verder speel ik handbal en heb ik een <a href="https://www.youtube.com/channel/UCx4li1iMygs5KtqgcU5KGRw">YouTube kanaal</a>, waar ik video's maak over onder andere programmeren, video-editten en andere dingen die ik interrestant vind.<br />
+                        Ook heb ik een <a href="https://github.com/RobinBoers">GitHub account</a> waar ik de meeste van mijn projecten op zet met open-source licenties.
                     </p>
                 </section>
 
@@ -60,10 +60,10 @@
                 <section>
                     <h2>Hoe ik in aanraking ben gekomen met programmeren</h2>
                     <p>
-                        Ik programmeer al sinds groep 7 (2017). Ik ben ermee begonnen omdat ik in de bieb een boek zag staan over website's maken. Nu moet je weten dat ik al sinds groep 4 zo'n computernerd was, die van elk knopje wist wat het deed. Het boek heette <a href="https://www.nano-tips.com/">Creeëren met code: Zo maak je een website</a>. Dus ik maakte een website, die eind 2017 online kwam. Ik hield enorm veel van geheim agenten, dus de eerste versies (tot versie 9) gingen daar ook over. Je kunt die versies in mijn <a href="library/website/overview.php">Website Library</a> zien.
+                        Ik programmeer al sinds groep 7 (2017). Ik ben ermee begonnen omdat ik in de bieb een boek zag staan over website's maken. Nu moet je weten dat ik al sinds groep 4 zo'n computernerd was, die van elk knopje wist wat het deed. Het boek heette <a href="https://www.nano-tips.com/">Creeëren met code: Zo maak je een website</a>. Dus ik maakte een website, die eind 2017 online kwam. Ik hield enorm veel van geheim agenten, dus de eerste versies (tot versie 9) gingen daar ook over. Je kunt die versies in mijn <a href="/website/overview">Website Library</a> zien.
                     </p>
                     <p>
-                        Nadat ik mijn eerste website had gemaakt ben ik naar CoderDojo gegaan. Dat is een soort bijeenkomst die hier in Maassluis om de vier weken is, waar kinderen kunnen leren programmeren, en elkaar daarbij kunnen helpen. Ik heb op CoderDojo geleerd hoe PHP en databases werken, en uiteindelijk met die kennis <a href="/projects/nindo.php">Nindo</a> en <a href="/projects/wb.php">SkyLight</a> gebouwd.
+                        Nadat ik mijn eerste website had gemaakt ben ik naar CoderDojo gegaan. Dat is een soort bijeenkomst die hier in Maassluis om de vier weken is, waar kinderen kunnen leren programmeren, en elkaar daarbij kunnen helpen. Ik heb op CoderDojo geleerd hoe PHP en databases werken, waarmee ik wat gave dingen heb gebouwd.
                     </p>
 
                 <!-- <div class="flex flex-col lg:flex-row-reverse items-center">   -->
@@ -82,18 +82,16 @@
                 </section>
 
                 <section>
-                    <h2>Wil je ook leren programmeren?</h2>
+                    <h2>Over de site</h2>
                     <p>
-                        Wil je ook graag een website ontwerpen en bouwen? Kijk dan eens naar het <a href="https://www.bol.com/nl/p/html5-en-css3/9200000096082897/?Referrer=ADVNLGOO002008N-G-81885102689-S-472964216282-9200000096082897&amp;gclid=Cj0KCQjw6KrtBRDLARIsAKzvQIFMPd1hacL4rTnYKdGQlMr0W4vroFFLsIE5e4zanmboMDqEx-B3rHIaAo2REALw_wcB">Handboek HTML5 en CSS3</a>, of het boek waarmee ik het geleerd heb: <a href="https://www.nano-tips.com/">Creeëren met code: Zo maak je een website</a>. Ook is <a href="https://grasshopper.app/">Grasshopper</a> van Code width Google een goed programma, maar ik zou je vooral <a href="https://exercism.org">Exercism</a> aanraden! Het beste advies dat ik je kan geven? Kies een project en ga het gewoon proberen te bouwen. In het ergste geval heb je hulp nodig, die je overigens overal kan krijgen. Je kan bijvoorbeeld altijd naar een CoderDojo gaan! Vind hier meer info over CoderDojo's: <a href="https://coderdojo.nl/">https://coderdojo.nl</a>.
+                        Mijn website is gebouwd in pure HTML met wat PHP voor wat extra magie en wordt gehost bij <a href="https://www.bhosted.nl?ref=97f4c4a4b13e269e12cfd4f0352ba527">bHosted</a>. Zowel mijn blog als deze site zijn open-source en kunnen <a href="https://github.com/RobinBoers/geheimesite.nl">op mijn GitHub profiel</a> gevonden worden.<br>
+                    </p>
+                    <p class="mt-2">
+                        <a href="/how-it-was-made">Lees meer over deze site...</a>
                     </p>
                 </section>
 
-                <section>
-                    <h2>Over de site</h2>
-                    <p>
-                        Mijn website is gebouwd in pure HTML met wat PHP voor wat extra magie en wordt gehost bij <a href="https://www.bhosted.nl?ref=97f4c4a4b13e269e12cfd4f0352ba527">bHosted</a>. De projecten page is dynamisch opgebouwd door mijn projecten de fetchen met de GitHub API. De boeken page is gebouwd met <a href="https://micro.blog">Micro.blog</a> Bookshelves. Voor de styling gebruik ik tailwindcss. Het font voor de headings heet Poppins, en voor de main content gebruik ik Merriweather. Het display font is Bungee Shade. Mijn blog bestaat uit een paar static sites die gebouwd zijn met <a href="https://gohugo.io">Hugo</a> en de source code daarvoor kan gevonden worden in <a href="https://github.com/RobinBoers/blog">RobinBoers/blog</a>. De source code voor deze site kan in <a href="https://github.com/RobinBoers/geheimesite.nl">RobinBoers/geheimesite.nl</a> gevonden worden.
-                    </p>
-                </section>
+                <hr class="my-7 border-none">
 
                 <section>
                     <h2 id="contact">Contact</h2>

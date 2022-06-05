@@ -38,7 +38,7 @@
                     <section class="lg:mr-0">
                         <h1>About me</h1>
                         <p>
-                            Hi, my name is Robin. I was born 15 years ago in Vlaardingen, Netherlands but I have lived in Maassluis for my entire life. I love to thinker with code and I currently work at Qdentity. This site is a place for me to showcase my projects. I also have a <a href="https://blog.geheimesite.nl/en">blog</a> where I write about programming, webdevelopment and other cool shit.
+                            Hi, my name is Robin. I was born 15 years ago in Vlaardingen, Netherlands but I have lived in Maassluis for my entire life. I love to thinker with code and I currently work as Junior Developer at Qdentity in Maasland. This site is a place for me to showcase my projects. I also have a <a href="https://blog.geheimesite.nl/en">blog</a> where I write about programming, webdevelopment and other cool shit.
                         </p>
                     </section>
                     <img class="w-full h-60 mb-5 lg:rotate-1 rounded-xl aspect-square object-cover object-right-top lg:mb-0 lg:h-fit lg:w-1/5" src="/assets/images/me.jpeg" alt="This is me">
@@ -46,7 +46,7 @@
 
                 <section>
                     <p>
-                        I also play handball and I have a <a href="https://www.youtube.com/channel/UCx4li1iMygs5KtqgcU5KGRw">YouTube channel</a>, where I make videos about programming, video-editing, computers and a lot of other cool things.<br />
+                        I also play handball and I have a <a href="https://www.youtube.com/channel/UCx4li1iMygs5KtqgcU5KGRw">YouTube channel</a>, where I make videos about programming, video-editing, computers and a lot of other things I deem cool.<br />
                         I also have a <a href="https://github.com/RobinBoers">GitHub account</a> where most of my projects are hosted under open-source licenses.
                     </p>
                 </section>
@@ -80,10 +80,15 @@
                     
                 <section>
                     <h2>About the site</h2>
-                    <p>
-                        My site is built using pure HTML and some PHP for extra magic. It is hosted at <a href="https://www.bhosted.nl?ref=97f4c4a4b13e269e12cfd4f0352ba527">bHosted</a>. The projects page is dynamically filled using the GitHub API to show my recent GitHub projects and the books page is built using <a href="https://micro.blog">Micro.blog</a> Bookshelves. For the styling I'm using tailwindcss. The font used for the headings is called Poppins, and for the main content I'm using Merriweather. The display font is Bungee Shade. My blog is composed of a few static sites built using <a href="https://gohugo.io">Hugo</a> and can be found at <a href="https://github.com/RobinBoers/blog">RobinBoers/blog</a>. The source code for the main site can be found at <a href="https://github.com/RobinBoers/geheimesite.nl">RobinBoers/geheimesite.nl</a>.
+                    <p class="mb-0">
+                        My site is built using pure HTML and some PHP for extra magic. It is hosted at <a href="https://www.bhosted.nl?ref=97f4c4a4b13e269e12cfd4f0352ba527">bHosted</a>. Both my blog and this site are open-source and can be found <a href="https://github.com/RobinBoers/geheimesite.nl">on my GitHub account</a>. <br>
+                    </p>
+                    <p class="mt-2">
+                        <a href="/how-it-was-made">Read more about this site...</a>
                     </p>
                 </section>
+
+                <hr class="my-7 border-none">
 
                 <section>
                     <h2 id="contact">Contact</h2>

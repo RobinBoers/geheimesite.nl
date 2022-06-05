@@ -32,12 +32,13 @@
         <main id="content" class="page-content">
             <article>
                 <section>
-                    <h1>Overview: Mijn site door de jaren heen</h1>
+                    <h1>Overzicht: Mijn site door de jaren heen</h1>
                     
                     <p>
-                        Ik heb mijn site al sinds eind 2017 (Groep 7). Dus mijn website heeft nogal wat geschiedenis. Ik wilde dit al langer doen, maar ik had er gewoon geen tijd voor. Hieronder kun je op een link klikken, en dan wordt je naar die versie van mijn site gebracht.
+                        Ik heb mijn site al sinds eind 2017 (groep 7). Dus mijn website heeft nogal wat geschiedenis. Ik heb al de oude versies van mijn website opgeduikeld en gecategoriseerd. Ik wilde dit al langer doen, maar ik had er gewoon geen tijd voor. Hieronder kun je op een link klikken, en dan wordt je naar die versie van mijn site gebracht. Enjoy!
                     </p>
-                    <p>
+                    
+                    <p class="italic">
                         Ik ben er vrij zeker van dat je best veel dode links zal aantreffen, maar ik heb geen zin om alle oude code na te lopen om een paar linkjes te fixen :), vooral omdat mijn oude code spagetti is (mijn nieuwe code ook trouwens). Verder missen er ook wat versies, omdat ik geen backups maakte, of omdat er complexe code in zit, die bijvoorbeeld met de code voor accounts en inloggen kan rommelen.
                     </p>
 
@@ -56,6 +57,8 @@
                         <li><a href="v/13/" target="_blank">Bekijk versie 13</a></li>
                         <li><a href="v/14/" target="_blank">Bekijk versie 14</a></li>
                     </ol>
+
+                    <p class="italic">De originele versie van mijn website ben ik helaas kwijt. RIP.</p>
                 </section>  
             </article>
         </main>

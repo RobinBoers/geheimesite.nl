@@ -152,7 +152,7 @@
                 <section>
                     <h2 class="text-[white]">Blog</h2>
 
-                    <p>By blog consists of three static hugo sites, which I build and deploy using a simple bash script and GitHub actions. I developed my own hugo theme with IndieWeb support, based on <a href="https://neofeed.dev">neofeed</a>.</p>
+                    <p>By blog consists of three static <a href="https://gohugo.io">hugo</a> sites, which I build and deploy using a simple bash script and GitHub actions. I developed my own hugo theme with IndieWeb support, based on <a href="https://neofeed.dev">neofeed</a>.</p>
 
                     <p>I built my own barebones statistics tracker. It tracks visits, not views, per post. The results are <a href="/api/views/stats">publicly available</a> can be filtered per month and are shown in a simple graph that I built using Chart.js.</p>
                 </section>
@@ -170,9 +170,9 @@
                 <section>
                     <h2 class="text-[white]">Open-source</h2>
 
-                    <p>I open-sourced most of my website, and like my other projects it can be found <a href="https://github.com/RobinBoers">on my GitHub profile</a>. I haven't yet decided on the license I'll use for my main site and my blog.</p>
+                    <p>I open-sourced most of my website, and like my other projects it can be found <a href="https://github.com/RobinBoers/geheimesite.nl">on my GitHub profile</a>. I haven't yet decided on the license I'll use for my main site and my blog.</p>
 
-                    <p>I've also open-sourced the blogging software I built for <a href="https://micro.geheimesite.nl">my neolog</a>, called neopub. It can be found here: <a href="https://github.com/neopublished/neopub">github.com/neopublished/neopub</a> and it is licensed under the Apache License 2.0.</p>
+                    <p>I've also open-sourced the blogging software I built for <a href="https://micro.geheimesite.nl">my neolog</a>, called neopub. It can be found here: <a href="https://github.com/neopublished/neopub">github.com/neopublished/neopub</a>. Iit is licensed under the Apache License 2.0.</p>
                 </section>
 
                 <section>
