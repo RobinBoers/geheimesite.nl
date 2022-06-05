@@ -74,6 +74,7 @@
                         <li><a href="https://href.cool">href.cool</a></li>
                         <li><a href="https://links.yesterweb.org">Yesterweb Links</a></li>
                         <li><a href="https://webring.xxiivv.com">XXIIVV webring</a></li>
+                        <li><a href="https://demlinks.com">demlinks.com</a></li>
                     </ul>
                 </section>
 
@@ -161,6 +162,7 @@
                         <li><a class="external" data-weight="5" href="https://billwurtz.com">billwurtz.com</a></li>
                         <li><a class="external" data-weight="2" href="https://rvklein.me">rvklein.me</a></li>
                         <li><a class="external" data-weight="4" href="https://utsuho.rocks">utsuho.rocks</a></li>
+                        <li><a class="external" data-weight="1" href="https://richardbettridge.com">richardbettridge.com</a></li>
                     </ul>
                 </section>
 
