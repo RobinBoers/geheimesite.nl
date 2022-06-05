@@ -6,11 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Start — geheimesite.nl | Robin Boers</title>
 
-        <link rel="alternate stylesheet" href="/css/plain.css" title="plain" />       
-        <script src="/js/plain-mode.js"></script>
+        <link rel="alternate stylesheet" href="/assets/css/plain.css" title="plain" />       
+        <script src="/assets/js/plain-mode.js"></script>
 
-        <link rel="stylesheet" href="/css/main.css" title="default" />
-        <script defer src="/js/menu.js"></script>
+        <link rel="stylesheet" href="/assets/css/main.css" title="default" />
+        <script defer src="/assets/js/menu.js"></script>
 
         <link rel="alternate" hreflang="nl" href="https://geheimesite.nl/" />
         <link rel="alternate" type="application/rss+xml" title="Webdevelopment-En-Meer" href="https://blog.geheimesite.nl/index.xml" />
@@ -35,7 +35,7 @@
         <a class="skip-nav" href="#content">Skip navigation</a>
         <header class="pageheader mb-4">
             <nav class="mt-4">
-                <img src="/images/menu.svg" alt="menu button" class="menu-button mb-4" hidden />
+                <img src="/assets/images/menu.svg" alt="menu button" class="menu-button mb-4" hidden />
 
                 <ul class="menu">
                     <li class="selected">Home</li>
@@ -69,10 +69,10 @@
                         <p>
                             More about me: people sometimes call me <span class="u-nickname">Robijntje</span> and I live in the <span class="p-region">Netherlands</span>. I currently work at <span class="">Qdentity</span> as <span class="p-job-title">Junior Developer</span>. You can find me and my projects at <a href="https://geheimesite.nl" rel="me" class="u-url">geheimesite.nl</a>. If you need to reach me you can contact me at <span class="u-email">robin@geheimesite.nl</span>. 
                         </p>
-                        <img src="/images/me.jpeg" alt="Robin Boers" class="u-photo" />
+                        <img src="/assets/images/me.jpeg" alt="Robin Boers" class="u-photo" />
                     </div>
                 </section>
-                <img class="hidden absolute top-[80px] right-[-350px] lg:block xl:static w-full pixelart max-w-sm" src="/images/robin_pixelart.png" alt="Pixel art picture of me" />
+                <img class="hidden absolute top-[80px] right-[-350px] lg:block xl:static w-full pixelart max-w-sm" src="/assets/images/robin_pixelart.png" alt="Pixel art picture of me" />
             </article>
             <article>
                 <h2 class="hidden">Socials</h2>
@@ -145,7 +145,7 @@
                         <script>
                             const base_url = "https://blog.geheimesite.nl/en";
                         </script>
-                        <script src="/js/featured-post.js"></script>
+                        <script src="/assets/js/featured-post.js"></script>
                     </div>
                 </div>
             </article>

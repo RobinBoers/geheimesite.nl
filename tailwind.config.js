@@ -9,7 +9,7 @@ function withOpacityValue(variable) {
 
 module.exports = {
     mode: "jit",
-    content: ["./src/*.{php,html,js,shtml}", "./src/en/*.{php,html,js,shtml}", "./src/js/*.js", "./src/library/projects/package/*.{php,html}", "./src/library/website/overview.php"],
+    content: ["./src/*.{php,html,js,shtml}", "./src/en/*.{php,html,js,shtml}", "./src/assets/js/*.js", "./src/library/projects/package/*.{php,html}", "./src/library/website/overview.php"],
     theme: {
         colors: {
             slate: "#111121",
@@ -28,7 +28,7 @@ module.exports = {
                 mono: ["ui-monospace", "DejaVu LGC Sans Code", "DejaVu Sans Code", "DejaVu Sans Mono", "SFMono-Regular", "monospace"],
             },
             backgroundImage: {
-                "md-mark": "url('../images/md-mark.svg')",
+                "md-mark": "url('../assets/images/md-mark.svg')",
             },
             boxShadow: {
                 "hyper-light": "18px 10px 0px 0px rgba(33, 144, 255, 1)",

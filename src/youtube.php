@@ -6,10 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>How to train your algorithm: A look into my YouTube feed — geheimesite.nl | Robin Boers</title>
 
-        <link rel="alternate stylesheet" href="/css/plain.css" video-title="plain" />       
-        <script src="/js/plain-mode.js"></script>
+        <link rel="alternate stylesheet" href="/assets/css/plain.css" video-title="plain" />       
+        <script src="/assets/js/plain-mode.js"></script>
 
-        <link rel="stylesheet" href="/css/main.css" video-title="default" />
+        <link rel="stylesheet" href="/assets/css/main.css" video-title="default" />
 
         <style>
             :root {

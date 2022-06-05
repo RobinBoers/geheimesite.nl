@@ -6,11 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>About me — geheimesite.nl | Robin Boers</title>
 
-        <link rel="alternate stylesheet" href="/css/plain.css" title="plain" />       
-        <script src="/js/plain-mode.js"></script>
+        <link rel="alternate stylesheet" href="/assets/css/plain.css" title="plain" />       
+        <script src="/assets/js/plain-mode.js"></script>
 
-        <link rel="stylesheet" href="/css/main.css" title="default" />
-        <script defer src="/js/menu.js"></script>
+        <link rel="stylesheet" href="/assets/css/main.css" title="default" />
+        <script defer src="/assets/js/menu.js"></script>
 
         <link rel="alternate" hreflang="nl" href="https://geheimesite.nl/over-mij" />
     </head>
@@ -19,7 +19,7 @@
         <header class="pageheader">
             <p class="title"><a href="/">Robin Boers</a></p>
 
-            <img src="/images/menu.svg" alt="menu button" class="menu-button" hidden />
+            <img src="/assets/images/menu.svg" alt="menu button" class="menu-button" hidden />
 
             <nav>
                 <ul class="menu">
@@ -41,7 +41,7 @@
                             Hi, my name is Robin. I was born 15 years ago in Vlaardingen, Netherlands but I have lived in Maassluis for my entire life. I love to thinker with code and I currently work at Qdentity. This site is a place for me to showcase my projects. I also have a <a href="https://blog.geheimesite.nl/en">blog</a> where I write about programming, webdevelopment and other cool shit.
                         </p>
                     </section>
-                    <img class="w-full h-60 mb-5 lg:rotate-1 rounded-xl aspect-square object-cover object-right-top lg:mb-0 lg:h-fit lg:w-1/5" src="/images/me.jpeg" alt="Dit ben ik.">
+                    <img class="w-full h-60 mb-5 lg:rotate-1 rounded-xl aspect-square object-cover object-right-top lg:mb-0 lg:h-fit lg:w-1/5" src="/assets/images/me.jpeg" alt="Dit ben ik.">
                 </div>
 
                 <section>

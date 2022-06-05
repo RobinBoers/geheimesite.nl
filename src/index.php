@@ -6,11 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Start — geheimesite.nl | Robin Boers</title>
 
-        <link rel="alternate stylesheet" href="/css/plain.css" title="plain" />       
-        <script src="/js/plain-mode.js"></script>
+        <link rel="alternate stylesheet" href="/assets/css/plain.css" title="plain" />       
+        <script src="/assets/js/plain-mode.js"></script>
         
-        <link rel="stylesheet" href="/css/main.css" title="default" />
-        <script defer src="/js/menu.js"></script>
+        <link rel="stylesheet" href="/assets/css/main.css" title="default" />
+        <script defer src="/assets/js/menu.js"></script>
 
         <link rel="alternate" hreflang="en" href="https://geheimesite.nl/en/" />
         <link rel="alternate" type="application/rss+xml" title="Webdevelopment-En-Meer" href="https://blog.geheimesite.nl/index.xml" />
@@ -35,7 +35,7 @@
         <a class="skip-nav" href="#content">Skip navigation</a>
         <header class="pageheader mb-4">
             <nav class="mt-4">
-                <img src="/images/menu.svg" alt="menu button" class="menu-button mb-4" hidden />
+                <img src="/assets/images/menu.svg" alt="menu button" class="menu-button mb-4" hidden />
 
                 <ul class="menu">
                     <li class="selected">Home</li>
@@ -69,10 +69,10 @@
                         <p>
                             More about me: people sometimes call me <span class="u-nickname">Robijntje</span> and I live in the <span class="p-region">Netherlands</span>. I currently work at <span class="p-org">Qdentity</span> as <span class="p-job-title">Junior Developer</span>. You can find me and my projects at <a href="https://geheimesite.nl/" rel="me" class="u-url">geheimesite.nl</a>. If you need to reach me you can contact me at <span class="u-email">robin@geheimesite.nl</span>.
                         </p>
-                        <img src="/images/me.jpeg" alt="Robin Boers" class="u-photo" />
+                        <img src="/assets/images/me.jpeg" alt="Robin Boers" class="u-photo" />
                     </div>
                 </section>
-                <img class="hidden absolute top-[80px] right-[-350px] lg:block xl:static w-full pixelart max-w-sm" src="/images/robin_pixelart.png" alt="Pixel art picture of me" />
+                <img class="hidden absolute top-[80px] right-[-350px] lg:block xl:static w-full pixelart max-w-sm" src="/assets/images/robin_pixelart.png" alt="Pixel art picture of me" />
             </article>
             <article>
                 <h2 class="hidden">Socials</h2>
@@ -122,32 +122,32 @@
 
             <article class="badges hidden" hidden>
                 <h2 class="hidden">Wall of badges</h2>
-                <img src="/images/badges/sucks2.gif" alt="This site SUCKS!" />
+                <img src="/assets/images/badges/sucks2.gif" alt="This site SUCKS!" />
                 <a href="https://theoldnet.com/#frombadge">
-                    <img src="https://theoldnet.com/images/theoldnetanimblur2.gif" alt="The Old Net" />
+                    <img src="https://theoldnet.com/assets/images/theoldnetanimblur2.gif" alt="The Old Net" />
                 </a>
                 <a href="https://neocities.com">
-                    <img src="/images/badges/neocitiesbutton.gif" alt="Neocities" />
+                    <img src="/assets/images/badges/neocitiesbutton.gif" alt="Neocities" />
                 </a>
-                <img src="/images/badges/wwwbutton.gif" alt="The World Wide Web" />
-                <img src="/images/badges/invalidator.png" alt="This is invalid HTML" />
-                <img src="/images/badges/best_viewed_with_eyes.gif" alt="This site is best viewed using eyes" />
+                <img src="/assets/images/badges/wwwbutton.gif" alt="The World Wide Web" />
+                <img src="/assets/images/badges/invalidator.png" alt="This is invalid HTML" />
+                <img src="/assets/images/badges/best_viewed_with_eyes.gif" alt="This site is best viewed using eyes" />
                 <a href="https://yesterweb.org/no-to-web3/">
-                    <img src="/images/badges/noweb32.gif" alt="Keep the web free, stop web3" />
+                    <img src="/assets/images/badges/noweb32.gif" alt="Keep the web free, stop web3" />
                 </a>
                 <a href="https://neocities.com">
-                    <img src="/images/badges/neocities_button.gif" alt="Neocities" />
+                    <img src="/assets/images/badges/neocities_button.gif" alt="Neocities" />
                 </a>
                 <img src="https://www.w3.org/html/logo/downloads/HTML5_sticker.svg" alt="HTML5 FTW!" />
                 <img src="https://www.w3.org/Icons/valid-svg12" alt="This is a valid SVG" />
                 <img src="https://www.w3.org/Icons/valid-css2-blue" alt="This is built using valid CSS" />
-                <img src="/images/badges/nft.gif" alt="NFT? No fucking thanks." />
+                <img src="/assets/images/badges/nft.gif" alt="NFT? No fucking thanks." />
                 <img src="https://www.w3.org/Icons/SVG/Buttons/svg-w3c-orange.svg" alt="W3C SVG" />
-                <img src="/images/badges/GeoCitiesBadge2.gif" alt="Geocities" />
+                <img src="/assets/images/badges/GeoCitiesBadge2.gif" alt="Geocities" />
                 <a href="http://www.hat.net/abs/noclick/" >
-                    <img src="/images/badges/noclick.gif" alt="Dont click here!" title="Dont click here!" />
+                    <img src="/assets/images/badges/noclick.gif" alt="Dont click here!" title="Dont click here!" />
                 </a>
-                <img src="/images/badges/didnt-ask.gif" alt="When. Did. I. Ask. " />
+                <img src="/assets/images/badges/didnt-ask.gif" alt="When. Did. I. Ask. " />
             </article>
 
             <article class="featured">
@@ -170,7 +170,7 @@
                         <script>
                             const base_url = "https://blog.geheimesite.nl";
                         </script>
-                        <script src="/js/featured-post.js"></script>
+                        <script src="/assets/js/featured-post.js"></script>
                     </div>
                 </div>
             </article>

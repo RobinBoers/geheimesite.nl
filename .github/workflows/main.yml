@@ -29,7 +29,7 @@ jobs:
         dry-run: true
         exclude: |
           css/source.css
-          library/website/version/**
-          library/projects/websites/**
+          /website/v/**
+          /projects/websites/**
           router.php
 

@@ -6,11 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Books — geheimesite.nl | Robin Boers</title>
 
-        <link rel="alternate stylesheet" href="/css/plain.css" title="plain" />       
-        <script src="/js/plain-mode.js"></script>
+        <link rel="alternate stylesheet" href="/assets/css/plain.css" title="plain" />       
+        <script src="/assets/js/plain-mode.js"></script>
 
-        <link rel="stylesheet" href="/css/main.css" title="default" />
-        <script defer src="/js/menu.js"></script>
+        <link rel="stylesheet" href="/assets/css/main.css" title="default" />
+        <script defer src="/assets/js/menu.js"></script>
 
         <link rel="alternate" hreflang="nl" href="https://geheimesite.nl/boeken" />
 
@@ -25,7 +25,7 @@
         <header class="pageheader">
             <p class="title"><a href="/">Robin Boers</a></p>
 
-            <img src="/images/menu.svg" alt="menu button" class="menu-button" hidden />
+            <img src="/assets/images/menu.svg" alt="menu button" class="menu-button" hidden />
 
             <nav>
                 <ul class="menu">
@@ -75,7 +75,7 @@
 
                 <hr class="my-7 border-none">
 
-                <script src="/js/bookshelves.js"></script>                
+                <script src="/assets/js/bookshelves.js"></script>                
             </article>
         </main>
 

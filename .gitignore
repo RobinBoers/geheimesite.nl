@@ -1,15 +1,14 @@
 /**/node_modules
 .vscode
-/src/library/more
-/src/library/projects/*
-!/src/library/projects/package
-!/src/library/projects/websites
+/src/projects/*
+!/src/projects/*.php
+!/src/projects/websites
 
-/src/library/website/*
-!/src/library/website/version
-!/src/library/website/overview.php
+/src/website/*
+!/src/website/v
+!/src/website/overview.php
 
-src/connection.php
-src/connection_online.php
+/src/connection.php
+/src/connection_online.php
 
 /src/api/books/token.php

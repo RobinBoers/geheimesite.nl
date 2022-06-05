@@ -6,11 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Projects — geheimesite.nl | Robin Boers</title>
 
-        <link rel="alternate stylesheet" href="/css/plain.css" title="plain" />       
-        <script src="/js/plain-mode.js"></script>
+        <link rel="alternate stylesheet" href="/assets/css/plain.css" title="plain" />       
+        <script src="/assets/js/plain-mode.js"></script>
         
-        <link rel="stylesheet" href="/css/main.css" title="default" />
-        <script defer src="/js/menu.js"></script>
+        <link rel="stylesheet" href="/assets/css/main.css" title="default" />
+        <script defer src="/assets/js/menu.js"></script>
 
         <link rel="alternate" hreflang="nl" href="https://geheimesite.nl/projecten" />
     </head>
@@ -19,7 +19,7 @@
         <header class="pageheader">
             <p class="title"><a href="/">Robin Boers</a></p>
 
-            <img src="/images/menu.svg" alt="menu button" class="menu-button" hidden />
+            <img src="/assets/images/menu.svg" alt="menu button" class="menu-button" hidden />
             
             <nav>
                 <ul class="menu">
@@ -47,7 +47,7 @@
                 </section>
 
                 <ul class="github-projects project-grid">
-                    <script src="/js/github.js"></script>
+                    <script src="/assets/js/github.js"></script>
                 </ul>
 
                 <hr class="my-7 border-none">
@@ -62,37 +62,37 @@
                     <li>
                         <h3>HVM Old's Cool</h3>
                         <a href="https://hvm-oldscool.nl" target="_blank">
-                            <img src="/images/websites/hvm-olds-cool.png" alt="HVM Old's Cool">
+                            <img src="/assets/images/websites/hvm-olds-cool.png" alt="HVM Old's Cool">
                         </a>
                     </li>
                     <li>
                         <h3>Duurzame Maassluizers</h3>
                         <a href="https://duurzamemaassluizers.nl" target="_blank">
-                            <img src="/images/websites/duurzame-maassluizers.png" alt="Duurzame Maassluizers">
+                            <img src="/assets/images/websites/duurzame-maassluizers.png" alt="Duurzame Maassluizers">
                         </a>
                     </li>
                     <li>
                         <h3>Groendoenerij</h3>
                         <a href="https://www.groendoenerij.nl" target="_blank">
-                            <img src="/images/websites/groendoenerij.png" alt="Groendoenerij">
+                            <img src="/assets/images/websites/groendoenerij.png" alt="Groendoenerij">
                         </a>
                     </li>
                     <li>
                         <h3>Sterrenkruid</h3>
                         <a href="https://jokessterrenkruid.blogspot.com" target="_blank">
-                            <img src="/images/websites/sterrenkruid.png" alt="Sterrenkruid">
+                            <img src="/assets/images/websites/sterrenkruid.png" alt="Sterrenkruid">
                         </a>
                     </li>
                     <li>
                         <h3>Thesis Eveline Boers</h3>
                         <a href="https://thesisevelineboers.blogspot.com" target="_blank">
-                            <img src="/images/websites/thesis-eveline-boers.png" alt="Thesis Eveline Boers">
+                            <img src="/assets/images/websites/thesis-eveline-boers.png" alt="Thesis Eveline Boers">
                         </a>
                     </li>
                     <li>
                         <h3>Neolog</h3>
                         <a href="https://micro.geheimesite.nl" target="_blank">
-                            <img src="/images/websites/neolog.png" alt="Neolog">
+                            <img src="/assets/images/websites/neolog.png" alt="Neolog">
                         </a>
                     </li>
                     <li>
@@ -100,8 +100,8 @@
                         <a href="https://blog.geheimesite.nl" target="_blank">
                             
                             <picture>
-                                <source srcset="/images/websites/webdevelopment-en-meer.png" media="(prefers-color-scheme: dark)">
-                                <img src="/images/websites/webdevelopment-en-meer-dark.png" alt="Webdevelopment-En-Meer">
+                                <source srcset="/assets/images/websites/webdevelopment-en-meer.png" media="(prefers-color-scheme: dark)">
+                                <img src="/assets/images/websites/webdevelopment-en-meer-dark.png" alt="Webdevelopment-En-Meer">
                             </picture>
 
                         </a>
@@ -109,7 +109,7 @@
                     <li>
                         <h3>Website Library</h3>
                         <a href="/library/website/overview.php">
-                            <img src="/images/websites/website-library.png" alt="Website Library">
+                            <img src="/assets/images/websites/website-library.png" alt="Website Library">
                         </a>
                     </li>
                 </ul>
