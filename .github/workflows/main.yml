@@ -14,6 +14,9 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: 16.x
+
+    - name: Install deps
+      run: npm install
     
     - name: Build CSS files
       run: npm run build
