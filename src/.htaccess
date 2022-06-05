@@ -12,19 +12,20 @@ AddCharset UTF-8 .php
 </FilesMatch>
 
 # Redirects
-RewriteRule /framboy /projects/framboy.php [NC,L]
-Redirect 301 /feed http://blog.geheimesite.nl/index.xml 
+RedirectMatch 301 /framboy /projects/framboy.php
+Redirect 301 /feed https://blog.geheimesite.nl/index.xml 
 
 # Fix old assets directory URIs
-RewriteRule ^/css/(.*)$ /assets/css/$1 [R=301,NC,L]
-RewriteRule ^/js/(.*)$ /assets/js/$1 [R=301,NC,L]
-RewriteRule ^/images/(.*)$ /assets/images/$1 [R=301,NC,L]
+
+RewriteRule ^/?css/(.\*)$ /assets/css/$1 [R,L]
+RewriteRule ^/?js/(.\*)$ /assets/js/$1 [R,L]
+RewriteRule ^/?images/(.\*)$ /assets/images/$1 [R,L]
 
 # Fix old library directory URIs
-RewriteRule /library/website/version/(.*)$ /website/v/$1 R=301,[NC,L]
-RewriteRule /library/projects/package/(.*)$ /projects/$1 [R=301,NC,L]
-RewriteRule /library/projects/(.*)$ /projects/$1 [R=301,NC,L]
-RewriteRule /library/website/overview.php /website/overview.php [R=301,NC,L]
+RewriteRule ^/?library/website/version/(.\*)$ /website/v/$1 [R,L]
+RewriteRule ^/?library/projects/package/(.\*)$ /projects/$1 [R,L]
+RewriteRule ^/?library/projects/(.\*)$ /projects/$1 [R,L]
+RedirectMatch 301 /library/website/overview.php /website/overview.php
 
 # Remove .php from filenames
 RewriteBase /
