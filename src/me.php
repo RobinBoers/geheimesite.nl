@@ -36,7 +36,7 @@
     </head>
     <body>
         <a class="skip-nav" href="#content">Skip navigation</a>
-        <header class="h-20 flex items-center pl-12">
+        <header class="min-h-[5rem] flex items-center pl-12">
             <nav>
                 <a href="/en/">❮ Back</a>
             </div>
@@ -70,11 +70,11 @@
                             <a rel="me" href="mailto:robin@geheimesite.nl" class="u-email">robin@geheimesite.nl</a>
                         </li>
                         <li class="flex items-center gap-2 pt-1">
-                            <i class="fa-solid fa-paragraph"></i>
-                            <a href="https://blog.geheimesite.nl">blog.geheimesite.nl</a>
+                            <i class="fa-solid fa-message"></i> 
+                            <span>IRC: robijntje <span class="supplement">(libera.chat)</span></span>
                         </li>
                         <li class="flex items-center gap-2 pt-1">
-                            <i class="fa-solid fa-cheese"></i>
+                            <i class="fa-solid fa-cake-candles"></i>
                             <time class="dt-anniversary dt-bday">2007-01-13</time>
                         </li>
                         <li class="flex items-center gap-2 pt-1">
@@ -100,6 +100,23 @@
                     </ul>
                 </section>
                 <section>
+                    <h3>Under my control</h3>
+
+                    <ul class="p-0 list-none">
+                    <li class="flex items-center gap-2 pt-1">
+                            <i class="fa-brands fa-microblog"></i>
+                            <a href="https://micro.geheimesite.nl">micro.geheimesite.nl</a>
+                        </li>
+                        <li class="flex items-center gap-2 pt-1">
+                            <i class="fa-solid fa-paragraph"></i>
+                            <a href="https://blog.geheimesite.nl">blog.geheimesite.nl</a>
+                        </li>
+                        <li class="flex items-center gap-2 pt-1">
+                            <i class="fa-solid fa-user-astronaut"></i>
+                            <a href="https://indieweb.org/User:Geheimesite.nl">IndieWeb wiki</a>
+                        </li>
+                    </ul>
+
                     <h3>Elsewhere</h3>
 
                     <ul class="p-0 list-none">
@@ -161,6 +178,16 @@
                         <li>
                             <a class="no-underline hover:bg-transparent">
                                 <img src="https://img.shields.io/badge/Gamertag1123456-202124?style=for-the-badge&logo=epicgames&logoColor=white" alt="Gamertag1123456 on Epic Games" />
+                            </a>
+                        </li>
+                        <li>
+                            <a class="no-underline hover:bg-transparent hover:opacity-80" href="https://snapchat.com/add/rob1jntje22">
+                                <img src="https://img.shields.io/badge/rob1jntje22-fffc00?style=for-the-badge&logo=snapchat&logoColor=000000" alt="rob1jntje22 on Snapchat" />
+                            </a>
+                        </li>
+                        <li>
+                            <a class="no-underline hover:bg-transparent hover:opacity-80" href="https://instagram.com/rob1jntje">
+                                <img src="https://img.shields.io/badge/rob1jntje-c13584?style=for-the-badge&logo=instagram&logoColor=white" alt="rob1jntje on Instagram" />
                             </a>
                         </li>
                     </ul>
