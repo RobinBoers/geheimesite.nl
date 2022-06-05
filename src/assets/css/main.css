@@ -184,30 +184,29 @@ html {
 
   body,
         .article {
-    font-family: sans-serif;
-    font-family: "Merriweather", serif;
     font-size: 18px;
     line-height: 28px;
     max-width: 560px;
     margin: auto;
+    font-family: Merriweather, Georgia, serif;
   }
 
   h1,
         .h1 {
-    font-family: Poppins, sans-serif;
     font-size: 36px;
     line-height: 56px;
     margin-top: 28px;
     margin-bottom: 28px;
+    font-family: Poppins, sans-serif;
   }
 
   h2,
         .h2 {
-    font-family: "Fira Sans Condensed", sans-serif;
     font-size: 29px;
     line-height: 28px;
     margin-top: 28px;
     margin-bottom: 28px;
+    font-family: Fira Sans Condensed, sans-serif;
   }
 
   h3,
@@ -1071,6 +1070,14 @@ section, .section{
   margin-left: 0.25rem;
 }
 
+.mt-1\.5{
+  margin-top: 0.375rem;
+}
+
+.mt-1{
+  margin-top: 0.25rem;
+}
+
 .mb-5{
   margin-bottom: 1.25rem;
 }
@@ -1087,12 +1094,24 @@ section, .section{
   display: flex;
 }
 
+.table{
+  display: table;
+}
+
 .hidden{
   display: none;
 }
 
 .aspect-square{
   aspect-ratio: 1 / 1;
+}
+
+.aspect-video{
+  aspect-ratio: 16 / 9;
+}
+
+.h-20{
+  height: 5rem;
 }
 
 .h-60{
@@ -1119,12 +1138,20 @@ section, .section{
   max-width: 28rem;
 }
 
+.max-w-\[1200px\]{
+  max-width: 1200px;
+}
+
 .max-w-full{
   max-width: 100%;
 }
 
 .max-w-xl{
   max-width: 36rem;
+}
+
+.flex-grow{
+  flex-grow: 1;
 }
 
 .resize-none{
@@ -1143,8 +1170,16 @@ section, .section{
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.flex-row{
+  flex-direction: row;
+}
+
 .flex-col{
   flex-direction: column;
+}
+
+.items-start{
+  align-items: flex-start;
 }
 
 .items-center{
@@ -1163,12 +1198,24 @@ section, .section{
   gap: 2.5rem;
 }
 
+.gap-20{
+  gap: 5rem;
+}
+
+.gap-2{
+  gap: 0.5rem;
+}
+
 .gap-1{
   gap: 0.25rem;
 }
 
 .rounded-xl{
   border-radius: 0.75rem;
+}
+
+.rounded-md{
+  border-radius: 0.375rem;
 }
 
 .border-0{
@@ -1202,6 +1249,10 @@ section, .section{
   background-color: rgba(var(--white), var(--tw-bg-opacity));
 }
 
+.bg-vibrant\/20{
+  background-color: rgba(var(--vibrant), 0.2);
+}
+
 .object-cover{
   -o-object-fit: cover;
      object-fit: cover;
@@ -1214,6 +1265,33 @@ section, .section{
 
 .p-1{
   padding: 0.25rem;
+}
+
+.p-0{
+  padding: 0px;
+}
+
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-0\.5{
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
+
+.py-0{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.pl-12{
+  padding-left: 3rem;
+}
+
+.pt-1{
+  padding-top: 0.25rem;
 }
 
 .pt-\[50px\]{
@@ -1230,6 +1308,10 @@ section, .section{
 
 .font-sans{
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.font-poppins{
+  font-family: Poppins, sans-serif;
 }
 
 .font-serif{
@@ -1259,6 +1341,10 @@ section, .section{
   font-weight: 700;
 }
 
+.lowercase{
+  text-transform: lowercase;
+}
+
 .italic{
   font-style: italic;
 }
@@ -1280,6 +1366,12 @@ section, .section{
 .no-underline{
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
+}
+
+.shadow-md{
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .contrast-125{
@@ -1330,10 +1422,30 @@ section, .section{
   background-color: rgba(var(--vibrant), var(--tw-bg-opacity));
 }
 
+.hover\:bg-transparent:hover{
+  background-color: transparent;
+}
+
+.hover\:opacity-90:hover{
+  opacity: 0.9;
+}
+
+.hover\:opacity-70:hover{
+  opacity: 0.7;
+}
+
+.hover\:opacity-80:hover{
+  opacity: 0.8;
+}
+
 @media (prefers-color-scheme: dark){
   .dark\:bg-black{
     --tw-bg-opacity: 1;
     background-color: rgba(var(--black), var(--tw-bg-opacity));
+  }
+
+  .dark\:bg-slate\/70{
+    background-color: rgb(17 17 33 / 0.7);
   }
 
   .dark\:text-white{
@@ -1373,6 +1485,10 @@ section, .section{
 
   .lg\:block{
     display: block;
+  }
+
+  .lg\:flex{
+    display: flex;
   }
 
   .lg\:h-fit{
