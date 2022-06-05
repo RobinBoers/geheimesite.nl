@@ -94,7 +94,7 @@
                     <p>Door Robin Boers, <span class="w3-opacity">October 21, 2019</span></p>
                     <p>De DGAW is weer online! Het heeft nu een andere naam: Nindo. Je kunt er nog steeds openbare berichten plaatsen, en prive berichten versturen. Maar je kunt nu ook afbeeldingen aan je berichten toevoegen met Nindo Images, en je kunt berichten liken. Je kunt nog steeds inloggen met een geheimesite account. Wil je het zien? Kijk dan eens hier:</p>
                     <p>
-                        <a href="../account/inloggen.php">Inloggen</a> | <a href="../library/website/nindo">Nindo</a>
+                        <a href="../account/inloggen.php">Inloggen</a> | <a href="../website/nindo">Nindo</a>
                     </p>
                 </div>
 

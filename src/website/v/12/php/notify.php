@@ -11,11 +11,11 @@ function notifyMe(type) {
     var notification = new Notification('Nieuw bericht van '+from, { body: text, icon: img });
     if(type = true){
        notification.onclick = function(){
-           window.open('https://www.geheimesite.nl/library/website/nindo/messages/message.php?id='+id, '_blank');
+           window.open('https://www.geheimesite.nl/website/nindo/messages/message.php?id='+id, '_blank');
        };
     } else {
        notification.onclick = function(){
-           window.open('https://www.geheimesite.nl/library/website/nindo/messenger.php?id='+id, '_blank');
+           window.open('https://www.geheimesite.nl/website/nindo/messenger.php?id='+id, '_blank');
        }; 
     }
   }
@@ -24,11 +24,11 @@ function notifyMe(type) {
     Notification.requestPermission(function (permission) {
       if(type = true){
            notification.onclick = function(){
-               window.open('https://www.geheimesite.nl/library/website/nindo/messages/message.php?id='+id, '_blank');
+               window.open('https://www.geheimesite.nl/website/nindo/messages/message.php?id='+id, '_blank');
            };
         } else {
            notification.onclick = function(){
-               window.open('https://www.geheimesite.nl/library/website/nindo/messenger.php?id='+id, '_blank');
+               window.open('https://www.geheimesite.nl/website/nindo/messenger.php?id='+id, '_blank');
            }; 
         }
     });

@@ -15,7 +15,7 @@ if(!isset($_SESSION['login19'])) {
     <a href="https://github.com/RobinBoers" class="w3-button">GitHub</a>
     <a href="projecten.php" class="w3-button">Projecten</a>
     <a href="https://code.geheimesite.nl" class="w3-button">Beta projecten</a>
-    <a href="/library/website/nindo" class="w3-button">Inloggen</a>
+    <a href="/website/nindo" class="w3-button">Inloggen</a>
 </div>
 
 <div class="w3-bar w3-red w3-padding">
@@ -26,7 +26,7 @@ if(!isset($_SESSION['login19'])) {
         <a href="https://github.com/RobinBoers" class="w3-bar-item w3-button">GitHub</a>
         <a href="projecten.php" class="w3-bar-item w3-button">Projecten</a>
         <a href="https://code.geheimesite.nl" class="w3-bar-item w3-button">Beta projecten</a>
-        <a href="/library/website/nindo" class="w3-bar-item w3-button">Nindo</a>
+        <a href="/website/nindo" class="w3-bar-item w3-button">Nindo</a>
     </div>
     <div class="w3-right">
         <span class="smallNavButton w3-bar-item w3-button" onclick="openNav()"><i class="fas fa-bars"></i></span>

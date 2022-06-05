@@ -100,7 +100,7 @@
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="/library/website/nindo"><img src="/images/projects/nindo.png" alt="House" style="width:100%">
+                            <a href="/website/nindo"><img src="/images/projects/nindo.png" alt="House" style="width:100%">
                             <div class="w3-light-grey w3-padding">Nindo</div>
                             </a>
                           </div>

@@ -68,7 +68,7 @@
                             </div>
                             <div class="w3-col l6 m6 w3-margin-bottom">
                               <div class="w3-display-container">
-                                <a href="/library/website/nindo"><div class="w3-display-topleft w3-black w3-padding">Nindo</div>
+                                <a href="/website/nindo"><div class="w3-display-topleft w3-black w3-padding">Nindo</div>
                                 <img src="/images/projects/nindo.png" alt="House" style="width:100%"></a>
                               </div>
                             </div>

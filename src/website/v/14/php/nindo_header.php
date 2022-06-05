@@ -8,7 +8,7 @@ if(!isset($_SESSION['login19'])) {
 ?>
 <header>
   <div class="w3-red w3-bar w3-wide w3-padding">
-    <a href="/library/website/nindo/index.php" class="w3-bar-item w3-button"><b>NINDO</b></a>
+    <a href="/website/nindo/index.php" class="w3-bar-item w3-button"><b>NINDO</b></a>
     <div class="w3-right w3-hide-small">
         <a href="/index.php" class="w3-bar-item w3-button">Home</a>
         <a href="#" class="w3-bar-item w3-button">Chat</a>

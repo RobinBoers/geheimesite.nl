@@ -23,13 +23,13 @@
                     <div class="flexbox sector1" id="gh">
                         <!-- <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="library/projects/package/wb.php"><img src="images/projects/wb.png" alt="WB" style="width:100%">
+                            <a href="/projects/wb.php"><img src="images/projects/wb.png" alt="WB" style="width:100%">
                             <div class="w3-padding">SkyLight</div></a>
                           </div>
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="library/projects/package/nindo.php"><img src="images/projects/nindo.png" alt="Nindo" style="width:100%">
+                            <a href="/projects/nindo.php"><img src="images/projects/nindo.png" alt="Nindo" style="width:100%">
                             <div class="w3-padding">Nindo</div>
                             </a>
                           </div>
@@ -43,7 +43,7 @@
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="library/projects/package/highlands.php">
+                            <a href="/projects/highlands.php">
                               <div class="crop">
                                 <img src="images/projects/mushhighlands.png" alt="Mushroom Highlands" style="width:100%">
                               </div>
@@ -53,28 +53,28 @@
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="library/projects/package/mclassic.php"><img src="images/projects/mclassic.png" alt="House in Classic Minecraft" style="width:100%">
+                            <a href="/projects/mclassic.php"><img src="images/projects/mclassic.png" alt="House in Classic Minecraft" style="width:100%">
                             <div class="w3-padding">js0.23-improved</div>
                             </a>
                           </div>
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="library/projects/package/fallen_world.php"><img src="images/projects/fallen_world.jpeg" alt="Thumbnail van eerste devlog" style="width:100%">
+                            <a href="/projects/fallen_world.php"><img src="images/projects/fallen_world.jpeg" alt="Thumbnail van eerste devlog" style="width:100%">
                             <div class="w3-padding">Fallen World RPG</div>
                             </a>
                           </div>
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="library/projects/package/mremous2.php"><img src="images/projects/mremous3.png" alt="Bot screenshot" style="width:100%">
+                            <a href="/projects/mremous2.php"><img src="images/projects/mremous3.png" alt="Bot screenshot" style="width:100%">
                             <div class="w3-padding">MrEmous2</div>
                             </a>
                           </div>
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="library/projects/package/sticks-and-rocks.php"><img src="images/projects/sticks-and-rocks.png" alt="Game screenshot" style="width:100%">
+                            <a href="/projects/sticks-and-rocks.php"><img src="images/projects/sticks-and-rocks.png" alt="Game screenshot" style="width:100%">
                             <div class="w3-padding">Sticks And Rocks</div>
                             </a>
                           </div>
@@ -88,21 +88,21 @@
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="library/projects/package/cutie-tanks.php"><img src="https://raw.githubusercontent.com/RobinBoers/cutie-tanks/main/artwork/cover2.png" alt="Game screenshot" style="width:100%">
+                            <a href="/projects/cutie-tanks.php"><img src="https://raw.githubusercontent.com/RobinBoers/cutie-tanks/main/artwork/cover2.png" alt="Game screenshot" style="width:100%">
                             <div class="w3-padding">CutieTanks</div>
                             </a>
                           </div>
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="library/projects/package/termitools.php"><img src="images/projects/termitools.png" alt="Termitools screenshot" style="width:100%">
+                            <a href="/projects/termitools.php"><img src="images/projects/termitools.png" alt="Termitools screenshot" style="width:100%">
                             <div class="w3-padding">TermiTools</div>
                             </a>
                           </div>
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="library/projects/package/timmy.php"><img src="images/projects/timmy.png" alt="Control panel screenshot" style="width:100%">
+                            <a href="/projects/timmy.php"><img src="images/projects/timmy.png" alt="Control panel screenshot" style="width:100%">
                             <div class="w3-padding">AutoReddit (Timmy)</div>
                             </a>
                           </div>
@@ -133,7 +133,7 @@
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="library/website/overview.php"><img src="images/projects/website_library.png" alt="Website Library" style="width:100%">
+                            <a href="/website/overview.php"><img src="images/projects/website_library.png" alt="Website Library" style="width:100%">
                             <div class="w3-padding">Website Library</div>
                             </a>
                           </div>
@@ -178,7 +178,7 @@
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="library/projects/package/nibor.php"><img src="https://code.geheimesite.nl/images/projects/nibor.png" alt="Nibor Screenshot" style="width:100%">
+                            <a href="/projects/nibor.php"><img src="https://code.geheimesite.nl/images/projects/nibor.png" alt="Nibor Screenshot" style="width:100%">
                             <div class="w3-padding">Nibor</div>
                             </a>
                           </div>
@@ -192,49 +192,49 @@
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="library/projects/package/os.php"><img src="images/projects/os.png" alt="OS" style="width:100%">
+                            <a href="/projects/os.php"><img src="images/projects/os.png" alt="OS" style="width:100%">
                             <div class="w3-padding">OS</div>
                             </a>
                           </div>
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="library/projects/package/secretsitecode.php"><img src="images/projects/secret_site_code.png" alt="SSC" style="width:100%">
+                            <a href="/projects/secretsitecode.php"><img src="images/projects/secret_site_code.png" alt="SSC" style="width:100%">
                             <div class="w3-padding">SecretSiteCode</div>
                             </a>
                           </div>
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="library/projects/package/code_edit_kit.php"><img src="images/projects/code-editor.png" alt="Code Edit Kit" style="width:100%">
+                            <a href="/projects/code_edit_kit.php"><img src="images/projects/code-editor.png" alt="Code Edit Kit" style="width:100%">
                             <div class="w3-padding">Code Edit Kit</div>
                             </a>
                           </div>
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="library/projects/package/dagboekapp.php"><img src="images/projects/dagboek1.png" alt="Dagboek programma" style="width:100%">
+                            <a href="/projects/dagboekapp.php"><img src="images/projects/dagboek1.png" alt="Dagboek programma" style="width:100%">
                             <div class="w3-padding">Dagboek App</div>
                             </a>
                           </div>
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="library/projects/package/file_eXplorer.php"><img src="images/projects/File_eXplorer.png" alt="File eXplorer" style="width:100%">
+                            <a href="/projects/file_eXplorer.php"><img src="images/projects/File_eXplorer.png" alt="File eXplorer" style="width:100%">
                             <div class="w3-padding">File eXplorer</div>
                             </a>
                           </div>
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="library/projects/package/platformgame.php"><img src="images/projects/platformgame.png" alt="Platformed" style="width:100%">
+                            <a href="/projects/platformgame.php"><img src="images/projects/platformgame.png" alt="Platformed" style="width:100%">
                             <div class="w3-padding">Platformed</div>
                             </a>
                           </div>
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="library/projects/package/cmd.php#2"><img src="images/projects/cmd.png" alt="CMD" style="width:100%">
+                            <a href="/projects/cmd.php#2"><img src="images/projects/cmd.png" alt="CMD" style="width:100%">
                             <div class="w3-padding">CMD2</div>
                             </a>
                           </div>
