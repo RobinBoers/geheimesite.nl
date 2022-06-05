@@ -16,15 +16,15 @@ Redirect /framboy /projects/framboy.php
 Redirect /feed https://blog.geheimesite.nl/index.xml 
 
 # Fix old assets directory URIs
-Redirect 301 /css/ /assets/css
-Redirect 301 /js/ /assets/js
-Redirect 301 /images/ /assets/images/
+# Redirect 301 /css/ /assets/css
+# Redirect 301 /js/ /assets/js
+# Redirect 301 /images/ /assets/images/
 
 # Fix old library directory URIs
-Redirect 301 /library/website/version/ /website/v/
-Redirect 301 /library/projects/package/ /projects/
-Redirect 301 /library/projects/ /projects/
-Redirect 301 /library/website/overview.php /website/overview
+# Redirect 301 /library/website/version/ /website/v/
+# Redirect 301 /library/projects/package/ /projects/
+# Redirect 301 /library/projects/ /projects/
+# Redirect 301 /library/website/overview.php /website/overview
 
 # Remove .php from filenames
 RewriteBase /
