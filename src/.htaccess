@@ -12,7 +12,7 @@ AddCharset UTF-8 .php
 </FilesMatch>
 
 # Redirects
-RedirectMatch 301 /framboy /projects/framboy.php
+RewriteRule /framboy /projects/framboy.php [R]
 Redirect 301 /feed https://blog.geheimesite.nl/index.xml 
 
 # Fix old assets directory URIs
@@ -22,9 +22,9 @@ RewriteRule ^/?js/(.\*)$ /assets/js/$1 [R=301,L]
 RewriteRule ^/?images/(.\*)$ /assets/images/$1 [R=301,L]
 
 # Fix old library directory URIs
-RewriteRule ^/?library/website/version/(.\*)$ /website/v/$1 [R=301,L]
-RewriteRule ^/?library/projects/package/(.\*)$ /projects/$1 [R=301,L]
-RewriteRule ^/?library/projects/(.\*)$ /projects/$1 [R=301,L]
+RewriteRule ^/?library/website/version/(.\*)$ /website/v/$1 [R=301]
+RewriteRule ^/?library/projects/package/(.\*)$ /projects/$1 [R=301]
+RewriteRule ^/?library/projects/(.\*)$ /projects/$1 [R=301]
 RedirectMatch 301 /library/website/overview.php /website/overview.php
 
 # Remove .php from filenames
