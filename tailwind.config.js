@@ -9,7 +9,7 @@ function withOpacityValue(variable) {
 
 module.exports = {
     mode: "jit",
-    content: ["./src/*.{php,html,js,shtml}", "./src/en/*.{php,html,js,shtml}", "./src/assets/js/*.js", "./src/projects/*.{php,html}", "./src/website/overview.php"],
+    content: ["./*.{php,html,js,shtml}", "./en/*.{php,html,js,shtml}", "./assets/js/*.js", "./projects/*.{php,html}", "./website/overview.php"],
     theme: {
         colors: {
             slate: "#111121",
@@ -43,4 +43,3 @@ module.exports = {
         preflight: false,
     },
 };
-//#24b9c4
