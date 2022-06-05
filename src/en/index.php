@@ -154,7 +154,7 @@
         <footer class="page-footer">
             &copy;
             <?php echo date("Y"); ?>
-            Robin Boers. Webdesigner and Elixir programmeur since 2017.
+            Robin Boers. Webdesigner and Elixir programmer since 2017.
         </footer>
     </body>
 </html>
