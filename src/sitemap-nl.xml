@@ -2,84 +2,68 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://geheimesite.nl/</loc>
-    <lastmod>2022-03-06T15:26:44+00:00</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://geheimesite.nl/over-mij</loc>
-    <lastmod>2022-03-06T15:26:44+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://geheimesite.nl/projecten</loc>
-    <lastmod>2022-03-06T15:26:44+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://geheimesite.nl/boeken</loc>
-    <lastmod>2022-03-13T15:26:44+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://geheimesite.nl/blog</loc>
-    <lastmod>2022-03-06T15:26:44+00:00</lastmod>
     <priority>0.80</priority>
   </url>
 
   <!-- Projects -->
   <url>
-    <loc>https://geheimesite.nl/library/projects/package/skylight.php</loc>
-    <lastmod>2022-03-06T15:26:44+00:00</lastmod>
-    <priority>0.64</priority>
+    <loc>https://geheimesite.nl/projects/skylight.php</loc>
+    <priority>0.60</priority>
   </url>
   <url>
-    <loc>https://geheimesite.nl/library/projects/package/nindo.php</loc>
-    <lastmod>2022-03-06T15:26:44+00:00</lastmod>
-    <priority>0.64</priority>
+    <loc>https://geheimesite.nl/projects/nindo.php</loc>
+    <priority>0.60</priority>
   </url>
   <url>
-    <loc>https://www.geheimesite.nl/library/projects/package/cutie-tanks.php</loc>
-    <lastmod>2022-03-06T15:26:44+00:00</lastmod>
-    <priority>0.64</priority>
+    <loc>https://www.geheimesite.nl/projects/cutie-tanks.php</loc>
+    <priority>0.60</priority>
   </url>
   <url>
-    <loc>https://geheimesite.nl/library/projects/package/vskodium.php</loc>
-    <lastmod>2022-03-06T15:26:44+00:00</lastmod>
-    <priority>0.64</priority>
+    <loc>https://geheimesite.nl/projects/vskodium.php</loc>
+    <priority>0.60</priority>
   </url>
   <url>
-    <loc>https://www.geheimesite.nl/library/projects/package/fallen_world.php</loc>
-    <lastmod>2022-03-06T15:26:44+00:00</lastmod>
-    <priority>0.64</priority>
+    <loc>https://www.geheimesite.nl/projects/fallen_world.php</loc>
+    <priority>0.60</priority>
   </url>
   <url>
-    <loc>https://www.geheimesite.nl/library/projects/package/mclassic.php</loc>
-    <lastmod>2022-03-06T15:26:44+00:00</lastmod>
-    <priority>0.64</priority>
+    <loc>https://www.geheimesite.nl/projects/mclassic.php</loc>
+    <priority>0.60</priority>
   </url>
   <url>
-    <loc>https://geheimesite.nl/library/projects/package/ninjado.php</loc>
-    <lastmod>2022-03-06T15:26:44+00:00</lastmod>
-    <priority>0.64</priority>
+    <loc>https://geheimesite.nl/projects/ninjado.php</loc>
+    <priority>0.60</priority>
   </url>
   <url>
-    <loc>https://geheimesite.nl/library/projects/package/highlands.php</loc>
-    <lastmod>2022-03-06T15:26:44+00:00</lastmod>
-    <priority>0.64</priority>
+    <loc>https://geheimesite.nl/projects/highlands.php</loc>
+    <priority>0.60</priority>
   </url>
   <url>
-    <loc>https://geheimesite.nl/library/projects/package/sticks-and-rocks.php</loc>
-    <lastmod>2022-03-06T15:26:44+00:00</lastmod>
-    <priority>0.64</priority>
+    <loc>https://geheimesite.nl/projects/sticks-and-rocks.php</loc>
+    <priority>0.60</priority>
   </url>
   <url>
-    <loc>https://geheimesite.nl/library/projects/package/timmy.php</loc>
-    <lastmod>2022-03-06T15:26:44+00:00</lastmod>
-    <priority>0.64</priority>
+    <loc>https://geheimesite.nl/projects/timmy.php</loc>
+    <priority>0.60</priority>
   </url>  
   <url>
-    <loc>https://geheimesite.nl/library/website/overview.php</loc>
-    <lastmod>2022-03-06T15:26:44+00:00</lastmod>
-    <priority>0.64</priority>
+    <loc>https://geheimesite.nl/website/overview</loc>
+    <priority>0.60</priority>
   </url>
 </urlset>

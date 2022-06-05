@@ -2,27 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://geheimesite.nl/en/</loc>
-    <lastmod>2022-03-06T15:26:44+00:00</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
-    <loc>https://geheimesite.nl/en/over-mij</loc>
-    <lastmod>2022-03-06T15:26:44+00:00</lastmod>
+    <loc>https://geheimesite.nl/en/about</loc>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://geheimesite.nl/en/projecten</loc>
-    <lastmod>2022-03-06T15:26:44+00:00</lastmod>
+    <loc>https://geheimesite.nl/me</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://geheimesite.nl/en/projects</loc>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://geheimesite.nl/en/books</loc>
-    <lastmod>2022-03-13T15:26:44+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
+    <loc>https://geheimesite.nl/youtube</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://geheimesite.nl/en/blog</loc>
-    <lastmod>2022-03-06T15:26:44+00:00</lastmod>
     <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://geheimesite.nl/hyperfeed</loc>
+    <priority>0.70</priority>
   </url>
 </urlset>

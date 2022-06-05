@@ -1318,6 +1318,10 @@ section, .section{
   font-family: Merriweather, Georgia, serif;
 }
 
+.font-display{
+  font-family: Bungee Shade, sans-serif;
+}
+
 .text-7xl{
   font-size: 4.5rem;
   line-height: 1;
@@ -1341,6 +1345,10 @@ section, .section{
   font-weight: 700;
 }
 
+.font-light{
+  font-weight: 300;
+}
+
 .lowercase{
   text-transform: lowercase;
 }
@@ -1351,6 +1359,11 @@ section, .section{
 
 .not-italic{
   font-style: normal;
+}
+
+.text-\[white\]{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .text-white{
@@ -1424,14 +1437,6 @@ section, .section{
 
 .hover\:bg-transparent:hover{
   background-color: transparent;
-}
-
-.hover\:opacity-90:hover{
-  opacity: 0.9;
-}
-
-.hover\:opacity-70:hover{
-  opacity: 0.7;
 }
 
 .hover\:opacity-80:hover{

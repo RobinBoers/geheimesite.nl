@@ -71,7 +71,7 @@
                     <div class="blog w3-card-4 w3-container w3-white">
                         <h3><b>WEBSITE LIBRARY ONLINE</b></h3>
                         <h5>Door Robin Boers, <span class="w3-opacity">October 19, 2019</span></h5>
-                        <p>Ik heb een tool gemaakt waarmee je kunt zien hoe mijn website zich heeft ontwikkeld. Je kan alle versies vanaf versie 2 zien. Ik heb helaas geen kopie meer van versie 1. De inhoud van de site was toen heel anders (Ik was jonger... 😁, dus de inhoud is nogal belachelijk 😂 🤣) Hieronder zei je een linkje naar het overzicht.<br><a href="/library/website/overview.php">Overzicht vanaf versie 2</a></p>
+                        <p>Ik heb een tool gemaakt waarmee je kunt zien hoe mijn website zich heeft ontwikkeld. Je kan alle versies vanaf versie 2 zien. Ik heb helaas geen kopie meer van versie 1. De inhoud van de site was toen heel anders (Ik was jonger... 😁, dus de inhoud is nogal belachelijk 😂 🤣) Hieronder zei je een linkje naar het overzicht.<br><a href="/website/overview">Overzicht vanaf versie 2</a></p>
                     </div>
                     <hr>
                     <div class="blog w3-card-4 w3-container w3-white">

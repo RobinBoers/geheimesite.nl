@@ -44,13 +44,13 @@
                     <div class="flexbox sector1">
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="/library/projects/package/wb.php"><img src="images/projects/wb.png" alt="House" style="width:100%">
+                            <a href="/projects/wb.php"><img src="images/projects/wb.png" alt="House" style="width:100%">
                             <div class="w3-light-grey w3-padding">SkyLight Website Builder</div></a>
                           </div>
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="/library/projects/package/nindo.php"><img src="images/projects/nindo.png" alt="House" style="width:100%">
+                            <a href="/projects/nindo.php"><img src="images/projects/nindo.png" alt="House" style="width:100%">
                             <div class="w3-light-grey w3-padding">Nindo</div>
                             </a>
                           </div>
@@ -64,7 +64,7 @@
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="/library/projects/package/platformgame.php"><img src="images/projects/platformgame.png" alt="House" style="width:100%">
+                            <a href="/projects/platformgame.php"><img src="images/projects/platformgame.png" alt="House" style="width:100%">
                             <div class="w3-light-grey w3-padding">Platformed</div>
                             </a>
                           </div>

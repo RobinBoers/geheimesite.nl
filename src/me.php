@@ -4,12 +4,12 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Too much information about me — geheimesite.nl | Robin Boers</title>
+        <title>Everything me — geheimesite.nl | Robin Boers</title>
 
-        <link rel="alternate stylesheet" href="/assets/css/plain.css" video-title="plain" />       
+        <link rel="alternate stylesheet" href="/assets/css/plain.css" title="plain" />       
         <script src="/assets/js/plain-mode.js"></script>
 
-        <link rel="stylesheet" href="/assets/css/main.css" video-title="default" />
+        <link rel="stylesheet" href="/assets/css/main.css" title="default" />
 
         <link 
             rel="stylesheet" 

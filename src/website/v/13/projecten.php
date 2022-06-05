@@ -23,20 +23,20 @@
                     <div class="flexbox sector1">
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="/library/projects/package/wb.php"><img src="/images/projects/wb.png" alt="WB" style="width:100%">
+                            <a href="/projects/wb.php"><img src="/images/projects/wb.png" alt="WB" style="width:100%">
                             <div class="w3-light-grey w3-padding">SkyLight WB</div></a>
                           </div>
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="/library/projects/package/nindo.php"><img src="/images/projects/nindo.png" alt="Nindo" style="width:100%">
+                            <a href="/projects/nindo.php"><img src="/images/projects/nindo.png" alt="Nindo" style="width:100%">
                             <div class="w3-light-grey w3-padding">Nindo</div>
                             </a>
                           </div>
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="/library/projects/package/platformgame.php"><img src="/images/projects/platformgame.png" alt="Platformed" style="width:100%">
+                            <a href="/projects/platformgame.php"><img src="/images/projects/platformgame.png" alt="Platformed" style="width:100%">
                             <div class="w3-light-grey w3-padding">Platformed</div>
                             </a>
                           </div>
@@ -44,7 +44,7 @@
                         <!-- Room for 2 -->
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="/library/projects/package/highlands.php">
+                            <a href="/projects/highlands.php">
                               <div class="crop">
                                 <img src="/images/projects/mushhighlands.png" alt="Mushroom Highlands" style="width:100%">
                               </div>
@@ -61,7 +61,7 @@
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="/library/projects/package/cmd.php#2"><img src="/images/projects/cmd.png" alt="CMD" style="width:100%">
+                            <a href="/projects/cmd.php#2"><img src="/images/projects/cmd.png" alt="CMD" style="width:100%">
                             <div class="w3-light-grey w3-padding">CMD2</div>
                             </a>
                           </div>
@@ -87,28 +87,28 @@
                     <div class="flexbox sector1">
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="/library/projects/websites/groendoenerij.php"><img src="/images/projects/groendoenerij.png" alt="Groendoenerij" style="width:100%">
+                            <a href="/projects/websites/groendoenerij.php"><img src="/images/projects/groendoenerij.png" alt="Groendoenerij" style="width:100%">
                             <div class="w3-light-grey w3-padding">Groendoenerij</div>
                             </a>
                           </div>
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="/library/projects/websites/sterrenkruid.php"><img src="/images/projects/sterrenkruid.png" alt="Sterrenkruid" style="width:100%">
+                            <a href="/projects/websites/sterrenkruid.php"><img src="/images/projects/sterrenkruid.png" alt="Sterrenkruid" style="width:100%">
                             <div class="w3-light-grey w3-padding">Sterrenkruid</div>
                             </a>
                           </div>
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="/library/projects/websites/hetgg.php"><img src="/images/projects/hetgg.png" alt="Het GG" style="width:100%">
+                            <a href="/projects/websites/hetgg.php"><img src="/images/projects/hetgg.png" alt="Het GG" style="width:100%">
                             <div class="w3-light-grey w3-padding">Het GG</div>
                             </a>
                           </div>
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="/library/website/overview.php"><img src="/images/projects/website_library.png" alt="Website Library" style="width:100%">
+                            <a href="/website/overview"><img src="/images/projects/website_library.png" alt="Website Library" style="width:100%">
                             <div class="w3-light-grey w3-padding">Website Library</div>
                             </a>
                           </div>
@@ -149,35 +149,35 @@
                     <div class="flexbox sector1">
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="/library/projects/package/os.php"><img src="/images/projects/os.png" alt="OS" style="width:100%">
+                            <a href="/projects/os.php"><img src="/images/projects/os.png" alt="OS" style="width:100%">
                             <div class="w3-light-grey w3-padding">OS</div>
                             </a>
                           </div>
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="/library/projects/package/secretsitecode.php"><img src="/images/projects/secret_site_code.png" alt="SSC" style="width:100%">
+                            <a href="/projects/secretsitecode.php"><img src="/images/projects/secret_site_code.png" alt="SSC" style="width:100%">
                             <div class="w3-light-grey w3-padding">SecretSiteCode</div>
                             </a>
                           </div>
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="/library/projects/package/code_edit_kit.php"><img src="/images/projects/code-editor.png" alt="Code Edit Kit" style="width:100%">
+                            <a href="/projects/code_edit_kit.php"><img src="/images/projects/code-editor.png" alt="Code Edit Kit" style="width:100%">
                             <div class="w3-light-grey w3-padding">Code Edit Kit</div>
                             </a>
                           </div>
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="/library/projects/package/dagboekapp.php"><img src="/images/projects/dagboek1.png" alt="Dagboek programma" style="width:100%">
+                            <a href="/projects/dagboekapp.php"><img src="/images/projects/dagboek1.png" alt="Dagboek programma" style="width:100%">
                             <div class="w3-light-grey w3-padding">Dagboek App</div>
                             </a>
                           </div>
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="/library/projects/package/file_eXplorer.php"><img src="/images/projects/File_eXplorer.png" alt="File eXplorer" style="width:100%">
+                            <a href="/projects/file_eXplorer.php"><img src="/images/projects/File_eXplorer.png" alt="File eXplorer" style="width:100%">
                             <div class="w3-light-grey w3-padding">File eXplorer</div>
                             </a>
                           </div>

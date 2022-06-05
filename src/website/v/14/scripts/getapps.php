@@ -13,12 +13,12 @@
                         }
                         if($apps === "default"){
                             ?><ul>
-                            <li><a href="/library/projects/secretsitecode/">SecretSiteCode Playground</a></li><li><a href="/library/projects/chat/">ThinkChat</a></li></ul>
+                            <li><a href="/projects/secretsitecode/">SecretSiteCode Playground</a></li><li><a href="/projects/chat/">ThinkChat</a></li></ul>
                             <?php
                         }
                         if($apps === "dgaw" || $apps === "DGAW" || $apps === "nindo" || $apps === "geheimagent") {
                             ?><p class="error">Dit type account wordt niet meer ondersteund. Je kunt de beheerder van geheimesite.nl (Robin Boers) emailen.</p><ul>
-                            <li><a href="/library/projects/secretsitecode/">SecretSiteCode Playground</a></li><li><a href="/library/projects/chat/">ThinkChat</a></li></ul>
+                            <li><a href="/projects/secretsitecode/">SecretSiteCode Playground</a></li><li><a href="/projects/chat/">ThinkChat</a></li></ul>
                             <?php
                         }
                         if($apps === "dagboek_f") {
@@ -27,9 +27,9 @@
                             ?>
                             <p>
                                 <ul>
-                                    <li><a href="/library/projects/dagboek/fabian/">Mijn dagboek</a></li>
-                                    <li><a href="/library/projects/secretsitecode/">SecretSiteCode Playground</a></li>
-                                    <li><a href="/library/projects/chat/">ThinkChat</a></li>
+                                    <li><a href="/projects/dagboek/fabian/">Mijn dagboek</a></li>
+                                    <li><a href="/projects/secretsitecode/">SecretSiteCode Playground</a></li>
+                                    <li><a href="/projects/chat/">ThinkChat</a></li>
                                 </ul>
                             <?php
                         }
@@ -38,9 +38,9 @@
                             $_SESSION['i_password'] = true;
                             ?>
                             <ul>
-                                <li><a href="/library/projects/dagboek/iris/">Mijn dagboek</a></li>
-                                <li><a href="/library/projects/secretsitecode/">SecretSiteCode Playground</a></li>
-                                <li><a href="/library/projects/chat/">ThinkChat</a></li>
+                                <li><a href="/projects/dagboek/iris/">Mijn dagboek</a></li>
+                                <li><a href="/projects/secretsitecode/">SecretSiteCode Playground</a></li>
+                                <li><a href="/projects/chat/">ThinkChat</a></li>
                             </ul>
                             <?php
                         }
@@ -52,22 +52,22 @@
                             ?>
                             <ul class="admin">
                                 <li>
-                                    <a href="/library/projects/dagboek/fabian/">
+                                    <a href="/projects/dagboek/fabian/">
                                         Mijn dagboek (Fabian)
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/library/projects/dagboek/iris/">
+                                    <a href="/projects/dagboek/iris/">
                                         Mijn dagboek (Iris)
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/library/projects/secretsitecode/">
+                                    <a href="/projects/secretsitecode/">
                                         SecretSiteCode Playground
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/library/projects/chat/">ThinkChat</a>
+                                    <a href="/projects/chat/">ThinkChat</a>
                                 </li>
                             </ul>
                             <?php

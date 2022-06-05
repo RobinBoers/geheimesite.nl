@@ -41,7 +41,7 @@
                             Hoi, ik ben Robin. Ik ben 15 jaar oud, ik zit in de derde, en ik woon in Maassluis. Ik houd van programmeren en werk bij Qdentity in Maasland. Deze website is mijn plek om al mijn projecten te showcasen. Ik heb ook een <a href="https://blog.geheimesite.nl">blog</a> over programmeren, webdevelopment en andere coole shit.
                         </p>
                     </section>
-                    <img class="w-full h-60 mb-5 lg:rotate-1 rounded-xl aspect-square object-cover object-right-top lg:mb-0 lg:h-fit lg:w-1/5" src="/assets/images/me.jpeg" alt="Dit ben ik.">
+                    <img class="w-full h-60 mb-5 lg:rotate-1 rounded-xl aspect-square object-cover object-right-top lg:mb-0 lg:h-fit lg:w-1/5" src="/assets/images/me.jpeg" alt="Dit ben ik">
                 </div>
 
                 <section>
@@ -54,7 +54,7 @@
                 <div class="flex flex-col lg:flex-row justify-center items-center gap-1 lg:gap-4">
                     <img class="w-full lg:w-auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RobinBoers&layout=compact" alt="De meestgebruikte programmeertalen in mijn projecten">
 
-                    <img class="w-full lg:w-auto" src="https://github-readme-stats.vercel.app/api?username=RobinBoers&count_private=true&show_icons=true&hide_title=true" alt="Mijn activiteit op GitHub het afgelopen jaar.">
+                    <img class="w-full lg:w-auto" src="https://github-readme-stats.vercel.app/api?username=RobinBoers&count_private=true&show_icons=true&hide_title=true" alt="Mijn activiteit op GitHub het afgelopen jaar">
                 </div>
 
                 <section>
@@ -63,7 +63,7 @@
                         Ik programmeer al sinds groep 7 (2017). Ik ben ermee begonnen omdat ik in de bieb een boek zag staan over website's maken. Nu moet je weten dat ik al sinds groep 4 zo'n computernerd was, die van elk knopje wist wat het deed. Het boek heette <a href="https://www.nano-tips.com/">Creeëren met code: Zo maak je een website</a>. Dus ik maakte een website, die eind 2017 online kwam. Ik hield enorm veel van geheim agenten, dus de eerste versies (tot versie 9) gingen daar ook over. Je kunt die versies in mijn <a href="library/website/overview.php">Website Library</a> zien.
                     </p>
                     <p>
-                        Nadat ik mijn eerste website had gemaakt ben ik naar CoderDojo gegaan. Dat is een soort bijeenkomst die hier in Maassluis om de vier weken is, waar kinderen kunnen leren programmeren, en elkaar daarbij kunnen helpen. Ik heb op CoderDojo geleerd hoe PHP en databases werken, en uiteindelijk met die kennis <a href="/library/projects/package/nindo.php">Nindo</a> en <a href="/library/projects/package/wb.php">SkyLight</a> gebouwd.
+                        Nadat ik mijn eerste website had gemaakt ben ik naar CoderDojo gegaan. Dat is een soort bijeenkomst die hier in Maassluis om de vier weken is, waar kinderen kunnen leren programmeren, en elkaar daarbij kunnen helpen. Ik heb op CoderDojo geleerd hoe PHP en databases werken, en uiteindelijk met die kennis <a href="/projects/nindo.php">Nindo</a> en <a href="/projects/wb.php">SkyLight</a> gebouwd.
                     </p>
 
                 <!-- <div class="flex flex-col lg:flex-row-reverse items-center">   -->

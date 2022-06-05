@@ -241,7 +241,7 @@
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="https://geheimesite.nl/library/projects/Website-To-Webapp">
+                            <a href="https://geheimesite.nl/projects/Website-To-Webapp">
                             <img src="images/projects/wtw.png" alt="..." style="width:100%">
                             <div class="w3-padding">Website-To-Webapp</div></a>
                           </div>
@@ -327,7 +327,7 @@
 					
 					// <div class="flex_i"> flexitem
 					//    <div class="w3-display-container w3-card work-vak"> container
-					//       <a href="https://geheimesite.nl/library/projects/Website-To-Webapp">
+					//       <a href="https://geheimesite.nl/projects/Website-To-Webapp">
 					//       	<img src="images/projects/wtw.png" alt="..." style="width:100%">
 					//  		<div class="w3-padding">Website-To-Webapp</div>
 					//   	</a>

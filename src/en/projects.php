@@ -108,7 +108,7 @@
                     </li>
                     <li>
                         <h3>Website Library</h3>
-                        <a href="/library/website/overview.php">
+                        <a href="/website/overview">
                             <img src="/assets/images/websites/website-library.png" alt="Website Library">
                         </a>
                     </li>

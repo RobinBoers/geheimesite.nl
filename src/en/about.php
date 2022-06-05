@@ -41,7 +41,7 @@
                             Hi, my name is Robin. I was born 15 years ago in Vlaardingen, Netherlands but I have lived in Maassluis for my entire life. I love to thinker with code and I currently work at Qdentity. This site is a place for me to showcase my projects. I also have a <a href="https://blog.geheimesite.nl/en">blog</a> where I write about programming, webdevelopment and other cool shit.
                         </p>
                     </section>
-                    <img class="w-full h-60 mb-5 lg:rotate-1 rounded-xl aspect-square object-cover object-right-top lg:mb-0 lg:h-fit lg:w-1/5" src="/assets/images/me.jpeg" alt="Dit ben ik.">
+                    <img class="w-full h-60 mb-5 lg:rotate-1 rounded-xl aspect-square object-cover object-right-top lg:mb-0 lg:h-fit lg:w-1/5" src="/assets/images/me.jpeg" alt="This is me">
                 </div>
 
                 <section>
@@ -52,9 +52,9 @@
                 </section>
 
                 <div class="flex flex-col lg:flex-row justify-center items-center gap-1 lg:gap-4">
-                    <img class="w-full lg:w-auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RobinBoers&layout=compact" alt="De meestgebruikte programmeertalen in mijn projecten">
+                    <img class="w-full lg:w-auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RobinBoers&layout=compact" alt="Most used programming languages in my projects">
 
-                    <img class="w-full lg:w-auto" src="https://github-readme-stats.vercel.app/api?username=RobinBoers&count_private=true&show_icons=true&hide_title=true" alt="Mijn activiteit op GitHub het afgelopen jaar.">
+                    <img class="w-full lg:w-auto" src="https://github-readme-stats.vercel.app/api?username=RobinBoers&count_private=true&show_icons=true&hide_title=true" alt="My GitHub activity of the last year">
                 </div>
 
                 <section>
