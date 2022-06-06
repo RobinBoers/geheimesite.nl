@@ -49,10 +49,10 @@
                     <img src="/assets/images/robin_pixelart.png" hidden class="u-logo w-full pixelart">
                 </section>
                 <section>
-                    <h2 class="p-name mb-1 font-poppins">
+                    <h1 class="p-name mb-1 font-poppins text-[30px] leading-[33px]">
                         <span class="p-given-name">Robin</span> 
                         <span class="p-family-name">Boers</span>
-                    </h2>
+                    </h1>
                     <p class="italic">@<span class="p-nickname lowercase">Robijntje</span></p>
 
                     <p class="p-note">
