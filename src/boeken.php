@@ -67,7 +67,7 @@
                     <h2>Uitgelezen</h2>
 
                     <p>
-                        Ik ben sinds 2018 meer dan <span class="bold"><span class="book-count">vrij veel</span> boeken</span> uitgelezen. Hieronder zie je mijn favorieten.
+                        Ik ben sinds 2018 meer dan <span class="bold"><span class="book-count">200</span> boeken</span> uitgelezen. Hieronder zie je mijn favorieten.
                     </p>
                 </section>
 

@@ -67,7 +67,7 @@
                     <h2>Finished</h2>
 
                     <p>
-                        Since 2018, I finished more than <span class="bold"><span class="book-count">vrij veel</span> books</span>. Here you can see my favorites.
+                        Since 2018, I finished more than <span class="bold"><span class="book-count">200</span> books</span>. Here you can see my favorites.
                     </p>
                 </section>
 
