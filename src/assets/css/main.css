@@ -182,12 +182,9 @@ html {
     line-height: 28px;
   }
 
-  body,
-        .article {
+  body {
     font-size: 18px;
     line-height: 28px;
-    max-width: 560px;
-    margin: auto;
     font-family: Merriweather, Georgia, serif;
   }
 
@@ -1341,6 +1338,10 @@ section, .section{
   line-height: 2.5rem;
 }
 
+.text-\[30px\]{
+  font-size: 30px;
+}
+
 .font-light{
   font-weight: 300;
 }
@@ -1363,6 +1364,10 @@ section, .section{
 
 .not-italic{
   font-style: normal;
+}
+
+.leading-\[33px\]{
+  line-height: 33px;
 }
 
 .text-\[white\]{
