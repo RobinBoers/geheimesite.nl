@@ -3,6 +3,11 @@ RewriteEngine On
 AddCharset UTF-8 .html
 AddCharset UTF-8 .php
 
+# Force https
+RewriteEngine On 
+RewriteCond %{HTTPS} off 
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
 <FilesMatch "\.(ico|jpg|jpeg|png|gif|js|css|swf)$">
 	Header set Expires "access plus 1 day"
 </FilesMatch>
@@ -29,12 +34,8 @@ Redirect 301 /images/ /assets/images/
 # Remove .php from filenames
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
-
-# Remove .html from filenames
-RewriteBase /
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
 # GZip compression
 <IfModule mod_deflate.c>
