@@ -191,7 +191,21 @@
                     <p>Thanks for reading all of that (or just scrolling to the bottom). I hope you learned some things. If anything about this page was unclear, don't hesitate to send me an email at <a href="mailto:robin@geheimesite.nl">robin@geheimesite.nl</a>. Now, as promised, here are some resources for building your own site:</p>
 
                     <ul>
-                        <li>Uhh. TODO i guess</li>
+                        <li>
+                            <a href="https://sadgrl.online/webmastery/">https://sadgrl.online/webmastery/</a>
+                        </li>
+                        <li>
+                            <li><a href="https://learn.sadgrl.online">https://learn.sadgrl.online</a></li>
+                        </li>
+                        <li>
+                            <a href="https://digital.com/tools/html-cheatsheet/">https://digital.com/tools/html-cheatsheet/</a>
+                        </li>
+                        <li>
+                            <a href="https://links.yesterweb.org">https://links.yesterweb.org</a>
+                        </li>
+                        <li>
+                            <a href="https://neocities.org/tutorials">https://neocities.org/tutorials</a>
+                        </li>
                     </ul>
                 </section>
             </article>
