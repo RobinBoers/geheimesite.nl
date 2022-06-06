@@ -388,6 +388,39 @@
         @apply w-full aspect-video object-cover my-2 mr-2;
     }
 
+    .music-list {
+        counter-reset: item;
+        @apply list-none p-0 max-w-[740px] mx-auto;
+    }
+    
+    .music-list li {
+        @apply flex gap-2;
+    }
+
+    .music-list li h3.new::after {
+        @apply text-vibrant text-sm rounded-md bg-vibrant/20 p-0.5 ml-1 align-middle;
+        content: "new";
+        line-height: 2px !important;
+    }
+
+    .music-list li .track-artist {
+        @apply text-sm;
+    }
+
+    .music-list li div {
+        @apply py-1.5;
+    }
+
+    .music-list li div * {
+        @apply inline;
+    }
+
+    .music-list li::before {
+        @apply text-5xl font-sans font-bold align-middle;
+        content: counter(item);
+        counter-increment: item;
+    }
+
     .menu-button {
         @apply dark:invert h-5 w-5 inline lg:hidden cursor-pointer;
     }
