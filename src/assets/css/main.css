@@ -1359,20 +1359,24 @@ section, .section{
   text-align: center;
 }
 
-.font-display{
-  font-family: Bungee Shade, sans-serif;
+.font-poppins{
+  font-family: Poppins, sans-serif;
 }
 
 .font-sans{
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.font-poppins{
-  font-family: Poppins, sans-serif;
-}
-
 .font-serif{
   font-family: Merriweather, Georgia, serif;
+}
+
+.font-fira{
+  font-family: Fira Sans Condensed, sans-serif;
+}
+
+.font-display{
+  font-family: Bungee Shade, sans-serif;
 }
 
 .text-7xl{
@@ -1394,8 +1398,8 @@ section, .section{
   font-size: 30px;
 }
 
-.font-light{
-  font-weight: 300;
+.font-semibold{
+  font-weight: 600;
 }
 
 .font-normal{
@@ -1420,11 +1424,6 @@ section, .section{
 
 .leading-\[33px\]{
   line-height: 33px;
-}
-
-.text-\[white\]{
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .text-white{

@@ -13,46 +13,18 @@
 
         <style>
             :root {
-                --black: 173, 173, 173;
-                --white: 20, 20, 20;
-                --vibrant: 44, 251, 148;
-            }
-
-            a, a code {
-                text-decoration: none;
-                color: rgb(var(--vibrant));
-            }
-
-            a:hover, a code:hover {
-                color: rgb(var(--white)) !important;
-                background-color: rgb(var(--vibrant)) !important;
+                --heading-preview: rgba(var(--vibrant), .4);
             }
 
             @media (prefers-color-scheme: dark) {
                 :root {
-                    --black: 20, 20, 20;
-                    --white: 173, 173, 173;
-                }
-
-                a:hover, a code:hover {
-                    color: rgb(var(--black)) !important;
+                    --heading-preview: #3c3c3c;
                 }
             }
 
             body, .title {
-                font-family: "MxPlus Amstrad PC-2y";
+                font-family: "MxPlus ToshibaTxL2 8x16", 'Courier New', monospace;
                 font-size: 120%;
-            }
-
-            p:not(.subtitle)::before {
-                content: "<p>";
-                color: #f6475d;
-                margin-right: 2px;
-            }
-            p:not(.subtitle)::after {
-                content: "<p>";
-                color: #f6475d;
-                margin-left: 2px;
             }
 
             h1, h2, h3 {
@@ -61,19 +33,19 @@
             h1::before {
                 content: "# ";
                 font-family: monospace;
-                color: #808080;
+                color: var(--heading-preview);
             }
 
             h2::before {
                 content: "## ";
                 font-family: monospace;
-                color: #808080;
+                color: var(--heading-preview);
             }
 
             h3::before {
                 content: "### ";
                 font-family: monospace;
-                color: #808080;
+                color: var(--heading-preview);
             }
 
             code {
@@ -94,8 +66,8 @@
         <main id="content" class="page-content">
             <article>
                 <section>
-                    <h1 class="mb-0 text-[white] font-display font-light">How my site was built</h1>
-                    <p class="text-[white] subtitle">The wonders of the world wide web.</p>
+                    <h1 class="mb-0">How my site was built</h1>
+                    <p class="subtitle font-poppins font-semibold">The wonders of the world wide web.</p>
 
                     <p>This site is my little gem. I launched it in 2017 and I have been improving and maintaining it ever since. I sometimes call it my personal playground. It is my little corner of the web, a place where I have full creative freedom over my own content. And I love it.</p>
 
@@ -105,7 +77,7 @@
                 <hr class="my-7 border-none">
 
                 <section>
-                    <h2 class="text-[white]">Framework? No thanks</h2>
+                    <h2>Framework? No thanks</h2>
 
                     <p>Some of you might think I built this using some frontend framework like React, Svelte, Phoenix or Ruby on Rails. But no.</p>
 
@@ -117,13 +89,13 @@
                 </section>
 
                 <section>
-                    <h2 class="text-[white]">Development</h2>
+                    <h2>Development</h2>
 
-                    <p>I have <a href="https://github.com/RobinBoers/geheimesite.nl/blob/master/server.sh">a script</a> that start a local php webserver and start a tailwind process that watches the files. I call that script in <code>npm start</code>. I also have <a href="https://github.com/RobinBoers/geheimesite.nl/blob/master/build.sh">a script</a> that just builds the CSS files using tailwind, which I can call during deployment.</p>
+                    <p>I have <a href="https://github.com/RobinBoers/geheimesite.nl/blob/master/server.sh">a script that launches a local php webserver and starts a tailwind process</a> that watches the files. I call that script in <code>npm start</code>. I also have <a href="https://github.com/RobinBoers/geheimesite.nl/blob/master/build.sh">a script that just builds the CSS files using tailwind</a>, which I can call during deployment.</p>
                 </section>
 
                 <section>
-                    <h2 class="text-[white]">Hosting</h2>
+                    <h2>Hosting</h2>
 
                     <p>My website is hosted at <a href="https://www.bhosted.nl?ref=97f4c4a4b13e269e12cfd4f0352ba527">bHosted</a>. They provide reasonably cheap and very reliable shared hosting including PHP, MySQL, DirectAdmin and PhpMyAdmin. They're a Dutch company, so the servers are close to me (which means better performance). I pay about 30 euros a year for the webhosting, and my overall experience with them is very good.</p>
 
@@ -133,15 +105,15 @@
                 </section>
 
                 <section>
-                    <h2 class="text-[white]">Fonts</h2>
+                    <h2>Fonts</h2>
 
                     <p>I used to just use the default sans-serif font the user had installed, but that's just lazyness. I thought long and hard about font selection when I redesigned my website, and I settled for this:</p>
 
                     <ul>
-                        <li>Merriweather for the main content</li>
-                        <li>Poppins for headers</li>
-                        <li>Fira Sans Condensed for subheadings</li>
-                        <li>Bungee shade as display font for header</li>
+                        <li><span class="font-serif">Merriweather</span> for the main content</li>
+                        <li><span class="font-poppins">Poppins</span> for headers</li>
+                        <li><span class="font-fira">Fira Sans Condensed</span> for subheadings</li>
+                        <li><span class="font-display">Bungee shade</span> as display font for header</li>
                     </ul>
 
                     <p>I think these fonts complement eachother, while also creating a nice contrast.</p>
@@ -150,7 +122,7 @@
                 </section>
 
                 <section>
-                    <h2 class="text-[white]">Blog</h2>
+                    <h2>Blog</h2>
 
                     <p>By blog consists of three static <a href="https://gohugo.io">hugo</a> sites, which I build and deploy using a simple bash script and GitHub actions. I developed my own hugo theme with IndieWeb support, based on <a href="https://neofeed.dev">neofeed</a>.</p>
 
@@ -158,7 +130,7 @@
                 </section>
 
                 <section>
-                    <h2 class="text-[white]">Dynamic pages & apis</h2>
+                    <h2>Dynamic pages & apis</h2>
 
                     <p>The projects and books pages are both dynamic. That means as soon as the page is loaded by the user a JS script in the background pulls in the content. Why you ask? Well, that means I can be lazy and don't have to update my site every time I create a new project or read a new book.</p>
 
@@ -168,7 +140,7 @@
                 </section>
 
                 <section>
-                    <h2 class="text-[white]">Open-source</h2>
+                    <h2>Open-source</h2>
 
                     <p>I open-sourced most of my website, and like my other projects it can be found <a href="https://github.com/RobinBoers/geheimesite.nl">on my GitHub profile</a>. I haven't yet decided on the license I'll use for my main site and my blog.</p>
 
@@ -176,7 +148,7 @@
                 </section>
 
                 <section>
-                    <h2 class="text-[white]">CI/CD</h2>
+                    <h2>CI/CD</h2>
 
                     <p>For CI/CD I'm using GitHub actions, since all of my code is also hosted on GitHub. I know GitHub isn't open-source and I should probably use Gitea or GitLab, but you know, old habbits.</p>
 
@@ -186,7 +158,7 @@
                 <hr class="my-7 border-none">
 
                 <section>
-                    <h2 class="text-[white]">As promised...</h2>
+                    <h2>As promised...</h2>
 
                     <p>Thanks for reading all of that (or just scrolling to the bottom). I hope you learned some things. If anything about this page was unclear, don't hesitate to send me an email at <a href="mailto:robin@geheimesite.nl">robin@geheimesite.nl</a>. Now, as promised, here are some resources for building your own site:</p>
 
