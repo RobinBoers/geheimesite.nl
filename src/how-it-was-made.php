@@ -167,7 +167,7 @@
                             <a href="https://sadgrl.online/webmastery/">https://sadgrl.online/webmastery/</a>
                         </li>
                         <li>
-                            <li><a href="https://learn.sadgrl.online">https://learn.sadgrl.online</a></li>
+                            <a href="https://learn.sadgrl.online">https://learn.sadgrl.online</a>
                         </li>
                         <li>
                             <a href="https://digital.com/tools/html-cheatsheet/">https://digital.com/tools/html-cheatsheet/</a>
