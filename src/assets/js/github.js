@@ -34,8 +34,8 @@ function generateBlacklist() {
         "vscode-elementary-theme",
         "yesterblog",
         "images",
-        "neopub-themes",
         "sterrenkruid",
+        "school",
         ""
     ];
 }
