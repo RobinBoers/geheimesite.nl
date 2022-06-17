@@ -44,7 +44,7 @@
             </div>
         </header>
 
-        <main id="content" class="page-content text-black dark:text-white bg-white dark:bg-black pt-[50px] pb-[27px] border-x-0 border-solid border-t-[7px] border-vibrant max-w-full">
+        <main id="content" class="page-content text-black dark:text-white bg-white dark:bg-black pt-[50px] pb-[27px] border-x-0 border-solid border-t-[7px] border-vibrant">
             <article>
                 <section>
                     <h1>Music</h1>

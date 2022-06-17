@@ -50,6 +50,10 @@
         padding-bottom: 10px;
     }
 
+    body {
+        margin: 0;
+    }
+
     /** Hyperlinks **/
 
     a:not(.button, .no-underline) {
@@ -91,10 +95,6 @@
             line-height: 33px;
         }
         body {
-            height: 100vh;
-            width: 100%;
-            margin: 0;
-            padding: 0;
             font-size: 21px;
             line-height: 33px;
             @apply font-serif;
@@ -331,7 +331,7 @@
     }
 
     .page-content {
-        @apply flex-grow lg:w-[1100px] mx-auto;
+        @apply flex-grow w-full max-w-[1100px] mx-auto;
     }
 
     .pageheader nav {
