@@ -294,7 +294,11 @@
                     </p>
                     <p><strong class="video-title">The Weird History of JavaScript</strong>
                         <em class="video-author">Fireship</em>
-                        <a href="https://www.youtube.com/watch?v=Sh6lK57Cuk4&amp;t=31s">https://www.youtube.com/watch?v=Sh6lK57Cuk4&amp;t=31s</a>
+                        <a href="https://www.youtube.com/watch?v=Sh6lK57Cuk4">https://www.youtube.com/watch?v=Sh6lK57Cuk4</a>
+                    </p>
+                    <p><strong class="video-title">I Put a Zombie Octopus in a Pool / Deep Resin Pour</strong>
+                        <em class="video-author">North of the Border</em>
+                        <a href="https://www.youtube.com/watch?v=74W88xQk7PU">https://www.youtube.com/watch?v=74W88xQk7PU</a>
                     </p>
                 </section>
             </article>
