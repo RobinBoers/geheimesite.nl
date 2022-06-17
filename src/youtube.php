@@ -83,7 +83,7 @@
                     <p>
                         <strong class="video-title">This video has xxx views</strong>
                         <em class="video-author">Tom Scott</em>
-                        <a href="https://www.youtube.com/watch?v=YPYks7lBKSY">https://www.youtube.com/watch?v=YPYks7lBKSY</a>
+                        <a href="https://www.youtube.com/watch?v=BxV14h0kFs0">https://www.youtube.com/watch?v=BxV14h0kFs0</a>
                     </p>
                     <p>
                         <strong class="video-title">The Artificial Intelligence That Deleted A Century</strong>
