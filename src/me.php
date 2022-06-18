@@ -92,7 +92,7 @@
                         <li class="flex items-top gap-2 pt-1">
                             <i class="fa-solid fa-house  mt-1.5"></i>
                             <span>
-                                <span class="p-locality">Maassluis</span> <br>
+                                <span class="p-locality">Maassluis</span>, <br>
                                 <span class="p-region">Zuid-Holland</span>, <br>
                                 <span class="p-country-name">Netherlands</span>
                             </span>
