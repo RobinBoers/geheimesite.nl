@@ -37,7 +37,7 @@
                         <dfn class="not-italic">Hypertexting</dfn> 
                         <span class="font-normal text-base font-sans">/ˈhʌɪpətɛkstɪŋ/</span>
                     </h1>
-                    <p class="font-bold mb-1">noun</p>
+                    <p class="font-bold mb-1">verb</p>
 
                     <ol>
                         <li>
