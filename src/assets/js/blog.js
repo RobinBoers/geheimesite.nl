@@ -1,65 +1,64 @@
-let postTitle = new Array();
-let postContent = new Array();
-let postUrl = new Array();
-let postDate = new Array();
-
-let months = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"];
-
-let feedSize = 0;
-
-function callback(apiData) {
-    function load() {
-        if ("entry" in apiData.feed) {
-            let feedSize = apiData.feed.entry.length;
-            for (let i = 0; i < feedSize; i++) {
-                let post = apiData.feed.entry[i];
-                console.log(post)
-
-                var p = post.published.$t.substring(5, 7);
-
-                for (var f = 0; f < post.link.length; f++) {
-                    if (post.link[f].rel == "alternate") {
-                        postUrl.push(post.link[f].href);
-                        break
-                    }
-                }
-
-                let postDateDay = post.published.$t.substring(8, 10);
-                let postDateMonth = months[parseInt(p, 10) - 1];
-                let postDateYear = post.published.$t.substring(0, 4);
-
-                postDate.push(`${postDateDay} ${postDateMonth} ${postDateYear}`);
-
-                postTitle.push(post.title.$t);
-                postContent.push(post.content.$t);
-            }
-        }
-    }
-
-    function display() {
-        let postCount = postTitle.length;
-        var currentPost = 0;
-        while (currentPost < postCount) {        
-            document.write(`
-                <article class="post mt-10">
-                    <div class="text-center my-7 max-w-xl mx-auto">
-                        <h1 id="post-${currentPost}" class="mb-0 text-4xl">${postTitle[currentPost]}</h1>
-                        <p class="my-5 bold">${postDate[currentPost]}</p>
-                    </div>
-    
-                    <section>
-                        ${postContent[currentPost]}
-                    </section>
-                </article>
-    
-                <hr class="my-7 border-none">
-            `);
-    
-            currentPost++
-        }
-    }
-    
-    load();
-    display();
+function init() {
+    loadPost(`${base_url}/index.json`);
 }
 
+function loadPost(url) {
+    feedData(url, (feed) => {
+        let featuredPost = feed[0];
+        let summary = getSummaryForText(featuredPost.content)
+        let date = convertDateToString(featuredPost.date);
+
+        document.querySelector("#featured-post-title").innerText = featuredPost.title;
+        document.querySelector("#featured-post-summary").innerText = summary;
+        document.querySelector(".dt-published").innerText = featuredPost.date;
+
+        document.querySelectorAll(".featured-post-link").forEach((link) => {
+            link.href = featuredPost.uri;
+        });
+
+        document.querySelectorAll(".featured-post-date").forEach((element) => {
+            element.innerText = date;
+        });
+
+        let tagsParent = document.querySelector("#featured-post-tags");
+        featuredPost.tags.forEach((tag) => {
+            tag = tag.replace(/\s+/g, '-');
+
+            let linkElement = document.createElement("a");
+            linkElement.innerText = `#${tag}`;
+            linkElement.setAttribute("id", tag);
+            linkElement.classList.add("p-category", "properties");
+            linkElement.href = `${base_url}/tags/${tag}`;
+            tagsParent.appendChild(linkElement);
+        });
+    });
+}
+
+function feedData(url, callback) {
+    fetch(url)
+        .then((response) => response.json())
+        .then((feed) => callback(feed));
+}
+
+function getSummaryForText(text) {
+    const summaryLength = 370;
+    if (text.length > summaryLength) {
+        return text.substring(0, summaryLength) + "...";
+    } else {
+        return featuredPost.content;
+    }
+}
+
+function convertDateToString(date) {
+    let d = new Date(date);
+    const year = d.getFullYear();
+    const monthIndex = d.getMonth();
+    const month = months[monthIndex];
+    const day = d.getDate();
+
+    return `${month} ${day}, ${year}`;
+}
+
+window.onload = init();
+
+const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
