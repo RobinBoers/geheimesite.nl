@@ -50,7 +50,7 @@
                     <h1>Music</h1>
 
                     <p>
-                        These are my favorite tracks ever. <a href="https://open.spotify.com/playlist/6vsurOP4dQ6ViTeOegLwgl?si=e0a3a51c6a8843bc">Stream 'em on Spotify</a>. Download 'em as using <a href="https://github.com/spotdl/spotify-downloader">spotdl</a>.
+                        These are my favorite tracks ever. <a href="https://open.spotify.com/playlist/6vsurOP4dQ6ViTeOegLwgl?si=e0a3a51c6a8843bc">Stream 'em on Spotify</a>. Download 'em as using <a href="https://github.com/spotdl/spotify-downloader"><code>spotdl</code></a>.
                     </p>
                 </section>
 
@@ -135,8 +135,8 @@
                     </li>
                     <li>
                         <div>
-                            <h3 class="track-title">Hey Brother</h3>
-                            <p class="track-artist">Acicii</p>
+                            <h3 class="track-title">Bad Habits</h3>
+                            <p class="track-artist">Ed Sheeran</p>
                         </div>
                     </li>
                     <li>
@@ -159,6 +159,12 @@
                     </li>
                     <li>
                         <div>
+                            <h3 class="track-title">Hey</h3>
+                            <p class="track-artist">FÄIS <span class="supplement">&</span> Afrojack</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
                             <h3 class="track-title new">Ms. Jackson</h3>
                             <p class="track-artist">Outkast</p>
                         </div>
@@ -173,6 +179,12 @@
                         <div>
                             <h3 class="track-title">Rockabye</h3>
                             <p class="track-artist">Clean Bandit <span class="supplement">&</span> Sean Paul <span class="supplement">&</span> Anne-Marie</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h3 class="track-title">Hey Brother</h3>
+                            <p class="track-artist">Acicii</p>
                         </div>
                     </li>
                     <li>
