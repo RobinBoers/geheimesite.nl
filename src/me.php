@@ -131,7 +131,7 @@
                             </a>
                         </li>
                         <li>
-                            <a class="no-underline hover:bg-transparent hover:opacity-80" href="https://discord.gg/DPtKK3UREu" target="_blank" rel="me">
+                            <a class="no-underline hover:bg-transparent hover:opacity-80" href="https://discord.gg/DPtKK3UREu" target="_blank">
                                 <img src="https://img.shields.io/discord/712265706132996210?color=7289DA&label=%20&logo=discord&logoColor=white&style=for-the-badge" alt="Invite for Robin.io on Discord" />
                             </a>
                         </li>
