@@ -1,51 +1,49 @@
 function init() {
-    loadPost(`${base_url}/index.json`);
+    loadFeed(`${base_url}/index.json`);
 }
 
-function loadPost(url) {
-    feedData(url, (feed) => {
-        let featuredPost = feed[0];
-        let summary = getSummaryForText(featuredPost.content)
-        let date = convertDateToString(featuredPost.date);
+function loadFeed(url) {
+    getFeed(url, (feed) => {
+        let latestPosts = getOnlyFirstPosts(feed);
+        let blogContainer = document.querySelector(".blog");
+        let blogContent = "";
 
-        document.querySelector("#featured-post-title").innerText = featuredPost.title;
-        document.querySelector("#featured-post-summary").innerText = summary;
-        document.querySelector(".dt-published").innerText = featuredPost.date;
-
-        document.querySelectorAll(".featured-post-link").forEach((link) => {
-            link.href = featuredPost.uri;
+        latestPosts.forEach((post) => {
+            blogContent += `
+                <article class="h-entry md">
+                    <h1 class="p-name mb-0">
+                        <a class="no-underline hover:bg-vibrant" href="${post.uri}">${post.title}</a>
+                    </h1>
+                    <p class="italic">
+                        Geschreven door <span class="p-author">Robin Boers</span> op <span class="dt-published">${convertDateToString(post.date)}</span>
+                    </p>
+                    <p id="p-summary e-content">${getSummaryForText(post.content)}</p>
+                </article>
+            `;
         });
 
-        document.querySelectorAll(".featured-post-date").forEach((element) => {
-            element.innerText = date;
-        });
-
-        let tagsParent = document.querySelector("#featured-post-tags");
-        featuredPost.tags.forEach((tag) => {
-            tag = tag.replace(/\s+/g, '-');
-
-            let linkElement = document.createElement("a");
-            linkElement.innerText = `#${tag}`;
-            linkElement.setAttribute("id", tag);
-            linkElement.classList.add("p-category", "properties");
-            linkElement.href = `${base_url}/tags/${tag}`;
-            tagsParent.appendChild(linkElement);
-        });
+        blogContainer.innerHTML = blogContent;
     });
 }
 
-function feedData(url, callback) {
+function getFeed(url, callback) {
     fetch(url)
         .then((response) => response.json())
         .then((feed) => callback(feed));
 }
 
+function getOnlyFirstPosts(feed) {
+    return feed.slice(0, 6);
+}
+
 function getSummaryForText(text) {
-    const summaryLength = 370;
-    if (text.length > summaryLength) {
-        return text.substring(0, summaryLength) + "...";
+    const summaryLength = 80;
+    words = text.split(" ");
+
+    if (words.length > summaryLength) {
+        return words.slice(0, summaryLength).join(' ') + "...";
     } else {
-        return featuredPost.content;
+        return text;
     }
 }
 

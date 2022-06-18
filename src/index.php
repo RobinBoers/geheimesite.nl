@@ -51,7 +51,7 @@
         </header>
 
         <main id="content" class="page-content mt-0 md:mt-6">
-            <article class="xl:grid grid-cols-2 gap-10">
+            <article class="h-card-header">
                 <section class="h-card">
                     <h1 class="p-name text-4xl title font-normal">Robin Boers</h1>
 
@@ -151,28 +151,14 @@
             </article>
 
             <article class="featured">
-                <div class="featured-post">
-                    <h2>Nieuwste post</h2>
-                    <div class="h-entry">
-                        <article class="md p-summary e-content">
-                            <h1 class="p-name mb-0">
-                                <a class="featured-post-link no-underline hover:bg-vibrant" href="#" id="featured-post-title"></a>
-                            </h1>
-                            <p class="italic">
-                                Geschreven door <span class="p-author">Robin Boers</span> op <span class="dt-published featured-post-date"></span>
-                            </p>
-                            <p id="featured-post-summary"></p>
-                            <a href="#" class="properties featured-post-link">
-                                <strong>[ read more ]</strong>
-                            </a>
-                        </article>
+                <h2>Blog</h2>
 
-                        <script>
-                            const base_url = "https://blog.geheimesite.nl";
-                        </script>
-                        <script src="/assets/js/featured-post.js"></script>
-                    </div>
-                </div>
+                <div class="blog"></div>
+
+                <script>
+                    const base_url = "https://blog.geheimesite.nl";
+                </script>
+                <script src="/assets/js/blog.js"></script>
             </article>
         </main>
 

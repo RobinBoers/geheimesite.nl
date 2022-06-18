@@ -257,7 +257,7 @@
     }
 }
 
-@layer components {
+@layer components {   
     .input {
         @apply p-2 bg-white text-black dark:bg-transparent dark:text-white border-2 border-solid border-vibrant my-1 w-full block font-sans text-sm outline-none rounded-none shadow-none;
     }
@@ -357,6 +357,11 @@
 
     .page-footer {
         @apply p-5 text-center;
+    }
+
+    .h-card-header {
+        @apply xl:grid grid-cols-2 gap-10;
+        /* grid-template-columns: 50% 40%; */
     }
 
     section,
@@ -499,11 +504,10 @@
 
     .featured {
         @apply mt-20;
-        grid-template-columns: 65% 35%;
     }
 
-    .featured p {
-        @apply md:max-w-md lg:max-w-xl;
+    .featured .h-entry {
+        @apply mb-16;
     }
 
     .p-name a {
