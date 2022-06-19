@@ -74,8 +74,18 @@
                 <ul class="finished project-grid"></ul>
 
                 <hr class="my-7 border-none">
-                
+            
                 <script src="/assets/js/bookshelves.js"></script>
+                <script>
+                    window.onload = () => {
+                        loadBooks("5566", ".reading");
+                        loadBooks("5567", ".wanna-read"); 
+                        loadBooks("5744", ".finished"); 
+
+                        // Book count is from a seperate bookshelve
+                        updateBookCount("5568", ".book-count");
+                    };
+                </script>
             </article>
         </main>
 

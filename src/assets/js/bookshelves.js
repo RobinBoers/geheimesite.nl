@@ -1,12 +1,3 @@
-function init() {
-    loadBooks("5566", ".reading");
-    loadBooks("5567", ".wanna-read"); 
-    loadBooks("5744", ".finished"); 
-
-    // Book count is from a seperate bookshelve
-    updateBookCount("5568", ".book-count");
-}
-
 function updateBookCount(shelveID, targetSelector) {
     bookData(shelveID, (bookData) => {
         let books = bookData.items;
@@ -90,5 +81,3 @@ function generateImage(book) {
 function emptyElement(element) {
     element.innerHTML = "";
 }
-
-window.onload = init();

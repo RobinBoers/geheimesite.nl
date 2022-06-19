@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Books — geheimesite.nl | Robin Boers</title>
+        <title>/now — geheimesite.nl | Robin Boers</title>
 
         <link rel="alternate stylesheet" href="/assets/css/plain.css" title="plain" />       
         <script src="/assets/js/plain-mode.js"></script>
@@ -32,7 +32,7 @@
                     <li><a href="/en/">Home</a></li>
                     <li><a href="/en/about">About me</a></li>
                     <li><a href="/en/projects">Projects</a></li>
-                    <li class="selected">Books</li>
+                    <li><a href="/en/books">Books</a></li>
                     <li><a href="https://blog.geheimesite.nl/en">Blog</a></li>
                 </ul>
             </nav>
@@ -41,10 +41,36 @@
         <main id="content" class="page-content">
             <article>
                 <section>
-                    <h1>Books</h1>
+                    <h1>Now</h1>
                     <p>
-                        I like reading. It might sound weird, a teenager saying that in <?php echo date("Y"); ?>, but it's actually true. These are the books that I'm currently reading, I finished or would like to read.
+                        This page is inspired by Derek Siver's <a>now page</a> movement. I think I'm a bit late to the party, but whatever. No one cares anyway. For those very confused: this page describes what I'm currently up to.
                     </p>
+                </section>
+
+                <hr class="my-7 border-none">
+
+                <section>
+                    <h2>School</h2>
+
+                    <p>I'm currently in 3VWO. I think you British people would call it Year 10, and American folks would call it Grade 8 or something. These are some things I'm doing for school at the moment.</p>
+
+                    <ul>
+                        <li>Build <a href="https://docs.geheimesite.nl/school">a site for my school shtuff</a> (so that I can share it with my classmates)</li>
+                        <li>Test week (6 tests to go)</li>
+                        <li>Sports day</li>
+                    </ul>
+                </section>
+
+                <hr class="my-7 border-none">
+
+                <section>
+                    <h2>IndieWeb</h2>
+
+                    <ul>
+                        <li>Build a proper (working) media endpoint for <a href="https://micro.geheimesite.nl">my microblog</a></li>
+                        <li>Add delete/update support to my micropub endpoint</li>
+                        <li>Figure out why posting to <a href="https://indieweb.xyz">indieweb.xyz</a> sometimes doesn't work</li>
+                    </ul>
                 </section>
 
                 <section class="reading-heading">
@@ -53,39 +79,14 @@
 
                 <ul class="reading project-grid"></ul>
 
-                <hr class="reading-hr my-7 border-none">
+                <!-- <hr class="reading-hr my-7 border-none"> -->
 
-                <section>
-                    <h2>Wanna read</h2>
-                </section>
-
-                <ul class="wanna-read project-grid"></ul>
-
-                <hr class="my-7 border-none">
-
-                <section>
-                    <h2>Finished</h2>
-
-                    <p>
-                        Since 2018, I finished more than <span class="bold"><span class="book-count">200</span> books</span>. Here you can see my favorites.
-                    </p>
-                </section>
-
-                <ul class="finished project-grid"></ul>
-
-                <hr class="my-7 border-none">
-
-                <script src="/assets/js/bookshelves.js"></script>   
+                <script src="/assets/js/bookshelves.js"></script>     
                 <script>
                     window.onload = () => {
                         loadBooks("5566", ".reading");
-                        loadBooks("5567", ".wanna-read"); 
-                        loadBooks("5744", ".finished"); 
-
-                        // Book count is from a seperate bookshelve
-                        updateBookCount("5568", ".book-count");
-                    };
-                </script>
+                    }
+                </script>           
             </article>
         </main>
 
