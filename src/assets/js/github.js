@@ -30,7 +30,7 @@ function generateBlacklist() {
         "ex-german",
         "blog",
         "geheimesite.nl",
-        "nindo-website",
+        "nindo-static",
         "vscode-elementary-theme",
         "yesterblog",
         "images",
