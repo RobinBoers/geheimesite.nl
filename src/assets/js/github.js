@@ -46,7 +46,7 @@ function init() {
 }
 
 function loadRepositories(username, targetContainer) {
-    targetContainer.innerHTML = `<p class="w-full supplement col-span-full ">Querying GitHub for my repositories...</p>`;
+    targetContainer.innerHTML = `<p class="w-full supplement col-span-full">Querying GitHub for my repositories...</p>`;
 
     repoData(username, (repos) => {
         sortRepos(repos);
