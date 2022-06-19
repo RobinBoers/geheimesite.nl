@@ -60,7 +60,7 @@
                 <section>
                     <h2>How I learned to code</h2>
                     <p>
-                        I've been coding since I was 10 years old (2017). It started with a book I found at the library about making websites. You have to know I've been a computer nerd since like forever, and knew what almost every button in Windows did. The book was titled <a href="https://www.nano-tips.com/">Creeëren met code: Zo maak je een website</a>, which is Dutch for "Creating with code: How to build a website". So I built my first website, which I launched end-2017. I've saved backups of early iterations of my website, which you can check out in my <a href="/website/overview.php">Website Library</a>. Be warned: it is cringe and Dutch.
+                        I've been coding since I was 10 years old (2017). It started with a book I found at the library about making websites. You have to know I've been a computer nerd since like forever, and knew what almost every button in Windows did. The book was titled <a href="https://www.nano-tips.com/">Creeëren met code: Zo maak je een website</a>, which is Dutch for "Creating with code: How to build a website". So I built my first website, which I launched late 2017. I've saved backups of early iterations of my website, which you can check out in my <a href="/website/overview.php">Website Library</a>. Be warned: it is cringe and Dutch.
                     </p>
 
                 <!-- <div class="flex flex-col lg:flex-row-reverse items-center">   -->
