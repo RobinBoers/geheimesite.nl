@@ -38,7 +38,7 @@
                     <section class="lg:mr-0">
                         <h1>About me</h1>
                         <p>
-                            Hi, my name is Robin. I was born 15 years ago in Vlaardingen, Netherlands but I have lived in Maassluis for my entire life. I love to thinker with code and I currently work as Junior Developer at Qdentity in Maasland. This site is a place for me to showcase my projects. I also have a <a href="https://blog.geheimesite.nl/en">blog</a> where I write about programming, webdevelopment and other cool shit.
+                            Hi, my name is Robin. I was born 15 years ago in Vlaardingen, Netherlands but I have lived in Maassluis for my entire life. I love to thinker with code and I currently work as Junior Developer at Qdentity in Maasland. This site is a place for me to showcase my projects. I also have a <a href="https://blog.geheimesite.nl/en">blog</a> where I write about programming, webdevelopment, and other cool shit.
                         </p>
                     </section>
                     <img class="w-full h-60 mb-5 lg:rotate-1 rounded-xl aspect-square object-cover object-right-top lg:mb-0 lg:h-fit lg:w-1/5" src="/assets/images/me.jpeg" alt="This is me">
@@ -46,7 +46,7 @@
 
                 <section>
                     <p>
-                        I also play handball and I have a <a href="https://www.youtube.com/channel/UCx4li1iMygs5KtqgcU5KGRw">YouTube channel</a>, where I make videos about programming, video-editing, computers and a lot of other things I deem cool.<br />
+                        I also play handball and I have a <a href="https://www.youtube.com/channel/UCx4li1iMygs5KtqgcU5KGRw">YouTube channel</a>, where I make videos about programming, video-editing, computers, and a lot of other things I deem cool.<br />
                         I also have a <a href="https://github.com/RobinBoers">GitHub account</a> where most of my projects are hosted under open-source licenses.
                     </p>
                 </section>
@@ -58,9 +58,9 @@
                 </div>
 
                 <section>
-                    <h2>How I learned programming</h2>
+                    <h2>How I learned to code</h2>
                     <p>
-                        I've been coding since I was 10 years old (2017). It started with a book I found at the library about making websites. You have to know I've been a computer nerd since like forever, and knew what almost every button in Windows did. The book was titled <a href="https://www.nano-tips.com/">Creeëren met code: Zo maak je een website</a>, which is Dutch for "Creating with code: How to build a website". So I built my first website, that I launched end-2017. I've saved backups of early iterations of my website, which you can check out in my <a href="/website/overview.php">Website Library</a>. Be warned: it is cringe and Dutch.
+                        I've been coding since I was 10 years old (2017). It started with a book I found at the library about making websites. You have to know I've been a computer nerd since like forever, and knew what almost every button in Windows did. The book was titled <a href="https://www.nano-tips.com/">Creeëren met code: Zo maak je een website</a>, which is Dutch for "Creating with code: How to build a website". So I built my first website, which I launched end-2017. I've saved backups of early iterations of my website, which you can check out in my <a href="/website/overview.php">Website Library</a>. Be warned: it is cringe and Dutch.
                     </p>
 
                 <!-- <div class="flex flex-col lg:flex-row-reverse items-center">   -->
@@ -69,10 +69,10 @@
                 </div> -->
 
                     <p>
-                        I'm currently learning Linux, Elixir and Phoenix LiveView. I regularly post updates on my blog about what I make, learn and do. I'm always trying to learn new things.
+                        I'm currently learning Linux, Elixir, and Phoenix LiveView. I regularly post updates on my blog about what I make, learn, and do. I'm always trying to learn new things.
                     </p>
                     <p>
-                        I host my website at <a href="https://www.bhosted.nl?ref=97f4c4a4b13e269e12cfd4f0352ba527">bHosted</a>. I pay about 30 euros per year for my webhosting. I've also built sites for <a href="http://www.groendoenerij.nl">my father</a>, <a href="https://jokessterrenkruid.blogspot.com">my grandmother</a>, <a href="https://thesisevelineboers.blogspot.com/">my mother</a>
+                        I host my website at <a href="https://www.bhosted.nl?ref=97f4c4a4b13e269e12cfd4f0352ba527">bHosted</a>. I pay about 30 euros per year for my webhosting. I've also built sites for <a href="http://www.groendoenerij.nl">my father</a>, <a href="https://jokessterrenkruid.blogspot.com">my grandmother</a>, <a href="https://thesisevelineboers.blogspot.com/">my mother</a>,
                         and <a href="https://hvm-oldscool.nl">my grandfather</a>
                         (now only my sister is left 🙈)
                     </p>
@@ -93,7 +93,7 @@
                 <section>
                     <h2 id="contact">Contact</h2>
                     <p>
-                        Wanna send me a message?<br />This is one of my six emailaddresses: <a href="mailto:robin@geheimesite.nl">robin@geheimesite.nl</a><br />
+                        Wanna send me a message?<br />This is one of my six email addresses: <a href="mailto:robin@geheimesite.nl">robin@geheimesite.nl</a><br />
                         Or use the contact form:
                     </p>
                     <form action="../scripts/contact-form.php" method="post">
