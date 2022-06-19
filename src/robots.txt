@@ -3,5 +3,5 @@ Disallow: /library/website/version/
 Disallow: /website/v/
 Disallow: /api/
 
-Sitemap: https://geheimesite.nl/sitemap-nl.xml
-Sitemap: https://geheimesite.nl/sitemap-en.xml
+Sitemap: https://geheimesite.nl/sitemap.xml
+Sitemap: https://geheimesite.nl/en/sitemap.xml
