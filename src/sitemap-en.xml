@@ -13,15 +13,15 @@
     <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://geheimesite.nl/en/projects</loc>
-    <priority>0.80</priority>
-  </url>
-  <url>
     <loc>https://geheimesite.nl/en/books</loc>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://geheimesite.nl/youtube</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://geheimesite.nl/music</loc>
     <priority>0.70</priority>
   </url>
   <url>
@@ -31,5 +31,53 @@
   <url>
     <loc>https://geheimesite.nl/hyperfeed</loc>
     <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://geheimesite.nl/en/projects</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://geheimesite.nl/projects/skylight.php</loc>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://geheimesite.nl/projects/nindo.php</loc>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.geheimesite.nl/projects/cutie-tanks.php</loc>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://geheimesite.nl/projects/vskodium.php</loc>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.geheimesite.nl/projects/fallen_world.php</loc>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.geheimesite.nl/projects/mclassic.php</loc>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://geheimesite.nl/projects/ninjado.php</loc>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://geheimesite.nl/projects/highlands.php</loc>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://geheimesite.nl/projects/sticks-and-rocks.php</loc>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://geheimesite.nl/projects/timmy.php</loc>
+    <priority>0.60</priority>
+  </url>  
+  <url>
+    <loc>https://geheimesite.nl/website/overview</loc>
+    <priority>0.60</priority>
   </url>
 </urlset>
