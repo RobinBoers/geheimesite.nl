@@ -47,7 +47,7 @@
     <body class="text-white h-full">
         <a class="skip-nav" href="#content">Skip navigation</a>
         <header class="flex flex-col sm:flex-row-reverse items-center justify-around">
-            <p class="title"><a href="/">Robin Boers</a></p>
+            <p class="title"><a href="/en/">Robin Boers</a></p>
 
             <nav>
                 <a href="/en/" class="text-white">❮ Back</a>

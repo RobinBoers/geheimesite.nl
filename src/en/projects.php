@@ -17,7 +17,7 @@
     <body>
         <a class="skip-nav" href="#content">Skip navigation</a>
         <header class="pageheader">
-            <p class="title"><a href="/">Robin Boers</a></p>
+            <p class="title"><a href="/en/">Robin Boers</a></p>
 
             <img src="/assets/images/menu.svg" alt="menu button" class="menu-button" hidden />
             
