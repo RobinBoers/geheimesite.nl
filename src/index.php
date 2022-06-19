@@ -153,7 +153,9 @@
             <article class="featured">
                 <h2>Blog</h2>
 
-                <div class="blog"></div>
+                <div class="blog">
+                    <p class="w-full supplement col-span-full">Nieuwste blogposts aan het laden...</p>
+                </div>
 
                 <script>
                     const base_url = "https://blog.geheimesite.nl";

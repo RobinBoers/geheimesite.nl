@@ -57,7 +57,7 @@
 
                     <p>I'm webdesigner, Elixir programmer and teenager. I'm 15 years old and live in the Netherlands. Welcome to my website! This is like my personal playground, my little corner of the web. I post my projects like games, websites and apps here and I also regularly post to <a href="https://blog.geheimesite.nl/en">my blog</a>. </p>
 
-                    <p>Wanna know more about me? Check the <a href="/en/about">about me</a> page. If yoy want to see my work you can take a look at the <a href="/en/projects">projects</a> page. If you're mostly interested in the code, check my <a href="https://github.com/RobinBoers">GitHub profile</a>.</p>
+                    <p>Wanna know more about me? Check the <a href="/en/about">about me</a> page. If you want to see my work you can take a look at the <a href="/en/projects">projects</a> page. If you're mostly interested in the code, check my <a href="https://github.com/RobinBoers">GitHub profile</a>.</p>
 
                     <p><a href="../" hreflang="nl">I wanna speak dutch again</a></p>
 
@@ -128,7 +128,9 @@
             <article class="featured">
                 <h2>Blog</h2>
 
-                <div class="blog"></div>
+                <div class="blog">
+                    <p class="w-full supplement col-span-full">Loading my latest blog posts...</p>
+                </div>
 
                 <script>
                     const base_url = "https://blog.geheimesite.nl/en";
