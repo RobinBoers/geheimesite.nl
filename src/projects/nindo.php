@@ -43,24 +43,31 @@
                     </p>
                     
                     <p>
-                        Je kan het project nog wel op GitHub vinden onder de GPL3 licentie. En als je wilt, en de kennis hebt, mag je het ook zelf hosten. <a href="https://github.com/RobinBoers/Nindo">Bekijk op GitHub</a>.
+                        Je kan het project nog wel op GitHub vinden onder de GPL3 licentie. En als je wilt, en de kennis hebt, mag je het ook zelf hosten. <a href="https://github.com/RobinBoers/nindo">Bekijk op GitHub</a>.
                     </p>
+
+                </section>
+                <section>
 
                     <h2>Archief</h2>
 
                     <p>
-                        Ik heb de content van Nindo gearchiveerd. Er stond niet veel op, maar het is een stukje geschiedenis van mijn website, en ik heb daarom besloten de content die al gepost was te behouden. Je kan het hier vinden: <a href="../../website/nindo/">Nindo Archief</a>.
+                        Ik heb de content van Nindo gearchiveerd. Er stond niet veel op, maar het is een stukje geschiedenis van mijn website, en ik heb daarom besloten de content die al gepost was te behouden. Je kan het hier vinden: <a href="/website/nindo/">Nindo Archief</a>.
                     </p>
+
+                </section>
+                <section>
 
                     <h2>Geschiedenis</h2>
 
                     <p>
-                        Ik ben Nindo ooit begonnen als een chatapp voor geheim agenten. Mijn hele website ging over een geheime ruimte organisatie genaamd de DDDD (De Dienst van Buitenaardse Dimenties en Domeinen) die ik en mijn vrienden hadden bedacht. Je kan die versies van mijn website vinden in mijn <a href="../../website/overview.php">Website Library</a>. 
+                        Ik ben Nindo ooit begonnen als een chatapp voor geheim agenten. Mijn hele website ging over een geheime ruimte organisatie genaamd de DDDD (De Dienst van Buitenaardse Dimenties en Domeinen) die ik en mijn vrienden hadden bedacht. Je kan die versies van mijn website vinden in mijn <a href="/website/overview.php">Website Library</a>. 
                     </p>
 
                     <p>
-                        Een onderdeel van die chatapp maakte gebruik van een JSON bestand om publieke berichten te plaatsen, een soort Twitter clone. Dit onderdeel noemde in Nindo, omdat het cool klonk, en Ninjas <strong class="bold">vast</strong> wel iets te maken hadden met geheim agenten (maar niet heus).
+                        Een onderdeel van die chatapp maakte gebruik van een JSON bestand om publieke berichten te plaatsen, als een soort Twitter clone. Dit onderdeel noemde in Nindo, omdat het cool klonk en Ninjas <strong class="bold">vast</strong> wel iets te maken hadden met geheim agenten.
                     </p>
+
                 </section>
 
                 <figure>
@@ -71,7 +78,7 @@
                 <section>
 
                     <p>
-                        Een tijdje later besloot ik de webapp (genaamd DGAW, De Geheim Agenten Webapp) een nieuw jasje te geven. Ik voegde support toe voor een rare manier van DMs, die op mailen leek.
+                        Een tijdje later besloot ik de webapp (genaamd DGAW, De Geheim Agenten Webapp) een nieuw jasje te geven. Ik voegde support toe voor een rare manier van DMs die enigzins op mailen leek.
                     </p>
 
                 </section>
@@ -84,7 +91,7 @@
                 <section>
 
                     <p>
-                        Bij het derde en laaste redesign gebruikte ik <a href="https://www.w3schools.com/w3css/tryw3css_templates_social.htm">deze template van W3Schools</a>. Ik heb toen mijn hele website herontworpen, en ik gebruik nu nog steeds dezelfde basis voor de huidige versie van mijn website. Ik heb toen de naam DGAW laten vallen en ben alles Nindo gaan noemen (aangezien het niet zoveel met geheim agenten meer te maken had).
+                        Bij het derde en laaste redesign gebruikte ik <a href="https://www.w3schools.com/w3css/tryw3css_templates_social.htm">de social media template van W3Schools</a>. Ik heb toen mijn hele website herontworpen, en ik heb die basis nog voor anderhalf jaar gebruikt, voor ik in juni 2022 de infrastructuur van de site op de schop gooide. Ik heb destijds bij het herontwerpen van de site de naam DGAW laten vallen, gezien het feit dat het nog maar vrij weinig met geheim agenten te maken, en zeg het zelf, DGAW klinkt wat suf toch?
                     </p>
 
                 </section>
@@ -120,10 +127,15 @@
                     <p>Je vind ze allebei in je Nindo/geheimesite-account dashboard.<br><a href="/account/">Naar je dashboard</a></p>
                 </div>
 
+                <figure>
+                    <img class="w-full" src="/assets/images/projects/nindo.png" alt="Herontwerp op basis van de W3Schools template" />
+                    <figcaption>Herontwerp op basis van de W3Schools template</figcaption>
+                </figure>
+
                 <section>
 
                     <p>
-                        Kort daarna besloot ik Nindo offline te halen en te open-sourcen.
+                        Kort daarna besloot ik Nindo offline te halen en te open-sourcen. Dit besluit was mede zodat ik me meer kon focussen op het ontwikkelen van andere projecten, en omdat ik graag de source code wilde publiceren, maar ik bang was dat er kritieke bugs zouden worden ontdekt die mijn server (en daarmee hele site) kwetsbaar zouden maken.
                     </p>
 
                 </section>
@@ -144,11 +156,34 @@
                 <section>
 
                     <p>
-                        Je kan hier meer lezen over waarom precies: <a href="https://blog.geheimesite.nl/2021/01/nindo-is-offline.html">Nindo is offline - Webdevelopment-En-Meer</a>
+                        Je kan op mijn blog meer lezen over het besluit om Nindo offline te halen: <a href="https://blog.geheimesite.nl/2021/01/nindo-is-offline.html">Nindo is offline - Webdevelopment-En-Meer</a>
+                    </p>
+
+                    <p>
+                        Ik heb in 2022 de inlogfunctie uitgeschakeld. Naast Nindo was er weinig met je account te doen, en al mijn andere projecten zijn gewoon zonder account te gebruiken.
                     </p>
 
                 </section>
-                <img class="w-full" src="/assets/images/projects/nindo.png" alt="Screenshot" />
+                
+                <section>
+
+                    <h2>Een nieuwe start</h2>
+
+                    <p>
+                        In 2021 heb ik een nieuw platform gebouwd dat ik ook Nindo (ik was schijnbaar nogal gehecht aan de naam) noemde. Ook dit was een leerproject. Het doel was een social media platform te bouwen dat als kern RSS had. Het functioneerde zowel als een RSS reader als als een platform om content op te publiceren. Het mooie was dat je dus ook users van andere Nindo instances kon volgen, omdat alles via RSS werkte.
+                    </p>
+
+                    <p>
+                        Helaas leed dit project aan hetzelfde probleem als het originele Nindo. Het was vooral bedoeld als project om Phoenix en Phoenix LiveView te leren. Het was niet gebouwd met de uiteindelijke functionaliteit in gedachten. Het werkte prima, maar alleen op een kleine schaal. En aangezien ik toch de enige gebruiker was heb ik de stekker eruit getrokken toen het tijd werd om de servers te verplaatsen naar een andere Fly.io instance. De homepage, het blog en de documentatie staan nog online op <a href="https://nindo.geheimesite.nl">nindo.geheimesite.nl</a>.
+                    </p>
+
+                    <p>
+                        Het moraal van dit verhaal? Als je dingen wil leren, bouw ze gewoon. Het maakt niet uit of het uiteindelijk schaalt of te onderhouden is, zolang je er maar lol mee hebt en er iets van leert. Misschien zal ik ooit wel een nieuwe versie van Nindo bouwen, al betwijfel ik of ik het Nindo zou noemen. Maar van de eerste twee iteraties heb ik in ieder geval veel geleerd.
+                    </p>
+
+                </section>
+
+                <img class="w-full" src="https://raw.githubusercontent.com/RobinBoers/nindo-phx/master/screenshot.png" alt="Nieuwste versie van Nindo met RSS functionaliteit" />
             </article>
         </main>
 
