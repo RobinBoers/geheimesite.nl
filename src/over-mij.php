@@ -52,7 +52,7 @@
                 </section>
 
                 <div class="flex flex-col lg:flex-row justify-center items-center gap-1 lg:gap-4">
-                    <img class="w-full lg:w-auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RobinBoers&layout=compact" alt="De meestgebruikte programmeertalen in mijn projecten">
+                    <img class="w-full lg:w-auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RobinBoers&layout=compactt&title_color=434d58" alt="De meestgebruikte programmeertalen in mijn projecten">
 
                     <img class="w-full lg:w-auto" src="https://github-readme-stats.vercel.app/api?username=RobinBoers&count_private=true&show_icons=true&hide_title=true" alt="Mijn activiteit op GitHub het afgelopen jaar">
                 </div>
