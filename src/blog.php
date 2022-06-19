@@ -1,1 +1,1 @@
-<?php header("Location: https://https://blog.geheimesite.nl/nl") ?>
+<?php header("Location: https://blog.geheimesite.nl") ?>
