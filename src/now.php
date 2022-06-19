@@ -73,13 +73,13 @@
                     </ul>
                 </section>
 
+                <hr class="reading-hr my-7 border-none">
+
                 <section class="reading-heading">
                     <h2>Currently reading</h2>
                 </section>
 
                 <ul class="reading project-grid"></ul>
-
-                <!-- <hr class="reading-hr my-7 border-none"> -->
 
                 <script>
                     function loadBooks() {
