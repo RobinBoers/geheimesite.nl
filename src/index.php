@@ -16,6 +16,7 @@
         <link rel="alternate" type="application/rss+xml" title="Webdevelopment-En-Meer" href="https://blog.geheimesite.nl/index.xml" />
         <link rel="alternate" type="application/rss+xml" title="That Crazy Webdev" href="https://blog.geheimesite.nl/en/index.xml" />
         <link rel="alternate" type="application/rss+xml" title="Neolog" href="https://micro.geheimesite.nl/feed" />
+        <link rel="alternate" type="application/rss+xml" title="Stupid Codes" href="https://blog.geheimesite.nl/stupid-codes/index.xml" />
         <link rel="feed" href="https://blog.geheimesite.nl">
 
         <!-- Micro{pub, sub} -->
