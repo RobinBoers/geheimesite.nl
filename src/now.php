@@ -81,12 +81,12 @@
 
                 <!-- <hr class="reading-hr my-7 border-none"> -->
 
-                <script src="/assets/js/bookshelves.js"></script>     
                 <script>
-                    window.onload = () => {
-                        loadBooks("5566", ".reading");
+                    function loadBooks() {
+                        renderBooks("5566", ".reading");
                     }
-                </script>           
+                </script>
+                <script src="/assets/js/bookshelves.js"></script>             
             </article>
         </main>
 

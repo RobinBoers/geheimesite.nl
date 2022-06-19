@@ -7,11 +7,11 @@ function updateBookCount(shelveID, targetSelector) {
     })
 }
 
-function loadBooks(shelveID, targetSelector) {
+function renderBooks(shelveID, targetSelector) {
     let targetContainer = document.querySelector(targetSelector)
     targetContainer.innerHTML = `<p class="w-full supplement col-span-full ">Querying Micro.blog for books...</p>`;
 
-    bookData(shelveID, (bookData) => {
+    getBookData(shelveID, (bookData) => {
         let books = bookData.items;
         sortBooks(books);
 
@@ -50,7 +50,7 @@ function loadBooks(shelveID, targetSelector) {
     });
 }
 
-function bookData(shelveID, callback) {
+function getBookData(shelveID, callback) {
     fetch(`/api/books/get.php?id=${shelveID}`)
         .then(response => response.json())
         .then(bookData => callback(bookData));
@@ -81,3 +81,5 @@ function generateImage(book) {
 function emptyElement(element) {
     element.innerHTML = "";
 }
+
+window.onload = loadBooks();
