@@ -576,20 +576,24 @@
 
     .footnotes {
         font-size: 70%;
-        color: gray;
-        border-top: 2px solid #ddd;
-        padding: 5px;
-        margin-top: 50px;
-        padding-top: 20px;
+        border-top: 1px solid rgb(208, 203, 188);
+        @apply p-[5px] pt-[30px] mt-[90px] mb-[30px] text-[gray];
     }
     
     .footnotes li {
-        line-height: 22px;
-        font-family: sans-serif;
+        @apply font-sans leading-[22px];
     }
     
     .footnotes li:not(:last-child) {
-        margin-bottom: 30px;
+        @apply mb-[20px];
+    }
+
+    .footnotes p {
+        @apply mb-0;
+    }
+
+    .footnotes hr {
+        @apply hidden;
     }
 }
 
