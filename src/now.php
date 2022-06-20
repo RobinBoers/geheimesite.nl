@@ -56,7 +56,7 @@
 
                     <ul>
                         <li>Build <a href="https://docs.geheimesite.nl/school">a site for my school shtuff</a> (so that I can share it with my classmates)</li>
-                        <li>Test week (6 tests to go)</li>
+                        <li>Test week (4 tests to go)</li>
                         <li>Sports day</li>
                     </ul>
                 </section>
