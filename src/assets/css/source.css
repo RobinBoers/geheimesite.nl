@@ -397,7 +397,8 @@
     article > ol,
     form,
     table, 
-    blockquote {
+    blockquote,
+    .footnotes {
         @apply px-2 sm:px-10 md:px-0 mx-auto md:max-w-md lg:max-w-text;
     }
 
@@ -571,6 +572,24 @@
         color: inherit !important;
         background-color: inherit !important;
         text-decoration: none !important;
+    }
+
+    .footnotes {
+        font-size: 70%;
+        color: gray;
+        border-top: 2px solid #ddd;
+        padding: 5px;
+        margin-top: 50px;
+        padding-top: 20px;
+    }
+    
+    .footnotes li {
+        line-height: 22px;
+        font-family: sans-serif;
+    }
+    
+    .footnotes li:not(:last-child) {
+        margin-bottom: 30px;
     }
 }
 
