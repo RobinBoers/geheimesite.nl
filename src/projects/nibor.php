@@ -73,11 +73,11 @@
                     </ul>
 
                     <p>
-                        Hij is te vinden bij mijn testprojecten: <a href="https://code.geheimesite.nl/speech">code.geheimesite.nl</a>
+                        Hij is te vinden bij mijn testprojecten: <a href="https://code.geheimesite.nl/beta/nibor/">code.geheimesite.nl</a>
                     </p>
 
                 </section>
-                <img class="w-full" src="https://code.geheimesite.nl/assets/images/projects/nibor.png" alt="Screenshot" />
+                <img class="w-full" src="/assets/images/projects/nibor.png" alt="Screenshot" />
             </article>
         </main>
 

@@ -85,6 +85,16 @@
         box-sizing: inherit;
     }
 
+    /* Tables */
+
+    table {
+        @apply w-full border-collapse;
+    }
+
+    table, th, td {
+        @apply p-2 border border-solid border-black/70 dark:border-white/70;
+    }
+
     /* Typography */
 
     /** Base **/
@@ -257,7 +267,7 @@
     }
 }
 
-@layer components {   
+@layer components {
     .input {
         @apply p-2 bg-white text-black dark:bg-transparent dark:text-white border-2 border-solid border-vibrant my-1 w-full block font-sans text-sm outline-none rounded-none shadow-none;
     }
@@ -364,9 +374,36 @@
         /* grid-template-columns: 50% 40%; */
     }
 
-    section,
-    .section {
-        @apply px-2 sm:px-10 md:p-0 mx-auto md:max-w-md lg:max-w-text;
+    .section,
+    section > p,
+    article > p,
+    section > h1,
+    article > h1,
+    section > h2,
+    article > h2,
+    section > h3,
+    article > h3,
+    section > h4,
+    article > h4,
+    section > ul,
+    article > ul,
+    section > ol,
+    article > ol,
+    form,
+    table {
+        @apply px-2 sm:px-10 md:px-0 mx-auto md:max-w-md lg:max-w-text;
+    }
+
+    section > ul, article > ul, section > ol, article > ol {
+        padding-left: revert;
+    }
+
+    figure img {
+        @apply w-full;
+    }
+
+    .featured p, .featured h1, .featured h2 {
+        max-width: revert;
     }
 
     .skip-nav {
@@ -374,7 +411,7 @@
     }
 
     .project-grid {
-        @apply p-0 m-0 w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 grid-rows-1 md:gap-2 lg:my-10;
+        @apply p-0 m-0 w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 grid-rows-1 md:gap-2 lg:my-10 max-w-[revert];
     }
 
     .project-grid li {
@@ -397,7 +434,7 @@
         counter-reset: item;
         @apply list-none p-0 max-w-[740px] mx-auto;
     }
-    
+
     .music-list li {
         @apply flex gap-2;
     }
@@ -424,6 +461,10 @@
         @apply text-5xl font-sans font-bold align-middle;
         content: counter(item);
         counter-increment: item;
+    }
+
+    pre code, code pre {
+        @apply font-mono leading-[revert] text-[#adadad] bg-[#1b1c1d] block rounded-[5px] overflow-hidden p-[12px] w-full break-words;
     }
 
     .menu-button {
@@ -461,7 +502,7 @@
         @apply md:ml-[18px];
     }
     .hyperfeed .hyperpost:nth-child(10n + 2) {
-        @apply md:-ml-[32px]
+        @apply md:-ml-[32px];
     }
     .hyperfeed .hyperpost:nth-child(10n + 3) {
         @apply md:-ml-[8px];

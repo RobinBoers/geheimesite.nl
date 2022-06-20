@@ -38,13 +38,13 @@
                         Je kan er wat simpele commando's in uitvoeren, en er is een chatrobot.
                     </p>
                     <p>
-                        <a href="../commandpromt/">Open CMD</a>
+                        <a href="commandpromt/">Open CMD</a>
                     </p>
                     <p>
                         UPDATE: De nieuwe versie heeft de optie om van OS te veranderen, JS is nu ingeschakeld, en er zitten nog een paar andere leuke easter eggs in!
                     </p>
                     <p>
-                        <a href="../commandpromt2/">Open CMD2</a>
+                        <a href="commandpromt2/">Open CMD2</a>
                     </p>
                     <p class="text-warning">
                         Dit is een oud project wat erg buggy is, en niet meer wordt geüpdate.

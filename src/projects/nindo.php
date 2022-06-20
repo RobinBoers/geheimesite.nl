@@ -71,7 +71,7 @@
                 </section>
 
                 <figure>
-                    <img class="w-full" src="/assets/images/projects/dgaw.png" alt="Eerste versie van de DGAW" />
+                    <img src="/assets/images/projects/dgaw.png" alt="Eerste versie van de DGAW" />
                     <figcaption>De eerste versie van de DGAW</figcaption>
                 </figure>
 
@@ -84,7 +84,7 @@
                 </section>
             
                 <figure>
-                    <img class="w-full" src="/assets/images/projects/dgaw.png" alt="Redesign met meer functies" />
+                    <img src="/assets/images/projects/dgaw.png" alt="Redesign met meer functies" />
                     <figcaption>Redesign met meer functies</figcaption>
                 </figure>
 
@@ -128,7 +128,7 @@
                 </div>
 
                 <figure>
-                    <img class="w-full" src="/assets/images/projects/nindo.png" alt="Herontwerp op basis van de W3Schools template" />
+                    <img src="/assets/images/projects/nindo.png" alt="Herontwerp op basis van de W3Schools template" />
                     <figcaption>Herontwerp op basis van de W3Schools template</figcaption>
                 </figure>
 

@@ -35,7 +35,7 @@
         <main id="content" class="page-content">
             <article>
                 <div class="flex flex-col lg:flex-row items-center">
-                    <section class="lg:mr-0">
+                    <section class="section lg:mr-0">
                         <h1>About me</h1>
                         <p>
                             Hi, my name is Robin. I was born 15 years ago in Vlaardingen, Netherlands but I have lived in Maassluis for my entire life. I love to thinker with code and I currently work as Junior Developer at Qdentity in Maasland. This site is a place for me to showcase my projects. I also have a <a href="https://blog.geheimesite.nl/en">blog</a> where I write about programming, webdevelopment, and other cool shit.

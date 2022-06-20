@@ -43,7 +43,7 @@
                     <li><a href="/en/about">About me</a></li>
                     <li><a href="/en/projects">Projects</a></li>
                     <li><a href="/en/books">Books</a></li>
-                    <li><a href="/hyperfeed.php">Hyperfeed</a></li>
+                    <li><a href="/hyperfeed">Hyperfeed</a></li>
                     <li><a href="https://micro.geheimesite.nl">Neolog</a></li>
                     <li><a href="https://github.com/RobinBoers">GitHub</a></li>
                     <li><a href="https://blog.geheimesite.nl/en">Blog</a></li>

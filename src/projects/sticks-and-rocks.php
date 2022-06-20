@@ -40,7 +40,7 @@
                         De game is gemaakt met Javascript, HTML en CSS. Dat zijn de talen waarmee ik ook websites maak. Je vraagt je misschien af: hoe kan je met webdevelopment games maken? Vrij simpel. Voor de player movement en camera gebruik ik een set css regels. Daarmee verschuif ik de map op basis van de coords van de player met css achter de player langs. Verder gebruik ik JS als basis. Daarin is de gameloop geschreven en worden input, geluid en menu's geregeld. 
                     </p>
                     <p>
-                        <a href="https://webdevelopment-en-meer.blogspot.com/2021/02/mijn-eerste-goede-game.html">Lees meer...</a><br>
+                        <a href="https://blog.geheimesite.nl/2021/02/mijn-eerste-goede-game.html">Lees meer...</a><br>
                         <a href="https://robijntje.itch.io/sticks-and-rocks">Speel op itch.io</a>
                     </p>
                 </section>

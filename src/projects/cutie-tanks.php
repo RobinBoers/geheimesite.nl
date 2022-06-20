@@ -51,7 +51,7 @@
                     </p>
 
                     <p>
-                        <a href="https://webdevelopment-en-meer.blogspot.com/2021/03/gamedevelopment-met-phaser-3.html">Lees meer...</a><br>
+                        <a href="https://blog.geheimesite.nl/2021/03/gamedevelopment-met-phaser-3.html">Lees meer...</a><br>
                         <a href="https://github.com/RobinBoers/cutie-tanks">Source code en download op Github</a>
                     </p>
                 </section>

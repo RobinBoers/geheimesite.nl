@@ -35,7 +35,7 @@
         <main id="content" class="page-content">
             <article>
                 <div class="flex flex-col lg:flex-row items-center">
-                    <section class="lg:mr-0">
+                    <section class="section lg:mr-0">
                         <h1>Over mij</h1>
                         <p>
                             Hoi, ik ben Robin. Ik ben 15 jaar oud, ik zit in drie VWO en ik woon in Maassluis. Ik houd van programmeren en werk als Junior Developer bij Qdentity in Maasland. Deze website is mijn plek om al mijn projecten te showcasen. Ik heb ook een <a href="https://blog.geheimesite.nl">blog</a> over programmeren, webdevelopment en andere coole shit.

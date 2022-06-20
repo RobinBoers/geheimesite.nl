@@ -29,8 +29,14 @@
                 min-width: 20px;
             }
 
+            /* Give links line height */
             li a {
                 line-height: revert;
+            }
+
+            /* Override max width for columns */
+            p, h1, h2, h3 {
+                max-width: revert !important;
             }
         </style>
     </head>
@@ -55,7 +61,7 @@
                     </h1>
                     <p class="italic">@<span class="p-nickname lowercase">Robijntje</span></p>
 
-                    <p class="p-note">
+                    <p class="p-note ">
                         I'm webdesigner, programmer, YouTuber, and teenager, and my hobbies are programming, video-editing, handball, and drawing.
                         I really enjoy making websites and webapps, and I love to thinker with Linux.
                     </p>

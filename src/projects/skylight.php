@@ -93,7 +93,7 @@
                         <li><a href="https://github.com/RobinBoers/SkyLight-themelibrary">Theme Library</a></li>
                         <li><a href="https://robinboers.github.io/SkyLight-themelibrary/">Theme Picker</a></li>
                         <li><a href="https://robinboers.github.io/SkyLight-themelibrary/">Basetheme (voor themedevelopment)</a></li>
-                        <li><a href="https://github.com/RobinBoers/SkyLight-Website-Editor/wiki">Wiki</a></li>
+                        <li><a href="https://docs.geheimesite.nl/SkyLight-Website-Editor/">Wiki</a></li>
                         <li><a href="https://github.com/RobinBoers/SkyLight-Website-Editor/issues">Bugtracker</a></li>
                     </ul>
 

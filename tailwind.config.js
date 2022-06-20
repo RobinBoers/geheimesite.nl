@@ -25,7 +25,7 @@ module.exports = {
                 fira: ["Fira Sans Condensed", "sans-serif"],
                 serif: ["Merriweather", "Georgia", "serif"],
                 display: ["Bungee Shade", "sans-serif"],
-                mono: ["ui-monospace", "DejaVu LGC Sans Code", "DejaVu Sans Code", "DejaVu Sans Mono", "SFMono-Regular", "monospace"],
+                mono: ["ui-monospace", "DejaVu LGC Sans Code", "DejaVu Sans Code", "DejaVu Sans Mono",  "Cascadia Code", "Droid Sans Mono", "SFMono-Regular", "monospace"],
             },
             backgroundImage: {
                 "md-mark": "url('../assets/images/md-mark.svg')",

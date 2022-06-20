@@ -39,7 +39,7 @@
                     </p>
 
                     <p>
-                        <a href="../VSKodium/">Bekijk de live demo</a>
+                        <a href="VSKodium/">Bekijk de live demo</a>
                     </p>
 
                     <p class="italic">

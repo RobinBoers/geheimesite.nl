@@ -206,7 +206,7 @@
                     <h3>Check out the sponsor of this video</h3>
                     <p>Just kidding, but <a href="https://googol.neocities.org/neolink/">NeoLink</a> is pretty poggers :D</p>
 
-                    <iframe width="300" height="250" style="border:none" src="https://googol.neocities.org/neolink/embed.html" name="neolink"></iframe>
+                    <iframe class="border-none section block w-full aspect-video" src="https://googol.neocities.org/neolink/embed.html" name="neolink"></iframe>
                 </section>
             </article>
         </main>
