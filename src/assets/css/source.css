@@ -91,7 +91,9 @@
         @apply w-full border-collapse;
     }
 
-    table, th, td {
+    table,
+    th,
+    td {
         @apply p-2 border border-solid border-black/70 dark:border-white/70;
     }
 
@@ -265,6 +267,10 @@
     figcaption {
         @apply supplement;
     }
+
+    blockquote {
+        padding-left: 40px;
+    }
 }
 
 @layer components {
@@ -390,11 +396,15 @@
     section > ol,
     article > ol,
     form,
-    table {
+    table, 
+    blockquote {
         @apply px-2 sm:px-10 md:px-0 mx-auto md:max-w-md lg:max-w-text;
     }
 
-    section > ul, article > ul, section > ol, article > ol {
+    section > ul,
+    article > ul,
+    section > ol,
+    article > ol {
         padding-left: revert;
     }
 
@@ -402,7 +412,12 @@
         @apply w-full;
     }
 
-    .featured p, .featured h1, .featured h2 {
+    .featured p,
+    .featured h1,
+    .featured h2,
+    .h-feed p,
+    .h-feed h1,
+    .h-feed h2 {
         max-width: revert;
     }
 
@@ -463,7 +478,8 @@
         counter-increment: item;
     }
 
-    pre code, code pre {
+    pre code,
+    code pre {
         @apply font-mono leading-[revert] text-[#adadad] bg-[#1b1c1d] block rounded-[5px] overflow-hidden p-[12px] w-full break-words;
     }
 
