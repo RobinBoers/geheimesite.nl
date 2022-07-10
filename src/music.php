@@ -69,8 +69,20 @@
                     </li>
                     <li>
                         <div>
+                            <h3 class="track-title">Lemon Tree</h3>
+                            <p class="track-artist">Fools Garden</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
                             <h3 class="track-title">Demons</h3>
                             <p class="track-artist">Imagine Dragons</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h3 class="track-title">7 Years</h3>
+                            <p class="track-artist">Lukas Graham</p>
                         </div>
                     </li>
                     <li>
