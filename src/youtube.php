@@ -261,6 +261,10 @@
                         <em class="video-author">Tom Scott</em>
                         <a href="https://www.youtube.com/watch?v=qu4zyRqILYM">https://www.youtube.com/watch?v=qu4zyRqILYM</a>
                     </p>
+                    <p><strong class="video-title">Danger: Humans</strong>
+                        <em class="video-author">Tom Scott</em>
+                        <a href="https://www.youtube.com/watch?v=OcPqk-O-fD4">https://www.youtube.com/watch?v=OcPqk-O-fD4</a>
+                    </p>
                     <p><strong class="video-title">I promise this story about microwaves is interesting.</strong>
                         <em class="video-author">Tom Scott</em>
                         <a href="https://www.youtube.com/watch?v=2tdiKTSdE9Y">https://www.youtube.com/watch?v=2tdiKTSdE9Y</a>
