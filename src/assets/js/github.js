@@ -9,7 +9,7 @@ function generateBlacklist() {
         "gopherhole",
         "pimenu",
         "PiSwitch",
-        "rpi-touch-dotfiles",
+        "dotfiles-rpi",
         "BloggerAPP",
         "Platformed",
         "SkyLight-basetheme",
@@ -36,6 +36,8 @@ function generateBlacklist() {
         "images",
         "sterrenkruid",
         "school",
+        "sway-gnome",
+        "ubit-remote-ultra-super-car-controller",
         ""
     ];
 }
