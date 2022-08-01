@@ -282,6 +282,10 @@
 }
 
 @layer components {
+    .homepage-box {
+        @apply px-0 md:px-10 xl:px-0;
+    }
+
     .input {
         @apply p-2 bg-white text-black dark:bg-transparent dark:text-white border-2 border-solid border-vibrant my-1 w-full block font-sans text-sm outline-none rounded-none shadow-none;
     }
@@ -386,6 +390,10 @@
     .h-card-header {
         @apply xl:grid grid-cols-2 gap-10;
         /* grid-template-columns: 50% 40%; */
+    }
+
+    .h-card-header .h-card p, .h-card-header .h-card h1 {
+        @apply max-w-none;
     }
 
     .section,

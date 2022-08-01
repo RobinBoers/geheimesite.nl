@@ -53,7 +53,7 @@
 
         <main id="content" class="page-content mt-0 md:mt-6">
             <article class="h-card-header">
-                <section class="h-card">
+                <article class="homepage-box h-card max-w-none lg:max-w-xl">
                     <h1 class="p-name text-4xl title font-normal">Robin Boers</h1>
 
                     <p>I'm webdesigner, Elixir programmer and teenager. I'm 15 years old and live in the Netherlands. Welcome to my website! This is like my personal playground, my little corner of the web. I post my projects like games, websites and apps here and I also regularly post to <a href="https://blog.geheimesite.nl/en">my blog</a>. </p>
@@ -72,12 +72,14 @@
                         </p>
                         <img src="/assets/images/me.jpeg" alt="Robin Boers" class="u-photo" />
                     </div>
-                </section>
-                <img class="hidden absolute top-[80px] right-[-350px] lg:block xl:static w-full pixelart max-w-sm" src="/assets/images/robin_pixelart.png" alt="Pixel art picture of me" />
+                </article>
+
+                <img class="hidden absolute top-[80px] right-[-200px] lg:block xl:static w-full pixelart max-w-sm" src="/assets/images/robin_pixelart.png" alt="Pixel art picture of me" />
             </article>
-            <article>
+            
+            <article class="homepage-box socials">
                 <h2 class="hidden">Socials</h2>
-                <ul class="p-1 m-0 mx-auto max-w-md xl:max-w-none xl:p-0">
+                <ul class="px-1 sm:px-10 m-0 max-w-none md:p-0">
                     <li class="inline list-none">
                         <a class="no-underline button" href="https://www.youtube.com/channel/UCx4li1iMygs5KtqgcU5KGRw" target="_blank" rel="me">
                             <img src="https://img.shields.io/badge/Robin%20Boers-red?style=for-the-badge&logo=youtube" alt="Robin Boers on YouTube" />
@@ -126,7 +128,7 @@
                 </ul>
             </article>
 
-            <article class="featured">
+            <article class="homepage-box featured">
                 <h2>Blog</h2>
 
                 <div class="blog">

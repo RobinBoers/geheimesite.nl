@@ -52,8 +52,9 @@
         </header>
 
         <main id="content" class="page-content mt-0 md:mt-6">
+
             <article class="h-card-header">
-                <section class="h-card">
+                <article class="homepage-box h-card max-w-none lg:max-w-xl">
                     <h1 class="p-name text-4xl title font-normal">Robin Boers</h1>
 
                     <p>Ik ben webdesigner, Elixir programmeur en tiener. Ik ben 15 jaar oud en ik woon in Maassluis. Welkom op mijn website! Dit is zeg maar een soort van mijn persoonlijke speeltuin. Ik plaats hier mijn projecten zoals games, websites en apps. <!--Je vind sinds kort hier ook mijn blog, al kan je het ook nog steeds op Blogger vinden.--></p>
@@ -72,12 +73,14 @@
                         </p>
                         <img src="/assets/images/me.jpeg" alt="Robin Boers" class="u-photo" />
                     </div>
-                </section>
-                <img class="hidden absolute top-[80px] right-[-350px] lg:block xl:static w-full pixelart max-w-sm" src="/assets/images/robin_pixelart.png" alt="Pixel art picture of me" />
+                </article>
+
+                <img class="hidden absolute top-[80px] right-[-200px] lg:block xl:static w-full pixelart max-w-sm" src="/assets/images/robin_pixelart.png" alt="Pixel art picture of me" />
             </article>
-            <article>
+            
+            <article class="homepage-box socials">
                 <h2 class="hidden">Socials</h2>
-                <ul class="p-1 m-0 mx-auto max-w-md xl:max-w-none xl:p-0">
+                <ul class="px-1 sm:px-10 m-0 max-w-none md:p-0">
                     <li class="inline list-none">
                         <a class="no-underline button" href="https://www.youtube.com/channel/UCx4li1iMygs5KtqgcU5KGRw" target="_blank" rel="me">
                             <img src="https://img.shields.io/badge/Robin%20Boers-red?style=for-the-badge&logo=youtube" alt="Robin Boers on YouTube" />
@@ -121,7 +124,7 @@
                 </ul>
             </article>
 
-            <article class="badges hidden" hidden>
+            <article class="homepage-box badges hidden" hidden>
                 <h2 class="hidden">Wall of badges</h2>
                 <img src="/assets/images/badges/sucks2.gif" alt="This site SUCKS!" />
                 <a href="https://theoldnet.com/#frombadge">
@@ -151,7 +154,7 @@
                 <img src="/assets/images/badges/didnt-ask.gif" alt="When. Did. I. Ask. " />
             </article>
 
-            <article class="featured">
+            <article class="homepage-box featured">
                 <h2>Blog</h2>
 
                 <div class="blog">
