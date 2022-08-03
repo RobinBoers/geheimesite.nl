@@ -82,7 +82,7 @@
                 <ul>
                     <li>
                         <strong>Dark reader:</strong> dark mode for websites that
-                        don&#39;t support it out-of-the-box -
+                        don&#39;t support it out-of-the-box
                         <a
                             href="https://addons.mozilla.org/en-US/firefox/addon/darkreader/"
                             ></a
@@ -94,7 +94,7 @@
                     </li>
                     <li>
                         <strong>Don&#39;t track me Google:</strong> removes tracking info
-                        from links -
+                        from links
                         <a
                             href="https://addons.mozilla.org/en-US/firefox/addon/dont-track-me-google1/"
                             ></a
@@ -106,7 +106,7 @@
                     </li>
                     <li>
                         <strong>DuckDuckGo Privacy Essentials:</strong> see tracking and
-                        privacy info for sites -
+                        privacy info for sites
                         <a
                             href="https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/"
                             ></a
@@ -118,7 +118,7 @@
                     </li>
                     <li>
                         <strong>Enhancer for YouTube:</strong> remove ads and get cool
-                        features -
+                        features
                         <a
                             href="https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/"
                             ></a
@@ -130,7 +130,7 @@
                     </li>
                     <li>
                         <strong>Facebook Container:</strong> eses container tabs to
-                        isolate Facebook tracking -
+                        isolate Facebook tracking
                         <a
                             href="https://addons.mozilla.org/en-US/firefox/addon/facebook-container/"
                             ></a
@@ -138,7 +138,6 @@
                     </li>
                     <li>
                         <strong>File icons for GitHub:</strong> nice file icons in GitHub
-                        -
                         <a
                             href="https://addons.mozilla.org/en-US/firefox/addon/github-file-icons/"
                             ></a
@@ -150,7 +149,7 @@
                     </li>
                     <li>
                         <strong>OctoLinker:</strong> links projects and dependencies used
-                        in code -
+                        in code
                         <a
                             href="https://addons.mozilla.org/en-US/firefox/addon/octolinker/"
                             ></a
@@ -161,7 +160,7 @@
                             >
                     </li>
                     <li>
-                        <strong>Svelte devtools:</strong> devtools for svelte -
+                        <strong>Svelte devtools:</strong> devtools for svelte
                         <a
                             href="https://addons.mozilla.org/en-US/firefox/addon/svelte-devtools/"
                             ></a
@@ -172,7 +171,7 @@
                             >
                     </li>
                     <li>
-                        <strong>uBlock origin:</strong> blocks ads :) -
+                        <strong>uBlock origin:</strong> blocks ads :)
                         <a
                             href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/"
                             ></a
@@ -183,7 +182,7 @@
                             >
                     </li>
                     <li>
-                        <strong>Web Archives:</strong> see earlier versions of sites -
+                        <strong>Web Archives:</strong> see earlier versions of sites
                         <a
                             href="https://addons.mozilla.org/en-US/firefox/addon/view-page-archive/"
                             ></a
