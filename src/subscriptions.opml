@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="//geheimesite.nl/assets/css/opml.xsl"?>
+<!-- 
+Hi!
+
+If you're reading this you're browser probably can't render the page correctly. Try using Firefox instead, unless you wanted to see the source code.
+These are the blogs I follow. You can use this code to for example import them in an RSS reader.
+
+This page was inspired by petermolnar.net
+-->
 <opml version="1.0">
 	<head>
 		<title>Robin's subscriptions</title>
 		<dateCreated>2022-06-13T14:55:27+02:00</dateCreated>
+		<ownerEmail>robin@geheimesite.nl</ownerEmail>
+		<ownerId>https://gegeimesite.nl/</ownerId>
 	</head>
 	<body>
 		<outline text="🏡 Home" title="🏡 Home">
