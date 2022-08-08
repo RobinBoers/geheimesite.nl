@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/assets/css/opml.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://geheimesite.nl/assets/css/opml.xsl"?>
 <!-- 
 Hi!
 
@@ -8,7 +8,7 @@ These are the blogs I follow. You can use this code to for example import them i
 
 This page was inspired by petermolnar.net
 -->
-<opml version="1.0">
+<opml version="2.0">
 	<head>
 		<title>Robin's subscriptions</title>
 		<dateCreated>2022-06-13T14:55:27+02:00</dateCreated>

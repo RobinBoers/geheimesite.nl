@@ -19,7 +19,7 @@
                 </p>
                 <aside>
                     <p>
-                        Hi! You're looking at an <a href="https://en.wikipedia.org/wiki/OPML">OPML</a> file, which I rendered nicely using some <a href="/assets/css/opml.xsl">XSL</a> (which I stole from <a href="https://petermolnar.net">Peter Molnar</a>). These are the blogs I follow. You can use this code to for example import them in an RSS reader.
+                        Hi! You're looking at an <a href="https://en.wikipedia.org/wiki/OPML">OPML</a> file, which I rendered nicely using some <a href="/assets/css/opml.xsl">XSL</a> (that I stole from <a href="https://petermolnar.net">Peter Molnar</a>). These are the blogs I follow. You can use this code to for example import them in an RSS reader.
                     </p>
                 </aside>
             </body>
