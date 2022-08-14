@@ -34,7 +34,6 @@ This page was inspired by petermolnar.net
 			<outline text="Sterrenkruid" type="feed" xmlUrl="https://jokessterrenkruid.blogspot.com/feeds/posts/default" htmlUrl="https://jokessterrenkruid.blogspot.com/feeds/posts/default" url="https://jokessterrenkruid.blogspot.com/feeds/posts/default" title="Sterrenkruid"></outline>
 			<outline text="WitBlauw" type="feed" xmlUrl="https://witblauw.blogspot.com/feeds/posts/default" htmlUrl="https://witblauw.blogspot.com/feeds/posts/default" url="https://witblauw.blogspot.com/feeds/posts/default" title="WitBlauw"></outline>
 			<outline text="Interdependent Thoughts" type="feed" xmlUrl="https://www.zylstra.org/blog/feed/" htmlUrl="https://www.zylstra.org/blog/feed/" url="https://www.zylstra.org/blog/feed/" title="Interdependent Thoughts"></outline>
-			<outline text="" type="feed" xmlUrl="https://aaronparecki.com/" htmlUrl="https://aaronparecki.com/" url="https://aaronparecki.com/"></outline>
 		</outline>
 		<outline text="💻 Coding" title="💻 Coding">
 			<outline text="Sara Soueidan" type="feed" xmlUrl="https://www.sarasoueidan.com/blog/index.xml" htmlUrl="https://www.sarasoueidan.com/blog/index.xml" url="https://www.sarasoueidan.com/blog/index.xml" title="Sara Soueidan"></outline>
