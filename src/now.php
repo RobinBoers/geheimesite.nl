@@ -52,12 +52,21 @@
                 <section>
                     <h2>School</h2>
 
-                    <p>I'm currently in 3VWO. I think you British people would call it Year 10, and American folks would call it Grade 8 or something. These are some things I'm doing for school at the moment.</p>
+                    <p>I'm currently in 4VWO. I think you British people would call it Year 11, and American folks would call it Grade 9 or something. These are some things I'm doing for school at the moment.</p>
 
                     <ul>
-                        <li>Build <a href="https://docs.geheimesite.nl/school">a site for my school shtuff</a> (so that I can share it with my classmates)</li>
-                        <li>Test week (4 tests to go)</li>
-                        <li>Sports day</li>
+                        <li>I have vacation!! (1 week left)</li>
+                    </ul>
+                </section>
+
+                <hr class="my-7 border-none">
+
+                <section>
+                    <h2>Personal</h2>
+
+                    <ul>
+                        <li>Finish & polish the backend for my RSS reader</li>
+                        <li>Build a nice frontend for it using either a local website or wxwidgets</li>
                     </ul>
                 </section>
 
