@@ -196,7 +196,7 @@
                 <h2 id="cli">🛠️ CLI</h2>
                 <p>
                     My shell is fish. I like the amazing autocomplete and color support
-                    it has. I use starship prompt because it requires not configuration
+                    it has. I use starship prompt because it requires no configuration
                     at all, looks amazing and works for all shells (meaning my shell
                     looks the same if I switch to bash for some reason).
                 </p>
@@ -226,9 +226,7 @@
                 </ul>
                 <h2 id="code-editor">💾 Code editor</h2>
                 <p>
-                    My favorite code editor is VSCode. I did use both Brackets and Atom
-                    for some time, but VSCode is just the perfect fit for me. It loads
-                    quick and has lots of useful extensions.
+                    My favorite code editor is VSCode. I used both Brackets and Atom for quite some time, but VSCode is just perfect for me. It loads quickly and has lots of useful extensions.
                 </p>
                 <p>
                     VSCode also syncs my setup across machines using settings sync with
