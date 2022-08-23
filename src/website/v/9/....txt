@@ -3,7 +3,7 @@
             <p><img class="small"src="http://www.geheimesite.nl/home/afbeeldingen%20DDDD/agent%20RB.jpg" height="100px" width="150px" alt="3 spion"/></p>
             <p>Agent RB is de snelste van het team!<br>
             Hij is ook de leider van de 3SD de spionnen van de DDDD.<br>
-            Ook is hij de maker van deze site!<br><a href="mailto:robin@geheimesite.nl">mail mij</a></p>
+            Ook is hij de maker van deze site!<br><a href="mailto:hello@geheimesite.nl">mail mij</a></p>
         </section>
         <section class="persoon">
             <h3>agent Friday</h3>

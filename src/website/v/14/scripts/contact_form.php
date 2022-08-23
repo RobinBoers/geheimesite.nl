@@ -11,6 +11,5 @@ $message = "Nieuw bericht van: $person.\n".$message;
 $message = wordwrap($message, 70, "\r\n");
 
 // Verzend de e-mail
-mail('robin@geheimesite.nl', $subject, $message);
+mail('hello@geheimesite.nl', $subject, $message);
 }
-?>

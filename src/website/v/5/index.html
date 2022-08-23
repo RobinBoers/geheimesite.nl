@@ -1,358 +1,499 @@
 <!DOCTYPE html>
 <html lang="nl">
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>De Geheim Agenten | The Last Update...</title>
-	<link rel="stylesheet" href="css/css1.css">
-	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900|Roboto|Roboto+Condensed" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>De Geheim Agenten | The Last Update...</title>
+    <link rel="stylesheet" href="css/css1.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900|Roboto|Roboto+Condensed"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
-        body {margin 000px;}
-        .nav {text-align: center;}
-        .home {padding: 10px;border-bottom: 5px solid deepskyblue;text-decoration: none;color: white;}
-        .home:hover {border-top: 5px solid deepskyblue;border-bottom: none;}
-        .raadsel {padding: 10px;border-bottom: 5px solid deepskyblue;text-decoration: none;color: white;}
-        .raadsel:hover {border-top: 5px solid deepskyblue;border-bottom: none;}
-        .blog {padding: 10px;border-bottom: 5px solid deepskyblue;text-decoration: none;color: white;}
-        .blog:hover {border-top: 5px solid deepskyblue;border-bottom: none;}
-        .text a:link {
-color: dodgerblue;
-}
-        .text  a:visited {
-color: dodgerblue;
-}
-        footer a.footer {
-padding: 10px;
-color: dodgerblue;
-}
-        #footersterkrui {
-float: right;
-}
-        #footermail {
-float: left;
-}
-        .slideshow-container {
-  position: relative;
-}
-        .mySlides {
-  display: none;
-  padding: 80px;
-  text-align: center;
-}
-        .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -30px;
-  padding: 16px;
-  color: #888;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-        .next {
-  position: absolute;
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-        .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-  color: white;
-}
-        .dot-container {
-  text-align: center;
-  padding: 20px;
-}
-        .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-        .active, .dot:hover {
-  background-color: #717171;
-}
-        q {font-style: italic;}
-        .author {color: cornflowerblue;}
-        #naam:focus{width: 100%;}
-        #naam{-webkit-transition: width 0.4s ease-in-out;
-        transition: width 0.4s ease-in-out;}
-        #email:focus{width: 100%;}
-        #email{-webkit-transition: width 0.4s ease-in-out;
-        transition: width 0.4s ease-in-out;}
-        #bericht:focus{width: 100%;}
-        #bericht{-webkit-transition: width 0.4s ease-in-out;
-        transition: width 0.4s ease-in-out;}
-        
-        input[type=text] {
-        width: 200px;
-        box-sizing: border-box;
-        border: 2px solid #ccc;
-        border-radius: 4px;
-        font-size: 16px;
-        background-color: white;
-        background-position: 10px 10px; 
-        background-repeat: no-repeat;
-        padding: 12px 20px 12px 40px;
-        -webkit-transition: width 0.4s ease-in-out;
-        transition: width 0.4s ease-in-out;
-        }
-        input[type=text]:focus {
-        width: 100%;
-        border: 2px solid deepskyblue;
-        }
-        
-        input[type=email] {
-        width: 200px;
-        box-sizing: border-box;
-        border: 2px solid #ccc;
-        border-radius: 4px;
-        font-size: 16px;
-        background-color: white;
-        background-image: url('searchicon.png');
-        background-position: 10px 10px; 
-        background-repeat: no-repeat;
-        padding: 12px 20px 12px 40px;
-        -webkit-transition: width 0.4s ease-in-out;
-        transition: width 0.4s ease-in-out;
-        }
-        input[type=email]:focus {
-        width: 100%;
-        border: 2px solid deepskyblue;
-        }
-        
-        #bericht {
-        width: 200px;
-        box-sizing: border-box;
-        border: 2px solid #ccc;
-        border-radius: 4px;
-        font-size: 16px;
-        background-color: white;
-        background-image: url('searchicon.png');
-        background-position: 10px 10px; 
-        background-repeat: no-repeat;
-        padding: 12px 20px 12px 40px;
-        -webkit-transition: width 0.4s ease-in-out;
-        transition: width 0.4s ease-in-out;
-        }
-        #bericht:focus {
-        width: 100%;
-        border: 2px solid deepskyblue;
-        }
-    </style>
-</head>
-<body>
+              body {margin 000px;}
+              .nav {text-align: center;}
+              .home {padding: 10px;border-bottom: 5px solid deepskyblue;text-decoration: none;color: white;}
+              .home:hover {border-top: 5px solid deepskyblue;border-bottom: none;}
+              .raadsel {padding: 10px;border-bottom: 5px solid deepskyblue;text-decoration: none;color: white;}
+              .raadsel:hover {border-top: 5px solid deepskyblue;border-bottom: none;}
+              .blog {padding: 10px;border-bottom: 5px solid deepskyblue;text-decoration: none;color: white;}
+              .blog:hover {border-top: 5px solid deepskyblue;border-bottom: none;}
+              .text a:link {
+      color: dodgerblue;
+      }
+              .text  a:visited {
+      color: dodgerblue;
+      }
+              footer a.footer {
+      padding: 10px;
+      color: dodgerblue;
+      }
+              #footersterkrui {
+      float: right;
+      }
+              #footermail {
+      float: left;
+      }
+              .slideshow-container {
+        position: relative;
+      }
+              .mySlides {
+        display: none;
+        padding: 80px;
+        text-align: center;
+      }
+              .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -30px;
+        padding: 16px;
+        color: #888;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+              .next {
+        position: absolute;
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+              .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+        color: white;
+      }
+              .dot-container {
+        text-align: center;
+        padding: 20px;
+      }
+              .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+              .active, .dot:hover {
+        background-color: #717171;
+      }
+              q {font-style: italic;}
+              .author {color: cornflowerblue;}
+              #naam:focus{width: 100%;}
+              #naam{-webkit-transition: width 0.4s ease-in-out;
+              transition: width 0.4s ease-in-out;}
+              #email:focus{width: 100%;}
+              #email{-webkit-transition: width 0.4s ease-in-out;
+              transition: width 0.4s ease-in-out;}
+              #bericht:focus{width: 100%;}
+              #bericht{-webkit-transition: width 0.4s ease-in-out;
+              transition: width 0.4s ease-in-out;}
 
-<article>
-    <div class="laag0">
+              input[type=text] {
+              width: 200px;
+              box-sizing: border-box;
+              border: 2px solid #ccc;
+              border-radius: 4px;
+              font-size: 16px;
+              background-color: white;
+              background-position: 10px 10px;
+              background-repeat: no-repeat;
+              padding: 12px 20px 12px 40px;
+              -webkit-transition: width 0.4s ease-in-out;
+              transition: width 0.4s ease-in-out;
+              }
+              input[type=text]:focus {
+              width: 100%;
+              border: 2px solid deepskyblue;
+              }
+
+              input[type=email] {
+              width: 200px;
+              box-sizing: border-box;
+              border: 2px solid #ccc;
+              border-radius: 4px;
+              font-size: 16px;
+              background-color: white;
+              background-image: url('searchicon.png');
+              background-position: 10px 10px;
+              background-repeat: no-repeat;
+              padding: 12px 20px 12px 40px;
+              -webkit-transition: width 0.4s ease-in-out;
+              transition: width 0.4s ease-in-out;
+              }
+              input[type=email]:focus {
+              width: 100%;
+              border: 2px solid deepskyblue;
+              }
+
+              #bericht {
+              width: 200px;
+              box-sizing: border-box;
+              border: 2px solid #ccc;
+              border-radius: 4px;
+              font-size: 16px;
+              background-color: white;
+              background-image: url('searchicon.png');
+              background-position: 10px 10px;
+              background-repeat: no-repeat;
+              padding: 12px 20px 12px 40px;
+              -webkit-transition: width 0.4s ease-in-out;
+              transition: width 0.4s ease-in-out;
+              }
+              #bericht:focus {
+              width: 100%;
+              border: 2px solid deepskyblue;
+              }
+    </style>
+  </head>
+  <body>
+    <article>
+      <div class="laag0">
         <header>
-            <h1>GEHEIMESITE<span>The Last Update...</span></h1>
-		</header>
-            <p class="nav"><a class="home"href="home/index.html">Home</a><a class="raadsel" href="raadsels/ga-naar-geheimepagina.html">Raadsels</a><a class="blog" href="https://roodoranjegeel.blogspot.nl/">Blog</a></p><p onclick="typeWriter()" class="nav" style="color: white;" id="typtekst">V</p>
-	</div>
-    <div class="text">
-		<h2>Welkom in het hoofdkwartier van de DDDD</h2>
-		<p>
-        hallo wij zijn de geheim agenten van de DDDD<br>
-        dit is onze website! klik op een pagina om hem te bezoeken!<br>
-        je vind er tips, geheimtaal en meer!<br>
-        <button onclick="javascript:alert('Error | Wil je echt het internet verwijderen?')">Niet op deze knop klikken!</button>
+          <h1>GEHEIMESITE<span>The Last Update...</span></h1>
+        </header>
+        <p class="nav">
+          <a class="home" href="home/index.html">Home</a
+          ><a class="raadsel" href="raadsels/ga-naar-geheimepagina.html"
+            >Raadsels</a
+          ><a class="blog" href="https://roodoranjegeel.blogspot.nl/">Blog</a>
+        </p>
+        <p
+          onclick="typeWriter()"
+          class="nav"
+          style="color: white"
+          id="typtekst"
+        >
+          V
+        </p>
+      </div>
+      <div class="text">
+        <h2>Welkom in het hoofdkwartier van de DDDD</h2>
+        <p>
+          hallo wij zijn de geheim agenten van de DDDD<br />
+          dit is onze website! klik op een pagina om hem te bezoeken!<br />
+          je vind er tips, geheimtaal en meer!<br />
+          <button
+            onclick="javascript:alert('Error | Wil je echt het internet verwijderen?')"
+          >
+            Niet op deze knop klikken!
+          </button>
+        </p>
+        <p>Zoeken: <gcse:search style="width: 100%"></gcse:search></p>
+      </div>
+      <div class="laag0"></div>
+      <div class="laag3"></div>
+      <div class="laag0"></div>
+      <div class="laag2"></div>
+      <div class="laag3"></div>
+      <div class="text">
+        <h2>Welkom in het hoofdkwartier van de DDDD</h2>
+        <p>
+          hallo wij zijn de geheim agenten van de DDDD<br />
+          dit is onze website! klik op een pagina om hem te bezoeken!<br />
+          je vind er tips, geheimtaal en meer!<br />
+        </p>
+
+        <div style="font-size: 20px; border-bottom: 4px solid skyblue">
+          Geheime code's
+        </div>
+        <p>
+          <b
+            >Stel, je zit in een noodsituatie en je moet direct hulp inschakelen
+            maar de tegenstander mag het niet weten. Wat doe je nu?</b
+          ><br />Daarvoor hebben wij de perfecte hulp.<br />Op onze Geheime
+          code's pagina vind je enorm veel verschillende en vooral moeilijke
+          geheime code.<br /><a href="home/geheimtaal.html">Meer lezen >>></a>
+        </p>
+
+        <div style="font-size: 20px; border-bottom: 4px solid skyblue">
+          Zo word je geheimagent
+        </div>
+        <p>
+          <b
+            >Wil je met een revolver, een zwarte regenjas en een grote hoed de
+            straat op om boeven te raken en mensen te spioneren? Net als de
+            DDDD? Kortom wil je ook geheimagent worden?</b
+          ><br />Ga dan eens kijken op de Geheimagent worden pagina van
+          geheimesite.nl<br />Hier vind je veertien tips om een echte
+          geheimeagent te worden en OOK hoe je een spionnenclub opricht!!!<br /><a
+            href="home/zo%20word%20je%20geheim%20agent.html"
+            >Meer lezen >>></a
+          >
+        </p>
+
+        <div style="font-size: 20px; border-bottom: 4px solid skyblue">
+          Raadsels...
+        </div>
+        <p>
+          <b
+            >Hou jij soms meer van raadsels oplossen? Ook daarvoor heeft
+            geheimesite.nl wel een paar opties.</b
+          ><br />Klik dan op de link hieronder<br />Hier vind je 6 raadsels om
+          helemaal zelf op te lossen!!<br /><a
+            href="raadsels/ga-naar-geheimepagina.html"
+            >Raadsels oplossen >>></a
+          >
+        </p>
+
+        <div style="font-size: 20px; border-bottom: 4px solid skyblue">
+          Spelletjes!
+        </div>
+        <p>
+          <b>Of vind jij gamen nu fantastisch?</b><br />Surf dan snel nar
+          spel.geheimesite.nl<br />Of klik op de onderstaande link<a
+            href="http://www.spel.geheimesite.nl/"
+            >Spelletjes en games spelen >>></a
+          >
+        </p>
+      </div>
+      <figure>
+        <figcaption>
+          WEETJE: DDDD staat voor: de dienst van buitenaardse dimensies en
+          domeinen
+        </figcaption>
+      </figure>
+      <div class="text">
+        <div class="slideshow-container">
+          <div class="mySlides">
+            <q>Ga ervoor, doe het gewoon!</q>
+            <p class="author">- RB</p>
+          </div>
+
+          <div class="mySlides">
+            <q>Doe met kracht en wijsheid!</q>
+            <p class="author">- Friday</p>
+          </div>
+
+          <div class="mySlides">
+            <q>Juist als je falen onder ogen kan zien ben je sterk</q>
+            <p class="author">- T.</p>
+          </div>
+
+          <div class="mySlides">
+            <q>Als je samenwerkt win je altijd en overal!</q>
+            <p class="author">- Team 004</p>
+          </div>
+
+          <div class="mySlides">
+            <q>You can do it!</q>
+            <p class="author">- L.</p>
+          </div>
+
+          <div class="mySlides">
+            <q>Don't give up.</q>
+            <p class="author">- D.</p>
+          </div>
+
+          <div class="mySlides">
+            <q>Time for action!!</q>
+            <p class="author">- TF</p>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <div class="dot-container">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+          <span class="dot" onclick="currentSlide(7)"></span>
+        </div>
+        <h2>Onze avonturen</h2>
+        <p>
+          Robin en Tom lopen door een smal steegje.<br />
+          Ze zijn heel blij!<br />
+          Van hun ouders mogen ze eindelijk op voetbal!<br />
+          Alle stoere jongens uit de klas zitten op voetbal!<br />
+          Ze rennen over straat.<br />
+          En nog een.<br />
+          Totdat de wolken ineens allemaal zwart worden!<br />
+          De wolken namen de gedaante van ruimteschepen aan.<br />
+          Opeens waren overal om hen heen mannen met 3 ogen, olifanten oren en
+          groen met rode stippen. ALIENS!!!<br />
+          Robin en Tom zetten het op een lopen.<br />
+          Toen werd alles zwart...<br />
         </p>
         <p>
-        Zoeken: <gcse:search style="width: 100%;"></gcse:search>
+          Tom zat in een technische ruimte.<br />
+          Links van hem lag Robin.<br />
+          Recht lag een zwaard. En hij pakte het op.<br />
+          Zodra hij het vast heeft verspreid er een ijzer laagje over hem
+          heen.<br />
+          Een soort heel flexibel harnas.<br />
+          Hij zag dat naast hem Robin hetzelfde was overkomen.<br />
+          Ze keken elkaar verbaast aan!<br />
+          En dat was nu elf jaar geleden!<br />
         </p>
-	</div>
-	<div class="laag0"></div>
-    <div class="laag3"></div>
-    <div class="laag0"></div>
-    <div class="laag2"></div>
-    <div class="laag3"></div>
-	<div class="text">
-		<h2>Welkom in het hoofdkwartier van de DDDD</h2>
-		<p>
-        hallo wij zijn de geheim agenten van de DDDD<br>
-        dit is onze website! klik op een pagina om hem te bezoeken!<br>
-        je vind er tips, geheimtaal en meer!<br></p>
-    
-		<div style="font-size: 20px;border-bottom: 4px solid skyblue;">Geheime code's</div>
-        <p><b>Stel, je zit in een noodsituatie en je moet direct hulp inschakelen maar de tegenstander mag het niet weten. Wat doe je nu?</b><br>Daarvoor hebben wij de perfecte hulp.<br>Op onze Geheime code's pagina vind je enorm veel verschillende en vooral moeilijke geheime code.<br><a href="home/geheimtaal.html">Meer lezen >>></a></p>
-    
-		<div style="font-size: 20px;border-bottom: 4px solid skyblue;">Zo word je geheimagent</div>
-        <p><b>Wil je met een revolver, een zwarte regenjas en een grote hoed de straat op om boeven te raken en mensen te spioneren? Net als de DDDD? Kortom wil je ook geheimagent worden?</b><br>Ga dan eens kijken op de Geheimagent worden pagina van geheimesite.nl<br>Hier vind je veertien tips om een echte geheimeagent te worden en OOK hoe je een spionnenclub opricht!!!<br><a href="home/zo%20word%20je%20geheim%20agent.html">Meer lezen >>></a></p>
-    
-		<div style="font-size: 20px;border-bottom: 4px solid skyblue;">Raadsels...</div>
-        <p><b>Hou jij soms meer van raadsels oplossen? Ook daarvoor heeft geheimesite.nl wel een paar opties.</b><br>Klik dan op de link hieronder<br>Hier vind je 6 raadsels om helemaal zelf op te lossen!!<br><a href="raadsels/ga-naar-geheimepagina.html">Raadsels oplossen >>></a></p>
-        
-        <div style="font-size: 20px;border-bottom: 4px solid skyblue;">Spelletjes!</div>
-        <p><b>Of vind jij gamen nu  fantastisch?</b><br>Surf dan snel nar spel.geheimesite.nl<br>Of klik op de onderstaande link<a href="http://www.spel.geheimesite.nl/">Spelletjes en games spelen >>></a></p>
-	</div>
-	<figure>
-		<figcaption>WEETJE: DDDD staat voor: de dienst van buitenaardse dimensies en domeinen</figcaption>
-	</figure>
-	<div class="text">
-<div class="slideshow-container">
-
-  <div class="mySlides">
-    <q>Ga ervoor, doe het gewoon!</q>
-    <p class="author">- RB</p>
-  </div>
-
-  <div class="mySlides">
-    <q>Doe met kracht en wijsheid!</q>
-    <p class="author">- Friday</p>
-  </div>
-
-  <div class="mySlides">
-    <q>Juist als je falen onder ogen kan zien ben je sterk</q>
-    <p class="author">- T.</p>
-  </div>
-
-<div class="mySlides">
-    <q>Als je samenwerkt win je altijd en overal!</q>
-    <p class="author">- Team 004</p>
-  </div>
-
-<div class="mySlides">
-    <q>You can do it!</q>
-    <p class="author">- L.</p>
-  </div>
-
-<div class="mySlides">
-    <q>Don't give up.</q>
-    <p class="author">- D.</p>
-  </div>
-
-<div class="mySlides">
-    <q>Time for action!!</q>
-    <p class="author">- TF</p>
-  </div>
-
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-
-<div class="dot-container">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span>
-  <span class="dot" onclick="currentSlide(4)"></span> 
-  <span class="dot" onclick="currentSlide(5)"></span> 
-  <span class="dot" onclick="currentSlide(6)"></span>
-  <span class="dot" onclick="currentSlide(7)"></span> 
-</div>
-		<h2>Onze avonturen</h2>
-        <p>Robin en Tom lopen door een smal steegje.<br />
-        Ze zijn heel blij!<br />
-        Van hun ouders mogen ze eindelijk op voetbal!<br />
-        Alle stoere jongens uit de klas zitten op voetbal!<br />
-        Ze rennen over straat.<br />
-        En nog een.<br />
-        Totdat de wolken ineens allemaal zwart worden!<br />
-        De wolken namen de gedaante van ruimteschepen aan.<br />
-        Opeens waren overal om hen heen mannen met 3 ogen, olifanten oren en groen met rode stippen. ALIENS!!!<br />
-        Robin en Tom zetten het op een lopen.<br />
-        Toen werd alles zwart...<br /></p>
-        <p>Tom zat in een technische ruimte.<br />
-        Links van hem lag Robin.<br />
-        Recht lag een zwaard. En hij pakte het op.<br />
-        Zodra hij het vast heeft verspreid er een ijzer laagje over hem heen.<br />
-        Een soort heel flexibel harnas.<br />
-        Hij zag dat naast hem Robin hetzelfde was overkomen.<br />
-        Ze keken elkaar verbaast aan!<br />
-        En dat was nu elf jaar geleden!<br /></p>
         <p><a href="verhalen/index.html">Download meer >>></a></p>
-        </div>
-        <div class="laag0"></div>
-        <div class="text">
-            <h2>Contact</h2>
-            <p>Mail ons!</p>
-            <p><a href="mailto:robin@geheimesite.nl">Je kan agent RB mailen op het adres robin@geheimesite.nl</a><br>Of vul het onderstaande formulier in!</p>
-                <FORM METHOD="post" ACTION="mailto:robin@geheimesite.nl?SUBJECT=Reactie" ENCTYPE="text/plain">
-                    <label for="naam">Naam: <abbr title="Vereist"></abbr><br></label>
-                    <input placeholder="Naam" TYPE="text" id="naam" NAME="naam" SIZE="30" required><br>
-                    <hr>
-                    <label for="email">E-mailadres: <abbr title="Vereist"></abbr><br></label>
-                    <input id="email" name="email" placeholder="E-mailadres" type="email" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$" required>
-                    <hr>
-                    <label for="bericht">Jouw berichtje: <abbr title="Vereist"></abbr><br></label>
-                    <textarea id="bericht" ROWS="3" COLS="30" NAME="mijn bericht" placeholder="Typ hier jouw bericht..." required></textarea>
-                    <p><input disabled type="submit" value="Verzenden" style="color: #FFFFFF; background: deepskyblue; width: 120px; height: 25px;"></p>
-                </FORM>
-            <hr>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39373.48005243496!2d4.242222944140119!3d51.91858453351576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6be6c29b13c1f%3A0xd6195a4cc083b47a!2sMaassluis!5e0!3m2!1snl!2snl!4v1517762145694" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-            <hr>
-            <p class="nav"><a class="home"href="home/index.html">Home</a><a class="raadsel" href="raadsels/ga-naar-geheimepagina.html">Raadsels</a><a class="blog" href="https://roodoranjegeel.blogspot.nl/">Blog</a></p>
-            <hr>
-            <footer class="center"><a href="mailto:robin@geheimesite.nl" id="footermail" class="footer">Mail</a><a id="footersterkrui" href="http://www.sterrenkruid.nl/index.html" class="footer">Sterrenkruid</a></footer>
-        </div>
-        <hr>
-<div id="google_translate_element"></div>
-</article>
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
+      </div>
+      <div class="laag0"></div>
+      <div class="text">
+        <h2>Contact</h2>
+        <p>Mail ons!</p>
+        <p>
+          <a href="mailto:hello@geheimesite.nl"
+            >Je kan agent RB mailen op het adres hello@geheimesite.nl</a
+          ><br />Of vul het onderstaande formulier in!
+        </p>
+        <form
+          method="post"
+          action="mailto:hello@geheimesite.nl?SUBJECT=Reactie"
+          enctype="text/plain"
+        >
+          <label for="naam">Naam: <abbr title="Vereist"></abbr><br /></label>
+          <input
+            placeholder="Naam"
+            type="text"
+            id="naam"
+            name="naam"
+            size="30"
+            required
+          /><br />
+          <hr />
+          <label for="email"
+            >E-mailadres: <abbr title="Vereist"></abbr><br
+          /></label>
+          <input
+            id="email"
+            name="email"
+            placeholder="E-mailadres"
+            type="email"
+            pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$"
+            required
+          />
+          <hr />
+          <label for="bericht"
+            >Jouw berichtje: <abbr title="Vereist"></abbr><br
+          /></label>
+          <textarea
+            id="bericht"
+            rows="3"
+            cols="30"
+            name="mijn bericht"
+            placeholder="Typ hier jouw bericht..."
+            required
+          ></textarea>
+          <p>
+            <input
+              disabled
+              type="submit"
+              value="Verzenden"
+              style="
+                color: #ffffff;
+                background: deepskyblue;
+                width: 120px;
+                height: 25px;
+              "
+            />
+          </p>
+        </form>
+        <hr />
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39373.48005243496!2d4.242222944140119!3d51.91858453351576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6be6c29b13c1f%3A0xd6195a4cc083b47a!2sMaassluis!5e0!3m2!1snl!2snl!4v1517762145694"
+          width="100%"
+          height="300"
+          frameborder="0"
+          style="border: 0"
+          allowfullscreen
+        ></iframe>
+        <hr />
+        <p class="nav">
+          <a class="home" href="home/index.html">Home</a
+          ><a class="raadsel" href="raadsels/ga-naar-geheimepagina.html"
+            >Raadsels</a
+          ><a class="blog" href="https://roodoranjegeel.blogspot.nl/">Blog</a>
+        </p>
+        <hr />
+        <footer class="center">
+          <a href="mailto:hello@geheimesite.nl" id="footermail" class="footer"
+            >Mail</a
+          ><a
+            id="footersterkrui"
+            href="http://www.sterrenkruid.nl/index.html"
+            class="footer"
+            >Sterrenkruid</a
+          >
+        </footer>
+      </div>
+      <hr />
+      <div id="google_translate_element"></div>
+    </article>
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1} 
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none"; 
-    }
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-    }
-  slides[slideIndex-1].style.display = "block"; 
-  dots[slideIndex-1].className += " active";
-}
-var i = 0;
-var txt = 'oor geheimtaal, spelletjes raadsels en meer!!';
-var speed = 50;
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+      var i = 0;
+      var txt = "oor geheimtaal, spelletjes raadsels en meer!!";
+      var speed = 50;
 
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("typtekst").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
-} 
-</script>
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
-</script>
+      function typeWriter() {
+        if (i < txt.length) {
+          document.getElementById("typtekst").innerHTML += txt.charAt(i);
+          i++;
+          setTimeout(typeWriter, speed);
+        }
+      }
+    </script>
+    <script
+      type="text/javascript"
+      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    ></script>
 
-<script type="text/javascript">
-function googleTranslateElementInit() {
-new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-}
-</script>
-<script>
-  (function() {
-    var cx = '006273614434659620169:t1ral-2sbks';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-</body>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          { pageLanguage: "en" },
+          "google_translate_element"
+        );
+      }
+    </script>
+    <script>
+      (function () {
+        var cx = "006273614434659620169:t1ral-2sbks";
+        var gcse = document.createElement("script");
+        gcse.type = "text/javascript";
+        gcse.async = true;
+        gcse.src = "https://cse.google.com/cse.js?cx=" + cx;
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(gcse, s);
+      })();
+    </script>
+  </body>
 </html>
