@@ -55,7 +55,9 @@
                     <p>I'm currently in 4VWO. I think you British people would call it Year 11, and American folks would call it Grade 9 or something. These are some things I'm doing for school at the moment.</p>
 
                     <ul>
-                        <li>I have vacation!! (1 week left)</li>
+                        <li>Mostly introduction lessons</li>
+                        <li>Keeping up with homework</li>
+                        <li>Only nice subjects and german (I dropped all the other shit this year)</li>
                     </ul>
                 </section>
 
@@ -66,7 +68,7 @@
 
                     <ul>
                         <li>Finish & polish the backend for my RSS reader</li>
-                        <li>Build a nice frontend for it using either a local website or wxwidgets</li>
+                        <li>Build a nice frontend for it using local website and package it using <a href="https://github.com/elixir-desktop/desktop">elixir-desktop</a></li>
                     </ul>
                 </section>
 
@@ -80,6 +82,8 @@
                         <li>Add delete/update support to my micropub endpoint</li>
                         <li>Figure out why posting to <a href="https://indieweb.xyz">indieweb.xyz</a> sometimes doesn't work</li>
                     </ul>
+
+                    <p>I will probably keep putting these off for another six years, but here ye go.</p>
                 </section>
 
                 <hr class="reading-hr my-7 border-none">
