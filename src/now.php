@@ -43,7 +43,7 @@
                 <section>
                     <h1>Now</h1>
                     <p>
-                        This page is inspired by Derek Siver's <a href="https://sive.rs/nowff"></a>now page movement</a>. I think I'm a bit late to the party, but whatever. No one cares anyway. For those very confused: this page describes what I'm currently up to.
+                        This page is inspired by Derek Siver's <anow href="https://sive.rs/nowff">now page movement</a>. I think I'm a bit late to the party, but whatever. No one cares anyway. For those very confused: this page describes what I'm currently up to.
                     </p>
 
                     <p>
