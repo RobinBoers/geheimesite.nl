@@ -376,7 +376,8 @@
 
     .pageheader nav ul li a,
     .pageheader nav ul li.selected {
-        @apply before:content-['<'] after:content-['/>'] no-underline;
+        @apply before:content-['/'] no-underline;
+        /* before:content-['<'] after:content-['/>'] */
     }
 
     .pageheader nav ul li.selected {
