@@ -47,6 +47,7 @@
                 <li><a href="/en/books">Books</a></li>
                 <li><a href="/hyperfeed">Hyperfeed</a></li>
                 <li><a href="https://micro.geheimesite.nl">Neolog</a></li>
+                <li><a href="/ckv">CKV</a></li>
                 <li><a href="https://github.com/RobinBoers">GitHub</a></li>
                 <li><a href="https://blog.geheimesite.nl/en">Blog</a></li>
             </ul>
