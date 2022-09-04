@@ -75,29 +75,11 @@
                         <em class="video-author">Tom Scott</em>
                         <a href="https://www.youtube.com/watch?v=OFRjZtYs3wY">https://www.youtube.com/watch?v=OFRjZtYs3wY</a>
                     </p>
-                    <p>
-                        <strong class="video-title">The Worst Typo I Ever Made</strong>
-                        <em class="video-author">Tom Scott</em>
-                        <a href="https://www.youtube.com/watch?v=X6NJkWbM1xk">https://www.youtube.com/watch?v=X6NJkWbM1xk</a>
-                    </p>
+                    
                     <p>
                         <strong class="video-title">This video has xxx views</strong>
                         <em class="video-author">Tom Scott</em>
                         <a href="https://www.youtube.com/watch?v=BxV14h0kFs0">https://www.youtube.com/watch?v=BxV14h0kFs0</a>
-                    </p>
-                    <p>
-                        <strong class="video-title">The Artificial Intelligence That Deleted A Century</strong>
-                        <em class="video-author">Tom Scott</em>
-                        <a href="https://www.youtube.com/watch?v=-JlxuQ7tPgQ">https://www.youtube.com/watch?v=-JlxuQ7tPgQ</a>
-                    </p>
-                    <p>
-                        <strong class="video-title">YouTube&#39;s Copyright System Isn&#39;t Broken. The World&#39;s Is.</strong>
-                        <em class="video-author">Tom Scott</em><a href="https://www.youtube.com/watch?v=1Jwo5qc78QU">https://www.youtube.com/watch?v=1Jwo5qc78QU</a>
-                    </p>
-                    <p>
-                        <strong class="video-title">Single Point of Failure: The (Fictional) Day Google Forgot To Check Passwords</strong>
-                        <em class="video-author">Tom Scott</em>
-                        <a href="https://www.youtube.com/watch?v=y4GB_NDU43Q">https://www.youtube.com/watch?v=y4GB_NDU43Q</a>
                     </p>
                     <p>
                         <strong class="video-title">The Art of Code</strong>
@@ -120,9 +102,18 @@
                         <a href="https://www.youtube.com/watch?v=YPYks7lBKSY">https://www.youtube.com/watch?v=YPYks7lBKSY</a>
                     </p>
                     <p>
-                        <strong class="video-title">Ctrl-Alt-Del: Learning to Love Legacy Code</strong>
-                        <em class="video-author">Dylan Beattie</em>
-                        <a href="https://www.youtube.com/watch?v=wPjHuvulivM">https://www.youtube.com/watch?v=wPjHuvulivM</a>
+                        <strong class="video-title">The Artificial Intelligence That Deleted A Century</strong>
+                        <em class="video-author">Tom Scott</em>
+                        <a href="https://www.youtube.com/watch?v=-JlxuQ7tPgQ">https://www.youtube.com/watch?v=-JlxuQ7tPgQ</a>
+                    </p>
+                    <p>
+                        <strong class="video-title">YouTube&#39;s Copyright System Isn&#39;t Broken. The World&#39;s Is.</strong>
+                        <em class="video-author">Tom Scott</em><a href="https://www.youtube.com/watch?v=1Jwo5qc78QU">https://www.youtube.com/watch?v=1Jwo5qc78QU</a>
+                    </p>
+                    <p>
+                        <strong class="video-title">Lambda? You Keep Using that Letter</strong>
+                        <em class="video-author">Kevlin Henney</em>
+                        <a href="https://www.youtube.com/watch?v=Y7StjYhXvpE">https://www.youtube.com/watch?v=Y7StjYhXvpE</a>
                     </p>
                     <p>
                         <strong class="video-title">Characters, Symbols and the Unicode Miracle</strong> <em class="video-author">Computerphile</em>
@@ -134,6 +125,17 @@
                         <a href="https://www.youtube.com/watch?v=PZRI1IfStY0">https://www.youtube.com/watch?v=PZRI1IfStY0</a>
                     </p>
                     <p>
+                        <strong class="video-title">The Worst Typo I Ever Made</strong>
+                        <em class="video-author">Tom Scott</em>
+                        <a href="https://www.youtube.com/watch?v=X6NJkWbM1xk">https://www.youtube.com/watch?v=X6NJkWbM1xk</a>
+                    </p>
+                    <p>
+                        <strong class="video-title">Ctrl-Alt-Del: Learning to Love Legacy Code</strong>
+                        <em class="video-author">Dylan Beattie</em>
+                        <a href="https://www.youtube.com/watch?v=wPjHuvulivM">https://www.youtube.com/watch?v=wPjHuvulivM</a>
+                    </p>
+                    
+                    <p>
                         <strong class="video-title">This Video Is Sponsored By ███ VPN</strong>
                         <em class="video-author">Tom Scott</em>
                         <a href="https://www.youtube.com/watch?v=WVDQEoe6ZWY">https://www.youtube.com/watch?v=WVDQEoe6ZWY</a>
@@ -144,9 +146,22 @@
                         <a href="https://www.youtube.com/watch?v=-5wpm-gesOY">https://www.youtube.com/watch?v=-5wpm-gesOY</a>
                     </p>
                     <p>
+                        <strong class="video-title">Single Point of Failure: The (Fictional) Day Google Forgot To Check Passwords</strong>
+                        <em class="video-author">Tom Scott</em>
+                        <a href="https://www.youtube.com/watch?v=y4GB_NDU43Q">https://www.youtube.com/watch?v=y4GB_NDU43Q</a>
+                    </p>
+                    <p>
                         <strong class="video-title">Own your content on Social Media using the IndieWeb</strong>
                         <em class="video-author">JAMstack</em>
                         <a href="https://www.youtube.com/watch?v=X3SrZuH00GQ">https://www.youtube.com/watch?v=X3SrZuH00GQ</a>
+                    </p>
+                    <p><strong class="video-title">Why so many distros? The Weird History of Linux</strong>
+                        <em class="video-author">Fireship</em>
+                        <a href="https://www.youtube.com/watch?v=24O00Jz8R04">https://www.youtube.com/watch?v=24O00Jz8R04</a>
+                    </p>
+                    <p><strong class="video-title">The Weird History of JavaScript</strong>
+                        <em class="video-author">Fireship</em>
+                        <a href="https://www.youtube.com/watch?v=Sh6lK57Cuk4">https://www.youtube.com/watch?v=Sh6lK57Cuk4</a>
                     </p>
                 </section>
 
@@ -195,17 +210,20 @@
                         <em class="video-author">Veritasium</em>
                         <a href="https://www.youtube.com/watch?v=cUzklzVXJwo">https://www.youtube.com/watch?v=cUzklzVXJwo</a>
                     </p>
+                    <p><strong class="video-title">VFX Artist Reveals the True Scale of Atoms</strong>
+                        <em class="video-author">Wren Weichman</em>
+                        <a href="https://www.youtube.com/watch?v=KgSGlbV0kZo">https://www.youtube.com/watch?v=KgSGlbV0kZo</a>
+                    </p>
+                    <p><strong class="video-title">VFX Artist Reveals the True Scale of the Universe</strong>
+                        <em class="video-author">Wren Weichman</em>
+                        <a href="https://www.youtube.com/watch?v=GCTuirkcRwo">https://www.youtube.com/watch?v=GCTuirkcRwo</a>
+                    </p>
                 </section>
 
                 <hr class="my-7 border-none">
-                
-                <section>
-                    <h2 id="society">Society</h2>
 
-                    <p><strong class="video-title">Let's Ban Cars! (Seriously)</strong>
-                        <em class="video-author">BritMonkey</em>
-                        <a href="https://www.youtube.com/watch?v=rSSNlM3Au1A">https://www.youtube.com/watch?v=rSSNlM3Au1A</a>
-                    </p>
+                <section>
+                    <h2 id="economy">Economy</h2>
                     <p><strong class="video-title">Reddit vs Wallstreet - GameStop, The Movie</strong>
                         <em class="video-author">ColdFusion</em>
                         <a href="https://www.youtube.com/watch?v=YFQ-v1jCpF0">https://www.youtube.com/watch?v=YFQ-v1jCpF0</a>
@@ -214,22 +232,17 @@
                         <em class="video-author">ColdFusion</em>
                         <a href="https://www.youtube.com/watch?v=24O00Jz8R04">https://www.youtube.com/watch?v=24O00Jz8R04</a>
                     </p>
-                    <p><strong class="video-title">This is Cuba&#39;s Netflix, Hulu, and Spotify – all without the internet</strong>
-                        <em class="video-author">Vox</em>
-                        <a href="https://www.youtube.com/watch?v=fTTno8D-b2E">https://www.youtube.com/watch?v=fTTno8D-b2E</a>
-                    </p>
-                    <p><strong class="video-title">The big misconception about clean energy</strong>
-                        <em class="video-author">Cleo Abram</em>
-                        <a href="https://www.youtube.com/watch?v=v6k7yBBhuZo">https://www.youtube.com/watch?v=v6k7yBBhuZo</a>
-                    </p>
-                    <p><strong class="video-title">Fracking for clean energy. Wait, what?</strong>
-                        <em class="video-author">Cleo Abram</em>
-                        <a href="https://www.youtube.com/watch?v=cCE1i2tJQQY">https://www.youtube.com/watch?v=cCE1i2tJQQY</a>
-                    </p>
+                </section>
+
+                <hr class="my-7 border-none">
+                
+                <section>
+                    <h2 id="society">Society</h2>
+
                     <p><strong class="video-title">Post-Truth: Why Facts Don&#39;t Matter Anymore</strong>
                         <em class="video-author">Veritasium</em>
                         <a href="https://www.youtube.com/watch?v=dvk2PQNcg8w">https://www.youtube.com/watch?v=dvk2PQNcg8w</a>
-                    </p>
+                    </p>                    
                     <p><strong class="video-title">Using VFX to Explain Why COVID-19 Surprised Everyone</strong>
                         <em class="video-author">Wren Weichman</em>
                         <a href="https://www.youtube.com/watch?v=e02eiX866N4">https://www.youtube.com/watch?v=e02eiX866N4</a>
@@ -242,13 +255,28 @@
                         <em class="video-author">Johnny Harris</em>
                         <a href="https://www.youtube.com/watch?v=kNovwPIWr3Q">https://www.youtube.com/watch?v=kNovwPIWr3Q</a>
                     </p>
-                    <p><strong class="video-title">NFTs, Explained</strong>
-                        <em class="video-author">Johnny Harris</em>
-                        <a href="https://www.youtube.com/watch?v=Oz9zw7-_vhM">https://www.youtube.com/watch?v=Oz9zw7-_vhM</a>
+                    <p><strong class="video-title">Fracking for clean energy. Wait, what?</strong>
+                        <em class="video-author">Cleo Abram</em>
+                        <a href="https://www.youtube.com/watch?v=cCE1i2tJQQY">https://www.youtube.com/watch?v=cCE1i2tJQQY</a>
                     </p>
-                    <p><strong class="video-title">I&#39;m Dyslexic</strong>
-                        <em class="video-author">Johnny Harris</em>
-                        <a href="https://www.youtube.com/watch?v=3uXAtUvOC-w">https://www.youtube.com/watch?v=3uXAtUvOC-w</a>
+                </section>
+
+                <hr class="my-7 border-none">
+
+                <section>
+                    <h2 id="politics">Politics</h2>
+
+                    <p><strong class="video-title">Let's Ban Cars! (Seriously)</strong>
+                        <em class="video-author">BritMonkey</em>
+                        <a href="https://www.youtube.com/watch?v=rSSNlM3Au1A">https://www.youtube.com/watch?v=rSSNlM3Au1A</a>
+                    </p>
+                    <p><strong class="video-title">The Rules for Rulers</strong>
+                        <em class="video-author">CGP Grey</em>
+                        <a href="https://www.youtube.com/watch?v=rStL7niR7gs">https://www.youtube.com/watch?v=rStL7niR7gs</a>
+                    </p>
+                    <p><strong class="video-title">This is Cuba&#39;s Netflix, Hulu, and Spotify – all without the internet</strong>
+                        <em class="video-author">Vox</em>
+                        <a href="https://www.youtube.com/watch?v=fTTno8D-b2E">https://www.youtube.com/watch?v=fTTno8D-b2E</a>
                     </p>
                 </section>
 
@@ -265,6 +293,14 @@
                         <em class="video-author">Tom Scott</em>
                         <a href="https://www.youtube.com/watch?v=OcPqk-O-fD4">https://www.youtube.com/watch?v=OcPqk-O-fD4</a>
                     </p>
+                    <p><strong class="video-title">You (probably) do not exist</strong>
+                        <em class="video-author">exurb1a</em>
+                        <a href="https://www.youtube.com/watch?v=8kX62n6yNXA">https://www.youtube.com/watch?v=8kX62n6yNXA</a>
+                    </p>
+                    <p><strong class="video-title">Unlimited Ricepudding</strong>
+                        <em class="video-author">exurb1a</em>
+                        <a href="https://www.youtube.com/watch?v=wPODghAr3Vc ">https://www.youtube.com/watch?v=wPODghAr3Vc </a>
+                    </p>
                     <p><strong class="video-title">I promise this story about microwaves is interesting.</strong>
                         <em class="video-author">Tom Scott</em>
                         <a href="https://www.youtube.com/watch?v=2tdiKTSdE9Y">https://www.youtube.com/watch?v=2tdiKTSdE9Y</a>
@@ -280,33 +316,9 @@
                 <section>
                     <h2 id="entertainment">Entertainment</h2>
 
-                    <p><strong class="video-title">Why Are 96,000,000 Black Balls on This Reservoir?</strong>
-                        <em class="video-author">Veritasium</em>
-                        <a href="https://www.youtube.com/watch?v=uxPdPpi5W4o">https://www.youtube.com/watch?v=uxPdPpi5W4o</a>
-                    </p>
                     <p><strong class="video-title">Backyard Squirrel Maze 1.0- Ninja Warrior Course</strong>
                         <em class="video-author">Mark Rober </em>
                         <a href="https://www.youtube.com/watch?v=hFZFjoX2cGg">https://www.youtube.com/watch?v=hFZFjoX2cGg</a>
-                    </p>
-                    <p><strong class="video-title">VFX Artist Reveals the True Scale of Atoms</strong>
-                        <em class="video-author">Wren Weichman</em>
-                        <a href="https://www.youtube.com/watch?v=KgSGlbV0kZo">https://www.youtube.com/watch?v=KgSGlbV0kZo</a>
-                    </p>
-                    <p><strong class="video-title">VFX Artist Reveals the True Scale of the Universe</strong>
-                        <em class="video-author">Wren Weichman</em>
-                        <a href="https://www.youtube.com/watch?v=GCTuirkcRwo">https://www.youtube.com/watch?v=GCTuirkcRwo</a>
-                    </p>
-                    <p><strong class="video-title">Why so many distros? The Weird History of Linux</strong>
-                        <em class="video-author">Fireship</em>
-                        <a href="https://www.youtube.com/watch?v=24O00Jz8R04">https://www.youtube.com/watch?v=24O00Jz8R04</a>
-                    </p>
-                    <p><strong class="video-title">The Weird History of JavaScript</strong>
-                        <em class="video-author">Fireship</em>
-                        <a href="https://www.youtube.com/watch?v=Sh6lK57Cuk4">https://www.youtube.com/watch?v=Sh6lK57Cuk4</a>
-                    </p>
-                    <p><strong class="video-title">I Put a Zombie Octopus in a Pool / Deep Resin Pour</strong>
-                        <em class="video-author">North of the Border</em>
-                        <a href="https://www.youtube.com/watch?v=74W88xQk7PU">https://www.youtube.com/watch?v=74W88xQk7PU</a>
                     </p>
                 </section>
             </article>
