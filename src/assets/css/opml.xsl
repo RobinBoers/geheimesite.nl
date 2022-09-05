@@ -4,13 +4,16 @@
     <xsl:template match="/opml">
         <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
             <head>
+                <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <title>
                     <xsl:value-of select="head/title" />
                     — geheimesite.nl | Robin Boers
                 </title>
-                <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
+
                 <link rel="stylesheet" href="/assets/css/main.css" type="text/css" />
+                <script defer="defer" src="/assets/js/menu.js"></script>
             </head>
             <body>
                 <a class="skip-nav" href="#content">Skip navigation</a>

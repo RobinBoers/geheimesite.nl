@@ -16,7 +16,7 @@ This page was inspired by petermolnar.net
 		<ownerId>https://geheimesite.nl/</ownerId>
 	</head>
 	<body>
-		<outline text="🏡 Home" title="🏡 Home">
+		<outline text="🏡 Home" title="🏡 Home" type="folder">
 			<outline text="" type="feed" xmlUrl="http://anomalily.net/feed/" htmlUrl="http://anomalily.net/feed/" url="http://anomalily.net/feed/"></outline>
 			<outline text="N-O-D-E" type="feed" xmlUrl="https://n-o-d-e.net/rss/rss.xml" htmlUrl="https://n-o-d-e.net/rss/rss.xml" url="https://n-o-d-e.net/rss/rss.xml" title="N-O-D-E"></outline>
 			<outline text="ꟿirage" type="feed" xmlUrl="https://inhji.de/" htmlUrl="https://inhji.de/" url="https://inhji.de/" title="ꟿirage"></outline>
@@ -35,7 +35,7 @@ This page was inspired by petermolnar.net
 			<outline text="WitBlauw" type="feed" xmlUrl="https://witblauw.blogspot.com/feeds/posts/default" htmlUrl="https://witblauw.blogspot.com/feeds/posts/default" url="https://witblauw.blogspot.com/feeds/posts/default" title="WitBlauw"></outline>
 			<outline text="Interdependent Thoughts" type="feed" xmlUrl="https://www.zylstra.org/blog/feed/" htmlUrl="https://www.zylstra.org/blog/feed/" url="https://www.zylstra.org/blog/feed/" title="Interdependent Thoughts"></outline>
 		</outline>
-		<outline text="💻 Coding" title="💻 Coding">
+		<outline text="💻 Coding" title="💻 Coding" type="folder">
 			<outline text="Sara Soueidan" type="feed" xmlUrl="https://www.sarasoueidan.com/blog/index.xml" htmlUrl="https://www.sarasoueidan.com/blog/index.xml" url="https://www.sarasoueidan.com/blog/index.xml" title="Sara Soueidan"></outline>
 			<outline text="Ru Singh" type="feed" xmlUrl="https://rusingh.com/" htmlUrl="https://rusingh.com/" url="https://rusingh.com/" title="Ru Singh"></outline>
 			<outline text="Becky Hansmeyer" type="feed" xmlUrl="https://beckyhansmeyer.com/feed/" htmlUrl="https://beckyhansmeyer.com/feed/" url="https://beckyhansmeyer.com/feed/" title="Becky Hansmeyer"></outline>
@@ -60,14 +60,14 @@ This page was inspired by petermolnar.net
 			<outline text="Peter Stuifzand" type="feed" xmlUrl="https://peterstuifzand.nl/" htmlUrl="https://peterstuifzand.nl/" url="https://peterstuifzand.nl/" title="Peter Stuifzand"></outline>
 			<outline text="Zeldman" type="feed" xmlUrl="https://www.zeldman.com/feed/" htmlUrl="https://www.zeldman.com/feed/" url="https://www.zeldman.com/feed/" title="Zeldman"></outline>
 		</outline>
-		<outline text="🎨 Design" title="🎨 Design">
+		<outline text="🎨 Design" title="🎨 Design" type="folder">
 			<outline text="" type="feed" xmlUrl="https://vyshnav.xyz/feed.xml" htmlUrl="https://vyshnav.xyz/feed.xml" url="https://vyshnav.xyz/feed.xml"></outline>
 			<outline text="Lynn Fisher" type="feed" xmlUrl="https://lynnandtonic.com/feed.xml" htmlUrl="https://lynnandtonic.com/feed.xml" url="https://lynnandtonic.com/feed.xml" title="Lynn Fisher"></outline>
 		</outline>
-		<outline text="👻 Open-source" title="👻 Open-source">
+		<outline text="👻 Open-source" title="👻 Open-source" type="folder">
 			<outline text="ElementaryOS" type="feed" xmlUrl="https://blog.elementary.io/feed.xml" htmlUrl="https://blog.elementary.io/feed.xml" url="https://blog.elementary.io/feed.xml" title="ElementaryOS"></outline>
 		</outline>
-		<outline text="🎥 YouTube" title="🎥 YouTube">
+		<outline text="🎥 YouTube" title="🎥 YouTube" type="folder">
 			<outline text="[YT] Vox" type="feed" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCLXo7UDZvByw2ixzpQCufnA" htmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCLXo7UDZvByw2ixzpQCufnA" url="https://www.youtube.com/feeds/videos.xml?channel_id=UCLXo7UDZvByw2ixzpQCufnA" title="[YT] Vox"></outline>
 			<outline text="[YT] sandiction" type="feed" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCcXUhZB4t3g8EGdYiqwS4Aw" htmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCcXUhZB4t3g8EGdYiqwS4Aw" url="https://www.youtube.com/feeds/videos.xml?channel_id=UCcXUhZB4t3g8EGdYiqwS4Aw" title="[YT] sandiction"></outline>
 			<outline text="[YT] Veritasium" type="feed" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCHnyfMqiRRG1u-2MsSQLbXA" htmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCHnyfMqiRRG1u-2MsSQLbXA" url="https://www.youtube.com/feeds/videos.xml?channel_id=UCHnyfMqiRRG1u-2MsSQLbXA" title="[YT] Veritasium"></outline>
@@ -86,7 +86,7 @@ This page was inspired by petermolnar.net
 			<outline text="[YT] Grian" type="feed" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCR9Gcq0CMm6YgTzsDxAxjOQ" htmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCR9Gcq0CMm6YgTzsDxAxjOQ" url="https://www.youtube.com/feeds/videos.xml?channel_id=UCR9Gcq0CMm6YgTzsDxAxjOQ" title="[YT] Grian"></outline>
 			<outline text="[YT] Mumbo Jumbo" type="feed" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UChFur_NwVSbUozOcF_F2kMg" htmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UChFur_NwVSbUozOcF_F2kMg" url="https://www.youtube.com/feeds/videos.xml?channel_id=UChFur_NwVSbUozOcF_F2kMg" title="[YT] Mumbo Jumbo"></outline>
 		</outline>
-		<outline text="🤸 ME" title="🤸 ME">
+		<outline text="🤸 ME" title="🤸 ME" type="folder">
 			<outline text="Webdevelopment-En-Meer" type="feed" xmlUrl="https://blog.geheimesite.nl/index.xml" htmlUrl="https://blog.geheimesite.nl/index.xml" url="https://blog.geheimesite.nl/index.xml" title="Webdevelopment-En-Meer"></outline>
 			<outline text="That Crazy Webdev" type="feed" xmlUrl="https://blog.geheimesite.nl/en/index.xml" htmlUrl="https://blog.geheimesite.nl/en/index.xml" url="https://blog.geheimesite.nl/en/index.xml" title="That Crazy Webdev"></outline>
 			<outline text="[YT] Robin Boers" type="feed" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCx4li1iMygs5KtqgcU5KGRw" htmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCx4li1iMygs5KtqgcU5KGRw" url="https://www.youtube.com/feeds/videos.xml?channel_id=UCx4li1iMygs5KtqgcU5KGRw" title="[YT] Robin Boers"></outline>

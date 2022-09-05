@@ -4,10 +4,13 @@
 	<xsl:template match="/">
 		<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 			<head>
-				<title>Sitemap — geheimesite.nl | Robin Boers</title>
+				<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
+				<title>Sitemap — geheimesite.nl | Robin Boers</title>
+
 				<link rel="stylesheet" href="https://geheimesite.nl/assets/css/main.css" type="text/css" />
+				<script defer="defer" src="/assets/js/menu.js"></script>
 			</head>
 			<body>
 				<a class="skip-nav" href="#content">Skip navigation</a>
