@@ -29,9 +29,9 @@ This page was inspired by petermolnar.net
 			<outline title="Fred.ca" text="Fred.ca" type="feed" xmlUrl="https://ferd.ca/feed.rss" htmlUrl="https://ferd.ca" url="https://ferd.ca/feed.rss"></outline>
 			<outline title="Just another blog" text="Just another blog" type="feed" xmlUrl="https://blogs.gnome.org/alexm/feed/" htmlUrl="https://blogs.gnome.org/alexm" url="https://blogs.gnome.org/alexm/feed/"></outline>
 			<outline title="Space and Meaning" text="Space and Meaning" type="feed" xmlUrl="https://blogs.gnome.org/tbernard/feed/" htmlUrl="https://blogs.gnome.org/tbernard" url="https://blogs.gnome.org/tbernard/feed/"></outline>
-			<outline title="Relentless Simplicity" text=" Relentless Simplicity" type=" feed" xmlUrl="https://bill.harding.blog/feed" htmlUrl="https://bill.harding.blog" url="https://bill.harding.blog/feed"></outline>
+			<outline title="Relentless Simplicity" text="Relentless Simplicity" type="feed" xmlUrl="https://bill.harding.blog/feed" htmlUrl="https://bill.harding.blog" url="https://bill.harding.blog/feed"></outline>
 			<outline title="Sterrenkruid" text="Sterrenkruid" type="feed" xmlUrl="https://jokessterrenkruid.blogspot.com/feeds/posts/default" htmlUrl="https://jokessterrenkruid.blogspot.com" url="https://jokessterrenkruid.blogspot.com/feeds/posts/default"></outline>
-			<outline title="WitBlauw" text=" WitBlauw" type=" feed" xmlUrl="https://witblauw.blogspot.com/feeds/posts/default" htmlUrl="https://witblauw.blogspot.com" url=" https://witblauw.blogspot.com/feeds/posts/default"></outline>
+			<outline title="WitBlauw" text="WitBlauw" type="feed" xmlUrl="https://witblauw.blogspot.com/feeds/posts/default" htmlUrl="https://witblauw.blogspot.com" url="https://witblauw.blogspot.com/feeds/posts/default"></outline>
 			<outline title="Interdependent Thoughts" text="Interdependent Thoughts" type="feed" xmlUrl="https://www.zylstra.org/blog/feed/" htmlUrl="https://www.zylstra.org" url="https://www.zylstra.org/blog/feed/"></outline>
 		</outline>
 		<outline text="💻 Coding" title="💻 Coding" type="folder">
