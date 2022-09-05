@@ -111,11 +111,10 @@
     /** Base **/
     html,
     .root {
-        font-size: clamp(18px, 3vw, 21px);
+        font-size: clamp(1.125rem, 3vw, 1.3125rem);
         line-height: 33px;
     }
     body {
-        font-size: 1em;
         line-height: 1.57142857em;
         @apply font-serif;
     }
