@@ -105,6 +105,7 @@
                     </xsl:choose>
                     <xsl:choose>
                         <xsl:when test="((@text != @title))">
+                            <span> — </span>
                             <i>
                                 <xsl:value-of select="@text" />
                             </i>
