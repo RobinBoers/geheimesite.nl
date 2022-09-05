@@ -102,7 +102,8 @@
                         <xsl:otherwise>
                             <xsl:value-of select="@title" />
                         </xsl:otherwise>
-
+                    </xsl:choose>
+                    <xsl:choose>
                         <xsl:when test="((@text != @title))">
                             <i>
                                 <xsl:value-of select="@text" />

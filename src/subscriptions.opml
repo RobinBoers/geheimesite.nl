@@ -17,7 +17,7 @@ This page was inspired by petermolnar.net
 	</head>
 	<body>
 		<outline text="🏡 Home" title="🏡 Home" type="folder">
-			<outline title="The internet home of Lillian Karabaic" text="anomalily.net" type="feed" xmlUrl="http://anomalily.net/feed/" htmlUrl="http://anomalily.net" url="http://anomalily.net/feed/"></outline>
+			<outline title="Anomalily" text="The internet home of Lillian Karabaic" type="feed" xmlUrl="http://anomalily.net/feed/" htmlUrl="http://anomalily.net" url="http://anomalily.net/feed/"></outline>
 			<outline title="N-O-D-E" text="N-O-D-E" type="feed" xmlUrl="https://n-o-d-e.net/rss/rss.xml" htmlUrl="https://n-o-d-e.net" url="https://n-o-d-e.net/rss/rss.xml"></outline>
 			<outline title="ꟿirage" text="Inhji" type="feed" xmlUrl="https://inhji.de/follow/home" htmlUrl="https://inhji.de" url="https://inhji.de/follow/home"></outline>
 			<outline title="Tom MacWright" text="Tom MacWright" type="feed" xmlUrl="https://macwright.com/rss.xml" htmlUrl="https://macwright.com" url="https://macwright.com/rss.xml"></outline>
