@@ -56,6 +56,10 @@
                                 ). These are the blogs I follow. You can use this code to for example import them in an RSS reader.
                             </p>
                         </section>
+
+                        <section>
+                            <xsl:apply-templates select="body/outline" />
+                        </section>
                     </article>
                 </main>
             </body>
