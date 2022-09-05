@@ -2,7 +2,7 @@
 <xsl:stylesheet version="2.0" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:sitemap="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="html" version="1.0" encoding="UTF-8" indent="yes" />
 	<xsl:template match="/">
-		<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="nl" lang="nl">
+		<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 			<head>
 				<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -12,13 +12,13 @@
 				<link rel="stylesheet" href="https://geheimesite.nl/assets/css/main.css" type="text/css" />
 				<script defer="defer" src="/assets/js/menu.js"></script>
 
-				<link rel="alternate" hreflang="en" href="https://geheimesite.nl/en/sitemap.xml" />
+				<link rel="alternate" hreflang="nl" href="https://geheimesite.nl/sitemap.xml" />
 			</head>
 			<body>
 				<a class="skip-nav" href="#content">Skip navigation</a>
 				<header class="pageheader">
 					<p class="title">
-						<a href="/">Robin Boers</a>
+						<a href="/en">Robin Boers</a>
 					</p>
 
 					<img src="/assets/images/menu.svg" alt="menu button" class="menu-button" hidden="hidden" />
@@ -26,19 +26,19 @@
 					<nav>
 						<ul class="menu">
 							<li>
-								<a href="/">Home</a>
+								<a href="/en">Home</a>
 							</li>
 							<li>
-								<a href="/over-mij">Over mij</a>
+								<a href="/en/about">About</a>
 							</li>
 							<li>
-								<a href="/projecten">Projecten</a>
+								<a href="/en/projects">Projects</a>
 							</li>
 							<li>
-								<a href="/boeken">Boeken</a>
+								<a href="/en/books">Books</a>
 							</li>
 							<li>
-								<a href="https://blog.geheimesite.nl">Blog</a>
+								<a href="https://blog.geheimesite.nl/en">Blog</a>
 							</li>
 						</ul>
 					</nav>
@@ -49,7 +49,7 @@
 						<section>
 							<h1>Sitemap</h1>
 							<p>
-								Dit is een lijst van alle publieke pagina's op mijn site.
+								This is a list of all public pages on my site.
 							</p>
 						</section>
 

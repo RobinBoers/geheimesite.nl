@@ -66,7 +66,7 @@
                             </p>
                         </section>
 
-                        <section>
+                        <section class="section">
                             <xsl:apply-templates select="body/outline" />
                         </section>
                     </article>
@@ -109,6 +109,7 @@
                                 <xsl:value-of select="@text" />
                             </i>
                         </xsl:when>
+                        <xsl:otherwise></xsl:otherwise>
                     </xsl:choose>
                 </li>
             </xsl:otherwise>
