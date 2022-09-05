@@ -79,7 +79,7 @@
             <xsl:when test="((@type='folder'))">
                 <details open="open">
                     <summary>
-                        <xsl:value-of select="@text" />
+                        <xsl:value-of select="@title" />
                     </summary>
                     <ul>
                         <xsl:apply-templates select="outline" />
@@ -96,12 +96,18 @@
                     <xsl:choose>
                         <xsl:when test="((@xmlUrl != @htmlUrl))">
                             <a href="{@htmlUrl}" title="webpage URL">
-                                <xsl:value-of select="@text" />
+                                <xsl:value-of select="@title" />
                             </a>
                         </xsl:when>
                         <xsl:otherwise>
-                            <xsl:value-of select="@text" />
+                            <xsl:value-of select="@title" />
                         </xsl:otherwise>
+
+                        <xsl:when test="((@text != @title))">
+                            <i>
+                                <xsl:value-of select="@text" />
+                            </i>
+                        </xsl:when>
                     </xsl:choose>
                 </li>
             </xsl:otherwise>
