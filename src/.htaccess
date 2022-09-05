@@ -21,7 +21,7 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 # Redirects
 Redirect /framboy /projects/framboy.php
 Redirect /feed https://blog.geheimesite.nl/index.xml 
-Redirect /neolog https://neolog.geheimesite.nl
+Redirect /neolog https://micro.geheimesite.nl
 Redirect /github https://github.com/RobinBoers
 
 # Fix old assets directory URIs
