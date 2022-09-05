@@ -27,10 +27,10 @@
 								<a href="/en/about">About</a>
 							</li>
 							<li>
-								<a href="/en/projects">Projecten</a>
+								<a href="/en/projects">Projects</a>
 							</li>
 							<li>
-								<a href="/en/books">Boeken</a>
+								<a href="/en/books">Books</a>
 							</li>
 							<li>
 								<a href="https://blog.geheimesite.nl/en">Blog</a>
