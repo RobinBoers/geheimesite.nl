@@ -1,27 +1,63 @@
 <?xml version="1.0"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-<xsl:output method="html" version="1.0" encoding="UTF-8" indent="yes"/>
+    <xsl:output method="html" version="1.0" encoding="UTF-8" indent="yes" />
     <xsl:template match="/opml">
         <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
             <head>
-                <title><xsl:value-of select="head/title"/></title>
+                <title>
+                    <xsl:value-of select="head/title" />
+                    — geheimesite.nl | Robin Boers
+                </title>
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <!-- <link rel="stylesheet" type="text/css" href="/assets/css/main.css"/> -->
+                <link rel="stylesheet" href="/assets/css/main.css" type="text/css" />
             </head>
             <body>
-                <p>
-                    <a>
-                        <xsl:attribute name="href">
-                            <xsl:value-of select="head/ownerId"/>
-                        </xsl:attribute>
-                        &#171; <xsl:value-of select="head/ownerName" />
-                    </a>
-                </p>
-                <aside>
-                    <p>
-                        Hi! You're looking at an <a href="https://en.wikipedia.org/wiki/OPML">OPML</a> file, which I rendered nicely using some <a href="/assets/css/opml.xsl">XSL</a> (that I stole from <a href="https://petermolnar.net">Peter Molnar</a>). These are the blogs I follow. You can use this code to for example import them in an RSS reader.
+                <a class="skip-nav" href="#content">Skip navigation</a>
+                <header class="pageheader">
+                    <p class="title">
+                        <a href="/">Robin Boers</a>
                     </p>
-                </aside>
+
+                    <img src="/assets/images/menu.svg" alt="menu button" class="menu-button" hidden="hidden" />
+
+                    <nav>
+                        <ul class="menu">
+                            <li>
+                                <a href="/en">Home</a>
+                            </li>
+                            <li>
+                                <a href="/en/about">About</a>
+                            </li>
+                            <li>
+                                <a href="/en/projects">Projecten</a>
+                            </li>
+                            <li>
+                                <a href="/en/books">Boeken</a>
+                            </li>
+                            <li>
+                                <a href="https://blog.geheimesite.nl/en">Blog</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+
+                <main id="content" class="page-content">
+                    <article>
+                        <section>
+                            <h1>Subscriptions</h1>
+                            <p>
+                                Hi! You're looking at an
+                                <a href="https://en.wikipedia.org/wiki/OPML">OPML</a>
+                                file, which I rendered nicely using some
+                                <a href="/assets/css/opml.xsl">XSL</a>
+                                (that I stole from
+                                <a href="https://petermolnar.net">Peter Molnar</a>
+                                ). These are the blogs I follow. You can use this code to for example import them in an RSS reader.
+                            </p>
+                        </section>
+                    </article>
+                </main>
             </body>
         </html>
     </xsl:template>
@@ -30,10 +66,10 @@
             <xsl:when test="((@type='folder'))">
                 <details open="open">
                     <summary>
-                        <xsl:value-of select="@title"/>
+                        <xsl:value-of select="@text" />
                     </summary>
                     <ul>
-                        <xsl:apply-templates select="outline"/>
+                        <xsl:apply-templates select="outline" />
                     </ul>
                 </details>
             </xsl:when>
@@ -47,11 +83,11 @@
                     <xsl:choose>
                         <xsl:when test="((@xmlUrl != @htmlUrl))">
                             <a href="{@htmlUrl}" title="webpage URL">
-                                <xsl:value-of select="@title"/>
+                                <xsl:value-of select="@text" />
                             </a>
                         </xsl:when>
                         <xsl:otherwise>
-                            <xsl:value-of select="@title"/>
+                            <xsl:value-of select="@text" />
                         </xsl:otherwise>
                     </xsl:choose>
                 </li>
