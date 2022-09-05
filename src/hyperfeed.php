@@ -148,11 +148,15 @@
                     <li><a class="external" data-weight="8" href="https://sadgrl.online">sadgrl.online</a></li>
                     <li><a class="external" data-weight="8" href="https://novov.me">novov.me</a></li>
                     <li><a class="external" data-weight="6" href="https://neal.fun">neal.fun</a></li>
+                    <li><a class="external" data-weight="8" href="https://fvsch.com/">fvsch.com/</a></li>
                     <li><a class="external" data-weight="7" href="https://yesterweb.org">yesterweb.org</a></li>
                     <li><a class="external" data-weight="6" href="https://wsmz.gay">wsmz.gay</a></li>
                     <li><a class="external" data-weight="9" href="https://satyrs.eu">satyrs.eu</a></li>
                     <li><a class="external" data-weight="5" href="https://simone.computer">simone.computer</a></li>
                     <li><a class="external" data-weight="2" href="https://doubleloop.net">doubleloop.net</a></li>
+                    <li><a class="external" data-weight="9" href="https://robertcooper.me">robertcooper.me</a></li>
+                    <li><a class="external" data-weight="8" href="https://dov.dev">dov.dev</a></li>
+                    <li><a class="external" data-weight="7" href="https://www.calleluks.com">calleluks.com</a></li>
                     <li><a class="external" data-weight="9" href="https://seblog.nl">seblog.nl</a></li>
                     <li><a class="external" data-weight="4" href="https://keeri.neocities.org">keeri.neocities.org</a></li>
                     <li><a class="external" data-weight="6" href="https://seapunk.xyz">seapunk.xyz</a></li>

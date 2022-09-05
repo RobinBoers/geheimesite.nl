@@ -185,6 +185,9 @@
                     <li>
                         <a href="https://neocities.org/tutorials">https://neocities.org/tutorials</a>
                     </li>
+                    <li>
+                        <a href="https://www.internetingishard.com">https://www.internetingishard.com</a>
+                    </li>
                 </ul>
             </section>
         </article>
