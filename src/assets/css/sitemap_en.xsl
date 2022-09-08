@@ -29,7 +29,7 @@
 								<a href="/en">Home</a>
 							</li>
 							<li>
-								<a href="/en/about">About</a>
+								<a href="/en/about">About me</a>
 							</li>
 							<li>
 								<a href="/en/projects">Projects</a>
