@@ -53,6 +53,10 @@
 
         <article class="hyperfeed">
             <section class="hyperpost">
+                <p>Check out these message {en, de}coding tools: <a href="https://www.qbit.it/lab">QBit</a>, <a href="https://rot13.com">ROT-13</a>, <a href="https://rumkin.com/tools/cipher/atbash/">Atbash</a></p>
+            </section>    
+
+            <section class="hyperpost">
                 <p>Some cool modern retrogaming resources:</p>
                 <ul>
                     <li><a href="https://www.vintageisthenewold.com">vintageisthenewold.com</a></li>
