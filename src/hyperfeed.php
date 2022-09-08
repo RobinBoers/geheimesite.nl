@@ -53,8 +53,18 @@
 
         <article class="hyperfeed">
             <section class="hyperpost">
+                <p>Some cool modern retrogaming resources:</p>
+                <ul>
+                    <li><a href="https://www.vintageisthenewold.com">vintageisthenewold.com</a></li>
+                    <li><a href="https://www.homebrewlegends.com">homebrewlegends.com</a></li>
+                    <li><a href="https://morphcatgames.itch.io/micromages">morphcatgames.itch.io/micromages</a></li>
+                </ul>
+            </section>
+
+            <section class="hyperpost">
                 <p><a href="https://timseverien.com/posts/2020-12-06-what-makes-css-hard-to-master/">What makes CSS hard to master</a>. I think I fall into the "group of people who specialise in other technology", but I think I agree.</p>
             </section>
+            
             <section class="hyperpost">
                 <p><a href="https://ohshitgit.com">Oh Shit, Git!?!</a>, 😂 I'm not sure if it'll actually help in a real situation, but it's funny for sure!</p>
             </section>
