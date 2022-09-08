@@ -23,19 +23,19 @@
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://geheimesite.nl/youtube</loc>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://geheimesite.nl/music</loc>
-    <priority>0.70</priority>
-  </url>
-  <url>
     <loc>https://geheimesite.nl/blog</loc>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://geheimesite.nl/hyperfeed</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://geheimesite.nl/youtube</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://geheimesite.nl/music</loc>
     <priority>0.70</priority>
   </url>
   <url>
@@ -85,5 +85,37 @@
   <url>
     <loc>https://geheimesite.nl/website/overview</loc>
     <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://geheimesite.nl/ckv</loc>
+    <priority>0.40</priority>
+  </url>
+  <url>
+    <loc>https://geheimesite.nl/ckv/about</loc>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://geheimesite.nl/ckv/introduction</loc>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://geheimesite.nl/ckv/initiatives</loc>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://geheimesite.nl/ckv/blok/1</loc>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://geheimesite.nl/ckv/blok/2</loc>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://geheimesite.nl/ckv/blok/3</loc>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://geheimesite.nl/ckv/blok/4</loc>
+    <priority>0.30</priority>
   </url>
 </urlset>

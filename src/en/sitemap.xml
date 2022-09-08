@@ -23,19 +23,19 @@
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://geheimesite.nl/youtube</loc>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://geheimesite.nl/music</loc>
-    <priority>0.70</priority>
-  </url>
-  <url>
     <loc>https://geheimesite.nl/en/blog</loc>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://geheimesite.nl/hyperfeed</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://geheimesite.nl/youtube</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://geheimesite.nl/music</loc>
     <priority>0.70</priority>
   </url>
   <url>
