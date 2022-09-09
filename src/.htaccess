@@ -19,7 +19,7 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 </FilesMatch>
 
 # Compress plain text file
-<FilesMatch "\.(js|css|html|htm|php|xml)$">
+<FilesMatch "\.(js|css|html|htm|php|xml|opml)$">
 	SetOutputFilter DEFLATE
 </FilesMatch>
 
