@@ -2,6 +2,11 @@ RewriteEngine On
 
 AddCharset UTF-8 .html
 AddCharset UTF-8 .php
+AddCharset UTF-8 .xml
+AddCharset UTF-8 .opml
+
+AddType text/xml .opml 
+AddHandler text/xml .opml
 
 # Force https
 RewriteEngine On 
