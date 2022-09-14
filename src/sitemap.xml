@@ -19,12 +19,28 @@
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://geheimesite.nl/setup</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://geheimesite.nl/follow</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://geheimesite.nl/subscriptions.opml</loc>
+    <priority>0.60</priority>
+  </url>
+  <url>
     <loc>https://geheimesite.nl/boeken</loc>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://geheimesite.nl/blog</loc>
     <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://geheimesite.nl/neolog</loc>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://geheimesite.nl/hyperfeed</loc>
