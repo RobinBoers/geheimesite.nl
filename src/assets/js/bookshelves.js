@@ -1,5 +1,5 @@
 function updateBookCount(shelveID, targetSelector) {
-    bookData(shelveID, (bookData) => {
+    getBookData(shelveID, (bookData) => {
         let books = bookData.items;
 
         counter = document.querySelector(targetSelector);
