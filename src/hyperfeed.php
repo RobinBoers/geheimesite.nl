@@ -7,9 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hypertexting — geheimesite.nl | Robin Boers</title>
 
-    <link rel="alternate stylesheet" href="/assets/css/plain.css" title="plain" />
-    <script src="/assets/js/plain-mode.js"></script>
-
     <link rel="stylesheet" href="/assets/css/main.css" title="default" />
 
     <script>
@@ -54,7 +51,7 @@
         <article class="hyperfeed">
             <section class="hyperpost">
                 <p>Check out these message {en, de}coding tools: <a href="https://www.qbit.it/lab">QBit</a>, <a href="https://rot13.com">ROT-13</a>, <a href="https://rumkin.com/tools/cipher/atbash/">Atbash</a></p>
-            </section>    
+            </section>
 
             <section class="hyperpost">
                 <p>Some cool modern retrogaming resources:</p>
@@ -68,7 +65,7 @@
             <section class="hyperpost">
                 <p><a href="https://timseverien.com/posts/2020-12-06-what-makes-css-hard-to-master/">What makes CSS hard to master</a>. I think I fall into the "group of people who specialise in other technology", but I think I agree.</p>
             </section>
-            
+
             <section class="hyperpost">
                 <p><a href="https://ohshitgit.com">Oh Shit, Git!?!</a>, 😂 I'm not sure if it'll actually help in a real situation, but it's funny for sure!</p>
             </section>

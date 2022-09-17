@@ -7,9 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>/setup — geheimesite.nl | Robin Boers</title>
 
-    <link rel="alternate stylesheet" href="/assets/css/plain.css" title="plain" />
-    <script src="/assets/js/plain-mode.js"></script>
-
     <link rel="stylesheet" href="/assets/css/main.css" title="default" />
     <script defer src="/assets/js/menu.js"></script>
 
@@ -62,10 +59,7 @@
                     For most of my webbrowsing needs I use Firefox. I absolutely
                     don&#39;t like the new proton design, so I reverted it to the old
                     Photon look with css files. I also use this Firefox theme:
-                    <a
-                        href="https://addons.mozilla.org/en-US/firefox/addon/photon-colors"
-                        >https://addons.mozilla.org/en-US/firefox/addon/photon-colors</a
-                        >
+                    <a href="https://addons.mozilla.org/en-US/firefox/addon/photon-colors">https://addons.mozilla.org/en-US/firefox/addon/photon-colors</a>
                 </p>
                 <p>
                     I also use Chromium to test my projects in another browser and if I
@@ -73,9 +67,7 @@
                 </p>
                 <p>
                     See my
-                    <a href="https://github.com/RobinBoers/firefox-tweaks"
-                        >firefox-tweaks</a
-                        >
+                    <a href="https://github.com/RobinBoers/firefox-tweaks">firefox-tweaks</a>
                     repo for my current Firefox setup.
                 </p>
                 <h3 id="browser-extensions">Browser extensions</h3>
@@ -83,114 +75,57 @@
                     <li>
                         <strong>Dark reader:</strong> dark mode for websites that
                         don&#39;t support it out-of-the-box
-                        <a
-                            href="https://addons.mozilla.org/en-US/firefox/addon/darkreader/"
-                            ></a
-                            >
-                        <a
-                            href="https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh"
-                            ></a
-                            >
+                        <a href="https://addons.mozilla.org/en-US/firefox/addon/darkreader/"></a>
+                        <a href="https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh"></a>
                     </li>
                     <li>
                         <strong>Don&#39;t track me Google:</strong> removes tracking info
                         from links
-                        <a
-                            href="https://addons.mozilla.org/en-US/firefox/addon/dont-track-me-google1/"
-                            ></a
-                            >
-                        <a
-                            href="https://chrome.google.com/webstore/detail/dont-track-me-google/gdbofhhdmcladcmmfjolgndfkpobecpg?hl=en"
-                            ></a
-                            >
+                        <a href="https://addons.mozilla.org/en-US/firefox/addon/dont-track-me-google1/"></a>
+                        <a href="https://chrome.google.com/webstore/detail/dont-track-me-google/gdbofhhdmcladcmmfjolgndfkpobecpg?hl=en"></a>
                     </li>
                     <li>
                         <strong>DuckDuckGo Privacy Essentials:</strong> see tracking and
                         privacy info for sites
-                        <a
-                            href="https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/"
-                            ></a
-                            >
-                        <a
-                            href="https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg?hl=en"
-                            ></a
-                            >
+                        <a href="https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/"></a>
+                        <a href="https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg?hl=en"></a>
                     </li>
                     <li>
                         <strong>Enhancer for YouTube:</strong> remove ads and get cool
                         features
-                        <a
-                            href="https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/"
-                            ></a
-                            >
-                        <a
-                            href="https://chrome.google.com/webstore/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle"
-                            ></a
-                            >
+                        <a href="https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/"></a>
+                        <a href="https://chrome.google.com/webstore/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle"></a>
                     </li>
                     <li>
                         <strong>Facebook Container:</strong> eses container tabs to
                         isolate Facebook tracking
-                        <a
-                            href="https://addons.mozilla.org/en-US/firefox/addon/facebook-container/"
-                            ></a
-                            >
+                        <a href="https://addons.mozilla.org/en-US/firefox/addon/facebook-container/"></a>
                     </li>
                     <li>
                         <strong>File icons for GitHub:</strong> nice file icons in GitHub
-                        <a
-                            href="https://addons.mozilla.org/en-US/firefox/addon/github-file-icons/"
-                            ></a
-                            >
-                        <a
-                            href="https://chrome.google.com/webstore/detail/file-icons-for-github-and/ficfmibkjjnpogdcfhfokmihanoldbfe?hl=en"
-                            ></a
-                            >
+                        <a href="https://addons.mozilla.org/en-US/firefox/addon/github-file-icons/"></a>
+                        <a href="https://chrome.google.com/webstore/detail/file-icons-for-github-and/ficfmibkjjnpogdcfhfokmihanoldbfe?hl=en"></a>
                     </li>
                     <li>
                         <strong>OctoLinker:</strong> links projects and dependencies used
                         in code
-                        <a
-                            href="https://addons.mozilla.org/en-US/firefox/addon/octolinker/"
-                            ></a
-                            >
-                        <a
-                            href="https://chrome.google.com/webstore/detail/octolinker/jlmafbaeoofdegohdhinkhilhclaklkp?hl=en"
-                            ></a
-                            >
+                        <a href="https://addons.mozilla.org/en-US/firefox/addon/octolinker/"></a>
+                        <a href="https://chrome.google.com/webstore/detail/octolinker/jlmafbaeoofdegohdhinkhilhclaklkp?hl=en"></a>
                     </li>
                     <li>
                         <strong>Svelte devtools:</strong> devtools for svelte
-                        <a
-                            href="https://addons.mozilla.org/en-US/firefox/addon/svelte-devtools/"
-                            ></a
-                            >
-                        <a
-                            href="https://chrome.google.com/webstore/detail/svelte-devtools/ckolcbmkjpjmangdbmnkpjigpkddpogn"
-                            ></a
-                            >
+                        <a href="https://addons.mozilla.org/en-US/firefox/addon/svelte-devtools/"></a>
+                        <a href="https://chrome.google.com/webstore/detail/svelte-devtools/ckolcbmkjpjmangdbmnkpjigpkddpogn"></a>
                     </li>
                     <li>
                         <strong>uBlock origin:</strong> blocks ads :)
-                        <a
-                            href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/"
-                            ></a
-                            >
-                        <a
-                            href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en"
-                            ></a
-                            >
+                        <a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/"></a>
+                        <a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en"></a>
                     </li>
                     <li>
                         <strong>Web Archives:</strong> see earlier versions of sites
-                        <a
-                            href="https://addons.mozilla.org/en-US/firefox/addon/view-page-archive/"
-                            ></a
-                            >
-                        <a
-                            href="https://chrome.google.com/webstore/detail/web-archives/hkligngkgcpcolhcnkgccglchdafcnao?hl=en"
-                            ></a
-                            >
+                        <a href="https://addons.mozilla.org/en-US/firefox/addon/view-page-archive/"></a>
+                        <a href="https://chrome.google.com/webstore/detail/web-archives/hkligngkgcpcolhcnkgccglchdafcnao?hl=en"></a>
                     </li>
                 </ul>
                 <h2 id="cli">🛠️ CLI</h2>
@@ -235,177 +170,99 @@
                 <h3 id="extensions">Extensions</h3>
                 <ul>
                     <li>
-                        <a
-                            href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag"
-                            >Auto close tag</a
-                            >
+                        <a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag">Auto close tag</a>
                         - closes HTML and XML tags
                     </li>
                     <li>
-                        <a
-                            href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag"
-                            >Auto rename tag</a
-                            >
+                        <a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag">Auto rename tag</a>
                         - rename tags easier
                     </li>
                     <li>
-                        <a
-                            href="https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer"
-                            >Bracket pair Colorizer</a
-                            >
+                        <a href="https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer">Bracket pair Colorizer</a>
                         - makes reading code with a lot of brackets easier
                     </li>
                     <li>
-                        <a
-                            href="https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker"
-                            >Code spell checker</a
-                            >
+                        <a href="https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker">Code spell checker</a>
                         - because I cant write nice things
                     </li>
                     <li>
-                        <a
-                            href="https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize"
-                            >colorize</a
-                            >
+                        <a href="https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize">colorize</a>
                         - makes colors in text colored
                     </li>
                     <li>
-                        <a
-                            href="https://marketplace.visualstudio.com/items?itemName=makman12.copypasta"
-                            >CopyPasta</a
-                            >
+                        <a href="https://marketplace.visualstudio.com/items?itemName=makman12.copypasta">CopyPasta</a>
                         (my <a href="https://github.com/RobinBoers/CopyPasta">fork</a>) -
                         pulls stuff from StackOverflow (GitHub copilot at home :joy:)
                     </li>
                     <li>
-                        <a
-                            href="https://marketplace.visualstudio.com/items?itemName=JakeBecker.elixir-ls"
-                            >ElixirLS</a
-                            >
+                        <a href="https://marketplace.visualstudio.com/items?itemName=JakeBecker.elixir-ls">ElixirLS</a>
                         - elixir language support
                     </li>
                     <li>
-                        <a
-                            href="https://marketplace.visualstudio.com/items?itemName=ouven.vscode-yab-for-eex-leex"
-                            >YAB for eex/leex</a
-                            >
+                        <a href="https://marketplace.visualstudio.com/items?itemName=ouven.vscode-yab-for-eex-leex">YAB for eex/leex</a>
                         - formatting for eex and leex files
                     </li>
                     <li>
-                        <a
-                            href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint"
-                            >ESLint</a
-                            >
+                        <a href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint">ESLint</a>
                     </li>
                     <li>
-                        <a
-                            href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode"
-                            >Prettier</a
-                            >
+                        <a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode">Prettier</a>
                         - Code formatter
                     </li>
                     <li>
-                        <a
-                            href="https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle"
-                            >Formatting toggle</a
-                            >
+                        <a href="https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle">Formatting toggle</a>
                         - I dont like code formatting always
                     </li>
                     <li>
-                        <a
-                            href="https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview"
-                            >GitHub markdown preview</a
-                            >
+                        <a href="https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview">GitHub markdown preview</a>
                         - make built-in preview look like GitHub
                     </li>
                     <a>
-                    <a
-                        href="https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css"
-                        >HTML CSS support</a
-                        >
-                    </li>
-                    <li>
-                        <a
-                            href="https://marketplace.visualstudio.com/items?itemName=dcasella.i3"
-                            >i3</a
-                            >
-                        - support for i3 config syntax
-                    </li>
-                    <li>
-                        <a
-                            href="https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion"
-                            >IntelliSense for CSS class names in HTML</a
-                            >
-                    </li>
-                    <li>
-                        <a
-                            href="https://marketplace.visualstudio.com/items?itemName=arcensoth.language-mcfunction"
-                            >language-mcfunction</a
-                            >
-                        - support for minecraft datapacks
-                    </li>
-                    <li>PHP IntelliSense</li>
-                    <li>
-                        <a
-                            href="https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug"
-                            >PHP debug</a
-                            >
-                    </li>
-                    <li>
-                        <a
-                            href="https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-pack"
-                            >PHP Extension Pack</a
-                            >
-                    </li>
-                    <li>
-                        <a
-                            href="https://marketplace.visualstudio.com/items?itemName=PhonicCanine.micro-bit"
-                            >micro:bit</a
-                            >
-                    </li>
-                    <li>
-                        <a
-                            href="https://marketplace.visualstudio.com/items?itemName=dlasagno.rasi"
-                            >Rasi</a
-                            >
-                        - rofi config format
-                    </li>
-                    <li>
-                        <a
-                            href="https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode"
-                            >Svelte for VS Code</a
-                            >
-                    </li>
-                    <li>
-                        <a
-                            href="https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml"
-                            >XML</a
-                            >
-                        and
-                        <a
-                            href="https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml"
-                            >YAML</a
-                            >
-                    </li>
-                    <li>
-                        <a
-                            href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens"
-                            >GitLens</a
-                            >
-                        - git but cooler
-                    </li>
-                    <li>
-                        <a
-                            href="https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance"
-                            >Pylance</a
-                            >
-                        &amp;
-                        <a
-                            href="https://marketplace.visualstudio.com/items?itemName=ms-python.python"
-                            >Python</a
-                            >
-                        - python support
-                    </li>
+                        <a href="https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css">HTML CSS support</a>
+                        </li>
+                        <li>
+                            <a href="https://marketplace.visualstudio.com/items?itemName=dcasella.i3">i3</a>
+                            - support for i3 config syntax
+                        </li>
+                        <li>
+                            <a href="https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion">IntelliSense for CSS class names in HTML</a>
+                        </li>
+                        <li>
+                            <a href="https://marketplace.visualstudio.com/items?itemName=arcensoth.language-mcfunction">language-mcfunction</a>
+                            - support for minecraft datapacks
+                        </li>
+                        <li>PHP IntelliSense</li>
+                        <li>
+                            <a href="https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug">PHP debug</a>
+                        </li>
+                        <li>
+                            <a href="https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-pack">PHP Extension Pack</a>
+                        </li>
+                        <li>
+                            <a href="https://marketplace.visualstudio.com/items?itemName=PhonicCanine.micro-bit">micro:bit</a>
+                        </li>
+                        <li>
+                            <a href="https://marketplace.visualstudio.com/items?itemName=dlasagno.rasi">Rasi</a>
+                            - rofi config format
+                        </li>
+                        <li>
+                            <a href="https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode">Svelte for VS Code</a>
+                        </li>
+                        <li>
+                            <a href="https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml">XML</a>
+                            and
+                            <a href="https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml">YAML</a>
+                        </li>
+                        <li>
+                            <a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens">GitLens</a>
+                            - git but cooler
+                        </li>
+                        <li>
+                            <a href="https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance">Pylance</a>
+                            &amp;
+                            <a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python">Python</a>
+                            - python support
+                        </li>
                 </ul>
                 <h3 id="theming">Theming</h3>
                 <p>
@@ -415,54 +272,30 @@
                 <ul>
                     <li>
                         <p>
-                            <a href="https://github.com/RobinBoers/frontend-delight-vscode"
-                                >Frontend Delight Dark</a
-                                >.<br />This is the color theme I&#39;m also using in Alacritty,
+                            <a href="https://github.com/RobinBoers/frontend-delight-vscode">Frontend Delight Dark</a>.<br />This is the color theme I&#39;m also using in Alacritty,
                             Spotify, Firefox and other apps.
                         </p>
                     </li>
                     <li>
                         <p>
-                            <a
-                                href="https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme"
-                                >GitHub Dark</a
-                                >.<br />This is the old GitHub dark theme for VSCode. The new
+                            <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme">GitHub Dark</a>.<br />This is the old GitHub dark theme for VSCode. The new
                             one is called GitHub Dark Default.
                         </p>
                     </li>
                 </ul>
                 <p>
                     I also like
-                    <a
-                        href="https://marketplace.visualstudio.com/items?itemName=teabyii.ayu"
-                        >Ayu dark</a
-                        >,
-                    <a
-                        href="https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night"
-                        >Tokyo Night</a
-                        >
+                    <a href="https://marketplace.visualstudio.com/items?itemName=teabyii.ayu">Ayu dark</a>,
+                    <a href="https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night">Tokyo Night</a>
                     and
-                    <a
-                        href="https://marketplace.visualstudio.com/items?itemName=teabyii.ayu"
-                        >Ayu Light</a
-                        >, but rarely use light mode. For file icons is use
-                    <a
-                        href="https://marketplace.visualstudio.com/items?itemName=wayou.vscode-icons"
-                        >vscode-icons</a
-                        >, and for product icons I use
-                    <a
-                        href="https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons"
-                        >Fluent icons</a
-                        >.
+                    <a href="https://marketplace.visualstudio.com/items?itemName=teabyii.ayu">Ayu Light</a>, but rarely use light mode. For file icons is use
+                    <a href="https://marketplace.visualstudio.com/items?itemName=wayou.vscode-icons">vscode-icons</a>, and for product icons I use
+                    <a href="https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons">Fluent icons</a>.
                 </p>
                 <p>
                     My favorite font is
-                    <a href="https://github.com/dejavu-fonts/dejavu-fonts"
-                        >DejaVu Sans Mono</a
-                        >. For VSCode I&#39;m using a version called
-                    <a href="https://github.com/SSNikolaevich/DejaVuSansCode"
-                        >DejaVu Sans Code</a
-                        >, which has ligatures support.
+                    <a href="https://github.com/dejavu-fonts/dejavu-fonts">DejaVu Sans Mono</a>. For VSCode I&#39;m using a version called
+                    <a href="https://github.com/SSNikolaevich/DejaVuSansCode">DejaVu Sans Code</a>, which has ligatures support.
                 </p>
                 <h2 id="apps">📒 Apps</h2>
                 <p>These are the GUI apps I use on a day to day basis:</p>
@@ -483,9 +316,7 @@
                 <h2 id="mentioned">👀 Mentioned</h2>
                 <ul>
                     <li>
-                        <a href="https://github.com/RobinBoers/firefox-tweaks"
-                            >firefox-tweaks</a
-                            >
+                        <a href="https://github.com/RobinBoers/firefox-tweaks">firefox-tweaks</a>
                         - firefox setup
                     </li>
                     <li>
@@ -493,9 +324,7 @@
                         - gnome integration via systemd for sway
                     </li>
                     <li>
-                        <a href="https://github.com/RobinBoers/frontend-delight-vscode"
-                            >frontend-delight-vscode</a
-                            >
+                        <a href="https://github.com/RobinBoers/frontend-delight-vscode">frontend-delight-vscode</a>
                         - vscode them
                     </li>
                     <li>
@@ -505,9 +334,7 @@
                 </ul>
                 <p>
                     Written by Robin Boers. Inspired by
-                    <a href="https://github.com/divyanshu013/linux-dev-setup"
-                        >divyanshu013/linux-dev-setup</a
-                        >.
+                    <a href="https://github.com/divyanshu013/linux-dev-setup">divyanshu013/linux-dev-setup</a>.
                 </p>
             </section>
         </article>

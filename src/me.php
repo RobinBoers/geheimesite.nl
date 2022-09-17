@@ -7,9 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Everything me — geheimesite.nl | Robin Boers</title>
 
-    <link rel="alternate stylesheet" href="/assets/css/plain.css" title="plain" />
-    <script src="/assets/js/plain-mode.js"></script>
-
     <link rel="stylesheet" href="/assets/css/main.css" title="default" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />

@@ -6,9 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Framboy — geheimesite.nl | Robin Boers</title>
 
-        <link rel="alternate stylesheet" href="/assets/css/plain.css" title="plain" />       
-        <script src="/assets/js/plain-mode.js"></script>
-        
         <link rel="stylesheet" href="/assets/css/main.css" title="default" />
 
         <!-- Prevent search engines from indexing -->
