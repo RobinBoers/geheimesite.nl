@@ -11,7 +11,7 @@
 
     <style>
         :root {
-            --heading-preview: rgba(var(--vibrant), .4);
+            --heading-preview: rgba(var(--primary), .4);
         }
 
         @media (prefers-color-scheme: dark) {

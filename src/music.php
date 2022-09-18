@@ -11,9 +11,17 @@
 
         <style>
             :root {
-                --black: 34, 35, 35;
-                --white: 240, 240, 246;
-                --vibrant: 40, 213, 118;
+                --foreground: 34, 35, 35;
+                --background: 240, 240, 246;
+                --primary: 40, 213, 118;
+            }
+
+            @media (prefers-color-scheme: dark) {
+                :root {
+                    --foreground: 240, 240, 246;
+                    --background: 34, 35, 35;
+                    --primary: 40, 213, 118;
+                }
             }
             
             html {
@@ -29,19 +37,68 @@
                 background: 
                     linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
             }
+
+            .music-list {
+                counter-reset: item;
+                padding: 0;
+                max-width: 740px;
+                margin: 0 auto;
+            }
+
+            .music-list li {
+                display: flex;
+                gap: 0.5rem;
+            }
+
+            .music-list li h3.new::after {
+                content: "new";
+                line-height: 2px !important;
+                font-size: 0.875rem;
+                line-height: 1.25rem;
+                border-radius: 0.375rem;
+                padding: 0.125rem;
+                margin-left: 0.25rem;
+                vertical-align: middle;
+                background-color: rgba(var(--primary), 0.2);
+                color: rgb(var(--primary));
+            }
+
+            .music-list li .track-artist {
+                font-size: 0.875rem;
+                line-height: 1.25rem;
+            }
+
+            .music-list li div {
+                padding-top: 0.375rem;
+                padding-bottom: 0.375rem;
+            }
+
+            .music-list li div * {
+                display: inline;
+            }
+
+            .music-list li::before {
+                content: counter(item);
+                counter-increment: item;
+                font-size: 3rem;
+                line-height: 1;
+                font-weight: 700;
+                vertical-align: middle;
+                font-family: var(--font-sans);
+            }
         </style>
     </head>
-    <body class="text-white h-full">
+    <body class="text-background dark:text-foreground h-full">
         <a class="skip-nav" href="#content">Skip navigation</a>
         <header class="flex flex-col sm:flex-row-reverse items-center justify-around">
             <p class="title"><a href="/en/">Robin Boers</a></p>
 
             <nav>
-                <a href="/en/" class="text-white">❮ Back</a>
+                <a href="/en/" class="text-background dark:text-foreground">❮ Back</a>
             </div>
         </header>
 
-        <main id="content" class="page-content text-black dark:text-white bg-white dark:bg-black pt-[50px] pb-[27px] border-x-0 border-solid border-t-[7px] border-vibrant">
+        <main id="content" class="page-content text-foreground bg-background pt-[50px] pb-[27px] border-x-0 border-solid border-t-[7px] border-primary">
             <article>
                 <section>
                     <h1>Music</h1>

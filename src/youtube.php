@@ -10,10 +10,18 @@
 
         <style>
             :root {
-                --black: 34, 35, 35;
-                --white: 240, 240, 246;
-                --vibrant: 255, 70, 70;
+                --foreground: 34, 35, 35;
+                --background: 240, 240, 246;
+                --primary: 255, 70, 70;
             }   
+
+            @media (prefers-color-scheme: dark) {
+                :root {
+                    --foreground: 240, 240, 246;
+                    --background: 34, 35, 35;
+                    --primary: 255, 70, 70;
+                }
+            }
 
             /* Make video things look better */
             p .video-title, p .video-author, p a {
@@ -41,17 +49,17 @@
             }
         </style>
     </head>
-    <body class="text-white h-full">
+    <body class="text-background dark:text-foreground h-full">
         <a class="skip-nav" href="#content">Skip navigation</a>
         <header class="flex flex-col sm:flex-row-reverse items-center justify-around">
             <p class="title"><a href="/en/">Robin Boers</a></p>
 
             <nav>
-                <a href="/en/" class="text-white">❮ Back</a>
+                <a href="/en/" class="text-background dark:text-foreground">❮ Back</a>
             </div>
         </header>
 
-        <main id="content" class="page-content text-black dark:text-white bg-white dark:bg-black pt-[50px] pb-[27px] border-x-0 border-solid border-t-[7px] border-vibrant">
+        <main id="content" class="page-content text-foreground bg-background pt-[50px] pb-[27px] border-x-0 border-solid border-t-[7px] border-primary">
             <article>
                 <section>
                     <h1 class="mb-0 font-serif">YouTube</h1>

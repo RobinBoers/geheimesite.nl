@@ -33,7 +33,7 @@
 
 <body>
     <a class="skip-nav" href="#content">Skip navigation</a>
-    <header class="pageheader mb-4">
+    <header class="pageheader mb-4 justify-center">
         <nav class="mt-4">
             <img src="/assets/images/menu.svg" alt="menu button" class="menu-button mb-4" hidden />
 
@@ -52,8 +52,8 @@
     </header>
 
     <main id="content" class="page-content mt-0 md:mt-6">
-        <article class="h-card-header">
-            <article class="homepage-box h-card max-w-none lg:max-w-xl">
+        <article class="homepage-hero">
+            <article class="homepage-section h-card max-w-none lg:max-w-xl">
                 <h1 class="p-name text-4xl title font-normal">Robin Boers</h1>
 
                 <p>I'm webdesigner, Elixir programmer and teenager. I'm 15 years old and live in the Netherlands. Welcome to my website! This is like my personal playground, my little corner of the web. I post my projects like games, websites and apps here and I also regularly post to <a href="https://blog.geheimesite.nl/en">my blog</a>. </p>
@@ -77,7 +77,7 @@
             <img class="hidden absolute top-[80px] right-[-200px] lg:block xl:static w-full pixelart max-w-sm" src="/assets/images/robin_pixelart.png" alt="Pixel art picture of me" />
         </article>
 
-        <article class="homepage-box socials">
+        <article class="homepage-section socials">
             <h2 class="hidden">Socials</h2>
             <ul class="px-1 sm:px-10 m-0 max-w-none md:p-0">
                 <li class="inline list-none">
@@ -128,7 +128,7 @@
             </ul>
         </article>
 
-        <article class="homepage-box featured">
+        <article class="homepage-section h-feed">
             <h2>Blog</h2>
 
             <div class="blog">

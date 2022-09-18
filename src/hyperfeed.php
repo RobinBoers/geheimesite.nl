@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,6 +7,126 @@
     <title>Hypertexting — geheimesite.nl | Robin Boers</title>
 
     <link rel="stylesheet" href="/assets/css/main.css" title="default" />
+
+    <style>
+        .tagcloud {
+            padding-left: 0;
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding-top: 2.5rem;
+            line-height: 2.5rem;
+        }
+
+        .tagcloud a[data-weight="1"] {
+            --size: 1;
+        }
+        .tagcloud a[data-weight="2"] {
+            --size: 2;
+        }
+        .tagcloud a[data-weight="3"] {
+            --size: 3;
+        }
+        .tagcloud a[data-weight="4"] {
+            --size: 4;
+        }
+        .tagcloud a[data-weight="5"] {
+            --size: 5;
+        }
+        .tagcloud a[data-weight="6"] {
+            --size: 6;
+        }
+        .tagcloud a[data-weight="7"] {
+            --size: 7;
+        }
+        .tagcloud a[data-weight="8"] {
+            --size: 8;
+        }
+        .tagcloud a[data-weight="9"] {
+            --size: 9;
+        }
+
+        .tagcloud a {
+            --size: attr(data-weight number, 2);
+            font-size: 1.5rem;
+            margin: 0.125rem 0.25rem;
+            font-size: calc(var(--size) * 0.25rem);
+        }
+
+        @media (min-width: 768px) {
+            .hyperfeed {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .hyperpost {
+                min-width: 550px;
+            }
+
+            .hyperfeed .hyperpost:nth-child(10n) {
+                margin-left: -18px;
+            }
+            .hyperfeed .hyperpost:nth-child(10n + 1) {
+                margin-left: 18px;
+            }
+            .hyperfeed .hyperpost:nth-child(10n + 2) {
+                margin-left: -32px;
+            }
+            .hyperfeed .hyperpost:nth-child(10n + 3) {
+                margin-left: -8px;
+            }
+            .hyperfeed .hyperpost:nth-child(10n + 4) {
+                margin-left: -38px;
+            }
+            .hyperfeed .hyperpost:nth-child(10n + 5) {
+                margin-left: 28px;
+            }
+            .hyperfeed .hyperpost:nth-child(10n + 6) {
+                margin-left: -18px;
+            }
+            .hyperfeed .hyperpost:nth-child(10n + 7) {
+                margin-left: 18px;
+            }
+            .hyperfeed .hyperpost:nth-child(10n + 8) {
+                margin-left: -8px;
+            }
+            .hyperfeed .hyperpost:nth-child(10n + 9) {
+                margin-left: 32px;
+            }
+        }
+
+        .hyperpost {
+            background: #cee3f8;
+            padding: 1.25rem;
+            margin-top: 0.75rem;
+            margin-bottom: 0.75rem;
+            border: 1px solid #456d95;
+            font-family: var(--font-sans);
+            box-shadow: 18px 10px 0 0 #2190ff;
+            margin-inline: 0;
+        }
+        
+        .hyperpost p {
+            margin: 0;
+            color: #193c5f;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .hyperpost {
+                background-color: #456d95;
+                border-color: #173450;
+                box-shadow: 18px 10px 0 0 #cee3f8;
+            }
+            .hyperpost p {
+                color: #cde6ff;
+            }
+        }
+
+        
+    </style>
 
     <script>
         function clickRandom() {
@@ -18,7 +137,6 @@
         }
     </script>
 </head>
-
 <body>
     <a class="skip-nav" href="#content">Skip navigation</a>
     <header class="flex flex-col sm:flex-row-reverse items-center justify-around">
@@ -234,5 +352,4 @@
         &copy; <?php echo date("Y"); ?> Robin Boers. Webdesigner and Elixir programmer since 2017.
     </footer>
 </body>
-
 </html>
