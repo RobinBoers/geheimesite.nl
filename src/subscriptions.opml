@@ -32,6 +32,7 @@ This page was inspired by petermolnar.net
 			<outline title="Sterrenkruid" text="Sterrenkruid" type="feed" xmlUrl="https://jokessterrenkruid.blogspot.com/feeds/posts/default" htmlUrl="https://jokessterrenkruid.blogspot.com" url="https://jokessterrenkruid.blogspot.com/feeds/posts/default"></outline>
 			<outline title="WitBlauw" text="WitBlauw" type="feed" xmlUrl="https://witblauw.blogspot.com/feeds/posts/default" htmlUrl="https://witblauw.blogspot.com" url="https://witblauw.blogspot.com/feeds/posts/default"></outline>
 			<outline title="Interdependent Thoughts" text="Interdependent Thoughts" type="feed" xmlUrl="https://www.zylstra.org/blog/feed/" htmlUrl="https://www.zylstra.org" url="https://www.zylstra.org/blog/feed/"></outline>
+			<outline title="Wesley's Notebook" text="Wesley's Notebook" type="feed" xmlUrl="https://notebook.wesleyac.com/atom.xml" htmlUrl="https://wesleyac.com" url="https://notebook.wesleyac.com/atom.xml"></outline>
 		</outline>
 		<outline text="💻 Coding" title="💻 Coding" type="folder">
 			<outline title="Sara Soueidan" text="Sara Soueidan" type="feed" xmlUrl="https://www.sarasoueidan.com/blog/index.xml" htmlUrl="https://www.sarasoueidan.com" url="https://www.sarasoueidan.com/blog/index.xml"></outline>
