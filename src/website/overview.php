@@ -53,6 +53,7 @@
                         <li><a href="v/12/" target="_blank">Bekijk versie 12</a></li>
                         <li><a href="v/13/" target="_blank">Bekijk versie 13</a></li>
                         <li><a href="v/14/" target="_blank">Bekijk versie 14</a></li>
+                        <li><a href="v/15/" target="_blank">Bekijk versie 15</a></li>
                     </ol>
 
                     <p class="italic">De originele versie van mijn website ben ik helaas kwijt. RIP.</p>
