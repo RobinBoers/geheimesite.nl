@@ -70,6 +70,23 @@
 
                 <p>I can explain how RSS works here, but I think Nicky Case does a way better job than I do, so please read <a href="https://ncase.me/rss">her explanation</a> instead :)</p>
             </section>
+
+            <hr class="my-7 border-none">
+
+            <section>
+                <h2>But if you really ❤️ email....</h2>
+
+                <p>Look, I totally understand if you don't want to setup RSS and you'd rather receive an email if I post something. That's why I also use Follow.it for email notifications (dutch blog only).</p>
+
+                <form action="https://api.follow.it/subscription-form/c3F0clRXeXpFVlR3Um5xL2NyQVFWQXRqMzdSNlJLb3dGdkk2YzRlQ0ZJMlo4WUhYLzhETDFPRmJTLzFiMlk0cVQwcjVWODR3ZEVoQ2xOaXlVWFVuSld5U25aamRVODRXdCtBS1BSYmxJMjMxQi80ZjduaGNDZDhwTnpEU25WL1Z8eXFRN2FNemhJQUVCeU9IKzMrNlhwbGl1OW5xWGZ0ODlkMlRCV0hCK3h3WT0=/8" method="post">
+                    <label for="email">Emailaddress</label>
+                    <input class="input" type="email" name="email">
+                    <input class="input button" type="submit" value="Subscribe">
+                </form>
+                
+                <p class="mt-6 supplement">If you fill in the form I will probably be able to see your emailaddress.</p>
+                
+            </section>
         </article>
     </main>
 
