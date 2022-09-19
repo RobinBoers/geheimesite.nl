@@ -28,6 +28,10 @@
         h3 {
             max-width: revert !important;
         }
+
+        section > ul {
+            padding-left: 0 !important;
+        }
     </style>
 </head>
 
@@ -129,7 +133,7 @@
                     </li>
                     <li>
                         <a class="no-underline hover:bg-transparent hover:opacity-80" href="https://discord.gg/DPtKK3UREu" target="_blank">
-                            <img src="https://img.shields.io/discord/712265706132996210?color=7289DA&label=%20&logo=discord&logoColor=white&style=for-the-badge" alt="Invite for Robin.io on Discord" />
+                            <img src="https://img.shields.io/badge/Robijntje22%239914-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Robijntje22#9914 on Discord" />
                         </a>
                     </li>
                     <li>
