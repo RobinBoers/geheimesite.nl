@@ -37,7 +37,7 @@
                 <section class="section lg:mr-0">
                     <h1>Over mij</h1>
                     <p>
-                        Hoi, ik ben Robin. Ik ben 15 jaar oud, ik zit in drie VWO en ik woon in Maassluis. Ik houd van programmeren en werk als Junior Developer bij Qdentity in Maasland. Deze website is mijn plek om al mijn projecten te showcasen. Ik heb ook een <a href="https://blog.geheimesite.nl">blog</a> over programmeren, webdevelopment en andere coole shit.
+                        Hoi, ik ben Robin. Ik ben 15 jaar oud, ik zit in vier VWO en ik woon in Maassluis. Ik houd van programmeren en werk als Junior Developer bij Qdentity in Maasland. Deze website is mijn plek om al mijn projecten te showcasen. Ik heb ook een <a href="https://blog.geheimesite.nl">blog</a> over programmeren, webdevelopment en andere coole shit.
                     </p>
                 </section>
                 <img class="w-full h-60 mb-5 lg:rotate-1 rounded-xl aspect-square object-cover object-right-top lg:mb-0 lg:h-fit lg:w-1/5" src="/assets/images/me.jpeg" alt="Dit ben ik">
