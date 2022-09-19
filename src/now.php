@@ -44,7 +44,7 @@
                     </p>
                 </section>
 
-                <hr class="reading-hr my-7 border-none">
+                <hr class="my-7 border-none">
 
                 <section>
                     <h2>School</h2>
