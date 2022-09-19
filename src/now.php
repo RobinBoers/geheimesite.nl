@@ -42,13 +42,9 @@
                     <p>
                         This page is inspired by Derek Siver's <a href="https://sive.rs/nowff">now page movement</a>. I think I'm a bit late to the party, but whatever. No one cares anyway. For those very confused: this page describes what I'm currently up to.
                     </p>
-
-                    <p>
-                        <i>Updated last in August 2022 from the Netherlands.</i>
-                    </p>
                 </section>
 
-                <hr class="my-7 border-none">
+                <hr class="reading-hr my-7 border-none">
 
                 <section>
                     <h2>School</h2>
@@ -56,7 +52,7 @@
                     <p>I'm currently in 4VWO. I think you British people would call it Year 11, and American folks would call it Grade 9 or something. These are some things I'm doing for school at the moment.</p>
 
                     <ul>
-                        <li>Mostly introduction lessons</li>
+                        <li>Studying for tests</li>
                         <li>Keeping up with homework</li>
                         <li>Only nice subjects and german (I dropped all the other shit this year)</li>
                     </ul>
@@ -100,7 +96,11 @@
                         renderBooks("5566", ".reading");
                     }
                 </script>
-                <script src="/assets/js/bookshelves.js"></script>             
+                <script src="/assets/js/bookshelves.js"></script>    
+                
+                <p>
+                    <i>Updated last: September 2022 from the Netherlands.</i>
+                </p>
             </article>
         </main>
 
