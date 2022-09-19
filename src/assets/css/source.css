@@ -322,12 +322,12 @@
         max-width: var(--max-text-width);
     }
 
-    section > ul,
+    /* section > ul,
     article > ul,
     section > ol,
     article > ol {
         padding-left: revert;
-    }
+    } */
 
     figure img {
         @apply w-full;
