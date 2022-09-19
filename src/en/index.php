@@ -79,7 +79,7 @@
 
         <article class="homepage-section socials">
             <h2 class="hidden">Socials</h2>
-            <ul class="px-1 sm:px-10 m-0 max-w-none md:p-0">
+            <ul class="px-1 sm:px-10 m-0 max-w-none md:!p-0">
                 <li class="inline list-none">
                     <a class="no-underline button" href="https://www.youtube.com/channel/UCx4li1iMygs5KtqgcU5KGRw" target="_blank" rel="me">
                         <img src="https://img.shields.io/badge/Robin%20Boers-red?style=for-the-badge&logo=youtube" alt="Robin Boers on YouTube" />

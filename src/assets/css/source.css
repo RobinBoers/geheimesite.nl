@@ -127,7 +127,7 @@
     /** Base **/
     html,
     .root {
-        font-size: clamp(1.125rem, 3vw, 1.3125rem);
+        font-size: clamp(1rem, 3vw, 1.256rem);
         line-height: 33px;
     }
     body {
@@ -322,12 +322,12 @@
         max-width: var(--max-text-width);
     }
 
-    /* section > ul,
+    section > ul,
     article > ul,
     section > ol,
     article > ol {
-        padding-left: revert;
-    } */
+        padding-left: revert !important;
+    }
 
     figure img {
         @apply w-full;

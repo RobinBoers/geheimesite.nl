@@ -8,63 +8,24 @@
     <title>How my website was built: a look behind the curtains — geheimesite.nl | Robin Boers</title>
 
     <link rel="stylesheet" href="/assets/css/main.css" title="default" />
-
-    <style>
-        :root {
-            --heading-preview: rgba(var(--primary), .4);
-        }
-
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --heading-preview: #3c3c3c;
-            }
-        }
-
-        body,
-        .title {
-            font-family: "MxPlus ToshibaTxL2 8x16", 'Courier New', monospace;
-            font-size: 120%;
-        }
-
-        h1,
-        h2,
-        h3 {
-            margin-left: -55px;
-        }
-
-        h1::before {
-            content: "# ";
-            font-family: monospace;
-            color: var(--heading-preview);
-        }
-
-        h2::before {
-            content: "## ";
-            font-family: monospace;
-            color: var(--heading-preview);
-        }
-
-        h3::before {
-            content: "### ";
-            font-family: monospace;
-            color: var(--heading-preview);
-        }
-
-        code {
-            color: #808080;
-        }
-    </style>
 </head>
 
 <body>
     <a class="skip-nav" href="#content">Skip navigation</a>
-    <header class="flex flex-col sm:flex-row-reverse items-center justify-around">
+    <header class="pageheader">
         <p class="title"><a href="/en/">Robin Boers</a></p>
 
+        <img src="/assets/images/menu.svg" alt="menu button" class="menu-button" hidden />
+
         <nav>
-            <a href="/en/">
-                < Back</a>
-                    </div>
+            <ul class="menu">
+                <li><a href="/en/">Home</a></li>
+                <li><a href="/en/about">About me</a></li>
+                <li><a href="/en/projects">Projects</a></li>
+                <li><a href="/en/books">Books</a></li>
+                <li><a href="https://blog.geheimesite.nl/en">Blog</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main id="content" class="page-content">
@@ -121,8 +82,6 @@
                 </ul>
 
                 <p>I think these fonts compliment each other, while also creating a nice contrast.</p>
-
-                <p>Funnily enough, this page is the only page to use different fonts, but I decided it was fitting to use my favorite editor font for the page about how I built my site.</p>
             </section>
 
             <section>
@@ -164,7 +123,7 @@
             <section>
                 <h2>As promised...</h2>
 
-                <p>Thanks for reading all of that (or just scrolling to the bottom). I hope you learned some things. If anything about this page was unclear, don't hesitate to send me an email at <a href="mailto:hello@geheimesite.nl">hello@geheimesite.nl</a>. Now, as promised, here are some resources for building your own site:</p>
+                <p>Thanks for reading all of that (or just scrolling to the bottom). I hope you learned some things. If anything about this page was unclear, don't hesitate to shoot me an email at <a href="mailto:hello@geheimesite.nl">hello@geheimesite.nl</a>. Now, as promised, here are some resources for building your own site:</p>
 
                 <ul>
                     <li>

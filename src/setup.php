@@ -136,28 +136,28 @@
                     looks the same if I switch to bash for some reason).
                 </p>
                 <ul>
-                    <li><strong>gh:</strong> github CLI</li>
-                    <li><strong>git:</strong> version control</li>
-                    <li><strong>nvim:</strong> for quick edits on the commandline</li>
-                    <li><strong>htop &amp; gtop:</strong> taskmanagers</li>
-                    <li><strong>yt-dlp:</strong> download videos</li>
-                    <li><strong>spotdl:</strong> download spotify playlists</li>
-                    <li><strong>flatpak:</strong> cross-platform apps</li>
-                    <li><strong>pnpm:</strong> package manager for node</li>
+                    <li><code><strong>gh:</strong></code> github CLI</li>
+                    <li><code><strong>git:</strong></code> version control</li>
+                    <li><code><strong>nvim:</strong></code> for quick edits on the commandline</li>
+                    <li><code><strong>htop &amp; gtop:</strong></code> taskmanagers</li>
+                    <li><code><strong>yt-dlp:</strong></code> download videos</li>
+                    <li><code><strong>spotdl:</strong></code> download spotify playlists</li>
+                    <li><code><strong>flatpak:</strong></code> cross-platform apps</li>
+                    <li><code><strong>pnpm:</strong></code> package manager for node</li>
                     <li>
-                        <strong>bat:</strong> replacement for <code>cat</code> and pager
+                        <code><strong>bat:</strong></code> replacement for <code>cat</code> and pager
                         for <code>man</code>
                     </li>
-                    <li><strong>fd:</strong> replacement for <code>find</code></li>
-                    <li><strong>ripgrep:</strong> replacement for <code>grep</code></li>
-                    <li><strong>delta:</strong> improved git diff</li>
+                    <li><code><strong>fd:</strong></code> replacement for <code>find</code></li>
+                    <li><code><strong>ripgrep:</strong></code> replacement for <code>grep</code></li>
+                    <li><code><strong>delta:</strong></code> improved git diff</li>
                     <li>
-                        <strong>cmatrix:</strong> showing my friends I&#39;m a real bad
+                        <code><strong>cmatrix:</strong></code> showing my friends I&#39;m a real bad
                         hacker
                     </li>
-                    <li><strong>ranger:</strong> file managment</li>
-                    <li><strong>ncmpcpp:</strong> music player</li>
-                    <li><strong>tldr:</strong> better man pages</li>
+                    <li><code><strong>ranger:</strong></code> file managment</li>
+                    <li><code><strong>ncmpcpp:</strong></code> music player</li>
+                    <li><code><strong>tldr:</strong></code> better man pages</li>
                 </ul>
                 <h2 id="code-editor">💾 Code editor</h2>
                 <p>
@@ -303,12 +303,13 @@
                     <li><strong>Thunderbird:</strong> Mail and IRC client</li>
                     <li><strong>Obsidian:</strong> Markdown Notes</li>
                     <li><strong>Rofi:</strong> Desktop and run launcher</li>
-                    <li><strong>Slack &amp; Discord:</strong> Chatting</li>
-                    <li><strong>Feh:</strong> Image viewer &amp; wallpaper setter</li>
+                    <li><strong>Alacritty:</strong> Terminal emulator</li>
+                    <li><strong>MPD & <code>ncmpcpp</code>:</strong> Music player</li>
                     <li><strong>Mousepad:</strong> GUI text editor</li>
+                    <li><strong>Discord:</strong> Chatting</li>
+                    <li><strong>Feh:</strong> Image viewer &amp; wallpaper setter</li>
                     <li><strong>FileZilla:</strong> FTP client</li>
                     <li><strong>Portmaster:</strong> Firewall</li>
-                    <li><strong>Alacritty:</strong> Terminal emulator</li>
                     <li><strong>VLC media player:</strong> Media player</li>
                     <li><strong>Lockwise:</strong> Password manager</li>
                     <li><strong>Tofu:</strong> 2FA authenticator</li>
@@ -325,7 +326,7 @@
                     </li>
                     <li>
                         <a href="https://github.com/RobinBoers/frontend-delight-vscode">frontend-delight-vscode</a>
-                        - vscode them
+                        - vscode theme
                     </li>
                     <li>
                         <a href="https://github.com/RobinBoers/CopyPasta">CopyPasta</a> -
