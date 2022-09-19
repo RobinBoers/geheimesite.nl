@@ -277,7 +277,7 @@
                     <li><a class="external" data-weight="8" href="https://sadgrl.online">sadgrl.online</a></li>
                     <li><a class="external" data-weight="8" href="https://novov.me">novov.me</a></li>
                     <li><a class="external" data-weight="6" href="https://neal.fun">neal.fun</a></li>
-                    <li><a class="external" data-weight="8" href="https://fvsch.com/">fvsch.com/</a></li>
+                    <li><a class="external" data-weight="8" href="https://fvsch.com/">fvsch.com</a></li>
                     <li><a class="external" data-weight="7" href="https://yesterweb.org">yesterweb.org</a></li>
                     <li><a class="external" data-weight="6" href="https://wsmz.gay">wsmz.gay</a></li>
                     <li><a class="external" data-weight="9" href="https://satyrs.eu">satyrs.eu</a></li>
