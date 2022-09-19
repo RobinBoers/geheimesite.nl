@@ -63,9 +63,9 @@
                         </a>
                     </li>
                     <li>
-                        <h3>Duurzame Maassluizers</h3>
-                        <a href="https://duurzamemaassluizers.nl" target="_blank">
-                            <img src="/assets/images/websites/duurzame-maassluizers.png" alt="Duurzame Maassluizers">
+                        <h3>De Groentemeester</h3>
+                        <a href="https://degroentemeester.nl">
+                            <img src="/assets/images/websites/degroentemeester.png" alt="De Groentemeester">
                         </a>
                     </li>
                     <li>
@@ -81,9 +81,21 @@
                         </a>
                     </li>
                     <li>
+                        <h3>Duurzame Maassluizers</h3>
+                        <a href="https://duurzamemaassluizers.nl" target="_blank">
+                            <img src="/assets/images/websites/duurzame-maassluizers.png" alt="Duurzame Maassluizers">
+                        </a>
+                    </li>
+                    <li>
                         <h3>Thesis Eveline Boers</h3>
                         <a href="https://thesisevelineboers.blogspot.com" target="_blank">
                             <img src="/assets/images/websites/thesis-eveline-boers.png" alt="Thesis Eveline Boers">
+                        </a>
+                    </li>
+                    <li>
+                        <h3>School shtuff</h3>
+                        <a href="https://docs.geheimesite.nl/school" target="_blank">
+                            <img src="/assets/images/websites/schoolshtuff.png" alt="School shtuff">
                         </a>
                     </li>
                     <li>
