@@ -50,6 +50,10 @@
     .supplement {
         @apply brightness-125 dark:brightness-75 text-center italic text-sm;
     }
+
+    .p-small {
+        @apply px-2 sm:px-10 md:px-0;
+    }
 }
 
 @layer base {
@@ -259,7 +263,7 @@
 
     /* Page layout */
     .pageheader {
-        @apply flex flex-row justify-between items-center w-full mx-auto;
+        @apply p-small flex flex-wrap flex-row justify-between items-center w-full mx-auto;
         max-width: var(--max-content-width);
     }
 
@@ -269,7 +273,7 @@
     }
 
     .pageheader nav {
-        @apply lg:flex justify-around p-2;
+        @apply w-screen lg:w-auto lg:flex justify-around p-2;
     }
 
     .pageheader nav ul {
@@ -295,26 +299,26 @@
 
     /* Page content */
     .section,
-    section > p,
+    section:not(.section) > p,
     article > p,
-    section > h1,
+    section:not(.section) > h1,
     article > h1,
-    section > h2,
+    section:not(.section) > h2,
     article > h2,
-    section > h3,
+    section:not(.section) > h3,
     article > h3,
-    section > h4,
+    section:not(.section) > h4,
     article > h4,
-    section > ul,
+    section:not(.section) > ul,
     article > ul,
-    section > ol,
+    section:not(.section) > ol,
     article > ol,
     form,
-    section > table,
+    section:not(.section) > table,
     article > table,
     blockquote,
     .footnotes {
-        @apply px-2 sm:px-10 md:px-0 md:max-w-md mx-auto;
+        @apply p-small md:max-w-md mx-auto;
         max-width: var(--max-text-width);
     }
 

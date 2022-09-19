@@ -34,9 +34,9 @@
 <body>
     <a class="skip-nav" href="#content">Skip navigation</a>
     <header class="pageheader mb-4 justify-center">
-        <nav class="mt-4">
-            <img src="/assets/images/menu.svg" alt="menu button" class="menu-button mb-4" hidden />
+        <img src="/assets/images/menu.svg" alt="menu button" class="menu-button my-4" hidden />
 
+        <nav class="mt-4">
             <ul class="menu">
                 <li class="selected">Home</li>
                 <li><a href="/en/about">About me</a></li>
