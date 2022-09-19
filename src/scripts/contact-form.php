@@ -8,5 +8,5 @@ if (isset($_POST['send'])) {
     $headers = "From: $from";
 
     mail("hello@geheimesite.nl", $subject, $message, $headers);
-    header("Location: index.php");
+    header('Location: ' . $_SERVER['HTTP_REFERER']);
 }
