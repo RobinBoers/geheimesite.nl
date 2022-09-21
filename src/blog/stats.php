@@ -34,7 +34,7 @@
         </script>
 
         <?php
-            include "../connection.php";
+            include "../api/connection.php";
 
             $current_month = date('Y-m-01');
             $monthly_query = "SELECT * FROM viewcount WHERE month='$current_month'";
@@ -69,6 +69,22 @@
         ?>
     </head>
     <body>
+        <a class="skip-nav" href="#content">Skip navigation</a>
+        <header class="pageheader">
+            <p class="title"><a href="/en/">Robin Boers</a></p>
+
+            <img src="/assets/images/menu.svg" alt="menu button" class="menu-button" hidden />
+
+            <nav>
+                <ul class="menu">
+                    <li><a href="/en/">Home</a></li>
+                    <li><a href="/en/about">About me</a></li>
+                    <li><a href="/en/projects">Projects</a></li>
+                    <li><a href="/en/books">Books</a></li>
+                    <li><a href="https://blog.geheimesite.nl/en">Blog</a></li>
+                </ul>
+            </nav>
+        </header>
         <main id="content" class="page-content mt-0 md:mt-6">
             <section>
                 <h1>Blog statistics</h1>

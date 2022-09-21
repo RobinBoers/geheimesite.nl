@@ -89,7 +89,7 @@
 
                 <p>My blog consists of three static <a href="https://gohugo.io">hugo</a> sites, which I build and deploy using a simple bash script and GitHub actions. I developed my own hugo theme with IndieWeb support, based on <a href="https://neofeed.dev">neofeed</a>.</p>
 
-                <p>I built my own barebones statistics tracker. It tracks visits, not views, per post. The results are <a href="/api/views/stats">publicly available</a> can be filtered per month and are shown in a simple graph that I built using Chart.js.</p>
+                <p>I built my own barebones statistics tracker. It tracks visits, not views, per post. The results are <a href="/blog/stats">publicly available</a> can be filtered per month and are shown in a simple graph that I built using Chart.js.</p>
             </section>
 
             <section>
