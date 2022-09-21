@@ -70,7 +70,7 @@
                     <p>
                         More about me: people sometimes call me <span class="u-nickname">Robijntje</span> and I live in the <span class="p-region">Netherlands</span>. I currently work at <span class="">Qdentity</span> as <span class="p-job-title">Junior Developer</span>. You can find me and my projects at <a href="https://geheimesite.nl" rel="me" class="u-url">geheimesite.nl</a>. If you need to reach me you can contact me at <span class="u-email">hello@geheimesite.nl</span>.
                     </p>
-                    <img src="/assets/images/me.jpeg" alt="Robin Boers" class="u-photo" />
+                    <img src="/assets/images/me_optimized.jpeg" alt="Robin Boers" class="u-photo" />
                 </div>
             </article>
 
