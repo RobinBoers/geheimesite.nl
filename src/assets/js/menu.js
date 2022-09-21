@@ -1,6 +1,6 @@
 button = document.querySelector(".menu-button");
 menu = document.querySelector(".menu");
-nav = document.querySelector(".pageheader nav")
+nav = document.querySelector(".pageheader nav");
 
 button.addEventListener("click", () => {
     toggleMenu();

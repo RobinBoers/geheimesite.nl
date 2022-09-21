@@ -1,5 +1,5 @@
 function withOpacityValue(variable) {
-    return ({ opacityValue }) => {
+    return ({opacityValue}) => {
         if (opacityValue === undefined) {
             return `rgb(var(${variable}))`;
         }
@@ -9,7 +9,13 @@ function withOpacityValue(variable) {
 
 module.exports = {
     mode: "jit",
-    content: ["./*.{php,html,js,shtml}", "./en/*.{php,html,js,shtml}", "./assets/js/*.js", "./projects/*.{php,html}", "./website/overview.php"],
+    content: [
+        "./*.{php,html,js,shtml}",
+        "./en/*.{php,html,js,shtml}",
+        "./assets/js/*.js",
+        "./projects/*.{php,html}",
+        "./website/overview.php",
+    ],
     theme: {
         colors: {
             slate: "#111121",
@@ -25,7 +31,16 @@ module.exports = {
                 fira: ["Fira Sans Condensed", "sans-serif"],
                 serif: ["Merriweather", "Georgia", "serif"],
                 display: ["Bungee Shade", "sans-serif"],
-                mono: ["ui-monospace", "DejaVu LGC Sans Code", "DejaVu Sans Code", "DejaVu Sans Mono",  "Cascadia Code", "Droid Sans Mono", "SFMono-Regular", "monospace"],
+                mono: [
+                    "ui-monospace",
+                    "DejaVu LGC Sans Code",
+                    "DejaVu Sans Code",
+                    "DejaVu Sans Mono",
+                    "Cascadia Code",
+                    "Droid Sans Mono",
+                    "SFMono-Regular",
+                    "monospace",
+                ],
             },
             backgroundImage: {
                 "md-mark": "url('../assets/images/md-mark.svg')",
@@ -36,9 +51,7 @@ module.exports = {
             },
         },
     },
-    plugins: [
-        require('tailwindcss-opentype')
-    ],
+    plugins: [require("tailwindcss-opentype")],
     corePlugins: {
         preflight: false,
     },

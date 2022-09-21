@@ -12,12 +12,18 @@ function loadFeed(url) {
             blogContent += `
                 <article class="h-entry md">
                     <h1 class="p-name mb-0">
-                        <a class="no-underline hover:bg-vibrant" href="${post.uri}">${post.title}</a>
+                        <a class="no-underline hover:bg-vibrant" href="${
+                            post.uri
+                        }">${post.title}</a>
                     </h1>
                     <p class="italic">
-                        Geschreven door <span class="p-author">Robin Boers</span> op <span class="dt-published">${convertDateToString(post.date)}</span>
+                        Geschreven door <span class="p-author">Robin Boers</span> op <span class="dt-published">${convertDateToString(
+                            post.date
+                        )}</span>
                     </p>
-                    <p id="p-summary e-content">${getSummaryForText(post.content)}</p>
+                    <p id="p-summary e-content">${getSummaryForText(
+                        post.content
+                    )}</p>
                 </article>
             `;
         });
@@ -41,7 +47,7 @@ function getSummaryForText(text) {
     words = text.split(" ");
 
     if (words.length > summaryLength) {
-        return words.slice(0, summaryLength).join(' ') + "...";
+        return words.slice(0, summaryLength).join(" ") + "...";
     } else {
         return text;
     }
@@ -59,4 +65,17 @@ function convertDateToString(date) {
 
 window.onload = init();
 
-const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+];

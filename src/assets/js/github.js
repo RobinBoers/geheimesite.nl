@@ -38,7 +38,7 @@ function generateBlacklist() {
         "school",
         "sway-gnome",
         "ubit-remote-ultra-super-car-controller",
-        ""
+        "",
     ];
 }
 
@@ -95,8 +95,8 @@ function makeRequest(url) {
 
 function repoData(username, callback) {
     fetch(`https://api.github.com/users/${username}/repos?per_page=100`)
-        .then(response => response.json())
-        .then(repoData => callback(repoData));
+        .then((response) => response.json())
+        .then((repoData) => callback(repoData));
 }
 
 function sortRepos(repos) {
@@ -136,8 +136,14 @@ function generateImage(repo, username) {
     let image = document.createElement("img");
     // image.setAttribute("src",
     //     `https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo}`);
-    image.setAttribute("src", `https://raw.githubusercontent.com/${username}/${repo}/master/screenshot.png`);
-    image.setAttribute("onerror", `this.src="https://via.placeholder.com/160x80.png?text=View on GitHub"`);
+    image.setAttribute(
+        "src",
+        `https://raw.githubusercontent.com/${username}/${repo}/master/screenshot.png`
+    );
+    image.setAttribute(
+        "onerror",
+        `this.src="https://via.placeholder.com/160x80.png?text=View on GitHub"`
+    );
     image.setAttribute("alt", repo);
 
     return image;

@@ -3,7 +3,20 @@ let postContent = new Array();
 let postUrl = new Array();
 let postDate = new Array();
 
-let months = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"];
+let months = [
+    "januari",
+    "februari",
+    "maart",
+    "april",
+    "mei",
+    "juni",
+    "juli",
+    "augustus",
+    "september",
+    "oktober",
+    "november",
+    "december",
+];
 
 let feedSize = 0;
 
@@ -13,14 +26,14 @@ function callback(apiData) {
             let feedSize = apiData.feed.entry.length;
             for (let i = 0; i < feedSize; i++) {
                 let post = apiData.feed.entry[i];
-                console.log(post)
+                console.log(post);
 
                 var p = post.published.$t.substring(5, 7);
 
                 for (var f = 0; f < post.link.length; f++) {
                     if (post.link[f].rel == "alternate") {
                         postUrl.push(post.link[f].href);
-                        break
+                        break;
                     }
                 }
 
@@ -28,7 +41,9 @@ function callback(apiData) {
                 let postDateMonth = months[parseInt(p, 10) - 1];
                 let postDateYear = post.published.$t.substring(0, 4);
 
-                postDate.push(`${postDateDay} ${postDateMonth} ${postDateYear}`);
+                postDate.push(
+                    `${postDateDay} ${postDateMonth} ${postDateYear}`
+                );
 
                 postTitle.push(post.title.$t);
                 postContent.push(post.content.$t);
@@ -39,7 +54,7 @@ function callback(apiData) {
     function display() {
         let postCount = postTitle.length;
         var currentPost = 0;
-        while (currentPost < postCount) {        
+        while (currentPost < postCount) {
             document.write(`
                 <article class="post mt-10">
                     <div class="text-center my-7 max-w-xl mx-auto">
@@ -54,12 +69,11 @@ function callback(apiData) {
     
                 <hr class="my-7 border-none">
             `);
-    
-            currentPost++
+
+            currentPost++;
         }
     }
-    
+
     load();
     display();
 }
-
