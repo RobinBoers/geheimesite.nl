@@ -5,8 +5,21 @@
 
     <title>{{ .Page.Title }} — geheimesite.nl | {{ .Site.Title }}</title>
 
-    <link rel="stylesheet" href="/assets/css/main.css" />
-    <script defer src="/assets/js/menu.js"></script>
+    {{ $css := resources.Get "css/main.css" | resources.Minify |
+    resources.Fingerprint }}
+    <link
+        rel="stylesheet"
+        href="{{ $css.Permalink }}"
+        integrity="{{ $css.Data.Integrity }}"
+        title="default" />
+
+    {{ $js := resources.Get "js/menu.js" | resources.Minify |
+    resources.Fingerprint }}
+    <script
+        defer
+        type="text/javascript"
+        src="{{ $js.Permalink }}"
+        integrity="{{ $js.Data.Integrity }}"></script>
 
     {{ with .Page.Params.hideFromGoogle }}
     <!-- Prevent search engines from indexing -->

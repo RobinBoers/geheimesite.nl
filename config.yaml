@@ -18,7 +18,7 @@ minify:
 
 languages:
     nl:
-        contentDir: content/nl
+        contentDir: src/content/nl
         languageName: Nederlands
         languageCode: nl
         copyright: Webdesigner en Elixir programmeur sinds 2017.
@@ -43,7 +43,7 @@ languages:
                   weight: 4
 
     en:
-        contentDir: content/en
+        contentDir: src/content/en
         languageName: English
         languageCode: en
         copyright: Webdesigner and Elixir programmer since 2017.

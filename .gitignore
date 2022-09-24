@@ -5,5 +5,5 @@ hugo_stats.json
 /.hugo_build.lock
 
 /**/node_modules
-/static/assets/css/main.css
+/src/assets/css/main.css
 .vscode
