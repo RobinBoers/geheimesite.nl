@@ -1,13 +1,13 @@
 <section>
     <h1 class="mb-0">
         <dfn class="not-italic">{{ .Get "word" }}</dfn>
-        <span class="font-normal text-base font-sans">/ˈ{{ .Get "pronunciation" }}/</span>
+        <span class="font-normal text-base font-sans"
+            >/ˈ{{ .Get "pronunciation" }}/</span
+        >
     </h1>
     <p class="font-bold mb-1">{{ .Get "type" }}</p>
 
     <ol>
-        <li>
-            {{ .Get "definition" }}
-        </li>
+        <li>{{ .Get "definition" }}</li>
     </ol>
 </section>
