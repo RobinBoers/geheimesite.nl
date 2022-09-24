@@ -3,12 +3,13 @@ title: Robin Boers
 defaultContentLanguage: nl
 timeZone: Europe/Amsterdam
 enableEmoji: true
-enableRobotsTXT: true
+theme: spockle
 
 assetDir: src/assets
 layoutsDir: src/layouts
 contentDir: src/content
 dataDir: src/data
+themesDir: src/themes
 publishDir: dist
 
 minify:
@@ -71,9 +72,11 @@ markup:
         renderer:
             unsafe: true
 
+enableRobotsTXT: false
 disableHugoGeneratorInject: true
 disableKinds:
     - sitemap
     - RSS
     - section
+    - term
     - taxonomy
