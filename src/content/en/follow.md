@@ -11,6 +11,8 @@ I don't like social media. Actually, [I hate it](https://blog.geheimesite.nl/202
 -   [Robijntje's neolog](https://micro.geheimesite.nl/feed) <small>(microblog, english)</small>
 -   [Stupid Codes](https://blog.geheimesite.nl/stupid-codes/index.xml) <small>(feed with programming tips, inactive, english)</small>
 
+{{< hr >}}
+
 ## What is RSS?
 
 RSS is like your facebook feed, but instead of an algorithm deciding what to show you, you choose which feeds to subscribe to. That means it is fully in your control: no ads, no snooping.

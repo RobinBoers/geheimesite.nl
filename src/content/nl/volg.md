@@ -10,6 +10,8 @@ Ik houd niet van social media. Nee, eigenlijk heb ik er een [hekel aan](https://
 -   [Robijntje's neolog](https://micro.geheimesite.nl/feed) <small>(microblog, engels)</small>
 -   [Stupid Codes](https://blog.geheimesite.nl/stupid-codes/index.xml) <small>(feed programmeertips, inactief, engels)</small>
 
+{{< hr >}}
+
 ## Wat is RSS?
 
 RSS is net zoals je Facebook feed, maar inplaatsvan dat een algoritme besluit wat je te zien krijgt kies jij op welke feed je abboneert. Dat betekent dat je zelf volledige controle over je feed hebt: geen advertenties, geen pottenkijkers.
