@@ -1,9 +1,9 @@
+/dist/
+/src/resources/_gen/
+/src/assets/jsconfig.json
+hugo_stats.json
+/.hugo_build.lock
+
 /**/node_modules
 /static/assets/css/main.css
 .vscode
-
-/public/
-/resources/_gen/
-/assets/jsconfig.json
-hugo_stats.json
-/.hugo_build.lock

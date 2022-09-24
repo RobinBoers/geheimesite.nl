@@ -30,6 +30,7 @@ Redirect /feed https://blog.geheimesite.nl/index.xml
 Redirect /neolog https://micro.geheimesite.nl
 Redirect /github https://github.com/RobinBoers
 Redirect /school https://docs.geheimesite.nl/school
+Redirect /subscriptions /subscriptions.opml
 
 # Fix old assets directory URIs
 Redirect 301 /css/ /assets/css

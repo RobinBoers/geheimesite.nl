@@ -5,6 +5,12 @@ timeZone: Europe/Amsterdam
 enableEmoji: true
 enableRobotsTXT: true
 
+assetDir: src/assets
+layoutsDir: src/layouts
+contentDir: src/content
+dataDir: src/data
+publishDir: dist
+
 minify:
     disableHTML: true
     minifyOutput: true
@@ -14,8 +20,7 @@ languages:
         contentDir: content/nl
         languageName: Nederlands
         languageCode: nl
-        params:
-            copyright: Webdesigner en Elixir programmeur sinds 2017.
+        copyright: Webdesigner en Elixir programmeur sinds 2017.
         menu:
             main:
                 - identifier: blog
@@ -40,8 +45,7 @@ languages:
         contentDir: content/en
         languageName: English
         languageCode: en
-        params:
-            copyright: Webdesigner and Elixir programmer since 2017.
+        copyright: Webdesigner and Elixir programmer since 2017.
         menu:
             main:
                 - identifier: blog
@@ -67,6 +71,9 @@ markup:
         renderer:
             unsafe: true
 
+disableHugoGeneratorInject: true
 disableKinds:
     - sitemap
     - RSS
+    - section
+    - taxonomy
