@@ -1,2 +1,3 @@
-src/website/v/**/*
-blog/stats.php
+static/website/v/**/*
+public/**/*.css
+public/**/*.js

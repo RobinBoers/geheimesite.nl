@@ -1,0 +1,3 @@
+<p classs='supplement{{ with .Get "class" }} {{ . }}{{ end}}'>
+    {{ .Inner | markdownify }}
+</p>

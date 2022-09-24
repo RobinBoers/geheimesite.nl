@@ -1,0 +1,37 @@
+<style>
+    .project-grid li a img {
+        aspect-ratio: initial !important;
+    }
+</style>
+
+{{ $id := .Get "shelve"}} 
+{{ $shelve := getJSON "https://api.geheimesite.nl/books/get.php?id=" $id }} 
+
+{{ if $shelve.items }} 
+
+{{ $all := getJSON "https://api.geheimesite.nl/books/get.php?id=5568" }}
+{{ $total_books := (add (len $all.items)  30)}} 
+
+{{ with .Get "title" }}
+<h2>{{ . }}</h2>
+{{ end }} 
+
+{{ with .Get "description" }}
+<p>{{ replace . "{count}" $total_books | markdownify }}</p>
+{{ end }}
+
+<ul class="project-grid">
+    {{ range $shelve.items }}
+    <li>
+        <h3>{{ .title }}</h3>
+
+        <a href="{{ .url }}">
+            <img
+                src="{{ .image }}"
+                onerror="this.src = '/assets/images/content/not-available.jpg'"
+                alt="{{ .title }}" />
+        </a>
+    </li>
+    {{ end }}
+</ul>
+{{ end}}

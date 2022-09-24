@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    {{- partial "head.html" . -}}
+    <body>
+        <a class="skip-nav" href="#content">Skip navigation</a>
+        <header class="min-h-[5rem] flex items-center pl-12">
+            <nav>
+                <a href="/en/">❮ Back</a>
+            </nav>
+        </header>
+
+        <main id="content" class="flex-grow">
+            {{ $.Content }}
+        </main>
+
+        {{- partial "footer.html" . -}}
+    </body>
+</html>
