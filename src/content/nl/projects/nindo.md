@@ -31,7 +31,7 @@ Bij het derde en laaste redesign gebruikte ik [de social media template van W3Sc
 {{< update title="DGAW WEER ONLINE" date="October 21, 2019" >}}
 De DGAW is weer online! Het heeft nu een andere naam: Nindo. Je kunt er nog steeds openbare berichten plaatsen, en prive berichten versturen. Maar je kunt nu ook afbeeldingen aan je berichten toevoegen met Nindo Images, en je kunt berichten liken. Je kunt nog steeds inloggen met een geheimesite account. Wil je het zien? Kijk dan eens hier:
 
-[Inloggen](/account/inloggen.php) | [Nindo](/website/nindo)
+[Inloggen](/website/nindo) | [Nindo](/website/nindo)
 {{< / update >}}
 
 Ik heb daarna nog veel dingen toegevoegd: likes, images in posts, profielfotos, chat (logische versie van DMs) en friends. Ik heb ook twee versies van de webapp gehad, waarbij ik gebruik maakte van de PWAs.
@@ -43,7 +43,7 @@ Grote update! Ik heb de laatste tijd hard gewerkt aan Nindo, en ik ben trots om 
 2.  Er is weer een Nindo webapp!
 
 Je vind ze allebei in je Nindo/geheimesite-account dashboard.  
-[Naar je dashboard](/account)
+[Naar je dashboard](/website/nindo)
 {{< / update >}}
 
 {{< figure src="/assets/images/projects/nindo.png" alt="'Modern' herontwerp op basis van de W3Schools social media template" caption="Redesign met meer functies" >}}

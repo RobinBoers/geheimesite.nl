@@ -62,7 +62,6 @@ VSCode also syncs my setup across machines using settings sync with my GitHub ac
 
 -   [Auto close tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) - closes HTML and XML tags
 -   [Auto rename tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) - rename tags easier
--   [Bracket pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) - makes reading code with a lot of brackets easier
 -   [colorize](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize) - makes colors in text colored
 -   [CopyPasta](https://marketplace.visualstudio.com/items?itemName=makman12.copypasta) (my [fork](https://github.com/RobinBoers/CopyPasta)) - pulls stuff from StackOverflow (GitHub copilot at home :joy:)
 -   [ElixirLS](https://marketplace.visualstudio.com/items?itemName=JakeBecker.elixir-ls) - elixir language support
@@ -85,7 +84,7 @@ I like my editor, like most programmers, to be dark. My favorite dark themes are
 -   [GitHub Dark](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme).  
     This is the old GitHub dark theme for VSCode. The new one is called GitHub Dark Default.
 
-I also like [Ayu dark](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu), [Tokyo Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night) and [Ayu Light](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu), but rarely use light mode. For file icons is use [vscode-icons](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-icons), and for product icons I use [Fluent icons](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons).
+I also like [Ayu dark](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu), [Tokyo Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night) and [Ayu Light](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu), but rarely use light mode. For file icons is use [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons), and for product icons I use [Fluent icons](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons).
 
 My favorite font is [DejaVu Sans Mono](https://github.com/dejavu-fonts/dejavu-fonts). For VSCode I'm using a version called [DejaVu Sans Code](https://github.com/SSNikolaevich/DejaVuSansCode), which has ligatures support.
 

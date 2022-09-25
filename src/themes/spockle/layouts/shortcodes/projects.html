@@ -1,17 +1,19 @@
 <ul class="project-grid">
     {{ $projects := getJSON
-    "https://api.github.com/users/RobinBoers/repos?per_page=500" }} {{ range
-    sort $projects "forks" "desc" }} {{ if (and (not .archived) (not .fork) (not
-    (in $.Site.Data.projects.blacklist .name))) }}
-    <li>
-        <h3>{{ .name }}</h3>
+    "https://api.github.com/users/RobinBoers/repos?per_page=500" }} 
+    
+    {{ range sort $projects "forks" "desc" }} 
+        {{ if (and (not .archived) (not .fork) (not (in $.Site.Data.projects.blacklist .name))) }}
+            <li>
+                <h3>{{ .name }}</h3>
 
-        <a href="{{ with .homepage }}{{ . }}{{ else }}{{ .html_url }}{{ end }}">
-            <img
-                src="https://raw.githubusercontent.com/RobinBoers/{{ .name }}/master/screenshot.png"
-                onerror="this.src = 'https://via.placeholder.com/160x80.png?text=View%20on%20GitHub'"
-                alt="{{ .name }}" />
-        </a>
-    </li>
-    {{ end }} {{ end }}
+                <a href="{{ with .homepage }}{{ . }}{{ else }}{{ .html_url }}{{ end }}">
+                    <img
+                        src="https://raw.githubusercontent.com/RobinBoers/{{ .name }}/master/screenshot.png"
+                        onerror="this.src = 'https://via.placeholder.com/160x80.png?text=View%20on%20GitHub'"
+                        alt="{{ .name }}" />
+                </a>
+            </li>
+        {{ end }} 
+    {{ end }}
 </ul>

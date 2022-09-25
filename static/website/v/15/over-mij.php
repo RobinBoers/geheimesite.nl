@@ -59,7 +59,7 @@
             <section>
                 <h2>Hoe ik in aanraking ben gekomen met programmeren</h2>
                 <p>
-                    Ik programmeer al sinds groep 7 (2017). Ik ben ermee begonnen omdat ik in de bieb een boek zag staan over website's maken. Nu moet je weten dat ik al sinds groep 4 zo'n computernerd was, die van elk knopje wist wat het deed. Het boek heette <a href="https://www.nano-tips.com/">Creeëren met code: Zo maak je een website</a>. Dus ik maakte een website, die eind 2017 online kwam. Ik hield enorm veel van geheim agenten, dus de eerste versies (tot versie 9) gingen daar ook over. Je kunt die versies in mijn <a href="/website/overview">Website Library</a> zien.
+                    Ik programmeer al sinds groep 7 (2017). Ik ben ermee begonnen omdat ik in de bieb een boek zag staan over website's maken. Nu moet je weten dat ik al sinds groep 4 zo'n computernerd was, die van elk knopje wist wat het deed. Het boek heette <a href="http://www.nano-tips.com/">Creeëren met code: Zo maak je een website</a>. Dus ik maakte een website, die eind 2017 online kwam. Ik hield enorm veel van geheim agenten, dus de eerste versies (tot versie 9) gingen daar ook over. Je kunt die versies in mijn <a href="/website/overview">Website Library</a> zien.
                 </p>
                 <p>
                     Nadat ik mijn eerste website had gemaakt ben ik naar CoderDojo gegaan. Dat is een soort bijeenkomst die hier in Maassluis om de vier weken is, waar kinderen kunnen leren programmeren, en elkaar daarbij kunnen helpen. Ik heb op CoderDojo geleerd hoe PHP en databases werken, waarmee ik wat gave dingen heb gebouwd.

@@ -1,0 +1,53 @@
+<h2 class="hidden">Wall of badges</h2>
+<img src="/assets/images/badges/sucks2.gif" alt="This site SUCKS!" />
+<a href="https://theoldnet.com/#frombadge">
+    <img
+        src="https://theoldnet.com/assets/images/theoldnetanimblur2.gif"
+        alt="The Old Net" />
+</a>
+<a href="https://neocities.org">
+    <img src="/assets/images/badges/neocitiesbutton.gif" alt="Neocities" />
+</a>
+<img src="/assets/images/badges/wwwbutton.gif" alt="The World Wide Web" />
+<img src="/assets/images/badges/invalidator.png" alt="This is invalid HTML" />
+<img
+    src="/assets/images/badges/best_viewed_with_eyes.gif"
+    alt="This site is best viewed using eyes" />
+<a href="https://yesterweb.org/no-to-web3/">
+    <img
+        src="/assets/images/badges/noweb32.gif"
+        alt="Keep the web free, stop web3" />
+</a>
+<a href="https://neocities.org">
+    <img src="/assets/images/badges/neocities_button.gif" alt="Neocities" />
+</a>
+<img
+    src="https://www.w3.org/html/logo/downloads/HTML5_sticker.svg"
+    alt="HTML5 FTW!" />
+<img src="https://www.w3.org/Icons/valid-svg12" alt="This is a valid SVG" />
+<img
+    src="https://www.w3.org/Icons/valid-css2-blue"
+    alt="This is built using valid CSS" />
+<img src="/assets/images/badges/nft.gif" alt="NFT? No fucking thanks." />
+<img
+    src="https://www.w3.org/Icons/SVG/Buttons/svg-w3c-orange.svg"
+    alt="W3C SVG" />
+<img src="/assets/images/badges/GeoCitiesBadge2.gif" alt="Geocities" />
+<a href="http://www.hat.net/abs/noclick/">
+    <img
+        src="/assets/images/badges/noclick.gif"
+        alt="Dont click here!"
+        title="Dont click here!" />
+</a>
+<img src="/assets/images/badges/didnt-ask.gif" alt="When. Did. I. Ask. " />
+
+<script>
+    /* Only display wall of badges when it is april fools */
+    function isAprilFools() {
+        var now = new Date();
+        return now.getMonth() == 3 && now.getDate() == 1;
+    }
+
+    let badgesWall = document.querySelector(".badges");
+    if (isAprilFools()) badgesWall.classList.toggle("hidden");
+</script>

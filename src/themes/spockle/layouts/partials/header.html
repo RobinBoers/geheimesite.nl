@@ -13,7 +13,7 @@
             $currentPage.IsMenuCurrent "main" . }}
             <li class="selected">{{ .Name }}</li>
             {{ else }}
-            <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
             {{ end }} {{ end }}
         </ul>
     </nav>

@@ -78,9 +78,9 @@
                     $currentPage.IsMenuCurrent "main" . }}
                     <li class="selected">{{ .Name }}</li>
                     {{ else }}
-                    <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+                    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
                     {{ end }} {{ end }} {{ range .Site.Menus.homepage }}
-                    <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+                    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
                     {{ end }}
                 </ul>
             </nav>
@@ -136,6 +136,10 @@
 
             <article class="homepage-section socials">
                 {{ partial "socials" }}
+            </article>
+
+            <article class="homepage-section badges hidden" hidden>
+                {{ partial "wall-of-badges" }}
             </article>
 
             <article class="homepage-section h-feed">

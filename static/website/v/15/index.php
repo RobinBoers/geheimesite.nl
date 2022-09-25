@@ -132,7 +132,7 @@
             <a href="https://theoldnet.com/#frombadge">
                 <img src="https://theoldnet.com/assets/images/theoldnetanimblur2.gif" alt="The Old Net" />
             </a>
-            <a href="https://neocities.com">
+            <a href="https://neocities.org">
                 <img src="/assets/images/badges/neocitiesbutton.gif" alt="Neocities" />
             </a>
             <img src="/assets/images/badges/wwwbutton.gif" alt="The World Wide Web" />
@@ -141,7 +141,7 @@
             <a href="https://yesterweb.org/no-to-web3/">
                 <img src="/assets/images/badges/noweb32.gif" alt="Keep the web free, stop web3" />
             </a>
-            <a href="https://neocities.com">
+            <a href="https://neocities.org">
                 <img src="/assets/images/badges/neocities_button.gif" alt="Neocities" />
             </a>
             <img src="https://www.w3.org/html/logo/downloads/HTML5_sticker.svg" alt="HTML5 FTW!" />
