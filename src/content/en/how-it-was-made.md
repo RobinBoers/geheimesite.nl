@@ -62,7 +62,9 @@ The books page works similarly. It pulls the books from [Micro.blog](https://mic
 
 ## Open-source
 
-I open-sourced most of my website, and like my other projects, it can be found on my [GitHub profile](https://github.com/RobinBoers/geheimesite.nl). I haven't yet decided on the license I'll use for my main site and my blog.
+I open-sourced most of my website, and like my other projects, it can be found on my [GitHub profile](https://github.com/RobinBoers/geheimesite.nl).
+
+I haven't yet decided on the license. I want to open-source my site properly, but I also don't want sites that look a lot like mine out there. In short, I'm fine with people using my code for their site, as long as it looks different and isn't just straight up a copy of mine. I also don't want any commercial or patented use. If you know the proper license, please contact me at [hello@geheimesite.nl](mailto:hello@geheimesite.nl).
 
 I've also open-sourced the blogging software I built for [my neolog](https://micro.geheimesite.nl), called neopub. It can be found here: [github.com/neopublished/neopub](https://github.com/neopublished/neopub). It is licensed under the Apache License 2.0.
 
@@ -70,7 +72,7 @@ I've also open-sourced the blogging software I built for [my neolog](https://mic
 
 For CI/CD I'm using GitHub actions since all of my code is also hosted on GitHub. I know GitHub isn't open-source and I should probably use Gitea or GitLab, but you know, old habits.
 
-All projects that have documentation hosted using GitHub pages (on docs.geheimesite.nl) have CD to build and deploy new docs on push to the master branch. My website and neolog are being deployed using FTP-Deploy-Action.
+All projects that have documentation hosted using GitHub pages (on docs.geheimesite.nl) have CD to build and deploy new docs on push to the master branch. My website and neolog are being deployed using [FTP-Deploy-Action](https://github.com/marketplace/actions/ftp-deploy).
 
 {{< hr >}}
 
