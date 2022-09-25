@@ -18,6 +18,7 @@ cp -r ./src/assets/images ./dist/assets/images
 echo "Cleaning up build artifacts..."
 rm -rf dist/nl
 rm -rf dist/en/404.html
+rm -rf dist/README.md
 mv dist/js dist/assets/js
 mv dist/css dist/assets/css
 mv dist/404.html dist/404.shtml

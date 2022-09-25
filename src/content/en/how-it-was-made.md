@@ -17,15 +17,15 @@ This page provides an insight into the development and design process of buildin
 
 Some of you might think I built this using some frontend framework like React, Svelte, Phoenix, or Ruby on Rails. But no.
 
-This website is actually fully handcoded HTML with some PHP for extra magic. I chose to handcode it since it gives me more control over the look and feel of the site. I prefer this over the framework approach.
+This site used to be handcoded, but [since Semtembre 2022](https://github.com/RobinBoers/geheimesite.nl/pull/3) I converted it to [Hugo](https://gohugo.io), a static site generator. This reduces code replication, but I do file like hugo is a boilerplatery, so I did consider converting it again, to 11ty (who knows, I've proven I apparently have to much free time).
 
-I do use [tailwind](https://tailwindcss.com) for the styling. We use it over at Qdentity, and I got so used to it that I decided to also use it for my own site. It allows me to quickly style things in the DOM without UGLY style attributes. It also allows me to write shorter, more expressive CSS files. I enjoy it.
+I use [tailwind](https://tailwindcss.com) for the styling. We use it over at Qdentity, and I got so used to it that I decided to also use it for my own site. It allows me to quickly style things in the DOM without UGLY style attributes. It also allows me to write shorter, more expressive CSS files. I enjoy it.
 
 I have a [.htaccess](https://github.com/RobinBoers/geheimesite.nl/blob/master/src/.htaccess) file that handles all the routing for fancy URLs. It removes the file extension, redirects some stuff, and is just overall pretty Poggers.
 
 ## Development
 
-I have [a script that launches a local PHP webserver and starts a tailwind process that watches the files](https://github.com/RobinBoers/geheimesite.nl/blob/master/server.sh). I call that script in npm start. I also have [a script that just builds the CSS files using tailwind](https://github.com/RobinBoers/geheimesite.nl/blob/master/build.sh), which I can call during deployment.
+I have a script that starts a tailwind process that watches files and a local hugo server for development. I also have a script to build the site and then check it for dead links, validate the HTML, and format it which I use in a GitHub action.
 
 ## Hosting
 
@@ -54,11 +54,11 @@ I built my own barebones statistics tracker. It tracks visits, not views, per po
 
 ## Dynamic pages & APIs
 
-The projects and books pages are both dynamic. That means as soon as the page is loaded by the user a JS script in the background pulls in the content. Why you ask? Well, that means I can be lazy and don't have to update my site every time I create a new project or read a new book.
+The projects and books pages are both dynamic. That means when the site is deployed using GitHub actions it pulls the latest content from GitHub and Micro.blog to populate the pages. Why you ask? Well, that means I can be lazy and don't have to update my site every time I create a new project or read a new book.
 
-The projects page pulls my repositories from my GitHub account using the GitHub API. The thumbnails shown are screenshot.png files at the root of each project's repository. If there is no such file I display a default empty one using [placeholder.com](https://placeholder.com). The source code for the script can be found here: [`github.js`](https://geheimesite.nl/assets/js/github.js)
+The projects page pulls my repositories from my GitHub account using the GitHub API. The thumbnails shown are screenshot.png files at the root of each project's repository. If there is no such file I display a default empty one using [placeholder.com](https://placeholder.com).
 
-The books page works similarly. It pulls the books from [Micro.blog](https://micro.blog) bookshelves. The source code for that script can be found here: [`bookshelves.js`](https://geheimesite.nl/assets/js/bookshelves.js). The problem is that the microblog API requires an access token to get access to the bookshelves, but doesn't allow scopes. That means the token can get access to my entire account, including the ability to comment and post. That's why I built [my own wrapper around the Micro.blog API](https://github.com/RobinBoers/geheimesite.nl/blob/master/src/api/books/README.md), that hides the token for me.
+The books page works similarly. It pulls the books from [Micro.blog](https://micro.blog) bookshelves. The problem is that the microblog API requires an access token to get access to the bookshelves, but doesn't allow scopes. That means the token can get access to my entire account, including the ability to comment and post. That's why I built [my own wrapper around the Micro.blog API](https://github.com/RobinBoers/api.geheimesite.nl/blob/master/books/README.md), that hides the token for me.
 
 ## Open-source
 

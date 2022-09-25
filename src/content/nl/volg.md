@@ -24,7 +24,7 @@ Ik kan proberen uit te leggen hoe RSS werkt, maar ik denk dat Nicky Case dat een
 
 ## Als je **echt** van email houdt...
 
-Luister, ik begrijp het volledig als je liever gewoon een mailtje in je inbox wil ipv helemaal RSS op te zetten voor alleen mijn blog. Dat is waarom ik ook een Follow.it feed heb waar je je via email op kan abboneren.
+Luister, ik begrijp het volledig als je liever gewoon een mailtje in je inbox wil ipv helemaal RSS op te zetten voor alleen mijn blog. Dat is waarom ik ook een Follow.it feed heb waar je je via email op kan abonneren.
 
 {{< subscribe-form >}}
 

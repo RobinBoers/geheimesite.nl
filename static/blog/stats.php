@@ -34,7 +34,7 @@
         </script>
 
         <?php
-            include "../api/connection.php";
+            include "connection.php";
 
             $current_month = date('Y-m-01');
             $monthly_query = "SELECT * FROM viewcount WHERE month='$current_month'";
