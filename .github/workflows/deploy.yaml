@@ -35,4 +35,5 @@ jobs:
                   username: ${{ secrets.FTP_USERNAME }}
                   password: ${{ secrets.FTP_PASSWORD }}
                   server-dir: domains/geheimesite.nl/public_html/
-                  local-dir: ./src/
+                  local-dir: ./dist/
+                  dry-run: true
