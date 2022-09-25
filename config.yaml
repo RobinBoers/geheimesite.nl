@@ -29,6 +29,10 @@ languages:
                   url: https://blog.geheimesite.nl
                   weight: 6
             homepage:
+                - identifier: hyperfeed
+                  name: Hyperfeed
+                  url: /hyperfeed
+                  weight: 1
                 - identifier: neolog
                   name: Neolog
                   url: https://micro.geheimesite.nl

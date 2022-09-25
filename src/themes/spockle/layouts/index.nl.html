@@ -10,7 +10,7 @@
         resources.Fingerprint }}
         <link
             rel="stylesheet"
-            href="{{ $css.Permalink }}"
+            href="/assets{{ $css.RelPermalink }}"
             integrity="{{ $css.Data.Integrity }}"
             title="default" />
 
@@ -19,7 +19,7 @@
         <script
             defer
             type="text/javascript"
-            src="{{ $js.Permalink }}"
+            src="/assets{{ $js.RelPermalink }}"
             integrity="{{ $js.Data.Integrity }}"></script>
 
         <link rel="alternate" hreflang="en" href="https://geheimesite.nl/en/" />

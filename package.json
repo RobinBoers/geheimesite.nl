@@ -8,7 +8,8 @@
     "scripts": {
         "start": "./server.sh",
         "build": "./build.sh",
-        "check": "./validate.sh"
+        "check": "./validate.sh",
+        "dev": "./testbuild.sh"
     },
     "repository": {
         "type": "git",
