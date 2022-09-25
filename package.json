@@ -9,7 +9,8 @@
         "start": "./server.sh",
         "build": "./build.sh",
         "check": "./validate.sh",
-        "dev": "./testbuild.sh"
+        "dev": "./testbuild.sh",
+        "format": "prettier --write ."
     },
     "repository": {
         "type": "git",
@@ -31,6 +32,7 @@
     "dependencies": {},
     "devDependencies": {
         "tailwindcss": "^3.0.22",
-        "tailwindcss-opentype": "^1.0.0"
+        "tailwindcss-opentype": "^1.0.0",
+        "prettier": "^2.7.1"
     }
 }
