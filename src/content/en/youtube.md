@@ -8,7 +8,7 @@ hideTitle: true
     <h1 class="mb-0 font-serif">YouTube</h1>
     <p class="font-serif small-caps">How to train your algorithm</p>
     <p>
-        I watch a lot of YouTube. Actually, I watch too much YouTube. <storng class="bold">Way too much.</storng> But I try to spend my time watching YouTube learning new things. So, these are the best videos I've watched. If you want to train your algorithm or are just looking for some suggestions for science/computer videos, here you are:
+        I watch a lot of YouTube. Actually, I watch too much YouTube. <strong class="bold">Way too much.</strong> But I try to spend my time watching YouTube learning new things. So, these are the best videos I've watched. If you want to train your algorithm or are just looking for some suggestions for science/computer videos, here you are:
     </p>
 </section>
 
