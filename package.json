@@ -1,13 +1,16 @@
 {
     "name": "geheimesite.nl",
-    "version": "16.0.0",
+    "version": "16.2.0",
     "description": "My personal website",
     "author": "Robijntje",
     "homepage": "https://geheimesite.nl",
     "license": "UNLICENSED",
     "scripts": {
         "start": "./server.sh",
-        "build": "./build.sh"
+        "build": "./build.sh",
+        "check": "./validate.sh",
+        "dev": "./testbuild.sh",
+        "format": "prettier --write ."
     },
     "repository": {
         "type": "git",
@@ -29,6 +32,7 @@
     "dependencies": {},
     "devDependencies": {
         "tailwindcss": "^3.0.22",
-        "tailwindcss-opentype": "^1.0.0"
+        "tailwindcss-opentype": "^1.0.0",
+        "prettier": "^2.7.1"
     }
 }

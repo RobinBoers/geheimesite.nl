@@ -1,0 +1,11 @@
+<ul class="project-grid">
+    {{ range .Site.Data.projects.websites }}
+    <li>
+        <h3>{{ .name }}</h3>
+
+        <a href="{{ .url }}">
+            <img src="{{ .image }}" alt="{{ .name }}" />
+        </a>
+    </li>
+    {{ end }}
+</ul>

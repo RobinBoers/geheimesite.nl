@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" href="favicon/animated_favicon.gif" type="image/ico" >
+<title>Home Page</title>
+<link type="text/css" rel="stylesheet" href="css/mijn-eerste-stylesheet.css"/>
+<meta charset="utf-8"/>
+<style>
+footer p {
+font-size: 20px;    
+}
+.sidenavf.a {
+background-color:  #4CAF50;  
+}
+.sidenavf {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenavf a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenavf a:hover {
+    color: #f1f1f1;
+}
+
+.sidenavf .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenavf {padding-top: 15px;}
+  .sidenavf a {font-size: 18px;}
+}
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  left: 0;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Mega Menu header, if needed */
+.dropdown-content .header {
+  background: red;
+  padding: 16px;
+  color: white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  background-color: #ccc;
+  height: 250px;
+}
+
+/* Style links inside the columns */
+.column a {
+  float: none;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a background color on hover */
+.column a:hover {
+  background-color: #ddd;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+</style>
+</head>
+<body>
+<div class="navbar" id="myNavbar">
+<button class="dropbtn">Dropdown 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <div class="header">
+        <h2>All</h2>
+      </div> 
+      <div class="row">
+        <div class="column">
+          <h3>Games</h3>
+          <a href="spelletjessport.html">Sport</a>
+          <a href="spelletjespaarden">Paarden</a>
+          <a href="spelletjesrace">Race</a>
+          <a href="spelletjesoverig.html">Overig</a>
+        </div>
+        <div class="column">
+          <h3>Sterrenkruid</h3>
+          <a href="#">Staat nog niet online</a>
+          <a href="#">Home</a>
+        </div>
+        <div class="column">
+          <h3>Http://www.geheimesite.nl/</h3>
+          <a href="#">Home</a>
+          <a href="over-mij.html">Over mij</a>
+          <a href="about.html">About</a>
+          <a href="nieuwsarchief.html">News</a>
+          <a href="zo%20word%20je%20geheim%20agent.html">Tips</a>
+          <a href="geheimtaal.html">Geheime codes</a>
+        </div>
+      </div>
+    </div>
+    </div>
+<div id="mySidenavf" class="sidenavf">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;X</a>
+  <a href="about.html">About</a>
+  <a href="over-ons.html">Over ons</a>
+  <a href="nieuwsarchief.html">News</a>
+  <a href="zo word je geheim agent.html">Tips</a>
+  <a href="geheimtaal">Geheime codes</a>
+  <a href="zo word je geheim agent.html">Downloads</a>
+  <a href="spelletjes.html">Games</a>
+<a href="m.index.html">Mobiele Versie</a>
+</div>
+<h1 style="text-align: center;">welkom in het hoofdkwartier van de DDDD</h1>
+    
+<span style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+<div class="main">
+<p>Hallo wij zijn de geheim agenten van de DDDD</p>
+<p>Dit is onze website! klik op een pagina om hem te bezoeken!</p>
+<p>Je vind er tips, geheimtaal en meer!</p>
+<p class="weetje">DDDD staat voor: de dienst van buitenaardse dimensies en domeinen</p>
+<section>
+<h2>News</h2>
+<iframe style="width:400px; height:300px;" src="//e.issuu.com/embed.html#31034058/55899147" frameborder="0" allowfullscreen></iframe><br>
+<ul>
+<a href="nieuwsarchief.html">meer weergeven...</a>
+<a href="//e.issuu.com/embed.html#31034058/54511844">volledig scherm...</a>
+</ul>
+</section>
+<section>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="afbeeldingen%20DDDD/afbeelding%20van%20de%20DDDD%20agenten%202.0.jpg" style="width:100%">
+    <div class="text">Welkom, dit is ons team!</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="afbeeldingen%20DDDD/scannen0004.jpg" style="width:100%">
+    <div class="text">Aliens!!!</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="afbeeldingen%20DDDD/geheimepagina2.jpg" style="width:100%">
+    <div class="text">De geheime pagina</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+</section>
+<div id="mySidenav" class="sidenav">
+  <a href="#" id="about">About</a>
+  <a href="https://roodoranjegeel.blogspot.nl/" id="blog">Blog</a>
+  <a href="nieuwsarchief.html" id="over-mij">News</a>
+  <a href="https://plus.google.com/collection/E0DoVE?hl=nl" id="tekenen">Google+</a>
+</div>
+<hr>
+<footer>
+Gemaakt door:
+<h1>Robin Boers</h1>
+<p>Webbou   wer</p>
+</footer>
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<script>
+function openNav() {
+    document.getElementById("mySidenavf").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenavf").style.width = "0";
+}
+</script>
+</body>
+</html>

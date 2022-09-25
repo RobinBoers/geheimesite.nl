@@ -1,0 +1,39 @@
+on:
+    push:
+        branches: [master]
+
+name: Deploy
+jobs:
+    web-deploy:
+        name: Build and deploy
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v2
+
+            - name: Setup node
+              uses: actions/setup-node@v3
+              with:
+                  node-version: 16.x
+
+            - name: Install deps
+              run: npm install
+
+            - name: Setup Hugo
+              uses: peaceiris/actions-hugo@v2
+              with:
+                  hugo-version: "0.102.3"
+                  extended: true
+
+            - name: Build
+              run: npm run build
+
+            - name: Deploy
+              uses: SamKirkland/FTP-Deploy-Action@4.3.0
+              with:
+                  server: ${{ secrets.FTP_SERVER }}
+                  username: ${{ secrets.FTP_USERNAME }}
+                  password: ${{ secrets.FTP_PASSWORD }}
+                  server-dir: domains/geheimesite.nl/public_html/
+                  local-dir: ./dist/
+                  dry-run: true

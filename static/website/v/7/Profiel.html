@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<title>Mijn links pagina...</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
+</style>
+<body class="w3-theme-l5">
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="http://www.geheimesite.nl/index.html" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><i class="fa fa-home w3-margin-right"></i></a>
+  <a href="https://jeugdjournaal.nl/" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="News"><i class="fa fa-globe"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Account Settings"><i class="fa fa-user"></i></a>
+  <a href="https://outlook.live.com/owa/" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-envelope"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Account"><img src="https://www.w3schools.com/w3images/avatar3.png" style="height:25px;width:25px" alt="Avatar"></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium w3-large">
+  <a href="http://www.geheimesite.nl/index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+  <a href="https://jeugdjournaal.nl/" class="w3-bar-item w3-button w3-padding-large">News</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Account Settings</a>
+  <a href="https://outlook.live.com/owa/" class="w3-bar-item w3-button w3-padding-large">Messages</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">My Profile</a>
+</div>
+
+<!-- Page Container -->
+<div class="w3-container w3-content" style="max-width:1400px;margin-top:80px">    
+  <!-- The Grid -->
+  <div class="w3-row">
+    <!-- Left Column -->
+    <div class="w3-col m3">
+      <!-- Profile -->
+      <div class="w3-card w3-round w3-white">
+        <div class="w3-container">
+         <h4 class="w3-center">Robin Boers</h4>
+         <p class="w3-center"><img src="https://www.w3schools.com/w3images/avatar3.png" class="w3-circle" style="height:106px;width:106px" alt="Avatar"></p>
+         <hr>
+         <p><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i>  Webdesigner</p>
+         <p><i class="fa fa-home fa-fw w3-margin-right w3-text-theme"></i> Maassluis</p>
+         <p><i class="fa fa-birthday-cake fa-fw w3-margin-right w3-text-theme"></i>  13 Januari</p>
+        </div>
+      </div>
+      <br>
+      
+      <!-- Accordion -->
+      <div class="w3-card w3-round">
+        <div class="w3-white">
+          <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-circle-o-notch fa-fw w3-margin-right"></i> Links</button>
+          <div id="Demo1" class="w3-hide w3-container">
+            <ul>
+            <li><a href="https://plus.google.com">Google+</a>
+            <li><a href="https://www.office.com/?auth=1">Microsoft</a>
+            <li><a href="https://www.onenote.com/notebooks?session=b9635750-ac23-4e7c-827c-5090df502bdc&auth=1&fromAR=1">OneNote</a>
+            <li><a href="https://google.com">Google</a>
+            <li><a href="https://youtube.com">YouTube</a>
+            <li><a href="https://onedrive.live.com/">OneDrive</a>
+            <li><a href="https://toggl.com/app/timer">Toggle</a>
+            </ul>
+          </div>
+          <button onclick="myFunction('Demo3')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-users fa-fw w3-margin-right"></i> Hulpsites...</button>
+          <div id="Demo3" class="w3-hide w3-container">
+         <div class="w3-row-padding">
+         Meer...<br>
+         </div>
+          </div>
+        </div>      
+      </div>
+      <br>
+      
+      <!-- Interests --> 
+      <div class="w3-card w3-round w3-white w3-hide-small">
+        <div class="w3-container">
+          <p>Hobby's en Intresses</p>
+          <p>
+            <span class="w3-tag w3-small w3-theme-d4">W3Schools</span>
+            <span class="w3-tag w3-small w3-theme-d3">Labels</span>
+            <span class="w3-tag w3-small w3-theme-d2">Games</span>
+            <span class="w3-tag w3-small w3-theme-d1">Vrienden</span>
+            <span class="w3-tag w3-small w3-theme-l2">Eten</span>
+            <span class="w3-tag w3-small w3-theme-l3">Webdesign</span>
+          </p>
+        </div>
+      </div>
+      <br>
+      
+      <!-- Alert Box -->
+      <div class="w3-container w3-display-container w3-round w3-theme-l4 w3-border w3-theme-border w3-margin-bottom w3-hide-small">
+        <span onclick="this.parentElement.style.display='none'" class="w3-button w3-theme-l3 w3-display-topright">
+          <i class="fa fa-remove"></i>
+        </span>
+        <p><strong>Hey!</strong></p>
+        <p>Welkom op mijn profiel</p>
+      </div>
+    
+    <!-- End Left Column -->
+    </div>
+    
+    <!-- Middle Column -->
+    <div class="w3-col m7">
+    
+      <div class="w3-row-padding">
+        <div class="w3-col m12">
+          <div class="w3-card w3-round w3-white">
+            <div class="w3-container w3-padding">
+              <p contenteditable="true" class="w3-border w3-padding">Notities...</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <img src="https://www.w3schools.com/w3images/avatar3.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+        <h4>Robin Boers</h4><br>
+        <hr class="w3-clear">
+        <p>Nr. update 4.0.1</p>
+        <p>Er is een tijd geleden een nieuwe update gelanceerd.<br>
+Nr. update 4.0.1<br>
+Hierbij is er een nieuwe mooie steenachtergrond toegevoegt.<br>
+Ook een nieuwe footer toegevoegt.<br>
+Met links naar mijn blog en copyright informatie.<br></p>
+        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button> 
+        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button> 
+      </div> 
+      
+    <!-- End Middle Column -->
+    </div>
+    
+    <!-- Right Column -->
+    <div class="w3-col m2">
+      <div class="w3-card w3-round w3-white w3-center">
+        <div class="w3-container">
+          <p>Meer op GEHEIMESITE</p>
+          <details>
+<summary>Menu</summary>
+<li><a href="http://www.geheimesite.nl/#news">News</a></li>
+<li><a href="http://www.geheimesite.nl/#geheim_agent_worden">Tips</a></li>
+<li><a href="http://www.geheimesite.nl/#over">Over ons</a></li>
+<li><a href="http://www.geheimesite.nl/#down">Downloads</a></li>
+<li><a href="http://www.geheimesite.nl/#abt">About</a></li>
+<li><a href="http://www.geheimesite.nl/#geheim_taal">Geheime codes</a></li>
+</details>
+          <p><button class="w3-button w3-block w3-theme-l4"><a href="http://www.geheimesite.nl/#informatie">Info</a></button></p>
+          <p>Kom ook!</p>
+          <img src="https://www.w3schools.com/w3images/avatar3.png" alt="Avatar" style="width:50%"><br>
+          <span>Groet<br></span>
+          <span>Robin Boers</span>
+          <div class="w3-row w3-opacity">
+            <div class="w3-half">
+            <form action="http://www.geheimesite.nl/index.html">
+              <button class="w3-button w3-block w3-green w3-section" title="Accept"><i class="fa fa-check"></i></button>
+            </form>
+            </div>
+            <div class="w3-half">
+            <form>
+              <button class="w3-button w3-block w3-red w3-section" title="Decline"><i class="fa fa-remove"></i></button>
+            </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+<!-- End Page Container -->
+<br>
+</div>
+
+<!-- Footer -->
+<footer>
+<adderess>
+<p style="font-size: 10px;">Gemaakt door:</p>
+<h1>Robin Boers</h1>
+<p>Webbouwer<br></p>
+<p style="font-size: 10px;">&copy;2o17</p>
+</adderess>
+</footer>
+
+<footer class="w3-container w3-theme-d5">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+ 
+<script>
+// Accordion
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+        x.previousElementSibling.className += " w3-theme-d1";
+    } else { 
+        x.className = x.className.replace("w3-show", "");
+        x.previousElementSibling.className = 
+        x.previousElementSibling.className.replace(" w3-theme-d1", "");
+    }
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html> 

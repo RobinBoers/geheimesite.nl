@@ -10,11 +10,9 @@ function withOpacityValue(variable) {
 module.exports = {
     mode: "jit",
     content: [
-        "./*.{php,html,js,shtml}",
-        "./en/*.{php,html,js,shtml}",
-        "./assets/js/*.js",
-        "./projects/*.{php,html}",
-        "./website/overview.php",
+        "src/**/*.html",
+        "src/content/**/*.md",
+        "static/**/*.{php,html,js}",
     ],
     theme: {
         colors: {

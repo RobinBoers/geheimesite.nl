@@ -19,6 +19,9 @@ if(explode("/", $requested_file)[0] === "images") {
     }
 } else if (file_exists($file_path)) {
     return false;
+} else if (file_exists($file_path . ".html")) {
+    require_once($file_path . ".html");
+    return true;
 } else if (file_exists($file_path . ".php")) {
     require_once($file_path . ".php");
     return true;

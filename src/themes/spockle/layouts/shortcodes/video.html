@@ -1,0 +1,6 @@
+<iframe
+    src='https://www.youtube.com/embed/{{ with .Get "id" }}{{ . }}{{ else }}{{ .Get 0 }}{{ end }}'
+    allowfullscreen
+    class='border-none aspect-video{{ with .Get "class" }} {{ . }}{{ end }}'
+    title='{{ with .Get "title" }}{{ . }}{{ else }}YouTube video{{ end }}'>
+</iframe>
