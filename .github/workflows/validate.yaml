@@ -1,11 +1,9 @@
-on:
-    push:
-        branches: [master]
+on: push
 
-name: Deploy
+name: Check
 jobs:
-    web-deploy:
-        name: Build and deploy
+    validate:
+        name: Build and validate
         runs-on: ubuntu-latest
         steps:
             - name: Checkout
@@ -28,11 +26,5 @@ jobs:
             - name: Build
               run: npm run build
 
-            - name: Deploy
-              uses: SamKirkland/FTP-Deploy-Action@4.3.0
-              with:
-                  server: ${{ secrets.FTP_SERVER }}
-                  username: ${{ secrets.FTP_USERNAME }}
-                  password: ${{ secrets.FTP_PASSWORD }}
-                  server-dir: domains/geheimesite.nl/public_html/
-                  local-dir: ./src/
+            - name: Check
+              run: npm run validate
