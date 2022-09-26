@@ -78,9 +78,13 @@
                     $currentPage.IsMenuCurrent "main" . }}
                     <li class="selected">{{ .Name }}</li>
                     {{ else }}
-                    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                    <li>
+                        <a href='{{ replace .URL ".html" "" }}'>{{ .Name }}</a>
+                    </li>
                     {{ end }} {{ end }}{{ range .Site.Menus.homepage }}
-                    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                    <li>
+                        <a href='{{ replace .URL ".html" "" }}'>{{ .Name }}</a>
+                    </li>
                     {{ end }}
                 </ul>
             </nav>

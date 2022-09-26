@@ -9,7 +9,7 @@
         "start": "./server.sh",
         "build": "./build.sh",
         "check": "./validate.sh",
-        "dev": "./testbuild.sh",
+        "dev": "./preview.sh",
         "format": "prettier --write ."
     },
     "repository": {
