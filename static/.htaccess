@@ -31,7 +31,7 @@ Redirect /neolog https://micro.geheimesite.nl
 Redirect /github https://github.com/RobinBoers
 Redirect /school https://docs.geheimesite.nl/school
 Redirect /subscriptions /subscriptions.opml
-Redirect /ckv/robinboers4a2 /ckv
+Redirect /ckv /ckv/robinboers4a2
 
 # Fix old assets directory URIs
 Redirect 301 /css/ /assets/css
