@@ -57,7 +57,7 @@
     }
 
     .text-warning {
-        color: red;
+        color: orangered;
     }
 }
 
@@ -245,6 +245,9 @@
     }
     .md-mark {
         @apply before:content-[''] before:absolute before:inset-0 before:w-full before:h-full before:bg-md-mark before:bg-no-repeat before:bg-[length:30px] before:bg-[right_7px_bottom_7px] before:brightness-200 before:dark:filter-none;
+    }
+    form input:invalid:not(:placeholder-shown) {
+        border-color: orangered;
     }
 
     /* Text */
