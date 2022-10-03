@@ -91,6 +91,7 @@ This page was inspired by petermolnar.net
 			<outline text="[YT] exurb1a" type="feed" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCimiUgDLbi6P17BdaCZpVbg" htmlUrl="https://www.youtube.com/c/Exurb1a" url="https://www.youtube.com/feeds/videos.xml?channel_id=UCimiUgDLbi6P17BdaCZpVbg" title="[YT] exurb1a"></outline>
 			<outline text="[YT] NOS op 3" type="feed" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCf63l7Wp_wX7T-5ChM_Km9Q" htmlUrl="https://www.youtube.com/c/nosop3" url="https://www.youtube.com/feeds/videos.xml?channel_id=UCf63l7Wp_wX7T-5ChM_Km9Q" title="[YT] NOS op 3"></outline>
 			<outline text="[YT] CGP Grey" type="feed" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC2C_jShtL725hvbm1arSV9w" htmlUrl="https://www.youtube.com/greymatter" url="https://www.youtube.com/feeds/videos.xml?channel_id=UC2C_jShtL725hvbm1arSV9w" title="[YT] CGP Grey"></outline>
+			<outline text="[YT] SHAUN" type="feed" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCJ6o36XL0CpYb6U5dNBiXHQ" htmlUrl="https://www.youtube.com/c/Shaun_vids" url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJ6o36XL0CpYb6U5dNBiXHQ" title="[YT] SHAUN"></outline>
 		</outline>
 		<outline text="✨ ME" title="✨ ME" type="folder">
 			<outline title="Webdevelopment-En-Meer" text="my (primary) dutch blog" type="feed" xmlUrl="https://blog.geheimesite.nl/index.xml" htmlUrl="https://blog.geheimesite.nl" url="https://blog.geheimesite.nl/index.xml"></outline>
