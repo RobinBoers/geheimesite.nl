@@ -9,7 +9,7 @@ I don't like social media. Actually, [I hate it](https://blog.geheimesite.nl/202
 -   [Webdevelopment-En-Meer](https://blog.geheimesite.nl/index.xml) <small>(primary feed, dutch)</small>
 -   [ThatCrazyWebdev](https://blog.geheimesite.nl/en/index.xml) <small>(less frequent posts, english)</small>
 -   [Robijntje's neolog](https://micro.geheimesite.nl/feed) <small>(microblog, english)</small>
--   [Stupid Codes](https://blog.geheimesite.nl/stupid-codes/index.xml) <small>(feed with programming tips, inactive, english)</small>
+-   [Digital Garden on CrazyWebdev](https://blog.geheimesite.nl/en/notes/index.xml) <small>(experimental garden, inactive, english)</small>
 
 {{< hr >}}
 

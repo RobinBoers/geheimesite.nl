@@ -8,7 +8,7 @@ Ik houd niet van social media. Nee, eigenlijk heb ik er een [hekel aan](https://
 -   [Webdevelopment-En-Meer](https://blog.geheimesite.nl/index.xml) <small>(primaire feed, nederlands)</small>
 -   [ThatCrazyWebdev](https://blog.geheimesite.nl/en/index.xml) <small>(minder frequente posts, engels)</small>
 -   [Robijntje's neolog](https://micro.geheimesite.nl/feed) <small>(microblog, engels)</small>
--   [Stupid Codes](https://blog.geheimesite.nl/stupid-codes/index.xml) <small>(feed programmeertips, inactief, engels)</small>
+-   [Digital Garden op CrazyWebdev](https://blog.geheimesite.nl/en/notes/index.xml) <small>(experimentele garden, inactief, engels)</small>
 
 {{< hr >}}
 
