@@ -49,6 +49,9 @@ if ! $DEPLOY; then
                     ;;
                 mailto:*)
                     ;;
+                chrome://*|about:*)
+                    echo "[WARNING] avoid linking to browser pages
+                    ;;
                 \#*)
                     ;;
                 *)
