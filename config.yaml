@@ -5,6 +5,11 @@ timeZone: Europe/Amsterdam
 enableEmoji: true
 theme: spockle
 
+author:
+    name: Robin Boers
+    image: https://geheimesite.nl/images/me_optimized.jpeg
+    about: I'm a webdesigner, programmer, and nerd living in the Netherlands. I'm 15 years old and I currently work at Qdentity.
+
 assetDir: src/assets
 layoutsDir: src/layouts
 contentDir: src/content
