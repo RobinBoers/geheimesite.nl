@@ -51,6 +51,9 @@
     .supplement {
         @apply brightness-125 dark:brightness-75 text-center italic text-sm;
     }
+    .supplement a {
+        @apply brightness-75;
+    }
 
     .p-small {
         @apply px-2 sm:px-10 md:px-0;
