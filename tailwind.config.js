@@ -25,10 +25,10 @@ module.exports = {
         },
         extend: {
             fontFamily: {
-                poppins: ["Poppins", "sans-serif"],
-                fira: ["Fira Sans Condensed", "sans-serif"],
-                serif: ["Merriweather", "Georgia", "serif"],
-                display: ["Bungee Shade", "sans-serif"],
+                poppins: ["Poppins", "var(--font-sans)"],
+                fira: ["Fira Sans Condensed", "var(--font-sans)"],
+                serif: ["Merriweather", "var(--font-sans)"],
+                display: ["Bungee Shade", "var(--font-sans)"],
                 mono: [
                     "ui-monospace",
                     "DejaVu LGC Sans Code",
