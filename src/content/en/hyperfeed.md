@@ -125,6 +125,8 @@ weight: 1
             <li><a class="external" data-weight="2" href="https://rvklein.me">rvklein.me</a></li>
             <li><a class="external" data-weight="1" href="https://richardbettridge.com">richardbettridge.com</a></li>
             <li><a class="external" data-weight="8" href="https://roly.neocities.org">roly.neocities.org</a></li>
+            <li><a class="external" data-weight="9" href="https://whimsical.club">whimsical.club</a></li>
+            <li><a class="external" data-weight="7" href="https://moderncss.dev">moderncss.dev</a></li>
         </ul>
     </section>
     <section class="hyperpost">
@@ -153,6 +155,13 @@ weight: 1
             <li><a class="external" data-weight="6" href="https://emersion.fr">emersion.fr</a></li>
             <li><a class="external" data-weight="7" href="https://ricardoruwer.github.io">ricardoruwer.github.io</a></li>
             <li><a class="external" data-weight="3" href="https://mlibre.github.io">mlibre.github.io</a></li>
+            <li><a class="external" data-weight="9" href="https://whitep4nth3r.com">whitep4nth3r.com</a></li>
+            <li><a class="external" data-weight="7" href="https://jacobleech.com">jacobleech.com</a></li>
+            <li><a class="external" data-weight="9" href="https://www.cassie.codes">cassie.codes</a></li>
+            <li><a class="external" data-weight="2" href="https://photogabble.co.uk">photogabble.co.uk</a></li>
+            <li><a class="external" data-weight="7" href="https://rafa.design">rafa.design</a></li>
+            <li><a class="external" data-weight="5" href="https://jhey.dev">jhey.dev/</a></li>
+            <li><a class="external" data-weight="6" href="https://darn.es">darn.es</a></li>
         </ul>
     </section>
 </article>
