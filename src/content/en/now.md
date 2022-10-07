@@ -6,7 +6,7 @@ url: "/now.html"
 
 This page is inspired by Derek Siver's [now page movement](https://sive.rs/nowff). I think I'm a bit late to the party, but whatever. No one cares anyway. For those very confused: this page describes what I'm currently up to.
 
-_Last updated: September 2022 from the Netherlands._
+_Last updated: October 2022 from the Netherlands._
 
 {{< hr >}}
 
@@ -21,6 +21,8 @@ I'm currently in 4VWO. I think you British people would call it Year 11, and Ame
 {{< hr >}}
 
 ## Personal
+
+-   Improve my blog & site even more: - Edit link (to GitHub) - License - Nice footer with info
 
 -   Finish & polish the backend for my RSS reader
 -   Build a nice frontend for it using local website and package it using [elixir-desktop](https://github.com/elixir-desktop/desktop)
