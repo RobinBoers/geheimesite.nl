@@ -6,6 +6,7 @@
         url("../fonts/fira-sans-condensed-v10-latin-200italic.woff2")
             format("woff2"),
         url("../fonts/fira-sans-condensed-v10-latin-200italic.woff");
+    font-display: swap;
 }
 
 @font-face {
@@ -15,6 +16,7 @@
     src: local(""),
         url("../fonts/bungee-shade-v11-latin-regular.woff2") format("woff2"),
         url("../fonts/bungee-shade-v11-latin-regular.woff") format("woff");
+    font-display: swap;
 }
 
 @font-face {
@@ -24,6 +26,7 @@
     src: local(""),
         url("../fonts/merriweather-v30-latin-regular.woff2") format("woff2"),
         url("../fonts/merriweather-v30-latin-regular.woff") format("woff");
+    font-display: swap;
 }
 
 @font-face {
@@ -32,4 +35,5 @@
     font-weight: 600;
     src: local(""), url("../fonts/poppins-v20-latin-600.woff2") format("woff2"),
         url("../fonts/poppins-v20-latin-600.woff") format("woff");
+    font-display: swap;
 }
