@@ -1,14 +1,21 @@
 #!/bin/bash
 # This script builds the site using tailwind and hugo, validates it and then formats all HTML & markdown.
 
+[[ -z "${VALIDATE}" ]] && VALIDATE=false || VALIDATE="${VALIDATE_ENV}"
+
 echo "Cleaning cache..."
 rm -rf dist
 
 echo "Building CSS..."
 npx tailwindcss -c tailwind.config.js -i src/assets/css/source.css -o src/assets/css/main.css > /dev/null 2>&1
 
-echo "Building site..."
-HUGO_UGLYURLS=true hugo --quiet
+if ! $VALIDATE; then
+    echo "Building site..."
+    HUGO_UGLYURLS=true hugo --quiet
+else
+    echo "Building site in validate mode..."
+    HUGO_UGLYURLS=true HUGO_MINIFY_TDEWOLFF_HTML_KEEPCOMMENTS=true HUGO_ENABLEMISSINGTRANSLATIONPLACEHOLDERS=true hugo --quiet
+fi
 
 echo "Copying over images..."
 # In the future I want to do compressing and 
