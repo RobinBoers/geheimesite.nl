@@ -6,6 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Start — geheimesite.nl | Robin Boers</title>
 
+        {{ with .Site.Params.description }}
+        <meta name="description" content="{{ . }}" />
+        {{ end }}
+
+        <link rel="canonical" href="{{ .Permalink }}" />
+
         {{ $css := resources.Get "css/main.css" | resources.Minify |
         resources.Fingerprint }}
         <link
@@ -61,6 +67,14 @@
         <link
             rel="pingback"
             href="https://webmention.io/geheimesite.nl/xmlrpc" />
+
+        {{ if .IsTranslated }} {{ range .Translations }}
+        <link
+            rel="alternate"
+            hreflang="{{ .Language.Lang }}"
+            href="{{ .Permalink }}"
+            title="{{ .Language.LanguageName }}" />
+        {{ end }} {{ end }}
     </head>
 
     <body>
