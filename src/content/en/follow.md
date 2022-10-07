@@ -25,7 +25,7 @@ I can explain how RSS works here, but I think Nicky Case does a way better job t
 
 ## But if you really ❤️ email....
 
-Look, I totally understand if you don't want to setup RSS and you'd rather receive an email if I post something. That's why I also use Follow.it for email notifications (dutch blog only).
+Look, I totally understand if you don't want to setup RSS and you'd rather receive an email if I post something. That's why I also use [Follow.it](https://follow.it/that-crazy-webdev) for email notifications.
 
 {{< subscribe-form >}}
 
