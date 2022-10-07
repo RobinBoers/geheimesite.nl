@@ -5,6 +5,8 @@
 
     <title>{{ .Page.Title }} — geheimesite.nl | {{ .Site.Title }}</title>
 
+    <link rel="canonical" href="{{ .Permalink }}" />
+
     {{ $css := resources.Get "css/main.css" | resources.Minify |
     resources.Fingerprint }}
     <link
@@ -22,7 +24,17 @@
         integrity="{{ $js.Data.Integrity }}"></script>
 
     {{ with .Page.Params.hideFromGoogle }}
-    <!-- Prevent search engines from indexing -->
-    <meta name="robots" content="noindex" />
+        <!-- Prevent search engines from indexing -->
+        <meta name="robots" content="noindex" />
+    {{ end }}
+
+    {{ if .IsTranslated }} 
+        {{ range .Translations }}
+            <link
+                rel="alternate"
+                hreflang="{{ .Language.Lang }}"
+                href="{{ .Permalink }}"
+                title="{{ .Language.LanguageName }}" />
+        {{ end }} 
     {{ end }}
 </head>
