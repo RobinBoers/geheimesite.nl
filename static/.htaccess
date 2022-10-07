@@ -19,6 +19,11 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 	Header set Expires "access plus 1 day"
 </FilesMatch>
 
+# File cache for static assets and images
+<FilesMatch "\.(ico|jpg|jpeg|png|gif|svg|css|js|woff|woff2)$">
+	Header set Cache-Control "max-age=31536000"
+</FilesMatch>
+
 # Compress plain text file
 <FilesMatch "\.(js|css|html|htm|php|xml|opml)$">
 	SetOutputFilter DEFLATE
