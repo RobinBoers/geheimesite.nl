@@ -356,7 +356,8 @@
 
     .h-feed p,
     .h-feed h1,
-    .h-feed h2 {
+    .h-feed h2,
+    .h-feed h3 {
         max-width: revert;
     }
 
