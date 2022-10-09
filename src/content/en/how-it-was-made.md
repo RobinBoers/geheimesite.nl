@@ -17,7 +17,7 @@ This page provides an insight into the development and design process of buildin
 
 Some of you might think I built this using some frontend framework like React, Svelte, Phoenix, or Ruby on Rails. But no.
 
-This site used to be handcoded, but [since Semtembre 2022](https://github.com/RobinBoers/geheimesite.nl/pull/3) I converted it to [Hugo](https://gohugo.io), a static site generator. This reduces code replication, but I do file like hugo is a boilerplatery, so I did consider converting it again, to 11ty (who knows, I've proven I apparently have to much free time).
+Until Septembre 2022 this site used to be handcoded HTML with some PHP for extra magic. I handcoded everything because it gave me greater control over the appearance and structure of the site. In [Septembre](https://github.com/RobinBoers/geheimesite.nl/pull/3) I converted the site to [hugo](https://gohugo.io), a static site generator. This reduces code replication, and also makes the site A LOT FASTER. I still feel like hugo is a bit boilerplatery, so maybe I'll rewrite it again at some point, using 11ty.
 
 I use [tailwind](https://tailwindcss.com) for the styling. We use it over at Qdentity, and I got so used to it that I decided to also use it for my own site. It allows me to quickly style things in the DOM without UGLY style attributes. It also allows me to write shorter, more expressive CSS files. I enjoy it.
 
@@ -48,9 +48,9 @@ I think these fonts compliment each other, while also creating a nice contrast.
 
 ## Blog
 
-My blog consists of three static [hugo](https://gohugo.io) sites, which I build and deploy using a simple bash script and GitHub actions. I developed my own hugo theme with IndieWeb support, based on [neofeed](https://neofeed.dev).
+My blog is also built using [hugo](https://gohugo.io). I also set up a similar build-pipeline with checks for dead links, formatting and minifying. I developed my own hugo theme with IndieWeb support, based on [neofeed](https://neofeed.dev).
 
-I built my own barebones statistics tracker. It tracks visits, not views, per post. The results are [publicly available](/blog/stats) can be filtered per month and are shown in a simple graph that I built using Chart.js.
+I built my own barebones statistics tracker. It tracks visits, not views, per post. It also has an optional disable trigger using `localStorage` so that my own views aren't tracked. The results are [publicly available](/blog/stats) can be filtered per month and are shown in a simple graph that I built using Chart.js.
 
 ## Dynamic pages & APIs
 
