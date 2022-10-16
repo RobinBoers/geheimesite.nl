@@ -22,8 +22,6 @@ I'm currently in 4VWO. I think you British people would call it Year 11, and Ame
 
 ## Personal
 
--   Improve my blog & site even more: - Edit link (to GitHub) - License - Nice footer with info
-
 -   Finish & polish the backend for my RSS reader
 -   Build a nice frontend for it using local website and package it using [elixir-desktop](https://github.com/elixir-desktop/desktop)
 
