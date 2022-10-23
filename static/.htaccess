@@ -1,13 +1,17 @@
 RewriteEngine On
 RewriteBase /
 
-AddCharset UTF-8 .html
-AddCharset UTF-8 .php
-AddCharset UTF-8 .xml
-AddCharset UTF-8 .opml
+# Set default charset and language
+AddDefaultCharset UTF-8
+DefaultLanguage nl-NL
 
 AddType text/xml .opml 
 AddHandler text/xml .opml
+
+# Preserve bandwidth for PHP enabled servers
+<ifmodule mod_php4.c>
+	php_value zlib.output_compression 16386
+</ifmodule>
 
 # Force https
 RewriteEngine On 
@@ -22,6 +26,21 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 # File cache for static assets and images
 <FilesMatch "\.(ico|jpg|jpeg|png|gif|svg|css|js|woff|woff2)$">
 	Header set Cache-Control "max-age=31536000"
+</FilesMatch>
+
+# Cache css and javascript files for one week
+<FilesMatch ".(js|css|pdf|txt)$">
+	Header set Cache-Control "max-age=604800"
+</FilesMatch>
+
+# Cache html and php files for one day
+<FilesMatch "\.(html|php)$">
+	Header set Cache-Control "max-age=43200"
+</FilesMatch>
+
+# Explicitly disable caching for scripts and other dynamic files
+<FilesMatch "\.(pl|cgi|spl|scgi|fcgi)$">
+	Header unset Cache-Control
 </FilesMatch>
 
 # Compress plain text file
@@ -71,3 +90,6 @@ ServerSignature Off
 
 # limit file uploads to 100K
 LimitRequestBody 102400
+
+# Follow symbolic links
+Options +FollowSymLinks
