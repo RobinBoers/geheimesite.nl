@@ -22,8 +22,9 @@ I'm currently in 4VWO. I think you British people would call it Year 11, and Ame
 
 ## Personal
 
--   Finish & polish the backend for my RSS reader
--   Build a nice frontend for it using local website and package it using [elixir-desktop](https://github.com/elixir-desktop/desktop)
+-   Rewrite my RSS reader
+-   Build a little tool to automatically send email notifications to my followers when I post something (basically a self-hosted follow.it alternative).
+-   Build an app that can download YouTube videos like podcasts on my phone.
 
 {{< hr >}}
 
