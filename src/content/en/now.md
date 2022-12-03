@@ -6,7 +6,7 @@ url: "/now.html"
 
 This page is inspired by Derek Siver's [now page movement](https://sive.rs/nowff). I think I'm a bit late to the party, but whatever. No one cares anyway. For those very confused: this page describes what I'm currently up to.
 
-_Last updated: October 2022 from the Netherlands._
+_Last updated: December 2022 from the Netherlands._
 
 {{< hr >}}
 
