@@ -1,4 +1,5 @@
 /dist/
+/resources/_gen/
 /src/resources/_gen/
 /src/assets/jsconfig.json
 hugo_stats.json
