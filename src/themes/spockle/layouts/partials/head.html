@@ -7,20 +7,18 @@
 
     <link rel="canonical" href='{{ replace .Permalink ".html" "" }}' />
 
-    {{ $css := resources.Get "css/main.css" | resources.Minify |
-    resources.Fingerprint }}
+    {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
     <link
         rel="stylesheet"
-        href="/assets{{ $css.RelPermalink }}"
+        href="{{ $css.RelPermalink }}"
         integrity="{{ $css.Data.Integrity }}"
         title="default" />
 
-    {{ $js := resources.Get "js/menu.js" | resources.Minify |
-    resources.Fingerprint }}
+    {{ $js := resources.Get "js/menu.js" | minify | fingerprint }}
     <script
         defer
         type="text/javascript"
-        src="/assets{{ $js.RelPermalink }}"
+        src="{{ $js.RelPermalink }}"
         integrity="{{ $js.Data.Integrity }}"></script>
 
     {{ with .Page.Params.hideFromGoogle }}

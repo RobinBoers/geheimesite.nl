@@ -5,4 +5,5 @@ src/themes/spockle/layouts/_default/single.html
 src/themes/spockle/layouts/_default/standalone.html
 src/themes/spockle/layouts/partials/head.html
 src/themes/spockle/layouts/shortcodes/books.html
+src/themes/spockle/layouts/shortcodes/websites.html
 src/themes/spockle/layouts/shortcodes/projects.html

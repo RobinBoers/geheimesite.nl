@@ -87,7 +87,7 @@
     }
 
     hr {
-        border-width: 0px;
+        border-width: 0;
         border-top: 1px solid gray;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -167,21 +167,21 @@
         font-size: 1.23809524em;
         line-height: 2.53846154em;
         margin-top: 1.26923077em;
-        margin-bottom: 0em;
+        margin-bottom: 0;
     }
     h4,
     .h4 {
         font-size: 1em;
         line-height: 1.57142857em;
         margin-top: 1.57142857em;
-        margin-bottom: 0em;
+        margin-bottom: 0;
     }
     h5,
     .h5 {
         font-size: 1em;
         line-height: 1.57142857em;
         margin-top: 1.57142857em;
-        margin-bottom: 0em;
+        margin-bottom: 0;
     }
     p,
     ul,
@@ -191,15 +191,15 @@
     blockquote,
     iframe,
     figure {
-        margin-top: 0em;
+        margin-top: 0;
         margin-bottom: 1.57142857em;
     }
     ul ul,
     ol ol,
     ul ol,
     ol ul {
-        margin-top: 0em;
-        margin-bottom: 0em;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     /** Let's make sure all's aligned **/
@@ -391,24 +391,41 @@
 
     /* Projects page */
 
-    .project-grid {
-        @apply p-0 m-0 w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 grid-rows-1 md:gap-2 lg:my-10 max-w-[revert];
+    .project-grid,
+    .book-grid {
+        @apply p-0 m-0 w-full grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 grid-rows-1 md:gap-2 lg:my-10 max-w-[revert];
     }
 
-    .project-grid li {
+    .book-grid {
+        @apply grid-cols-3 lg:grid-cols-4 xl:grid-cols-6;
+    }
+
+    .project-grid li,
+    .book-grid li {
         @apply flex flex-col justify-end list-none;
     }
 
-    .project-grid li h3 {
+    .project-grid li h3,
+    .book-grid li h3 {
         @apply text-sm mt-0 ml-2 md:ml-0;
     }
 
-    .project-grid li a {
+    .book-grid li h3 {
+        @apply text-xs;
+    }
+
+    .project-grid li a,
+    .book-grid li a {
         @apply no-underline bg-transparent hover:bg-transparent hover:brightness-90;
     }
 
     .project-grid li a img {
-        @apply w-full aspect-video object-cover my-2 mr-2;
+        @apply aspect-video object-cover;
+    }
+
+    .project-grid li a img,
+    .book-grid li a img {
+        @apply w-full my-2 mr-2;
     }
 
     /* Homepage */
@@ -429,13 +446,5 @@
 
     .title a {
         @apply no-underline bg-transparent hover:bg-transparent text-current hover:text-current hover:no-underline decoration-background;
-    }
-
-    .badges {
-        @apply flex flex-wrap justify-center;
-    }
-
-    .badges img {
-        @apply max-h-[30px] w-auto;
     }
 }

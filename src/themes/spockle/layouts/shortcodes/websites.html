@@ -1,11 +1,14 @@
 <ul class="project-grid">
-    {{ range .Site.Data.projects.websites }}
-    <li>
-        <h3>{{ .name }}</h3>
+    {{ range .Site.Data.projects.websites }} 
+        {{ $image := resources.Get .image }} 
+        {{ $image := $image.Resize "450x webp"}}
 
-        <a href="{{ .url }}">
-            <img src="{{ .image }}" alt="{{ .name }}" />
-        </a>
-    </li>
+        <li>
+            <h3>{{ .name }}</h3>
+
+            <a href="{{ .url }}">
+                <img src="{{ $image.RelPermalink }}" alt="{{ .name }}" />
+            </a>
+        </li>
     {{ end }}
 </ul>

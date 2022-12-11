@@ -12,20 +12,18 @@
 
         <link rel="canonical" href="{{ .Permalink }}" />
 
-        {{ $css := resources.Get "css/main.css" | resources.Minify |
-        resources.Fingerprint }}
+        {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
         <link
             rel="stylesheet"
-            href="/assets{{ $css.RelPermalink }}"
+            href="{{ $css.RelPermalink }}"
             integrity="{{ $css.Data.Integrity }}"
             title="default" />
 
-        {{ $js := resources.Get "js/menu.js" | resources.Minify |
-        resources.Fingerprint }}
+        {{ $js := resources.Get "js/menu.js" | minify | fingerprint }}
         <script
             defer
             type="text/javascript"
-            src="/assets{{ $js.RelPermalink }}"
+            src="{{ $js.RelPermalink }}"
             integrity="{{ $js.Data.Integrity }}"></script>
 
         <link rel="alternate" hreflang="nl" href="https://geheimesite.nl/" />
@@ -150,10 +148,6 @@
 
             <article class="homepage-section socials">
                 {{ partial "socials" }}
-            </article>
-
-            <article class="homepage-section badges hidden" hidden>
-                {{ partial "wall-of-badges" }}
             </article>
 
             <article class="homepage-section h-feed">

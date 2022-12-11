@@ -12,7 +12,8 @@
 
                     {{ with resources.GetRemote (printf "https://raw.githubusercontent.com/RobinBoers/%s/master/screenshot.png" $repo_name) }}
 
-                        {{ with .Fill "420x236 webp" }}
+                        {{ $image := .Content | resources.FromString (printf "assets/images/projects/%s.webp" $repo_name)}}
+                        {{ with $image.Resize "800x450 webp" }}
 
                             <img
                                 src="{{ .RelPermalink }}"
@@ -22,13 +23,16 @@
 
                     {{ else }}
 
-                        {{ with resources.GetRemote "https://via.placeholder.com/160x80.png?text=View%20on%20GitHub" }}
+                        {{ $image := resources.GetRemote "https://via.placeholder.com/160x80.png?text=View%20on%20GitHub" }}
 
-                            <img
-                                src="{{ .RelPermalink }}"
-                                alt="{{ $repo_name }}" />
+                        {{ $image :=  $image.Content | resources.FromString "assets/images/projects/missing.webp" }}
+                        {{ $image :=  $image.Resize (printf "%dx%d webp" .Width .Height) }}
 
-                        {{ end }}
+                        <img
+                            src="{{ $image.RelPermalink }}"
+                            alt="{{ $repo_name }}" />
+
+
 
                     {{ end }}
                 </a>
