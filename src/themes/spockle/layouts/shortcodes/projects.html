@@ -3,15 +3,34 @@
     "https://api.github.com/users/RobinBoers/repos?per_page=500" }} 
     
     {{ range sort $projects "forks" "desc" }} 
-        {{ if (and (not .archived) (not .fork) (not (in $.Site.Data.projects.blacklist .name))) }}
+        {{ $repo_name := .name }}
+        {{ if (and (not .archived) (not .fork) (not (in $.Site.Data.projects.blacklist $repo_name))) }}
             <li>
-                <h3>{{ .name }}</h3>
+                <h3>{{ $repo_name }}</h3>
 
                 <a href="{{ with .homepage }}{{ . }}{{ else }}{{ .html_url }}{{ end }}">
-                    <img
-                        src="https://raw.githubusercontent.com/RobinBoers/{{ .name }}/master/screenshot.png"
-                        onerror="this.src = 'https://via.placeholder.com/160x80.png?text=View%20on%20GitHub'"
-                        alt="{{ .name }}" />
+
+                    {{ with resources.GetRemote (printf "https://raw.githubusercontent.com/RobinBoers/%s/master/screenshot.png" $repo_name) }}
+
+                        {{ with .Fill "420x236 webp" }}
+
+                            <img
+                                src="{{ .RelPermalink }}"
+                                alt="{{ $repo_name }}" />
+
+                        {{ end }}
+
+                    {{ else }}
+
+                        {{ with resources.GetRemote "https://via.placeholder.com/160x80.png?text=View%20on%20GitHub" }}
+
+                            <img
+                                src="{{ .RelPermalink }}"
+                                alt="{{ $repo_name }}" />
+
+                        {{ end }}
+
+                    {{ end }}
                 </a>
             </li>
         {{ end }} 
