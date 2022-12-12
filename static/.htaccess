@@ -19,7 +19,7 @@ RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # Add expire headers (prevents hotlinking)
-<FilesMatch "\.(ico|jpg|jpeg|png|gif|js|css|swf)$">
+<FilesMatch "\.(ico|jpg|jpeg|png|webp|gif|js|css|swf)$">
 	Header set Expires "access plus 1 day"
 </FilesMatch>
 
