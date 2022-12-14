@@ -1,52 +1,52 @@
 [
     {
         "name": "HVM Old's Cool",
-        "image": "images/websites/hvm-olds-cool.png",
+        "image": "assets/images/websites/hvm-olds-cool.png",
         "url": "https://hvm-oldscool.nl"
     },
     {
         "name": "De Groentemeester",
-        "image": "images/websites/degroentemeester.png",
+        "image": "assets/images/websites/degroentemeester.png",
         "url": "https://degroentemeester.nl"
     },
     {
         "name": "Groendoenerij",
-        "image": "images/websites/groendoenerij.png",
+        "image": "assets/images/websites/groendoenerij.png",
         "url": "https://www.groendoenerij.nl"
     },
     {
         "name": "Sterrenkruid",
-        "image": "images/websites/sterrenkruid.png",
+        "image": "assets/images/websites/sterrenkruid.png",
         "url": "https://jokessterrenkruid.blogspot.com"
     },
     {
         "name": "Duurzame Maassluizers",
-        "image": "images/websites/duurzame-maassluizers.png",
+        "image": "assets/images/websites/duurzame-maassluizers.png",
         "url": "https://duurzamemaassluizers.nl"
     },
     {
         "name": "Thesis Eveline Boers",
-        "image": "images/websites/thesis-eveline-boers.png",
+        "image": "assets/images/websites/thesis-eveline-boers.png",
         "url": "https://thesisevelineboers.blogspot.com"
     },
     {
         "name": "School shtuff",
-        "image": "images/websites/schoolshtuff.png",
+        "image": "assets/images/websites/schoolshtuff.png",
         "url": "https://docs.geheimesite.nl/school"
     },
     {
         "name": "Neolog",
-        "image": "images/websites/neolog.png",
+        "image": "assets/images/websites/neolog.png",
         "url": "https://micro.geheimesite.nl"
     },
     {
         "name": "Webdevelopment-En-Meer",
-        "image": "images/websites/webdevelopment-en-meer-dark.png",
+        "image": "assets/images/websites/webdevelopment-en-meer-dark.png",
         "url": "https://blog.geheimesite.nl"
     },
     {
         "name": "Website Library",
-        "image": "images/websites/website-library.png",
+        "image": "assets/images/websites/website-library.png",
         "url": "/website/overview"
     }
 ]

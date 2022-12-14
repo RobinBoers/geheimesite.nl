@@ -1,6 +1,5 @@
 /dist/
-/resources/_gen/
-/src/resources/_gen/
+/resources
 /src/assets/jsconfig.json
 hugo_stats.json
 /.hugo_build.lock

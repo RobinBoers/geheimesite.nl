@@ -41,7 +41,9 @@
                     
                     {{ end }}
 
-                    {{ with resources.Get "images/books/missing.jpg"  }}
+                {{ else }}
+
+                    {{ with resources.Get "assets/images/books/missing.jpg"  }}
 
                         {{ with .Resize (printf "%dx%d webp" .Width .Height) }}
 
@@ -52,10 +54,6 @@
                         {{ end }}
 
                     {{ end }}
-
-                {{ else }}
-
-                    
 
                 {{ end }}
             </a>

@@ -10,13 +10,21 @@ author:
     image: https://geheimesite.nl/images/me_optimized.jpeg
     about: I'm a webdesigner, programmer, and nerd living in the Netherlands. I'm 15 years old and I currently work at Qdentity.
 
-assetDir: src/assets
-layoutsDir: src/layouts
-contentDir: src/content
-dataDir: src/data
-themesDir: src/themes
 publishDir: dist
+themesDir: src/themes
 
+module:
+  mounts:
+  - source: src
+    target: assets
+    includeFiles: assets/**/*
+  - source: src/static
+    target: static
+  - source: src/layouts
+    target: layouts
+  - source: src/data
+    target: data
+  
 minify:
     disableHTML: true
     minifyOutput: true

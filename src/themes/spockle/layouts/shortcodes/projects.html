@@ -26,13 +26,11 @@
                         {{ $image := resources.GetRemote "https://via.placeholder.com/160x80.png?text=View%20on%20GitHub" }}
 
                         {{ $image :=  $image.Content | resources.FromString "assets/images/projects/missing.webp" }}
-                        {{ $image :=  $image.Resize (printf "%dx%d webp" .Width .Height) }}
+                        {{ $image :=  $image.Resize (printf "%dx%d webp" $image.Width $image.Height) }}
 
                         <img
                             src="{{ $image.RelPermalink }}"
                             alt="{{ $repo_name }}" />
-
-
 
                     {{ end }}
                 </a>

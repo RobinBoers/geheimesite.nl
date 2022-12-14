@@ -50,12 +50,16 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # Redirects
 Redirect /framboy /projects/framboy
+Redirect /subscriptions /subscriptions.opml
+Redirect /ckv /ckvrobinboers4a2
+
+Redirect /blog https://blog.geheimesite.nl
+Redirect /en/blog https://blog.geheimesite.nl/en
 Redirect /feed https://blog.geheimesite.nl/index.xml 
+
 Redirect /neolog https://micro.geheimesite.nl
 Redirect /github https://github.com/RobinBoers
 Redirect /school https://docs.geheimesite.nl/school
-Redirect /subscriptions /subscriptions.opml
-Redirect /ckv /ckvrobinboers4a2
 
 # Fix old assets directory URIs
 Redirect 301 /css/ /assets/css

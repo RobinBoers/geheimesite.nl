@@ -7,14 +7,14 @@
 
     <link rel="canonical" href='{{ replace .Permalink ".html" "" }}' />
 
-    {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
+    {{ $css := resources.Get "assets/css/main.css" | minify | fingerprint }}
     <link
         rel="stylesheet"
         href="{{ $css.RelPermalink }}"
         integrity="{{ $css.Data.Integrity }}"
         title="default" />
 
-    {{ $js := resources.Get "js/menu.js" | minify | fingerprint }}
+    {{ $js := resources.Get "assets/js/menu.js" | minify | fingerprint }}
     <script
         defer
         type="text/javascript"
