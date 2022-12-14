@@ -14,17 +14,17 @@ publishDir: dist
 themesDir: src/themes
 
 module:
-  mounts:
-  - source: src
-    target: assets
-    includeFiles: assets/**/*
-  - source: src/static
-    target: static
-  - source: src/layouts
-    target: layouts
-  - source: src/data
-    target: data
-  
+    mounts:
+        - source: src
+          target: assets
+          includeFiles: assets/**/*
+        - source: src/static
+          target: static
+        - source: src/layouts
+          target: layouts
+        - source: src/data
+          target: data
+
 minify:
     disableHTML: true
     minifyOutput: true

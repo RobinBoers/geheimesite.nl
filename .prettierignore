@@ -1,4 +1,4 @@
-static/website/v/**/*
+src/static/website/v/**/*
 dist/**/*.css
 dist/**/*.js
 src/themes/spockle/layouts/_default/single.html
