@@ -9,7 +9,7 @@ FAIL=0
 FILES=$(find ./dist -name "*.html" -not -path "./dist/website/v/**/*")
 USER_AGENT="Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/81.0"
 
-VALIDATE=true ./build.sh
+VALIDATE=true ./bin/build.sh
 
 echo "Validating HTML..."
 html5validator $FILES --ignore 'CSS' 'style' || FAIL=1
