@@ -10,6 +10,6 @@ Je kan joinen door naar beneden te drukken op de d-pad, en je kan daarna de d-pa
 
 Dit project is gemaakt met Phaser 3. Phaser 3 is een game framework voor games gemaakt met HTML en Javascript.
 
-{{< link-icon url="https://blog.geheimesite.nl/2021/03/gamedevelopment-met-phaser-3.html" >}} {{< itch-icon project="cutie-tanks" label="Blogpost" >}} {{< github-icon repo="cutie-tanks" >}}
+{{< link-icon url="https://blog.geheimesite.nl/2021/03/gamedevelopment-met-phaser-3.html" label="Blogpost" >}} {{< itch-icon project="cutie-tanks" >}} {{< github-icon repo="cutie-tanks" >}}
 
 {{< screenshot repo="cutie-tanks" >}}
