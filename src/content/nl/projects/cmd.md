@@ -6,11 +6,7 @@ translationKey: project-cmd
 Dit een programma dat ernorm veel lijkt op windows CMD. Ik heb het gemaakt omdat ik het leuk vond.  
 Je kan er wat simpele commando's in uitvoeren, en er is een chatrobot.
 
-[Open CMD](/projects/commandpromt/)
-
 UPDATE: De nieuwe versie heeft de optie om van OS te veranderen, JS is nu ingeschakeld, en er zitten nog een paar andere leuke easter eggs in!
-
-[Open CMD2](/projects/commandpromt2/)
 
 {{< warning >}}
 Dit is een oud project wat erg buggy is, en niet meer wordt geüpdate.
@@ -37,5 +33,7 @@ Dit is een oud project wat erg buggy is, en niet meer wordt geüpdate.
 | js.stop          | stop Javascript input                                                    |
 | js.delete        | delete Javascript input                                                  |
 | js.run           | run Javascript input                                                     |
+
+{{< demo-icon url="/projects/commandprompt2" >}}
 
 {{< figure src="assets/images/projects/cmd.png" alt="Screenshot" >}}

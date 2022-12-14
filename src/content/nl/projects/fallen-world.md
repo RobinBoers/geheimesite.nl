@@ -7,10 +7,10 @@ Fallen World is een Minecraft RPG map waar ik al een anderhalf jaar aan werk. Hi
 
 Er zijn veel mensen die me hebben geholpen met dit project. Je kan hier de credits zien: [CREDITS.md](https://github.com/RobinBoers/fallen_world/blob/master/CREDITS.md)
 
-Bekijk de [GitHub repo](https://github.com/RobinBoers/fallen_world) voor een up-to-date overzicht van het project.
-
 Ik maak devlogs van de ontwikkeling van het project. Je kan ze [op YouTube](https://www.youtube.com/playlist?list=PLBz5ZmxqtLxNZp3We7HW2BuK-4fHH3rMY) bekijken. Hieronder zie je het eerste devlog.
 
-_Opmerking: Ja, ik gebruik een hacked client in de video. Nee, ik hack niet op publieke servers. Maar niemand heeft gezegd dat ik niet in mijn eigen maps mag hacken :)_
+{{< github-icon repo="fallen_world" >}}
 
 {{< video id="5FoCYP8VX8I" class="w-full" >}}
+
+_Opmerking: Ja, ik gebruik een hacked client in de video. Nee, ik hack niet op publieke servers. Maar niemand heeft gezegd dat ik niet in mijn eigen maps mag hacken :)_

@@ -3,7 +3,7 @@ title: "Project: NinjaDO"
 translationKey: project-ninjado
 ---
 
-NinjaDO is de basis voor een multiplayer spel gebouwd met socket.io en Javscript. Ik ben er erg trots op. Je kan vanuit de interface een serveradres intypen en een game aanmaken, die andere dan kunnen joinen. Je kan het project [op Github](https://github.com/RobinBoers/NinjaDO) vinden.
+NinjaDO is de basis voor een multiplayer spel gebouwd met socket.io en Javscript. Ik ben er erg trots op. Je kan vanuit de interface een serveradres intypen en een game aanmaken, die andere dan kunnen joinen.
 
 ## Installatie
 
@@ -12,5 +12,7 @@ De game heeft een server en een client. De server app download je en run je op j
 ## Singleplayer versie
 
 De game heeft een singleplayer versie (met andere sprites) die nog simpler is. Die vind je in de [singleplayer branch](https://github.com/RobinBoers/NinjaDO/tree/singleplayer). Als je wil kan je de [live demo](https://code.geheimesite.nl/beta/NinjaDO/singleplayer) spelen. Er is alleen naast rondlopen niks te doen.
+
+{{< demo-icon url="https://code.geheimesite.nl/beta/NinjaDO/singleplayer" >}} {{< github-icon repo="NinjaDO" >}}
 
 {{< figure src="assets/images/projects/ninjado2.png" alt="Screenshot" >}}

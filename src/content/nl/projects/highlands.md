@@ -17,10 +17,6 @@ Het datapack voegd een hele dimensie toe, met nieuwe items, mobs, biomes en stru
 6.  Als je terug wil spring je gewoon van de eilanden af, de void in
 7.  Je valt de overworld weer in
 
-Je kan het project [op GitHub](https://github.com/RobinBoers/MushroomHighlands) downloaden.
-
-{{< warning >}}
-THIS PACK USES EXPERIMENTAL FEATURES, wich only work in Minecraft 1.16.2 and above. These features can change at ANY time. They can also cause your game to chrash, or even worse, your world to corrupt. PLEASE BE AWARE of this when using this pack, and ALWAYS back-up your worlds before using it.
-{{< / warning >}}
+{{< github-icon repo="MushroomHighlands" >}}
 
 {{< screenshot repo="MushroomHighlands" >}}

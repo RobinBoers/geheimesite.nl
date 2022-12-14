@@ -9,12 +9,8 @@ Minecraft Classic is de 2e grote versie van Minecraft en de eerste versie die pu
 
 Toen Minecraft in 2019 tien jaar oud werd heeft Mojang een remake van [Minecraft 0.023a_01](https://minecraft.fandom.com/wiki/Java_Edition_Classic_0.0.23a_01) geschreven in Javascript online gezet op [classic.minecraft.net](https://classic.minecraft.net).
 
-Omdat ik onder een steen leef kwam ik daar pas in 2021 achter. Maar toen ik er achter kwam ben ik meteen begonnen met het modden van de game (die ook wel js0.23 wordt genoemd). Ik heb onder andere een menuscherm, verbeterde muiscontrols, veborgen credits scherm, seeds, custom commands, vliegmodus en wat andere dingen toegevoegd.
+Omdat ik onder een steen leef kwam ik daar pas in 2021 achter. Maar toen ik er achter kwam ben ik meteen begonnen met het modden van de game (die ook wel js0.23 wordt genoemd). Ik heb onder andere een menuscherm, verbeterde muiscontrols, veborgen credits scherm, seeds, custom commands, vliegmodus en wat andere dingen toegevoegd. Ik heb er ook een Electron app van gemaakt zodat je het offline, direct op je computer kan spelen.
 
-Je kan een testversie zo in je browser spelen.  
-[Speel de demo](https://code.geheimesite.nl/beta/mclassic.js/)
-
-Ik heb er ook een Electron app van gemaakt zodat je het offline, direct op je computer kan spelen.  
-[Je kan de code op GitHub vinden](https://github.com/RobinBoers/js0.23-improved)
+{{< demo-icon url="https://code.geheimesite.nl/beta/mclassic.js" >}} {{< github-icon repo="js0.23-improved" >}}
 
 {{< screenshot repo="js0.23-improved" >}}
