@@ -53,4 +53,4 @@ Wil je helpen met ontwikkelen of heb je een cool idee? Dan kan je me mailen op [
 -   [Wiki](https://docs.geheimesite.nl/SkyLight-Website-Editor/)
 -   [Bugtracker](https://github.com/RobinBoers/SkyLight-Website-Editor/issues)
 
-{{< figure repo="SkyLight-Website-Editor" >}}
+{{< screenshot repo="SkyLight-Website-Editor" >}}
