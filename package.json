@@ -6,9 +6,9 @@
     "homepage": "https://geheimesite.nl",
     "license": "UNLICENSED",
     "scripts": {
-        "start": "./server.sh",
-        "build": "./build.sh",
-        "check": "./validate.sh",
+        "start": "./bin/server.sh",
+        "build": "./bin/build.sh",
+        "check": "./bin/validate.sh",
         "dev": "./preview.sh",
         "format": "prettier --write ."
     },

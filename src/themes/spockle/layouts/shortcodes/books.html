@@ -4,7 +4,7 @@
     }
 </style>
 
-{{ $id := .Get "shelve"}} 
+{{ $id := .Get "shelve" }} 
 {{ $shelve := getJSON "https://api.geheimesite.nl/books/get.php?id=" $id }} 
 
 {{ if $shelve.items }} 
@@ -13,25 +13,51 @@
 {{ $total_books := (add (len $all.items)  30)}} 
 
 {{ with .Get "title" }}
-<h2>{{ . }}</h2>
+    <h2>{{ . }}</h2>
 {{ end }} 
 
 {{ with .Get "description" }}
-<p>{{ replace . "{count}" $total_books | markdownify }}</p>
+    <p>{{ replace . "{count}" $total_books | markdownify }}</p>
 {{ end }}
 
-<ul class="project-grid">
+<ul class="book-grid">
     {{ range $shelve.items }}
-    <li>
-        <h3>{{ .title }}</h3>
+        {{ $title := .title }}
+        {{ $id := .id }}
 
-        <a href="{{ .url }}">
-            <img
-                src="{{ .image }}"
-                onerror="this.src = '/assets/images/content/not-available.jpg'"
-                alt="{{ .title }}" />
-        </a>
-    </li>
+        <li>
+            <h3>{{ $title }}</h3>
+
+            <a href="{{ .url }}">
+
+                {{ with resources.GetRemote .image }}
+
+                    {{ $image := .Content | resources.FromString (printf "assets/images/books/%f.webp" $id) }}
+                    {{ with $image.Fill "550x800 webp"  }}
+
+                        <img
+                            src="{{ .RelPermalink }}"
+                            alt="{{ $title }}" />
+                    
+                    {{ end }}
+
+                {{ else }}
+
+                    {{ with resources.Get "assets/images/books/missing.jpg"  }}
+
+                        {{ with .Resize (printf "%dx%d webp" .Width .Height) }}
+
+                            <img
+                                src="{{ .RelPermalink }}"
+                                alt="{{ $title }}" />
+
+                        {{ end }}
+
+                    {{ end }}
+
+                {{ end }}
+            </a>
+        </li>
     {{ end }}
 </ul>
 {{ end}}

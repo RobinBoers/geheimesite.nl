@@ -3,9 +3,9 @@
     font-style: italic;
     font-weight: 200;
     src: local(""),
-        url("../fonts/fira-sans-condensed-v10-latin-200italic.woff2")
+        url("/assets/fonts/fira-sans-condensed-v10-latin-200italic.woff2")
             format("woff2"),
-        url("../fonts/fira-sans-condensed-v10-latin-200italic.woff");
+        url("/assets/fonts/fira-sans-condensed-v10-latin-200italic.woff");
     font-display: swap;
 }
 
@@ -14,8 +14,9 @@
     font-style: normal;
     font-weight: 400;
     src: local(""),
-        url("../fonts/bungee-shade-v11-latin-regular.woff2") format("woff2"),
-        url("../fonts/bungee-shade-v11-latin-regular.woff") format("woff");
+        url("/assets/fonts/bungee-shade-v11-latin-regular.woff2")
+            format("woff2"),
+        url("/assets/fonts/bungee-shade-v11-latin-regular.woff") format("woff");
     font-display: swap;
 }
 
@@ -24,8 +25,9 @@
     font-style: normal;
     font-weight: 400;
     src: local(""),
-        url("../fonts/merriweather-v30-latin-regular.woff2") format("woff2"),
-        url("../fonts/merriweather-v30-latin-regular.woff") format("woff");
+        url("/assets/fonts/merriweather-v30-latin-regular.woff2")
+            format("woff2"),
+        url("/assets/fonts/merriweather-v30-latin-regular.woff") format("woff");
     font-display: swap;
 }
 
@@ -33,7 +35,8 @@
     font-family: "Poppins";
     font-style: normal;
     font-weight: 600;
-    src: local(""), url("../fonts/poppins-v20-latin-600.woff2") format("woff2"),
-        url("../fonts/poppins-v20-latin-600.woff") format("woff");
+    src: local(""),
+        url("/assets/fonts/poppins-v20-latin-600.woff2") format("woff2"),
+        url("/assets/fonts/poppins-v20-latin-600.woff") format("woff");
     font-display: swap;
 }

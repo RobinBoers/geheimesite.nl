@@ -1,7 +1,7 @@
 #!/bin/bash
 # Script to build and test the site using live PHP webserver.
 
-./build.sh
+DEV=true ./build.sh
 
 echo "Copying over router.php for testing..."
 cp ./src/router.php ./dist/router.php

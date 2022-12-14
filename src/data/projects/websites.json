@@ -1,52 +1,52 @@
 [
     {
         "name": "HVM Old's Cool",
-        "image": "/assets/images/websites/hvm-olds-cool.png",
+        "image": "assets/images/websites/hvm-olds-cool.png",
         "url": "https://hvm-oldscool.nl"
     },
     {
         "name": "De Groentemeester",
-        "image": "/assets/images/websites/degroentemeester.png",
+        "image": "assets/images/websites/degroentemeester.png",
         "url": "https://degroentemeester.nl"
     },
     {
         "name": "Groendoenerij",
-        "image": "/assets/images/websites/groendoenerij.png",
+        "image": "assets/images/websites/groendoenerij.png",
         "url": "https://www.groendoenerij.nl"
     },
     {
         "name": "Sterrenkruid",
-        "image": "/assets/images/websites/sterrenkruid.png",
+        "image": "assets/images/websites/sterrenkruid.png",
         "url": "https://jokessterrenkruid.blogspot.com"
     },
     {
         "name": "Duurzame Maassluizers",
-        "image": "/assets/images/websites/duurzame-maassluizers.png",
+        "image": "assets/images/websites/duurzame-maassluizers.png",
         "url": "https://duurzamemaassluizers.nl"
     },
     {
         "name": "Thesis Eveline Boers",
-        "image": "/assets/images/websites/thesis-eveline-boers.png",
+        "image": "assets/images/websites/thesis-eveline-boers.png",
         "url": "https://thesisevelineboers.blogspot.com"
     },
     {
         "name": "School shtuff",
-        "image": "/assets/images/websites/schoolshtuff.png",
+        "image": "assets/images/websites/schoolshtuff.png",
         "url": "https://docs.geheimesite.nl/school"
     },
     {
         "name": "Neolog",
-        "image": "/assets/images/websites/neolog.png",
+        "image": "assets/images/websites/neolog.png",
         "url": "https://micro.geheimesite.nl"
     },
     {
         "name": "Webdevelopment-En-Meer",
-        "image": "/assets/images/websites/webdevelopment-en-meer-dark.png",
+        "image": "assets/images/websites/webdevelopment-en-meer-dark.png",
         "url": "https://blog.geheimesite.nl"
     },
     {
         "name": "Website Library",
-        "image": "/assets/images/websites/website-library.png",
+        "image": "assets/images/websites/website-library.png",
         "url": "/website/overview"
     }
 ]
