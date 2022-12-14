@@ -9,4 +9,4 @@ De bot werkt zo: je opent het uitvoerbare bestand, en dan ga je naar <code class
 
 [Download op GitHub](https://github.com/RobinBoers/Timmy)
 
-{{< figure src="/assets/images/projects/timmy.png" alt="Screenshot" >}}
+{{< screenshot repo="Timmy" >}}

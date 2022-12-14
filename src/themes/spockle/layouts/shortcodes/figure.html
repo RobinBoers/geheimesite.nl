@@ -1,0 +1,20 @@
+{{ $alt := .Get "alt" }}
+{{ $caption := .Get "caption" }}
+
+{{ with .Get "src" | resources.Get }}
+    {{ with .Resize (printf "%dx%d webp" .Width .Height)}}
+
+        <figure>
+            <img
+                src="{{ .RelPermalink }}"
+                alt="{{ $alt }}" />
+
+                {{ with $caption }}
+                    <figcaption>
+                        <p>{{ . }}</p>
+                    </figcaption>
+                {{ end }}
+        </figure>
+
+    {{ end }}
+{{ end }}

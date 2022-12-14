@@ -10,4 +10,4 @@ De game is gemaakt met Javascript, HTML en CSS. Dat zijn de talen waarmee ik ook
 [Lees meer...](https://blog.geheimesite.nl/2021/02/mijn-eerste-goede-game.html)  
 [Speel op itch.io](https://robijntje.itch.io/sticks-and-rocks)
 
-{{< figure src="/assets/images/projects/sar2.png" alt="Screenshot" >}}
+{{< screenshot repo="sticks-and-rocks" >}}

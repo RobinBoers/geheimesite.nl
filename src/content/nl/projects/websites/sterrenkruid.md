@@ -21,4 +21,4 @@ Mijn blogger thema's kun je hier downloaden:
 De source code voor sterrenkruid is ook open-source:
 [RobinBoers/sterrenkruid](https://github.com/RobinBoers/sterrenkruid)
 
-{{< figure src="/assets/images/websites/sterrenkruid.png" alt="Screenshot" >}}
+{{< figure src="assets/images/websites/sterrenkruid.png" alt="Screenshot" >}}

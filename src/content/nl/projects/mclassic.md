@@ -17,4 +17,4 @@ Je kan een testversie zo in je browser spelen.
 Ik heb er ook een Electron app van gemaakt zodat je het offline, direct op je computer kan spelen.  
 [Je kan de code op GitHub vinden](https://github.com/RobinBoers/js0.23-improved)
 
-{{< figure src="/assets/images/projects/mclassic.png" alt="Screenshot" >}}
+{{< screenshot repo="js0.23-improved" >}}

@@ -7,3 +7,5 @@ src/themes/spockle/layouts/partials/head.html
 src/themes/spockle/layouts/shortcodes/books.html
 src/themes/spockle/layouts/shortcodes/websites.html
 src/themes/spockle/layouts/shortcodes/projects.html
+src/themes/spockle/layouts/shortcodes/figure.html
+src/themes/spockle/layouts/shortcodes/screenshot.html

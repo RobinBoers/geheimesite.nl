@@ -11,4 +11,4 @@ Er zitten wat easter eggs in de website. Kan jij ze vinden?
 
 [Klik hier om de website te bezoeken :)](https://hvm-oldscool.nl)
 
-{{< figure src="/assets/images/projects/nutsbedrijven.png" alt="Screenshot" >}}
+{{< figure src="assets/images/websites/nutsbedrijven.png" alt="Screenshot" >}}

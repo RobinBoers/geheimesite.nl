@@ -3,7 +3,7 @@ title: "Project: SkyLight"
 translationKey: project-skylight
 ---
 
-Dit was mijn favoriete project. Ik heb er sinds 2018 tot 2020 aan gewerkt en ik heb er veel van geleerd. Het is een DIY website bouwer gemaakt met HTML, CSS, PHP en JavaScript. Het heeft ondersteuning voor third-party themes en is heel flexibel.
+Dit was mijn eerste PHP programmaatje. Ik heb er sinds 2018 tot 2020 aan gewerkt en ik heb er veel van geleerd. Het is een CMS-achtige constructie gemaakt met HTML, CSS, PHP en JavaScript. Er is ondersteuning voor third-party themes via een hacky API en de backend is erg flexibel.
 
 _SkyLight is geschreven voor PHP7 en werkt niet in PHP8!_
 
@@ -53,4 +53,4 @@ Wil je helpen met ontwikkelen of heb je een cool idee? Dan kan je me mailen op [
 -   [Wiki](https://docs.geheimesite.nl/SkyLight-Website-Editor/)
 -   [Bugtracker](https://github.com/RobinBoers/SkyLight-Website-Editor/issues)
 
-{{< figure src="/assets/images/projects/wb.png" alt="Screenshot" >}}
+{{< figure repo="SkyLight-Website-Editor" >}}

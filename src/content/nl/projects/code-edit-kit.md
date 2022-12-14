@@ -9,4 +9,4 @@ Dit een project, dat ik later in vele andere prjecten heb ingevoegd. Het is een 
 Dit is een oud project wat erg buggy is, en niet meer wordt geüpdate! Ik heb wel een nieuwer project wat hier op lijkt, maar met experimenteel webUSB en webStorage support. Je kan het hier vinden: [VSKodium](/projects/vskodium).
 {{< / warning >}}
 
-{{< figure src="/assets/images/projects/code-editor.png" alt="Screenshot" >}}
+{{< figure src="assets/images/projects/code-edit-kit.png" alt="Screenshot" >}}

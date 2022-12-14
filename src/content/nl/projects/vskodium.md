@@ -24,4 +24,4 @@ Deze dingen zouden misschien mogelijk een soortvan klein beetje kunnen werken in
 
 -   WebUSB om met apparaten zoals een micro:bit of Arduino te verbinden
 
-{{< figure src="/assets/images/projects/vskodium.png" alt="Screenshot" >}}
+{{< screenshot repo="VSKodium" >}}

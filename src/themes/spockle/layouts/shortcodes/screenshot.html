@@ -1,0 +1,15 @@
+{{ $repo := .Get "repo" }}
+{{ $image_url := (printf "https://raw.githubusercontent.com/RobinBoers/%s/master/screenshot.png" $repo) }}
+
+{{ $image := resources.GetRemote $image_url  }}
+{{ $image := $image.Content | resources.FromString (printf "assets/images/screenshots/%s.webp" $repo) }}
+
+{{ with $image.Resize (printf "%dx%d webp" $image.Width $image.Height)}}
+
+    <figure>
+        <img
+            src="{{ .RelPermalink }}"
+            alt="Screenshot" />
+    </figure>
+
+{{ end }}

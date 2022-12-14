@@ -31,4 +31,4 @@ Nibor kan redelijk rekenen. Hij kan geen wiskundige formules oplossen, maar je k
 
 Hij is te vinden bij mijn testprojecten: [code.geheimesite.nl](https://code.geheimesite.nl/beta/nibor/)
 
-{{< figure src="/assets/images/projects/nibor.png" alt="Screenshot" >}}
+{{< figure src="assets/images/projects/nibor.png" alt="Screenshot" >}}

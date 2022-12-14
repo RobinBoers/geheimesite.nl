@@ -10,4 +10,4 @@ Ik heb een mooie layout met tegels gemaakt, die regelijk goed schaalt op mobiel.
 Je vind de website hier:  
 [https://thesisevelineboers.blogspot.com](https://thesisevelineboers.blogspot.com/)
 
-{{< figure src="/assets/images/websites/thesis-eveline-boers.png" alt="Screenshot" >}}
+{{< figure src="assets/images/websites/thesis-eveline-boers.png" alt="Screenshot" >}}

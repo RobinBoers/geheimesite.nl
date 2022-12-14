@@ -15,4 +15,4 @@ Dit project is gemaakt met Phaser 3. Phaser 3 is een game framework voor games g
 [Lees meer...](https://blog.geheimesite.nl/2021/03/gamedevelopment-met-phaser-3.html)  
 [Source code en download op Github](https://github.com/RobinBoers/cutie-tanks)
 
-{{< figure src="https://raw.githubusercontent.com/RobinBoers/cutie-tanks/main/artwork/banner.png" alt="Screenshot" >}}
+{{< screenshot repo="cutie-tanks" >}}

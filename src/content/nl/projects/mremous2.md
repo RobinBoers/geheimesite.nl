@@ -13,4 +13,4 @@ Dit is een bot die ik voor de discordserver van mij en mijn vrienden heb gemaakt
 
 [Download op GitHub](https://github.com/RobinBoers/MrEmous2)
 
-{{< figure src="/assets/images/projects/mremous2.png" alt="Screenshot" >}}
+{{< screenshot repo="MrEmous2" >}}

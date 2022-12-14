@@ -20,11 +20,11 @@ Ik ben Nindo ooit begonnen als een chatapp voor geheim agenten. Mijn hele websit
 
 Een onderdeel van die chatapp maakte gebruik van een JSON bestand om publieke berichten te plaatsen, als een soort Twitter clone. Dit onderdeel noemde in Nindo, omdat het cool klonk en Ninjas <strong class="bold">vast</strong> wel iets te maken hadden met geheim agenten.
 
-{{< figure src="/assets/images/projects/dgaw.png" alt="Een simpel login scherm met 1 kolom" caption="De eerste versie van de DGAW" >}}
+{{< figure src="assets/images/projects/dgaw.png" alt="Een simpel login scherm met 1 kolom" caption="De eerste versie van de DGAW" >}}
 
 Een tijdje later besloot ik de webapp (genaamd DGAW, De Geheim Agenten Webapp) een nieuw jasje te geven. Ik voegde support toe voor een rare manier van DMs die enigzins op mailen leek.
 
-{{< figure src="/assets/images/projects/dgaw.png" alt="Vernieuwd ontwerp met meerdere kolommen en meer functionaliteit" caption="Redesign met meer functies" >}}
+{{< figure src="assets/images/projects/dgaw.png" alt="Vernieuwd ontwerp met meerdere kolommen en meer functionaliteit" caption="Redesign met meer functies" >}}
 
 Bij het derde en laaste redesign gebruikte ik [de social media template van W3Schools](https://www.w3schools.com/w3css/tryw3css_templates_social.htm). Ik heb toen mijn hele website herontworpen, en ik heb die basis nog voor anderhalf jaar gebruikt, voor ik in juni 2022 de infrastructuur van de site op de schop gooide. Ik heb destijds bij het herontwerpen van de site de naam DGAW laten vallen, gezien het feit dat het nog maar vrij weinig met geheim agenten te maken, en zeg het zelf, DGAW klinkt wat suf toch?
 
@@ -46,7 +46,7 @@ Je vind ze allebei in je Nindo/geheimesite-account dashboard.
 [Naar je dashboard](/website/nindo)
 {{< / update >}}
 
-{{< figure src="/assets/images/projects/nindo.png" alt="'Modern' herontwerp op basis van de W3Schools social media template" caption="Redesign met meer functies" >}}
+{{< figure src="assets/images/projects/nindo.png" alt="'Modern' herontwerp op basis van de W3Schools social media template" caption="Redesign met meer functies" >}}
 
 Kort daarna besloot ik Nindo offline te halen en te open-sourcen. Dit besluit was mede zodat ik me meer kon focussen op het ontwikkelen van andere projecten, en omdat ik graag de source code wilde publiceren, maar ik bang was dat er kritieke bugs zouden worden ontdekt die mijn server (en daarmee hele site) kwetsbaar zouden maken.
 
@@ -70,4 +70,4 @@ Helaas leed dit project aan hetzelfde probleem als het originele Nindo. Het was 
 
 Het moraal van dit verhaal? Als je dingen wil leren, bouw ze gewoon. Het maakt niet uit of het uiteindelijk schaalt of te onderhouden is, zolang je er maar lol mee hebt en er iets van leert. Misschien zal ik ooit wel een nieuwe versie van Nindo bouwen, al betwijfel ik of ik het Nindo zou noemen. Maar van de eerste twee iteraties heb ik in ieder geval veel geleerd.
 
-{{< figure src="https://raw.githubusercontent.com/RobinBoers/nindo-phx/master/screenshot.png" alt="Screenshot" >}}
+{{< screenshot repo="nindo-phx" >}}

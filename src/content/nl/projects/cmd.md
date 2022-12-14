@@ -38,4 +38,4 @@ Dit is een oud project wat erg buggy is, en niet meer wordt geüpdate.
 | js.delete        | delete Javascript input                                                  |
 | js.run           | run Javascript input                                                     |
 
-{{< figure src="/assets/images/projects/cmd.png" alt="Screenshot" >}}
+{{< figure src="assets/images/projects/cmd.png" alt="Screenshot" >}}

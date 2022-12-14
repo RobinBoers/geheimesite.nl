@@ -7,4 +7,4 @@ Dit is de website van het bedrijf van mijn vader. Hij is hovenier, en hij legt t
 
 [www.groendoenerij.nl](http://www.groendoenerij.nl)
 
-{{< figure src="/assets/images/projects/groendoenerij.png" alt="Screenshot" >}}
+{{< figure src="assets/images/websites/groendoenerij.png" alt="Screenshot" >}}

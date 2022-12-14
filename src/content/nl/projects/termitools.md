@@ -7,4 +7,4 @@ Dit is een heel simpel commandline control center voor Ubuntu/Debian. Je kan er 
 
 [Meer information op github](https://github.com/RobinBoers/termitools)
 
-{{< figure src="/assets/images/projects/termitools.png" alt="Screenshot" >}}
+{{< screenshot repo="termitools" >}}

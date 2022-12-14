@@ -7,4 +7,4 @@ Dit is de website die ik voor Duurzame Maassluizers heb gemaakt. Het is een bewo
 
 [duurzamemaassluizers.nl](https://www.duurzamemaassluizers.nl/)
 
-{{< figure src="/assets/images/projects/duurzame-maassluizers.png" alt="Screenshot" >}}
+{{< figure src="assets/images/websites/duurzame-maassluizers.png" alt="Screenshot" >}}
