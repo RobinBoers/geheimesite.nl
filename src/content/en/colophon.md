@@ -1,6 +1,6 @@
 ---
-title: "How it was made"
-url: "/how-it-was-made.html"
+title: "Colophon"
+url: "/colophon.html"
 hideTitle: true
 ---
 
