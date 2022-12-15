@@ -34,9 +34,9 @@ Ik verdiep me momenteel verder in Linux, Elixir end Phoenix LiveView. Ik post op
 
 ## Over de site
 
-Mijn website is gebouwd in pure HTML met wat PHP voor wat extra magie en wordt gehost bij [bHosted](https://www.bhosted.nl/?ref=97f4c4a4b13e269e12cfd4f0352ba527). Zowel mijn blog als deze site zijn open-source en kunnen [op mijn GitHub profiel](https://github.com/RobinBoers/geheimesite.nl) gevonden worden.
+Mijn website is gebouwd met [Hugo](https://gohugo.io) en wordt gehost bij [bHosted](https://www.bhosted.nl/?ref=97f4c4a4b13e269e12cfd4f0352ba527). Zowel mijn blog als deze site zijn open-source en kunnen [op mijn GitHub profiel](https://github.com/RobinBoers/geheimesite.nl) gevonden worden.
 
-[Lees meer over deze site...](/how-it-was-made)
+[Meer over deze site ➜](/colophon)
 
 {{< hr >}}
 

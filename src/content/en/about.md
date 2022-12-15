@@ -16,35 +16,34 @@ weight: 2
     <img class="w-full h-60 mb-5 lg:rotate-1 rounded-xl aspect-square object-cover object-right-top lg:mb-0 lg:h-fit lg:w-1/5" src="/assets/images/me_optimized.jpeg" alt="This is me">
 </div>
 
-Verder speel ik handbal en heb ik een [YouTube kanaal](https://www.youtube.com/channel/UCx4li1iMygs5KtqgcU5KGRw), waar ik video's maak over onder andere programmeren, video-editten en andere dingen die ik interrestant vind.
-Ook heb ik een [GitHub account](https://github.com/RobinBoers) waar ik de meeste van mijn projecten op zet met open-source licenties.
+Additionally I play handball and I have a (long-forgotten) [YouTube channel](https://www.youtube.com/channel/UCx4li1iMygs5KtqgcU5KGRw), where I post videos about programming and video-editing. I also have a [GitHub account](https://github.com/RobinBoers) where I open-source most of my projects.
 
 <div class="flex flex-col lg:flex-row justify-center items-center gap-1 lg:gap-4">
     <img class="w-full lg:w-auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RobinBoers&layout=compact&title_color=434d58" alt="De meestgebruikte programmeertalen in mijn projecten">
     <img class="w-full lg:w-auto" src="https://github-readme-stats.vercel.app/api?username=RobinBoers&count_private=true&show_icons=true&hide_title=true" alt="Mijn activiteit op GitHub het afgelopen jaar">
 </div>
 
-## Hoe ik in aanraking ben gekomen met programmeren
+## How I got into programming
 
-Ik programmeer al sinds groep 7 (2017). Ik ben ermee begonnen omdat ik in de bieb een boek zag staan over website's maken. Nu moet je weten dat ik al sinds groep 4 zo'n computernerd was, die van elk knopje wist wat het deed. Het boek heette [Creeëren met code: Zo maak je een website](http://www.nano-tips.com). Dus ik maakte een website, die eind 2017 online kwam. Ik hield enorm veel van geheim agenten, dus de eerste versies (tot versie 9) gingen daar ook over. Je kunt die versies in mijn [Website Library](/website/overview) zien.
+I've been programming since group 7 (2017). I got into it because I saw a book at the local library titled [Creating with code: How to built a website](http://www.nano-tips.com). I had been a huge nerd who knew what every button in Windows did, so I decided to build a website, which I launched end-2017. I loved secret agents, so the first versions (up until redesign 9) were built for a imaginary organisation called the DDDD, which protected the univserse from the evil alter-ego of mankind. You can find those versions of the site in my [Website Library](/website/overview).
 
-Nadat ik mijn eerste website had gemaakt ben ik naar CoderDojo gegaan. Dat is een soort bijeenkomst die hier in Maassluis om de vier weken is, waar kinderen kunnen leren programmeren, en elkaar daarbij kunnen helpen. Ik heb op CoderDojo geleerd hoe PHP en databases werken, waarmee ik wat gave dingen heb gebouwd.
+After I built my first website I went to CoderDojo. CoderDojo is a monthly meetup in our local library where kids can practise programming. At CoderDojo two amazing people taught me how to write PHP and how to use MySQL databases.
 
-Ik verdiep me momenteel verder in Linux, Elixir end Phoenix LiveView. Ik post op mijn blog regelmatig updates over wat ik maak, leer en doe. Ik probeer altijd te blijven leren.
+Currently, I'm learning more about the inner-workings of Linux, Elixir and Phoenix Liveview. I regularly post updates on my blog about my findings. I try to keep learning (because it's fun).
 
-## Over de site
+## About the site
 
-Mijn website is gebouwd in pure HTML met wat PHP voor wat extra magie en wordt gehost bij [bHosted](https://www.bhosted.nl/?ref=97f4c4a4b13e269e12cfd4f0352ba527). Zowel mijn blog als deze site zijn open-source en kunnen [op mijn GitHub profiel](https://github.com/RobinBoers/geheimesite.nl) gevonden worden.
+My website is built using [Hugo](https://gohugo.io) and is hosted at [bHosted](https://www.bhosted.nl/?ref=97f4c4a4b13e269e12cfd4f0352ba527). Both my blog and this site are [open-sourced on GitHub](https://github.com/RobinBoers/geheimesite.nl), but I have yet to decide on a license.
 
-[Lees meer over deze site...](/how-it-was-made)
+[More about this site ➜](/colophon)
 
 {{< hr >}}
 
 ## Contact
 
-Wil je me een bericht sturen?  
-Dit is een van mijn 6 e-mailadressen: hello@geheimesite.nl  
-Je kunt ook het onderstaande contactformulier invullen.
+Wanna send me a message?  
+This is one of my six emailadresses: hello@geheimesite.nl  
+You can also fill out the contact form below.
 
 {{< contact-form >}}
 
