@@ -127,6 +127,7 @@ weight: 1
             <li><a class="external" data-weight="8" href="https://roly.neocities.org">roly.neocities.org</a></li>
             <li><a class="external" data-weight="9" href="https://whimsical.club">whimsical.club</a></li>
             <li><a class="external" data-weight="7" href="https://moderncss.dev">moderncss.dev</a></li>
+            <li><a class="external" data-weight="9" href="http://aegir.org">aegir.org</a></li>
         </ul>
     </section>
     <section class="hyperpost">
@@ -147,6 +148,7 @@ weight: 1
             <li><a class="external" data-weight="9" href="https://himatt.com">himatt.com</a></li>
             <li><a class="external" data-weight="5" href="http://www.dennisknopf.net">www.dennisknopf.net</a></li>
             <li><a class="external" data-weight="6" href="https://inhji.de">inhji.de</a></li>
+            <li><a class="external" data-weight="8" href="https://andymatuschak.org">andymatuschak.org</a></li>
             <li><a class="external" data-weight="5" href="https://seirdy.one">seirdy.one</a></li>
             <li><a class="external" data-weight="5" href="https://macwright.com">macwright.com</a></li>
             <li><a class="external" data-weight="7" href="https://danimotora.online">danimotora.online</a></li>
