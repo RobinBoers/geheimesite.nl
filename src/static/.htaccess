@@ -53,7 +53,7 @@ Redirect /framboy /projects/framboy
 Redirect /subscriptions /subscriptions.opml
 Redirect /ckv /ckvrobinboers4a2
 
-Redirect /blog https://blog.geheimesite.nl
+Redirect /blog/index.html https://blog.geheimesite.nl
 Redirect /en/blog https://blog.geheimesite.nl/en
 Redirect /feed https://blog.geheimesite.nl/index.xml 
 
@@ -71,6 +71,9 @@ Redirect 301 /library/website/version/ /website/v/
 Redirect 301 /library/projects/package/ /projects/
 Redirect 301 /library/projects/ /projects/
 Redirect 301 /library/website/overview.php /website/overview
+
+# Fix old pages
+Redirect 301 /how-it-was-made /colophon
 
 # Remove .php and .html from filenames
 RewriteCond %{REQUEST_FILENAME} !-d 
