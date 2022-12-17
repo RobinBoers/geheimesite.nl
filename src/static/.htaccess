@@ -13,10 +13,9 @@ AddHandler text/xml .opml
 	php_value zlib.output_compression 16386
 </ifmodule>
 
-# Force https
-RewriteEngine On 
-RewriteCond %{HTTPS} off 
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# Force https (disabled, see 1mb.club)
+#RewriteCond %{HTTPS} off 
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # Add expire headers (prevents hotlinking)
 <FilesMatch "\.(ico|jpg|jpeg|png|webp|gif|js|css|swf)$">
