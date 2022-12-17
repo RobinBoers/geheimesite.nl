@@ -162,7 +162,7 @@ weight: 1
             <li><a class="external" data-weight="9" href="https://www.cassie.codes">cassie.codes</a></li>
             <li><a class="external" data-weight="2" href="https://photogabble.co.uk">photogabble.co.uk</a></li>
             <li><a class="external" data-weight="7" href="https://rafa.design">rafa.design</a></li>
-            <li><a class="external" data-weight="5" href="https://jhey.dev">jhey.dev/</a></li>
+            <li><a class="external" data-weight="5" href="https://jhey.dev">jhey.dev</a></li>
             <li><a class="external" data-weight="6" href="https://darn.es">darn.es</a></li>
         </ul>
     </section>
