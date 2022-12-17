@@ -6,7 +6,7 @@
         <li>
             <h3>{{ .name }}</h3>
 
-            <a href="{{ .url }}">
+            <a href="{{ with .page }}{{ . }}{{ else }}{{ .url }}{{ end }}">
                 <img src="{{ $image.RelPermalink }}" alt="{{ .name }}" />
             </a>
         </li>

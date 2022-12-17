@@ -2,7 +2,8 @@
     {
         "name": "HVM Old's Cool",
         "image": "assets/images/websites/hvm-olds-cool.png",
-        "url": "https://hvm-oldscool.nl"
+        "url": "https://hvm-oldscool.nl",
+        "page": "/projects/websites/oldscool"
     },
     {
         "name": "De Groentemeester",
@@ -12,22 +13,26 @@
     {
         "name": "Groendoenerij",
         "image": "assets/images/websites/groendoenerij.png",
-        "url": "https://www.groendoenerij.nl"
+        "url": "https://www.groendoenerij.nl",
+        "page": "/projects/websites/groendoenerij"
     },
     {
         "name": "Sterrenkruid",
         "image": "assets/images/websites/sterrenkruid.png",
-        "url": "https://jokessterrenkruid.blogspot.com"
+        "url": "https://jokessterrenkruid.blogspot.com",
+        "page": "/projects/websites/sterrenkruid"
     },
     {
         "name": "Duurzame Maassluizers",
         "image": "assets/images/websites/duurzame-maassluizers.png",
-        "url": "https://duurzamemaassluizers.nl"
+        "url": "https://duurzamemaassluizers.nl",
+        "page": "/projects/websites/duurzamemaassluizers"
     },
     {
         "name": "Thesis Eveline Boers",
         "image": "assets/images/websites/thesis-eveline-boers.png",
-        "url": "https://thesisevelineboers.blogspot.com"
+        "url": "https://thesisevelineboers.blogspot.com",
+        "page": "/projects/websites/thesis"
     },
     {
         "name": "School shtuff",

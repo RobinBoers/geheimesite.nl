@@ -7,8 +7,7 @@ Dit is het blog van mijn oma. Ze blogt over astrologie, bomen, stenen en andere 
 
 Hiervoor had ik ook een thema gemaakt met blauwe en grijze tinten, en een overzichtelijke homepage met daarop recente blogjes, met coverfoto en een klein stukje tekst.
 
-Wil je meer over dat thema weten? Op mijn blog over programmeren staat een post met meer informatie:  
-<https://blog.geheimesite.nl/2020/06/nieuw-blogger-thema-theme-blue.html>
+Wil je meer over dat thema weten? Op mijn blog over programmeren staat [een post](https://blog.geheimesite.nl/2020/06/nieuw-blogger-thema-theme-blue.html) met meer informatie.
 
 <span hidden>Post information</span> {{< link-icon url="https://jokessterrenkruid.blogspot.com" label="jokessterrenkruid.blogspot.com" >}} {{< github-icon repo="sterrenkruid" >}}
 
