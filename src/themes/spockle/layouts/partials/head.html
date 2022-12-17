@@ -17,7 +17,6 @@
     {{ $js := resources.Get "assets/js/menu.js" | minify | fingerprint }}
     <script
         defer
-        type="text/javascript"
         src="{{ $js.RelPermalink }}"
         integrity="{{ $js.Data.Integrity }}"></script>
 

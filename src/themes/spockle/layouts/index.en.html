@@ -22,7 +22,6 @@
         {{ $js := resources.Get "assets/js/menu.js" | minify | fingerprint }}
         <script
             defer
-            type="text/javascript"
             src="{{ $js.RelPermalink }}"
             integrity="{{ $js.Data.Integrity }}"></script>
 
@@ -100,7 +99,7 @@
 
         <main id="content" class="page-content mt-0 md:mt-6">
             <article class="homepage-hero h-card">
-                <article class="homepage-section max-w-none lg:max-w-xl">
+                <div class="homepage-section max-w-none lg:max-w-xl">
                     <h1 class="p-name text-4xl title font-normal">
                         Robin Boers
                     </h1>
@@ -112,7 +111,7 @@
                     </p>
 
                     {{ partial "h-card-details" }}
-                </article>
+                </div>
 
                 <img
                     class="u-photo hidden absolute top-[80px] right-[-200px] lg:block xl:static w-full pixelart max-w-sm"
