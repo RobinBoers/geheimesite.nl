@@ -18,6 +18,8 @@ This page was inspired by petermolnar.net
 	<body>
 		<outline text="🏡 Home" title="🏡 Home" type="folder">
 			<outline title="Anomalily" text="The internet home of Lillian Karabaic" type="feed" xmlUrl="http://anomalily.net/feed/" htmlUrl="http://anomalily.net" url="http://anomalily.net/feed/"></outline>
+			<outline title="PhotoGabble" text="Blog and general digital garden of the full stack programmer Simon Dann." type="feed" xmlUrl="https://photogabble.co.uk/blog/feed.xml" htmlUrl="https://photogabble.co.uk" url="https://photogabble.co.uk/blog/feed.xml"></outline>
+			<outline title="Michael Welford" text="Michael Welford" type="feed" xmlUrl="https://michaelwelford.com/posts/index.xml" htmlUrl="https://michaelwelford.com" url="https://michaelwelford.com/posts/index.xml"></outline>
 			<outline title="N-O-D-E" text="N-O-D-E" type="feed" xmlUrl="https://n-o-d-e.net/rss/rss.xml" htmlUrl="https://n-o-d-e.net" url="https://n-o-d-e.net/rss/rss.xml"></outline>
 			<outline title="ꟿirage" text="Inhji" type="feed" xmlUrl="https://inhji.de/follow/home" htmlUrl="https://inhji.de" url="https://inhji.de/follow/home"></outline>
 			<outline title="Tom MacWright" text="Tom MacWright" type="feed" xmlUrl="https://macwright.com/rss.xml" htmlUrl="https://macwright.com" url="https://macwright.com/rss.xml"></outline>
@@ -26,16 +28,16 @@ This page was inspired by petermolnar.net
 			<outline title="Pelle Wessman" text="Pelle Wessman" type="feed" xmlUrl="https://voxpelli.com/all.xml" htmlUrl="https://voxpelli.com" url="https://voxpelli.com/all.xml"></outline>
 			<outline title="Micah Ilbery" text="just your friendly neighborhood coffee nerd" type="feed" xmlUrl="https://micahilbery.com/feed.xml" htmlUrl="https://micahilbery.com" url="https://micahilbery.com/feed.xml"></outline>
 			<outline title="Fred.ca" text="Fred.ca" type="feed" xmlUrl="https://ferd.ca/feed.rss" htmlUrl="https://ferd.ca" url="https://ferd.ca/feed.rss"></outline>
-			<outline title="Just another blog" text="Just another blog" type="feed" xmlUrl="https://blogs.gnome.org/alexm/feed/" htmlUrl="https://blogs.gnome.org/alexm" url="https://blogs.gnome.org/alexm/feed/"></outline>
-			<outline title="Space and Meaning" text="Space and Meaning" type="feed" xmlUrl="https://blogs.gnome.org/tbernard/feed/" htmlUrl="https://blogs.gnome.org/tbernard" url="https://blogs.gnome.org/tbernard/feed/"></outline>
 			<outline title="Relentless Simplicity" text="Relentless Simplicity" type="feed" xmlUrl="https://bill.harding.blog/feed" htmlUrl="https://bill.harding.blog" url="https://bill.harding.blog/feed"></outline>
 			<outline title="Sterrenkruid" text="Sterrenkruid" type="feed" xmlUrl="https://jokessterrenkruid.blogspot.com/feeds/posts/default" htmlUrl="https://jokessterrenkruid.blogspot.com" url="https://jokessterrenkruid.blogspot.com/feeds/posts/default"></outline>
 			<outline title="WitBlauw" text="WitBlauw" type="feed" xmlUrl="https://witblauw.blogspot.com/feeds/posts/default" htmlUrl="https://witblauw.blogspot.com" url="https://witblauw.blogspot.com/feeds/posts/default"></outline>
 			<outline title="Interdependent Thoughts" text="Interdependent Thoughts" type="feed" xmlUrl="https://www.zylstra.org/blog/feed/" htmlUrl="https://www.zylstra.org" url="https://www.zylstra.org/blog/feed/"></outline>
 			<outline title="Wesley's Notebook" text="Wesley's Notebook" type="feed" xmlUrl="https://notebook.wesleyac.com/atom.xml" htmlUrl="https://wesleyac.com" url="https://notebook.wesleyac.com/atom.xml"></outline>
-			<outline title="Bryce Wray" text="Bryce Wray" type="feed" xmlUrl="https://www.brycewray.com/index.xml" htmlUrl="https://www.brycewray.com" url="https://www.brycewray.com/index.xml"></outline>
+			<outline title="Zeldman" text="Zeldman" type="feed" xmlUrl="https://www.zeldman.com/feed/" htmlUrl="https://www.zeldman.com" url="https://www.zeldman.com/feed/"></outline>
 		</outline>
 		<outline text="💻 Coding" title="💻 Coding" type="folder">
+			<outline title="Just another blog" text="Just another blog" type="feed" xmlUrl="https://blogs.gnome.org/alexm/feed/" htmlUrl="https://blogs.gnome.org/alexm" url="https://blogs.gnome.org/alexm/feed/"></outline>
+			<outline title="Space and Meaning" text="Space and Meaning" type="feed" xmlUrl="https://blogs.gnome.org/tbernard/feed/" htmlUrl="https://blogs.gnome.org/tbernard" url="https://blogs.gnome.org/tbernard/feed/"></outline>
 			<outline title="Kev Quirk" text="Kev Quirk" type="feed" xmlUrl="https://kevquirk.com/feed" htmlUrl="https://kevquirk.com" url="https://kevquirk.com/feed"></outline>
 			<outline title="Jan-Lukas Else" text="Thoughts of an IT expert" type="feed" xmlUrl="https://jlelse.blog/.rss" htmlUrl="https://jlelse.blog" url="https://jlelse.blog/.rss"></outline>
 			<outline title="Bradley Taunt" text="Bradley Taunt" type="feed" xmlUrl="https://bt.ht/atom.xml" htmlUrl="https://bt.ht" url="https://bt.ht/atom.xml"></outline>
@@ -62,7 +64,7 @@ This page was inspired by petermolnar.net
 			<outline title="Kornel.Lesiński" text="pornelski" type="feed" xmlUrl="https://kornel.ski/pornelski.atom" htmlUrl="https://kornel.ski" url="https://kornel.ski/pornelski.atom"></outline>
 			<outline title="p83" text="publog" type="feed" xmlUrl="https://p83.nl/rss" htmlUrl="https://p83.nl" url="https://p83.nl/rss"></outline>
 			<outline title="Peter Stuifzand" text="Peter Stuifzand" type="feed" xmlUrl="https://peterstuifzand.nl/rss.xml" htmlUrl="https://peterstuifzand.nl" url="https://peterstuifzand.nl/rss.xml"></outline>
-			<outline title="Zeldman" text="Zeldman" type="feed" xmlUrl="https://www.zeldman.com/feed/" htmlUrl="https://www.zeldman.com" url="https://www.zeldman.com/feed/"></outline>
+			<outline title="Bryce Wray" text="Bryce Wray" type="feed" xmlUrl="https://www.brycewray.com/index.xml" htmlUrl="https://www.brycewray.com" url="https://www.brycewray.com/index.xml"></outline>
 		</outline>
 		<outline text="🎨 Design" title="🎨 Design" type="folder">
 			<outline title="Vyshnav Gangadharan" text="Vyshnav Gangadharan" type="feed" xmlUrl="https://vyshnav.xyz/feed.xml" htmlUrl="/https://vyshnav.xyz" url="https://vyshnav.xyz/feed.xml"></outline>
