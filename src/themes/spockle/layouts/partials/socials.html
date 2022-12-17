@@ -6,9 +6,9 @@
             href="https://www.youtube.com/channel/UCx4li1iMygs5KtqgcU5KGRw"
             target="_blank"
             rel="me">
-            <img
-                src="https://img.shields.io/badge/Robin%20Boers-red?style=for-the-badge&logo=youtube"
-                alt="Robin Boers on YouTube" />
+
+            {{ $image := resources.GetRemote "https://img.shields.io/badge/Robin%20Boers-red?style=for-the-badge&logo=youtube" }}
+            {{ $image.Content | safeHTML }}
         </a>
     </li>
     <li class="inline list-none">
@@ -17,9 +17,9 @@
             href="https://github.com/RobinBoers"
             target="_blank"
             rel="me">
-            <img
-                src="https://img.shields.io/badge/GitHub-333333?style=for-the-badge&logo=github"
-                alt="RobinBoers on GitHub" />
+
+            {{ $image := resources.GetRemote "https://img.shields.io/badge/GitHub-333333?style=for-the-badge&logo=github" }}
+            {{ $image.Content | safeHTML }}
         </a>
     </li>
     <li class="inline list-none">
@@ -27,9 +27,9 @@
             class="no-underline button ml-1"
             href="https://discord.gg/DPtKK3UREu"
             target="_blank">
-            <img
-                src="https://img.shields.io/badge/Robijntje22%239914-7289DA?style=for-the-badge&logo=discord&logoColor=white"
-                alt="Robijntje22#9914 on Discord" />
+
+            {{ $image := resources.GetRemote "https://img.shields.io/badge/Robijntje22%239914-7289DA?style=for-the-badge&logo=discord&logoColor=white" }}
+            {{ $image.Content | safeHTML }}
         </a>
     </li>
     <li class="inline list-none">
@@ -38,9 +38,9 @@
             href="https://www.linkedin.com/in/robin-boers-b18691229/"
             target="_blank"
             rel="me">
-            <img
-                src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin"
-                alt="robinboers on LinkedIn" />
+            
+            {{ $image := resources.GetRemote "https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin" }}
+            {{ $image.Content | safeHTML }}
         </a>
     </li>
     <li class="inline list-none">
@@ -49,9 +49,9 @@
             href="https://micro.blog/Robijntje"
             target="_blank"
             rel="me">
-            <img
-                src="https://img.shields.io/badge/robijntje-ff8800?style=for-the-badge&logo=micro.blog&logoColor=white"
-                alt="@Robijntje on Micro.blog" />
+
+            {{ $image := resources.GetRemote "https://img.shields.io/badge/robijntje-ff8800?style=for-the-badge&logo=micro.blog&logoColor=white" }}
+            {{ $image.Content | safeHTML }}
         </a>
     </li>
     <li class="inline list-none">
@@ -60,9 +60,9 @@
             href="https://www.twitch.tv/Rob1jntje"
             target="_blank"
             rel="me">
-            <img
-                src="https://img.shields.io/badge/Rob1jntje-blueviolet?style=for-the-badge&logo=twitch&logoColor=white"
-                alt="Rob1jntje on Twitch.tv" />
+
+            {{ $image := resources.GetRemote "https://img.shields.io/badge/Rob1jntje-blueviolet?style=for-the-badge&logo=twitch&logoColor=white" }}
+            {{ $image.Content | safeHTML }}
         </a>
     </li>
     <li class="inline list-none">
@@ -71,9 +71,9 @@
             href="https://robijntje.itch.io"
             target="_blank"
             rel="me">
-            <img
-                src="https://img.shields.io/badge/Rob1jntje-FA5C5C?style=for-the-badge&logoColor=white&logo=itch.io"
-                alt="Robijntje on Itch.io" />
+
+            {{ $image := resources.GetRemote "https://img.shields.io/badge/Rob1jntje-FA5C5C?style=for-the-badge&logoColor=white&logo=itch.io" }}
+            {{ $image.Content | safeHTML }}
         </a>
     </li>
     <li class="inline list-none">
@@ -82,9 +82,9 @@
             href="https://reddit.com/u/Robijntje22"
             target="_blank"
             rel="me">
-            <img
-                src="https://img.shields.io/badge/-u%2FRobijntje22-%23FF4500?style=for-the-badge&logoColor=white&logo=reddit"
-                alt="Robijntje22 on Reddit" />
+
+            {{ $image := resources.GetRemote "https://img.shields.io/badge/-u%2FRobijntje22-%23FF4500?style=for-the-badge&logoColor=white&logo=reddit" }}
+            {{ $image.Content | safeHTML }}
         </a>
     </li>
 </ul>
