@@ -42,7 +42,7 @@ AddHandler text/xml .opml
 	Header unset Cache-Control
 </FilesMatch>
 
-# Compress plain text file
+# Compress files
 <FilesMatch "\.(js|css|html|htm|php|xml|opml)$">
 	SetOutputFilter DEFLATE
 </FilesMatch>

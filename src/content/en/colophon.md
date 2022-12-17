@@ -25,4 +25,6 @@ HTML files are cached for one day, and images and fonts are cached indefinitely.
 
 I built my own barebones statistics tracker. It tracks visits, not views, per post. It also has an optional disable trigger using `localStorage` so that my own views aren't tracked. The results are [publicly available](/blog/stats) can be filtered per month and are shown in a simple graph that I built using Chart.js.
 
+I do not store your personal information in any way. [Privacy statement](/privacy).
+
 <span hidden>Post information</span> {{< link-icon url="https://blog.geheimesite.nl/en/post/history-of-my-site/" label="Blogpost" >}}
