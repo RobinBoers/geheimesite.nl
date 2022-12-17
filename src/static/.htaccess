@@ -73,6 +73,8 @@ Redirect 301 /library/website/overview.php /website/overview
 
 # Fix old pages
 Redirect 301 /how-it-was-made /colophon
+Redirect 301 /logo2.png /assets/images/logo2.png
+
 
 # Remove .php and .html from filenames
 RewriteCond %{REQUEST_FILENAME} !-d 
