@@ -23,11 +23,6 @@ This page was inspired by petermolnar.net
 			<outline title="Tom MacWright" text="Tom MacWright" type="feed" xmlUrl="https://macwright.com/rss.xml" htmlUrl="https://macwright.com" url="https://macwright.com/rss.xml"></outline>
 			<outline title="View from Ascraeus" text="View from Ascraeus" type="feed" xmlUrl="https://ascraeus.org/index.xml" htmlUrl="https://ascraeus.org" url="https://ascraeus.org/index.xml"></outline>
 			<outline title="Hugo's blog" text="Hugo's blog" type="feed" xmlUrl="https://hugo.md/index.xml" htmlUrl="https://hugo.md" url="https://hugo.md/index.xml"></outline>
-			<outline title="Kev Quirk" text="Kev Quirk" type="feed" xmlUrl="https://kevquirk.com/feed" htmlUrl="https://kevquirk.com" url="https://kevquirk.com/feed"></outline>
-			<outline title="Jan-Lukas Else" text="Thoughts of an IT expert" type="feed" xmlUrl="https://jlelse.blog/.rss" htmlUrl="https://jlelse.blog" url="https://jlelse.blog/.rss"></outline>
-			<outline title="Bradley Taunt" text="Bradley Taunt" type="feed" xmlUrl="https://bt.ht/atom.xml" htmlUrl="https://bt.ht" url="https://bt.ht/atom.xml"></outline>
-			<outline title="Henrique Dias" text="@hacdias" type="feed" xmlUrl="https://hacdias.com/.rss" htmlUrl="https://hacdias.com" url="https://hacdias.com/.rss"></outline>
-			<outline title="Luke's Wild Website" text="Luke's Wild Website" type="feed" xmlUrl="https://www.lkhrs.com/blog/index.xml" htmlUrl="https://www.lkhrs.com" url="https://www.lkhrs.com/blog/index.xml"></outline>
 			<outline title="Pelle Wessman" text="Pelle Wessman" type="feed" xmlUrl="https://voxpelli.com/all.xml" htmlUrl="https://voxpelli.com" url="https://voxpelli.com/all.xml"></outline>
 			<outline title="Micah Ilbery" text="just your friendly neighborhood coffee nerd" type="feed" xmlUrl="https://micahilbery.com/feed.xml" htmlUrl="https://micahilbery.com" url="https://micahilbery.com/feed.xml"></outline>
 			<outline title="Fred.ca" text="Fred.ca" type="feed" xmlUrl="https://ferd.ca/feed.rss" htmlUrl="https://ferd.ca" url="https://ferd.ca/feed.rss"></outline>
@@ -41,6 +36,11 @@ This page was inspired by petermolnar.net
 			<outline title="Bryce Wray" text="Bryce Wray" type="feed" xmlUrl="https://www.brycewray.com/index.xml" htmlUrl="https://www.brycewray.com" url="https://www.brycewray.com/index.xml"></outline>
 		</outline>
 		<outline text="💻 Coding" title="💻 Coding" type="folder">
+			<outline title="Kev Quirk" text="Kev Quirk" type="feed" xmlUrl="https://kevquirk.com/feed" htmlUrl="https://kevquirk.com" url="https://kevquirk.com/feed"></outline>
+			<outline title="Jan-Lukas Else" text="Thoughts of an IT expert" type="feed" xmlUrl="https://jlelse.blog/.rss" htmlUrl="https://jlelse.blog" url="https://jlelse.blog/.rss"></outline>
+			<outline title="Bradley Taunt" text="Bradley Taunt" type="feed" xmlUrl="https://bt.ht/atom.xml" htmlUrl="https://bt.ht" url="https://bt.ht/atom.xml"></outline>
+			<outline title="Henrique Dias" text="@hacdias" type="feed" xmlUrl="https://hacdias.com/.rss" htmlUrl="https://hacdias.com" url="https://hacdias.com/.rss"></outline>
+			<outline title="Luke's Wild Website" text="Luke's Wild Website" type="feed" xmlUrl="https://www.lkhrs.com/blog/index.xml" htmlUrl="https://www.lkhrs.com" url="https://www.lkhrs.com/blog/index.xml"></outline>
 			<outline title="Sara Soueidan" text="Sara Soueidan" type="feed" xmlUrl="https://www.sarasoueidan.com/blog/index.xml" htmlUrl="https://www.sarasoueidan.com" url="https://www.sarasoueidan.com/blog/index.xml"></outline>
 			<outline title="Ru Singh" text="Ru Singh" type="feed" xmlUrl="https://rusingh.com/feed/" htmlUrl="https://rusingh.com" url="https://rusingh.com/feed/"></outline>
 			<outline title="Becky Hansmeyer" text="Becky Hansmeyer" type="feed" xmlUrl="https://beckyhansmeyer.com/feed/" htmlUrl="https://beckyhansmeyer.com/" url="https://beckyhansmeyer.com/feed/"></outline>
