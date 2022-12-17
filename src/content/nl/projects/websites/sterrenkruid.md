@@ -10,6 +10,6 @@ Hiervoor had ik ook een thema gemaakt met blauwe en grijze tinten, en een overzi
 Wil je meer over dat thema weten? Op mijn blog over programmeren staat een post met meer informatie:  
 <https://blog.geheimesite.nl/2020/06/nieuw-blogger-thema-theme-blue.html>
 
-{{< link-icon url="https://jokessterrenkruid.blogspot.com" label="jokessterrenkruid.blogspot.com" >}} {{< github-icon repo="sterrenkruid" >}}
+<span hidden>Post information</span> {{< link-icon url="https://jokessterrenkruid.blogspot.com" label="jokessterrenkruid.blogspot.com" >}} {{< github-icon repo="sterrenkruid" >}}
 
 {{< figure src="assets/images/websites/sterrenkruid.png" alt="Screenshot" >}}

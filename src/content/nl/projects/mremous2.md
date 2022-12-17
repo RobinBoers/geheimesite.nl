@@ -11,6 +11,6 @@ Dit is een bot die ik voor de discordserver van mij en mijn vrienden heb gemaakt
 -   Memes en nsfw van Reddit
 -   Grappige commands
 
-{{< github-icon repo="MrEmous2" >}}
+<span hidden>Post information</span> {{< github-icon repo="MrEmous2" >}}
 
 {{< screenshot repo="MrEmous2" >}}

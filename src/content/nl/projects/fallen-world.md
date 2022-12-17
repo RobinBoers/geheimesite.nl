@@ -9,7 +9,7 @@ Er zijn veel mensen die me hebben geholpen met dit project. Je kan hier de credi
 
 Ik maak devlogs van de ontwikkeling van het project. Je kan ze [op YouTube](https://www.youtube.com/playlist?list=PLBz5ZmxqtLxNZp3We7HW2BuK-4fHH3rMY) bekijken. Hieronder zie je het eerste devlog.
 
-{{< github-icon repo="fallen_world" >}}
+<span hidden>Post information</span> {{< github-icon repo="fallen_world" >}}
 
 {{< video id="5FoCYP8VX8I" class="w-full" >}}
 

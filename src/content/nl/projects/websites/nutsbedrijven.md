@@ -9,6 +9,6 @@ De website is gebouwd met HTML5 en CSS3. Het heeft een slideout menu dat ik heb 
 
 Er zitten wat easter eggs in de website. Kan jij ze vinden?
 
-{{< link-icon url="https://hvm-oldscool.nl" label="hvm-oldscool.nl" >}}
+<span hidden>Post information</span> {{< link-icon url="https://hvm-oldscool.nl" label="hvm-oldscool.nl" >}}
 
 {{< figure src="assets/images/websites/nutsbedrijven.png" alt="Screenshot" >}}

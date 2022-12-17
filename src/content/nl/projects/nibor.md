@@ -29,6 +29,6 @@ Nibor kan redelijk rekenen. Hij kan geen wiskundige formules oplossen, maar je k
 -   Wat is 376 + 236.126
 -   Wat is 73 - 56
 
-{{< demo-icon url="https://code.geheimesite.nl/beta/nibor" >}}
+<span hidden>Post information</span> {{< demo-icon url="https://code.geheimesite.nl/beta/nibor" >}}
 
 {{< figure src="assets/images/projects/nibor.png" alt="Screenshot" >}}
