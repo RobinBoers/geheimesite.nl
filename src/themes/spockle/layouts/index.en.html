@@ -99,8 +99,8 @@
         </header>
 
         <main id="content" class="page-content mt-0 md:mt-6">
-            <article class="homepage-hero">
-                <article class="homepage-section h-card max-w-none lg:max-w-xl">
+            <article class="homepage-hero h-card">
+                <article class="homepage-section max-w-none lg:max-w-xl">
                     <h1 class="p-name text-4xl title font-normal">
                         Robin Boers
                     </h1>
@@ -111,37 +111,11 @@
                         <a href="/" hreflang="nl">I wanna speak dutch again</a>
                     </p>
 
-                    <!-- Hidden metadata for IndieWeb -->
-                    <div class="hidden" hidden>
-                        <p class="u-note">
-                            I'm a webdesigner, programmer, and nerd living in
-                            the Netherlands. I'm 15 years old and I currently
-                            work at Qdentity.
-                        </p>
-                        <p>
-                            More about me: people sometimes call me
-                            <span class="u-nickname">Robijntje</span> and I live
-                            in the <span class="p-region">Netherlands</span>. I
-                            currently work at <span class="">Qdentity</span> as
-                            <span class="p-job-title">Junior Developer</span>.
-                            You can find me and my projects at
-                            <a
-                                href="https://geheimesite.nl"
-                                rel="me"
-                                class="u-url"
-                                >geheimesite.nl</a
-                            >. If you need to reach me you can contact me at
-                            <span class="u-email">hello@geheimesite.nl</span>.
-                        </p>
-                        <img
-                            src="/assets/images/me_optimized.jpeg"
-                            alt="Robin Boers"
-                            class="u-photo" />
-                    </div>
+                    {{ partial "h-card-details" }}
                 </article>
 
                 <img
-                    class="hidden absolute top-[80px] right-[-200px] lg:block xl:static w-full pixelart max-w-sm"
+                    class="u-photo hidden absolute top-[80px] right-[-200px] lg:block xl:static w-full pixelart max-w-sm"
                     src="/assets/images/robin_pixelart.png"
                     alt="Pixel art picture of me" />
             </article>
