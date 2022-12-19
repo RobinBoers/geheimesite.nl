@@ -389,6 +389,14 @@
         @apply hidden;
     }
 
+    .info {
+        @apply text-sm font-sans before:font-semibold !p-2 border-y border-x-0 border-foreground/10 border-solid lowercase;
+    }
+    .info::before {
+        content: "Let op: ";
+        text-transform: none;
+    }
+
     /* Single-project page */
 
     .icon {
