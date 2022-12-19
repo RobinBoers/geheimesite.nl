@@ -60,7 +60,7 @@
     }
 
     .text-warning {
-        color: orangered;
+        color: rgb(158, 16, 11); /* rgb(255, 8, 0) */
     }
 }
 
@@ -127,11 +127,7 @@
 
     pre code,
     code pre {
-        @apply font-mono leading-[revert] block overflow-hidden p-[12px] w-full break-words;
-    }
-
-    .highlight > pre {
-        @apply rounded-[5px] text-[#adadad] bg-[#1b1c1d];
+        @apply font-mono leading-[revert] block p-[12px] w-full break-words;
     }
 
     /* Typography */
@@ -373,7 +369,7 @@
 
     .footnotes {
         font-size: 70%;
-        border-top: 1px solid rgb(208, 203, 188);
+        border-top: 1px solid rgb(188, 197, 208);
         @apply p-[5px] pt-[30px] mt-[90px] mb-[30px] text-[gray];
     }
     .footnotes li {
@@ -388,6 +384,14 @@
     .footnotes hr {
         @apply hidden;
     }
+
+    /* Code blocks */
+
+    .highlight pre {
+        @apply rounded-[5px];
+    }
+
+    /* Info boxes */
 
     .info {
         @apply text-sm font-sans before:font-semibold !p-2 border-y border-x-0 border-foreground/10 border-solid lowercase;

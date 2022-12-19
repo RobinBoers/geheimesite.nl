@@ -12,7 +12,7 @@ module.exports = {
     content: [
         "src/**/*.html",
         "src/content/**/*.md",
-        "static/**/*.{php,html,js}",
+        "src/static/**/*.{php,html,js}",
     ],
     theme: {
         colors: {
