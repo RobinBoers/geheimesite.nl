@@ -28,7 +28,6 @@ Je kan de beta downloaden op de releases page van de [GitHub repo](https://githu
 Extract de ZIP op je webserver. Je kan het in de rootmap van je server plaatsen of in een subdirectory. Als je SkyLight in een subdirectory installeerd moet je wel het correcte path in de geavanceerde instellingen invullen na de installatie.
 
 {{< warning >}}
-**LET OP!**  
 Download de "Source code (zip)" en niet de `package.zip`!  
 `package.zip` is voor online updaten en werkt niet in zijn eentje.
 {{< / warning >}}
