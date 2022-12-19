@@ -89,6 +89,14 @@ languages:
                   weight: 4
 
 markup:
+    highlight:
+        codeFences: true
+        guessSyntax: false
+        noClasses: true
+        noHl: false
+        style: github-dark
+        tabWidth: 4
+
     goldmark:
         renderer:
             unsafe: true
