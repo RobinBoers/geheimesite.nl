@@ -127,7 +127,7 @@
 
     pre code,
     code pre {
-        @apply font-mono leading-[revert] block p-[12px] w-full break-words;
+        @apply font-mono leading-[revert] block p-[12px] w-full break-words overflow-auto;
     }
 
     /* Typography */
