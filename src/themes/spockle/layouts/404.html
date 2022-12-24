@@ -7,6 +7,7 @@
         <title>Oeps! — geheimesite.nl | Robin Boers</title>
 
         {{ $css := resources.Get "assets/css/main.css" | minify | fingerprint }}
+        <link rel="preload" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" as="style" />
         <link
             rel="stylesheet"
             href="{{ $css.RelPermalink }}"
