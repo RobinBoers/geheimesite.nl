@@ -1,5 +1,5 @@
-@import url("./normalize.css");
 @import url("./typography.css");
+@import url("./normalize.css");
 
 :root {
     --foreground: 19, 19, 36; /* #131324 */
