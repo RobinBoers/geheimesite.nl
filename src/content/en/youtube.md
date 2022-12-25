@@ -32,14 +32,13 @@ _Dylan Beattie_
 [Computational Creativity](https://www.youtube.com/watch?v=YPYks7lBKSY)  
 _Dylan Beattie_
 
-[YouTube's Copyright System Isn't Broken. The World's Is.](https://www.youtube.com/watch?v=1Jwo5qc78QU)  
-_Tom Scott_
-
 [Lambda? You Keep Using that Letter](https://www.youtube.com/watch?v=Y7StjYhXvpE)  
 _Kevlin Henney_
 
 [Characters, Symbols and the Unicode Miracle](https://www.youtube.com/watch?v=MijmeoH9LT4)  
 _Computerphile_
+
+[Exploring How Computers Work](https://www.youtube.com/playlist?list=PLFt_AvWsXl0dPhqVsKt1Ni_46ARyiCGSq)
 
 [Floating Point Numbers](https://www.youtube.com/watch?v=PZRI1IfStY0)  
 _Computerphile_
@@ -56,11 +55,10 @@ _Tom Scott_
 [The Problem with Time & Timezones](https://www.youtube.com/watch?v=-5wpm-gesOY)  
 _Computerphile_
 
-[Single Point of Failure: The (Fictional) Day Google Forgot To Check Passwords](https://www.youtube.com/watch?v=y4GB_NDU43Q)  
+[Single Point of Failure: The (Fictional) Day Google Forgot To Check Passwords](https://www.youtube.com/watch?v=y4GB_NDU43Q)
 _Tom Scott_
 
-[Own your content on Social Media using the IndieWeb](https://www.youtube.com/watch?v=X3SrZuH00GQ)  
-_JAMstack_
+## History
 
 [Why so many distros? The Weird History of Linux](https://www.youtube.com/watch?v=24O00Jz8R04)  
 _Fireship_
@@ -107,64 +105,82 @@ Wren Weichman
 
 {{< hr >}}
 
-## Economy
-
-[Reddit vs Wallstreet - GameStop, The Movie](https://www.youtube.com/watch?v=YFQ-v1jCpF0)  
-_ColdFusion_
-
-[The Struggle of Building the Original iPhone - The Untold Story](https://www.youtube.com/watch?v=24O00Jz8R04)  
-_ColdFusion_
-
-{{< hr >}}
-
-## Society
-
-[Post-Truth: Why Facts Don&#39;t Matter Anymore](https://www.youtube.com/watch?v=dvk2PQNcg8w)  
-_Veritasium_
-
-[Using VFX to Explain Why COVID-19 Surprised Everyone](https://www.youtube.com/watch?v=e02eiX866N4)  
-_Wren Weichman_
-
-[Junk Mail, Explained](https://www.youtube.com/watch?v=yyWjHVmZWvg)  
-_Johnny Harris_
-
-[Why Americans Eat Dessert for Breakfast](https://www.youtube.com/watch?v=kNovwPIWr3Q)  
-_Johnny Harris_
-
-[Fracking for clean energy. Wait, what?](https://www.youtube.com/watch?v=cCE1i2tJQQY)  
-_Cleo Abram_
-
-{{< hr >}}
-
-## Politics
-
-[Let's Ban Cars! (Seriously)](https://www.youtube.com/watch?v=rSSNlM3Au1A)  
-_BritMonkey_
+## Politics & society
 
 [The Rules for Rulers](https://www.youtube.com/watch?v=rStL7niR7gs)  
 _CGP Grey_
 
+[Let's Ban Cars! (Seriously)](https://www.youtube.com/watch?v=rSSNlM3Au1A)  
+_BritMonkey_
+
+[YouTube's Copyright System Isn't Broken. The World's Is.](https://www.youtube.com/watch?v=1Jwo5qc78QU)  
+_Tom Scott_
+
 [This is Cuba&#39;s Netflix, Hulu, and Spotify – all without the internet](https://www.youtube.com/watch?v=fTTno8D-b2E)  
 _Vox_
 
+[Post-Truth: Why Facts Don&#39;t Matter Anymore](https://www.youtube.com/watch?v=dvk2PQNcg8w)  
+_Veritasium_
+
+## Economy & Commercial web
+
+[Line Goes Up – The Problem With NFTs](https://www.youtube.com/watch?v=YQ_xWvX1n9g)
+_Folding Ideas_
+
+[Own your content on Social Media using the IndieWeb](https://www.youtube.com/watch?v=X3SrZuH00GQ)  
+_JAMstack_
+
+[The Struggle of Building the Original iPhone - The Untold Story](https://www.youtube.com/watch?v=24O00Jz8R04)  
+_ColdFusion_
+
+[GameStop: Reddit vs Wallstreet](https://www.youtube.com/watch?v=YFQ-v1jCpF0)  
+_ColdFusion_
+
 {{< hr >}}
+
+## Sketches
+
+[Danger: Humans](https://www.youtube.com/watch?v=OcPqk-O-fD4)  
+_Tom Scott_
+
+[Unlimited Ricepudding](https://www.youtube.com/watch?v=wPODghAr3Vc)  
+_exurb1a_
+
+[Letter to Marble 3](https://www.youtube.com/watch?v=0R7EN_GTAlw)
+_exurb1a_
+
+[The Artificial Intelligence That Deleted A Century](https://www.youtube.com/watch?v=-JlxuQ7tPgQ)  
+_Tom Scott_
+
+## Stories
+
+[And then everything will be alright](https://www.youtube.com/watch?v=7g1pmHSWHe0)
+_exurb1a_
+
+[And nothing can ever ruin this](https://www.youtube.com/watch?v=tJ7LdrAqL0Y)
+_exurb1a_
+
+[The Lantern](https://www.youtube.com/watch?v=um6cGuJ4mNE)
+_exurb2a_
+
+## Meaning
+
+[Meaning is a Jumper That You Have to Knit Yourself](https://www.youtube.com/watch?v=psaCM1j9LEM)
+_exurb1a_
+
+[We are the last humans](https://www.youtube.com/watch?v=SvbTFwXagdQ)
+_exurb1a_
+
+[the existence forecast](https://www.youtube.com/watch?v=VztEcSYXQr0)
+_exurb1a_
 
 ## Other nice stuff
 
 [Ə: The Most Common Vowel in English](https://www.youtube.com/watch?v=qu4zyRqILYM)  
 _Tom Scott_
 
-[Danger: Humans](https://www.youtube.com/watch?v=OcPqk-O-fD4)  
-_Tom Scott_
-
 [You (probably) do not exist](https://www.youtube.com/watch?v=8kX62n6yNXA)  
 _exurb1a_
-
-[Unlimited Ricepudding](https://www.youtube.com/watch?v=wPODghAr3Vc)  
-_exurb1a_
-
-[The Artificial Intelligence That Deleted A Century](https://www.youtube.com/watch?v=-JlxuQ7tPgQ)  
-_Tom Scott_
 
 [I promise this story about microwaves is interesting.](https://www.youtube.com/watch?v=2tdiKTSdE9Y)  
 _Tom Scott_
@@ -172,12 +188,14 @@ _Tom Scott_
 [Most People Don&#39;t Know How Bikes Work](https://www.youtube.com/watch?v=9cNmUNHSBac)  
 _Veritasium_
 
-{{< hr >}}
+[Junk Mail, Explained](https://www.youtube.com/watch?v=yyWjHVmZWvg)  
+_Johnny Harris_
 
-## Entertainment
+[Why Americans Eat Dessert for Breakfast](https://www.youtube.com/watch?v=kNovwPIWr3Q)  
+_Johnny Harris_
 
-[Backyard Squirrel Maze 1.0- Ninja Warrior Course](https://www.youtube.com/watch?v=hFZFjoX2cGg)  
-_Mark Rober_
+[Using VFX to Explain Why COVID-19 Surprised Everyone](https://www.youtube.com/watch?v=e02eiX866N4)  
+_Wren Weichman_
 
 <style>
     :root {
