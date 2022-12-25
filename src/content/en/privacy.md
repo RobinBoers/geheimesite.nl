@@ -16,7 +16,7 @@ I wrote my own little tool for keeping track of _visits_ (not views) on my blog.
 You can also exlude your visits from being tracked by entering this in the browser console:
 
 ```javascript
-localStorage.setItem("plsDontTrack", true)
+localStorage.setItem("plsDontTrack", true);
 ```
 
 ## Follow.it

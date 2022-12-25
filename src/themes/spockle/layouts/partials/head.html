@@ -7,7 +7,7 @@
 
     <link rel="canonical" href='{{ replace .Permalink ".html" "" }}' />
 
-    {{ $css := resources.Get "assets/css/main.css" | minify | fingerprint }}
+    {{ $css := resources.Get "assets/css/main.css" | fingerprint }}
     <link rel="preload" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" as="style" />
     <link
         rel="stylesheet"

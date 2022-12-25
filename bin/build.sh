@@ -8,7 +8,7 @@ echo "Cleaning cache..."
 rm -rf dist
 
 echo "Building CSS..."
-npx tailwindcss -c tailwind.config.js -i src/assets/css/source.css -o src/assets/css/main.css > /dev/null 2>&1
+npx tailwindcss -c tailwind.config.js -i src/assets/css/source.css -o src/assets/css/main.css --minify > /dev/null 2>&1
 
 if ! $VALIDATE; then
     echo "Building site..."
@@ -20,7 +20,7 @@ fi
 
 echo "Manually fixing some filenames..."
 mv dist/404.html dist/404.shtml
-cp dist/assets/css/main.min.*.css dist/assets/css/main.css
+cp dist/assets/css/main.*.css dist/assets/css/main.css
 
 if ! $DEV; then
 

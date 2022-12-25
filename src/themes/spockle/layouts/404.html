@@ -6,8 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Oeps! — geheimesite.nl | Robin Boers</title>
 
-        {{ $css := resources.Get "assets/css/main.css" | minify | fingerprint }}
-        <link rel="preload" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" as="style" />
+        {{ $css := resources.Get "assets/css/main.css" | fingerprint }}
+        <link
+            rel="preload"
+            href="{{ $css.RelPermalink }}"
+            integrity="{{ $css.Data.Integrity }}"
+            as="style" />
         <link
             rel="stylesheet"
             href="{{ $css.RelPermalink }}"

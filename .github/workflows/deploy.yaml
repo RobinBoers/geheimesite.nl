@@ -35,10 +35,10 @@ jobs:
             - name: Setup cache
               uses: actions/cache@v2
               with:
-                path: /tmp/hugo_cache
-                key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
-                restore-keys: |
-                  ${{ runner.os }}-hugomod-
+                  path: /tmp/hugo_cache
+                  key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+                  restore-keys: |
+                      ${{ runner.os }}-hugomod-
 
             - name: Build
               run: npm run build
