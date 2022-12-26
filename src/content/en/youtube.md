@@ -66,6 +66,9 @@ _Fireship_
 [The Weird History of JavaScript](https://www.youtube.com/watch?v=Sh6lK57Cuk4)  
 _Fireship_
 
+[Mouse Cursor History (and why I made my own)](https://www.youtube.com/watch?v=YThelfB2fvg)
+_Posy_
+
 {{< hr >}}
 
 ## Science
@@ -163,16 +166,13 @@ _exurb1a_
 [The Lantern](https://www.youtube.com/watch?v=um6cGuJ4mNE)
 _exurb2a_
 
-## Meaning
+## Philosophy
 
 [Meaning is a Jumper That You Have to Knit Yourself](https://www.youtube.com/watch?v=psaCM1j9LEM)
 _exurb1a_
 
-[We are the last humans](https://www.youtube.com/watch?v=SvbTFwXagdQ)
-_exurb1a_
-
-[the existence forecast](https://www.youtube.com/watch?v=VztEcSYXQr0)
-_exurb1a_
+[the five kinds of paradox](https://www.youtube.com/watch?v=ppX7Qjbe6BM)
+_jan Misali_
 
 ## Other nice stuff
 
