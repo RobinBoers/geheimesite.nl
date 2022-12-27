@@ -38,7 +38,8 @@ _Kevlin Henney_
 [Characters, Symbols and the Unicode Miracle](https://www.youtube.com/watch?v=MijmeoH9LT4)  
 _Computerphile_
 
-[Exploring How Computers Work](https://www.youtube.com/playlist?list=PLFt_AvWsXl0dPhqVsKt1Ni_46ARyiCGSq)
+[Exploring How Computers Work](https://www.youtube.com/playlist?list=PLFt_AvWsXl0dPhqVsKt1Ni_46ARyiCGSq)  
+_Sebastian Lague_
 
 [Floating Point Numbers](https://www.youtube.com/watch?v=PZRI1IfStY0)  
 _Computerphile_
@@ -55,7 +56,7 @@ _Tom Scott_
 [The Problem with Time & Timezones](https://www.youtube.com/watch?v=-5wpm-gesOY)  
 _Computerphile_
 
-[Single Point of Failure: The (Fictional) Day Google Forgot To Check Passwords](https://www.youtube.com/watch?v=y4GB_NDU43Q)
+[Single Point of Failure: The (Fictional) Day Google Forgot To Check Passwords](https://www.youtube.com/watch?v=y4GB_NDU43Q)  
 _Tom Scott_
 
 ## History
@@ -66,7 +67,7 @@ _Fireship_
 [The Weird History of JavaScript](https://www.youtube.com/watch?v=Sh6lK57Cuk4)  
 _Fireship_
 
-[Mouse Cursor History (and why I made my own)](https://www.youtube.com/watch?v=YThelfB2fvg)
+[Mouse Cursor History (and why I made my own)](https://www.youtube.com/watch?v=YThelfB2fvg)  
 _Posy_
 
 {{< hr >}}
@@ -127,7 +128,7 @@ _Veritasium_
 
 ## Economy & Commercial web
 
-[Line Goes Up – The Problem With NFTs](https://www.youtube.com/watch?v=YQ_xWvX1n9g)
+[Line Goes Up – The Problem With NFTs](https://www.youtube.com/watch?v=YQ_xWvX1n9g)  
 _Folding Ideas_
 
 [Own your content on Social Media using the IndieWeb](https://www.youtube.com/watch?v=X3SrZuH00GQ)  
@@ -149,7 +150,7 @@ _Tom Scott_
 [Unlimited Ricepudding](https://www.youtube.com/watch?v=wPODghAr3Vc)  
 _exurb1a_
 
-[Letter to Marble 3](https://www.youtube.com/watch?v=0R7EN_GTAlw)
+[Letter to Marble 3](https://www.youtube.com/watch?v=0R7EN_GTAlw)  
 _exurb1a_
 
 [The Artificial Intelligence That Deleted A Century](https://www.youtube.com/watch?v=-JlxuQ7tPgQ)  
@@ -157,21 +158,21 @@ _Tom Scott_
 
 ## Stories
 
-[And then everything will be alright](https://www.youtube.com/watch?v=7g1pmHSWHe0)
+[And then everything will be alright](https://www.youtube.com/watch?v=7g1pmHSWHe0)  
 _exurb1a_
 
-[And nothing can ever ruin this](https://www.youtube.com/watch?v=tJ7LdrAqL0Y)
+[And nothing can ever ruin this](https://www.youtube.com/watch?v=tJ7LdrAqL0Y)  
 _exurb1a_
 
-[The Lantern](https://www.youtube.com/watch?v=um6cGuJ4mNE)
+[The Lantern](https://www.youtube.com/watch?v=um6cGuJ4mNE)  
 _exurb2a_
 
 ## Philosophy
 
-[Meaning is a Jumper That You Have to Knit Yourself](https://www.youtube.com/watch?v=psaCM1j9LEM)
+[Meaning is a Jumper That You Have to Knit Yourself](https://www.youtube.com/watch?v=psaCM1j9LEM)  
 _exurb1a_
 
-[the five kinds of paradox](https://www.youtube.com/watch?v=ppX7Qjbe6BM)
+[the five kinds of paradox](https://www.youtube.com/watch?v=ppX7Qjbe6BM)  
 _jan Misali_
 
 ## Other nice stuff
