@@ -8,7 +8,7 @@ _Ik ben er vrij zeker van dat je best veel dode links zal aantreffen, maar ik he
 
 ### Versies vanaf versie 2
 
-<!-- I use HTMK here because markdown doesn't have the `start` attribute -->
+<!-- I use HTML here because markdown doesn't have the `start` attribute -->
 <ol start="2">
     <li><a href="/website/v/2/" target="_blank">Bekijk versie 2</a></li>
     <li><a href="/website/v/3/" target="_blank">Bekijk versie 3</a></li>

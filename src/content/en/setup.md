@@ -26,8 +26,6 @@ See my [firefox-tweaks](https://github.com/RobinBoers/firefox-tweaks) repo for m
 -   **Enhancer for YouTube:** remove ads and get cool features [](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/) [](https://chrome.google.com/webstore/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle)
 -   **Facebook Container:** eses container tabs to isolate Facebook tracking [](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)
 -   **File icons for GitHub:** nice file icons in GitHub [](https://addons.mozilla.org/en-US/firefox/addon/github-file-icons/) [](https://chrome.google.com/webstore/detail/file-icons-for-github-and/ficfmibkjjnpogdcfhfokmihanoldbfe?hl=en)
--   **OctoLinker:** links projects and dependencies used in code [](https://addons.mozilla.org/en-US/firefox/addon/octolinker/) [](https://chrome.google.com/webstore/detail/octolinker/jlmafbaeoofdegohdhinkhilhclaklkp?hl=en)
--   **Svelte devtools:** devtools for svelte [](https://addons.mozilla.org/en-US/firefox/addon/svelte-devtools/) [](https://chrome.google.com/webstore/detail/svelte-devtools/ckolcbmkjpjmangdbmnkpjigpkddpogn)
 -   **uBlock origin:** blocks ads :) [](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) [](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en)
 -   **Web Archives:** see earlier versions of sites [](https://addons.mozilla.org/en-US/firefox/addon/view-page-archive/) [](https://chrome.google.com/webstore/detail/web-archives/hkligngkgcpcolhcnkgccglchdafcnao?hl=en)
 
@@ -37,12 +35,11 @@ My shell is fish. I like the amazing autocomplete and color support it has. I us
 
 -   **`gh:`** github CLI
 -   **`git:`** version control
--   **`nvim:`** for quick edits on the commandline
--   **`htop & gtop:`** taskmanagers
+-   **`nvim:`** main text editor
+-   **`htop:`** taskmanager
 -   **`yt-dlp:`** download videos
 -   **`spotdl:`** download spotify playlists
 -   **`flatpak:`** cross-platform apps
--   **`pnpm:`** package manager for node
 -   **`bat:`** replacement for `cat` and pager for `man`
 -   **`fd:`** replacement for `find`
 -   **`ripgrep:`** replacement for `grep`
@@ -50,7 +47,6 @@ My shell is fish. I like the amazing autocomplete and color support it has. I us
 -   **`cmatrix:`** showing my friends I'm a real bad hacker
 -   **`ranger:`** file managment
 -   **`ncmpcpp:`** music player
--   **`tldr:`** better man pages
 
 ## 💾 Code editor
 
@@ -79,9 +75,9 @@ VSCode also syncs my setup across machines using settings sync with my GitHub ac
 
 I like my editor, like most programmers, to be dark. My favorite dark themes are:
 
--   [Frontend Delight Dark](https://github.com/RobinBoers/frontend-delight-vscode).  
+-   [Frontend Delight Dark](https://github.com/RobinBoers/frontend-delight-vscode).
     This is the color theme I'm also using in Alacritty, Spotify, Firefox and other apps.
--   [GitHub Dark](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme).  
+-   [GitHub Dark](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme).
     This is the old GitHub dark theme for VSCode. The new one is called GitHub Dark Default.
 
 I also like [Ayu dark](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu), [Tokyo Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night) and [Ayu Light](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu), but rarely use light mode. For file icons is use [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons), and for product icons I use [Fluent icons](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons).
@@ -93,11 +89,10 @@ My favorite font is [DejaVu Sans Mono](https://github.com/dejavu-fonts/dejavu-fo
 These are the GUI apps I use on a day to day basis:
 
 -   **Thunderbird:** Mail and IRC client
--   **Obsidian:** Markdown Notes
+-   **Obsidian:** Markdown notes
 -   **Rofi:** Desktop and run launcher
 -   **Alacritty:** Terminal emulator
 -   **MPD & `ncmpcpp`:** Music player
--   **Mousepad:** GUI text editor
 -   **Discord:** Chatting
 -   **Feh:** Image viewer & wallpaper setter
 -   **FileZilla:** FTP client
