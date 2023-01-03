@@ -11,4 +11,4 @@ Er zitten wat easter eggs in de website. Kan jij ze vinden?
 
 <span hidden>Post information</span> {{< link-icon url="https://hvm-oldscool.nl" label="hvm-oldscool.nl" >}}
 
-{{< figure src="assets/images/websites/nutsbedrijven.png" alt="Screenshot" >}}
+{{< figure src="assets/images/websites/hvm-olds-cool.png" alt="Screenshot" >}}
