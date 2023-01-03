@@ -156,6 +156,9 @@ _exurb1a_
 [The Artificial Intelligence That Deleted A Century](https://www.yewtu.be/watch?v=-JlxuQ7tPgQ)  
 _Tom Scott_
 
+[27](https://yewtu.be/watch?v=dLRLYPiaAoA)  
+_exurb1a_
+
 ## Stories
 
 [And then everything will be alright](https://www.yewtu.be/watch?v=7g1pmHSWHe0)  
