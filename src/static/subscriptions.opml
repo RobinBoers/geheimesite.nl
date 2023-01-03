@@ -34,6 +34,7 @@ This page was inspired by petermolnar.net
 			<outline title="Interdependent Thoughts" text="Interdependent Thoughts" type="feed" xmlUrl="https://www.zylstra.org/blog/feed/" htmlUrl="https://www.zylstra.org" url="https://www.zylstra.org/blog/feed/"></outline>
 			<outline title="Wesley's Notebook" text="Wesley's Notebook" type="feed" xmlUrl="https://notebook.wesleyac.com/atom.xml" htmlUrl="https://wesleyac.com" url="https://notebook.wesleyac.com/atom.xml"></outline>
 			<outline title="Zeldman" text="Zeldman" type="feed" xmlUrl="https://www.zeldman.com/feed/" htmlUrl="https://www.zeldman.com" url="https://www.zeldman.com/feed/"></outline>
+			<outline title="Terence Eden’s Blog" text="Terence Eden’s Blog" type="feed" xmlUrl="https://shkspr.mobi/blog/feed/atom/" htmlUrl="https://shkspr.mobi/blog/" url="https://shkspr.mobi/blog/feed/atom/"></outline>
 		</outline>
 		<outline text="💻 Coding" title="💻 Coding" type="folder">
 			<outline title="Just another blog" text="Just another blog" type="feed" xmlUrl="https://blogs.gnome.org/alexm/feed/" htmlUrl="https://blogs.gnome.org/alexm" url="https://blogs.gnome.org/alexm/feed/"></outline>
