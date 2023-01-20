@@ -23,7 +23,7 @@ AddHandler text/xml .opml
 </FilesMatch>
 
 # File cache for static assets and images
-<FilesMatch "\.(ico|jpg|jpeg|png|gif|svg|css|js|woff|woff2)$">
+<FilesMatch "\.(ico|jpg|jpeg|png|webp|gif|svg|woff|woff2)$">
 	Header set Cache-Control "max-age=31536000"
 </FilesMatch>
 
