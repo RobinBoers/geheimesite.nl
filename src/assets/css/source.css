@@ -371,7 +371,7 @@
         font-size: 70%;
         border-top-width: 1px;
         border-top-style: solid;
-        @apply p-[5px] pt-[30px] mt-[90px] mb-[30px] text-[gray] border-t-[1px solid rgba(188, 197, 208, 0.5)] dark:border-t-[1px solid rgba(188, 197, 208, 0.2)];
+        @apply p-[5px] pt-[30px] mt-[90px] mb-[30px] text-[gray] border-t-[rgba(188,197,208,0.5)] dark:border-t-[rgba(188,197,208,0.2)];
     }
     .footnotes li {
         @apply font-sans leading-[22px];
