@@ -369,8 +369,9 @@
 
     .footnotes {
         font-size: 70%;
-        border-top: 1px solid rgb(188, 197, 208);
-        @apply p-[5px] pt-[30px] mt-[90px] mb-[30px] text-[gray];
+        border-top-width: 1px;
+        border-top-style: solid;
+        @apply p-[5px] pt-[30px] mt-[90px] mb-[30px] text-[gray] border-t-[1px solid rgba(188, 197, 208, 0.5)] dark:border-t-[1px solid rgba(188, 197, 208, 0.2)];
     }
     .footnotes li {
         @apply font-sans leading-[22px];
@@ -378,7 +379,7 @@
     .footnotes li:not(:last-child) {
         @apply mb-[20px];
     }
-    .footnotes p {
+    .footnotes p:only-child {
         @apply mb-0;
     }
     .footnotes hr {
