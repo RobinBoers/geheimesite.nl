@@ -1,0 +1,655 @@
+[
+    {
+        "year": "2013-2018",
+        "books": [
+            {
+                "title": "De gebroeders Leeuwenhart",
+                "author": "Astrid Lindgren",
+                "cover": "de-gebroeders-leeuwenhart.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.427782554.html/de-gebroeders-leeuwenhart/"
+            },
+            {
+                "title": "Ronja de roversdochter",
+                "author": "Astrid Lindgren",
+                "cover": "ronja-de-roversdochter.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.433145439.html/ronja-de-roversdochter/"
+            },
+            {
+                "title": "De sleuteldrager",
+                "author": "Marco Kunst",
+                "cover": "de-sleuteldrager.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.33889845X.html/de-sleuteldrager/"
+            },
+            {
+                "title": "Harry Potter en de steen der wijzen",
+                "author": "J.K. Rowling",
+                "cover": "hp1.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.432487166.html/harry-potter-en-de-steen-der-wijzen/"
+            },
+            {
+                "title": "Harry Potter en de geheime kamer",
+                "author": "J.K. Rowling",
+                "cover": "hp2.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.432487344.html/harry-potter-en-de-geheime-kamer/"
+            },
+            {
+                "title": "Harry Potter en de gevangene van Azkaban",
+                "author": "J.K. Rowling",
+                "cover": "hp3.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.432487301.html/harry-potter-en-de-gevangene-van-azkaban/"
+            },
+            {
+                "title": "Harry Potter en de Vuurbeker",
+                "author": "J.K. Rowling",
+                "cover": "hp4.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.432486879.html/harry-potter-en-de-vuurbeker/"
+            },
+            {
+                "title": "Harry Potter en de Orde van de Feniks",
+                "author": "J.K. Rowling",
+                "cover": "hp5.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.43248728X.html/harry-potter-en-de-orde-van-de-feniks/"
+            },
+            {
+                "title": "Harry Potter en de Halfbloed Prins",
+                "author": "J.K. Rowling",
+                "cover": "hp6.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.432487212.html/harry-potter-en-de-halfbloed-prins/"
+            },
+            {
+                "title": "Harry Potter en de relieken van de dood",
+                "author": "J.K. Rowling",
+                "cover": "hp7.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.432487220.html/harry-potter-en-de-relieken-van-de-dood/"
+            },
+            {
+                "title": "Harry Potter en het vervloekte kind",
+                "author": "Jack Thorne, John Tiffany",
+                "cover": "hp8.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.407389873.html/harry-potter-en-het-vervloekte-kind/"
+            },
+            {
+                "title": "De Hobbit",
+                "author": "J.R.R. Tolkien",
+                "cover": "hobbit.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.42588032X.html/de-hobbit/"
+            },
+            {
+                "title": "De geheime missie van het Benedict Genootschap",
+                "author": "Trent Stewart",
+                "cover": "benedict1.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.304186155.html/de-geheime-missie-van-het-benedict-genootschap/"
+            },
+            {
+                "title": "De levensgevaarlijke reis van het Benedict Genootschap",
+                "author": "Trent Stewart",
+                "cover": "benedict2.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.314254358.html/de-levensgevaarlijke-reis-van-het-benedict-genootschap/"
+            },
+            {
+                "title": "De onmogelijke opdracht van het Benedict Genootschap",
+                "author": "Trent Stewart",
+                "cover": "benedict3.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.322867312.html/de-onmogelijke-opdracht-van-het-benedict-genootschap/"
+            }
+        ]
+    },
+    {
+        "year": "2018",
+        "books": [
+            {
+                "title": "Spijkerzwijgen",
+                "author": "Simon van der Geest",
+                "cover": "spijkerzwijgen.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.372677975.html/spijkerzwijgen/"
+            },
+            {
+                "title": "Expeditie Toi Moko",
+                "author": "Fedor de Beer",
+                "cover": "toi-moko.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.404993001.html/expeditie-toi-moko/"
+            },
+            {
+                "title": "De fluisterkelders",
+                "author": "Hans Kuyper",
+                "cover": "fluisterkelders.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.302318712.html/de-fluisterkelders/"
+            },
+            {
+                "title": "Subroza.nl",
+                "author": "Marcel van Driel",
+                "cover": "subroza.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.304337374.html/subroza-nl/"
+            },
+            {
+                "title": "Subroza2.nl",
+                "author": "Marcel van Driel",
+                "cover": "subroza2.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.320422291.html/subroza2-nl/"
+            },
+            {
+                "title": "Schuld",
+                "author": "Simone van der Vlugt",
+                "cover": "schuld.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.403973961.html/schuld/"
+            },
+            {
+                "title": "Het kindertransport",
+                "author": "Fedor de Beer",
+                "cover": "kindertransport.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.369873149.html/het-kindertransport/"
+            },
+            {
+                "title": "Dwars door de storm",
+                "author": "Karlijn Stoffels, Martine Letterie",
+                "cover": "door-de-storm.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.37014323X.html/dwars-door-de-storm/"
+            },
+            {
+                "title": "Een zeer geheime reiskist",
+                "author": "Simone Schell",
+                "cover": "reiskist.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.120196514.html/een-zeer-geheime-reiskist/"
+            },
+            {
+                "title": "Alleen Beer mocht mee",
+                "author": "Vivian den Hollander",
+                "cover": "alleen-beer.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.422256404.html/alleen-beer-mocht-mee/"
+            }
+        ]
+    },
+    {
+        "year": "2019",
+        "books": [
+            {
+                "title": "Zeekoorts",
+                "author": "Rebecca Noldus",
+                "cover": "zeekoorts.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.295845414.html/zeekoorts/"
+            },
+            {
+                "title": "Eeuwig verbond",
+                "author": "Rebecca Maizel",
+                "cover": "eeuwig-verbond.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.327695617.html/eeuwig-verbond/"
+            },
+            {
+                "title": "Honderd uur nacht",
+                "author": "Anna Woltz",
+                "cover": "100-uur-nacht.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.411988220.html/honderd-uur-nacht/"
+            },
+            {
+                "title": "De grote verboden zolder",
+                "author": "Edward van de Vendel",
+                "cover": "zolder.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.409239836.html/de-grote-verboden-zolder/"
+            },
+            {
+                "title": "Naar de rand van de wereld",
+                "author": "Dirk Weber",
+                "cover": "rand-van-de-wereld.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.417445660.html/naar-de-rand-van-de-wereld/"
+            },
+            {
+                "title": "Een leven voor een leven",
+                "author": "Nicole Boumaâza",
+                "cover": "leven-voor-een-leven.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.292476531.html/een-leven-voor-een-leven/"
+            },
+            {
+                "title": "Stranders",
+                "author": "Iris Stobbelaar",
+                "cover": "stranders.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.394064038.html/stranders/"
+            },
+            {
+                "title": "De man zonder gezicht",
+                "author": "Andreas Palmaer",
+                "cover": "man-zonder-gezicht.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.404324525.html/de-man-zonder-gezicht/"
+            },
+            {
+                "title": "Spookschrijvers",
+                "author": "Henk Hardeman",
+                "cover": "spookschrijvers.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.410749524.html/spookschrijvers/"
+            },
+            {
+                "title": "Geestverwanten",
+                "author": "Hilda Spruit",
+                "cover": "geestverwanten.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.408129069.html/geestverwanten/"
+            },
+            {
+                "title": "Mathilde, ik kom je halen",
+                "author": "Inez van Loon",
+                "cover": "mathilde.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.417630344.html/mathilde--ik-kom-je-halen/"
+            },
+            {
+                "title": "Lef",
+                "author": "Erna Barth",
+                "cover": "lef.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.422412422.html/lef/"
+            },
+            {
+                "title": "Mist",
+                "author": "Rom Molemaker",
+                "cover": "mist.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.417143133.html/mist/"
+            },
+            {
+                "title": "Snitch",
+                "author": "Margje Woodrow",
+                "cover": "snitch.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.413568970.html/snitch/"
+            },
+            {
+                "title": "Knock-out",
+                "author": "Cis Meijer",
+                "cover": "knock-out.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.409176109.html/knock-out/"
+            },
+            {
+                "title": "Knalhard",
+                "author": "Caja Cazemier",
+                "cover": "knalhard.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.328005754.html/knalhard/"
+            },
+            {
+                "title": "Haat kwadraat",
+                "author": "Floortje Zwigtman",
+                "cover": "haat-kwadraat.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.305643703.html/haat-kwadraat/"
+            },
+            {
+                "title": "Heej sgatje",
+                "author": "Wilma Geldof",
+                "cover": "heej-sgatje.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.30456088X.html/heej-sgatje/"
+            },
+            {
+                "title": "Boy 7",
+                "author": "Mirjam Mous",
+                "cover": "boy7.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.433171197.html/boy-7/"
+            },
+            {
+                "title": "Boyzzz",
+                "author": "Mariëtte Middelbeek",
+                "cover": "boyzzz.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.383414660.html/boyzzz/"
+            },
+            {
+                "title": "Trash",
+                "author": "Andy Mulligan",
+                "cover": "trash.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.382715055.html/trash/"
+            },
+            {
+                "title": "Virus",
+                "author": "Mirjam Mous",
+                "cover": "virus.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.407790675.html/virus/"
+            },
+            {
+                "title": "Het Eos-project",
+                "author": "Mirjam Mous",
+                "cover": "eos.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.422972118.html/het-eos-project/"
+            },
+            {
+                "title": "Verdoofd",
+                "author": "Cis Meijer",
+                "cover": "verdoofd.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.37246940X.html/verdoofd/"
+            },
+            {
+                "title": "2C",
+                "author": "Mirjam Mous",
+                "cover": "2c.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.416926940.html/2c/"
+            },
+            {
+                "title": "Kies mij!",
+                "author": "Dirk Weber",
+                "cover": "kies-mij.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.275122468.html/kies-mij-/"
+            },
+            {
+                "title": "Zusje vermist",
+                "author": "Sophie McKenzie",
+                "cover": "zusje-vermist.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.398500762.html/zusje-vermist/"
+            },
+            {
+                "title": "De Da Vinci code",
+                "author": "Dan Brown",
+                "cover": "davinci-code.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.404313264.html/de-da-vinci-code/"
+            },
+            {
+                "title": "Voorlopers",
+                "author": "Mirjam Hildebrand",
+                "cover": "voorlopers.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.409153338.html/voorlopers/"
+            }
+        ]
+    },
+    {
+        "year": "2020",
+        "books": [
+            {
+                "title": "Chatten: verborgen verdriet",
+                "author": "Marian Hoefnagel",
+                "cover": "chatten.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.29740721X.html/chatten/"
+            },
+            {
+                "title": "Broederschap van de bok",
+                "author": "Reggie Naus",
+                "cover": "broederschap-van-de-bok.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.404324339.html/broederschap-van-de-bok/"
+            },
+            {
+                "title": "Challenge: hoe ver wil je gaan?",
+                "author": "Annemarie Bon",
+                "cover": "challenge.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.421680709.html/challenge/"
+            },
+            {
+                "title": "De moord op Queen_T",
+                "author": "Tanja de Jonge",
+                "cover": "queen_t.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.423086448.html/de-moord-op-queen_t/"
+            },
+            {
+                "title": "Val",
+                "author": "Cis Meijer",
+                "cover": "val.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.391594214.html/val/"
+            },
+            {
+                "title": "Geloof me",
+                "author": "Sophie McKenzie",
+                "cover": "geloof-me.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.42192375X.html/geloof-me/"
+            },
+            {
+                "title": "Dubbel vermist",
+                "author": "Tanja de Jonge",
+                "cover": "dubbel-vermist.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.375884173.html/dubbel-vermist/"
+            },
+            {
+                "title": "1 seconde",
+                "author": "Sophie McKenzie",
+                "cover": "1-seconde.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.424472929.html/1-seconde/"
+            },
+            {
+                "title": "Obsessie",
+                "author": "Joost Heyink",
+                "cover": "obsessie.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.240772261.html/obsessie/"
+            },
+            {
+                "title": "Buiten zinnen",
+                "author": "Mel Wallis de Vries",
+                "cover": "buiten-zinnen.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.422739170.html/buiten-zinnen/"
+            },
+            {
+                "title": "De stalker",
+                "author": "Helen Vreeswijk",
+                "cover": "stalker.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.376082291.html/de-stalker/"
+            },
+            {
+                "title": "Lux: het geheimzinnige licht",
+                "author": "Jesse Stael",
+                "cover": "lux.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.420877916.html/lux/"
+            },
+            {
+                "title": "De verleiding: verliefd, verslaafd, verraden",
+                "author": "Stine Jensen",
+                "cover": "verleiding.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.422941719.html/de-verleiding/"
+            },
+            {
+                "title": "De Artemis Fowl files",
+                "author": "Eoin Colfer",
+                "cover": "artemis-fowl-files.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.286810581.html/de-artemis-fowl-files/"
+            }
+        ]
+    },
+    {
+        "year": "2021",
+        "items": [
+            {
+                "title": "Belledonne kamer 16",
+                "author": "Anke de Vries",
+                "cover": "belledonne-kamer-16.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.82106374X.html/belledonne-kamer-16/"
+            },
+            {
+                "title": "Meisje vermist",
+                "author": "Sophie McKenzie",
+                "cover": "meisje-vermist.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.408104805.html/meisje-vermist/"
+            },
+            {
+                "title": "Boy",
+                "author": "Anke de Vries",
+                "cover": "boy.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.27990388X.html/boy/"
+            },
+            {
+                "title": "Smash",
+                "author": "Margje Woodrow",
+                "cover": "smash.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.430323069.html/smash/"
+            },
+            {
+                "title": "Dertig dagen",
+                "author": "Annelies Verbeke",
+                "cover": "dertig-dagen.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.383742064.html/dertig-dagen/"
+            },
+            {
+                "title": "Hoe leer je natuurkunde aan je hond",
+                "author": "Chad Orzel",
+                "cover": "hoe-leer-je-natuurkunde-aan-je-hond.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.344303381.html/hoe-leer-je-natuurkunde-aan-je-hond/"
+            },
+            {
+                "title": "Shock",
+                "author": "Mel Wallis de Vries",
+                "cover": "shock.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.41112028X.html/shock/"
+            },
+            {
+                "title": "Zes seconden",
+                "author": "Daniëlle Bakhuis",
+                "cover": "zes-seconden.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.437177289.html/zes-seconden/"
+            },
+            {
+                "title": "Bijenvader",
+                "author": "Esther Sprikkelman",
+                "cover": "bijenvader.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.408482850.html/bijenvader/"
+            },
+            {
+                "title": "Gehaaid",
+                "author": "Steven Hall",
+                "cover": "gehaaid.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.302337423.html/gehaaid/"
+            },
+            {
+                "title": "Ocean City: Elke seconde telt",
+                "author": "R.T. Acron",
+                "cover": "ocean-city.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.424320002.html/elke-seconde-telt/"
+            },
+            {
+                "title": "De Gave: Sprong in het duister",
+                "author": "Bies van Ede",
+                "cover": "de-gave.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.377051373.html/sprong-in-het-duister/"
+            },
+            {
+                "title": "Backpack",
+                "author": "Marlies Slegers",
+                "cover": "backpack.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.422375527.html/backpack/"
+            },
+            {
+                "title": "Quotum: Project Z",
+                "author": "Marloes Morshuis",
+                "cover": "quotum.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.422950696.html/quotum/"
+            },
+            {
+                "title": "De antwoorden op de Grote Vragen",
+                "author": "Stephen Hawking",
+                "cover": "grote-vragen.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.426278895.html/de-antwoorden-op-de-grote-vragen/"
+            }
+        ]
+    },
+    {
+        "year": "2022",
+        "books": [
+            {
+                "title": "Vergelding",
+                "author": "Tim Bowler",
+                "cover": "vergelding.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.355179849.html/vergelding/"
+            },
+            {
+                "title": "Verschijningen",
+                "author": "Hilda Spruit",
+                "cover": "verschijningen.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.429657153.html/verschijningen/"
+            },
+            {
+                "title": "Black-out",
+                "author": "Tineke Hendriks",
+                "cover": "black-out.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.334479878.html/black-out/"
+            },
+            {
+                "title": "Je zult van me houden",
+                "author": "Astrid Sercu",
+                "cover": "je-zult-van-me-houden.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.430848609.html/je-zult-van-me-houden/"
+            },
+            {
+                "title": "Maar ik ben jou niet",
+                "author": "Nadine Swagerman",
+                "cover": "maar-ik-ben-jou-niet.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.424339668.html/maar-ik-ben-jou-niet/"
+            },
+            {
+                "title": "Principes van subliem webdesign",
+                "author": "Jason Beaird James George Alex Walker",
+                "cover": "subliem-webdesign.jpg",
+                "link": "https://www.vanduurenmedia.nl/EAN/9789463562249/Principes_van_subliem_webdesign"
+            },
+            {
+                "title": "Hallo wereld, hallo computer",
+                "author": "Maurits Kaptein",
+                "cover": "hallo-wereld-hallo-computer.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.407724257.html/hallo-wereld--hallo-computer/"
+            },
+            {
+                "title": "Code: the hidden language of computer hardware and software",
+                "author": "Charles Petzold",
+                "cover": "code.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.191349917.html/code/"
+            },
+            {
+                "title": "Clean Code",
+                "author": "Robert Martin",
+                "cover": "clean-code.jpg",
+                "link": "https://www.bol.com/nl/nl/f/clean-code/9200000033313462/"
+            },
+            {
+                "title": "Het internet is stuk",
+                "author": "Marleen Stikker",
+                "cover": "het-internet-is-stuk.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.423024132.html/het-internet-is-stuk/"
+            },
+            {
+                "title": "Emotionele Intelligentie",
+                "author": "Daniel Goleman",
+                "cover": "emo-intili.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.363222820.html/emotionele-intelligentie/"
+            },
+            {
+                "title": "Aandacht",
+                "author": "Daniel Goleman",
+                "cover": "aandacht.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.394668898.html/aandacht/"
+            },
+            {
+                "title": "Het zoete water",
+                "author": "Joke Eikenaar",
+                "cover": "het-zoete-water.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.433473827.html/het-zoete-water/"
+            },
+            {
+                "title": "Kom naar huis",
+                "author": "Julie Kibler",
+                "cover": "kom-naar-huis.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.355354381.html/kom-naar-huis/"
+            },
+            {
+                "title": "De sage van Aya",
+                "author": "Mirjam Boers",
+                "cover": "sage-van-aya.jpg",
+                "link": "https://www.boekscout.nl/shop2/boek.php?bid=12926"
+            },
+            {
+                "title": "De woordsmid",
+                "author": "Patricia Forde",
+                "cover": "woordsmid.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.420726896.html/de-woordsmid/"
+            },
+            {
+                "title": "A Darker Shade of Magic",
+                "author": "V.E. Schwab",
+                "cover": "a-darker-shade-of-magic.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.399554688.html/a-darker-shade-of-magic/"
+            },
+            {
+                "title": "A Gathering of Shadows",
+                "author": "V.E. Schwab",
+                "cover": "a-gathering-of-shadows.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.416718884.html/a-gathering-of-shadows/"
+            },
+            {
+                "title": "A Conjuring of Light",
+                "author": "V.E. Schwab",
+                "cover": "a-conjuring-of-light.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.416772234.html/a-conjuring-of-light/"
+            }
+        ]
+    },
+    {
+        "year": "2023",
+        "books": [
+            {
+                "title": "The Midnight Library",
+                "author": "Matt Haig",
+                "cover": "the-midnight-library.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.432618392.html/the-midnight-library/"
+            }
+        ]
+    }
+]
