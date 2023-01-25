@@ -23,7 +23,7 @@
 
                     {{ else }}
 
-                        {{ $image := resources.GetRemote "https://via.placeholder.com/160x80.png?text=View%20on%20GitHub" }}
+                        {{ $image := resources.Get "assets/images/projects/missing.png" }}
 
                         {{ $image :=  $image.Content | resources.FromString "assets/images/projects/missing.webp" }}
                         {{ $image :=  $image.Resize (printf "%dx%d webp" $image.Width $image.Height) }}
