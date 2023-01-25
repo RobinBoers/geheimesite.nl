@@ -15,6 +15,60 @@
                 "link": "https://www.bibliotheek.nl/catalogus/titel.433145439.html/ronja-de-roversdochter/"
             },
             {
+                "title": "De bende van de Witte Roos",
+                "author": "Astrid Lindgren",
+                "cover": "de-bende-van-de-witte-roos.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.262033372.html/de-bende-van-de-witte-roos/"
+            },
+            {
+                "title": "De GVR",
+                "author": "Roald Dahl",
+                "cover": "gvr.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.831654643.html/de-gvr/"
+            },
+            {
+                "title": "Matilda",
+                "author": "Roald Dahl",
+                "cover": "matilda.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.436627213.html/matilda/"
+            },
+            {
+                "title": "De heksen",
+                "author": "Roald Dahl",
+                "cover": "de-heksen.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.420904506.html/de-heksen/"
+            },
+            {
+                "title": "Ik wou dat ik anders was",
+                "author": "Paul Biegel",
+                "cover": "ik-wou-dat-ik-anders-was.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.158716558.html/ik-wou-dat-ik-anders-was/"
+            },
+            {
+                "title": "Lang geleden...",
+                "author": "Arend van Dam",
+                "cover": "lang-geleden.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.428527604.html/lang-geleden---/"
+            },
+            {
+                "title": "In een land hier ver vandaan...",
+                "author": "Arend van Dam",
+                "cover": "in-een-land-hier-ver-vandaan.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.428527566.html/in-een-land-hier-ver-vandaan---/"
+            },
+            {
+                "title": "Overal en ergens",
+                "author": "Arend van Dam",
+                "cover": "overal-en-ergens.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.320861945.html/overal-en-ergens---/"
+            },
+            {
+                "title": "Pinkeltje gaat naar Pinkeltjesland",
+                "author": "Dick Laan",
+                "cover": "pinkeltje.png",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.318175045.html/pinkeltje-gaat-naar-pinkeltjesland/"
+            },
+            {
                 "title": "De sleuteldrager",
                 "author": "Marco Kunst",
                 "cover": "de-sleuteldrager.jpg",
@@ -91,6 +145,12 @@
                 "author": "Trent Stewart",
                 "cover": "benedict3.jpg",
                 "link": "https://www.bibliotheek.nl/catalogus/titel.322867312.html/de-onmogelijke-opdracht-van-het-benedict-genootschap/"
+            },
+            {
+                "title": " De gedaanteverwisseling: In het spoor van de vos",
+                "author": "Ali Sparkes",
+                "cover": "in-het-spoor-van-de-vos.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.303739959.html/de-gedaanteverwisseling/"
             }
         ]
     },
@@ -295,6 +355,18 @@
                 "link": "https://www.bibliotheek.nl/catalogus/titel.407790675.html/virus/"
             },
             {
+                "title": "Test.",
+                "author": "Mirjam Mous",
+                "cover": "test.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.433171189.html/test-/"
+            },
+            {
+                "title": "Password",
+                "author": "Mirjam Mous",
+                "cover": "password.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.420833536.html/password/"
+            },
+            {
                 "title": "Het Eos-project",
                 "author": "Mirjam Mous",
                 "cover": "eos.jpg",
@@ -473,6 +545,12 @@
                 "link": "https://www.bibliotheek.nl/catalogus/titel.41112028X.html/shock/"
             },
             {
+                "title": "H@ck: het instituut",
+                "author": "Mirjam Mous",
+                "cover": "hack.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.420798102.html/h-ck/"
+            },
+            {
                 "title": "Zes seconden",
                 "author": "Daniëlle Bakhuis",
                 "cover": "zes-seconden.jpg",
@@ -530,6 +608,12 @@
                 "author": "Tim Bowler",
                 "cover": "vergelding.jpg",
                 "link": "https://www.bibliotheek.nl/catalogus/titel.355179849.html/vergelding/"
+            },
+            {
+                "title": "H@ck: de kolonie",
+                "author": "Mirjam Mous",
+                "cover": "hack.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.424510693.html/h-ck/"
             },
             {
                 "title": "Verschijningen",
@@ -610,6 +694,18 @@
                 "link": "https://www.bibliotheek.nl/catalogus/titel.355354381.html/kom-naar-huis/"
             },
             {
+                "title": "Purgatorio",
+                "author": "John Haskell",
+                "cover": "purgatorio.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.271335335.html/purgatorio/"
+            },
+            {
+                "title": "Een ongewone familie",
+                "author": "Matt Haig",
+                "cover": "ongewone-familie.jpg",
+                "link": "https://www.bibliotheek.nl/catalogus/titel.334725577.html/een-ongewone-familie/"
+            },
+            {
                 "title": "De sage van Aya",
                 "author": "Mirjam Boers",
                 "cover": "sage-van-aya.jpg",
@@ -649,6 +745,12 @@
                 "author": "Matt Haig",
                 "cover": "the-midnight-library.jpg",
                 "link": "https://www.bibliotheek.nl/catalogus/titel.432618392.html/the-midnight-library/"
+            },
+            {
+                "title": "The Fifth Science",
+                "author": "Exurb1a",
+                "cover": "the-fifth-science.jpg",
+                "link": "https://www.amazon.nl/Fifth-Science-Exurb1a/dp/1796356301"
             }
         ]
     }
