@@ -2,7 +2,7 @@
 {{ $shelve = index .Site.Data.books $shelve }} 
 
 {{ if eq $shelve.type "timeline" }} 
-    {{ range sort $shelve.years "year" "desc" }}
+    {{ range $shelve.years }}
 
             <h2>{{ .year }}</h2>
 
