@@ -419,7 +419,7 @@
     }
 
     .book-grid {
-        @apply grid-cols-3 lg:grid-cols-4 xl:grid-cols-6;
+        @apply grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-y-10;
     }
 
     .project-grid li,
@@ -430,6 +430,11 @@
     .project-grid li h3,
     .book-grid li h3 {
         @apply text-sm mt-0 ml-2 md:ml-0;
+    }
+
+    .project-grid li span,
+    .book-grid li span {
+        @apply text-xs opacity-70;
     }
 
     .book-grid li h3 {

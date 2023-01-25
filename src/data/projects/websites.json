@@ -1,57 +1,57 @@
 [
     {
         "name": "HVM Old's Cool",
-        "image": "assets/images/websites/hvm-olds-cool.png",
+        "image": "hvm-olds-cool.png",
         "url": "https://hvm-oldscool.nl",
         "page": "/projects/websites/oldscool"
     },
     {
         "name": "De Groentemeester",
-        "image": "assets/images/websites/degroentemeester.png",
+        "image": "degroentemeester.png",
         "url": "https://degroentemeester.nl"
     },
     {
         "name": "Groendoenerij",
-        "image": "assets/images/websites/groendoenerij.png",
+        "image": "groendoenerij.png",
         "url": "https://www.groendoenerij.nl",
         "page": "/projects/websites/groendoenerij"
     },
     {
         "name": "Sterrenkruid",
-        "image": "assets/images/websites/sterrenkruid.png",
+        "image": "sterrenkruid.png",
         "url": "https://jokessterrenkruid.blogspot.com",
         "page": "/projects/websites/sterrenkruid"
     },
     {
         "name": "Duurzame Maassluizers",
-        "image": "assets/images/websites/duurzame-maassluizers.png",
+        "image": "duurzame-maassluizers.png",
         "url": "https://duurzamemaassluizers.nl",
         "page": "/projects/websites/duurzame-maassluizers"
     },
     {
         "name": "Thesis Eveline Boers",
-        "image": "assets/images/websites/thesis-eveline-boers.png",
+        "image": "thesis-eveline-boers.png",
         "url": "https://thesisevelineboers.blogspot.com",
         "page": "/projects/websites/thesis"
     },
     {
         "name": "School shtuff",
-        "image": "assets/images/websites/schoolshtuff.png",
+        "image": "schoolshtuff.png",
         "url": "https://docs.geheimesite.nl/school"
     },
     {
         "name": "Neolog",
-        "image": "assets/images/websites/neolog.png",
+        "image": "neolog.png",
         "url": "https://micro.geheimesite.nl"
     },
     {
         "name": "Webdevelopment-En-Meer",
-        "image": "assets/images/websites/webdevelopment-en-meer-dark.png",
+        "image": "webdevelopment-en-meer-dark.png",
         "url": "https://blog.geheimesite.nl"
     },
     {
         "name": "Website Library",
-        "image": "assets/images/websites/website-library.png",
+        "image": "website-library.png",
         "url": "/website/overview"
     }
 ]

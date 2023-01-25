@@ -5,16 +5,16 @@ menu: "main"
 weight: 4
 ---
 
-I like reading. It might sound weird, a teenager saying that in 2022, but it's actually true. These are the books that I'm currently reading, I finished or would like to read.
+This is a little digital library of sorts. It contains all the books I have read that I could find a record of[^1], and all books I'd like to read in the future. This page was definitely inspired by [hidde.blog](https://hidde.blog/books/).
 
-{{< books shelve="5566" title="Currently reading" >}}
-
-{{< hr >}}
-
-{{< books shelve="5567" title="Wanna read" >}}
+{{< books shelve="currently-reading" >}}
 
 {{< hr >}}
 
-{{< books shelve="5744" title="Finished" description="Since 2018, I finished more than <span class='bold'>{count} books</span>. Here you can see my favorites." >}}
+{{< books shelve="want-to-read" >}}
 
 {{< hr >}}
+
+{{< books shelve="finished" >}}
+
+[^1]: Either because they are on a physical bookshelf in my house or because they're in the digital records of the the library. Unfortunately the library records only go back as far as 2018, so this page is far from complete.

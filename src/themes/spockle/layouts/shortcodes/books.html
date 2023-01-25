@@ -1,63 +1,50 @@
-<style>
-    .project-grid li a img {
-        aspect-ratio: initial !important;
-    }
-</style>
+{{ $shelve := .Get "shelve" }} 
+{{ $shelve = index .Site.Data.books $shelve }} 
 
-{{ $id := .Get "shelve" }} 
-{{ $shelve := getJSON "https://api.geheimesite.nl/books/get.php?id=" $id }} 
+{{ if eq $shelve.type "timeline" }} 
+    {{ range sort $shelve.years "year" "desc" }}
 
-{{ if $shelve.items }} 
+            <h2>{{ .year }}</h2>
 
-{{ $all := getJSON "https://api.geheimesite.nl/books/get.php?id=5568" }}
-{{ $total_books := (add (len $all.items)  30)}} 
+            <ul class="book-grid">
+                {{ range .books }}
+                    {{ $image := resources.Get (printf "assets/images/books/%s" .cover) }} 
+                    {{ $image := $image.Resize "450x webp" }}
 
-{{ with .Get "title" }}
-    <h2>{{ . }}</h2>
-{{ end }} 
+                    <li>
+                        <hgroup>
+                            <h3>{{ .title }}</h3>
+                            <span>By {{ .author }}</span>
+                        </hgroup>
 
-{{ with .Get "description" }}
-    <p>{{ replace . "{count}" $total_books | markdownify }}</p>
-{{ end }}
-
-<ul class="book-grid">
-    {{ range $shelve.items }}
-        {{ $title := .title }}
-        {{ $id := .id }}
-
-        <li>
-            <h3>{{ $title }}</h3>
-
-            <a href="{{ .url }}">
-
-                {{ with resources.GetRemote .image }}
-
-                    {{ $image := .Content | resources.FromString (printf "assets/images/books/%f.webp" $id) }}
-                    {{ with $image.Fill "550x800 webp"  }}
-
-                        <img
-                            src="{{ .RelPermalink }}"
-                            alt="{{ $title }}" />
-                    
-                    {{ end }}
-
-                {{ else }}
-
-                    {{ with resources.Get "assets/images/books/missing.jpg"  }}
-
-                        {{ with .Resize (printf "%dx%d webp" .Width .Height) }}
-
-                            <img
-                                src="{{ .RelPermalink }}"
-                                alt="{{ $title }}" />
-
-                        {{ end }}
-
-                    {{ end }}
-
+                        <a href="{{ .url }}">
+                            <img src="{{ $image.RelPermalink }}" alt="Cover of {{ .title }} by {{ .author }}" />
+                        </a>
+                    </li>
                 {{ end }}
-            </a>
-        </li>
-    {{ end }}
-</ul>
+            </ul>
+            
+    {{ end}}
+{{ else }}
+
+    <h2>{{ $shelve.title }}</h2>
+
+    <ul class="book-grid">
+        {{ range $shelve.books }}
+            {{ $image := resources.Get (printf "assets/images/books/%s" .cover) }} 
+            {{ $image := $image.Resize "450x webp"}}
+
+            <li>
+                <hgroup>
+                    <h3>{{ .title }}</h3>
+                    <span>By {{ .author }}</span>
+                </hgroup>
+
+                <a href="{{ .url }}">
+                    <img src="{{ $image.RelPermalink }}" alt="Cover of {{ .title }} by {{ .author }}" />
+                </a>
+            </li>
+        {{ end }}
+    </ul>
+
 {{ end}}

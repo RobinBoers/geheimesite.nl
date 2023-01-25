@@ -1,6 +1,6 @@
 <ul class="project-grid">
     {{ range .Site.Data.projects.websites }} 
-        {{ $image := resources.Get .image }} 
+        {{ $image := resources.Get (printf "assets/images/websites/%s" .image) }} 
         {{ $image := $image.Resize "450x webp"}}
 
         <li>

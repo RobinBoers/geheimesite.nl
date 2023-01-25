@@ -5,16 +5,16 @@ menu: "main"
 weight: 4
 ---
 
-Ik hou van lezen. Misschien klinkt het gek om een tiener dat te horen zeggen in 2022, maar het is echt zo. Dit zijn de boeken die ik aan het lezen ben, het uitgelezen of graag wil lezen.
+Dit is mijn kleine digitale bibliotheek. De boekenplanken hieronder bevatten alle boeken die ik ooit gelezen heb waarvan ik een spoor heb kunnen vinden[^1], en alle boeken die ik graag zou willen lezen. Deze page is 100% geinspireerd door [hidde.blog](https://hidde.blog/books/).
 
-{{< books shelve="5566" title="Momenteel aan het lezen" >}}
-
-{{< hr >}}
-
-{{< books shelve="5567" title="Verlanglijstje" >}}
+{{< books shelve="currently-reading" >}}
 
 {{< hr >}}
 
-{{< books shelve="5744" title="Uitgelezen" description="Ik ben sinds 2018 meer dan <span class='bold'>114</span> boeken uitgelezen. Hieronder zie je mijn favorieten." >}}
+{{< books shelve="want-to-read" >}}
 
 {{< hr >}}
+
+{{< books shelve="finished" >}}
+
+[^1]: Sommige van deze boeken heb ik in mijn boekenkast staan, maar de meeste boeken komen van de bibliotheek. Helaas gaan de digitale records van de bieb maar terug tot 2018, dus deze page is niet volledig.
