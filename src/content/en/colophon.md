@@ -7,17 +7,11 @@ This site and my blog are built using [Hugo](https://gohugo.io), a static site g
 
 The site is built on [GitHub actions](https://github.com/RobinBoers/geheimesite.nl/actions) and deployed using [FTP-Deploy-Action](https://github.com/SamKirkland/FTP-Deploy-Action). My site is hosted at [bHosted](https://www.bhosted.nl/?ref=97f4c4a4b13e269e12cfd4f0352ba527) and my blog is hosted using [GitHub Pages](https://pages.github.com).
 
-All [valid HTML](https://validator.w3.org/nu/?doc=https://geheimesite.nl) and [valid CSS](https://jigsaw.w3.org/css-validator/validator?uri=https://geheimesite.nl/assets/css/main.css).
+All [valid HTML](https://validator.w3.org/nu/?doc=https://geheimesite.nl) and [valid CSS](https://jigsaw.w3.org/css-validator/validator?uri=https://geheimesite.nl/assets/css/main.css). CSS is generated using [tailwindcss](https://tailwindcss.com).
 
 All content is written in Markdown using [neovim](https://neovim.io).
 
-CSS is generated using [tailwindcss](https://tailwindcss.com).
-
-I have a [.htaccess](https://github.com/RobinBoers/geheimesite.nl/blob/master/src/.htaccess) file that handles all the routing for fancy URLs.
-
-The [book page](/en/books) is rendered using data from [Micro.blog bookshelves](https://micro.blog).
-
-HTML files are cached for one day, and images and fonts are cached indefinitely.
+I have a [.htaccess](https://github.com/RobinBoers/geheimesite.nl/blob/master/src/.htaccess) file that handles all the routing for fancy URLs and caching as well. HTML files are cached for one day, and images and fonts are cached indefinitely.
 
 [OPML](/subscriptions) file and [sitemap](/en/sitemap.xml) are rendered nicely using [XSL stylesheets](https://github.com/RobinBoers/geheimesite.nl/tree/master/src/static/assets/xsl).
 
