@@ -4,7 +4,7 @@ translationKey: follow
 url: "/follow.html"
 ---
 
-I don't like social media. Actually, [I hate it](https://blog.geheimesite.nl/2021/12/social-media-wat-moeten-we-er-mee-aan.html). However, I do have a few [RSS](https://en.wikipedia.org/wiki/RSS) feeds:
+I don't like social media. Actually, [I hate it](https://blog.geheimesite.nl/2021/12/social-media-wat-moeten-we-er-mee-aan.html). Instead, I have a few [RSS](https://en.wikipedia.org/wiki/RSS) feeds:
 
 -   [Webdevelopment-En-Meer](https://blog.geheimesite.nl/index.xml) <small>(primary feed, dutch)</small>
 -   [ThatCrazyWebdev](https://blog.geheimesite.nl/en/index.xml) <small>(less frequent posts, english)</small>
