@@ -240,7 +240,7 @@
         @apply p-2 bg-background text-foreground dark:bg-transparent border-2 border-solid border-primary my-1 w-full block font-sans text-sm outline-none rounded-none shadow-none;
     }
     .button {
-        @apply cursor-pointer bg-primary text-foreground hover:brightness-90 outline-none rounded-none shadow-none;
+        @apply cursor-pointer bg-primary text-foreground dark:text-background hover:brightness-90 outline-none rounded-none shadow-none;
     }
     .md-mark {
         @apply before:content-[''] before:absolute before:inset-0 before:w-full before:h-full before:bg-md-mark before:bg-no-repeat before:bg-[length:30px] before:bg-[right_7px_bottom_7px] before:brightness-200 before:dark:filter-none;

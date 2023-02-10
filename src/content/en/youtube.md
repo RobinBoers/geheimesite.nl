@@ -70,6 +70,9 @@ _Fireship_
 [Mouse Cursor History (and why I made my own)](https://www.yewtu.be/watch?v=YThelfB2fvg)  
 _Posy_
 
+[history of the entire world, i guess](https://www.youtube.com/watch?v=xuCn8ux2gbs)  
+_bill wurtz_
+
 {{< hr >}}
 
 ## Science
