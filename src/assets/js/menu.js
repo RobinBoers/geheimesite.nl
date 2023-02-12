@@ -20,8 +20,8 @@ function resize() {
     if (isMobile()) {
         nav.style.display = "none";
 
-        moreMenu.style.display = "block";
-        moreMenuHeading.style.display = "";
+        moreMenu.style.display = "flex";
+        moreMenuHeading.style.display = "block";
         moreMenuButton.style.display = "none";
     } else {
         nav.style.display = "";
