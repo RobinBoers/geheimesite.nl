@@ -2,7 +2,7 @@
 <xsl:stylesheet version="2.0" xmlns:html="http://www.w3.org/TR/REC-html40"
 	xmlns:sitemap="http://www.sitemaps.org/schemas/sitemap/0.9"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-	<xsl:output method="html" version="1.0" encoding="UTF-8" indent="yes" />
+	<xsl:output method="html" version="5.0" encoding="UTF-8" indent="yes" />
 	<xsl:template match="/">
 		<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="nl" lang="nl">
 			<head>
@@ -18,16 +18,11 @@
 				<link rel="alternate" hreflang="en" href="https://geheimesite.nl/en/sitemap.xml" />
 
 				<style>
-					.high {
-					padding-left: 20px;
+					.page {
+						padding-left: 20px;
 					}
-
-					.sub {
-					padding-left: 30px;
-					}
-
-					.low {
-					padding-left: 40px;
+					.subpage {
+						padding-left: 40px;
 					}
 				</style>
 			</head>
@@ -75,24 +70,24 @@
 							<ul>
 								<xsl:for-each select="sitemap:urlset/sitemap:url">
 									<li>
-										<xsl:if test="sitemap:priority == 0.80">
-											<xsl:attribute name="class">high</xsl:attribute>
-										</xsl:if>
-
-										<xsl:if test="sitemap:priority == 0.70">
-											<xsl:attribute name="class">sub</xsl:attribute>
-										</xsl:if>
-
-										<xsl:if test="sitemap:priority == 0.60">
-											<xsl:attribute name="class">low</xsl:attribute>
-										</xsl:if>
+										<xsl:choose>
+											<xsl:when test="sitemap:priority&lt;0.8">
+												<xsl:attribute name="class">subpage</xsl:attribute>
+											</xsl:when>
+											<xsl:when test="sitemap:priority&lt;1.0">
+												<xsl:attribute name="class">page</xsl:attribute>
+											</xsl:when>
+											<xsl:otherwise>
+												<xsl:attribute name="class">root</xsl:attribute>
+											</xsl:otherwise>
+										</xsl:choose>
 
 										<xsl:variable name="itemURL">
 											<xsl:value-of select="sitemap:loc" />
 										</xsl:variable>
 										<a href="{$itemURL}">
 											<!--<xsl:value-of select="substring-after(substring-before(sitemap:loc, '/'), '/')" />-->
-											<xsl:value-of select="substring-after(sitemap:loc, '/')" />
+											<xsl:value-of select="substring-after(sitemap:loc, 'https://geheimesite.nl')" />
 										</a>
 									</li>
 								</xsl:for-each>
