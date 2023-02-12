@@ -49,17 +49,9 @@ languages:
                   url: /subscriptions
                   weight: 2
                 - identifier: me
-                  name: Profile
+                  name: Profiel
                   url: /me
                   weight: 3
-                - identifier: setup
-                  name: Uses
-                  url: /setup
-                  weight: 4
-                - identifier: now
-                  name: Now
-                  url: /now
-                  weight: 5
                 - identifier: hyperfeed
                   name: Hyperfeed
                   url: /hyperfeed

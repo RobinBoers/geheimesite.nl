@@ -2,7 +2,6 @@
 title: "Uses"
 translationKey: setup
 hideTitle: true
-url: "/setup.html"
 menu: "more"
 weight: 4
 ---
@@ -29,7 +28,7 @@ See my [firefox-tweaks](https://github.com/RobinBoers/firefox-tweaks) repo for m
 -   **Don't track me Google:** removes tracking info from links [](https://addons.mozilla.org/en-US/firefox/addon/dont-track-me-google1/) [](https://chrome.google.com/webstore/detail/dont-track-me-google/gdbofhhdmcladcmmfjolgndfkpobecpg?hl=en)
 -   **DuckDuckGo Privacy Essentials:** see tracking and privacy info for sites [](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/) [](https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg?hl=en)
 -   **Enhancer for YouTube:** remove ads and get cool features [](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/) [](https://chrome.google.com/webstore/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle)
--   **Facebook Container:** eses container tabs to isolate Facebook tracking [](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)
+-   **Facebook Container:** uses container tabs to isolate Facebook tracking [](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)
 -   **File icons for GitHub:** nice file icons in GitHub [](https://addons.mozilla.org/en-US/firefox/addon/github-file-icons/) [](https://chrome.google.com/webstore/detail/file-icons-for-github-and/ficfmibkjjnpogdcfhfokmihanoldbfe?hl=en)
 -   **uBlock origin:** blocks ads :) [](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) [](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en)
 -   **Web Archives:** see earlier versions of sites [](https://addons.mozilla.org/en-US/firefox/addon/view-page-archive/) [](https://chrome.google.com/webstore/detail/web-archives/hkligngkgcpcolhcnkgccglchdafcnao?hl=en)
@@ -94,7 +93,6 @@ My favorite font is [DejaVu Sans Mono](https://github.com/dejavu-fonts/dejavu-fo
 These are the GUI apps I use on a day to day basis:
 
 -   **Thunderbird:** Mail and IRC client
--   **Obsidian:** Markdown notes
 -   **Rofi:** Desktop and run launcher
 -   **Alacritty:** Terminal emulator
 -   **MPD & `ncmpcpp`:** Music player

@@ -91,7 +91,7 @@
 											<xsl:value-of select="sitemap:loc" />
 										</xsl:variable>
 										<a href="{$itemURL}">
-											<xsl:value-of select="sitemap:title" />
+											<xsl:value-of select="substring-after(sitemap:loc, '/')" />
 										</a>
 									</li>
 								</xsl:for-each>

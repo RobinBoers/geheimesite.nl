@@ -39,7 +39,7 @@ Currently, I'm learning more about the inner-workings of Linux, Elixir and Phoen
 
 My website is built using [Hugo](https://gohugo.io) and is hosted at [bHosted](https://www.bhosted.nl/?ref=97f4c4a4b13e269e12cfd4f0352ba527). Both my blog and this site are [open-sourced on GitHub](https://github.com/RobinBoers/geheimesite.nl), but I have yet to decide on a license.
 
-[More about this site ➜](/colophon)
+[More about this site ➜](/en/colophon)
 
 {{< hr >}}
 

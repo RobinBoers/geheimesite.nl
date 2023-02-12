@@ -1,6 +1,6 @@
 ---
 title: "Privacy"
-url: "/privacy.html"
+translationKey: privacy
 ---
 
 This site **does not** track you or store your personal information in any way. I do not use cookies and won't save your information, but third parties might.

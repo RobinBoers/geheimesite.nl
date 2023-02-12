@@ -1,7 +1,6 @@
 ---
 title: "Follow me"
 translationKey: follow
-url: "/follow.html"
 menu: "more"
 weight: 6
 ---

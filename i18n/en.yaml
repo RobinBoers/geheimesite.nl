@@ -10,6 +10,12 @@ follow_me:
 follow_url:
     other: /follow
 
+colophon_url:
+    other: /en/colophon
+
+privacy_url:
+    other: /en/privacy
+
 edit_on_gh:
     other: Edit this page on GitHub
 

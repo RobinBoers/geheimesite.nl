@@ -3,236 +3,196 @@
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <title>Home</title>
     <loc>https://geheimesite.nl/</loc>
     <priority>1.00</priority>
   </url>
   <url>
-    <title>Over mij</title>
     <loc>https://geheimesite.nl/over-mij</loc>
     <priority>0.80</priority>
   </url>
   <url>
-    <title>Uses</title>
     <loc>
       https://geheimesite.nl/setup</loc>
     <priority>0.70</priority>
   </url>
   <url>
-    <title>Now</title>
     <loc>https://geheimesite.nl/now</loc>
     <priority>0.70</priority>
   </url>
   <url>
-    <title>Contact</title>
     <loc>
       https://geheimesite.nl/contact</loc>
     <priority>0.70</priority>
   </url>
   <url>
-    <title>Profiel</title>
     <loc>
       https://geheimesite.nl/me</loc>
     <priority>0.70</priority>
   </url>
   <url>
-    <title>Boeken</title>
     <loc>
       https://geheimesite.nl/boeken</loc>
     <priority>0.80</priority>
   </url>
   <url>
-    <title>Volg me</title>
     <loc>https://geheimesite.nl/volg</loc>
     <priority>
       0.80</priority>
   </url>
   <url>
-    <title>Blogroll</title>
     <loc>https://geheimesite.nl/subscriptions</loc>
     <priority>0.80</priority>
   </url>
   <url>
-    <title>Videoroll</title>
     <loc>
       https://geheimesite.nl/youtube</loc>
     <priority>
       0.80</priority>
   </url>
   <url>
-    <title>Blog</title>
     <loc>https://geheimesite.nl/blog</loc>
     <priority>
       0.80</priority>
   </url>
   <url>
-    <title>Timeline</title>
-    <loc>https://geheimesite.nl/neolog</loc>
+    <loc>https://geheimesite.nl/timeline</loc>
     <priority>0.70</priority>
   </url>
   <url>
-    <title>Hyperfeed</title>
     <loc>
       https://geheimesite.nl/hyperfeed</loc>
     <priority>0.70</priority>
   </url>
   <url>
-    <title>Projecten</title>
     <loc>
       https://geheimesite.nl/projecten</loc>
     <priority>0.80</priority>
   </url>
   <url>
-    <title>SkyLight</title>
     <loc>
       https://geheimesite.nl/projects/skylight</loc>
     <priority>0.70</priority>
   </url>
   <url>
-    <title>Nindo</title>
     <loc>
       https://geheimesite.nl/projects/nindo</loc>
     <priority>0.70</priority>
   </url>
   <url>
-    <title>CutieTanks</title>
     <loc>
       https://geheimesite.nl/projects/cutie-tanks</loc>
     <priority>0.70</priority>
   </url>
   <url>
-    <title>VSKodium</title>
     <loc>
       https://geheimesite.nl/projects/vskodium</loc>
     <priority>0.70</priority>
   </url>
   <url>
-    <title>Fallen World</title>
     <loc>
       https://geheimesite.nl/projects/fallen_world</loc>
     <priority>0.70</priority>
   </url>
   <url>
-    <title>js-0.23-improved</title>
     <loc>
       https://geheimesite.nl/projects/mclassic</loc>
     <priority>0.70</priority>
   </url>
   <url>
-    <title>NinjaDO</title>
     <loc>
       https://geheimesite.nl/projects/ninjado</loc>
     <priority>0.70</priority>
   </url>
   <url>
-    <title>Mushroom Highlands</title>
     <loc>
       https://geheimesite.nl/projects/highlands</loc>
     <priority>0.70</priority>
   </url>
   <url>
-    <title>Sticks and Rocks</title>
     <loc>
       https://geheimesite.nl/projects/sticks-and-rocks</loc>
     <priority>0.70</priority>
   </url>
   <url>
-    <title>Groendoenerij</title>
     <loc>
       https://geheimesite.nl/projects/websites/groendoenerij</loc>
     <priority>0.70</priority>
   </url>
   <url>
-    <title>Sterrenkruid</title>
     <loc>
       https://geheimesite.nl/projects/websites/sterrenkruid</loc>
     <priority>0.70</priority>
   </url>
   <url>
-    <title>Oldscool</title>
     <loc>
       https://geheimesite.nl/projects/websites/oldscool</loc>
     <priority>0.70</priority>
   </url>
   <url>
-    <title>Thesis Eveline Boers</title>
     <loc>
       https://geheimesite.nl/projects/websites/thesis</loc>
     <priority>0.70</priority>
   </url>
   <url>
-    <title>Duurzame Maassluizers</title>
     <loc>
       https://geheimesite.nl/projects/websites/duurzame-maassluizers</loc>
     <priority>0.70</priority>
   </url>
   <url>
-    <title>Timmy</title>
     <loc>
       https://geheimesite.nl/projects/timmy</loc>
     <priority>0.70</priority>
   </url>
   <url>
-    <title>Overzicht: mijn site door de jaren heen</title>
     <loc>
       https://geheimesite.nl/website/overview</loc>
     <priority>0.70</priority>
   </url>
   <url>
-    <title>CKV</title>
     <loc>https://geheimesite.nl/ckv</loc>
     <priority>
       0.80</priority>
   </url>
   <url>
-    <title>Over mij</title>
     <loc>https://geheimesite.nl/ckv/about</loc>
     <priority>0.70</priority>
   </url>
   <url>
-    <title>Introductielessen</title>
     <loc>
       https://geheimesite.nl/ckv/introduction</loc>
     <priority>0.70</priority>
   </url>
   <url>
-    <title>Mijn initiatieven</title>
     <loc>
       https://geheimesite.nl/ckv/initiatives</loc>
     <priority>0.70</priority>
   </url>
   <url>
-    <title>Blok 1</title>
     <loc>
       https://geheimesite.nl/ckv/blok/1</loc>
     <priority>0.70</priority>
   </url>
   <url>
-    <title>Blok 2</title>
     <loc>
       https://geheimesite.nl/ckv/blok/2</loc>
     <priority>0.70</priority>
   </url>
   <url>
-    <title>Blok 3</title>
     <loc>
       https://geheimesite.nl/ckv/blok/3</loc>
     <priority>0.70</priority>
   </url>
   <url>
-    <title>Blok 4</title>
     <loc>
       https://geheimesite.nl/ckv/blok/4</loc>
     <priority>0.70</priority>
   </url>
   <url>
-    <title>Colofon</title>
     <loc>
-      https://geheimesite.nl/colophon</loc>
+      https://geheimesite.nl/colofon</loc>
     <priority>0.80</priority>
   </url>
   <url>
-    <title>Privacy</title>
     <loc>https://geheimesite.nl/privacy</loc>
     <priority>
       0.80</priority>

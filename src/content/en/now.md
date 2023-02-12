@@ -1,7 +1,6 @@
 ---
 title: "Now"
 translationKey: now
-url: "/now.html"
 menu: "more"
 weight: 5
 ---

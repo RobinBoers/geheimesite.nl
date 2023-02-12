@@ -1,6 +1,6 @@
 ---
 title: "Colophon"
-url: "/colophon.html"
+translationKey: colophon
 ---
 
 This site and my blog are built using [Hugo](https://gohugo.io), a static site generator. They're built to be as lightweight as possible and make use of semantic HTML.
@@ -17,6 +17,6 @@ My [OPML](/subscriptions) file for RSS subscriptions and [sitemap](/en/sitemap.x
 
 I built my own barebones statistics tracker. It tracks visits, not views, per post. It also has an optional disable trigger using `localStorage` so that my own views aren't tracked. The results are [publicly available](/blog/stats) can be filtered per month and are shown in a simple graph that I built using Chart.js.
 
-I do not store your personal information in any way. [Privacy statement](/privacy).
+I do not store your personal information in any way. [Privacy statement](/en/privacy).
 
-<span hidden>Post information</span> {{< link-icon url="https://blog.geheimesite.nl/en/post/history-of-my-site/" label="Blogpost" >}}
+<span hidden>Relevant links</span> {{< link-icon url="https://blog.geheimesite.nl/en/post/history-of-my-site/" label="Blogpost" >}}

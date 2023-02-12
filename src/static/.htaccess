@@ -50,14 +50,15 @@ AddHandler text/xml .opml
 # Redirects
 Redirect /framboy /projects/framboy
 Redirect /subscriptions /subscriptions.opml
+Redirect /follow /en/follow
 Redirect /ckv /ckvrobinboers4a2
-Redirect /hello /contact
 
 Redirect /blog/index.html https://blog.geheimesite.nl
 Redirect /en/blog https://blog.geheimesite.nl/en
 Redirect /feed https://blog.geheimesite.nl/index.xml 
 
 Redirect /neolog https://micro.geheimesite.nl
+Redirect /timeline https://micro.geheimesite.nl
 Redirect /github https://github.com/RobinBoers
 Redirect /school https://docs.geheimesite.nl/school
 
@@ -73,7 +74,9 @@ Redirect 301 /library/projects/ /projects/
 Redirect 301 /library/website/overview.php /website/overview
 
 # Fix old pages
-Redirect 301 /how-it-was-made /colophon
+Redirect 301 /how-it-was-made /en/colophon
+Redirect 301 /colophon /en/colophon
+Redirect 301 /hello /contact
 Redirect 301 /logo2.png /assets/images/logo2.png
 
 # Remove .php and .html from filenames
