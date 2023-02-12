@@ -1,8 +1,13 @@
 ---
-title: "Linux Dev setup"
+title: "Uses"
 translationKey: setup
+hideTitle: true
 url: "/setup.html"
+menu: "more"
+weight: 4
 ---
+
+# Linux Dev setup
 
 My setup for software/web development on Linux. Elixir, NodeJS, Python, PostgreSQL and PHP.
 

@@ -1,9 +1,15 @@
 button = document.querySelector(".menu-button");
 menu = document.querySelector(".menu");
+moreMenu = document.querySelector(".more-menu");
+moreMenuHeading = document.querySelector(".more-menu-heading");
+moreMenuButton = document.querySelector(".more-menu-button");
 nav = document.querySelector(".pageheader nav");
 
 button.addEventListener("click", () => {
     toggleMenu();
+});
+moreMenuButton.addEventListener("click", () => {
+    toggleMoreMenu();
 });
 
 window.onresize = () => {
@@ -11,25 +17,37 @@ window.onresize = () => {
 };
 
 function resize() {
-    if (window.innerWidth <= 1024) {
-        menu.style.height = 0;
+    if (isMobile()) {
         nav.style.display = "none";
+
+        moreMenu.style.display = "block";
+        moreMenuHeading.style.display = "";
+        moreMenuButton.style.display = "none";
     } else {
-        menu.style.height = "auto";
         nav.style.display = "";
+
+        moreMenu.style.display = "";
+        moreMenuHeading.style.display = "none";
+        moreMenuButton.style.display = "";
     }
 }
 
+function isMobile() {
+    return window.innerWidth <= 1024;
+}
+
 function toggleMenu() {
-    switch (menu.style.height) {
-        case "0px":
-            menu.style.height = "min-content";
+    switch (nav.style.display) {
+        case "none":
             nav.style.display = "";
             break;
         default:
-            menu.style.height = 0;
             nav.style.display = "none";
     }
+}
+
+function toggleMoreMenu() {
+    moreMenu.classList.toggle("active");
 }
 
 resize();

@@ -3,3 +3,18 @@
 
 "Want to read":
     other: Want to read
+
+follow_me:
+    other: Follow me
+
+follow_url:
+    other: /follow
+
+edit_on_gh:
+    other: Edit this page on GitHub
+
+built_with:
+    other: Built with
+
+colophon:
+    other: Colophon

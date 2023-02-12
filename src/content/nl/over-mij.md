@@ -19,10 +19,14 @@ weight: 2
 Verder speel ik handbal en heb ik een [YouTube kanaal](https://www.youtube.com/channel/UCx4li1iMygs5KtqgcU5KGRw), waar ik video's maak over onder andere programmeren, video-editten en andere dingen die ik interrestant vind.  
 Ook heb ik een [GitHub account](https://github.com/RobinBoers) waar ik de meeste van mijn projecten op zet met open-source licenties.
 
+<span hidden>Gerelateerde pagina's</span> {{< empty-icon label="Uses" url="/setup" >}} {{< empty-icon label="Now" url="/now" >}} {{< empty-icon label="Contact" url="/contact" >}} {{< empty-icon label="Profiel" url="/me" >}}
+
 <div class="flex flex-col lg:flex-row justify-center items-center gap-1 lg:gap-4">
     <img class="w-full lg:w-auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RobinBoers&layout=compact&title_color=434d58" alt="De meestgebruikte programmeertalen in mijn projecten">
     <img class="w-full lg:w-auto" src="https://github-readme-stats.vercel.app/api?username=RobinBoers&count_private=true&show_icons=true&hide_title=true" alt="Mijn activiteit op GitHub het afgelopen jaar">
 </div>
+
+{{< hr >}}
 
 ## Hoe ik in aanraking ben gekomen met programmeren
 

@@ -51,6 +51,7 @@ AddHandler text/xml .opml
 Redirect /framboy /projects/framboy
 Redirect /subscriptions /subscriptions.opml
 Redirect /ckv /ckvrobinboers4a2
+Redirect /hello /contact
 
 Redirect /blog/index.html https://blog.geheimesite.nl
 Redirect /en/blog https://blog.geheimesite.nl/en

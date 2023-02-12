@@ -7,14 +7,5 @@
         class="menu-button"
         hidden />
 
-    <nav>
-        <ul class="menu">
-            {{- $currentPage := . -}} {{ range .Site.Menus.main }} {{ if
-            $currentPage.IsMenuCurrent "main" . }}
-            <li class="selected">{{ .Name }}</li>
-            {{ else }}
-            <li><a href='{{ replace .URL ".html" "" }}'>{{ .Name }}</a></li>
-            {{ end }} {{ end }}
-        </ul>
-    </nav>
+    <nav>{{ partial "menu" . }}</nav>
 </header>

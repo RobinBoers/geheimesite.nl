@@ -1,3 +1,28 @@
 <footer class="page-footer">
-    &copy; {{ now.Year }} {{ .Site.Author.name }}. {{ .Site.Copyright }}
+    <p class="mb-[1em]">&copy; {{ now.Year }} {{ .Site.Author.name }}. {{ .Site.Copyright }}</p>
+
+    <aside class="text-xs">
+        {{ i18n "built_with" }} <a href="https://gohugo.io">Hugo v{{ hugo.Version }}</a> •
+        {{ if .IsPage}} 
+            {{ with  .File.Path }}
+                {{ $file_path := . }}
+
+                {{ with $.Site.Params.github_repo }}
+                    <a href='https://github.com/{{ . }}/edit/master/content/{{ $.Site.LanguageCode }}/{{ $file_path }}'>{{ i18n "edit_on_gh" }}</a> •
+                {{ end }}
+            {{ end }}
+        {{ end }}
+
+        <a href='{{ i18n "follow_url" }}'>{{ i18n "follow_me" }}</a>
+
+        • <a href="/privacy">Privacy</a>
+
+        • <a href="/colophon">{{ i18n "colophon" }}</a>
+
+        • <span class="page-size">??? kB</span>
+    </aside>
 </footer>
+<script>
+    let pageWeight = document.body.innerHTML.length / 1000;
+    document.querySelector('.page-size').innerText = `${pageWeight.toFixed(1)} kB`
+</script>

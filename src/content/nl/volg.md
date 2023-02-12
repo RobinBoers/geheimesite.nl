@@ -1,6 +1,8 @@
 ---
 title: "Volg me"
 translationKey: follow
+menu: "more"
+weight: 6
 ---
 
 Ik houd niet van social media. Nee, eigenlijk heb ik er een [hekel aan](https://blog.geheimesite.nl/2021/12/social-media-wat-moeten-we-er-mee-aan.html). Maar, ik heb wel een aantal [RSS](https://en.wikipedia.org/wiki/RSS) feeds:

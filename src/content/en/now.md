@@ -2,11 +2,13 @@
 title: "Now"
 translationKey: now
 url: "/now.html"
+menu: "more"
+weight: 5
 ---
 
 This page is inspired by Derek Siver's [now page movement](https://sive.rs/nowff). I think I'm a bit late to the party, but whatever. No one cares anyway. For those very confused: this page describes what I'm currently up to.
 
-_Last updated: December 2022 from the Netherlands._
+_Last updated: January 2023 from the Netherlands._
 
 {{< hr >}}
 
@@ -22,8 +24,10 @@ I'm currently in 4VWO. I think you British people would call it Year 11, and Ame
 
 ## Personal
 
--   Rewrite my RSS reader
--   Build a little tool to automatically send email notifications to my followers when I post something (basically a self-hosted follow.it alternative).
+-   Reimagine the entire web stack in Rust with a friend (more info coming soon :smile:)
+-   Build a nice frontend for my RSS reader
+-   Build an IRC client (maybe with end-to-end encryption?)
+-   Build a little tool to automatically send email notifications to my followers when I post something (basically a self-hosted [follow.it](https://follow.it) alternative).
 -   Build an app that can download YouTube videos like podcasts on my phone.
 
 {{< hr >}}

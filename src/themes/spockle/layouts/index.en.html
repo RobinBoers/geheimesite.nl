@@ -82,25 +82,14 @@
 
     <body>
         <a class="skip-nav" href="#content">Skip navigation</a>
-        <header class="pageheader mb-4 justify-center">
+        <header class="pageheader justify-center">
             <img
                 src="/assets/images/menu.svg"
                 alt="menu button"
                 class="menu-button my-4"
                 hidden />
 
-            <nav class="mt-4">
-                <ul class="menu">
-                    {{- $currentPage := . -}} {{ range .Site.Menus.main }} {{ if
-                    $currentPage.IsMenuCurrent "main" . }}
-                    <li class="selected">{{ .Name }}</li>
-                    {{ else }}
-                    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-                    {{ end }} {{ end }} {{ range .Site.Menus.homepage }}
-                    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-                    {{ end }}
-                </ul>
-            </nav>
+            <nav class="mt-4">{{ partial "menu" . }}</nav>
         </header>
 
         <main id="content" class="page-content mt-0 md:mt-6">
@@ -112,8 +101,8 @@
 
                     {{ .Content }}
 
-                    <p>
-                        <a href="/" hreflang="nl">I wanna speak dutch again</a>
+                    <p class="text-right pr-10 lg:pr-0">
+                        <a href="/" hreflang="nl">🇳🇱 Dutch</a>
                     </p>
 
                     {{ partial "h-card-details" }}
@@ -160,9 +149,6 @@
             </article>
         </main>
 
-        <footer class="page-footer">
-            &copy; 2022 Robin Boers. Webdesigner and Elixir programmer since
-            2017.
-        </footer>
+        {{- partial "footer.html" . -}}
     </body>
 </html>

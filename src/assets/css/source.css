@@ -100,7 +100,7 @@
     }
 
     a {
-        @apply text-current underline decoration-primary hover:bg-primary hover:text-foreground dark:hover:text-background;
+        @apply text-current underline decoration-primary hover:bg-primary hover:text-foreground dark:hover:text-background transition duration-100;
     }
 
     /* Tables */
@@ -287,8 +287,25 @@
         @apply w-screen lg:w-auto lg:flex justify-around p-2;
     }
 
-    .pageheader nav ul {
-        @apply flex flex-col lg:flex-row gap-4 p-0 items-center overflow-hidden lg:h-auto transition-[height] mb-0;
+    .pageheader nav .menu {
+        @apply flex flex-col lg:flex-row gap-4 p-0 items-center lg:h-auto transition-[height] mb-0 relative;
+    }
+
+    .pageheader nav .more-menu {
+        @apply hidden;
+    }
+
+    .pageheader nav .more-menu.active {
+        @apply block bg-background absolute -right-6 top-8 h-max p-4 rounded-md shadow-lg;
+    }
+
+    .pageheader nav .more-menu.active li {
+        @apply md:pb-2;
+    }
+
+    .pageheader nav .more-menu-heading {
+        @apply hidden;
+        @apply font-bold text-lg pt-3;
     }
 
     .pageheader nav ul li {
@@ -469,6 +486,10 @@
     .homepage-hero .h-card p,
     .homepage-hero .h-card h1 {
         @apply max-w-none;
+    }
+
+    .homepage-hero {
+        @apply px-0 sm:px-10 md:px-0;
     }
 
     .title a {

@@ -4,8 +4,7 @@ translationKey: hyperfeed
 url: "/hyperfeed.html"
 hideTitle: true
 layout: standalone
-menu: "homepage"
-weight: 1
+menu: "more"
 ---
 
 {{< definition word="Hypertexting" pronunciation="hʌɪpətɛkstɪŋ" type="verb" definition="Constructing a body of hypertext over time—such as with blogs or wikis—with an emphasis on the strengths of linking (within and without the text) and rich formatting." >}}

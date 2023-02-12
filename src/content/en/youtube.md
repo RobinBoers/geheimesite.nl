@@ -1,7 +1,8 @@
 ---
-title: "YouTube"
+title: "Videoroll"
 url: "/youtube.html"
 hideTitle: true
+menu: "more"
 ---
 
 <section>
@@ -203,6 +204,12 @@ _Johnny Harris_
 
 [Using VFX to Explain Why COVID-19 Surprised Everyone](https://www.yewtu.be/watch?v=e02eiX866N4)  
 _Wren Weichman_
+
+{{< hr >}}
+
+{{< supplement >}}
+For those interested, I have [an OPML file](/videos.opml) containing RSS feeds for all my favorite content creators on YouTube.
+{{< / supplement >}}
 
 <style>
     :root {

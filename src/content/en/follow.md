@@ -2,6 +2,8 @@
 title: "Follow me"
 translationKey: follow
 url: "/follow.html"
+menu: "more"
+weight: 6
 ---
 
 I don't like social media. Actually, [I hate it](https://blog.geheimesite.nl/2021/12/social-media-wat-moeten-we-er-mee-aan.html). Instead, I have a few [RSS](https://en.wikipedia.org/wiki/RSS) feeds:

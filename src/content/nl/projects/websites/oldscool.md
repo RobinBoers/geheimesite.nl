@@ -1,5 +1,5 @@
 ---
-title: "Website: Old's Cool (HVM Educatie)"
+title: "Website: HVM Old's Cool"
 translationKey: website-hvm
 ---
 
