@@ -18,6 +18,10 @@
 				<link rel="alternate" hreflang="nl" href="https://geheimesite.nl/sitemap.xml" />
 
 				<style>
+					li {
+						list-style: none;
+					}
+					
 					.page {
 						padding-left: 20px;
 					}
