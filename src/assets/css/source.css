@@ -296,7 +296,7 @@
     }
 
     .pageheader nav .more-menu.active {
-        @apply block bg-background absolute -right-6 top-8 h-max p-4 rounded-md shadow-lg;
+        @apply block bg-background absolute -right-6 top-8 h-max p-4 rounded-md shadow-lg z-50;
     }
 
     .pageheader nav .more-menu.active li {
