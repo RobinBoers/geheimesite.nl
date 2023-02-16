@@ -16,7 +16,7 @@ Mijn huidige distro is Arch Linux met minimale packages. Het houdt mijn systeem 
 
 ## 🦊 Webbrowsers
 
-Voor webbrowsing gebruik ik normaliter Firefox. Ik vind het nieuwe proton design echt verschrikkelijk, dus ik het het teruggedraaid met wat CSS (Firefox is fantastisch!). Ik gebruik ook dit Firefox theme:  [https://addons.mozilla.org/en-US/firefox/addon/photon-colors](https://addons.mozilla.org/en-US/firefox/addon/photon-colors)
+Voor webbrowsing gebruik ik normaliter Firefox. Ik vind het nieuwe proton design echt verschrikkelijk, dus ik het het teruggedraaid met wat CSS (Firefox is fantastisch!). Ik gebruik ook dit Firefox theme: [https://addons.mozilla.org/en-US/firefox/addon/photon-colors](https://addons.mozilla.org/en-US/firefox/addon/photon-colors)
 
 Ik gebruik ook Chromium om mijn projecten te testen in een tweede browser en als ik per se een Chrome-only API moet testen.
 
@@ -91,7 +91,7 @@ Ik vind [DejaVu Sans Mono](https://github.com/dejavu-fonts/dejavu-fonts) ook moo
 
 ## 📒 Apps
 
-Dit zijn de apps die ik dagelijks gebruik: 
+Dit zijn de apps die ik dagelijks gebruik:
 
 -   **Thunderbird:** Mail en IRC client
 -   **Rofi:** Desktop en run launcher

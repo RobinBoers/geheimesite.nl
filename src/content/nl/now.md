@@ -25,11 +25,11 @@ Ik doe nu Natuurkunde, Scheikunde, NLT, Biologie, Wiskunde B, informatica, Neder
 
 ## Persoonlijk
 
-- De volledige web stack (HTML spec, parser, webbrowser en server) herschrijven in Rust met een vriend (meer informatie volgt nog :smile:)
-- Een coole frontend voor mijn RSS reader bouwen
-- Een IRC client voor mezelf bouwen (misschien zelfs met end-to-end encryption? Who knows.)
-- Een simpele tool bouwen die automatisch emails verzend als mijn RSS feed wordt geupdate (een soort self-hosted [follow.it](https://follow.it) alternatief)
-- Een app bouwen die YouTube video's als podcasts kan downloaden op mijn telefoon.
+-   De volledige web stack (HTML spec, parser, webbrowser en server) herschrijven in Rust met een vriend (meer informatie volgt nog :smile:)
+-   Een coole frontend voor mijn RSS reader bouwen
+-   Een IRC client voor mezelf bouwen (misschien zelfs met end-to-end encryption? Who knows.)
+-   Een simpele tool bouwen die automatisch emails verzend als mijn RSS feed wordt geupdate (een soort self-hosted [follow.it](https://follow.it) alternatief)
+-   Een app bouwen die YouTube video's als podcasts kan downloaden op mijn telefoon.
 
 {{< hr >}}
 
