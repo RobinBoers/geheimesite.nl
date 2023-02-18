@@ -57,6 +57,9 @@ _Tom Scott_
 [The Problem with Time & Timezones](https://www.yewtu.be/watch?v=-5wpm-gesOY)  
 _Computerphile_
 
+[I tried using AI. It scared me.](https://www.youtube.com/watch?v=jPhJbKBuNnA)  
+_Tom Scott_
+
 [Single Point of Failure: The (Fictional) Day Google Forgot To Check Passwords](https://www.yewtu.be/watch?v=y4GB_NDU43Q)  
 _Tom Scott_
 
