@@ -5,6 +5,12 @@
             "year": "2023",
             "books": [
                 {
+                    "title": "This Is How They Tell Me the World Ends",
+                    "author": "Nicole Perlroth",
+                    "cover": "this-is-how-they-tell-me-the-world-ends.jpg",
+                    "url": "https://www.bibliotheek.nl/catalogus/titel.434364606.html/this-is-how-they-tell-me-the-world-ends/"
+                },
+                {
                     "title": "The Fifth Science",
                     "author": "Exurb1a",
                     "cover": "the-fifth-science.jpg",
@@ -52,7 +58,7 @@
                     "url": "https://www.bibliotheek.nl/catalogus/titel.420726896.html/de-woordsmid/"
                 },
                 {
-                    "title": "De sage van Aya",
+                    "title": "De sage van Aya: Regentes",
                     "author": "Mirjam Boers",
                     "cover": "sage-van-aya.jpg",
                     "url": "https://www.boekscout.nl/shop2/boek.php?bid=12926"
