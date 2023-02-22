@@ -37,6 +37,14 @@ This page was inspired by petermolnar.net
 			<outline title="Terence Eden’s Blog" text="Terence Eden’s Blog" type="feed" xmlUrl="https://shkspr.mobi/blog/feed/atom/" htmlUrl="https://shkspr.mobi/blog/" url="https://shkspr.mobi/blog/feed/atom/"></outline>
 		</outline>
 		<outline text="💻 Coding" title="💻 Coding" type="folder">
+			<outline title="Herman's blog" text="ᕕ( ᐛ )ᕗ" type="feed"
+				xmlUrl="https://herman.bearblog.dev/feed/?type=rss"
+				htmlUrl="https://herman.bearblog.dev"
+				url="https://herman.bearblog.dev/feed/?type=rss"></outline>
+				<outline title="ahwx's blog" text="ahwx's blog" type="feed"
+				xmlUrl="https://blog.ahwx.org/rss"
+				htmlUrl="https://blog.ahwx.org"
+				url="https://blog.ahwx.org/rss"></outline>
 			<outline title="Just another blog" text="Just another blog" type="feed" xmlUrl="https://blogs.gnome.org/alexm/feed/" htmlUrl="https://blogs.gnome.org/alexm" url="https://blogs.gnome.org/alexm/feed/"></outline>
 			<outline title="Space and Meaning" text="Space and Meaning" type="feed" xmlUrl="https://blogs.gnome.org/tbernard/feed/" htmlUrl="https://blogs.gnome.org/tbernard" url="https://blogs.gnome.org/tbernard/feed/"></outline>
 			<outline title="Kev Quirk" text="Kev Quirk" type="feed" xmlUrl="https://kevquirk.com/feed" htmlUrl="https://kevquirk.com" url="https://kevquirk.com/feed"></outline>
