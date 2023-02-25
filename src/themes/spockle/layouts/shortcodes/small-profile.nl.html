@@ -1,0 +1,30 @@
+<!-- Hidden metadata for IndieWeb -->
+<div class="hidden" hidden>
+    <p class="u-note">
+        TLDR; Ik ben een webdesigner, nerd en tiener die in {{ index
+        .Site.Data.profile "p-country-name" }} woont. Ik ben 15 jaar oud en werk
+        momenteel bij {{ index .Site.Data.profile "p-org" }}.
+    </p>
+    <p>
+        Meer over mij: mensen noemen me soms
+        <span class="u-nickname"
+            >{{ index .Site.Data.profile "p-nickname" }}</span
+        >
+        en ik woon in
+        <span class="p-region"
+            >{{ index .Site.Data.profile "p-country-name" }}</span
+        >. Ik werk momenteel bij
+        <span class="p-org">{{ index .Site.Data.profile "p-org" }}</span> als
+        <span class="p-job-title"
+            >{{ index .Site.Data.profile "p-job-title" }}</span
+        >. Verder kan je mij en mijn projecten vinden op
+        <a href='{{ index .Site.Data.profile "u-url" }}' rel="me" class="u-url"
+            >{{ index (split (index .Site.Data.profile "u-url") "://") 1 }}</a
+        >. Als je me wil bereiken kan dat via
+        <a
+            class="u-email"
+            href='mailto:{{ index .Site.Data.profile "u-email" }}'
+            >{{ index .Site.Data.profile "u-email" }}</a
+        >.
+    </p>
+</div>

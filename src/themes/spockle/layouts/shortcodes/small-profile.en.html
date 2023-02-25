@@ -1,0 +1,30 @@
+<!-- Hidden metadata for IndieWeb -->
+<div class="hidden" hidden>
+    <p class="u-note">
+        TLDR; I'm a webdesigner, programmer, and nerd living in the {{ index
+        .Site.Data.profile "p-country-name" }}. I'm 15 years old and I currently
+        work at {{ index .Site.Data.profile "p-org" }}.
+    </p>
+    <p>
+        More about me: people sometimes call me
+        <span class="u-nickname"
+            >{{ index .Site.Data.profile "p-nickname" }}</span
+        >
+        and I live in the
+        <span class="p-region"
+            >{{ index .Site.Data.profile "p-country-name" }}</span
+        >. I currently work at
+        <span class="p-org">{{ index .Site.Data.profile "p-org" }}</span> as
+        <span class="p-job-title"
+            >{{ index .Site.Data.profile "p-job-title" }}</span
+        >. You can find me and my projects at
+        <a href='{{ index .Site.Data.profile "u-url" }}' rel="me" class="u-url"
+            >{{ index (split (index .Site.Data.profile "u-url") "://") 1 }}</a
+        >. If you need to reach me you can contact me at
+        <a
+            class="u-email"
+            href='mailto:{{ index .Site.Data.profile "u-email" }}'
+            >{{ index .Site.Data.profile "u-email" }}</a
+        >.
+    </p>
+</div>

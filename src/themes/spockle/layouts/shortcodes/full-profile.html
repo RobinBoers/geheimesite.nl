@@ -34,12 +34,16 @@
                     rel="me"
                     href='{{ index .Site.Data.profile "u-url" }}'
                     class="u-url"
-                    >{{ index (split (index .Site.Data.profile "u-url") "://") 1 }}</a
+                    >{{ index (split (index .Site.Data.profile "u-url") "://") 1
+                    }}</a
                 >
             </li>
             <li class="flex items-center gap-2 pt-1">
                 <i class="fa-solid fa-envelope"></i>
-                <a rel="me" href='mailto:{{ index .Site.Data.profile "u-email" }}' class="u-email"
+                <a
+                    rel="me"
+                    href='mailto:{{ index .Site.Data.profile "u-email" }}'
+                    class="u-email"
                     >{{ index .Site.Data.profile "u-email" }}</a
                 >
             </li>
@@ -52,26 +56,41 @@
             </li>
             <li class="flex items-center gap-2 pt-1">
                 <i class="fa-solid fa-cake-candles"></i>
-                <time class="dt-anniversary dt-bday">{{ index .Site.Data.profile "dt-bday" }}</time>
+                <time class="dt-anniversary dt-bday"
+                    >{{ index .Site.Data.profile "dt-bday" }}</time
+                >
             </li>
             <li class="flex items-center gap-2 pt-1">
                 <i class="fa-solid fa-mars"></i>
-                <span class="p-sex">{{ index .Site.Data.profile "p-sex" }}</span>
+                <span class="p-sex"
+                    >{{ index .Site.Data.profile "p-sex" }}</span
+                >
             </li>
             <li class="flex items-start gap-2 pt-1">
                 <i class="fa-solid fa-building mt-1.5"></i>
                 <span>
-                    <span class="p-job-title">{{ index .Site.Data.profile "p-job-title" }}</span>
-                    {{ i18n "at" }} <span class="p-org">{{ index .Site.Data.profile "p-org" }}</span>
+                    <span class="p-job-title"
+                        >{{ index .Site.Data.profile "p-job-title" }}</span
+                    >
+                    {{ i18n "at" }}
+                    <span class="p-org"
+                        >{{ index .Site.Data.profile "p-org" }}</span
+                    >
                 </span>
             </li>
 
             <li class="flex items-top gap-2 pt-1">
                 <i class="fa-solid fa-house mt-1.5"></i>
                 <span>
-                    <span class="p-locality">{{ index .Site.Data.profile "p-locality" }}</span>, <br />
-                    <span class="p-region">{{ index .Site.Data.profile "p-region" }}</span>, <br />
-                    <span class="p-country-name">{{ index .Site.Data.profile "p-country-name" }}</span>
+                    <span class="p-locality"
+                        >{{ index .Site.Data.profile "p-locality" }}</span
+                    >, <br />
+                    <span class="p-region"
+                        >{{ index .Site.Data.profile "p-region" }}</span
+                    >, <br />
+                    <span class="p-country-name"
+                        >{{ index .Site.Data.profile "p-country-name" }}</span
+                    >
                 </span>
             </li>
         </ul>
