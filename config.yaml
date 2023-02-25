@@ -48,10 +48,6 @@ languages:
                   name: Blogroll
                   url: /subscriptions
                   weight: 2
-                - identifier: me
-                  name: Profiel
-                  url: /me
-                  weight: 3
                 - identifier: hyperfeed
                   name: Hyperfeed
                   url: /hyperfeed

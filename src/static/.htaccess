@@ -77,6 +77,7 @@ Redirect 301 /library/website/overview.php /website/overview
 Redirect 301 /how-it-was-made /en/colophon
 Redirect 301 /colophon /en/colophon
 Redirect 301 /hello /contact
+Redirect 301 /me /en/profile
 Redirect 301 /logo2.png /assets/images/logo2.png
 
 # Remove .php and .html from filenames
