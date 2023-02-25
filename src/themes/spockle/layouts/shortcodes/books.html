@@ -2,12 +2,14 @@
 {{ $shelve = index .Site.Data.books $shelve }} 
 
 {{ if eq $shelve.type "timeline" }} 
-    {{ range $shelve.years }}
+    {{ $years := $shelve.items }}
+    {{ range $years }}
 
-            <h2>{{ .year }}</h2>
+            <h2>{{ .title }}</h2>
 
             <ul class="book-grid">
-                {{ range .books }}
+                {{ $books := .items }}
+                {{ range $books }}
                     {{ $image := resources.Get (printf "assets/images/books/%s" .cover) }} 
                     {{ $image := $image.Resize "450x webp" }}
 
@@ -28,7 +30,8 @@
     <h2>{{ i18n $shelve.title }}</h2>
 
     <ul class="book-grid">
-        {{ range $shelve.books }}
+        {{ $books := $shelve.items }}
+        {{ range $books }}
             {{ $image := resources.Get (printf "assets/images/books/%s" .cover) }} 
             {{ $image := $image.Resize "450x webp"}}
 

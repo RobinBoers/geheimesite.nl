@@ -1,7 +1,7 @@
 {
-    "type": "collection",
     "title": "Want to read",
-    "books": [
+    "type": "collection",
+    "items": [
         {
             "title": "Invloed: De zeven geheimen van het overtuigen",
             "author": "Robert Cialdini",
