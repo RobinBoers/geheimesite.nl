@@ -103,7 +103,11 @@ table caption {
     line-height: 1.25em;
 }
 @media (prefers-color-scheme: dark) {
-    filter: brightness(0.75);
+    figcaption,
+    .supplement,
+    table caption {
+        filter: brightness(0.75);
+    }
 }
 figcaption a,
 .supplement a table caption a {
@@ -122,7 +126,6 @@ table {
 table th,
 table td {
     padding: 0.5em;
-    border: ;
 }
 table,
 table td,
