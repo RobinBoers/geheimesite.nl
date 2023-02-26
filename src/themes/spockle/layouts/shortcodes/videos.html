@@ -2,16 +2,18 @@
 
 {{ range $topics }}
 
-    <h2 class="mt-14">{{ .title }}</h2>
+    <section class="my-14">
+        {{ markdownify (printf "## %s" .title) }}
 
-    <ul class="videos">
-        {{ range .items }}
-            <li class="video">
-                <a class="video-title" href="{{ .url }}">{{ .title }}</a>
-                <span class="video-creator">{{ .creator }}</span>
-            </li>
-        {{ end }}
-    </ul>
+        <ul class="videos">
+            {{ range .items }}
+                <li class="video">
+                    <a class="video-title" href="{{ .url }}">{{ .title }}</a>
+                    <span class="video-creator">{{ .creator }}</span>
+                </li>
+            {{ end }}
+        </ul>
+    </section>
 
 {{ end }}
 
@@ -31,7 +33,7 @@
     }
 
     .videos {
-        padding-inline-start: 0;
+        padding-left: 0 !important;
     }
 
     .videos .video {
