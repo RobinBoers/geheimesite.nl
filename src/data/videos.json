@@ -1,0 +1,327 @@
+[
+    {
+        "title": "Computers",
+        "items": [
+            {
+                "title": "Why The Web Is Such A Mess",
+                "creator": "Tom Scott",
+                "url": "https://yewtu.be/watch?v=OFRjZtYs3wY"
+            },
+            {
+                "title": "This video has XXX views",
+                "creator": "Tom Scott",
+                "url": "https://yewtu.be/watch?v=BxV14h0kFs0"
+            },
+            {
+                "title": "The Art of Code",
+                "creator": "Dylan Beattie",
+                "url": "https://yewtu.be/watch?v=6avJHaC3C2U"
+            },
+            {
+                "title": "Plain Text",
+                "creator": "Dylan Beattie",
+                "url": "https://yewtu.be/watch?v=_mZBa3sqTrI"
+            },
+            {
+                "title": "The Web That Never Was",
+                "creator": "Dylan Beattie",
+                "url": "https://yewtu.be/watch?v=8JOD1AQGqEg"
+            },
+            {
+                "title": "Computational Creativity",
+                "creator": "Dylan Beattie",
+                "url": "https://yewtu.be/watch?v=YPYks7lBKSY"
+            },
+            {
+                "title": "Lambda? You Keep Using that Letter",
+                "creator": "Kevlin Henney",
+                "url": "https://yewtu.be/watch?v=Y7StjYhXvpE"
+            },
+            {
+                "title": "Characters, Symbols and the Unicode Miracle",
+                "creator": "Computerphile",
+                "url": "https://yewtu.be/watch?v=MijmeoH9LT4"
+            },
+            {
+                "title": "Exploring How Computers Work",
+                "creator": "Sebastian Lague",
+                "url": "https://youtube.com/playlist?list=PLFt_AvWsXl0dPhqVsKt1Ni_46ARyiCGSq"
+            },
+            {
+                "title": "Floating Point Numbers",
+                "creator": "Computerphile",
+                "url": "https://yewtu.be/watch?v=PZRI1IfStY0"
+            },
+            {
+                "title": "The Worst Typo I Ever Made",
+                "creator": "Tom Scott",
+                "url": "https://yewtu.be/watch?v=X6NJkWbM1xk"
+            },
+            {
+                "title": "Ctrl-Alt-Del: Learning to Love Legacy Code",
+                "creator": "Dylan Beattie",
+                "url": "https://yewtu.be/watch?v=wPjHuvulivM"
+            },
+            {
+                "title": "This Video Is Sponsored By ███ VPN",
+                "creator": "Tom Scott",
+                "url": "https://yewtu.be/watch?v=WVDQEoe6ZWY"
+            },
+            {
+                "title": "The Problem with Time & Timezones",
+                "creator": "Computerphile",
+                "url": "https://yewtu.be/watch?v=-5wpm-gesOY"
+            },
+            {
+                "title": "I tried using AI. It scared me.",
+                "creator": "Tom Scott",
+                "url": "https://yewtu.be/watch?v=jPhJbKBuNnA"
+            },
+            {
+                "title": "Single Point of Failure: The (Fictional) Day Google Forgot To Check Passwords",
+                "creator": "Tom Scott",
+                "url": "https://yewtu.be/watch?v=y4GB_NDU43Q"
+            }
+        ]
+    },
+    {
+        "title": "History",
+        "items": [
+            {
+                "title": "Why so many distros? The Weird History of Linux",
+                "creator": "Fireship",
+                "url": "https://yewtu.be/watch?v=24O00Jz8R04"
+            },
+            {
+                "title": "The Weird History of JavaScript",
+                "creator": "Fireship",
+                "url": "https://yewtu.be/watch?v=Sh6lK57Cuk4"
+            },
+            {
+                "title": "Mouse Cursor History (and why I made my own)",
+                "creator": "Posy",
+                "url": "https://yewtu.be/watch?v=YThelfB2fvg"
+            },
+            {
+                "title": "history of the entire world, i guess",
+                "creator": "bill wurtz",
+                "url": "https://yewtu.be/watch?v=xuCn8ux2gbs"
+            }
+        ]
+    },
+    {
+        "title": "Science",
+        "items": [
+            {
+                "title": "Why Gravity is NOT a Force",
+                "creator": "Veritasium",
+                "url": "https://yewtu.be/watch?v=XRr1kaXKBsU"
+            },
+            {
+                "title": "The Science of Thinking",
+                "creator": "Veritasium",
+                "url": "https://yewtu.be/watch?v=UBVV8pch1dM"
+            },
+            {
+                "title": "This equation will change how you see the world (the logistic map)",
+                "creator": "Veritasium",
+                "url": "https://yewtu.be/watch?v=ovJcsL7vyrk"
+            },
+            {
+                "title": "Chaos: The Science of the Butterfly Effect",
+                "creator": "Veritasium",
+                "url": "https://yewtu.be/watch?v=fDek6cYijxI"
+            },
+            {
+                "title": "The Simplest Math Problem No One Can Solve - Collatz Conjecture",
+                "creator": "Veritasium",
+                "url": "https://yewtu.be/watch?v=094y1Z2wpJg"
+            },
+            {
+                "title": "The Golden Ratio (why it is so irrational)",
+                "creator": "Numberphile",
+                "url": "https://yewtu.be/watch?v=sj8Sg8qnjOg"
+            },
+            {
+                "title": "How An Infinite Hotel Ran Out Of Room",
+                "creator": "Veritasium",
+                "url": "https://yewtu.be/watch?v=OxGsU8oIWjY"
+            },
+            {
+                "title": "The Universe is Hostile to Computers",
+                "creator": "Veritasium",
+                "url": "https://yewtu.be/watch?v=AaZ_RSt0KP8"
+            },
+            {
+                "title": "Math's Fundamental Flaw",
+                "creator": "Veritasium",
+                "url": "https://yewtu.be/watch?v=HeQX2HjkcNo"
+            },
+            {
+                "title": "How Imaginary Numbers Were Invented",
+                "creator": "Veritasium",
+                "url": "https://yewtu.be/watch?v=cUzklzVXJwo"
+            },
+            {
+                "title": "VFX Artist Reveals the True Scale of Atoms",
+                "creator": "Wren Weichman",
+                "url": "https://yewtu.be/watch?v=KgSGlbV0kZo"
+            }
+        ]
+    },
+    {
+        "title": "Politics & Society",
+        "items": [
+            {
+                "title": "The Rules for Rulers",
+                "creator": "CGP Grey",
+                "url": "https://yewtu.be/watch?v=rStL7niR7gs"
+            },
+            {
+                "title": "Let's Ban Cars! (Seriously)",
+                "creator": "BritMonkey",
+                "url": "https://yewtu.be/watch?v=rSSNlM3Au1A"
+            },
+            {
+                "title": "YouTube's Copyright System Isn't Broken. The World's Is.",
+                "creator": "Tom Scott",
+                "url": "https://yewtu.be/watch?v=1Jwo5qc78QU"
+            },
+            {
+                "title": "This is Cuba's Netflix, Hulu, and Spotify – all without the internet",
+                "creator": "Vox",
+                "url": "https://yewtu.be/watch?v=fTTno8D-b2E"
+            },
+            {
+                "title": "Post-Truth: Why Facts Don't Matter Anymore",
+                "creator": "Veritasium",
+                "url": "https://yewtu.be/watch?v=dvk2PQNcg8w"
+            }
+        ]
+    },
+    {
+        "title": "Economy & Commercial web",
+        "items": [
+            {
+                "title": "Line Goes Up – The Problem With NFTs",
+                "creator": "Folding Ideas",
+                "url": "https://yewtu.be/watch?v=YQ_xWvX1n9g"
+            },
+            {
+                "title": "Own your content on Social Media using the IndieWeb",
+                "creator": "JAMstack",
+                "url": "https://yewtu.be/watch?v=X3SrZuH00GQ"
+            },
+            {
+                "title": "The Struggle of Building the Original iPhone - The Untold Story",
+                "creator": "ColdFusion",
+                "url": "https://yewtu.be/watch?v=24O00Jz8R04"
+            },
+            {
+                "title": "GameStop: Reddit vs Wallstreet",
+                "creator": "ColdFusion",
+                "url": "https://yewtu.be/watch?v=YFQ-v1jCpF0"
+            }
+        ]
+    },
+    {
+        "title": "Sketches & Stories",
+        "items": [
+            {
+                "title": "Danger: Humans",
+                "creator": "Tom Scott",
+                "url": "https://yewtu.be/watch?v=OcPqk-O-fD4"
+            },
+            {
+                "title": "Unlimited Ricepudding",
+                "creator": "exurb1a",
+                "url": "https://yewtu.be/watch?v=wPODghAr3Vc"
+            },
+            {
+                "title": "Letter to Marble 3",
+                "creator": "exurb1a",
+                "url": "https://yewtu.be/watch?v=0R7EN_GTAlw"
+            },
+            {
+                "title": "The Lantern",
+                "creator": "exurb1a",
+                "url": "https://www.yewtu.be/watch?v=um6cGuJ4mNE"
+            },
+            {
+                "title": "And nothing can ever ruin this",
+                "creator": "exurb1a",
+                "url": "https://www.yewtu.be/watch?v=tJ7LdrAqL0Y"
+            },
+            {
+                "title": "The Artificial Intelligence That Deleted A Century",
+                "creator": "Tom Scott",
+                "url": "https://yewtu.be/watch?v=-JlxuQ7tPgQ"
+            },
+            {
+                "title": "27",
+                "creator": "exurb1a",
+                "url": "https://yewtu.be/watch?v=dLRLYPiaAoA"
+            },
+            {
+                "title": "And then everything will be alright",
+                "creator": "exurb1a",
+                "url": "https://www.yewtu.be/watch?v=7g1pmHSWHe0"
+            }
+        ]
+    },
+    {
+        "title": "Philosophy",
+        "items": [
+            {
+                "title": "Meaning is a Jumper That You Have to Knit Yourself",
+                "creator": "exurb1a",
+                "url": "https://www.yewtu.be/watch?v=psaCM1j9LEM"
+            },
+            {
+                "title": "the five kinds of paradox",
+                "creator": "jan Misali",
+                "url": "https://www.yewtu.be/watch?v=ppX7Qjbe6BM"
+            }
+        ]
+    },
+    {
+        "title": "Other nice stuff",
+        "items": [
+            {
+                "title": "Ə: The Most Common Vowel in English",
+                "creator": "Tom Scott",
+                "url": "https://www.yewtu.be/watch?v=qu4zyRqILYM"
+            },
+            {
+                "title": "You (probably) do not exist",
+                "creator": "exurb1a",
+                "url": "https://www.yewtu.be/watch?v=8kX62n6yNXA"
+            },
+            {
+                "title": "I promise this story about microwaves is interesting.",
+                "creator": "Tom Scott",
+                "url": "https://www.yewtu.be/watch?v=2tdiKTSdE9Y"
+            },
+            {
+                "title": "Most People Don't Know How Bikes Work",
+                "creator": "Veritasium",
+                "url": "https://www.yewtu.be/watch?v=9cNmUNHSBac"
+            },
+            {
+                "title": "Junk Mail, Explained",
+                "creator": "Johnny Harris",
+                "url": "https://www.yewtu.be/watch?v=yyWjHVmZWvg"
+            },
+            {
+                "title": "Why Americans Eat Dessert for Breakfast",
+                "creator": "Johnny Harris",
+                "url": "https://www.yewtu.be/watch?v=kNovwPIWr3Q"
+            },
+            {
+                "title": "Using VFX to Explain Why COVID-19 Surprised Everyone",
+                "creator": "Wren Weichman",
+                "url": "https://www.yewtu.be/watch?v=e02eiX866N4"
+            }
+        ]
+    }
+]

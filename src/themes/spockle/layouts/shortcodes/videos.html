@@ -1,23 +1,19 @@
----
-title: "Videoroll"
-translationKey: youtube
-hideTitle: true
-menu: "more"
----
+{{ $topics := .Site.Data.videos }}
 
-<section>
-    <h1 class="mb-0 font-serif">YouTube</h1>
-    <p class="font-serif small-caps">How to train your algorithm</p>
-    <p>
-        I watch a lot of YouTube. Actually, I watch too much YouTube. <strong class="bold">Way too much.</strong> But I try to spend my time watching YouTube learning new things. So, these are the best videos I've watched. If you want to train your algorithm or are just looking for some suggestions for science/computer videos, here you are:
-    </p>
-</section>
+{{ range $topics }}
 
-{{< videos >}}
+    <h2 class="mt-14">{{ .title }}</h2>
 
-{{< supplement >}}
-For those interested, I have [an OPML file](/videos.opml) containing RSS feeds for all my favorite content creators on YouTube.
-{{< / supplement >}}
+    <ul class="videos">
+        {{ range .items }}
+            <li class="video">
+                <a class="video-title" href="{{ .url }}">{{ .title }}</a>
+                <span class="video-creator">{{ .creator }}</span>
+            </li>
+        {{ end }}
+    </ul>
+
+{{ end }}
 
 <style>
     :root {
@@ -25,6 +21,7 @@ For those interested, I have [an OPML file](/videos.opml) containing RSS feeds f
         --background: 240, 240, 246;
         --primary: 255, 70, 70;
     }
+
     @media (prefers-color-scheme: dark) {
         :root {
             --foreground: 240, 240, 246;
@@ -32,14 +29,31 @@ For those interested, I have [an OPML file](/videos.opml) containing RSS feeds f
             --primary: 255, 70, 70;
         }
     }
-    .page-content a {
+
+    .videos {
+        padding-inline-start: 0;
+    }
+
+    .videos .video {
+        list-style: none;
+        margin-bottom: 1.57142857em;
+    }
+
+    .video-title {
         font-size: larger;
     }
-    .page-content a, em {
+    .video-title,
+    .video-creator {
         line-height: revert;
         width: max-content;
         max-width: 100%;
     }
+
+    .video-creator {
+        font-style: italic;
+        display: block;
+    }
+
     html {
         background: linear-gradient(to right, magenta, orangered);
         background-blend-mode: hue, normal;
@@ -48,7 +62,9 @@ For those interested, I have [an OPML file](/videos.opml) containing RSS feeds f
     }
     body {
         background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+        background-attachment: fixed;
         color: white;
+        height: initial;
     }
 
     .page-content {

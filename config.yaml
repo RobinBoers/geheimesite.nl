@@ -51,9 +51,6 @@ languages:
                 - identifier: hyperfeed
                   name: Hyperfeed
                   url: /hyperfeed
-                - identifier: youtube
-                  name: Videoroll
-                  url: /youtube
 
     en:
         contentDir: src/content/en
