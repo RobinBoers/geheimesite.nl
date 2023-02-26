@@ -32,7 +32,7 @@
 			</head>
 			<body>
 				<a class="skip-nav" href="#content">Skip navigation</a>
-				<header class="pageheader">
+				<header class="page-header">
 					<p class="title">
 						<a href="/en">Robin Boers</a>
 					</p>

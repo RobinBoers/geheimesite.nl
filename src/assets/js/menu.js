@@ -3,7 +3,7 @@ menu = document.querySelector(".menu");
 moreMenu = document.querySelector(".more-menu");
 moreMenuHeading = document.querySelector(".more-menu-heading");
 moreMenuButton = document.querySelector(".more-menu-button");
-nav = document.querySelector(".pageheader nav");
+nav = document.querySelector(".page-header nav");
 
 button.addEventListener("click", () => {
     toggleMenu();
