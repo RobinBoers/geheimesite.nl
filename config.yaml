@@ -31,7 +31,7 @@ minify:
 
 languages:
     nl:
-        contentDir: src/content/nl
+        contentDir: content/nl
         languageName: Nederlands
         languageCode: nl
         copyright: Webdesigner en Elixir programmeur sinds 2017.
@@ -53,7 +53,7 @@ languages:
                   url: /hyperfeed
 
     en:
-        contentDir: src/content/en
+        contentDir: content/en
         languageName: English
         languageCode: en
         copyright: Webdesigner and Elixir programmer since 2017.
