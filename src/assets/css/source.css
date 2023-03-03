@@ -61,7 +61,7 @@
     }
 
     html {
-        @apply dark:bg-gradient-to-tr dark:from-slate dark:to-background bg-fixed selection:text-background selection:bg-foreground/40;
+        @apply dark:bg-gradient-to-tr dark:from-slate dark:to-background bg-fixed;
     }
 
     body {
