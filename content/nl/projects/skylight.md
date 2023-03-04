@@ -23,6 +23,8 @@ _SkyLight is geschreven voor PHP7 en werkt niet in PHP8!_
 
 ## Installatie
 
+### Stable beta
+
 Je kan de beta downloaden op de releases page van de [GitHub repo](https://github.com/RobinBoers/SkyLight-Website-Editor).
 
 Extract de ZIP op je webserver. Je kan het in de rootmap van je server plaatsen of in een subdirectory. Als je SkyLight in een subdirectory installeerd moet je wel het correcte path in de geavanceerde instellingen invullen na de installatie.
@@ -31,6 +33,10 @@ Extract de ZIP op je webserver. Je kan het in de rootmap van je server plaatsen 
 Download de "Source code (zip)" en niet de `package.zip`!  
 `package.zip` is voor online updaten en werkt niet in zijn eentje.
 {{< / warning >}}
+
+### Developer preview
+
+Als je de developer preview build wil runnen kan je git clonen van master:
 
 ```shell
 git clone https://github.com/RobinBoers/SkyLight-Website-Editor
