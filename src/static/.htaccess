@@ -13,6 +13,9 @@ AddHandler text/xml .opml
 	php_value zlib.output_compression 16386
 </ifmodule>
 
+# Google, FLoC off!
+Header set Permissions-Policy "interest-cohort=()"
+
 # Force https (disabled, see 1mb.club)
 #RewriteCond %{HTTPS} off 
 #RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
