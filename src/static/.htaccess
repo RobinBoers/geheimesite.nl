@@ -13,8 +13,10 @@ AddHandler text/xml .opml
 	php_value zlib.output_compression 16386
 </ifmodule>
 
-# Google, FLoC off!
+# Google, FLoC off! (and other privacy headers)
 Header set Permissions-Policy "interest-cohort=()"
+Header set Referrer-Policy "no-referrer"
+Header set X-Content-Type-Options "nosniff"
 
 # Force https (disabled, see 1mb.club)
 #RewriteCond %{HTTPS} off 
