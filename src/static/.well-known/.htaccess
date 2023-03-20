@@ -1,0 +1,4 @@
+# Remove .json from filenames
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME}\.json -f 
+RewriteRule ^(.*)$ $1.json
