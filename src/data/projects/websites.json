@@ -35,6 +35,11 @@
         "page": "/projects/websites/thesis"
     },
     {
+        "name": "Dagboek van een Grootmoeder",
+        "image": "grootmoedersdagboek.png",
+        "url": "https://grootmoedersdagboek.blogspot.com"
+    },
+    {
         "name": "School shtuff",
         "image": "schoolshtuff.png",
         "url": "https://docs.geheimesite.nl/school"
