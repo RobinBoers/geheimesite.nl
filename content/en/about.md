@@ -18,7 +18,7 @@ weight: 2
 
 Additionally I play handball and I have a (long-forgotten) [YouTube channel](https://www.youtube.com/channel/UCx4li1iMygs5KtqgcU5KGRw), where I post videos about programming and video-editing. I also have a [GitHub account](https://github.com/RobinBoers) where I open-source most of my projects.
 
-<span hidden>Related pages</span> {{< empty-icon label="Uses" url="/setup" >}} {{< empty-icon label="Now" url="/now" >}} {{< empty-icon label="Contact" url="/en/contact" >}} {{< empty-icon label="Profile" url="/me" >}}
+<span hidden>Related pages</span> {{< empty-icon label="Uses" url="/en/setup" >}} {{< empty-icon label="Now" url="/en/now" >}} {{< empty-icon label="Contact" url="/en/contact" >}} {{< empty-icon label="Profile" url="/en/profile" >}}
 
 <div class="flex flex-col lg:flex-row justify-center items-center gap-1 lg:gap-4">
     <img class="w-full lg:w-auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RobinBoers&layout=compact&title_color=434d58" alt="De meestgebruikte programmeertalen in mijn projecten">
