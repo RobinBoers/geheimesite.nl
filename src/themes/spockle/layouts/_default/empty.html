@@ -5,11 +5,13 @@
         <a class="skip-nav" href="#content">Skip navigation</a>
         <header class="min-h-[5rem] flex items-center pl-12">
             <nav>
-                <a href='{{ relLangURL "" }}'>❮ {{ i18n "back" }}</a>
+                <a href="#" onclick="history.back()">❮ {{ i18n "back" }}</a>
             </nav>
         </header>
 
-        <main id="content" class="flex-grow max-w-none mx-0">{{ $.Content }}</main>
+        <main id="content" class="flex-grow max-w-none mx-0">
+            {{ $.Content }}
+        </main>
 
         {{- partial "footer.html" . -}}
     </body>
