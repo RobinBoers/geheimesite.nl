@@ -54,6 +54,16 @@
     .text-warning {
         @apply text-[#9e100b] dark:text-[#ff7a74];
     }
+
+    .shade-blue {
+        filter: sepia(15%) hue-rotate(525deg) saturate(341%);
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .shade-blue {
+            filter: invert() sepia(50%) hue-rotate(511deg);
+        }
+    }
 }
 
 @layer base {
