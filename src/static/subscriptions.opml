@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://geheimesite.nl/assets/xsl/opml.xsl"?>
+<!-- 
+Hi!
+
+If you're reading this you're browser probably can't render the page correctly. Try using Firefox
+instead, unless you wanted to see the source code.
+These are the blogs I follow. You can use this code to for example import them in an RSS reader.
+
+This page was inspired by petermolnar.net
+-->
+<opml version="2.0">
+	<head>
+		<title>Robin's subscriptions</title>
+		<dateCreated>2022-06-13T14:55:27+02:00</dateCreated>
+		<ownerEmail>hello@geheimesite.nl</ownerEmail>
+		<ownerId>https://geheimesite.nl/</ownerId>
+	</head>
+	<body>
+		<outline text="🏡 Home" title="🏡 Home" type="folder">
+			<outline title="Anomalily" text="The internet home of Lillian Karabaic" type="feed"
+				xmlUrl="http://anomalily.net/feed/" htmlUrl="http://anomalily.net"
+                url="http://anomalily.net/feed/"></outline>
+            <outline title="Josh Comeau" text="Josh Comeau" type="feed"
+				xmlUrl="https://www.joshwcomeau.com/rss.xml" htmlUrl="https://www.joshwcomeau.com"
+				url="https://www.joshwcomeau.com/rss.xml"></outline>
+			<outline title="PhotoGabble"
+				text="Blog and general digital garden of the full stack programmer Simon Dann."
+				type="feed" xmlUrl="https://photogabble.co.uk/blog/feed.xml"
+				htmlUrl="https://photogabble.co.uk" url="https://photogabble.co.uk/blog/feed.xml"></outline>
+			<outline title="Michael Welford" text="Michael Welford" type="feed"
+				xmlUrl="https://michaelwelford.com/posts/index.xml"
+				htmlUrl="https://michaelwelford.com"
+				url="https://michaelwelford.com/posts/index.xml"></outline>
+			<outline title="N-O-D-E" text="N-O-D-E" type="feed"
+				xmlUrl="https://n-o-d-e.net/rss/rss.xml" htmlUrl="https://n-o-d-e.net"
+				url="https://n-o-d-e.net/rss/rss.xml"></outline>
+			<outline title="ꟿirage" text="Inhji" type="feed" xmlUrl="https://inhji.de/follow/home"
+				htmlUrl="https://inhji.de" url="https://inhji.de/follow/home"></outline>
+			<outline title="Tom MacWright" text="Tom MacWright" type="feed"
+				xmlUrl="https://macwright.com/rss.xml" htmlUrl="https://macwright.com"
+				url="https://macwright.com/rss.xml"></outline>
+			<outline title="View from Ascraeus" text="View from Ascraeus" type="feed"
+				xmlUrl="https://ascraeus.org/index.xml" htmlUrl="https://ascraeus.org"
+				url="https://ascraeus.org/index.xml"></outline>
+			<outline title="Hugo's blog" text="Hugo's blog" type="feed"
+				xmlUrl="https://hugo.md/index.xml" htmlUrl="https://hugo.md"
+				url="https://hugo.md/index.xml"></outline>
+			<outline title="Pelle Wessman" text="Pelle Wessman" type="feed"
+				xmlUrl="https://voxpelli.com/all.xml" htmlUrl="https://voxpelli.com"
+				url="https://voxpelli.com/all.xml"></outline>
+			<outline title="Micah Ilbery" text="just your friendly neighborhood coffee nerd"
+				type="feed" xmlUrl="https://micahilbery.com/feed.xml"
+				htmlUrl="https://micahilbery.com" url="https://micahilbery.com/feed.xml"></outline>
+			<outline title="Fred.ca" text="Fred.ca" type="feed" xmlUrl="https://ferd.ca/feed.rss"
+				htmlUrl="https://ferd.ca" url="https://ferd.ca/feed.rss"></outline>
+			<outline title="Relentless Simplicity" text="Relentless Simplicity" type="feed"
+				xmlUrl="https://bill.harding.blog/feed" htmlUrl="https://bill.harding.blog"
+				url="https://bill.harding.blog/feed"></outline>
+			<outline title="Sterrenkruid" text="Sterrenkruid" type="feed"
+				xmlUrl="https://jokessterrenkruid.blogspot.com/feeds/posts/default"
+				htmlUrl="https://jokessterrenkruid.blogspot.com"
+				url="https://jokessterrenkruid.blogspot.com/feeds/posts/default"></outline>
+			<outline title="WitBlauw" text="WitBlauw" type="feed"
+				xmlUrl="https://witblauw.blogspot.com/feeds/posts/default"
+				htmlUrl="https://witblauw.blogspot.com"
+				url="https://witblauw.blogspot.com/feeds/posts/default"></outline>
+			<outline title="Interdependent Thoughts" text="Interdependent Thoughts" type="feed"
+				xmlUrl="https://www.zylstra.org/blog/feed/" htmlUrl="https://www.zylstra.org"
+				url="https://www.zylstra.org/blog/feed/"></outline>
+			<outline title="Wesley's Notebook" text="Wesley's Notebook" type="feed"
+				xmlUrl="https://notebook.wesleyac.com/atom.xml" htmlUrl="https://wesleyac.com"
+				url="https://notebook.wesleyac.com/atom.xml"></outline>
+			<outline title="Zeldman" text="Zeldman" type="feed"
+				xmlUrl="https://www.zeldman.com/feed/" htmlUrl="https://www.zeldman.com"
+				url="https://www.zeldman.com/feed/"></outline>
+			<outline title="Terence Eden’s Blog" text="Terence Eden’s Blog" type="feed"
+				xmlUrl="https://shkspr.mobi/blog/feed/atom/" htmlUrl="https://shkspr.mobi/blog/"
+				url="https://shkspr.mobi/blog/feed/atom/"></outline>
+		</outline>
+		<outline text="💻 Coding" title="💻 Coding" type="folder">
+            <outline title="CSS { In Real Life }" text="CSS { In Real Life }" type="feed"
+				xmlUrl="https://css-irl.info/rss.xml"
+				htmlUrl="https://css-irl.info"
+                url="https://css-irl.info/rss.xml"></outline>
+            <outline title="Herman's blog" text="ᕕ( ᐛ )ᕗ" type="feed"
+				xmlUrl="https://herman.bearblog.dev/feed/?type=rss"
+				htmlUrl="https://herman.bearblog.dev"
+				url="https://herman.bearblog.dev/feed/?type=rss"></outline>
+			<outline title="ahwx's blog" text="ahwx's blog" type="feed"
+				xmlUrl="https://blog.ahwx.org/rss"
+				htmlUrl="https://blog.ahwx.org"
+				url="https://blog.ahwx.org/rss"></outline>
+			<outline title="Just another blog" text="Just another blog" type="feed"
+				xmlUrl="https://blogs.gnome.org/alexm/feed/" htmlUrl="https://blogs.gnome.org/alexm"
+				url="https://blogs.gnome.org/alexm/feed/"></outline>
+			<outline title="Space and Meaning" text="Space and Meaning" type="feed"
+				xmlUrl="https://blogs.gnome.org/tbernard/feed/"
+				htmlUrl="https://blogs.gnome.org/tbernard"
+				url="https://blogs.gnome.org/tbernard/feed/"></outline>
+			<outline title="Kev Quirk" text="Kev Quirk" type="feed"
+				xmlUrl="https://kevquirk.com/feed" htmlUrl="https://kevquirk.com"
+				url="https://kevquirk.com/feed"></outline>
+			<outline title="Jan-Lukas Else" text="Thoughts of an IT expert" type="feed"
+				xmlUrl="https://jlelse.blog/.rss" htmlUrl="https://jlelse.blog"
+				url="https://jlelse.blog/.rss"></outline>
+			<outline title="Bradley Taunt" text="Bradley Taunt" type="feed"
+				xmlUrl="https://bt.ht/atom.xml" htmlUrl="https://bt.ht" url="https://bt.ht/atom.xml"></outline>
+			<outline title="Henrique Dias" text="@hacdias" type="feed"
+				xmlUrl="https://hacdias.com/.rss" htmlUrl="https://hacdias.com"
+				url="https://hacdias.com/.rss"></outline>
+			<outline title="Luke's Wild Website" text="Luke's Wild Website" type="feed"
+				xmlUrl="https://www.lkhrs.com/blog/index.xml" htmlUrl="https://www.lkhrs.com"
+				url="https://www.lkhrs.com/blog/index.xml"></outline>
+			<outline title="Sara Soueidan" text="Sara Soueidan" type="feed"
+				xmlUrl="https://www.sarasoueidan.com/blog/index.xml"
+				htmlUrl="https://www.sarasoueidan.com"
+				url="https://www.sarasoueidan.com/blog/index.xml"></outline>
+			<outline title="Ru Singh" text="Ru Singh" type="feed" xmlUrl="https://rusingh.com/feed/"
+				htmlUrl="https://rusingh.com" url="https://rusingh.com/feed/"></outline>
+			<outline title="Becky Hansmeyer" text="Becky Hansmeyer" type="feed"
+				xmlUrl="https://beckyhansmeyer.com/feed/" htmlUrl="https://beckyhansmeyer.com/"
+				url="https://beckyhansmeyer.com/feed/"></outline>
+			<outline title="Cassidy James" text="Cassidy James" type="feed"
+				xmlUrl="https://cassidyjames.com/feed.xml" htmlUrl="https://cassidyjames.com"
+				url="https://cassidyjames.com/feed.xml"></outline>
+			<outline title="unindented" text="unindented" type="feed"
+				xmlUrl="https://www.unindented.org/rss.xml" htmlUrl="https://www.unindented.org"
+				url="https://www.unindented.org/rss.xml"></outline>
+			<outline title="Dennis Beatty" text="Dennis Beatty" type="feed"
+				xmlUrl="https://dennisbeatty.com/feed.xml" htmlUrl="https://dennisbeatty.com"
+				url="https://dennisbeatty.com/feed.xml"></outline>
+			<outline title="Frank McGeough" text="Frank McGeough" type="feed"
+				xmlUrl="http://fmcgeough.github.io/feed.xml" htmlUrl="http://fmcgeough.github.io"
+				url="http://fmcgeough.github.io/feed.xml"></outline>
+			<outline title="Nicky Case" text="new shtuff" type="feed"
+				xmlUrl="https://ncase.me/feed.xml" htmlUrl="https://ncase.me"
+				url="https://ncase.me/feed.xml"></outline>
+			<outline title="Rohan Kumar" text="Seirdy’s Home" type="feed"
+				xmlUrl="https://seirdy.one/posts/index.xml" htmlUrl="https://seirdy.one"
+				url="https://seirdy.one/posts/index.xml"></outline>
+			<outline title="Niall Burkley" text="Niall Burkley’s Developer Blog" type="feed"
+				xmlUrl="https://niallburkley.com/feed.xml" htmlUrl="https://niallburkley.com"
+				url="https://niallburkley.com/feed.xml"></outline>
+			<outline title="Ayke van Laëthem" text="Ayke van Laëthem" type="feed"
+				xmlUrl="https://aykevl.nl/feed.xml" htmlUrl="https://aykevl.nl"
+				url="https://aykevl.nl/feed.xml"></outline>
+			<outline title="TingPing’s blog" text="TingPing’s blog" type="feed"
+				xmlUrl="https://blog.tingping.se/feed.xml" htmlUrl="https://blog.tingping.se"
+				url="https://blog.tingping.se/feed.xml"></outline>
+			<outline title="Dustin Curtis" text="Dustin Curtis" type="feed"
+				xmlUrl="https://dcurt.is/feed" htmlUrl="https://dcurt.is"
+				url="https://dcurt.is/feed"></outline>
+			<outline title="The Pug Automatic" text="The Pug Automatic" type="feed"
+				xmlUrl="https://thepugautomatic.com/atom.xml" htmlUrl="https://thepugautomatic.com"
+				url="https://thepugautomatic.com/atom.xml"></outline>
+			<outline title="Keith J. Grant" text="Keith J. Grant" type="feed"
+				xmlUrl="https://keithjgrant.com/posts/index.xml" htmlUrl="https://keithjgrant.com"
+				url="https://keithjgrant.com/posts/index.xml"></outline>
+			<outline title="Peaceful Revolution" text="Peaceful Revolution" type="feed"
+				xmlUrl="https://www.wiserfirst.com/feed.xml" htmlUrl="https://www.wiserfirst.com"
+				url="https://www.wiserfirst.com/feed.xml"></outline>
+			<outline title="Drew DeVault" text="Drew DeVault" type="feed"
+				xmlUrl="https://drewdevault.com/blog/index.xml" htmlUrl="https://drewdevault.com"
+				url="https://drewdevault.com/blog/index.xml"></outline>
+			<outline title="Hare (programming lang)" text="Hare (programming lang)" type="feed"
+				xmlUrl="https://harelang.org/blog/index.xml" htmlUrl="https://harelang.org"
+				url="https://harelang.org/blog/index.xml"></outline>
+			<outline title="Kornel.Lesiński" text="pornelski" type="feed"
+				xmlUrl="https://kornel.ski/pornelski.atom" htmlUrl="https://kornel.ski"
+				url="https://kornel.ski/pornelski.atom"></outline>
+			<outline title="p83" text="publog" type="feed" xmlUrl="https://p83.nl/rss"
+				htmlUrl="https://p83.nl" url="https://p83.nl/rss"></outline>
+			<outline title="Peter Stuifzand" text="Peter Stuifzand" type="feed"
+				xmlUrl="https://peterstuifzand.nl/rss.xml" htmlUrl="https://peterstuifzand.nl"
+				url="https://peterstuifzand.nl/rss.xml"></outline>
+			<outline title="Bryce Wray" text="Bryce Wray" type="feed"
+				xmlUrl="https://www.brycewray.com/index.xml" htmlUrl="https://www.brycewray.com"
+				url="https://www.brycewray.com/index.xml"></outline>
+		</outline>
+		<outline text="🎨 Design" title="🎨 Design" type="folder">
+			<outline title="Vyshnav Gangadharan" text="Vyshnav Gangadharan" type="feed"
+				xmlUrl="https://vyshnav.xyz/feed.xml" htmlUrl="/https://vyshnav.xyz"
+				url="https://vyshnav.xyz/feed.xml"></outline>
+			<outline title="Lynn Fisher" text="Lynn and tonic" type="feed"
+				xmlUrl="https://lynnandtonicblog.com/feed/" htmlUrl="https://lynnandtonicblog.com"
+				url="https://lynnandtonicblog.com/feed/"></outline>
+		</outline>
+		<outline text="👻 Open-source" title="👻 Open-source" type="folder">
+			<outline title="ElementaryOS" text="ElementaryOS" type="feed"
+				xmlUrl="https://blog.elementary.io/feed.xml" htmlUrl="https://blog.elementary.io"
+				url="https://blog.elementary.io/feed.xml"></outline>
+		</outline>
+		<outline text="✨ ME" title="✨ ME" type="folder">
+			<outline title="Webdevelopment-En-Meer" text="my (primary) dutch blog" type="feed"
+				xmlUrl="https://blog.geheimesite.nl/index.xml" htmlUrl="https://blog.geheimesite.nl"
+				url="https://blog.geheimesite.nl/index.xml"></outline>
+			<outline title="That Crazy Webdev" text="my english blog" type="feed"
+				xmlUrl="https://blog.geheimesite.nl/en/index.xml"
+				htmlUrl="https://blog.geheimesite.nl/en"
+				url="https://blog.geheimesite.nl/en/index.xml"></outline>
+			<outline title="[YT] Robin Boers" text="my youtube channel" type="feed"
+				xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCx4li1iMygs5KtqgcU5KGRw"
+				htmlUrl="https://www.youtube.com/channel/UCx4li1iMygs5KtqgcU5KGRw"
+				url="https://www.youtube.com/feeds/videos.xml?channel_id=UCx4li1iMygs5KtqgcU5KGRw"></outline>
+			<outline title="[Micro.blog] Robijntje" text="my micro.blog account" type="feed"
+				xmlUrl="https://micro.blog/posts/Robijntje" htmlUrl="https://micro.blog/Robijntje"
+				url="https://micro.blog/posts/Robijntje"></outline>
+			<outline title="Robijntje’s microblog" text="my neolog (microblog)" type="feed"
+				xmlUrl="https://micro.geheimesite.nl/feed" htmlUrl="https://micro.geheimesite.nl"
+				url="https://micro.geheimesite.nl/feed"></outline>
+		</outline>
+	</body>
+</opml>

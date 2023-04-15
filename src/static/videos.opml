@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Hi!
+
+These are the YouTube channels I follow. You can use this code to for example import them in an RSS
+reader.
+-->
+<opml version="2.0">
+	<head>
+		<title>Robin's video subscriptions</title>
+		<dateCreated>2022-06-13T14:55:27+02:00</dateCreated>
+		<ownerEmail>hello@geheimesite.nl</ownerEmail>
+		<ownerId>https://geheimesite.nl/</ownerId>
+	</head>
+	<body>
+		<outline text="🎥 YouTube" title="🎥 YouTube" type="folder">
+			<outline text="[YT] Vox" type="feed"
+				xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCLXo7UDZvByw2ixzpQCufnA"
+				htmlUrl="https://www.youtube.com/channel/UCLXo7UDZvByw2ixzpQCufnA"
+				url="https://www.youtube.com/feeds/videos.xml?channel_id=UCLXo7UDZvByw2ixzpQCufnA"
+				title="[YT] Vox"></outline>
+			<outline text="[YT] sandiction" type="feed"
+				xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCcXUhZB4t3g8EGdYiqwS4Aw"
+				htmlUrl="https://www.youtube.com/channel/UCcXUhZB4t3g8EGdYiqwS4Aw"
+				url="https://www.youtube.com/feeds/videos.xml?channel_id=UCcXUhZB4t3g8EGdYiqwS4Aw"
+				title="[YT] sandiction"></outline>
+			<outline text="[YT] Veritasium" type="feed"
+				xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCHnyfMqiRRG1u-2MsSQLbXA"
+				htmlUrl="https://www.youtube.com/channel/UCHnyfMqiRRG1u-2MsSQLbXA"
+				url="https://www.youtube.com/feeds/videos.xml?channel_id=UCHnyfMqiRRG1u-2MsSQLbXA"
+				title="[YT] Veritasium"></outline>
+			<outline text="[YT] Tom Scott" type="feed"
+				xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCBa659QWEk1AI4Tg--mrJ2A"
+				htmlUrl="https://www.youtube.com/channel/UCBa659QWEk1AI4Tg--mrJ2A"
+				url="https://www.youtube.com/feeds/videos.xml?channel_id=UCBa659QWEk1AI4Tg--mrJ2A"
+				title="[YT] Tom Scott"></outline>
+			<outline text="[YT] rekrap2" type="feed"
+				xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCvt0HYxX34vUvqu66HLXeUw"
+				htmlUrl="https://www.youtube.com/channel/UCvt0HYxX34vUvqu66HLXeUw"
+				url="https://www.youtube.com/feeds/videos.xml?channel_id=UCvt0HYxX34vUvqu66HLXeUw"
+				title="[YT] rekrap2"></outline>
+			<outline text="[YT] SalC1" type="feed"
+				xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UClY084mbGLK_SLlOfgizjow"
+				htmlUrl="https://www.youtube.com/channel/UClY084mbGLK_SLlOfgizjow"
+				url="https://www.youtube.com/feeds/videos.xml?channel_id=UClY084mbGLK_SLlOfgizjow"
+				title="[YT] SalC1"></outline>
+			<outline text="[YT] Frame of Essence" type="feed"
+				xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCQHsMwcGoH1ygyi-pJs5Z8A"
+				htmlUrl="https://www.youtube.com/channel/UCQHsMwcGoH1ygyi-pJs5Z8A"
+				url="https://www.youtube.com/feeds/videos.xml?channel_id=UCQHsMwcGoH1ygyi-pJs5Z8A"
+				title="[YT] Frame of Essence"></outline>
+			<outline text="[YT] Mysticat" type="feed"
+				xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC9mvRrl9o7rG65ABsGVvDBw"
+				htmlUrl="https://www.youtube.com/channel/UC9mvRrl9o7rG65ABsGVvDBw"
+				url="https://www.youtube.com/feeds/videos.xml?channel_id=UC9mvRrl9o7rG65ABsGVvDBw"
+				title="[YT] Mysticat"></outline>
+			<outline text="[YT] Mark Rober" type="feed"
+				xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCY1kMZp36IQSyNx_9h4mpCg"
+				htmlUrl="https://www.youtube.com/channel/UCY1kMZp36IQSyNx_9h4mpCg"
+				url="https://www.youtube.com/feeds/videos.xml?channel_id=UCY1kMZp36IQSyNx_9h4mpCg"
+				title="[YT] Mark Rober"></outline>
+			<outline text="[YT] Sebastian Lague" type="feed"
+				xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCmtyQOKKmrMVaKuRXz02jbQ"
+				htmlUrl="https://www.youtube.com/channel/UCmtyQOKKmrMVaKuRXz02jbQ"
+				url="https://www.youtube.com/feeds/videos.xml?channel_id=UCmtyQOKKmrMVaKuRXz02jbQ"
+				title="[YT] Sebastian Lague"></outline>
+			<outline text="[YT] Fireship" type="feed"
+				xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA"
+				htmlUrl="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA"
+				url="https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA"
+				title="[YT] Fireship"></outline>
+			<outline text="[YT] Vimlark" type="feed"
+				xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UClqFSFR_H1yJJ7NRs8xxGCQ"
+				htmlUrl="https://www.youtube.com/channel/UClqFSFR_H1yJJ7NRs8xxGCQ"
+				url="https://www.youtube.com/feeds/videos.xml?channel_id=UClqFSFR_H1yJJ7NRs8xxGCQ"
+				title="[YT] Vimlark"></outline>
+			<outline text="[YT] Coldfusion" type="feed"
+				xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC4QZ_LsYcvcq7qOsOhpAX4A"
+				htmlUrl="https://www.youtube.com/channel/UC4QZ_LsYcvcq7qOsOhpAX4A"
+				url="https://www.youtube.com/feeds/videos.xml?channel_id=UC4QZ_LsYcvcq7qOsOhpAX4A"
+				title="[YT] Coldfusion"></outline>
+			<outline text="[YT] Johnny Harris" type="feed"
+				xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCmGSJVG3mCRXVOP4yZrU1Dw"
+				htmlUrl="https://www.youtube.com/channel/UCmGSJVG3mCRXVOP4yZrU1Dw"
+				url="https://www.youtube.com/feeds/videos.xml?channel_id=UCmGSJVG3mCRXVOP4yZrU1Dw"
+				title="[YT] Johnny Harris"></outline>
+			<outline text="[YT] Huge *if true" type="feed"
+				xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC415bOPUcGSamy543abLmRA"
+				htmlUrl="https://www.youtube.com/channel/UC415bOPUcGSamy543abLmRA"
+				url="https://www.youtube.com/feeds/videos.xml?channel_id=UC415bOPUcGSamy543abLmRA"
+				title="[YT] Huge *if true"></outline>
+			<outline text="[YT] Grian" type="feed"
+				xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCR9Gcq0CMm6YgTzsDxAxjOQ"
+				htmlUrl="https://www.youtube.com/channel/UCR9Gcq0CMm6YgTzsDxAxjOQ"
+				url="https://www.youtube.com/feeds/videos.xml?channel_id=UCR9Gcq0CMm6YgTzsDxAxjOQ"
+				title="[YT] Grian"></outline>
+			<outline text="[YT] Mumbo Jumbo" type="feed"
+				xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UChFur_NwVSbUozOcF_F2kMg"
+				htmlUrl="https://www.youtube.com/channel/UChFur_NwVSbUozOcF_F2kMg"
+				url="https://www.youtube.com/feeds/videos.xml?channel_id=UChFur_NwVSbUozOcF_F2kMg"
+				title="[YT] Mumbo Jumbo"></outline>
+			<outline text="[YT] ImpulseSV" type="feed"
+				xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCuMJPFqazQI4SofSFEd-5zA"
+				htmlUrl="https://www.youtube.com/channel/UCuMJPFqazQI4SofSFEd-5zA"
+				url="https://www.youtube.com/feeds/videos.xml?channel_id=UCuMJPFqazQI4SofSFEd-5zA"
+				title="[YT] ImpulseSV"></outline>
+			<outline text="[YT] iskall85" type="feed"
+				xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCZ9x-z3iOnIbJxVpm1rsu2A"
+				htmlUrl="https://www.youtube.com/c/iskall85"
+				url="https://www.youtube.com/feeds/videos.xml?channel_id=UCZ9x-z3iOnIbJxVpm1rsu2A"
+				title="[YT] iskall85"></outline>
+			<outline text="[YT] Tom Scott+" type="feed"
+				xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCHC4G4X-OR5WkY-IquRGa3Q"
+				htmlUrl="https://www.youtube.com/c/tomscottplus"
+				url="https://www.youtube.com/feeds/videos.xml?channel_id=UCHC4G4X-OR5WkY-IquRGa3Q"
+				title="[YT] Tom Scott+"></outline>
+			<outline text="[YT] Arjan Lubach" type="feed"
+				xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCdH_8mNJ9vzpHwMNwlz88Zw"
+				htmlUrl="https://www.youtube.com/channel/UCdH_8mNJ9vzpHwMNwlz88Zw"
+				url="https://www.youtube.com/feeds/videos.xml?channel_id=UCdH_8mNJ9vzpHwMNwlz88Zw"
+				title="[YT] Arjan Lubach"></outline>
+			<outline text="[YT] exurb1a" type="feed"
+				xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCimiUgDLbi6P17BdaCZpVbg"
+				htmlUrl="https://www.youtube.com/c/Exurb1a"
+				url="https://www.youtube.com/feeds/videos.xml?channel_id=UCimiUgDLbi6P17BdaCZpVbg"
+				title="[YT] exurb1a"></outline>
+			<outline text="[YT] Aperture" type="feed"
+				xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCO5QSoES5yn2Dw7YixDYT5Q"
+				htmlUrl="https://www.youtube.com/ApertureScience"
+				url="https://www.youtube.com/feeds/videos.xml?channel_id=UCO5QSoES5yn2Dw7YixDYT5Q"
+				title="[YT] Aperture"></outline>
+			<outline text="[YT] NOS op 3" type="feed"
+				xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCf63l7Wp_wX7T-5ChM_Km9Q"
+				htmlUrl="https://www.youtube.com/c/nosop3"
+				url="https://www.youtube.com/feeds/videos.xml?channel_id=UCf63l7Wp_wX7T-5ChM_Km9Q"
+				title="[YT] NOS op 3"></outline>
+			<outline text="[YT] CGP Grey" type="feed"
+				xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC2C_jShtL725hvbm1arSV9w"
+				htmlUrl="https://www.youtube.com/greymatter"
+				url="https://www.youtube.com/feeds/videos.xml?channel_id=UC2C_jShtL725hvbm1arSV9w"
+				title="[YT] CGP Grey"></outline>
+			<outline text="[YT] SHAUN" type="feed"
+				xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCJ6o36XL0CpYb6U5dNBiXHQ"
+				htmlUrl="https://www.youtube.com/c/Shaun_vids"
+				url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJ6o36XL0CpYb6U5dNBiXHQ"
+				title="[YT] SHAUN"></outline>
+		</outline>
+	</body>
+</opml>
