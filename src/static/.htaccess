@@ -80,7 +80,7 @@ Redirect 301 /library/website/overview.php /website/overview
 
 # Redirect OPML files to API endpoint
 Redirect 301 /subscriptions.opml https://api.geheimesite.nl/resources/feeds/subscriptions
-Redirect 301 /videos.opml https://api.geheimesite.nl/resources/feeds/videos.opml
+Redirect 301 /videos.opml https://api.geheimesite.nl/resources/feeds/videos
 
 # Fix old pages
 Redirect 301 /how-it-was-made /en/colophon
