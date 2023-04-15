@@ -6,5 +6,5 @@ hugo_stats.json
 
 /**/node_modules
 /src/assets/css/main.css
-/static/blog/connection.php
+/src/static/blog/connection.php
 .vscode

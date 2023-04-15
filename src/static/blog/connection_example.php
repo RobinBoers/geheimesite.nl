@@ -1,8 +1,8 @@
 <?php
-    $dbServerName = "localhost"; //servername here
-    $dbUserName = "robinb_views"; // user to use for login
-    $dbPassword = "xs6cr87TPyYX"; // password to use (leave empty for no password)
-    $dbName = "robinb_views"; // database name
+    $dbServerName = "server-name-here";
+    $dbUserName = "server-username-here";
+    $dbPassword = "database-password-here";
+    $dbName = "database-name-here"; 
     $conn = mysqli_connect($dbServerName, $dbUserName, $dbPassword, $dbName);
     
     if($conn->connect_error) {
