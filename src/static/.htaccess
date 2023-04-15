@@ -78,6 +78,10 @@ Redirect 301 /library/projects/package/ /projects/
 Redirect 301 /library/projects/ /projects/
 Redirect 301 /library/website/overview.php /website/overview
 
+# Redirect OPML files to API endpoint
+Redirect 301 /subscriptions.opml https://api.geheimesite.nl/resources/feeds/subscriptions
+Redirect 301 /videos.opml https://api.geheimesite.nl/resources/feeds/videos.opml
+
 # Fix old pages
 Redirect 301 /how-it-was-made /en/colophon
 Redirect 301 /colophon /en/colophon
