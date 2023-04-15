@@ -1,5 +1,5 @@
-{{ $shelve := .Get "shelve" }} 
-{{ $shelve = index .Site.Data.books $shelve }} 
+{{ $shelveID := .Get "shelve" }}
+{{ $shelve := getJSON (printf "https://api.geheimesite.nl/resources/books/%s" $shelveID) }}
 
 {{ if eq $shelve.type "timeline" }} 
     {{ $years := $shelve.items }}

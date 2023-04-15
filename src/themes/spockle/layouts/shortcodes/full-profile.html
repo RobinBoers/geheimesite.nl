@@ -1,11 +1,13 @@
+{{ $profile := getJSON "https://api.geheimesite.nl/resources/profile" }}
+
 <article class="h-card max-w-[1200px] lg:flex flex-row gap-20 flex-grow">
     <section>
         <img
-            src='{{ index .Site.Data.profile "u-photo" }}'
+            src='{{ index $profile "u-photo" }}'
             class="u-photo w-full"
             alt="My 'professional' profile picture" />
         <img
-            src='{{ index .Site.Data.profile "u-logo" }}'
+            src='{{ index $profile "u-logo" }}'
             hidden
             class="u-logo w-full pixelart"
             alt="Pixelart version of my face" />
@@ -13,15 +15,15 @@
     <section>
         <h1 class="p-name mb-1 font-poppins text-[30px] leading-[33px]">
             <span class="p-given-name"
-                >{{ index .Site.Data.profile "p-given-name" }}</span
+                >{{ index $profile "p-given-name" }}</span
             >
             <span class="p-family-name"
-                >{{ index .Site.Data.profile "p-family-name" }}</span
+                >{{ index $profile "p-family-name" }}</span
             >
         </h1>
         <p class="italic">
             @<span class="p-nickname lowercase"
-                >{{ index .Site.Data.profile "p-nickname" }}</span
+                >{{ index $profile "p-nickname" }}</span
             >
         </p>
 
@@ -32,9 +34,9 @@
                 <i class="fa-solid fa-earth-americas"></i>
                 <a
                     rel="me"
-                    href='{{ index .Site.Data.profile "u-url" }}'
+                    href='{{ index $profile "u-url" }}'
                     class="u-url"
-                    >{{ index (split (index .Site.Data.profile "u-url") "://") 1
+                    >{{ index (split (index $profile "u-url") "://") 1
                     }}</a
                 >
             </li>
@@ -42,9 +44,9 @@
                 <i class="fa-solid fa-envelope"></i>
                 <a
                     rel="me"
-                    href='mailto:{{ index .Site.Data.profile "u-email" }}'
+                    href='mailto:{{ index $profile "u-email" }}'
                     class="u-email"
-                    >{{ index .Site.Data.profile "u-email" }}</a
+                    >{{ index $profile "u-email" }}</a
                 >
             </li>
             <li class="flex items-center gap-2 pt-1">
@@ -57,24 +59,24 @@
             <li class="flex items-center gap-2 pt-1">
                 <i class="fa-solid fa-cake-candles"></i>
                 <time class="dt-anniversary dt-bday"
-                    >{{ index .Site.Data.profile "dt-bday" }}</time
+                    >{{ index $profile "dt-bday" }}</time
                 >
             </li>
             <li class="flex items-center gap-2 pt-1">
                 <i class="fa-solid fa-mars"></i>
                 <span class="p-sex"
-                    >{{ index .Site.Data.profile "p-sex" }}</span
+                    >{{ index $profile "p-sex" }}</span
                 >
             </li>
             <li class="flex items-start gap-2 pt-1">
                 <i class="fa-solid fa-building mt-1.5"></i>
                 <span>
                     <span class="p-job-title"
-                        >{{ index .Site.Data.profile "p-job-title" }}</span
+                        >{{ index $profile "p-job-title" }}</span
                     >
                     {{ i18n "at" }}
                     <span class="p-org"
-                        >{{ index .Site.Data.profile "p-org" }}</span
+                        >{{ index $profile "p-org" }}</span
                     >
                 </span>
             </li>
@@ -83,13 +85,13 @@
                 <i class="fa-solid fa-house mt-1.5"></i>
                 <span>
                     <span class="p-locality"
-                        >{{ index .Site.Data.profile "p-locality" }}</span
+                        >{{ index $profile "p-locality" }}</span
                     >, <br />
                     <span class="p-region"
-                        >{{ index .Site.Data.profile "p-region" }}</span
+                        >{{ index $profile "p-region" }}</span
                     >, <br />
                     <span class="p-country-name"
-                        >{{ index .Site.Data.profile "p-country-name" }}</span
+                        >{{ index $profile "p-country-name" }}</span
                     >
                 </span>
             </li>

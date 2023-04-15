@@ -1,4 +1,4 @@
-{{ $topics := .Site.Data.videos }}
+{{ $topics := getJSON "https://api.geheimesite.nl/resources/videos" }}
 
 {{ range $topics }}
 
