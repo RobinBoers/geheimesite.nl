@@ -52,13 +52,15 @@ Header set X-Content-Type-Options "nosniff"
 	SetOutputFilter DEFLATE
 </FilesMatch>
 
-# Redirects
+# Shortcuts
 Redirect /framboy /projects/framboy
 Redirect /subscriptions /subscriptions.opml
-Redirect /follow /en/follow
 Redirect /ckv /ckvrobinboers4a2
 
 Redirect /blog/index.html https://blog.geheimesite.nl
+# The index.html here ^ is needed because otherwise
+# the /blog/stats route wouldn't work anymore.
+
 Redirect /en/blog https://blog.geheimesite.nl/en
 Redirect /feed https://blog.geheimesite.nl/index.xml 
 
@@ -67,27 +69,30 @@ Redirect /timeline https://micro.geheimesite.nl
 Redirect /github https://github.com/RobinBoers
 Redirect /school https://docs.geheimesite.nl/school
 
-# Fix old assets directory URIs
-Redirect 301 /css/ /assets/css
-Redirect 301 /js/ /assets/js
-Redirect 301 /images/ /assets/images/
-
-# Fix old library directory URIs
-Redirect 301 /library/website/version/ /website/v/
-Redirect 301 /library/projects/package/ /projects/
-Redirect 301 /library/projects/ /projects/
-Redirect 301 /library/website/overview.php /website/overview
+# Cool URLs don't change. Ugh.
 
 # Redirect OPML files to API endpoint
 Redirect 301 /subscriptions.opml https://api.geheimesite.nl/resources/feeds/subscriptions
 Redirect 301 /videos.opml https://api.geheimesite.nl/resources/feeds/videos
 
-# Fix old pages
+# Redirect old assets directory URIs
+Redirect 301 /css/ /assets/css/
+Redirect 301 /js/ /assets/js/
+Redirect 301 /images/ /assets/images/
+Redirect 301 /logo2.png /assets/images/logo2.png
+
+# Redirect old library directory URIs
+Redirect 301 /library/website/version/ /website/v/
+Redirect 301 /library/projects/package/ /projects/
+Redirect 301 /library/projects/ /projects/
+Redirect 301 /library/website/overview.php /website/overview
+
+# Redirect old pages
 Redirect 301 /how-it-was-made /en/colophon
 Redirect 301 /colophon /en/colophon
+Redirect 301 /follow /en/follow
 Redirect 301 /hello /contact
 Redirect 301 /me /en/profile
-Redirect 301 /logo2.png /assets/images/logo2.png
 
 # Remove .php and .html from filenames
 RewriteCond %{REQUEST_FILENAME} !-d 

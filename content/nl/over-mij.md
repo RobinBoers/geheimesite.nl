@@ -30,7 +30,7 @@ Ook heb ik een [GitHub account](https://github.com/RobinBoers) waar ik de meeste
 
 ## Hoe ik in aanraking ben gekomen met programmeren
 
-Ik programmeer al sinds groep 7 (2017). Ik ben ermee begonnen omdat ik in de bieb een boek zag staan over website's maken. Nu moet je weten dat ik al sinds groep 4 zo'n computernerd was, die van elk knopje wist wat het deed. Het boek heette [Creeëren met code: Zo maak je een website](http://www.nano-tips.com). Dus ik maakte een website, die eind 2017 online kwam. Ik hield enorm veel van geheim agenten, dus de eerste versies (tot versie 9) gingen daar ook over. Je kunt die versies in mijn [Website Library](/website/overview) zien.
+Ik programmeer al sinds groep 7 (2017). Ik ben ermee begonnen omdat ik in de bieb een boek zag staan over website's maken. Nu moet je weten dat ik al sinds groep 4 zo'n computernerd was, die van elk knopje wist wat het deed. Het boek heette [Creeëren met code: Zo maak je een website](https://web.archive.org/web/20220625081814/http://nano-tips.com/). Dus ik maakte een website, die eind 2017 online kwam. Ik hield enorm veel van geheim agenten, dus de eerste versies (tot versie 9) gingen daar ook over. Je kunt die versies in mijn [Website Library](/website/overview) zien.
 
 Nadat ik mijn eerste website had gemaakt ben ik naar CoderDojo gegaan. Dat is een soort bijeenkomst die hier in Maassluis om de vier weken is, waar kinderen kunnen leren programmeren, en elkaar daarbij kunnen helpen. Ik heb op CoderDojo geleerd hoe PHP en databases werken, waarmee ik wat gave dingen heb gebouwd.
 

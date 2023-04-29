@@ -29,7 +29,7 @@ Additionally I play handball and I have a (long-forgotten) [YouTube channel](htt
 
 ## How I got into programming
 
-I've been programming since group 7 (2017). I got into it because I saw a book at the local library titled [Creating with code: How to built a website](http://www.nano-tips.com). I had been a huge nerd who knew what every button in Windows did, so I decided to build a website, which I launched end-2017. I loved secret agents, so the first versions (up until redesign 9) were built for a imaginary organisation called the DDDD, which protected the univserse from the evil alter-ego of mankind. You can find those versions of the site in my [Website Library](/website/overview).
+I've been programming since group 7 (2017). I got into it because I saw a book at the local library titled [Creating with code: How to built a website](https://web.archive.org/web/20220625081814/http://nano-tips.com/). I had been a huge nerd who knew what every button in Windows did, so I decided to build a website, which I launched end-2017. I loved secret agents, so the first versions (up until redesign 9) were built for a imaginary organisation called the DDDD, which protected the univserse from the evil alter-ego of mankind. You can find those versions of the site in my [Website Library](/website/overview).
 
 After I built my first website I went to CoderDojo. CoderDojo is a monthly meetup in our local library where kids can practise programming. At CoderDojo two amazing people taught me how to write PHP and how to use MySQL databases.
 
