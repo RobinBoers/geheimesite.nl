@@ -77,7 +77,7 @@
                 </div>
             </article>
 
-            <img class="hidden absolute top-[80px] right-[-200px] lg:block xl:static w-full pixelart max-w-sm" src="/assets/images/robin_pixelart.png" alt="Pixel art picture of me" />
+            <img class="hidden absolute top-[80px] right-[-200px] lg:block xl:static w-full pixelart max-w-sm" src="/assets/images/p-pixelart.png" alt="Pixel art picture of me" />
         </article>
 
         <article class="homepage-box socials">

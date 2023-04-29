@@ -58,7 +58,7 @@
 
                         <p>Ik ben webdesigner, PHP programmeur en tiener. Ik ben 14 jaar oud en ik woon in Maassluis. Welkom op mijn website! Dit is zegmaar een soortvan mijn persoonlijke speeltuin. Ik plaats hier mijn projecten zoals games, websites en apps. Je vind sinds kort hier ook mijn blog, al kan je het ook nog steeds op blogger vinden.</p> <p>Wil je meer over mij weten? Check dan de <a href="over-mij.php">over mij</a> page. Als je mijn projecten wil zien kan je op de <a href="projecten.php">projecten</a> page kijken. Als je vooral geinterreseerd in de code bent, check dan <a href="https://github.com/RobinBoers">mijn GitHub profiel</a>.</p><p> Als je op zoek bent naar Nindo moet ik je teleurstellen, want dat heb ik begin 2021 offline gehaald. Lees daar <a href="https://webdevelopment-en-meer.blogspot.com/2021/01/nindo-is-offline.html">hier</a> meer over.</p></div>
 
-                        <img class="pixelart pixelprofile" src="/images/robin_pixelart.png">
+                        <img class="pixelart pixelprofile" src="/images/p-pixelart.png">
                     </section>  
                     <hr>
                     <section class="social">
