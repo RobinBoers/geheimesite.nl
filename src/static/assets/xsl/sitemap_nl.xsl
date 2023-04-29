@@ -37,7 +37,7 @@
 						<a href="/">Robin Boers</a>
 					</p>
 
-					<img src="/assets/images/menu.svg" alt="menu button" class="menu-button"
+					<img src="/assets/images/ui/menu.svg" alt="menu button" class="menu-button"
 						hidden="hidden" />
 
 					<nav>

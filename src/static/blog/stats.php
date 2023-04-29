@@ -60,13 +60,11 @@
                 $total_views += $row->views;
             } }
 
-            // for ($i = 0; $i < 10; $i++) {
-            //     $total_views += $i;
-
-            //     $url = "https://geheimesite.nl/posts/$i";
-            //     $data->$url = $i;
-            // } 
-
+            // One of my friends decided to reverse-engineer
+            // and spam my API once, resulting in 1000 fake views.
+            // Can't be bothered to figure out the SQL to fix it,
+            // so this is my "temporary fix".
+            $total_views -= 1000;
             $data = json_encode($data);
         ?>
     </head>
@@ -75,7 +73,7 @@
         <header class="page-header">
             <p class="title"><a href="/en/">Robin Boers</a></p>
 
-            <img src="/assets/images/menu.svg" alt="menu button" class="menu-button" hidden />
+            <img src="/assets/images/ui/menu.svg" alt="menu button" class="menu-button" hidden />
 
             <nav>
                 <ul class="menu">

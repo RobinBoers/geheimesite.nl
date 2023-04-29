@@ -3,29 +3,23 @@
 <!-- Hidden metadata for IndieWeb -->
 <div class="hidden" hidden>
     <p class="u-note">
-        TLDR; Ik ben een webdesigner, nerd en tiener die in {{ index
-        $profile "p-country-name" }} woont. Ik ben 15 jaar oud en werk
-        momenteel bij {{ index $profile "p-org" }}.
+        TLDR; Ik ben een webdesigner, nerd en tiener die in {{ index $profile
+        "p-country-name" }} woont. Ik ben 15 jaar oud en werk momenteel bij {{
+        index $profile "p-org" }}.
     </p>
     <p>
         Meer over mij: mensen noemen me soms
-        <span class="u-nickname"
-            >{{ index $profile "p-nickname" }}</span
-        >
+        <span class="u-nickname">{{ index $profile "p-nickname" }}</span>
         en ik woon in
-        <span class="p-region"
-            >{{ index $profile "p-country-name" }}</span
-        >. Ik werk momenteel bij
+        <span class="p-region">{{ index $profile "p-country-name" }}</span>. Ik
+        werk momenteel bij
         <span class="p-org">{{ index $profile "p-org" }}</span> als
-        <span class="p-job-title"
-            >{{ index $profile "p-job-title" }}</span
-        >. Verder kan je mij en mijn projecten vinden op
+        <span class="p-job-title">{{ index $profile "p-job-title" }}</span>.
+        Verder kan je mij en mijn projecten vinden op
         <a href='{{ index $profile "u-url" }}' rel="me" class="u-url"
             >{{ index (split (index $profile "u-url") "://") 1 }}</a
         >. Als je me wil bereiken kan dat via
-        <a
-            class="u-email"
-            href='mailto:{{ index $profile "u-email" }}'
+        <a class="u-email" href='mailto:{{ index $profile "u-email" }}'
             >{{ index $profile "u-email" }}</a
         >.
     </p>

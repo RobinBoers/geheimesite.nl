@@ -13,7 +13,7 @@ weight: 2
             Hoi, ik ben Robin. Ik ben 15 jaar oud, ik zit in vier VWO en ik woon in Maassluis. Ik houd van programmeren en werk als Junior Developer bij Qdentity in Maasland. Deze website is mijn plek om al mijn projecten te showcasen. Ik heb ook een <a href="https://blog.geheimesite.nl">blog</a> over programmeren, webdevelopment en andere coole shit.
         </p>
     </section>
-    <img class="w-full h-60 mb-5 lg:rotate-1 rounded-xl aspect-square object-cover object-right-top lg:mb-0 lg:h-fit lg:w-1/5" src="/assets/images/me_optimized.jpeg" alt="Dit ben ik">
+    <img class="w-full h-60 mb-5 lg:rotate-1 rounded-xl aspect-square object-cover object-right-top lg:mb-0 lg:h-fit lg:w-1/5" src="/assets/images/me-optimized.webp" alt="Dit ben ik">
 </div>
 
 Verder speel ik handbal en heb ik een [YouTube kanaal](https://www.youtube.com/channel/UCx4li1iMygs5KtqgcU5KGRw), waar ik video's maak over onder andere programmeren, video-editten en andere dingen die ik interrestant vind.  
@@ -30,7 +30,7 @@ Ook heb ik een [GitHub account](https://github.com/RobinBoers) waar ik de meeste
 
 ## Hoe ik in aanraking ben gekomen met programmeren
 
-Ik programmeer al sinds groep 7 (2017). Ik ben ermee begonnen omdat ik in de bieb een boek zag staan over website's maken. Nu moet je weten dat ik al sinds groep 4 zo'n computernerd was, die van elk knopje wist wat het deed. Het boek heette [Creeëren met code: Zo maak je een website](http://www.nano-tips.com). Dus ik maakte een website, die eind 2017 online kwam. Ik hield enorm veel van geheim agenten, dus de eerste versies (tot versie 9) gingen daar ook over. Je kunt die versies in mijn [Website Library](/website/overview) zien.
+Ik programmeer al sinds groep 7 (2017). Ik ben ermee begonnen omdat ik in de bieb een boek zag staan over website's maken. Nu moet je weten dat ik al sinds groep 4 zo'n computernerd was, die van elk knopje wist wat het deed. Het boek heette [Creeëren met code: Zo maak je een website](https://web.archive.org/web/20220625081814/http://nano-tips.com/). Dus ik maakte een website, die eind 2017 online kwam. Ik hield enorm veel van geheim agenten, dus de eerste versies (tot versie 9) gingen daar ook over. Je kunt die versies in mijn [Website Library](/website/overview) zien.
 
 Nadat ik mijn eerste website had gemaakt ben ik naar CoderDojo gegaan. Dat is een soort bijeenkomst die hier in Maassluis om de vier weken is, waar kinderen kunnen leren programmeren, en elkaar daarbij kunnen helpen. Ik heb op CoderDojo geleerd hoe PHP en databases werken, waarmee ik wat gave dingen heb gebouwd.
 

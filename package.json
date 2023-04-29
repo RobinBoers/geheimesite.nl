@@ -8,8 +8,7 @@
     "scripts": {
         "start": "./bin/server.sh",
         "build": "./bin/build.sh",
-        "check": "./bin/validate.sh",
-        "dev": "./bin/preview.sh",
+        "check": "./bin/check.sh",
         "format": "prettier --write ."
     },
     "repository": {

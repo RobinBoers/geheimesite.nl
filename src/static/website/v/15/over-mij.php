@@ -18,7 +18,7 @@
     <header class="pageheader">
         <p class="title"><a href="/website/v/15/">Robin Boers</a></p>
 
-        <img src="/assets/images/menu.svg" alt="menu button" class="menu-button" hidden />
+        <img src="/assets/images/ui/menu.svg" alt="menu button" class="menu-button" hidden />
 
         <nav>
             <ul class="menu">
@@ -98,7 +98,7 @@
                     Wil je me een bericht sturen?<br />Dit is een van mijn 6 e-mailadressen: <a href="mailto:hello@geheimesite.nl">hello@geheimesite.nl</a><br />
                     Je kunt ook het onderstaande contactformulier invullen.
                 </p>
-                <form action="scripts/contact-form.php" method="post">
+                <form action="https://api.geheimesite.nl/contact/form" method="post">
                     <input class="input" type="email" name="email" placeholder="Emailadres..." />
                     <input class="input" type="text" name="subject" placeholder="Onderwerp..." />
                     <textarea class="input md-mark resize-none max-h-90" name="message" placeholder="Bericht..."></textarea>

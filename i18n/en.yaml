@@ -8,7 +8,7 @@ follow_me:
     other: Follow me
 
 follow_url:
-    other: /follow
+    other: /en/follow
 
 colophon_url:
     other: /en/colophon
@@ -36,3 +36,6 @@ back:
 
 at:
     other: at
+
+by: 
+    other: By

@@ -32,12 +32,8 @@
         <ul class="p-0 list-none">
             <li class="flex items-center gap-2 pt-1">
                 <i class="fa-solid fa-earth-americas"></i>
-                <a
-                    rel="me"
-                    href='{{ index $profile "u-url" }}'
-                    class="u-url"
-                    >{{ index (split (index $profile "u-url") "://") 1
-                    }}</a
+                <a rel="me" href='{{ index $profile "u-url" }}' class="u-url"
+                    >{{ index (split (index $profile "u-url") "://") 1 }}</a
                 >
             </li>
             <li class="flex items-center gap-2 pt-1">
@@ -64,9 +60,7 @@
             </li>
             <li class="flex items-center gap-2 pt-1">
                 <i class="fa-solid fa-mars"></i>
-                <span class="p-sex"
-                    >{{ index $profile "p-sex" }}</span
-                >
+                <span class="p-sex">{{ index $profile "p-sex" }}</span>
             </li>
             <li class="flex items-start gap-2 pt-1">
                 <i class="fa-solid fa-building mt-1.5"></i>
@@ -75,9 +69,7 @@
                         >{{ index $profile "p-job-title" }}</span
                     >
                     {{ i18n "at" }}
-                    <span class="p-org"
-                        >{{ index $profile "p-org" }}</span
-                    >
+                    <span class="p-org">{{ index $profile "p-org" }}</span>
                 </span>
             </li>
 
@@ -87,8 +79,7 @@
                     <span class="p-locality"
                         >{{ index $profile "p-locality" }}</span
                     >, <br />
-                    <span class="p-region"
-                        >{{ index $profile "p-region" }}</span
+                    <span class="p-region">{{ index $profile "p-region" }}</span
                     >, <br />
                     <span class="p-country-name"
                         >{{ index $profile "p-country-name" }}</span

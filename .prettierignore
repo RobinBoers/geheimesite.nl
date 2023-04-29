@@ -1,4 +1,5 @@
 src/static/website/v/**/*
+src/assets/css/ghme.css
 dist/**/*.css
 dist/**/*.js
 src/themes/spockle/layouts/_default/single.html

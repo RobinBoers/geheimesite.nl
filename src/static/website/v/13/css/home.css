@@ -42,7 +42,7 @@ nav a {
 
 body, html {height: 100%}
 .bgimg {
-background-image: url('/images/code.png');
+background-image: url('/images/background/code.png');
 height: 100%;
 background-position: center;
 background-size: cover;

@@ -1,29 +1,10 @@
 @import url("./typography.css");
-@import url("./ghme.css");
+@import url("./skin.css");
 @import url("./normalize.css");
 
 :root {
-    --foreground: 19, 19, 36; /* #131324 */
-    --background: 243, 248, 255; /* #f3f8ff */
-    --primary: 36, 185, 196; /* #24b9c4 */
-
     --max-content-width: 1100px;
     --max-text-width: 650px;
-
-    --enable-code-blocks: ;
-
-    --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-        "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-        "Noto Color Emoji";
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --foreground: 245, 242, 233; /* #f5f2e9 */
-        --background: 13, 43, 69; /* #0d2b45 */
-        --primary: 255, 170, 94; /* #ffaa5e */
-    }
 }
 
 @tailwind base;
@@ -70,10 +51,6 @@
     body,
     html {
         @apply w-full;
-    }
-
-    html {
-        @apply dark:bg-gradient-to-tr dark:from-slate dark:to-background bg-fixed;
     }
 
     body {
