@@ -44,10 +44,6 @@ languages:
                   url: https://blog.geheimesite.nl
                   weight: 6
             more:
-                - identifier: subscriptions
-                  name: Blogroll
-                  url: /subscriptions
-                  weight: 2
                 - identifier: hyperfeed
                   name: Hyperfeed
                   url: /hyperfeed
@@ -65,11 +61,6 @@ languages:
                   name: Blog
                   url: https://blog.geheimesite.nl/en
                   weight: 6
-            more:
-                - identifier: subscriptions
-                  name: Blogroll
-                  url: /subscriptions
-                  weight: 2
 
 markup:
     highlight:
