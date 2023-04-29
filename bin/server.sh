@@ -6,4 +6,4 @@ npx tailwindcss -c tailwind.config.js -i src/assets/css/source.css -o src/assets
 hugo -w &
 
 cd dist
-waiter
+waiter --dev
