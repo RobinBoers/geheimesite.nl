@@ -37,7 +37,7 @@
             </div>
             <section class="hp-about">
               <div class="hp-about-inner">
-                <img class="me-profile about-flex-i" src="images/profile.JPG">
+                <img class="me-profile about-flex-i" src="images/p-youtube.jpg">
                 <div class="about-flex-i about-text">
                   <h2>Robin Boers</h2>
                   <p> 

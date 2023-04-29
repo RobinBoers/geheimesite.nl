@@ -13,7 +13,7 @@ weight: 2
             Hoi, ik ben Robin. Ik ben 15 jaar oud, ik zit in vier VWO en ik woon in Maassluis. Ik houd van programmeren en werk als Junior Developer bij Qdentity in Maasland. Deze website is mijn plek om al mijn projecten te showcasen. Ik heb ook een <a href="https://blog.geheimesite.nl">blog</a> over programmeren, webdevelopment en andere coole shit.
         </p>
     </section>
-    <img class="w-full h-60 mb-5 lg:rotate-1 rounded-xl aspect-square object-cover object-right-top lg:mb-0 lg:h-fit lg:w-1/5" src="/assets/images/me_optimized.jpeg" alt="Dit ben ik">
+    <img class="w-full h-60 mb-5 lg:rotate-1 rounded-xl aspect-square object-cover object-right-top lg:mb-0 lg:h-fit lg:w-1/5" src="/assets/images/me-optimized.webp" alt="Dit ben ik">
 </div>
 
 Verder speel ik handbal en heb ik een [YouTube kanaal](https://www.youtube.com/channel/UCx4li1iMygs5KtqgcU5KGRw), waar ik video's maak over onder andere programmeren, video-editten en andere dingen die ik interrestant vind.  

@@ -13,7 +13,7 @@ weight: 2
             Hi, my name is Robin. I was born 15 years ago in Vlaardingen, Netherlands but I have lived in Maassluis for my entire life. I love to thinker with code and I currently work as Junior Developer at Qdentity in Maasland. This site is a place for me to showcase my projects. I also have a <a href="https://blog.geheimesite.nl/en">blog</a> where I write about programming, webdevelopment, and other cool shit.
         </p>
     </section>
-    <img class="w-full h-60 mb-5 lg:rotate-1 rounded-xl aspect-square object-cover object-right-top lg:mb-0 lg:h-fit lg:w-1/5" src="/assets/images/me_optimized.jpeg" alt="This is me">
+    <img class="w-full h-60 mb-5 lg:rotate-1 rounded-xl aspect-square object-cover object-right-top lg:mb-0 lg:h-fit lg:w-1/5" src="/assets/images/me-optimized.webp" alt="This is me">
 </div>
 
 Additionally I play handball and I have a (long-forgotten) [YouTube channel](https://www.youtube.com/channel/UCx4li1iMygs5KtqgcU5KGRw), where I post videos about programming and video-editing. I also have a [GitHub account](https://github.com/RobinBoers) where I open-source most of my projects.

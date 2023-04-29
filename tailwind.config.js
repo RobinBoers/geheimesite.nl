@@ -40,7 +40,7 @@ module.exports = {
                 ],
             },
             backgroundImage: {
-                "md-mark": "url('../assets/images/md-mark.svg')",
+                "md-mark": "url('../assets/images/ui/md-mark.svg')",
             },
             boxShadow: {
                 "hyper-light": "18px 10px 0px 0px rgba(33, 144, 255, 1)",

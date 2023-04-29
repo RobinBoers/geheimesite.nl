@@ -139,7 +139,7 @@
                         </div>
                         <div class="flex_i">
                           <div class="w3-display-container w3-card work-vak">
-                            <a href="https://webdevelopment-en-meer.blogspot.com/2020/02/websites-bouwen-voor-beginners.html"><img src="/images/code.png" alt="Coderen voor beginners" style="width:100%">
+                            <a href="https://webdevelopment-en-meer.blogspot.com/2020/02/websites-bouwen-voor-beginners.html"><img src="/images/background/code.png" alt="Coderen voor beginners" style="width:100%">
                             <div class="w3-light-grey w3-padding">Websites bouwen voor beginners</div>
                             </a>
                           </div>
