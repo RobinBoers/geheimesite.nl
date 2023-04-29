@@ -20,15 +20,15 @@
                     clip-rule="evenodd" />
             </svg>
         </a>
-    </li>
 
-    <ul class="more-menu">
-        <span class="more-menu-heading">More</span>
-        {{ range .Site.Menus.more }} {{ if $currentPage.IsMenuCurrent "more" .
-        }}
-        <li class="selected">{{ .Name }}</li>
-        {{ else }}
-        <li><a href='{{ replace .URL ".html" "" }}'>{{ .Name }}</a></li>
-        {{ end }} {{ end }}
-    </ul>
+        <ul class="more-menu">
+            <span class="more-menu-heading">More</span>
+            {{ range .Site.Menus.more }} {{ if $currentPage.IsMenuCurrent "more"
+            . }}
+            <li class="selected">{{ .Name }}</li>
+            {{ else }}
+            <li><a href='{{ replace .URL ".html" "" }}'>{{ .Name }}</a></li>
+            {{ end }} {{ end }}
+        </ul>
+    </li>
 </ul>

@@ -16,7 +16,6 @@ module.exports = {
     ],
     theme: {
         colors: {
-            slate: "#111121",
             foreground: withOpacityValue("--foreground"),
             background: withOpacityValue("--background"),
             primary: withOpacityValue("--primary"),
