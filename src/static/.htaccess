@@ -56,6 +56,8 @@ Header set X-Content-Type-Options "nosniff"
 Redirect /framboy /projects/framboy
 Redirect /subscriptions /subscriptions.opml
 Redirect /ckv /ckvrobinboers4a2
+Redirect /more /meer
+# This one ^ is needed to make my non-JS menu work
 
 Redirect /blog/index.html https://blog.geheimesite.nl
 # The index.html here ^ is needed because otherwise

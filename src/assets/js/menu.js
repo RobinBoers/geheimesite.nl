@@ -8,7 +8,8 @@ nav = document.querySelector(".page-header nav");
 button.addEventListener("click", () => {
     toggleMenu();
 });
-moreMenuButton.addEventListener("click", () => {
+moreMenuButton.addEventListener("click", (e) => {
+    e.preventDefault();
     toggleMoreMenu();
 });
 
