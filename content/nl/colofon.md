@@ -11,7 +11,7 @@ Volledig [geldige HTML](https://validator.w3.org/nu/?doc=https://geheimesite.nl)
 
 Ik heb een [.htaccess](https://github.com/RobinBoers/geheimesite.nl/blob/master/src/.htaccess) file dat alle fancy URLs en caching doet. HTML files worden voor een dag gecached, images en fonts worden voor altijd gecached.
 
-Mijn [OPML](/subscriptions) file voor RSS subscriptions en [sitemap](/en/sitemap.xml) worden gerendered met behulp van [XSL stylesheets](https://github.com/RobinBoers/geheimesite.nl/tree/master/src/static/assets/xsl).
+Mijn [OPML](/subscriptions) file voor RSS subscriptions en [sitemap](/sitemap.xml) worden gerendered met behulp van [XSL stylesheets](https://github.com/RobinBoers/geheimesite.nl/tree/master/src/static/assets/xsl).
 
 [Merriweather](https://fonts.google.com/specimen/Merriweather) is het font voor de primaire content, [Fira Sans Condensed (Light 300 Italic)](https://fonts.google.com/specimen/Fira+Sans+Condensed) voor de headings en [Bungee Shade](https://fonts.google.com/specimen/Bungee+Shade) voor de header. Code blocks gebruiken het default monospace font. Alle fonts zijn zelf gehost [om te voorkomen dat Google mijn bezoekers trackt](https://www.brycewray.com/posts/2020/08/google-fonts-privacy/).
 

@@ -19,14 +19,14 @@
 
 				<style>
 					li {
-						list-style: none;
+					list-style: none;
 					}
-					
+
 					.page {
-						padding-left: 20px;
+					padding-left: 20px;
 					}
 					.subpage {
-						padding-left: 40px;
+					padding-left: 40px;
 					}
 				</style>
 			</head>
@@ -56,6 +56,9 @@
 							</li>
 							<li>
 								<a href="https://blog.geheimesite.nl">Blog</a>
+							</li>
+							<li>
+								<a href="/more">More</a>
 							</li>
 						</ul>
 					</nav>
@@ -90,8 +93,11 @@
 											<xsl:value-of select="sitemap:loc" />
 										</xsl:variable>
 										<a href="{$itemURL}">
-											<!--<xsl:value-of select="substring-after(substring-before(sitemap:loc, '/'), '/')" />-->
-											<xsl:value-of select="substring-after(sitemap:loc, 'https://geheimesite.nl')" />
+											<!--<xsl:value-of
+											select="substring-after(substring-before(sitemap:loc,
+											'/'), '/')" />-->
+											<xsl:value-of
+												select="substring-after(sitemap:loc, 'https://geheimesite.nl')" />
 										</a>
 									</li>
 								</xsl:for-each>

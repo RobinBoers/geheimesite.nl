@@ -82,6 +82,7 @@
                     <li><a href="/en/projects">Projects</a></li>
                     <li><a href="/en/books">Books</a></li>
                     <li><a href="https://blog.geheimesite.nl/en">Blog</a></li>
+                    <li><a href="/en/more">More</a></li>
                 </ul>
             </nav>
         </header>
