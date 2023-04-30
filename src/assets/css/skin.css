@@ -3,26 +3,37 @@
 :root {
     --foreground: 19, 19, 36; /* #131324 */
     --background: 243, 248, 255; /* #f3f8ff */
-    --primary: 36, 185, 196; /* #24b9c4 */
+    --primary: 255, 77, 121; /* #ff4d79  */
 
     --enable-code-blocks: ;
+
+    --font-headings: var(--font-serif);
+    --font-subheadings: var(--font-serif);
+    --font-content: var(--font-sans);
+    --font-display: var(--font-serif);
 
     --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
         "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
         "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
         "Noto Color Emoji";
+    --font-serif: "Iowan Old Style", "Palatino Linotype", "URW Palladio L", P052,
+        serif;
+}
+
+.title {
+    text-transform: capitalize;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --foreground: 245, 242, 233; /* #f5f2e9 */
-        --background: 13, 43, 69; /* #0d2b45 */
-        --primary: 255, 170, 94; /* #ffaa5e */
+        --foreground: 243, 248, 255; /* #f3f8ff */
+        --background: 19, 19, 36; /* #131324 */
     }
 }
 
 html {
     background-attachment: fixed;
+    border-top: 10px solid rgb(var(--primary));
 }
 
 @media (prefers-color-scheme: dark) {
