@@ -10,16 +10,16 @@ _Ik ben er vrij zeker van dat je best veel dode links zal aantreffen, maar ik he
 
 <!-- I use HTML here because markdown doesn't have the `start` attribute -->
 <ol start="2">
-    <li><a href="/website/v/2/" target="_blank">Bekijk versie 2</a></li>
-    <li><a href="/website/v/3/" target="_blank">Bekijk versie 3</a></li>
-    <li><a href="/website/v/4/" target="_blank">Bekijk versie 4</a></li>
-    <li><a href="/website/v/5/" target="_blank">Bekijk versie 5</a></li>
-    <li><a href="/website/v/6/" target="_blank">Bekijk versie 6</a></li>
-    <li><a href="/website/v/7/" target="_blank">Bekijk versie 7</a></li>
-    <li><a href="/website/v/8/" target="_blank">Bekijk versie 8</a></li>
-    <li><a href="/website/v/9/" target="_blank">Bekijk versie 9</a></li>
-    <li><a href="/website/v/12/" target="_blank">Bekijk versie 12</a></li>
-    <li><a href="/website/v/13/" target="_blank">Bekijk versie 13</a></li>
-    <li><a href="/website/v/14/" target="_blank">Bekijk versie 14</a></li>
-    <li><a href="/website/v/15/" target="_blank">Bekijk versie 15</a></li>
+    <li><a href="https://classic.geheimesite.nl/v/2/" target="_blank">Bekijk versie 2</a></li>
+    <li><a href="https://classic.geheimesite.nl/v/3/" target="_blank">Bekijk versie 3</a></li>
+    <li><a href="https://classic.geheimesite.nl/v/4/" target="_blank">Bekijk versie 4</a></li>
+    <li><a href="https://classic.geheimesite.nl/v/5/" target="_blank">Bekijk versie 5</a></li>
+    <li><a href="https://classic.geheimesite.nl/v/6/" target="_blank">Bekijk versie 6</a></li>
+    <li><a href="https://classic.geheimesite.nl/v/7/" target="_blank">Bekijk versie 7</a></li>
+    <li><a href="https://classic.geheimesite.nl/v/8/" target="_blank">Bekijk versie 8</a></li>
+    <li><a href="https://classic.geheimesite.nl/v/9/" target="_blank">Bekijk versie 9</a></li>
+    <li><a href="https://classic.geheimesite.nl/v/12/" target="_blank">Bekijk versie 12</a></li>
+    <li><a href="https://classic.geheimesite.nl/v/13/" target="_blank">Bekijk versie 13</a></li>
+    <li><a href="https://classic.geheimesite.nl/v/14/" target="_blank">Bekijk versie 14</a></li>
+    <li><a href="https://classic.geheimesite.nl/v/15/" target="_blank">Bekijk versie 15</a></li>
 </ol>

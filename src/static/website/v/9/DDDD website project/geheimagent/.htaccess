@@ -1,7 +1,0 @@
-AuthUserFile /home/robinb/domains/dddd.geheimesite.nl/public_html/geheimagent/.htpasswd
-AuthGroupFile /dev/null
-AuthName "Beveiligde pagina"
-AuthType Basic
-<Limit GET POST>
-require valid-user
-</Limit>
