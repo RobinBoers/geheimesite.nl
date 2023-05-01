@@ -41,3 +41,21 @@ html {
         );
     }
 }
+
+.button,
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    color: rgb(var(--background));
+}
+
+@media (prefers-color-scheme: dark) {
+    .button,
+    button,
+    input[type="button"],
+    input[type="submit"],
+    input[type="reset"] {
+        color: rgb(var(--foreground));
+    }
+}
