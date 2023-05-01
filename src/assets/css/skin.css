@@ -50,6 +50,10 @@ input[type="reset"] {
     color: rgb(var(--background));
 }
 
+a:hover {
+    color: var(--background);
+}
+
 @media (prefers-color-scheme: dark) {
     .button,
     button,
@@ -57,5 +61,9 @@ input[type="reset"] {
     input[type="submit"],
     input[type="reset"] {
         color: rgb(var(--foreground));
+    }
+
+    a:hover {
+        color: var(--foreground);
     }
 }
