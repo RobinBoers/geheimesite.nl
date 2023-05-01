@@ -794,7 +794,7 @@ Use serif for main content. Use <span class="font-poppins">sans-serif</span> for
 
 ### Colors
 
-All pages part of geheimesite.nl should use the main color scheme defined in [the tailwind config file](https://github.com/RobinBoers/geheimesite.nl/blob/master/tailwind.config.js). The main color scheme is displayed below:
+All pages part of geheimesite.nl should use the main color scheme defined in [`skin.css`](https://github.com/RobinBoers/geheimesite.nl/blob/master/src/assets/css/skin.css). The main color scheme is displayed below:
 
 -   <input type="color" value="#131324"> Foreground color (defined as `--foreground)
 -   <input type="color" value="#f3f8ff"> Background color (defined as `--background`)
