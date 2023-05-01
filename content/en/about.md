@@ -10,7 +10,7 @@ weight: 2
     <section class="section lg:mr-0">
         <h1>About me</h1>
         <p>
-            Hi, my name is Robin. I was born 15 years ago in Vlaardingen, Netherlands but I have lived in Maassluis for my entire life. I love to thinker with code and I currently work as Junior Developer at Qdentity in Maasland. This site is a place for me to showcase my projects. I also have a <a href="https://blog.geheimesite.nl/en">blog</a> where I write about programming, webdevelopment, and other cool shit.
+            Hi, my name is Robin. I was born {{< age />}} years ago in Vlaardingen, Netherlands but I have lived in Maassluis for my entire life. I love to thinker with code and I currently work as Junior Developer at Qdentity in Maasland. This site is a place for me to showcase my projects. I also have a <a href="https://blog.geheimesite.nl/en">blog</a> where I write about programming, webdevelopment, and other cool shit.
         </p>
     </section>
     <img class="w-full h-60 mb-5 lg:rotate-1 rounded-xl aspect-square object-cover object-right-top lg:mb-0 lg:h-fit lg:w-1/5" src="/assets/images/me-optimized.webp" alt="This is me">

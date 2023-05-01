@@ -8,7 +8,6 @@ theme: spockle
 author:
     name: Robin Boers
     image: https://geheimesite.nl/images/me-optimized.webp
-    about: I'm a webdesigner, programmer, and nerd living in the Netherlands. I'm 15 years old and I currently work at Qdentity.
 
 publishDir: dist
 themesDir: src/themes
@@ -36,7 +35,7 @@ languages:
         languageCode: nl
         copyright: Webdesigner en Elixir programmeur sinds 2017.
         params:
-            description: Ik ben een webdesigner, tiener en nerd die in Maassluis woont. M'n hobby's zijn programmeren, video-editten, handbal (ik ben keeper) en tekenen. Ik ben 15 jaar oud en ik werk bij Qdentity. Ik vind het leuk om websites en apps te ontwikkelen en ik vind het fantastisch om met Linux te kloten.
+            description: Ik ben een webdesigner, tiener en nerd die in Maassluis woont. M'n hobby's zijn programmeren, video-editten, handbal (ik ben keeper) en tekenen. Ik ben geboren in 2007 en ik werk bij Qdentity. Ik vind het leuk om websites en apps te ontwikkelen en ik vind het fantastisch om met Linux te kloten.
         menu:
             main:
                 - identifier: blog
@@ -54,7 +53,7 @@ languages:
         languageCode: en
         copyright: Webdesigner and Elixir programmer since 2017.
         params:
-            description: I'm webdesigner, teenager and nerd living in the Netherlands. My hobbies are programming and handball. I'm 15 years old and I currently work at Qdentity. I enjoy building websites and apps in my free time, and I love to thinker with Linux.
+            description: I'm webdesigner, teenager and nerd living in the Netherlands. My hobbies are programming and handball. I was born in 2007 and I currently work at Qdentity. I enjoy building websites and apps in my free time, and I love to thinker with Linux.
         menu:
             main:
                 - identifier: blog
