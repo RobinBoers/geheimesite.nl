@@ -11,7 +11,7 @@ module.exports = {
     mode: "jit",
     content: [
         "src/**/*.html",
-        "src/content/**/*.md",
+        "content/**/*.md",
         "src/static/**/*.{php,html,js}",
     ],
     theme: {
@@ -40,11 +40,18 @@ module.exports = {
                 ],
             },
             backgroundImage: {
-                "md-mark": "url('../assets/images/ui/md-mark.svg')",
+                "md-mark": "url('/assets/images/ui/md-mark.svg')",
             },
             boxShadow: {
                 "hyper-light": "18px 10px 0px 0px rgba(33, 144, 255, 1)",
                 "hyper-dark": "18px 10px 0px 0px #cee3f8",
+            },
+            screens: {
+                sm: "640px",
+                md: "768px",
+                lg: "1024px",
+                xl: "1280px",
+                "2xl": "1536px",
             },
         },
     },
