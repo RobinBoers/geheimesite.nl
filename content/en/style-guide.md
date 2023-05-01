@@ -798,13 +798,13 @@ All pages part of geheimesite.nl should use the main color scheme defined in [th
 
 -   <input type="color" value="#131324"> Foreground color (defined as `--foreground)
 -   <input type="color" value="#f3f8ff"> Background color (defined as `--background`)
--   <input type="color" value="#24b9c4"> Accent color (defined as `--primary`)
+-   <input type="color" value="#ff4d79"> Accent color (defined as `--primary`)
 
 In dark mode I use this color scheme:
 
--   <input type="color" value="#ffecd6"> Foreground color (defined as `--foreground`)
--   <input type="color" value="#0d2b45"> Background color (defined as `--background`)
--   <input type="color" value="#ffaa5e"> Accent color (defined as `--primary`)
+-   <input type="color" value="#f3f8ff"> Foreground color (defined as `--foreground`)
+-   <input type="color" value="#131324"> Background color (defined as `--background`)
+-   <input type="color" value="#ff4d79"> Accent color (defined as `--primary`)
 
 ### Exceptions
 
