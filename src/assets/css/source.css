@@ -86,7 +86,8 @@
     }
 
     .page-header nav ul {
-        @apply flex flex-col lg:flex-row gap-4 p-0 items-center lg:h-auto transition-[height] mb-0 relative;
+        /* gap-3 is same as ml-3 at seperator below */
+        @apply flex flex-col lg:flex-row gap-3 p-0 items-center lg:h-auto transition-[height] mb-0 relative;
     }
 
     .page-header nav .more-menu {
@@ -112,7 +113,16 @@
 
     .page-header nav ul li a,
     .page-header nav ul li.selected {
-        @apply before:content-['/'] no-underline;
+        @apply no-underline;
+    }
+
+    .page-header nav ul li:not(:first-child) {
+        /* ml-3 is same as gap-3 at menu layout above */
+        @apply lg:before:content-['~'] before:mr-2.5 before:font-normal before:opacity-50;
+    }
+
+    .page-header nav ul .more-menu li {
+        @apply before:mr-1;
     }
 
     .page-header nav ul li.selected {
