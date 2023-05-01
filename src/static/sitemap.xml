@@ -26,7 +26,7 @@
   </url>
   <url>
     <loc>
-      https://geheimesite.nl/me</loc>
+      https://geheimesite.nl/profiel</loc>
     <priority>0.70</priority>
   </url>
   <url>
@@ -55,7 +55,7 @@
       0.80</priority>
   </url>
   <url>
-    <loc>https://geheimesite.nl/timeline</loc>
+    <loc>https://geheimesite.nl/tijdlijn</loc>
     <priority>0.70</priority>
   </url>
   <url>

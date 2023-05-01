@@ -26,7 +26,7 @@
   </url>
   <url>
     <loc>
-      https://geheimesite.nl/me</loc>
+      https://geheimesite.nl/en/profile</loc>
     <priority>0.70</priority>
   </url>
   <url>
@@ -72,6 +72,11 @@
     <loc>
       https://geheimesite.nl/en/colophon</loc>
     <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>
+      https://geheimesite.nl/en/style-guide</loc>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://geheimesite.nl/en/privacy</loc>
