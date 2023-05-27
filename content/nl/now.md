@@ -19,15 +19,14 @@ Ik zit momenteel in 4VWO. Dit zijn de dingen die ik momenteel voor school doe:
 -   Huiswerk proberen bij te houden
 -   Alleen nog maar leuke vakken (en Duits). Ik heb alle andere dingen vorig jaar laten vallen.
 
-Ik doe nu Natuurkunde, Scheikunde, NLT, Biologie, Wiskunde B, informatica, Nederlands, Engels, Duits, Gym en CKV. Ik doe dus een dubbelprofiel: NGNT (vanwege Bio). Ik deed ook Wiskunde D, maar dat is stil komen te liggen.
+Ik doe nu Natuurkunde, Scheikunde, NLT, Wiskunde B, informatica, Nederlands, Engels, Duits, Gym en CKV. Ik deed ook Wiskunde D en Biologie, maar Wiskunde D is stil komen te liggen en Biologie heb ik laten vallen.
 
 {{< hr >}}
 
 ## Persoonlijk
 
 -   De volledige web stack (HTML spec, parser, webbrowser en server) herschrijven in Rust met een vriend (meer informatie volgt nog :smile:)
--   Een coole frontend voor mijn RSS reader bouwen
--   Een IRC client voor mezelf bouwen (misschien zelfs met end-to-end encryption? Who knows.)
+-   TinyTinyRSS installeren zodat ik eindelijk Inoreader kan verwijderen
 -   Een simpele tool bouwen die automatisch emails verzend als mijn RSS feed wordt geupdate (een soort self-hosted [follow.it](https://follow.it) alternatief)
 -   Een app bouwen die YouTube video's als podcasts kan downloaden op mijn telefoon.
 
