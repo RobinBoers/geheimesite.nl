@@ -48,7 +48,7 @@ Zie de [installation guide](https://docs.geheimesite.nl/SkyLight-Website-Editor/
 
 ## Hulp of suggesties
 
-Wil je helpen met ontwikkelen of heb je een cool idee? Dan kan je me mailen op [hello@geheimesite.nl](mailto:hello@geheimesite.nl) or een issue aanmaken op de [bugtracker](https://github.com/RobinBoers/SkyLight-Website-Editor/issues/new).
+Wil je helpen met ontwikkelen of heb je een cool idee? Dan kan je me mailen op [robin@geheimesite.nl](mailto:robin@geheimesite.nl) or een issue aanmaken op de [bugtracker](https://github.com/RobinBoers/SkyLight-Website-Editor/issues/new).
 
 ## Handige links
 
