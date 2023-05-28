@@ -13,13 +13,20 @@
             alt="Pixelart version of my face" />
     </section>
     <section>
-        <h1 class="p-name mb-1 font-poppins text-[30px] leading-[33px]">
-            <span class="p-given-name"
-                >{{ index $profile "p-given-name" }}</span
-            >
-            <span class="p-family-name"
-                >{{ index $profile "p-family-name" }}</span
-            >
+        <h1 class="mb-1 font-poppins text-[30px] leading-[33px]">
+            <span class="p-name">
+                <span class="p-given-name">
+                    {{ index $profile "p-given-name" }}
+                </span>
+                <span class="p-family-name">
+                    {{ index $profile "p-family-name" }}
+                </span>
+            </span>
+            <span class="supplement text-xs ml-1">
+                (<span class="u-pronoun">he</span>/<span class="u-pronoun"
+                    >him</span
+                >)
+            </span>
         </h1>
         <p class="italic">
             @<span class="p-nickname lowercase"
@@ -47,11 +54,9 @@
             </li>
             <li class="flex items-center gap-2 pt-1">
                 <i class="fa-solid fa-message"></i>
-                <span>
-                    <a href="https://matrix.to/#/@robinboers:geheimesite.nl">
-                        @robinboers:geheimesite.nl
-                    </a>
-                </span>
+                <a class="u-im" href='{{ index $profile "u-im" }}'>
+                    {{ {{ index (split (index $profile "u-im") "/#/") 1 }} }}
+                </a>
             </li>
             <li class="flex items-center gap-2 pt-1">
                 <i class="fa-solid fa-cake-candles"></i>
@@ -61,7 +66,10 @@
             </li>
             <li class="flex items-center gap-2 pt-1">
                 <i class="fa-solid fa-mars"></i>
-                <span class="p-sex">{{ index $profile "p-sex" }}</span>
+                <span class="p-sex">{{ index $profile "p-sex" }}</span
+                ><!--{{ if eq (index $profile
+                "p-sex") "M" }}ale{{ else }}{{ if eq (index $profile
+                "p-sex") "F" }}emale{{ end }}{{ end }}-->
             </li>
             <li class="flex items-start gap-2 pt-1">
                 <i class="fa-solid fa-building mt-1.5"></i>
@@ -118,9 +126,9 @@
                     href="https://github.com/RobinBoers"
                     target="_blank"
                     rel="me">
-                    <img
-                        src="https://img.shields.io/badge/GitHub-333333?style=for-the-badge&logo=github"
-                        alt="RobinBoers on GitHub" />
+                    {{ $image := resources.GetRemote
+                    "https://img.shields.io/badge/GitHub-333333?style=for-the-badge&logo=github"
+                    }} {{ $image.Content | safeHTML }}
                 </a>
             </li>
             <li>
@@ -129,9 +137,9 @@
                     href="https://www.linkedin.com/in/robin-boers-b18691229/"
                     target="_blank"
                     rel="me">
-                    <img
-                        src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin"
-                        alt="Robin Boers on LinkedIn" />
+                    {{ $image := resources.GetRemote
+                    "https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin"
+                    }} {{ $image.Content | safeHTML }}
                 </a>
             </li>
             <li>
@@ -139,9 +147,9 @@
                     class="no-underline hover:bg-transparent hover:opacity-80"
                     href="https://discord.gg/DPtKK3UREu"
                     target="_blank">
-                    <img
-                        src="https://img.shields.io/badge/ThatComputerBoy%239914-7289DA?style=for-the-badge&logo=discord&logoColor=white"
-                        alt="ThatComputerBoy#9914 on Discord" />
+                    {{ $image := resources.GetRemote
+                    "https://img.shields.io/badge/ThatComputerBoy%239914-7289DA?style=for-the-badge&logo=discord&logoColor=white"
+                    }} {{ $image.Content | safeHTML }}
                 </a>
             </li>
             <li>
@@ -150,9 +158,9 @@
                     href="https://micro.blog/ThatComputerBoy"
                     target="_blank"
                     rel="me">
-                    <img
-                        src="https://img.shields.io/badge/@ThatComputerBoy-ff8800?style=for-the-badge&logo=micro.blog&logoColor=white"
-                        alt="@ThatComputerBoy on Micro.blog" />
+                    {{ $image := resources.GetRemote
+                    "https://img.shields.io/badge/@ThatComputerBoy-ff8800?style=for-the-badge&logo=micro.blog&logoColor=white"
+                    }} {{ $image.Content | safeHTML }}
                 </a>
             </li>
             <li>
@@ -161,9 +169,9 @@
                     href="https://www.youtube.com/channel/UCx4li1iMygs5KtqgcU5KGRw"
                     target="_blank"
                     rel="me">
-                    <img
-                        src="https://img.shields.io/badge/@ThatComputerBoy-red?style=for-the-badge&logo=youtube"
-                        alt="@ThatComputerBoy on YouTube" />
+                    {{ $image := resources.GetRemote
+                    "https://img.shields.io/badge/@ThatComputerBoy-red?style=for-the-badge&logo=youtube"
+                    }} {{ $image.Content | safeHTML }}
                 </a>
             </li>
 
@@ -173,9 +181,9 @@
                     href="https://www.twitch.tv/ThatComputerBoy"
                     target="_blank"
                     rel="me">
-                    <img
-                        src="https://img.shields.io/badge/ThatComputerBoy-blueviolet?style=for-the-badge&logo=twitch&logoColor=white"
-                        alt="ThatComputerBoy on Twitch.tv" />
+                    {{ $image := resources.GetRemote
+                    "https://img.shields.io/badge/ThatComputerBoy-blueviolet?style=for-the-badge&logo=twitch&logoColor=white"
+                    }} {{ $image.Content | safeHTML }}
                 </a>
             </li>
             <li>
@@ -184,9 +192,9 @@
                     href="https://robijntje.itch.io"
                     target="_blank"
                     rel="me">
-                    <img
-                        src="https://img.shields.io/badge/ThatComputerBoy-FA5C5C?style=for-the-badge&logoColor=white&logo=itch.io"
-                        alt="ThatComputerBoy on Itch.io" />
+                    {{ $image := resources.GetRemote
+                    "https://img.shields.io/badge/ThatComputerBoy-FA5C5C?style=for-the-badge&logoColor=white&logo=itch.io"
+                    }} {{ $image.Content | safeHTML }}
                 </a>
             </li>
             <li>
@@ -195,9 +203,9 @@
                     href="https://reddit.com/u/Robijntje22"
                     target="_blank"
                     rel="me">
-                    <img
-                        src="https://img.shields.io/badge/-u%2FRobijntje22-%23FF4500?style=for-the-badge&logoColor=white&logo=reddit"
-                        alt="u/Robijntje22 on Reddit" />
+                    {{ $image := resources.GetRemote
+                    "https://img.shields.io/badge/-u%2FRobijntje22-%23FF4500?style=for-the-badge&logoColor=white&logo=reddit"
+                    }} {{ $image.Content | safeHTML }}
                 </a>
             </li>
 
@@ -207,9 +215,9 @@
                     href="https://steamcommunity.com/id/ThatComputerBoy/"
                     target="_blank"
                     rel="me">
-                    <img
-                        src="https://img.shields.io/badge/ThatComputerBoy-1a293a?style=for-the-badge&logo=steam&logoColor=c7d5e0"
-                        alt="ThatComputerBoy on Steam" />
+                    {{ $image := resources.GetRemote
+                    "https://img.shields.io/badge/ThatComputerBoy-1a293a?style=for-the-badge&logo=steam&logoColor=c7d5e0"
+                    }} {{ $image.Content | safeHTML }}
                 </a>
             </li>
             <li>
@@ -218,18 +226,18 @@
                     href="https://account.xbox.com/nl-nl/profile?gamertag=Robijntje22"
                     target="_blank"
                     rel="me">
-                    <img
-                        src="https://img.shields.io/badge/Robijntje22-107c10?style=for-the-badge&logo=xbox&logoColor=white"
-                        alt="Robijntje22 on Xbox Live" />
+                    {{ $image := resources.GetRemote
+                    "https://img.shields.io/badge/Robijntje22-107c10?style=for-the-badge&logo=xbox&logoColor=white"
+                    }} {{ $image.Content | safeHTML }}
                 </a>
             </li>
             <li>
                 <a
                     class="no-underline hover:bg-transparent hover:opacity-80"
                     href="https://leren.wrts.nl/ThatComputerBoy">
-                    <img
-                        src="https://img.shields.io/badge/ThatComputerBoy-7100a3?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABfVBMVEVkLaJlLqNmMKNeJZ9aH5xdI55cIp1nMKSigMe7o9aUbb9eJJ5lL6N/UbKWccCJXriCVrTf0+z///+lhclnMaRmMKRdJJ6wk8/9/P759vtsN6dfJp9oMqRgJ6B2Ra39/P3o4PHi2O6yltFmL6OKYLn+/f7Zy+jm3fD18vl5Sa9yQKvz7/jw6vabd8P7+v2DVrVkLKLv6fWcecSsjs3f1Oz8/P36+fyNZLtaIJyVbr/8+v3+/v5+UbJtOaj6+Py1mtOCVbTEr9uQaL3azOm+pth7S7D39fp+ULF4SK6OZbv8+/2Ubr+Sar3RwOPAqdn7+fyMY7r59/tfJZ+tj87u6PXazenJtt/CrdtoMqWZdcKYc8H28/r08Ph0QqyEWLWgfca0mNKkg8iFWbbYyuiigcf9/f5hKaDRweR6Sq/n3vB9TrFVGZnt5/T18fnr5PNjLKL28vns5fPx7Pb49vvi1+2FWraTbL6yl9FjK6FuOqh0Q6xcI553Rq1iKqFgKKCnlBayAAAAAWJLR0QSe7xsAAAAAAd0SU1FB+YGBg4nMFBgV4AAAAEASURBVBjTHY/pPwJRGIXf23QrS5ajmBopxhCJQSJXSbZkHfsWwtj3ff/bXc638zvPh/MQMYfi5C63p6y8opIxRowp3qrqmloAddxHjPz1DfiLCgSCWiNRqOm/hxFpRgvjOrlaYbS1q0a0ozOGrjiXRDd6zF5E+voTA0kM0lBqWIykMxmMZsdy4+oETU4JTOcRnynMzs0DHlrAoljyWstZsbIKrJm0joDY0FKbW9jeUXeLGu1ZEMb+Qenw6Bi2VTwhnj21bCCRPju3C7hQyB+6LCEZxtU1BG50IvLdBu/kUdw/PD49Kw5p4+YvMURf394/SJGEFNY/v3J5p/n9Q3L/BeMGLCbkbMbSAAAAXmVYSWZJSSoACAAAAAMAEgEDAAEAAAABAAAAMQECAA0AAAAyAAAAaYcEAAEAAABAAAAAAAAAAFBob3RvcyAyLjcuNAAAAgACoAkAAQAAAK4AAAADoAkAAQAAALIAAAAAAAAALbRK5AAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMi0wNi0wNlQxNDozOTo0MCswMDowMFCKBVQAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjItMDYtMDZUMTQ6Mzk6NDArMDA6MDAh173oAAAAEnRFWHRleGlmOkV4aWZPZmZzZXQANjTZeQZNAAAAGHRFWHRleGlmOlBpeGVsWERpbWVuc2lvbgAxNzQOHhKzAAAAGHRFWHRleGlmOlBpeGVsWURpbWVuc2lvbgAxNziap7/uAAAAGnRFWHRleGlmOlNvZnR3YXJlAFBob3RvcyAyLjcuNIB3Rt8AAAAASUVORK5CYII=&logoColor=white"
-                        alt="ThatComputerBoy on WRTS" />
+                    {{ $image := resources.GetRemote
+                    "https://img.shields.io/badge/ThatComputerBoy-7100a3?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABfVBMVEVkLaJlLqNmMKNeJZ9aH5xdI55cIp1nMKSigMe7o9aUbb9eJJ5lL6N/UbKWccCJXriCVrTf0+z///+lhclnMaRmMKRdJJ6wk8/9/P759vtsN6dfJp9oMqRgJ6B2Ra39/P3o4PHi2O6yltFmL6OKYLn+/f7Zy+jm3fD18vl5Sa9yQKvz7/jw6vabd8P7+v2DVrVkLKLv6fWcecSsjs3f1Oz8/P36+fyNZLtaIJyVbr/8+v3+/v5+UbJtOaj6+Py1mtOCVbTEr9uQaL3azOm+pth7S7D39fp+ULF4SK6OZbv8+/2Ubr+Sar3RwOPAqdn7+fyMY7r59/tfJZ+tj87u6PXazenJtt/CrdtoMqWZdcKYc8H28/r08Ph0QqyEWLWgfca0mNKkg8iFWbbYyuiigcf9/f5hKaDRweR6Sq/n3vB9TrFVGZnt5/T18fnr5PNjLKL28vns5fPx7Pb49vvi1+2FWraTbL6yl9FjK6FuOqh0Q6xcI553Rq1iKqFgKKCnlBayAAAAAWJLR0QSe7xsAAAAAAd0SU1FB+YGBg4nMFBgV4AAAAEASURBVBjTHY/pPwJRGIXf23QrS5ajmBopxhCJQSJXSbZkHfsWwtj3ff/bXc638zvPh/MQMYfi5C63p6y8opIxRowp3qrqmloAddxHjPz1DfiLCgSCWiNRqOm/hxFpRgvjOrlaYbS1q0a0ozOGrjiXRDd6zF5E+voTA0kM0lBqWIykMxmMZsdy4+oETU4JTOcRnynMzs0DHlrAoljyWstZsbIKrJm0joDY0FKbW9jeUXeLGu1ZEMb+Qenw6Bi2VTwhnj21bCCRPju3C7hQyB+6LCEZxtU1BG50IvLdBu/kUdw/PD49Kw5p4+YvMURf394/SJGEFNY/v3J5p/n9Q3L/BeMGLCbkbMbSAAAAXmVYSWZJSSoACAAAAAMAEgEDAAEAAAABAAAAMQECAA0AAAAyAAAAaYcEAAEAAABAAAAAAAAAAFBob3RvcyAyLjcuNAAAAgACoAkAAQAAAK4AAAADoAkAAQAAALIAAAAAAAAALbRK5AAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMi0wNi0wNlQxNDozOTo0MCswMDowMFCKBVQAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjItMDYtMDZUMTQ6Mzk6NDArMDA6MDAh173oAAAAEnRFWHRleGlmOkV4aWZPZmZzZXQANjTZeQZNAAAAGHRFWHRleGlmOlBpeGVsWERpbWVuc2lvbgAxNzQOHhKzAAAAGHRFWHRleGlmOlBpeGVsWURpbWVuc2lvbgAxNziap7/uAAAAGnRFWHRleGlmOlNvZnR3YXJlAFBob3RvcyAyLjcuNIB3Rt8AAAAASUVORK5CYII=&logoColor=white"
+                    }} {{ $image.Content | safeHTML }}
                 </a>
             </li>
             <li>
@@ -238,16 +246,16 @@
                     href="https://stackoverflow.com/users/12782055/robinboers"
                     target="_blank"
                     rel="me">
-                    <img
-                        src="https://img.shields.io/badge/StackOverflow-f48225?style=for-the-badge&logo=stackoverflow&logoColor=f8f9f9"
-                        alt="RobinBoers on Stackoverflow" />
+                    {{ $image := resources.GetRemote
+                    "https://img.shields.io/badge/StackOverflow-f48225?style=for-the-badge&logo=stackoverflow&logoColor=f8f9f9"
+                    }} {{ $image.Content | safeHTML }}
                 </a>
             </li>
             <li>
                 <a class="no-underline hover:bg-transparent">
-                    <img
-                        src="https://img.shields.io/badge/ThatComputerBoy-202124?style=for-the-badge&logo=epicgames&logoColor=white"
-                        alt="ThatComputerBoy on Epic Games" />
+                    {{ $image := resources.GetRemote
+                    "https://img.shields.io/badge/ThatComputerBoy-202124?style=for-the-badge&logo=epicgames&logoColor=white"
+                    }} {{ $image.Content | safeHTML }}
                 </a>
             </li>
         </ul>

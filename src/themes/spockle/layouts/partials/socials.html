@@ -65,26 +65,4 @@
             }} {{ $image.Content | safeHTML }}
         </a>
     </li>
-    <li class="inline list-none">
-        <a
-            class="no-underline button"
-            href="https://www.youtube.com/channel/UCx4li1iMygs5KtqgcU5KGRw"
-            target="_blank"
-            rel="me">
-            {{ $image := resources.GetRemote
-            "https://img.shields.io/badge/@ThatComputerBoy-red?style=for-the-badge&logo=youtube"
-            }} {{ $image.Content | safeHTML }}
-        </a>
-    </li>
-    <li class="inline list-none">
-        <a
-            class="no-underline button ml-1"
-            href="https://www.twitch.tv/ThatComputerBoy"
-            target="_blank"
-            rel="me">
-            {{ $image := resources.GetRemote
-            "https://img.shields.io/badge/ThatComputerBoy-blueviolet?style=for-the-badge&logo=twitch&logoColor=white"
-            }} {{ $image.Content | safeHTML }}
-        </a>
-    </li>
 </ul>
