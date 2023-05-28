@@ -55,7 +55,7 @@
             <li class="flex items-center gap-2 pt-1">
                 <i class="fa-solid fa-message"></i>
                 <a class="u-im" href='{{ index $profile "u-im" }}'>
-                    {{ {{ index (split (index $profile "u-im") "/#/") 1 }} }}
+                    {{ index (split (index $profile "u-im") "/#/") 1 }}
                 </a>
             </li>
             <li class="flex items-center gap-2 pt-1">
