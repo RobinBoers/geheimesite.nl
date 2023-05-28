@@ -37,20 +37,20 @@ Zie mijn [firefox-tweaks](https://github.com/RobinBoers/firefox-tweaks) repo voo
 
 Mijn favoriete shell is fish. Ik ben helemaal gek op de autocomplete en color support dat het bied. Ik gebruik starship as prompt omdat het er goed uitziet zonder enige configuration en in alle shells goed werkt (dus mn shell ziet er hetzelfde uit als ik voor some reason van shell switch).
 
--   **`gh:`** github CLI
--   **`git:`** version control
--   **`nvim:`** primaire tekst editor
--   **`htop:`** taskmanager
--   **`yt-dlp:`** download video's
--   **`spotdl:`** download spotify playlists
--   **`flatpak:`** cross-platform apps
--   **`bat:`** replacement voor `cat` en pager voor `man`
--   **`fd:`** replacement voor `find`
--   **`ripgrep:`** replacement voor `grep`
--   **`delta:`** verbeterde git diff
--   **`cmatrix:`** aan mijn vrienden laten zien dat ik een gekke hacker ben
--   **`ranger:`** file managment
--   **`ncmpcpp:`** muziek player
+-   **`gh`**: github CLI
+-   **`git`**: version control
+-   **`nvim`**: primaire tekst editor
+-   **`htop`**: taskmanager
+-   **`yt-dlp`**: download video's
+-   **`spotdl`**: download spotify playlists
+-   **`flatpak`**: cross-platform apps
+-   **`bat`**: replacement voor `cat` en pager voor `man`
+-   **`fd`**: replacement voor `find`
+-   **`ripgrep`**: replacement voor `grep`
+-   **`delta`**: verbeterde git diff
+-   **`cmatrix`**: aan mijn vrienden laten zien dat ik een gekke hacker ben
+-   **`ranger`**: file managment
+-   **`ncmpcpp`**: muziek player
 
 ## 💾 Code editor
 

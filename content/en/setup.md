@@ -37,20 +37,20 @@ See my [firefox-tweaks](https://github.com/RobinBoers/firefox-tweaks) repo for m
 
 My shell is fish. I like the amazing autocomplete and color support it has. I use starship prompt because it requires no configuration at all, looks amazing and works for all shells (meaning my shell looks the same if I switch to bash for some reason).
 
--   **`gh:`** github CLI
--   **`git:`** version control
--   **`nvim:`** main text editor
--   **`htop:`** taskmanager
--   **`yt-dlp:`** download videos
--   **`spotdl:`** download spotify playlists
--   **`flatpak:`** cross-platform apps
--   **`bat:`** replacement for `cat` and pager for `man`
--   **`fd:`** replacement for `find`
--   **`ripgrep:`** replacement for `grep`
--   **`delta:`** improved git diff
--   **`cmatrix:`** showing my friends I'm a real bad hacker
--   **`ranger:`** file managment
--   **`ncmpcpp:`** music player
+-   **`gh`**: github CLI
+-   **`git`**: version control
+-   **`nvim`**: main text editor
+-   **`htop`**: taskmanager
+-   **`yt-dlp`**: download videos
+-   **`spotdl`**: download spotify playlists
+-   **`flatpak`**: cross-platform apps
+-   **`bat`**: replacement for `cat` and pager for `man`
+-   **`fd`**: replacement for `find`
+-   **`ripgrep`**: replacement for `grep`
+-   **`delta`**: improved git diff
+-   **`cmatrix`**: showing my friends I'm a real bad hacker
+-   **`ranger`**: file managment
+-   **`ncmpcpp`**: music player
 
 ## 💾 Code editor
 
