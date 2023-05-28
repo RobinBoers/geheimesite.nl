@@ -16,7 +16,7 @@ My current distro of choice is Arch Linux with minimal packages. It keeps my sys
 
 ## 🦊 Webbrowsers
 
-For most of my webbrowsing needs I use Firefox. I absolutely don't like the new proton design, so I reverted it to the old Photon look with css files. I also use this Firefox theme: [https://addons.mozilla.org/en-US/firefox/addon/photon-colors](https://addons.mozilla.org/en-US/firefox/addon/photon-colors)
+For most of my webbrowsing needs I use Firefox. I absolutely don't like the new proton design, so I reverted it to the old Photon look with CSS files (Firefox userchome FTW!). I also use this Firefox theme: [https://addons.mozilla.org/en-US/firefox/addon/photon-colors](https://addons.mozilla.org/en-US/firefox/addon/photon-colors)
 
 I also use Chromium to test my projects in another browser and if I need to use some Chrome-only app or API.
 
@@ -24,21 +24,23 @@ See my [firefox-tweaks](https://github.com/RobinBoers/firefox-tweaks) repo for m
 
 ### Browser extensions
 
--   **Dark reader:** dark mode for websites that don't support it out-of-the-box [](https://addons.mozilla.org/en-US/firefox/addon/darkreader/) [](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)
--   **Don't track me Google:** removes tracking info from links [](https://addons.mozilla.org/en-US/firefox/addon/dont-track-me-google1/) [](https://chrome.google.com/webstore/detail/dont-track-me-google/gdbofhhdmcladcmmfjolgndfkpobecpg?hl=en)
--   **DuckDuckGo Privacy Essentials:** see tracking and privacy info for sites [](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/) [](https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg?hl=en)
--   **Enhancer for YouTube:** remove ads and get cool features [](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/) [](https://chrome.google.com/webstore/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle)
--   **Facebook Container:** uses container tabs to isolate Facebook tracking [](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)
--   **File icons for GitHub:** nice file icons in GitHub [](https://addons.mozilla.org/en-US/firefox/addon/github-file-icons/) [](https://chrome.google.com/webstore/detail/file-icons-for-github-and/ficfmibkjjnpogdcfhfokmihanoldbfe?hl=en)
--   **uBlock origin:** blocks ads :) [](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) [](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en)
--   **Web Archives:** see earlier versions of sites [](https://addons.mozilla.org/en-US/firefox/addon/view-page-archive/) [](https://chrome.google.com/webstore/detail/web-archives/hkligngkgcpcolhcnkgccglchdafcnao?hl=en)
+-   **Dark reader:** dark mode for websites that don't support it out-of-the-box [F](https://addons.mozilla.org/en-US/firefox/addon/darkreader/) [G](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)
+-   **Don't track me Google:** removes tracking info from links [F](https://addons.mozilla.org/en-US/firefox/addon/dont-track-me-google1/) [G](https://chrome.google.com/webstore/detail/dont-track-me-google/gdbofhhdmcladcmmfjolgndfkpobecpg?hl=en)
+-   **DuckDuckGo Privacy Essentials:** see tracking and privacy info for sites [F](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/) [G](https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg?hl=en)
+-   **Enhancer for YouTube:** remove ads and get cool features [F](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/) [G](https://chrome.google.com/webstore/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle)
+-   **Enhanced GitHub:** extra features for GitHub like repo size and download buttons [F](https://addons.mozilla.org/en-US/firefox/addon/enhanced-github/) [G](https://chrome.google.com/webstore/detail/enhanced-github/anlikcnbgdeidpacdbdljnabclhahhmd)
+-   **Facebook Container:** uses container tabs to isolate Facebook tracking [F](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)
+-   **File icons for GitHub:** nice file icons in GitHub [F](https://addons.mozilla.org/en-US/firefox/addon/github-file-icons/) [G](https://chrome.google.com/webstore/detail/file-icons-for-github-and/ficfmibkjjnpogdcfhfokmihanoldbfe?hl=en)
+-   **uBlock origin:** blocks ads :) [F](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) [G](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en)
+-   **Web Archives:** see earlier versions of sites [F](https://addons.mozilla.org/en-US/firefox/addon/view-page-archive/) [G](https://chrome.google.com/webstore/detail/web-archives/hkligngkgcpcolhcnkgccglchdafcnao?hl=en)
 
 ## 🛠️ CLI
 
 My shell is fish. I like the amazing autocomplete and color support it has. I use starship prompt because it requires no configuration at all, looks amazing and works for all shells (meaning my shell looks the same if I switch to bash for some reason).
 
--   **`gh`**: github CLI
+-   **`gh`**: creating issues/PRs
 -   **`git`**: version control
+-   **`bix`**: wrappper for package managers
 -   **`nvim`**: main text editor
 -   **`htop`**: taskmanager
 -   **`yt-dlp`**: download videos
@@ -50,7 +52,7 @@ My shell is fish. I like the amazing autocomplete and color support it has. I us
 -   **`delta`**: improved git diff
 -   **`cmatrix`**: showing my friends I'm a real bad hacker
 -   **`ranger`**: file managment
--   **`ncmpcpp`**: music player
+-   **`phploy`**: revision based deployment using git
 
 ## 💾 Code editor
 
@@ -94,15 +96,15 @@ These are the GUI apps I use on a day to day basis:
 
 -   **Thunderbird:** Mail and IRC client
 -   **Rofi:** Desktop and run launcher
--   **Alacritty:** Terminal emulator
--   **MPD & `ncmpcpp`:** Music player
--   **Discord:** Chatting
+-   **Kitty:** Terminal emulator
+-   **Spotify Web**: Music :D
+-   **Element:** Chatting
 -   **Feh:** Image viewer & wallpaper setter
 -   **FileZilla:** FTP client
 -   **Portmaster:** Firewall
 -   **VLC media player:** Media player
 -   **Lockwise:** Password manager
--   **Tofu:** 2FA authenticator
+-   **Aegis**: 2FA authenticator
 
 ## 👀 Mentioned
 
