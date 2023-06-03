@@ -40,13 +40,22 @@
 
             $year = $_GET['y'];
             $month = $_GET['m'];
+            $total = isset($_GET['total']);
 
             if($year == "") $year = date("Y");
             if($month == "") $month = date("m");
 
-            $current_month = "$year-$month-01";
-            $monthly_query = "SELECT * FROM viewcount WHERE month='$current_month'";
-            $result = $conn->query($monthly_query);
+            $selected_month = "$year-$month-01";
+            $monthly_query = "SELECT * FROM viewcount WHERE month='$selected_month'";
+            $total_query = "SELECT * FROM viewcount";
+
+            if($total) {
+                $query = $total_query;
+            } else {
+                $query = $monthly_query;
+            }
+
+            $result = $conn->query($query);
 
             $data = new stdClass();
             $monthly_views = 0;
@@ -56,7 +65,7 @@
                     $monthly_views += $row->views;
 
                     $url = $row->url;
-                    $data->$url = $row->views;
+                    $data->$url += $row->views;
             } }
 
             $total_query = "SELECT * FROM viewcount";
@@ -67,6 +76,14 @@
             } }
 
             $data = json_encode($data);
+
+            function statsURLForMonth($month) {
+                return explode("?", $_SERVER['REQUEST_URI'])[0] . "?m=" . date("m", $month) . "&y=" . date("Y", $month);
+            }
+
+            function statsURLForTotal() {
+                return explode("?", $_SERVER['REQUEST_URI'])[0] . "?total";
+            }
         ?>
     </head>
     <body>
@@ -89,20 +106,60 @@
         </header>
         <main id="content" class="page-content mt-0 md:mt-6">
             <section>
-                <h1>Blog statistics</h1>
+                <h1 class="mb-0">Blog statistics</h1>
                 <p>
-                    Showing stats for <span class="bold">Webdevelopment-En-Meer</span> from <?= date("$year-$month"); ?> using data from PhpMyAdmin.
+                    <?php 
+                        if(!$total) {
+                            ?>
+                                <small class="supplement">
+                                    (<a href='<?= statsURLForTotal() ?>'
+                                    >switch to total view</a>)
+                                </small>
+                            <?php
+                        } else {
+                            ?>
+                                <small class="supplement">
+                                    (<a href='<?= statsURLForMonth(strtotime($selected_month)) ?>'
+                                    >switch to monthly view</a>)
+                                </small>
+                            <?php
+                        }
+                    ?>
                 </p>
 
                 <p>
-                    Views this month: <span class="bold"><?= $monthly_views ?></span><br>
-                    Total views: <span class="bold"><?= $total_views ?></span>
+                    Showing stats for <span class="bold">Webdevelopment-En-Meer</span> from <?php if(!$total) { echo date("$year-$month"); } else { echo "all time"; } ?> using data from PhpMyAdmin.
                 </p>
 
                 <p>
-                    <?php $previous_month = strtotime('-1 month', strtotime($current_month)) ?>
+                    Views this month: <span class="bold"><?php if(!$total) { echo $monthly_views; } else { echo "??"; } ?></span><br>
+                    Total views: <span class="bold"><?= $total_views ?></span> 
+                </p>
 
-                    <a href='<?= explode("?", $_SERVER['REQUEST_URI'])[0] ?>?m=<?= date("m", $previous_month) ?>&y=<?= date("Y", $previous_month) ?>'>View statistics for previous month</a>
+                <p class="supplement">
+                    <?php 
+                        $previous_month = 
+                            strtotime('-1 month', strtotime($selected_month));
+                    ?>
+
+                    <a href='<?= statsURLForMonth($previous_month) ?>'>
+                        ← Previous month
+                    </a>
+
+                    <?php 
+                        $current_month = date("Y-m-d");
+
+                        if($selected_month != $current_month) {
+                            $next_month = 
+                                strtotime('+1 month', strtotime($selected_month));
+
+                            ?>
+                             | <a href='<?= statsURLForMonth($next_month) ?>'>
+                                Next month →
+                               </a>
+                            <?php
+                        }
+                    ?>
                 </p>
 
                 <h3>Views per post</h3>
@@ -137,7 +194,7 @@
                 const data = {
                     labels: urls,
                     datasets: [{
-                        label: 'Views per page',
+                        label: 'Views per post',
                         data: views,
                         backgroundColor: colors,
                         hoverOffset: 4
