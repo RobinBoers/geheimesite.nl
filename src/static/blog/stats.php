@@ -44,7 +44,7 @@
             if($year == "") $year = date("Y");
             if($month == "") $month = date("m");
 
-            $current_month = date("$year-$month-01");
+            $current_month = "$year-$month-01";
             $monthly_query = "SELECT * FROM viewcount WHERE month='$current_month'";
             $result = $conn->query($monthly_query);
 
