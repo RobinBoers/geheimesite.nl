@@ -38,8 +38,11 @@
         <?php
             include "connection.php";
 
-            $year = $_GET['y'] || "Y";
-            $month = $_GET['m'] || "m";
+            $year = $_GET['y'];
+            $month = $_GET['m'];
+
+            if($year == "") $year = date("Y");
+            if($month == "") $month = date("m");
 
             $current_month = date("$year-$month-01");
             $monthly_query = "SELECT * FROM viewcount WHERE month='$current_month'";
@@ -97,9 +100,9 @@
                 </p>
 
                 <p>
-                    <?php $previous_month = strtotime('-1 month', $current_month) ?>
+                    <?php $previous_month = strtotime('-1 month', strtotime($current_month)) ?>
 
-                    <a href='<?= explode("?", $_SERVER['REQUEST_URI'])[0] ?>?m=<?php date("m", $previous_month) ?>&y=<?php date("Y", $previous_month) ?>'>View statistics for previous month</a>
+                    <a href='<?= explode("?", $_SERVER['REQUEST_URI'])[0] ?>?m=<?= date("m", $previous_month) ?>&y=<?= date("Y", $previous_month) ?>'>View statistics for previous month</a>
                 </p>
 
                 <h3>Views per post</h3>
