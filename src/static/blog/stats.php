@@ -38,7 +38,10 @@
         <?php
             include "connection.php";
 
-            $current_month = date('Y-m-01');
+            $year = $_GET['y'] || "Y";
+            $month = $_GET['m'] || "m";
+
+            $current_month = date("$year-$month-01");
             $monthly_query = "SELECT * FROM viewcount WHERE month='$current_month'";
             $result = $conn->query($monthly_query);
 
@@ -85,12 +88,18 @@
             <section>
                 <h1>Blog statistics</h1>
                 <p>
-                    Showing stats for <span class="bold">Webdevelopment-En-Meer</span> from <?= date('Y-m'); ?> using data from PhpMyAdmin.
+                    Showing stats for <span class="bold">Webdevelopment-En-Meer</span> from <?= date("$year-$month"); ?> using data from PhpMyAdmin.
                 </p>
 
                 <p>
                     Views this month: <span class="bold"><?= $monthly_views ?></span><br>
                     Total views: <span class="bold"><?= $total_views ?></span>
+                </p>
+
+                <p>
+                    <?php $previous_month = strtotime('-1 month', $current_month) ?>
+
+                    <a href='<?= explode("?", $_SERVER['REQUEST_URI'])[0] ?>?m=<?php date("m", $previous_month) ?>&y=<?php date("Y", $previous_month) ?>'>View statistics for previous month</a>
                 </p>
 
                 <h3>Views per post</h3>
