@@ -20,10 +20,7 @@ Additionally I play handball and I have a (long-forgotten) [YouTube channel](htt
 
 <span hidden>Related pages</span> {{< empty-icon label="Uses" url="/en/setup" >}} {{< empty-icon label="Now" url="/en/now" >}} {{< empty-icon label="Contact" url="/en/contact" >}} {{< empty-icon label="Profile" url="/en/profile" >}}
 
-<div class="flex flex-col lg:flex-row justify-center items-center gap-1 lg:gap-4">
-    <img class="w-full lg:w-auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RobinBoers&layout=compact&title_color=434d58" alt="De meestgebruikte programmeertalen in mijn projecten">
-    <img class="w-full lg:w-auto" src="https://github-readme-stats.vercel.app/api?username=RobinBoers&count_private=true&show_icons=true&hide_title=true" alt="Mijn activiteit op GitHub het afgelopen jaar">
-</div>
+{{< github-chart >}}
 
 {{< hr >}}
 

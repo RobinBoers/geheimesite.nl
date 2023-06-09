@@ -4,6 +4,7 @@
     --foreground: 19, 19, 36; /* #131324 */
     --background: 243, 248, 255; /* #f3f8ff */
     --primary: 255, 77, 121; /* #ff4d79  */
+    /* Don't forget to update this color in github-chart.html too */
 
     --enable-code-blocks: ;
 
