@@ -75,6 +75,9 @@
                 $total_views += $row->views;
             } }
 
+            // Add views from old Blogger-based blog
+            $total_views += 3804;
+
             $data = json_encode($data);
 
             function statsURLForMonth($month) {
