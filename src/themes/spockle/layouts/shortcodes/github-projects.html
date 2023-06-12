@@ -1,0 +1,40 @@
+<ul class="project-grid">
+    {{ $projects := getJSON
+    "https://api.github.com/users/RobinBoers/repos?per_page=500" }} 
+    
+    {{ range sort $projects "forks" "desc" }} 
+        {{ $repo_name := .name }}
+        {{ if (and (not .archived) (not .fork) (not (in $.Site.Data.projects.blacklist $repo_name))) }}
+            <li>
+                <h3>{{ $repo_name }}</h3>
+
+                <a href="{{ with .homepage }}{{ . }}{{ else }}{{ .html_url }}{{ end }}">
+
+                    {{ with resources.GetRemote (printf "https://raw.githubusercontent.com/RobinBoers/%s/master/screenshot.png" $repo_name) }}
+
+                        {{ $image := .Content | resources.FromString (printf "assets/images/projects/%s.webp" $repo_name)}}
+                        {{ with $image.Resize "800x450 webp" }}
+
+                            <img
+                                src="{{ .RelPermalink }}"
+                                alt="{{ $repo_name }}" />
+
+                        {{ end }}
+
+                    {{ else }}
+
+                        {{ $image := resources.Get "assets/images/projects/missing.png" }}
+
+                        {{ $image :=  $image.Content | resources.FromString "assets/images/projects/missing.webp" }}
+                        {{ $image :=  $image.Resize (printf "%dx%d webp" $image.Width $image.Height) }}
+
+                        <img
+                            src="{{ $image.RelPermalink }}"
+                            alt="{{ $repo_name }}" />
+
+                    {{ end }}
+                </a>
+            </li>
+        {{ end }} 
+    {{ end }}
+</ul>
