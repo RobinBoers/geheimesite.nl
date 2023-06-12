@@ -7,4 +7,4 @@ Dit is een heel simpel commandline control center voor Ubuntu/Debian. Je kan er 
 
 <span hidden>Post information</span> {{< github-icon repo="termitools" >}}
 
-{{< screenshot repo="termitools" >}}
+{{< screenshot repo="RobinBoers/termitools" >}}

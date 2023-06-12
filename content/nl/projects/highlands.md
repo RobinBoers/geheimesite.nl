@@ -19,4 +19,4 @@ Het datapack voegd een hele dimensie toe, met nieuwe items, mobs, biomes en stru
 
 <span hidden>Post information</span> {{< github-icon repo="MushroomHighlands" >}}
 
-{{< screenshot repo="MushroomHighlands" >}}
+{{< screenshot repo="RobinBoers/MushroomHighlands" >}}

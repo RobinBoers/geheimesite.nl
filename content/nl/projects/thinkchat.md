@@ -18,4 +18,4 @@ Ik heb ooit het doel gesteld ook voice-calling te bouwen, maar toen ik erachter 
 
 <span hidden>Post information</span> {{< github-icon repo="thinkchat" >}}
 
-{{< screenshot repo="thinkchat" >}}
+{{< screenshot repo="RobinBoers/thinkchat" >}}

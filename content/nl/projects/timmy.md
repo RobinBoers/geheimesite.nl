@@ -9,4 +9,4 @@ De bot werkt zo: je opent het uitvoerbare bestand, en dan ga je naar <code class
 
 <span hidden>Post information</span> {{< github-icon repo="Timmy" >}}
 
-{{< screenshot repo="Timmy" >}}
+{{< screenshot repo="RobinBoers/Timmy" >}}

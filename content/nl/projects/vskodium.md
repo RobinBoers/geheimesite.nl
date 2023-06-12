@@ -24,4 +24,4 @@ Deze dingen zouden misschien mogelijk een soortvan klein beetje kunnen werken in
 
 <span hidden>Post information</span> {{< demo-icon url="/projects/VSKodium/" >}} {{< github-icon repo="VSKodium" >}}
 
-{{< screenshot repo="VSKodium" >}}
+{{< screenshot repo="RobinBoers/VSKodium" >}}

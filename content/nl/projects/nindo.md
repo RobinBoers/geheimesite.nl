@@ -70,4 +70,4 @@ Helaas leed dit project aan hetzelfde probleem als het originele Nindo. Het was 
 
 Het moraal van dit verhaal? Als je dingen wil leren, bouw ze gewoon. Het maakt niet uit of het uiteindelijk schaalt of te onderhouden is, zolang je er maar lol mee hebt en er iets van leert. Misschien zal ik ooit wel een nieuwe versie van Nindo bouwen, al betwijfel ik of ik het Nindo zou noemen. Maar van de eerste twee iteraties heb ik in ieder geval veel geleerd.
 
-{{< screenshot repo="nindo-phx" >}}
+{{< screenshot repo="RobinBoers/nindo-phx" >}}

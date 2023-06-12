@@ -1,5 +1,5 @@
 {{ $repo := .Get "repo" }}
-{{ $image_url := (printf "https://raw.githubusercontent.com/RobinBoers/%s/master/screenshot.png" $repo) }}
+{{ $image_url := (printf "https://raw.githubusercontent.com/%s/master/screenshot.png" $repo) }}
 
 {{ $image := resources.GetRemote $image_url  }}
 {{ $image := $image.Content | resources.FromString (printf "assets/images/screenshots/%s.webp" $repo) }}

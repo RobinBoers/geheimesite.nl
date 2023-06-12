@@ -13,4 +13,4 @@ Dit is een bot die ik voor de discordserver van mij en mijn vrienden heb gemaakt
 
 <span hidden>Post information</span> {{< github-icon repo="MrEmous2" >}}
 
-{{< screenshot repo="MrEmous2" >}}
+{{< screenshot repo="RobinBoers/MrEmous2" >}}

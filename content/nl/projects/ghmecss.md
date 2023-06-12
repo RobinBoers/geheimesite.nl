@@ -9,4 +9,4 @@ Ik gebruik ghme.css in het grootste deel van de websites die ik tegenwoordig voo
 
 <span hidden>Post information</span>  {{< demo-icon repo="https://docs.geheimesite.nl/ghme.css" >}} {{< github-icon repo="ghme.css" >}}
 
-{{< screenshot repo="ghme.css" >}}
+{{< screenshot repo="RobinBoers/ghme.css" >}}

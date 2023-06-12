@@ -362,7 +362,7 @@ The `alt` attribute holds a text description of the image, which is required to 
 
 Images are presented full-width, and must be encapsulated in a `figure` element:
 
-{{< screenshot repo="VSKodium" >}}
+{{< screenshot repo="RobinBoers/VSKodium" >}}
 
 ### Inline frame
 

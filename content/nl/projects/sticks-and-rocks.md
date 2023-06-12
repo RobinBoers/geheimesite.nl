@@ -9,4 +9,4 @@ De game is gemaakt met Javascript, HTML en CSS. Dat zijn de talen waarmee ik ook
 
 <span hidden>Post information</span> {{< link-icon url="https://blog.geheimesite.nl/2021/02/mijn-eerste-goede-game.html" label="Blogpost" >}} {{< itch-icon project="sticks-and-rocks" >}}
 
-{{< screenshot repo="sticks-and-rocks" >}}
+{{< screenshot repo="RobinBoers/sticks-and-rocks" >}}

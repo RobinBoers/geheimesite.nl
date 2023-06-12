@@ -13,4 +13,4 @@ Omdat ik onder een steen leef kwam ik daar pas in 2021 achter. Maar toen ik er a
 
 <span hidden>Post information</span> {{< demo-icon url="https://code.geheimesite.nl/beta/mclassic.js" >}} {{< github-icon repo="js0.23-improved" >}}
 
-{{< screenshot repo="js0.23-improved" >}}
+{{< screenshot repo="RobinBoers/js0.23-improved" >}}

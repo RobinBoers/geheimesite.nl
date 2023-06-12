@@ -7,4 +7,4 @@ Spaceshooter.js is een simpel 3D spel dat ik heb gebouwd om te spelen met ThreeJ
 
 <span hidden>Post information</span> {{< github-icon repo="spaceshooter.js" >}}
 
-{{< screenshot repo="spaceshooter.js" >}}
+{{< screenshot repo="RobinBoers/spaceshooter.js" >}}

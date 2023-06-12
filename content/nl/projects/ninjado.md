@@ -15,4 +15,4 @@ De game heeft een singleplayer versie (met andere sprites) die nog simpler is. D
 
 <span hidden>Post information</span> {{< demo-icon url="https://code.geheimesite.nl/beta/NinjaDO/singleplayer" >}} {{< github-icon repo="NinjaDO" >}}
 
-{{< screenshot repo="NinjaDO" >}}
+{{< screenshot repo="RobinBoers/NinjaDO" >}}

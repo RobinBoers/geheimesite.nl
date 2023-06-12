@@ -9,4 +9,4 @@ Het mooie is dat het de GitHub REST API gebruikt, dus geen enkele API tokens of 
 
 <span hidden>Post information</span> {{< demo-icon url="https://docs.geheimesite.nl/ToBoo" >}} {{< github-icon repo="ToBoo" >}}
 
-{{< screenshot repo="ToBoo" >}}
+{{< screenshot repo="RobinBoers/ToBoo" >}}
