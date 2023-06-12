@@ -22,9 +22,14 @@
         "page": "/projects/sharefox"
     },
     {
-        "name": "Hacket",
+        "name": "hacket",
         "repo": "libre0b11/hacket",
         "page": "https://github.com/libre0b11/hacket"
+    },
+    {
+        "name": "bix",
+        "repo": "libre0b11/bix",
+        "page": "https://github.com/libre0b11/bix"
     },
     {
         "name": "Nindo",
