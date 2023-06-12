@@ -1,0 +1,12 @@
+---
+title: "Website: De Groene Jeroenen"
+translationKey: website-degroenejeroenen
+---
+
+Dit is de website van mijn moeder. Ze is gepromoveerd, en op deze website heeft ze extra materialen, uitleg en andere dingen over haar studies staan.
+
+Ik heb een mooie layout met tegels gemaakt, die regelijk goed schaalt op mobiel. Ik heb de website met blogger gemaakt (want dat is gratissss), door een custom theme te maken, en handmatig de HTML in te voeren op de pages.
+
+<span hidden>Post information</span> {{< link-icon url="https://degroenejeroenen.nl" label="degroenejeroenen.nl" >}}
+
+{{< figure src="assets/images/websites/degroenejeroenen.png" alt="Screenshot" >}}

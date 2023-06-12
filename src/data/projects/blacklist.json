@@ -1,8 +1,9 @@
 [
     "blogger-theme-collection",
     "api.geheimesite.nl",
-    "ckv",
     "code.geheimesite.nl",
+    "classic.geheimesite.nl",
+    "ckv",
     "FramboxOS",
     "FramboxDesktop",
     "inlogsysteem-php",
@@ -20,7 +21,6 @@
     "phx-example-app",
     "termitools",
     "gtk3-classic",
-    "firefox-tweaks",
     "nindo-nindb",
     "nemo-open-in-vscodium",
     "fast_rss",
@@ -43,5 +43,7 @@
     "robinboers.github.io",
     "informatica-demo-site",
     "photon-thunderbird",
+    "thunderbird-tweaks",
+    "firefox-tweaks",
     "grootmoedersdagboek"
 ]
