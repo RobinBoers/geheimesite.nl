@@ -1,7 +1,7 @@
 [
     {
         "name": "Unlibrary",
-        "image": "unlibrary-logo.png",
+        "image": "unlibrary.png",
         "repo": "unlibrary/reader",
         "page": "/projects/unlibrary"
     },
