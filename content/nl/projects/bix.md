@@ -51,15 +51,15 @@ Als er geen handlers aanwezig zijn probeert bix te raden wat voor soort project 
 
 Daarnaast bevat bix ook wrappers voor bepaalde veelgebruikte git commands:
 
-- `bix new <name>` initialiseert een nieuwe repo.
-- `bix link-repo <org/repo>` linkt een nieuwe remote aan de huidige repo.
-- `bix push` runt `git push` en runt daarna de deploy handler[^1] in async.
-- `bix merge <from> <into>` merged de huidige (of `from`) branch in de `into` (meestal master) branch.
+-   `bix new <name>` initialiseert een nieuwe repo.
+-   `bix link-repo <org/repo>` linkt een nieuwe remote aan de huidige repo.
+-   `bix push` runt `git push` en runt daarna de deploy handler[^1] in async.
+-   `bix merge <from> <into>` merged de huidige (of `from`) branch in de `into` (meestal master) branch.
 
 En om werken met git nóg makkelijker te maken, heeft bix ook een Gitea integratie:
 
-- `bix auth gitea` om in te loggen met je Gitea account (de API access token wordt in de keyring opgeslagen).
-- `bix create-repo repo --org=org` maakt een nieuwe repo in je Gitea account (use --org parameter om een organisation account te gebruiken).
+-   `bix auth gitea` om in te loggen met je Gitea account (de API access token wordt in de keyring opgeslagen).
+-   `bix create-repo repo --org=org` maakt een nieuwe repo in je Gitea account (use --org parameter om een organisation account te gebruiken).
 
 En, als je alleen `bix` runt, wordt het "entrypoint" gerunt (momenteel gehardcode naar `.ci/server.sh`). Het zou je app moeten starten.
 

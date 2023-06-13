@@ -11,15 +11,15 @@ Ik werk momenteel nog actief aan dit project, vooral om te leren over hoe talen 
 
 ## Features
 
-- Statically typed
-- Functional
-- Garbage-collected
-- No mutable pointers
-- Recursion
+-   Statically typed
+-   Functional
+-   Garbage-collected
+-   No mutable pointers
+-   Recursion
 
 ## Progress
 
-Ik ben een tijdje geleden begonnen met [een prototype schrijven in Python](https://git.geheimesite.nl/grape-lang/grape.py). De Python interpreter is momenteel 90% werkend. Het enige dat nog mist is het statically-typed aspect. Verder wordt recursive functions ingeperkt door het Python recursion limit en is het echt f*cking sloom! Daarnaast heeft de REPL geen geheugen, wat niet ideaal is.
+Ik ben een tijdje geleden begonnen met [een prototype schrijven in Python](https://git.geheimesite.nl/grape-lang/grape.py). De Python interpreter is momenteel 90% werkend. Het enige dat nog mist is het statically-typed aspect. Verder wordt recursive functions ingeperkt door het Python recursion limit en is het echt f\*cking sloom! Daarnaast heeft de REPL geen geheugen, wat niet ideaal is.
 
 Daarom heb ik plannen de interpreter te [herschrijven in Rust](https://git.geheimesite.nl/grape-lang/grape.rs). Het doel is om hierbij typing en een import/modules systeem te introduceren.
 
