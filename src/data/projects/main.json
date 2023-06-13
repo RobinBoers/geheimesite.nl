@@ -17,14 +17,14 @@
     },
     {
         "name": "Sharefox",
-        "image": "sharefox-logo.png",
+        "image": "sharefox-homepage.png",
         "repo": "qdentity/sharefox",
         "page": "/projects/sharefox"
     },
     {
         "name": "hacket",
         "repo": "libre0b11/hacket",
-        "page": "https://github.com/libre0b11/hacket"
+        "page": "/projects/hacket"
     },
     {
         "name": "bix",
