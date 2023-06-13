@@ -75,7 +75,7 @@
         "name": "SkyLight",
         "repo": "RobinBoers/SkyLight-Website-Editor",
         "page": "/projects/skylight"
-    },    
+    },
     {
         "name": "Sticks and Rocks",
         "repo": "RobinBoers/sticks-and-rocks",
@@ -90,5 +90,5 @@
         "name": "ToBoo",
         "repo": "RobinBoers/ToBoo",
         "page": "/projects/toboo"
-    }    
+    }
 ]

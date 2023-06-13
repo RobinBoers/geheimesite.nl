@@ -13,20 +13,20 @@ Het is single-tenant en selfhosted. Dat betekent dat je het zelf op je eigen ser
 
 Het ingebouwde micropub endpoint ondersteund deze post-types:
 
-- notes
-- replies
-- bookmarks
-- likes
-- reposts
-- photo(s)
+-   notes
+-   replies
+-   bookmarks
+-   likes
+-   reposts
+-   photo(s)
 
 Foto's worden geupload naar een GitHub repository, maar je kan de provider veranderen in `uploader.php` (in de `utils`) directory.
 
 Er worden webmentions verstuurd voor alle bovenstaande post types. Verder kan je de feed filteren:
 
-- per year
-- per tag
-- per post-type
+-   per year
+-   per tag
+-   per post-type
 
 ## Design
 
@@ -38,16 +38,16 @@ De RSS feeds worden dynamisch opgebouwd met de data uit de JSON feed van het hui
 
 Je kan zelf neopub hosten als je microblog. Je hebt deze dingen nodig:
 
-- PHP 7.4.3
-- Apache (met support voor `.htaccess`)
+-   PHP 7.4.3
+-   Apache (met support voor `.htaccess`)
 
 Om zelf te hosten:
 
-- Download de [source code](https://github.com/libneopub/neopub)
-- Edit de config in `config.php`
-- Kopieër `utils/token_example.php` naar `utils/token.php` en voeg je GitHub API token toe. Dit is alleen nodig als je foto's wil plaatsen en GitHub als host wil gebruiken.
-- Installeer een theme
-- Optioneel [neoblog](https://github.com/libneopub/neoblog) installeren om je microblog met een GUI te managen. **Dit is nog steeds een WIP. Gebruik op eigen risico.**
+-   Download de [source code](https://github.com/libneopub/neopub)
+-   Edit de config in `config.php`
+-   Kopieër `utils/token_example.php` naar `utils/token.php` en voeg je GitHub API token toe. Dit is alleen nodig als je foto's wil plaatsen en GitHub als host wil gebruiken.
+-   Installeer een theme
+-   Optioneel [neoblog](https://github.com/libneopub/neoblog) installeren om je microblog met een GUI te managen. **Dit is nog steeds een WIP. Gebruik op eigen risico.**
 
 ## Themes
 

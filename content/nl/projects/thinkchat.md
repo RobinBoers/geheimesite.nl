@@ -9,12 +9,12 @@ Ik heb ooit het doel gesteld ook voice-calling te bouwen, maar toen ik erachter 
 
 ## Features
 
-- Meerdere rooms
-- PWA
-- Lijst met mensen die online zijn
-- Sla je username op in localStorage
-- Gekleurde usernames met random discriminators
-- Dark/light themes
+-   Meerdere rooms
+-   PWA
+-   Lijst met mensen die online zijn
+-   Sla je username op in localStorage
+-   Gekleurde usernames met random discriminators
+-   Dark/light themes
 
 <span hidden>Post information</span> {{< github-icon repo="thinkchat" >}}
 
