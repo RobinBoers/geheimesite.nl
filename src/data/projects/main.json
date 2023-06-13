@@ -8,7 +8,7 @@
     {
         "name": "Grape",
         "repo": "grape-lang/grape.py",
-        "page": "https://github.com/grape-lang/grape.py"
+        "page": "/projects/grape"
     },
     {
         "name": "neopub",
@@ -29,7 +29,7 @@
     {
         "name": "bix",
         "repo": "libre0b11/bix",
-        "page": "https://github.com/libre0b11/bix"
+        "page": "/projects/bix"
     },
     {
         "name": "Nindo",
