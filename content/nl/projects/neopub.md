@@ -53,6 +53,6 @@ Om zelf te hosten:
 
 Je kan neopub themen met CSS files (aka het `main.css` file in de `assets` directory aanpassen). Ik heb een aantal themes gemaakt: <https://libneopub.github.io/themes/>.
 
-<span hidden>Post information</span> {{< github-icon repo="MrEmous2" >}}
+<span hidden>Post information</span> {{< gitea-icon repo="neopub/neopub" >}}
 
 {{< screenshot repo="libneopub/neopub" >}}

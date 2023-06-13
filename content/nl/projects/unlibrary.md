@@ -9,6 +9,6 @@ Omdat Unlibrary gebruik maakt van Elixir en erlang, is het snel, reliable en sta
 
 Unlibrary is nog een heel jong project, en daarom werkt eigenlijk nog niks. De base is nu ongeveer af, maar de CLI zal herschreven moeten worden, en ik ben bang dat ik het web project gewoon weg ga moeten gooien.
 
-<span hidden>Post information</span> {{< github-icon repo="unlibrary/reader" >}}
+<span hidden>Post information</span> {{< gitea-icon repo="unlibrary/reader" >}}
 
 {{< figure src="assets/images/projects/unlibrary.png" alt="Screenshot" >}}

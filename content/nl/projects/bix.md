@@ -78,4 +78,4 @@ set BIX_GITEA_API_BASE          "https://gitea.your.host/api/v1"
 
 [^1]: Ik run mijn CI/CD lokaal omdat ik het zat was GitHub actions in te stellen als alles lokaal al werkt.
 
-<span hidden>Post information</span> {{< github-icon repo="libre0b11/bix" >}}
+<span hidden>Post information</span> {{< gitea-icon repo="libre0b11/bix" >}}

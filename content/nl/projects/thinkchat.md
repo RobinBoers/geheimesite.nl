@@ -16,6 +16,6 @@ Ik heb ooit het doel gesteld ook voice-calling te bouwen, maar toen ik erachter 
 -   Gekleurde usernames met random discriminators
 -   Dark/light themes
 
-<span hidden>Post information</span> {{< github-icon repo="thinkchat" >}}
+<span hidden>Post information</span> {{< gitea-icon repo="RobinBoers/thinkchat" >}}
 
 {{< screenshot repo="RobinBoers/thinkchat" >}}

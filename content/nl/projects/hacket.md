@@ -9,6 +9,6 @@ Het is basically een volledige rewrite van [Nindo](/projects/nindo), maar dan zo
 
 De UI is zo minimaal nodig en geinspireerd door [hacker news](https://news.ycombinator.com/), [Old Reddit](https://old.reddit.com/), [Micro.blog](https://micro.blog/) en [sourcehut](https://sourcehut.org/).
 
-<span hidden>Post information</span> {{< github-icon repo="libre0b11/hacket" >}}
+<span hidden>Post information</span> {{< gitea-icon repo="libre0b11/hacket" >}}
 
 {{< screenshot repo="libre0b11/hacket" >}}

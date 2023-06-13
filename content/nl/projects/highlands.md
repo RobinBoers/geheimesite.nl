@@ -17,6 +17,6 @@ Het datapack voegd een hele dimensie toe, met nieuwe items, mobs, biomes en stru
 6.  Als je terug wil spring je gewoon van de eilanden af, de void in
 7.  Je valt de overworld weer in
 
-<span hidden>Post information</span> {{< github-icon repo="MushroomHighlands" >}}
+<span hidden>Post information</span> {{< gitea-icon repo="RobinBoers/MushroomHighlands" >}}
 
 {{< screenshot repo="RobinBoers/MushroomHighlands" >}}

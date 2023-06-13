@@ -13,6 +13,6 @@ De game heeft een server en een client. De server app download je en run je op j
 
 De game heeft een singleplayer versie (met andere sprites) die nog simpler is. Die vind je in de [singleplayer branch](https://github.com/RobinBoers/NinjaDO/tree/singleplayer). Als je wil kan je de [live demo](https://code.geheimesite.nl/beta/NinjaDO/singleplayer) spelen. Er is alleen naast rondlopen niks te doen.
 
-<span hidden>Post information</span> {{< demo-icon url="https://code.geheimesite.nl/beta/NinjaDO/singleplayer" >}} {{< github-icon repo="NinjaDO" >}}
+<span hidden>Post information</span> {{< demo-icon url="https://code.geheimesite.nl/beta/NinjaDO/singleplayer" >}} {{< gitea-icon repo="RobinBoers/NinjaDO" >}}
 
 {{< screenshot repo="RobinBoers/NinjaDO" >}}

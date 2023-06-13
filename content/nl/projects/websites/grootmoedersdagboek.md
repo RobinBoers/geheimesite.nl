@@ -9,6 +9,6 @@ Ik heb ook voor dit blog een custom blogger template gemaakt. De site is geinspi
 
 [Meer over Sterrenkruid weten?](/projects/websites/sterrenkruid)
 
-<span hidden>Post information</span> {{< link-icon url="https://grootmoedersdagboek.blogspot.com" label="grootmoedersdagboek.blogspot.com" >}} {{< github-icon repo="sterrenkruid" >}}
+<span hidden>Post information</span> {{< link-icon url="https://grootmoedersdagboek.blogspot.com" label="grootmoedersdagboek.blogspot.com" >}} {{< github-icon repo="grootmoedersdagboek" >}}
 
 {{< figure src="assets/images/websites/grootmoedersdagboek.png" alt="Screenshot" >}}

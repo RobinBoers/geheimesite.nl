@@ -11,6 +11,6 @@ Toen Minecraft in 2019 tien jaar oud werd heeft Mojang een remake van [Minecraft
 
 Omdat ik onder een steen leef kwam ik daar pas in 2021 achter. Maar toen ik er achter kwam ben ik meteen begonnen met het modden van de game (die ook wel js0.23 wordt genoemd). Ik heb onder andere een menuscherm, verbeterde muiscontrols, veborgen credits scherm, seeds, custom commands, vliegmodus en wat andere dingen toegevoegd. Ik heb er ook een Electron app van gemaakt zodat je het offline, direct op je computer kan spelen.
 
-<span hidden>Post information</span> {{< demo-icon url="https://code.geheimesite.nl/beta/mclassic.js" >}} {{< github-icon repo="js0.23-improved" >}}
+<span hidden>Post information</span> {{< demo-icon url="https://code.geheimesite.nl/beta/mclassic.js" >}} {{< gitea-icon repo="RobinBoers/js0.23-improved" >}}
 
 {{< screenshot repo="RobinBoers/js0.23-improved" >}}

@@ -22,6 +22,6 @@ Deze dingen zouden misschien mogelijk een soortvan klein beetje kunnen werken in
 
 -   WebUSB om met apparaten zoals een micro:bit of Arduino te verbinden
 
-<span hidden>Post information</span> {{< demo-icon url="/projects/VSKodium/" >}} {{< github-icon repo="VSKodium" >}}
+<span hidden>Post information</span> {{< demo-icon url="/projects/VSKodium/" >}} {{< gitea-icon repo="RobinBoers/VSKodium" >}}
 
 {{< screenshot repo="RobinBoers/VSKodium" >}}
