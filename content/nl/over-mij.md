@@ -16,7 +16,8 @@ weight: 2
     <img class="w-full h-60 mb-5 lg:rotate-1 rounded-xl aspect-square object-cover object-right-top lg:mb-0 lg:h-fit lg:w-1/5" src="/assets/images/me-optimized.webp" alt="Dit ben ik">
 </div>
 
-Verder speel ik handbal en heb ik een [YouTube kanaal](https://www.youtube.com/channel/UCx4li1iMygs5KtqgcU5KGRw), waar ik video's maak over onder andere programmeren, video-editten en andere dingen die ik interrestant vind.  
+Verder speel ik handbal bij [SC Twist](https://www.sctwist.nl) en houd ik van fietsen.
+
 Ook heb ik een [GitHub account](https://github.com/RobinBoers) waar ik de meeste van mijn projecten op zet met open-source licenties.
 
 <span hidden>Gerelateerde pagina's</span> {{< empty-icon label="Uses" url="/setup" >}} {{< empty-icon label="Now" url="/now" >}} {{< empty-icon label="Contact" url="/contact" >}} {{< empty-icon label="Profiel" url="/profiel" >}}
@@ -29,9 +30,13 @@ Ook heb ik een [GitHub account](https://github.com/RobinBoers) waar ik de meeste
 
 Ik programmeer al sinds groep 7 (2017). Ik ben ermee begonnen omdat ik in de bieb een boek zag staan over website's maken. Nu moet je weten dat ik al sinds groep 4 zo'n computernerd was, die van elk knopje wist wat het deed. Het boek heette [Creeëren met code: Zo maak je een website](https://web.archive.org/web/20220625081814/http://nano-tips.com/). Dus ik maakte een website, die eind 2017 online kwam. Ik hield enorm veel van geheim agenten, dus de eerste versies (tot versie 9) gingen daar ook over. Je kunt die versies in mijn [Website Library](/website/overview) zien.
 
-Nadat ik mijn eerste website had gemaakt ben ik naar CoderDojo gegaan. Dat is een soort bijeenkomst die hier in Maassluis om de vier weken is, waar kinderen kunnen leren programmeren, en elkaar daarbij kunnen helpen. Ik heb op CoderDojo geleerd hoe PHP en databases werken, waarmee ik wat gave dingen heb gebouwd.
+## Skills
 
-Ik verdiep me momenteel verder in Linux, Elixir end Phoenix LiveView. Ik post op mijn blog regelmatig updates over wat ik maak, leer en doe. Ik probeer altijd te blijven leren.
+Ik ben vooral goed in het bouwen van websites, zowel frontend als backend. Ik ben comfortabel met HTML, CSS, Javascript en PHP. Daarnaast heb ik bij Qdentity super coole dynamische websites leren bouwen met Elixir en Phoenix LiveView.
+
+Verder kan ik overweg met [Phaser](https://phaser.io) en [ThreeJS](https://threejs.org). Ik probeer me momenteel te bekwamen in [Rust](https://www.rust-lang.org) en andere low-level talen. Verder wil ik graag meer leren over [programming language design](https://git.geheimesite.nl/grape-lang) en Android app design.
+
+Ik post op mijn blog regelmatig updates over wat ik maak, leer en doe. Ik probeer altijd te blijven leren.
 
 ## Over de site
 
@@ -44,7 +49,7 @@ Mijn website is gebouwd met [Hugo](https://gohugo.io) en wordt gehost bij [bHost
 ## Contact
 
 Wil je me een bericht sturen?  
-Dit is een van mijn 6 e-mailadressen: hello@geheimesite.nl  
+Dit is een van mijn 6 e-mailadressen: <hello@geheimesite.nl>  
 Je kunt ook het onderstaande contactformulier invullen.
 
 {{< contact-form >}}
