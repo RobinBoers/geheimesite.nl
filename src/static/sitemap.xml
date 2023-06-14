@@ -70,7 +70,32 @@
   </url>
   <url>
     <loc>
-      https://geheimesite.nl/projects/skylight</loc>
+      https://geheimesite.nl/projects/unlibrary</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>
+      https://geheimesite.nl/projects/grape</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>
+      https://geheimesite.nl/projects/neopub</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>
+      https://geheimesite.nl/projects/sharefox</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>
+      https://geheimesite.nl/projects/hacket</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>
+      https://geheimesite.nl/projects/bix</loc>
     <priority>0.70</priority>
   </url>
   <url>
@@ -95,12 +120,17 @@
   </url>
   <url>
     <loc>
-      https://geheimesite.nl/projects/mclassic</loc>
+      https://geheimesite.nl/projects/ninjado</loc>
     <priority>0.70</priority>
   </url>
   <url>
     <loc>
-      https://geheimesite.nl/projects/ninjado</loc>
+      https://geheimesite.nl/projects/spaceshooter.js</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>
+      https://geheimesite.nl/projects/mclassic</loc>
     <priority>0.70</priority>
   </url>
   <url>
@@ -110,17 +140,27 @@
   </url>
   <url>
     <loc>
+      https://geheimesite.nl/projects/skylight</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>
       https://geheimesite.nl/projects/sticks-and-rocks</loc>
     <priority>0.70</priority>
   </url>
   <url>
     <loc>
-      https://geheimesite.nl/projects/websites/groendoenerij</loc>
+      https://geheimesite.nl/projects/thinkchat</loc>
     <priority>0.70</priority>
   </url>
   <url>
     <loc>
-      https://geheimesite.nl/projects/websites/sterrenkruid</loc>
+      https://geheimesite.nl/projects/ghmecss</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>
+      https://geheimesite.nl/projects/toboo</loc>
     <priority>0.70</priority>
   </url>
   <url>
@@ -130,7 +170,32 @@
   </url>
   <url>
     <loc>
+      https://geheimesite.nl/projects/websites/degroentemeester</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>
+      https://geheimesite.nl/projects/websites/sterrenkruid</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>
+      https://geheimesite.nl/projects/websites/groendoenerij</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>
+      https://geheimesite.nl/projects/websites/grootmoedersdagboek</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>
       https://geheimesite.nl/projects/websites/thesis</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>
+      https://geheimesite.nl/projects/websites/degroenejeroenen</loc>
     <priority>0.70</priority>
   </url>
   <url>
@@ -141,6 +206,26 @@
   <url>
     <loc>
       https://geheimesite.nl/projects/timmy</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>
+      https://geheimesite.nl/projects/cmd</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>
+      https://geheimesite.nl/projects/code-edit-kit</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>
+      https://geheimesite.nl/projects/mremous2</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>
+      https://geheimesite.nl/projects/termitools</loc>
     <priority>0.70</priority>
   </url>
   <url>

@@ -12,35 +12,30 @@
         "page": "/projects/websites/degroentemeester"
     },
     {
-        "name": "Groendoenerij",
-        "image": "groendoenerij.png",
-        "url": "https://www.groendoenerij.nl",
-        "page": "/projects/websites/groendoenerij"
-    },
-    {
         "name": "Sterrenkruid",
         "image": "sterrenkruid.png",
         "url": "https://jokessterrenkruid.blogspot.com",
         "page": "/projects/websites/sterrenkruid"
     },
     {
-        "name": "Duurzame Maassluizers",
-        "image": "duurzame-maassluizers.png",
-        "url": "https://duurzamemaassluizers.nl",
-        "page": "/projects/websites/duurzame-maassluizers"
-    },
-    {
-        "name": "Thesis Eveline Boers",
-        "image": "thesis-eveline-boers.png",
-        "url": "https://thesisevelineboers.blogspot.com",
-        "page": "/projects/websites/thesis"
+        "name": "Groendoenerij",
+        "image": "groendoenerij.png",
+        "url": "https://www.groendoenerij.nl",
+        "page": "/projects/websites/groendoenerij"
     },
     {
         "name": "Dagboek van een Grootmoeder",
         "image": "grootmoedersdagboek.png",
         "url": "https://grootmoedersdagboek.blogspot.com",
         "page": "/projects/websites/grootmoedersdagboek"
+    },    
+    {
+        "name": "Thesis Eveline Boers",
+        "image": "thesis-eveline-boers.png",
+        "url": "https://thesisevelineboers.blogspot.com",
+        "page": "/projects/websites/thesis"
     },
+    
     {
         "name": "De Groene Jeroenen",
         "image": "degroenejeroenen.png",
@@ -54,19 +49,25 @@
         "page": "/projects/websites/weij"
     },
     {
+        "name": "Duurzame Maassluizers",
+        "image": "duurzame-maassluizers.png",
+        "url": "https://duurzamemaassluizers.nl",
+        "page": "/projects/websites/duurzame-maassluizers"
+    },
+    {
         "name": "School shtuff",
         "image": "schoolshtuff.png",
         "url": "https://school.geheimesite.nl"
     },
     {
-        "name": "Neolog",
-        "image": "neolog.png",
-        "url": "https://micro.geheimesite.nl"
-    },
-    {
         "name": "Webdevelopment-En-Meer",
         "image": "webdevelopment-en-meer-dark.png",
         "url": "https://blog.geheimesite.nl"
+    },
+    {
+        "name": "Microblog",
+        "image": "neolog.png",
+        "url": "https://micro.geheimesite.nl"
     },
     {
         "name": "Website Library",
