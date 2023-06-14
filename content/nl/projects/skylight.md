@@ -44,7 +44,7 @@ git clone https://github.com/RobinBoers/SkyLight-Website-Editor
 
 Het standaard wachtwoord is root. Je kan het met elke username gebruiken. Ik heb namelijk geen accounts toegevoegd en plan ook niet dat te doen. De username wordt puur gebruikt om te laten zien wie welke post/comment heeft gepost, maar heeft geen andere effecten.
 
-Zie de [installation guide](https://docs.geheimesite.nl/SkyLight-Website-Editor/installation-guide.html) voor meer informatie.
+Zie de [installation guide](https://demo.geheimesite.nl/SkyLight-Website-Editor/installation-guide.html) voor meer informatie.
 
 ## Hulp of suggesties
 
@@ -53,7 +53,7 @@ Wil je helpen met ontwikkelen of heb je een cool idee? Dan kan je me mailen op [
 ## Handige links
 
 -   [Themes](https://github.com/RobinBoers/SkyLight-themelibrary)
--   [Documentatie](https://docs.geheimesite.nl/SkyLight-Website-Editor/)
+-   [Documentatie](https://demo.geheimesite.nl/SkyLight-Website-Editor/)
 -   [Bugtracker](https://github.com/RobinBoers/SkyLight-Website-Editor/issues)
 
 {{< screenshot repo="RobinBoers/SkyLight-Website-Editor" >}}

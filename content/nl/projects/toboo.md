@@ -7,6 +7,6 @@ ToBoo is een To-Do app die gebruikt maakt van GitHub issues. Het is eigenlijk ge
 
 Het mooie is dat het de GitHub REST API gebruikt, dus geen enkele API tokens of wat dan ook nodig heeft.
 
-<span hidden>Post information</span> {{< demo-icon url="https://docs.geheimesite.nl/ToBoo" >}} {{< github-icon repo="ToBoo" >}}
+<span hidden>Post information</span> {{< demo-icon url="https://demo.geheimesite.nl/ToBoo" >}} {{< github-icon repo="ToBoo" >}}
 
 {{< screenshot repo="RobinBoers/ToBoo" >}}
