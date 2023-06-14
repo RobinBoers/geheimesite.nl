@@ -47,11 +47,6 @@ Header set X-Content-Type-Options "nosniff"
 	Header unset Cache-Control
 </FilesMatch>
 
-# Compress files
-<FilesMatch "\.(js|css|html|htm|php|xml|opml)$">
-	SetOutputFilter DEFLATE
-</FilesMatch>
-
 # Shortcuts
 Redirect /framboy /projects/framboy
 Redirect /subscriptions /subscriptions.opml
@@ -108,7 +103,10 @@ RewriteRule ^(.*)$ $1.html
 
 # GZip compression
 <IfModule mod_deflate.c>
-	AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css  application/x-javascript
+    <FilesMatch "\.(js|css|html|htm|php|xml|opml)$">
+        SetOutputFilter DEFLATE
+    </FilesMatch>
+	
 	BrowserMatch ^Mozilla/4 gzip-only-text/html
 	BrowserMatch ^Mozilla/4\.0[678] no-gzip
 	BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
