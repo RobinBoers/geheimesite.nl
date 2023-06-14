@@ -34,6 +34,6 @@ Dit is een oud project wat erg buggy is, en niet meer wordt geüpdate.
 | js.delete        | delete Javascript input                                                  |
 | js.run           | run Javascript input                                                     |
 
-<span hidden>Post information</span> {{< demo-icon url="/projects/commandprompt2" >}}
+<span hidden>Post information</span> {{< demo-icon url="/projects/commandpromt2" >}}
 
 {{< figure src="assets/images/projects/cmd.png" alt="Screenshot" >}}
