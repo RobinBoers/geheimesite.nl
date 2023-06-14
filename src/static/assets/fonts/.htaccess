@@ -1,8 +1,0 @@
-<FilesMatch "\.(ttf|otf|eot|woff|woff2)$">
-    <IfModule mod_headers.c>
-        SetEnvIf Origin "http(s)?://(www\.)?(blog.geheimesite.nl|demo.geheimesite.nl|cdn.geheimesite.nl|nindo.geheimesite.nl|hosted-at.geheimesite.nl|docs.geheimesite.nl|code.geheimesite.nl|localhost:4000)$" AccessControlAllowOrigin=$0
-        Header add Access-Control-Allow-Origin %{AccessControlAllowOrigin}e env=AccessControlAllowOrigin
-        Header add Access-Control-Allow-Methods: "GET"
-        Header merge Vary Origin
-    </IfModule>
-</FilesMatch>
