@@ -22,6 +22,14 @@ Deze dingen zouden misschien mogelijk een soortvan klein beetje kunnen werken in
 
 -   WebUSB om met apparaten zoals een micro:bit of Arduino te verbinden
 
+## Filesystem URL scheme
+
+Je kan de bestanden ook benaderen via het `filesystem:` URL scheme:
+
+```text
+filesystem:https://geheimesite.nl/persistent/[FILE.EXT]
+```
+
 <span hidden>Post information</span> {{< demo-icon url="/projects/VSKodium/" >}} {{< gitea-icon repo="RobinBoers/VSKodium" >}}
 
 {{< screenshot repo="RobinBoers/VSKodium" >}}
