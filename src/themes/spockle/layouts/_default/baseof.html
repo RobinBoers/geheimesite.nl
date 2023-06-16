@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+<html lang="{{ .Site.LanguageCode }}" {{ if eq (now.Format "January") "June" }} class="pride" {{ end }}>
     {{- partial "head.html" . -}}
     <body>
         <a class="skip-nav" href="#content">Skip navigation</a>

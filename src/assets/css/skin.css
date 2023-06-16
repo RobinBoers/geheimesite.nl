@@ -33,6 +33,23 @@ html {
     border-top: 10px solid rgb(var(--primary));
 }
 
+html.pride {
+    border-top-color: transparent;
+    
+    --color1: #fd1892;
+    --color2: #b827fc;
+    --color3: #2c90fc;
+    --color4: #00b7b7;
+    --color5: #b8fd33;
+    --color6: #fec837;
+    --color7: #fd6818;
+    --color8: #fd183a;
+
+    border-image: linear-gradient(to left, var(--color1) 0%, var(--color1) 12.5%, var(--color2) 12.5%, var(--color2) 25%, var(--color3) 25%, var(--color3) 37.5%, var(--color4) 37.5%, var(--color4) 50%, var(--color5) 50%, var(--color5) 62.5%, var(--color6) 62.5%, var(--color6) 75%, var(--color7) 75%, var(--color7) 87.5%, var(--color8) 87.5%);
+
+    border-image-slice: 1;
+}
+
 @media (prefers-color-scheme: dark) {
     html {
         background-image: linear-gradient(
