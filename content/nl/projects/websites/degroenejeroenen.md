@@ -3,9 +3,9 @@ title: "Website: De Groene Jeroenen"
 translationKey: website-degroenejeroenen
 ---
 
-Dit is de website van mijn moeder. Ze is gepromoveerd, en op deze website heeft ze extra materialen, uitleg en andere dingen over haar studies staan.
+Dit is de website van Jeroen Hooijmeijer & Jeroen Verhoeff. Ze leggen natuurtuinen en openbaar groen aan. Ik heb voor hun een simpele WordPress-gebaseerde website met een custom theme opgebouwd.
 
-Ik heb een mooie layout met tegels gemaakt, die regelijk goed schaalt op mobiel. Ik heb de website met blogger gemaakt (want dat is gratissss), door een custom theme te maken, en handmatig de HTML in te voeren op de pages.
+Je kan er hun vergroenblog en contactinformatie vinden ;)
 
 <span hidden>Post information</span> {{< link-icon url="https://degroenejeroenen.nl" label="degroenejeroenen.nl" >}}
 
