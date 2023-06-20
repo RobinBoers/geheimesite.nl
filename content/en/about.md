@@ -32,9 +32,9 @@ I've been programming since group 7 (2017). I got into it because I saw a book a
 
 ## Skills
 
-I'm pretty good at building websites. I'm comfortable with HTML, CSS, Javascript and PHP. Moreover, I learned a lot about building dynamic websites using Elixir and Phoenix LiveView over at Qdentity.
+I'm pretty good at building websites. I'm comfortable with HTML, CSS, Javascript and PHP. Aditionally, I can work well with Linux. Moreover, I learned a lot about building dynamic websites using Elixir and Phoenix LiveView over at Qdentity.
 
-Furthermore, I enjoy working with [Phaser](https://phaser.io) and [ThreeJS](https://threejs.org). I'm currently trying to learn more about [Rust](https://www.rust-lang.org) and other low-level languages. I also want to know a bit more about [programming language design](https://git.geheimesite.nl/grape-lang) and Android app design.
+Furthermore, I enjoy working with [Jamstack](https://jamstack.org), [WordPress](https://wordpress.org), [Phaser](https://phaser.io), and [ThreeJS](https://threejs.org). I'm currently trying to learn more about [Rust](https://www.rust-lang.org) and other low-level languages. I also want to know a bit more about [programming language design](https://git.geheimesite.nl/grape-lang) and Android app design.
 
 I regularly post updates on my blog about my findings. I try to keep learning (because it's fun).
 

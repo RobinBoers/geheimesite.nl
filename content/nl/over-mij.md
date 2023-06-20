@@ -32,9 +32,9 @@ Ik programmeer al sinds groep 7 (2017). Ik ben ermee begonnen omdat ik in de bie
 
 ## Skills
 
-Ik ben vooral goed in het bouwen van websites, zowel frontend als backend. Ik ben comfortabel met HTML, CSS, Javascript en PHP. Daarnaast heb ik bij Qdentity super coole dynamische websites leren bouwen met Elixir en Phoenix LiveView.
+Ik ben vooral goed in het bouwen van websites, zowel frontend als backend. Ik ben comfortabel met HTML, CSS, Javascript en PHP. Ik ook redelijk veel ervaring met Linux. Daarnaast heb ik bij Qdentity super coole dynamische websites leren bouwen met Elixir en Phoenix LiveView.
 
-Verder kan ik overweg met [Phaser](https://phaser.io) en [ThreeJS](https://threejs.org). Ik probeer me momenteel te bekwamen in [Rust](https://www.rust-lang.org) en andere low-level talen. Verder wil ik graag meer leren over [programming language design](https://git.geheimesite.nl/grape-lang) en Android app design.
+Verder kan ik overweg met [Jamstack](https://jamstack.org), [WordPress](https://wordpress.org/), [Phaser](https://phaser.io) en [ThreeJS](https://threejs.org). Ik probeer me momenteel te bekwamen in [Rust](https://www.rust-lang.org) en andere low-level talen. Verder wil ik graag meer leren over [programming language design](https://git.geheimesite.nl/grape-lang) en Android app design.
 
 Ik post op mijn blog regelmatig updates over wat ik maak, leer en doe. Ik probeer altijd te blijven leren.
 
