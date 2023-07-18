@@ -28,10 +28,9 @@
     "bugs": {
         "url": "https://github.com/RobinBoers/geheimesite.nl/issues"
     },
-    "dependencies": {},
     "devDependencies": {
+        "prettier": "^2.7.1",
         "tailwindcss": "^3.0.22",
-        "tailwindcss-opentype": "^1.0.0",
-        "prettier": "^2.7.1"
+        "tailwindcss-opentype": "^1.0.0"
     }
 }

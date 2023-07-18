@@ -5,7 +5,7 @@ translationKey: project-grape
 
 Grape is een general purpose programmmeertaal gemaakt voor rapid-pase prototyping.
 
-Bix is een mix van de chille syntax van Python en Ruby, en het functionele aspect van Elixir en Erlang. Het doel van Bix is om een taal te bieden die een fijne syntax heeft, met de chille features van Elixir, die je kan compilen/razendsnel interpreten via Rust.
+Grape is een mix van de chille syntax van Python en Ruby, en het functionele aspect van Elixir en Erlang. Het doel van Grape is om een taal te bieden die een fijne syntax heeft, met de chille features van Elixir, die je kan compilen/razendsnel interpreten via Rust.
 
 Ik werk momenteel nog actief aan dit project, vooral om te leren over hoe talen werken, en omdat ik deze taal graag zelf wil.
 
