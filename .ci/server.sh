@@ -1,4 +1,4 @@
-#!/bin/fish
+#!/usr/bin/env fish
 # This scripts opens a local webserver at localhost:4000
 # and starts tailwind in the background
 

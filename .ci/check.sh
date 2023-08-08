@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # This script validates generated HTML and checks for broken links.
 
 # Inspired/stolen from WesleyAC/notebook, MIT licensed.

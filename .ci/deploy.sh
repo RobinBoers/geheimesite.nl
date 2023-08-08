@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env fish
 # This script builds and deploys the site via FTP.
 
 bix build
