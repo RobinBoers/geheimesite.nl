@@ -4,9 +4,9 @@ translationKey: project-nindo
 ---
 
 Nindo is een klein social media platform dat ik in 2018-2019 heb gemaakt.  
-Het is een van de grootste codebases waar ik ooit mee heb gewerkt en het was een hele goed leerproject. Er was een website en een webapp.
+Het is een van de grootste codebases waar ik ooit mee heb gewerkt en het was een heel goed leerproject. Er was een website en een webapp.
 
-Het ondersteund posts, likes, vrienden, afbeeldingen, private messages en chatrooms. Ik heb het 1 januari 2021 offline gehaald vanwege inactiviteit. Daarnaast was de codebase zo groot dat het een nachtmerrie was om te onderhouden. Als ik één bestand aanpaste brak het complete platform.
+Het ondersteunt posts, likes, vrienden, afbeeldingen, private messages en chatrooms. Ik heb het 1 januari 2021 offline gehaald vanwege inactiviteit. Daarnaast was de codebase zo groot dat het een nachtmerrie was om te onderhouden. Als ik één bestand aanpaste brak het complete platform.
 
 Je kan het project nog wel op GitHub vinden onder de GPL3 licentie. En als je wilt, en de kennis hebt, mag je het ook zelf hosten. [Bekijk op GitHub](https://github.com/RobinBoers/nindo).
 
