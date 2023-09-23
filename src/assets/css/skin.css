@@ -1,8 +1,11 @@
 @import url("https://cdn.geheimesite.nl/ghme.css");
 
 :root {
-    --foreground: 19, 19, 36; /* #131324 */
-    --background: 243, 248, 255; /* #f3f8ff */
+    --dark: 19, 19, 36; /* #131324 */
+    --light: 243, 248, 255; /* #f3f8ff */
+
+    --foreground: var(--dark);
+    --background: var(--light);
     --primary: 255, 77, 121; /* #ff4d79  */
     /* Don't forget to update this color in github-chart.html too */
 
@@ -23,8 +26,8 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --foreground: 243, 248, 255; /* #f3f8ff */
-        --background: 19, 19, 36; /* #131324 */
+        --foreground: var(--light);
+        --background: var(--dark);
     }
 }
 
@@ -82,23 +85,9 @@ button,
 input[type="button"],
 input[type="submit"],
 input[type="reset"] {
-    color: rgb(var(--background));
+    color: rgb(var(--light));
 }
 
 a:hover {
-    color: var(--background);
-}
-
-@media (prefers-color-scheme: dark) {
-    .button,
-    button,
-    input[type="button"],
-    input[type="submit"],
-    input[type="reset"] {
-        color: rgb(var(--foreground));
-    }
-
-    a:hover {
-        color: var(--foreground);
-    }
+    color: rgb(var(--light));
 }
