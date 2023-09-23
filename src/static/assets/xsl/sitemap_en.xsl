@@ -37,8 +37,19 @@
 						<a href="/en">Robin Boers</a>
 					</p>
 
-					<img src="/assets/images/ui/menu.svg" alt="menu button" class="menu-button"
-						hidden="hidden" />
+					<svg
+							style="display: none"
+							xmlns="http://www.w3.org/2000/svg"
+							class="menu-button my-4"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+							stroke-width="2">
+							<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M4 6h16M4 12h16M4 18h16" />
+					</svg>
 
 					<nav>
 						<ul class="menu">

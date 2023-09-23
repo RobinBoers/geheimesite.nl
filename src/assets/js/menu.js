@@ -20,12 +20,14 @@ window.onresize = () => {
 function resize() {
     if (isMobile()) {
         nav.style.display = "none";
+        button.style.display = "";
 
         moreMenu.style.display = "flex";
         moreMenuHeading.style.display = "block";
         moreMenuButton.style.display = "none";
     } else {
         nav.style.display = "";
+        button.style.display = "none";
 
         moreMenu.style.display = "";
         moreMenuHeading.style.display = "none";

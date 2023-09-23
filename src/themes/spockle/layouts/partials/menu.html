@@ -22,7 +22,7 @@
         </a>
 
         <ul class="more-menu">
-            <span class="more-menu-heading">More</span>
+            <li class="more-menu-heading">More</li>
             {{ range .Site.Menus.more }} {{ if $currentPage.IsMenuCurrent "more"
             . }}
             <li class="selected">{{ .Name }}</li>
