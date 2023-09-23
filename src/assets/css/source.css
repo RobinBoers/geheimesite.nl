@@ -158,7 +158,7 @@
     /* Single-project page */
 
     .icon {
-        @apply !no-underline hover:bg-transparent dark:hover:text-foreground hover:opacity-[85%] font-semibold font-sans mr-3;
+        @apply !no-underline hover:bg-transparent hover:text-foreground hover:opacity-[85%] font-semibold font-sans mr-3;
     }
     .icon > svg {
         @apply h-[24px] w-[24px] align-text-top;
