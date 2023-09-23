@@ -1,3 +1,6 @@
+# Files to ignore when uploading site to FTP server
+# (to prevent rsync from deleting these directories)
+
 website/nindo/
 ckvrobinboers4a2/
 .ftp-deploy-sync-state.json
@@ -7,3 +10,4 @@ projects/Website-To-Webapp
 projects/VSKodium
 projects/SticksAndRocks-v0.2
 projects/SticksAndRocks-v0.1
+blog/connection.php

@@ -1,5 +1,6 @@
-https://www.linkedin.com/in/robin-boers-b18691229/
-projects/commandpromt/
+# Links to ignore when scanning for dead links
+
+/projects/commandpromt/
 /projects/commandpromt2/
 /projects/vskodium/
 /website/nindo/
@@ -7,6 +8,7 @@ projects/commandpromt/
 
 # Report the wrong status?
 
+https://www.linkedin.com/in/robin-boers-b18691229/
 http://patorjk.com
 http://patorjk.com/old-school-gaming-filters
 http://patorjk.com/software/taag
