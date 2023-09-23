@@ -1,6 +1,6 @@
 {{ $profile := getJSON "https://api.geheimesite.nl/resources/profile" }}
 
-<article class="h-card max-w-[1200px] lg:flex flex-row gap-20 flex-grow">
+<article class="h-card max-w-[1200px] lg:flex flex-row gap-20 flex-grow mr-5">
     <section>
         <img
             src='{{ index $profile "u-photo" }}'
