@@ -12,13 +12,15 @@ My setup for software/web development on Linux. Elixir, NodeJS, Python, PostgreS
 
 ## 🐧 Distro
 
-My current distro of choice is Arch Linux with minimal packages. It keeps my system quick and responsive. I use a tiling window manager called Sway, which is a wayland compositor. I like wayland because I find it to be way more responsive/smooth than Xorg. I integrated Sway with gnome services via [sway-gnome](https://github.com/RobinBoers/sway-gnome).
+My current distro of choice is NixOS. I like the immutable and reproducable system it provides, and the atomic upgrades are a nice bonus. I mainly use a tiling window manager called Sway, which is a wayland compositer. I like wayland because I find it to be way more responsive/smooth than Xorg. I integrated Sway with gnome services, similar to the [sway-gnome](https://github.com/RobinBoers/sway-gnome) fork that I used on Arch.
+
+You can find my entire Nix configuration in my [dotfiles](https://github.com/RobinBoers/dotfiles) repository.
 
 ## 🦊 Webbrowsers
 
-For most of my webbrowsing needs I use Firefox. I absolutely don't like the new proton design, so I reverted it to the old Photon look with CSS files (Firefox userchome FTW!). I also use this Firefox theme: [https://addons.mozilla.org/en-US/firefox/addon/photon-colors](https://addons.mozilla.org/en-US/firefox/addon/photon-colors)
+For most of my webbrowsing needs I use Firefox. I love customizing my browser using custom CSS. Currently I'm rocking vertical tabs, which I stole from [ranmaru22/firefox-vertical-tabs](https://github.com/ranmaru22/firefox-vertical-tabs).
 
-I also use Chromium to test my projects in another browser and if I need to use some Chrome-only app or API.
+I also use (Ungoogled) Chromium to test my projects in another browser and if I need to use some Chrome-only app or API.
 
 See my [firefox-tweaks](https://github.com/RobinBoers/firefox-tweaks) repo for my current Firefox setup.
 
@@ -30,29 +32,29 @@ See my [firefox-tweaks](https://github.com/RobinBoers/firefox-tweaks) repo for m
 -   **Enhancer for YouTube:** remove ads and get cool features [F](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/) [G](https://chrome.google.com/webstore/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle)
 -   **Enhanced GitHub:** extra features for GitHub like repo size and download buttons [F](https://addons.mozilla.org/en-US/firefox/addon/enhanced-github/) [G](https://chrome.google.com/webstore/detail/enhanced-github/anlikcnbgdeidpacdbdljnabclhahhmd)
 -   **Facebook Container:** uses container tabs to isolate Facebook tracking [F](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)
--   **File icons for GitHub:** nice file icons in GitHub [F](https://addons.mozilla.org/en-US/firefox/addon/github-file-icons/) [G](https://chrome.google.com/webstore/detail/file-icons-for-github-and/ficfmibkjjnpogdcfhfokmihanoldbfe?hl=en)
+-   **Firefox Multi-Account Containers:** containers for work/school related accounts [F](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
 -   **uBlock origin:** blocks ads :) [F](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) [G](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en)
 -   **Web Archives:** see earlier versions of sites [F](https://addons.mozilla.org/en-US/firefox/addon/view-page-archive/) [G](https://chrome.google.com/webstore/detail/web-archives/hkligngkgcpcolhcnkgccglchdafcnao?hl=en)
+-   **I still don't care about cookies**: gets rid of cookie popups automatically [F](https://addons.mozilla.org/en-US/firefox/addon/istilldontcareaboutcookies/) [G](https://chrome.google.com/webstore/detail/i-still-dont-care-about-c/edibdbjcniadpccecjdfdjjppcpchdlm)
 
 ## 🛠️ CLI
 
-My shell is fish. I like the amazing autocomplete and color support it has. I use starship prompt because it requires no configuration at all, looks amazing and works for all shells (meaning my shell looks the same if I switch to bash for some reason).
+My shell is `fish`. I like the amazing autocomplete and color support it has. I use starship prompt because it requires no configuration at all, looks amazing and works for all shells (meaning my shell looks the same if I switch to bash for some reason).
 
 -   **`gh`**: creating issues/PRs
+-   **`pass`:** password manager
 -   **`git`**: version control
 -   **`bix`**: wrappper for package managers
 -   **`nvim`**: main text editor
 -   **`htop`**: taskmanager
 -   **`yt-dlp`**: download videos
 -   **`spotdl`**: download spotify playlists
--   **`flatpak`**: cross-platform apps
 -   **`bat`**: replacement for `cat` and pager for `man`
 -   **`fd`**: replacement for `find`
 -   **`ripgrep`**: replacement for `grep`
 -   **`delta`**: improved git diff
 -   **`cmatrix`**: showing my friends I'm a real bad hacker
 -   **`ranger`**: file managment
--   **`phploy`**: revision based deployment using git
 
 ## 💾 Code editor
 
@@ -81,14 +83,18 @@ VSCode also syncs my setup across machines using settings sync with my GitHub ac
 
 I like my editor, like most programmers, to be dark. My favorite dark themes are:
 
+-   [Adwaita](https://marketplace.visualstudio.com/items?itemName=piousdeer.adwaita-theme).
+    It integrates nicely with my other GTK applications.
 -   [Frontend Delight Dark](https://github.com/RobinBoers/frontend-delight-vscode).
-    This is the color theme I'm also using in Alacritty, Spotify, Firefox and other apps.
+    This is a colorscheme that I ported from somewhere else, but I can't quite remember where I found it.
 -   [GitHub Dark](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme).
     This is the old GitHub dark theme for VSCode. The new one is called GitHub Dark Default.
 
-I also like [Ayu dark](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu), [Tokyo Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night) and [Ayu Light](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu), but rarely use light mode. For file icons is use [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons), and for product icons I use [Fluent icons](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons).
+I also like [Ayu dark](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu), [Tokyo Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night) and [Adwaita Light](https://marketplace.visualstudio.com/items?itemName=piousdeer.adwaita-theme), but rarely use light mode. For file icons is use [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons), and for product icons I use [Fluent icons](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons).
 
-My favorite font is [DejaVu Sans Mono](https://github.com/dejavu-fonts/dejavu-fonts). For VSCode I'm using a version called [DejaVu Sans Code](https://github.com/SSNikolaevich/DejaVuSansCode), which has ligatures support.
+My favorite bitmap font is Terminus. In other applications I use Jetbrains Mono because it looks clean and has support for fancy ligatures.
+
+I used to use [DejaVu Sans Mono](https://github.com/dejavu-fonts/dejavu-fonts) and a fork which added ligatures support, called [DejaVu Sans Code](https://github.com/SSNikolaevich/DejaVuSansCode).
 
 ## 📒 Apps
 
@@ -101,9 +107,7 @@ These are the GUI apps I use on a day to day basis:
 -   **Element:** Chatting
 -   **Feh:** Image viewer & wallpaper setter
 -   **FileZilla:** FTP client
--   **Portmaster:** Firewall
--   **VLC media player:** Media player
--   **Lockwise:** Password manager
+-   **Celluloid:** Media player
 -   **Aegis**: 2FA authenticator
 
 ## 👀 Mentioned

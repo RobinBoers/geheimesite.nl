@@ -12,13 +12,15 @@ Mijn setup voor software/web development op Linux. Elixir, NodeJS, Python, Postg
 
 ## 🐧 Distro
 
-Mijn huidige distro is Arch Linux met minimale packages. Het houdt mijn systeem snel en responsive. Ik gebruik een tiling window manager genaamd Sway, wat een wayland compositor is. Ik gebruik wayland omdat ik het gevoel heb dat het soepeler is dan Xorg. Ik heb Sway geïntegreerd met gnome services via [sway-gnome](https://github.com/RobinBoers/sway-gnome).
+Mijn huidige distro is NixOS. Ik vind het cool dat mijn systeem immutable en reproduceerbaar is (en atomic upgrades zijn ook wel noice). Ik gebruik Ik gebruik een tiling window manager genaamd Sway. Sway is een wayland compositor. Ik gebruik wayland omdat ik het gevoel heb dat het soepeler is dan Xorg. Ik heb Sway geïntegreerd met gnome services, net zoals ik altijd op Arch deed met mijn [sway-gnome](https://github.com/RobinBoers/sway-gnome) fork.
+
+Je kan mijn volledige Nix configuratie vinden in mijn [dotfiles](https://github.com/RobinBoers/dotfiles) repository.
 
 ## 🦊 Webbrowsers
 
-Voor webbrowsing gebruik ik normaliter Firefox. Ik vind het nieuwe proton design echt verschrikkelijk, dus ik het het teruggedraaid met wat CSS (Firefox userchome is fantastisch!). Ik gebruik ook dit Firefox theme: [https://addons.mozilla.org/en-US/firefox/addon/photon-colors](https://addons.mozilla.org/en-US/firefox/addon/photon-colors)
+Voor webbrowsing gebruik ik normaliter Firefox. Ik vind het cool om de look van mijn browser aan te passen met CSS (Firefox userchome is fantastisch!). Ik enjoy momenteel verticale tabs, die ik heb gestolen van [ranmaru22/firefox-vertical-tabs](https://github.com/ranmaru22/firefox-vertical-tabs).
 
-Ik gebruik ook Chromium om mijn projecten te testen in een tweede browser en als ik per sé een Chrome-only API moet testen.
+Ik gebruik ook (Ungoogled) Chromium om mijn projecten te testen in een tweede browser en als ik per sé een Chrome-only API moet testen.
 
 Zie mijn [firefox-tweaks](https://github.com/RobinBoers/firefox-tweaks) repo voor mijn huidige Firefox setup.
 
@@ -30,16 +32,18 @@ Zie mijn [firefox-tweaks](https://github.com/RobinBoers/firefox-tweaks) repo voo
 -   **Enhancer for YouTube:** geen ads + coole features [F](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/) [G](https://chrome.google.com/webstore/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle)
 -   **Enhanced GitHub:** extra features voor GitHub zoals repo size en download buttons [F](https://addons.mozilla.org/en-US/firefox/addon/enhanced-github/) [G](https://chrome.google.com/webstore/detail/enhanced-github/anlikcnbgdeidpacdbdljnabclhahhmd)
 -   **Facebook Container:** gebruikt container tabs om Facebook tracking te isoleren [F](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)
--   **File icons for GitHub:** fancy file icons voor GitHub [F](https://addons.mozilla.org/en-US/firefox/addon/github-file-icons/) [G](https://chrome.google.com/webstore/detail/file-icons-for-github-and/ficfmibkjjnpogdcfhfokmihanoldbfe?hl=en)
+-   **Firefox Multi-Account Containers:** containers voor werk/school gerelateerde accounts [F](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
 -   **uBlock origin:** block ads :) [F](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) [G](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en)
 -   **Web Archives:** bekijk oude versies van sites [F](https://addons.mozilla.org/en-US/firefox/addon/view-page-archive/) [G](https://chrome.google.com/webstore/detail/web-archives/hkligngkgcpcolhcnkgccglchdafcnao?hl=en)
+-   **I still don't care about cookies**: klikt automatisch cookie popups weg [F](https://addons.mozilla.org/en-US/firefox/addon/istilldontcareaboutcookies/) [G](https://chrome.google.com/webstore/detail/i-still-dont-care-about-c/edibdbjcniadpccecjdfdjjppcpchdlm)
 
 ## 🛠️ CLI
 
-Mijn favoriete shell is fish. Ik ben helemaal gek op de autocomplete en color support dat het bied. Ik gebruik starship as prompt omdat het er goed uitziet zonder enige configuration en in alle shells goed werkt (dus mn shell ziet er hetzelfde uit als ik voor some reason van shell switch).
+Mijn favoriete shell is `fish`. Ik ben helemaal gek op de autocomplete en color support dat het bied. Ik gebruik starship as prompt omdat het er goed uitziet zonder enige configuration en in alle shells goed werkt (dus mn shell ziet er hetzelfde uit als ik voor some reason van shell switch).
 
 -   **`gh`**: issues/PRs aanmaken
 -   **`git`**: version control
+-   **`pass`:** password manager
 -   **`bix`**: wrappper voor package managers
 -   **`nvim`**: primaire tekst editor
 -   **`htop`**: taskmanager
@@ -56,7 +60,7 @@ Mijn favoriete shell is fish. Ik ben helemaal gek op de autocomplete en color su
 
 ## 💾 Code editor
 
-Mijn favoriete code editor is VSCode. Ik in het verleden heb zowel Brackets als Atom gebruikt, maar VSCode is gewoonweg perfect. Het laad snel en heeft verschrikkelijk veel nuttige plugins.
+Mijn favoriete code editor is VSCode. Ik heb in het verleden heb zowel Brackets als Atom gebruikt, maar VSCode is gewoon perfect. Het laadt snel en heeft verschrikkelijk veel nuttige plugins.
 
 En als extra bonus synct het ook nog eens via mijn GitHub account met settings sync.
 
@@ -81,12 +85,14 @@ En als extra bonus synct het ook nog eens via mijn GitHub account met settings s
 
 Ik wil graag dat mijn editor dark is, zoals veel programmeurs. Mijn favoriete dark themes zijn:
 
+-   [Adwaita](https://marketplace.visualstudio.com/items?itemName=piousdeer.adwaita-theme).
+    It integrates nicely with my other GTK applications.
 -   [Frontend Delight Dark](https://github.com/RobinBoers/frontend-delight-vscode).
-    Dit color theme heb ik zelf gemaakt. Ik gebruik het ook in Firefox, Alacritty en Spotify.
+    Dit colorscheme heb ik een keer ergens anders vandaan geport, maar ik kan me niet meer precies herinneren waar ik het gestolen heb.
 -   [GitHub Dark](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme).
     Dit is het oude GitHub theme voor VSCode. Het nieuwe heet GitHub Dark Default.
 
-Ik vind [Ayu dark](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu), [Tokyo Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night) en [Ayu Light](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu) ook leuk, maar ik gebruik zelden light mode. Voor file icons gebruik ik [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons), en voor de product icons heb ik [Fluent icons](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons).
+Ik vind [Ayu dark](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu), [Tokyo Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night) en [Adwaita Light](https://marketplace.visualstudio.com/items?itemName=piousdeer.adwaita-theme) ook leuk, maar ik gebruik zelden light mode. Voor file icons gebruik ik [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons), en voor de product icons heb ik [Fluent icons](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons).
 
 Mijn favoriete font bitmap font is Terminus. Verder gebruik ik overal JetBrains Mono vanwege de clean look en fancy ligatures.
 
@@ -104,8 +110,7 @@ Dit zijn de apps die ik dagelijks gebruik:
 -   **Feh:** Image viewer & wallpaper setter
 -   **FileZilla:** FTP client
 -   **Portmaster:** Firewall
--   **VLC media player:** Media player
--   **Lockwise:** Password manager
+-   **Celluloid:** Media player
 -   **Aegis:** 2FA authenticator
 
 ## 👀 Mentioned
