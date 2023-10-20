@@ -23,7 +23,7 @@ I'm currently in 5VWO. I think you British people would call it Year 12, and Ame
 ## Personal
 
 -   Write my own programming language.
--   Write a simple renderer for basic HTML (only text formatting).
+-   A small web browser? (gemini, gopher ...) 
 
 {{< hr >}}
 

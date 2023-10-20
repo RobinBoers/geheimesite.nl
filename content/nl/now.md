@@ -25,7 +25,7 @@ Ik doe nu natuurkunde, scheikunde, NLT, wiskunde B, wiskunde D, informatica, Ned
 ## Persoonlijk
 
 -   Mijn eigen programmeertaal schrijven.
--   En simpele HTML renderer (alleen text formatting).
+-   Een small web browser? (gemini, gopher ...)
 
 {{< hr >}}
 
