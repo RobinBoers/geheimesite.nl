@@ -13,7 +13,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/RobinBoers/geheimesite.nl.git"
+        "url": "git+http://git.dupunkto.org/~robin/geheimesite.nl.git"
     },
     "keywords": [
         "website",
