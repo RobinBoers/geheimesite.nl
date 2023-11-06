@@ -1,5 +1,5 @@
 ---
-title: Start
+title: Working towards a more sustainable and accessible web
 language: nl-en
 ---
 

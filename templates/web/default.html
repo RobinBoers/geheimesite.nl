@@ -37,16 +37,23 @@
         {{ content_rendered }}
       </div>
 
-      <footer>
-        {% if date %}
-          <p>
-            Posted on 
-            <time class="dt-published" datetime="{{ date | date: '%Y-%M-%DT%H:%k:%M' }}">
-              {{ date | date: "%b %d, %Y" }}
-            </time>
+      {% if date %}
+        <footer>
+            <p>
+              Posted on 
+              <time class="dt-published" datetime="{{ date | date: '%Y-%M-%DT%H:%k:%M' }}">
+                {{ date | date: "%b %d, %Y" }}
+              </time>
+            </p>
+          
+
+          <p class="reply-by-email">
+            <a href="mailto:hello@geheimesite.nl?subject=RE: “{{ title | url_encode }}”">
+              Reply by email
+            </a>
           </p>
-        {% endif %}
-      </footer>
+        </footer>
+      {% endif %}
     </main>
 
     {% render 'includes/footer.html', site: site %}

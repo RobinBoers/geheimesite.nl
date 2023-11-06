@@ -1,3 +1,5 @@
+{{ title }}
+
 {{ content_rendered }}
 
 {% render "includes/menu.gmi", site: site, menu: menu %}
