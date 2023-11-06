@@ -1,0 +1,27 @@
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>{{ title | escape_once }} — {{ site.title | escape_once }} | {{ site.author | escape_once }}</title>
+  
+<meta name="description" content="{{ description | escape_once | truncate: 50 | strip_newlines }}..." />
+
+<link rel="canonical" href="{{ site.root }}{{ path }}" />
+
+<link rel="icon" sizes="16x16" href="{{ site.prefix }}/favicon.ico" />
+<link rel="apple-touch-icon" sizes="16x16" href="{{ site.prefix }}/favicon.ico" />
+
+<link rel="stylesheet" href="{{ site.prefix }}/main.css" />
+
+<link
+  rel="alternate"
+  type="application/rss+xml"
+  title="primary feed, dutch"
+  href="{{ site.root }}{{ site.prefix }}/index-nl.xml" />
+
+<link
+  rel="alternate"
+  type="application/rss+xml"
+  title="secondary feed, english"
+  href="{{ site.root }}{{ site.prefix }}/index-en.xml" />
+

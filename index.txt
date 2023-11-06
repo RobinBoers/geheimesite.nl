@@ -1,0 +1,11 @@
+---
+title: Start
+language: nl-en
+---
+
+🇬🇧 Hi, my name is Robin. I'm a teenager from the Netherlands who enjoys coding and playing around with computers. I love building websites; I also hate the web. I'm {{ age }} years old, and I currently work at [Qdentity](https://qdentity.com).  
+This site is my place on the interwebs. Welcome!
+
+🇳🇱 Hoi, ik ben Robin. Ik ben webdesigner, programmeur en tiener. Ik hou vooral van webdesign; ik heb ook een hekel aan het Web. Ik ben {{ age }} jaar oud en werk momenteel bij [Qdentity](https://qdentity.nl).  
+Dit is mijn plekje op het interwebs. Welkom!
+

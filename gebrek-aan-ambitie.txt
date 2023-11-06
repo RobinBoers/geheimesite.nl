@@ -1,0 +1,45 @@
+---
+title: Gebrek aan ambitie?
+date: 2022-07-05
+language: nl
+---
+
+Aan het begin van dit schooljaar had ik een kennismakingsgesprek met mijn mentor. Als voorbereiding had ik twee vragenlijsten moeten invullen. Een van de vragen daarin was welke cijfers ik verwachtte op mijn kerstrapport. Ik denk dat ik redelijke schattingen had gedaan, maar mijn mentor vond dat ik niet genoeg ambitie had. Ik en mijn ouders probeerden hem duidelijk te maken dat ambitie niet te meten is met schoolcijfers en dat ik me ook buiten school nog wilde ontwikkelen. Dat ging er bij hem niet echt in.
+
+Ik merk dit wel vaker. Men gaat ervanuit dat kinderen altijd maar beschikbaar moeten zijn voor school en zich daarbuiten niet zelf ook nog willen ontwikkelen in hun eigen tijd, bijvoorbeeld in sport of hobby's. Ik heb dit jaar meerdere keren van mijn docenten gehoord dat het de bedoeling is dat we elke dag tot ongeveer 16:30 bezig zouden moeten zijn met school.
+
+Dit stoort mij echt enorm, zeker als je kijkt naar het onderwijs zelf. Voordat ik verder ga wil ik wel graag benoemen dat ik blij ben dat we hier überhaupt onderwijs krijgen, het is een voorrecht. Er zijn ook landen waar er gewoonweg geen onderwijs is. Toch wil ik graag wat probleempunten benoemen.
+
+Ten eerste cijfers. Er zijn zoveel dingen mis met cijfers. Door de ontwikkeling van iemand te meten met cijfers sla je de plank volledig mis. We proberen met allemaal meetpuntjes te kijken of iemand progressie maakt, maar in de echte ontwikkeling van iemand krijg je met cijfers geen inzicht.
+
+Er wordt nu dus les gegeven niet om iemand iets te leren, maar om iemand voor te bereiden op de toets. Hierdoor halen kinderen een goed cijfer voor de toets, maar leren ze niet echt iets. Neem bijvoorbeeld mijn Duits toets van vorige week: ik heb een 8.2 gehaald, maar als je me nu een van de woordjes zou vragen zou ik het echt niet meer weten. Laat staan dat ik nog weet wat in het hoofdstuk aardrijkskunde over water van vorig jaar stond. Ik kan me alleen vaag het woord 'wateroorlogen' herinneren.
+
+Het is zo erg dat we nu aan het "leren" zijn voor de toetsen. Wat zijn we dan tijdens de rest van de lessen aan het doen? Het doel is de hele tijd de cijfers zo hoog mogelijk te maken, maar we leren van de meeste dingen vrij weinig. Vlak voor de toetsweek moeten we alle informatie uit ons hoofd leren, en na de toetsweek mag je het weer vergeten.
+
+Ook is het als iemand een onvoldoende krijgt niet motiverend voor dat kind. We zouden juist moeten benoemen wat er goed ging, wat er fout ging en hoe dit verbeterd kan worden. Door hier een score aan te hangen maak je het abstract. Je plaatst als het ware een laag tussen de fouten en het kind. Ze hebben niet het idee dat ze er iets aan kunnen doen, want 'de docent geeft toch het cijfer?' Echt, ik hoor sommige klasgenoten zo vaak: "Echt bedankt voor dat cijfer, meneer!" zeggen.
+
+Ik denk dat er op scholen veel meer aandacht zou moeten zijn voor het motiveren van leerlingen om dingen te leren, zodat we ze minder hoeven aan te sporen met "maar anders krijg je een onvoldoende"[^1]. Dit zou er ook voor zorgen dat dingen beter blijven hangen bij mensen. Ik merk zelf altijd, en jullie ongetwijfeld ook, dat ik dingen waar ik in geïnteresseerd ben veel makkelijker en sneller leer. Ik vind het zelfs vaak nog leuk ook.
+
+Ik denk dat dit ook al geprobeerd wordt met bijv. practica, gastlessen en quizes. In mijn ervaring is het wel leuk, maar wordt de leerstof niet effectief overgebracht (lees: het voelt vaak een beetje als tijdverspilling). Ik denk dat we de lessen veel meer aan actualiteiten en ervaringen zouden moeten koppelen. Laat leerlingen zien waarom de leerstof relevant is, waarom het de moeite waard is om te leren[^2].
+
+Een van de dingen die ik denk dat ook zeker moet gebeuren is dat leerlingen al veel eerder de keuze krijgen om vakken te laten vallen. Waarom zou je iemand die heel creatief is en verschrikkelijk goed kan tekenen drie jaar lang martelen met wiskunde? Grote kans dat hij na die drie jaar nooit meer met wiskunde in aanraking zal komen. Dit geldt ook voor mensen die, zoals ik, totaal geen aanleg hebben voor talen.
+
+Nu we het toch over talen hebben, ik denk dat het taalonderwijs ook dramatisch zou moeten worden hervormd. Ik denk dat het heel gek is dat we mensen een taal proberen aan te leren door ze woordjes en grammaticaregels uit hun hoofd te laten leren. En dat terwijl je een taal het beste leert door hem gewoon heel veel te spreken[^3]. De huidige lessen zijn bijna alleen gefocust op grammatica en woordenschat. Ik vind dit erg kunstmatig[^4] aanvoelen.
+
+Praktisch al het Engels dat ik spreek heb ik zelf geleerd door veel Engelse videos te kijken en online Engels te spreken. En ja, mijn Engels is niet perfect, maar ik merk dat ik net als in het Nederlands gewoon "voel" of een zin klopt of niet. Mijn woordenschat is misschien niet zo verschrikkelijk groot en beperkt tot praten over computers, maar als je een taal langer spreekt leer je de woorden die je nodig hebt vanzelf.
+
+Ik denk ook dat kinderen op school veel meer de kans zouden moeten krijgen om hun talenten te ontwikkelen. Hierdoor zorgen we sowieso er al voor dat ze beter meedoen met de lessen.
+
+En ik weet dat het onderwijs al overbelast is met teveel extra taken en dat we een lerarentekort hebben, maar misschien is de oplossing dan gewoon vrij simpel: minder school. Geef kinderen de kans om zich zelf te ontwikkelen. We zouden moeten voorkomen dat kinderen thuis gaan zitten niksen, dus denk aan het verzorgen van extra trainingen, workshops, stages, coderdojos etc.
+
+_Ik ben uiteindelijk overgegaan naar 4vwo met alle vakken[^5] een acht of hoger. En misschien nog wel belangrijker: ik heb functioneel leren programmeren in Elixir, websites leren bouwen met Phoenix LiveView en een [werkend product](https://sharefox.eu) opgeleverd. Best wel oké voor iemand zonder ambitie toch?_
+
+[^1]: Let hierbij op dat het doel van school leren moet blijven. Mensen moeten nog steeds fundementale vaardigheden als taal en rekenen beheersen.
+
+[^2]: En als dit niet lukt zou ik me serieus afvragen, waarom wordt dit onderwezen?
+
+[^3]: En ik denk dat ik in die drie jaar VWO misschien één of twee keer een gesprek in het Frans heb gevoerd, en nog nooit een gesprek in het Duits.
+
+[^4]: Bij gebrek aan een betere omschrijving.
+
+[^5]: Oké, behalve Nederlands dan, maar een 7.9 is praktisch een 8.

@@ -1,0 +1,8 @@
+<li class="h-entry">
+  <a href="{{ page.path }}" class="u-url">
+    {% if page.date %}
+      <time class="dt-published" datetime="{{ date | date: '%Y-%M-%DT%H:%k:%M' }}">{{ page.date | date: "%b %d, %Y" }}</time>:
+    {% endif %}
+    <span class="p-title">{{ page.title | escape_once }}</span>
+  </a>
+</li>

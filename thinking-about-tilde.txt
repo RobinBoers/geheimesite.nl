@@ -1,0 +1,42 @@
+---
+title: Thinking about running a tilde/pubnix
+date: 2023-10-23
+language: en
+---
+
+I'm thinking about running my own pubnix/tilde. It would be invite-only and have a bunch of cool things:
+
+- git hosting with cgit or sourcehut
+- gemini hosting
+- web hosting
+- gopher hosting
+- FTP access
+- about 2GB of storage
+- matrix accounts + chat portal (Hydrogen seems cool)
+- internal message board/email?
+- maybe a CardDAV server?
+
+I think it would be a very cool opportunity to learn a bit about Linux and the internet. However, I literally have *no clue* how to set this up. I found this comment on Reddit:
+
+> It happens that you're trying to build a tilde/pubnix? From my experience, tilde admins often give direct access to the system, but with proper permission elevation. Create a user group with limited permission (i.e. no sudo, disable specific softwares) and add their usernames to, give them a space in /home. Secondly, disable SSH password, ask them to send you their public keys and only authenticate via public key. Finally, write a good/strict policy but also send welcoming message. Also, you can look for further security practices, like changing default port, etc. but the key thing is proper user permission.
+
+That's what I want. I was thinking about allowing password logins tho. I already have a VPS, which I want to reinstall to turn into this thing.
+
+I basically want to configure the services in a way, that they all depend on Unix accounts. That way I can create a Unix account with suitable permissions for every member, and shit should Just Work™.
+
+So, I was thinking:
+
+- Exposing all git repos in `~/git/` at the URL `http(s)://git.example.com/~user/` (using cgit) and `gemini://git.example.com/~user/` (using git.gmi)
+- Exposing `~/pub/gem/` at `gemini://example.com/~user/`
+- Exposing `~/pub/web/` at `http(s)://example.com/~user/`
+- Exposing `~/pub/goph/` at `gopher://example.com/~user/`
+- Creating `@user:example.com` matrix account with the same password as Unix. Changing the Unix password will also change the matrix password and changing the password from a matrix client should not be allowed.
+- Hosting Hydrogen (matrix client) at `https://chat.example.com`
+- Maybe host a CardDAV server with an account for every member, similar to what I want for matrix?
+- Maybe a Lemmy instance (with mlmym as frontend), same thing with accounts.
+
+Any pointers on how to setup something like this? How would I handle backups? (I know I can just backup all files in every member's home directory, but how would I handle something more complicated, like the matrix accounts?). How would I make something like this secure?
+
+Edit: I found this blogpost that helps a bit, but it doesn't tell me how to do permissions, limiting home directory size and bandwidth. I guess I won't really need those (because this is gonna be *really* small scale), but I like the idea that someone can't just accidentally use up all bandwidth with a wrong command.
+
+- [Setting up your own tilde club (UNIX)](https://www.edwinwenink.xyz/posts/47-tilde_server)

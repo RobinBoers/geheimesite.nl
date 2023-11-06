@@ -1,0 +1,8 @@
+---
+title: Blogroll
+language: en
+---
+
+I use RSS a lot, and I maintain my own OPML file for keeping track of the feeds that I follow, which is available for download here:
+
+{% render "includes/button", text: "Download", download: "feeds.opml", location: "https://api.geheimesite.nl/resources/feeds/subscriptions" %}

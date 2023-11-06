@@ -1,0 +1,23 @@
+site:
+  base_url: https://dupunkto.org
+  prefix: /~robin
+  language: nl-en
+  title: geheimesite.nl
+  author: Robin Boers
+  description: TL;DR I'm a teenager from the Netherlands who enjoys programming.
+  copyright: Made with ♡ in the Netherlands. Copying is an act of love. Please copy.
+
+age: 16
+
+menu:
+    - title: About me
+      path: /about-me
+    - title: Over mij
+      path: /over-mij
+    - title: Projects
+      path: /projects
+
+socials:
+  email: hello@geheimesite.nl
+  git: ~robin
+  linkedin: robin-boers-b18691229

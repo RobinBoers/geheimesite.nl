@@ -1,0 +1,37 @@
+---
+title: About me
+language: en
+hide_from_index: true
+---
+
+![My avatar](https://geheimesite.nl/assets/images/me-optimized.webp)
+
+Hi, my name is Robin. I'm a {{ age }}-year-old teenager from the Netherlands. I work at [Qdentity](https://qdentity.com) as Junior Developer. I’m currently in 5VWO. I think you British people would call it Year 12, and American folks would call it Grade 10 or something.
+
+I love building random things related to the Web, servers and Linux. I'm fluent in Elixir, JavaScript, HTML/CSS and the Linux commandline. I also know a little PHP too.
+
+Some random facts about me: I have a cat called Coco (who apparently has an instagram profile: [@coconootje23](https://instagram.com/coconootje23), go follow him!). I absolutely *love* Belgian waffles (but stroopwafels are nice too). I enjoy playing Minecraft. I'm very clumsy; I tend to break things.
+
+- [Resumé](/resume)
+- [GitHub](https://git.dupunkto.org/~robin)
+- [LinkedIn](https://www.linkedin.com/in/robin-boers-b18691229/)
+
+## Skills
+
+I'm pretty good at building websites. I’m fluent in HTML/CSS, Javascript, Elixir and Phoenix. Additionally, I'm comfortable with the Linux commandline. I can work with PHP and WordPress, but I'd rather use a [Static Site Generator](https://en.wikipedia.org/wiki/Static_site_generator). My English is also decent (as you might see :wink:).
+
+I regularly post updates on my blog about my findings. I try to keep learning (because it’s fun).
+
+## About the site
+
+My site is built using my own static site generator -- called [Chop](https://git.dupunkto.org/~robin/libre0b11/chop) -- and is hosted at [bHosted](https://www.bhosted.nl/?ref=97f4c4a4b13e269e12cfd4f0352ba527). The [source code](https://git.dupunkto.org/~robin/geheimesite.nl) is publicly available, but I (still) haven't decided on a license.
+
+## Contact
+
+My public emailaddress is [hello@geheimesite.nl](mailto:hello@geheimesite.nl). You can also send me a friend request on Discord, my handle is **ThatComputerBoy#9914**.
+
+I absolutely hate social media, so I’m not on Snapchat, Instagram, Twitter, TikTok or Facebook. You can [follow me via RSS](/follow) tho.
+
+Alternatively, you can also fill out the form below, to send an email to one of my six email addresses.
+
+{% render "includes/contact-form", language: language %}

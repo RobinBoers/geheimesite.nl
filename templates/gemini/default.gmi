@@ -1,0 +1,13 @@
+{% if hide_title != true %}# {{ title }}{% endif %}
+
+{{ content_rendered }}
+
+{%- if date %}
+
+Posted on {{ date | date: "%b %d, %Y" }}
+{%- endif %}
+
+=> {{ site.prefix }}/
+{%- if language == "en" or language == site.language %} Back to the homepage 
+{%- elsif language == "nl" %} Terug naar de homepage
+{%- endif %}

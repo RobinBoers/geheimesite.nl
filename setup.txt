@@ -1,0 +1,115 @@
+---
+title: Linux Dev setup
+language: en
+---
+
+My setup for software/web development on Linux. Elixir, NodeJS, Python, PostgreSQL and PHP.
+
+## 🐧 Distro
+
+My current distro of choice is NixOS. I like the immutable and reproducable system it provides, and the atomic upgrades are a nice bonus. I mainly use a tiling window manager called Sway, which is a wayland compositer. I like wayland because I find it to be way more responsive/smooth than Xorg. I integrated Sway with gnome services, similar to the [sway-gnome](https://github.com/RobinBoers/sway-gnome) fork that I used on Arch.
+
+You can find my entire Nix configuration in my [dotfiles](https://github.com/RobinBoers/dotfiles) repository.
+
+## 🦊 Webbrowsers
+
+For most of my webbrowsing needs I use Firefox. I love customizing my browser using custom CSS. Currently I'm rocking vertical tabs, which I stole from [ranmaru22/firefox-vertical-tabs](https://github.com/ranmaru22/firefox-vertical-tabs).
+
+I also use (Ungoogled) Chromium to test my projects in another browser and if I need to use some Chrome-only app or API.
+
+See my [firefox-tweaks](https://github.com/RobinBoers/firefox-tweaks) repo for my current Firefox setup.
+
+### Browser extensions
+
+- **Dark reader:** dark mode for websites that don't support it out-of-the-box.
+- **Don't track me Google:** removes tracking info from links.
+- **DuckDuckGo Privacy Essentials:** see tracking and privacy info for sites.
+- **Enhancer for YouTube:** remove ads and get cool features.
+- **Enhanced GitHub:** extra features for GitHub like repo size and download buttons.
+- **Facebook Container:** uses container tabs to isolate Facebook tracking.
+- **Firefox Multi-Account Containers:** containers for work/school related accounts.
+- **uBlock origin:** blocks ads :)
+- **Web Archives:** see earlier versions of sites.
+- **I still don't care about cookies**: gets rid of cookie popups automatically.
+
+## 🛠️ CLI
+
+My shell is `fish`. I like the amazing autocomplete and color support it has. I use starship prompt because it requires no configuration at all, looks amazing and works for all shells (meaning my shell looks the same if I switch to bash for some reason).
+
+- **`gh`**: creating issues/PRs
+- **`pass`:** password manager
+- **`git`**: version control
+- **`bix`**: wrappper for package managers
+- **`nvim`**: main text editor
+- **`htop`**: taskmanager
+- **`yt-dlp`**: download videos
+- **`spotdl`**: download spotify playlists
+- **`bat`**: replacement for `cat` and pager for `man`
+- **`fd`**: replacement for `find`
+- **`ripgrep`**: replacement for `grep`
+- **`delta`**: improved git diff
+- **`cmatrix`**: showing my friends I'm a real bad hacker
+- **`ranger`**: file managment
+
+## 💾 Code editor
+
+My favorite code editor is VSCode. I used both Brackets and Atom for quite some time, but VSCode is just perfect for me. It loads quickly and has lots of useful extensions.
+
+VSCode also syncs my setup across machines using settings sync with my GitHub account.
+
+### Extensions
+
+- [Auto close tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+- [Auto rename tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+- [colorize](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize)
+- [CopyPasta](https://marketplace.visualstudio.com/items?itemName=makman12.copypasta) (my [fork](https://github.com/RobinBoers/CopyPasta))
+- [ElixirLS](https://marketplace.visualstudio.com/items?itemName=JakeBecker.elixir-ls)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [Formatting toggle](https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle)
+- [language-mcfunction](https://marketplace.visualstudio.com/items?itemName=arcensoth.language-mcfunction)
+- PHP IntelliSense
+- [Rasi](https://marketplace.visualstudio.com/items?itemName=dlasagno.rasi)
+- [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml) and [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) & [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+
+### Theming
+
+I like my editor, like most programmers, to be dark. My favorite dark themes are:
+
+- [Adwaita](https://marketplace.visualstudio.com/items?itemName=piousdeer.adwaita-theme).
+  It integrates nicely with my other GTK applications.
+- [Frontend Delight Dark](https://github.com/RobinBoers/frontend-delight-vscode).
+  Ihis is a colorscheme that I ported from somewhere else, but I can't quite remember where I found it.
+- [GitHub Dark](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme).
+  Ihis is the old GitHub dark theme for VSCode. The new one is called GitHub Dark Default.
+
+I also like [Ayu dark](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu), [Tokyo Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night) and [Adwaita Light](https://marketplace.visualstudio.com/items?itemName=piousdeer.adwaita-theme), but rarely use light mode. For file icons is use [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons), and for product icons I use [Fluent icons](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons).
+
+My favorite bitmap font is Terminus. In other applications I use Jetbrains Mono because it looks clean and has support for fancy ligatures.
+
+I used to use [DejaVu Sans Mono](https://github.com/dejavu-fonts/dejavu-fonts) and a fork which added ligatures support, called [DejaVu Sans Code](https://github.com/SSNikolaevich/DejaVuSansCode).
+
+## 📒 Apps
+
+These are the GUI apps I use on a day to day basis:
+
+- **Thunderbird:** Mail and IRC client
+- **Rofi:** Desktop and run launcher
+- **Kitty:** Terminal emulator
+- **Spotify Web**: Music :D
+- **Element:** Chatting
+- **Feh:** Image viewer & wallpaper setter
+- **FileZilla:** FTP client
+- **Celluloid:** Media player
+- **Aegis**: 2FA authenticator
+
+## 👀 Mentioned
+
+- [firefox-tweaks](https://github.com/RobinBoers/firefox-tweaks) - firefox setup
+- [sway-gnome](https://github.com/RobinBoers/sway-gnome) - gnome integration via systemd for sway
+- [frontend-delight-vscode](https://github.com/RobinBoers/frontend-delight-vscode) - vscode theme
+- [CopyPasta](https://github.com/RobinBoers/CopyPasta) - github copilot at home
+
+Written by Robin Boers. Inspired by [divyanshu013/linux-dev-setup](https://github.com/divyanshu013/linux-dev-setup).

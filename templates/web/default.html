@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="{{ language }}">
+  <head>
+    {% render 'includes/head.html', 
+      title: title, 
+      path: path, 
+      site: site,
+      description: content
+    %}
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="{{ site.prefix }}/">
+          ← 
+          {% if language == "en" or language == site.language %}
+            Back to the homepage
+          {% elsif language == "nl" %}
+            Terug naar de homepage
+          {% endif %}
+        </a>
+      </nav>
+    </header>
+
+    <main class="h-entry">
+      <h1 class="p-name" {% if hide_title %}hidden{% endif %}>
+        {{ title | escape_once }}
+
+        {% if subtitle %}
+          <span class="subtitle">
+            {{ subtitle | escape_once }}
+          </h2>
+        {% endif %}
+      </h1>
+      
+      <div class="content p-summary e-content">
+        {{ content_rendered }}
+      </div>
+
+      <footer>
+        {% if date %}
+          <p>
+            Posted on 
+            <time class="dt-published" datetime="{{ date | date: '%Y-%M-%DT%H:%k:%M' }}">
+              {{ date | date: "%b %d, %Y" }}
+            </time>
+          </p>
+        {% endif %}
+      </footer>
+    </main>
+
+    {% render 'includes/footer.html', site: site %}
+  </body>
+</html>

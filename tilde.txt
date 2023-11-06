@@ -1,0 +1,528 @@
+---
+title: Setting up a tilde
+date: 2023-10-27
+language: en
+---
+
+_This is a living document, describing my progress on setting up my own tilde/pubnix server. Keep in mind that this is very much a Work-In-Progress™._
+
+So, I decided I wanted to host my own pubnix/tilde (I still don't know what to call it LMAO). Basically, it's gonna be a server where members can log in via SSH to collaborate on code, experiment with Linux and play around on the CLI.
+
+I described the main idea in my previous post, so go read that if you're interested.
+
+## Creating an account
+
+After I set up the root account of my Debian server and logged in, I added my own account, and gave myself root privileges:
+
+```sh
+adduser robin
+usermod -aG members robin # group that all members will be in
+usermod -aG sudo robin
+```
+
+I also turned off root login over SSH in `/etc/ssh/sshd_config`:
+
+```conf
+PermitRootLogin no
+```
+
+And finally I set the timezone and hostname:
+
+```sh
+timedatectl set-timezone Europe/Amsterdam
+hostnamectl set-hostname dupunkto.org
+```
+
+## Welcome messages
+
+I wanted a nice welcome message to be printed when logging in, instead of the garbage that was printed before. I started out by emptying `/etc/motd`, and then disabling all scripts in `/etc/update-motd.d`.
+
+I added a few new scripts in `/etc/update-motd.d`. The first two digits specify the order that the files get executed in. I added two files:
+
+```sh
+sudoedit /etc/update-motd.d/05-welcome
+sudo chmod +x /etc/update-motd.d/05-welcome
+sudoedit /etc/update-motd.d/10-currently-online
+sudo chmod +x /etc/update-motd.d/10-currently-online
+```
+
+```sh
+#!/bin/sh
+
+echo "Welcome to {du}punkto, a simple invite-only pubnix!"
+echo "We hope you enjoy your stay here :)"
+echo
+```
+
+```sh
+#!/bin/sh
+
+echo "These users are currently online:"
+echo "you"
+users | tr ' ' \\n | uniq
+
+echo
+```
+
+## Member directories
+
+I wanted members to have a nice default config when they joined, so I editted some files in `/etc/skel`:
+
+```sh
+sudoedit /etc/skell/.bashrc
+```
+
+```bash
+# ~/.bashrc: executed by bash(1) for non-login shells.
+# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
+# for examples
+
+# If not running interactively, don't do anything
+case $- in
+    *i*) ;;
+      *) return;;
+esac
+
+# Don't put duplicate lines or lines starting with space in the history.
+# See bash(1) for more options
+HISTCONTROL=ignoreboth
+
+# Append to the history file, don't overwrite it
+shopt -s histappend
+
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=1000
+HISTFILESIZE=2000
+
+# Check the window size after each command and, if necessary,
+# update the values of LINES and COLUMNS.
+shopt -s checkwinsize
+
+# If set, the pattern "**" used in a pathname expansion context will
+# match all files and zero or more directories and subdirectories.
+#shopt -s globstar
+
+# If the terminal used specifies colors, set a fancy prompt
+case "$TERM" in
+    xterm-color|*-256color) colors=yes;;
+esac
+
+if [ "$colors" = yes ]; then
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[>
+else
+    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+fi
+
+# Color support in ls and other utils
+if [ "$colors" = yes ]; then
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dir>
+    alias ls='ls --color=auto'
+    alias dir='dir --color=auto'
+    alias grep='grep --color=auto'
+fi
+
+# Colored GCC warnings and errors
+#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:>
+
+alias ll='ls -l'
+alias la='ls -A'
+alias l='ls -CF'
+alias ..="cd .."
+alias rm="rm -r" # Allow to remove directories
+alias cp="cp -i" # Warn before overwriting existing files
+alias mv="mv -i"
+
+# Alias definitions.
+# You may want to put all your additions into a separate file like
+# ~/.bash_aliases, instead of adding them here directly.
+# See /usr/share/doc/bash-doc/examples in the bash-doc package.
+
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+
+# Enable programmable completion features (you don't need to enable
+# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
+# sources /etc/bash.bashrc).
+if ! shopt -oq posix; then
+  if [ -f /usr/share/bash-completion/bash_completion ]; then
+    . /usr/share/bash-completion/bash_completion
+  elif [ -f /etc/bash_completion ]; then
+    . /etc/bash_completion
+  fi
+fi
+```
+
+## Setting up Gemini hosting
+
+I wanted members to be able to host Gemini sites, by putting `.gmi` files in the `pub/gem` directory.
+
+After a bit of searching I found the [molly-brown](https://tildegit.org/solderpunk/molly-brown) server, which does exactly what I want. One `go install ...` later, I copied it to `/usr/local/bin`.
+
+It is very straight forward to setup. First generate a TLS cert (as root):
+
+```bash
+openssl req -x509 -out /etc/molly.crt -keyout /etc/molly.key \
+  -newkey rsa:2048 -nodes -sha256 \
+  -days 36500 \
+  -subj '/CN=localhost' -extensions EXT -config <( \
+   printf "[dn]\nCN=dupunkto.org\n[req]\ndistinguished_name = dn\n[EXT]\nsubjectAltName=DNS:dupunkto.org,DNS:git.dupunkto.org\nkeyUsage=digitalSignature\nextendedKeyUsage=serverAuth")
+```
+
+Then edit the `/etc/molly.conf`:
+
+```toml
+Port = 1965
+Hostname = "dupunkto.org"
+DocBase = "/var/gemini/"
+HomeDocBase = "users"
+CertPath = "/etc/molly.cert"
+KeyPath = "/etc/molly.key"
+
+DirectoryListing = true
+DirectorySort = "Time"
+DirectorySubdirsFirst = true
+```
+
+I also created a user for it: 
+
+```sh
+adduser --system --group molly --no-create-home --shell /usr/sbin/nologin --comment "Molly gemini server" molly
+sudo chown molly:molly /etc/molly.*
+```
+
+However, I don't want members to have to edit files in `/var/gemini/users/username`, I want them to have `pub/gem`. Luckily ChatGPT came up with this wonderful script that symlinks `~/pub/gem` to the corresponding directory in `/var/gemini`:
+
+```bash
+#!/bin/bash
+
+# Define the base directory 
+web_base_dir="/var/gemini/users"
+
+# Loop through all the user directories in the 'members' group
+for username in $(getent group members | cut -d: -f4 | tr ',' ' '); do
+  # Create the repository directory with the user's permissions
+  web_dir="$web_base_dir/$username"
+  
+  if [ ! -d "$web_dir" ]; then
+    mkdir -m 0755 -p "$web_dir"
+  fi
+
+  # Ensure that the directory is owned by the user
+  chown $username:$username "$web_dir"
+
+  # Create a symbolic link to the user's home directory
+  if [ ! -d "/home/$username/pub" ]; then
+    mkdir -p "/home/$username/pub" 
+  fi
+
+  if [ ! -h "/home/$username/pub/gem" ]; then
+    ln -s "$web_dir" "/home/$username/pub/gem"
+  fi
+
+  echo "Created directory and symlink for $username."
+done
+
+echo "Symlink creation completed."
+```
+
+The only thing left to do, is to setup a systemd unit and start the server. The `molly-brown` repo already provided a service file, which I gratefully copied:
+
+```toml
+[Unit]
+Description=Molly Brown gemini server
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+User=molly
+ExecStart=/usr/local/bin/molly-brown -c /etc/molly.conf
+
+[Install]
+WantedBy=multi-user.target
+```
+
+I put it in `/etc/systemd/system/molly-brown.service`. Then simply run: `systemctl enable molly-brown.service --now` (as root), and kadabing kadaboom. A gemini server.
+
+## Webhosting
+
+I also wanted normal webhosting, which would work the same as Gemini hosting, but uses the `pub/web` directory, instead of `pub/gem`. For that I chose `nginx`, which I installed with APT. 
+
+```sh
+sudo apt install nginx
+```
+
+I added this in `/etc/nginx/conf.d/01-userdirs.conf`:
+
+```nginx
+server {
+        server_name dupunkto.org;
+
+        listen 80 default_server;
+        listen [::]:80 default_server;
+
+        # SSL configuration
+        listen 443 ssl default_server;
+        listen [::]:443 ssl default_server;
+
+        root /var/www;
+
+        index index.html index.htm;  
+
+        location ~ ^/~(.+?)(/.*)?$ {
+            alias /var/www/users/$1/$2;
+            autoindex on;
+        }
+
+        # This is needed later, for the Matrix server.
+        location /.well-known/matrix/server {
+            return 200 '{"m.server": "matrix.dupunkto.org"}';
+            default_type application/json;
+            add_header Access-Control-Allow-Origin *;
+        }
+
+        location /.well-known/matrix/client {
+            return 200 '{"m.homeserver": {"base_url": "https://matrix.dupunkto.org"}}';
+            default_type application/json;
+            add_header Access-Control-Allow-Origin *;
+        }
+}
+```
+
+Again, I used a fancy script to symlink the directories:
+
+```bash
+#!/bin/bash
+
+# Define the base directory 
+web_base_dir="/var/www"
+
+# Loop through all the user directories in the 'members' group
+for username in $(getent group members | cut -d: -f4 | tr ',' ' '); do
+  # Create the repository directory with the user's permissions
+  web_dir="$web_base_dir/~$username"
+
+  if [ ! -d "$web_dir" ]; then
+    mkdir -m 0755 -p "$web_dir"
+  fi
+
+  # Ensure that the directory is owned by the user
+  chown $username:$username "$web_dir"
+
+  # Create a symbolic link to the user's home directory
+  if [ ! -d "/home/$username/pub" ]; then
+    mkdir -p "/home/$username/pub" 
+  fi
+
+  if [ ! -h "/home/$username/pub/web" ]; then
+    ln -s "$web_dir" "/home/$username/pub/web"
+  fi
+  
+  echo "Created directory and symlink for $username."
+done
+
+echo "Symlink creation completed."
+```
+
+Oh, and to setup SSL (as root):
+
+```shell
+apt install certbot python3-certbot-nginx
+certbot certonly -d dupunkto.org,git.dupunkto.org,matrix.dupunkto.org,irc.dupunkto.org,chat.dupunkto.org
+```
+
+If it says Nginx isn't properly configured, that's probably because it expects SSL to be there but it isn't (yet). If so, just choose the "standalone server" option.
+
+I also added this to my `/etc/nginx/nginx.conf`, which I generated using the [Mozilla SSL Configuration Generator](https://ssl-config.mozilla.org/#server=nginx&version=1.22.1&config=intermediate&openssl=3.0.11&hsts=false&guideline=5.7):
+
+```nginx
+ssl_protocols TLSv1.2 TLSv1.3;
+ssl_ciphers ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:DHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384:DHE-RSA-CHACHA20-POLY1305;
+ssl_prefer_server_ciphers off;
+ssl_session_timeout 1d;
+ssl_session_cache shared:MozSSL:10m;  # about 40000 sessions
+ssl_session_tickets off;
+
+ssl_certificate /etc/letsencrypt/live/dupunkto.org/fullchain.pem;
+ssl_certificate_key /etc/letsencrypt/live/dupunkto.org/privkey.pem;
+ssl_trusted_certificate /etc/letsencrypt/live/dupunkto.org/chain.pem
+
+# OCSP stapling
+ssl_stapling on;
+ssl_stapling_verify on;
+```
+
+## Git hosting
+
+Setting up git hosting vas very straight forward after setting up Nginx. Just install `cgit` and edit the config file in `/etc/cgitrc`:
+
+```ini
+root-readme=/usr/share/cgit/README
+css=/custom.css
+logo=/dupunkto.png
+virtual-root=/
+
+# Dumb clones
+enable-http-clone=1
+clone-url= http://$HTTP_HOST/$CGIT_REPO_URL
+
+enable-subject-links=1
+enable-tree-linenumbers=1
+enable-commit-graph=1
+enable-blame=1
+enable-log-filecount=1
+enable-log-linecount=1
+enable-git-config=1
+enable-index-owner=0
+side-by-side-diffs=1
+summary-branches=5
+
+# Enable READMEs & syntax
+about-filter=/usr/lib/cgit/filters/about-formatting.sh
+source-filter=/usr/lib/cgit/filters/syntax-highlighting.py
+readme=:README.md
+
+# Prevent spam
+noplainemail=1
+
+branch-sort=age
+repository-sort=age
+
+root-title={du}punkto
+root-desc=git hosting for {du}puntko members
+
+robots=noindex, nofollow
+scan-path=/var/git/repositories
+```
+
+I stole some CSS from <https://git.oriole.systems/custom.css> and put it in `/usr/share/cgit`, along with a logo titled `dupunkto.png`.
+
+I then created the `/var/git` and `/var/git/repositories` directories, and ran an adaptation of the script used to setup gemini hosting:
+
+```bash
+#!/bin/bash
+
+# Define the base directory for repositories
+repo_base_dir="/var/git/repositories"
+
+# Loop through all the user directories in the 'members' group
+for username in $(getent group members | cut -d: -f4 | tr ',' ' '); do
+  # Create the repository directory with the user's permissions
+  repo_dir="$repo_base_dir/~$username"
+
+  if [ ! -d "$repo_dir" ]; then
+    mkdir -m 0755 -p "$repo_dir"
+  fi
+
+  # Ensure that the directory is owned by the user
+  chown $username:$username "$repo_dir"
+
+  # Create a symbolic link to the user's home directory
+  if [ ! -h "/home/$username/git" ]; then
+    ln -s "$repo_dir" "/home/$username/git"
+  fi
+
+  echo "Created directory and symlink for $username."
+done
+
+echo "Symlink creation completed."
+```
+
+You also need a package called `fcgiwrap`, just install it and then run:
+
+```sh
+systemctl enable fcgiwrap --now
+```
+
+And I added the relevant section to my Nginx config (`/etc/nginx/conf.d/02-git.conf`):
+
+```nginx
+server {
+    server_name  git.dupunkto.org;
+
+    listen 80;
+    listen [::]:80;
+
+    # SSL configuration
+    listen 443 ssl;
+    listen [::]:443 ssl;
+
+    access_log  /var/log/nginx/cgit-access.log;
+    error_log   /var/log/nginx/cgit-error.log;
+
+    root /usr/share/cgit;
+    try_files $uri @cgit;
+
+    location @cgit {
+        include          fastcgi_params;
+        fastcgi_param    SCRIPT_FILENAME /usr/lib/cgit/cgit.cgi;
+        fastcgi_pass     unix:/run/fcgiwrap.socket;
+
+        fastcgi_param    PATH_INFO    $uri;
+        fastcgi_param    QUERY_STRING $args;
+        fastcgi_param    HTTP_HOST    $server_name;
+    }
+}
+```
+
+### Notes on Git
+
+For some reason, the repositories I exported from Gitea all contained a file called "description", which contained a long message telling you to edit it. cgit automatically uses the contents of this file as repo description. If you remove the files, it just shows "[no description]", which is way cleaner in my opinion.
+
+```sh
+find . -type f -name "description" -exec rm -r {} \;
+```
+
+*Edit: this is normal. When you initialize a bare Git repo, this file will always be created (at least for me). I decided to delete it and use the `[gitweb]` section in `.config` instead.*
+
+Also, for READMEs to work, you have to install these dependencies:
+
+```sh
+sudo apt install python3-markdown python3-docutils groff
+```
+
+And, last of all, for mirroring your repos to Codeberg, I will post something very soon.
+
+## Security
+
+I installed the UFW firewall:
+
+```sh
+sudo apt install ufw
+ufw allow 20/tcp # SSH
+ufw allow 80/tcp # HTTP
+ufw allow 443/tcp # SSL
+ufw allow 8448/tcp # Matrix (federation)
+ufw allow 1965/tcp # Gemini
+ufw allow 5222/tcp # XMPP
+ufw allow 5223/tcp # XMPP SSL
+ufw allow 5296/tcp # XMPP server
+ufw allow 8010/tcp # XMPP file transfers
+ufw enable
+```
+
+I also installed `fail2ban`, which automatically bans bots spamming port 20:
+
+```sh
+sudo apt install fail2ban
+systemctl enable --now fail2ban
+```
+
+## Admin permissions
+
+I created the group `mod` and gave it write permissions over `/var/www` and `/var/gemini`, for maintaining the website from a non-sudo account.
+
+```sh
+addgroup mod
+usermod -aG mod <username>
+chown root:mod <somedirectory>
+chmod g+w <somedirectory>
+```
+
+## Credits
+
+These articles helped a lot:
+
+- https://bryanbrattlof.com/cgit-nginx-gitolite-a-personal-git-server/
+- https://www.edwinwenink.xyz/posts/47-tilde_server/#setting-up-a-usedir-web-server-with-nginx

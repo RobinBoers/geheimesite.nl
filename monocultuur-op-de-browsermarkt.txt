@@ -1,0 +1,35 @@
+---
+title: Google, Chromium en een monocultuur op de browsermarkt
+date: 2021-12-05
+language: nl
+---
+
+De letters die je nu leest zijn door mij getypt, naar een Blogger server gestuurd via een glasvezelverbinding, daar opgeslagen in een database en toen ik op publiceren klikte via RSS en de homepage van mijn blog verspreid naar mijn lezers.
+
+Grote kans dat jij nu een browser gebruikt om deze post te lezen (tenzij je een RSS app gebruikt, maar dat is maar een klein percentage van mijn lezers). Een nog grotere kans dat je dit leest via een Chromium browser. Bijna alle grote browsers (behalve Firefox[^1]) zijn op Chromium gebaseerd: Chrome, Microsoft Edge, Brave, Vivaldi, Samsung Internet, Opera.  
+
+Dat is een probleem. Begrijp me niet verkeerd, Chromium is geen slechte browser. Er is een reden dat het zoveel wordt gebruikt. Het probleem is dat we één bedrijf de macht geven over hoe het internet werkt. Als Google een verandering wil in hoe bijv. HTML werkt, kunnen ze dat gewoon afdwingen. Als ze het doorvoeren in Chromium kunnen andere browsers er niet omheen. Zo zijn er eerder dit jaar al wijzigingen doorgevoerd in hoe JavaScript alerts werken in iframes[^2].
+
+Browserfabrikanten van Chromium-based browsers zouden natuurlijk de wijzigingen gemaakt in Chromium kunnen terugdraaien in hun versie, maar dat betekent dat bij elke nieuwe versie van Chromium die wijziging moet worden doorgevoerd. Dat is veel werk, waar misschien bedrijven als Microsoft het budget en de tijd wel voor hebben, maar voor kleine organisaties zoals Brave en Vivaldi is dat maar de vraag. Daar komt bij dat Microsoft het misschien wel het geld niet waard vindt.
+
+Misschien denk je nu: maar Chromium is toch open-source. Maar het probleem is dat Google het project nog steeds leid. Tenzij er een betere fork komt (kleine kans), is het nog steeds Google die over Chromium en Blink gaat. Het probleem is naast dat we Google gezag geven over de webstandaarden ook, dat developers nog maar op één browser testen: Chrome. Dat betekent dat compatibility met Firefox en soms zelfs Safari[^3] vaak slecht tot onbruikbaar is. Zo had ik lente vorig jaar bij de online lessen het probleem dat de software van Noordhoff alleen in Chrome werkte. Dus ik een mailtje sturen naar de helpdesk, maar ik kreeg gewoon doodleuk de reactie dat ik dan maar een ondersteunde browser moest gebruiken. Blijkbaar vielen Firefox EN CHROMIUM EDGE buiten de ondersteunde browsers.
+
+De userbase van Firefox krimpt[^4]. Dat betekent dat Chromium in de nabije toekomst misschien wel nóg meer gebruikers zal krijgen. Er kan dan misschien een monocultuur ontstaan. Ik heb van mijn vader geleerd dat monoculturen slecht zijn omdat er dan dingen dood gaan. In dit geval is dat het internet zoals wij dat kennen.  
+
+Oke, dat is misschien wat overdreven, maar je begrijpt het punt. Als we één bedrijf de macht geven over de internet standaarden, en dat bedrijf heeft ook nog eens belangen bij hoe het internet is ingericht lijkt mij dat geen goed idee.
+
+Dus, wat kan jij hieraan doen? Niet heel veel. Je zou van browser kunnen switchen, naar bijvoorbeeld Firefox. Uiteindelijk is het net als het klimaat. Als je niet in een van de grote organisaties die erover gaan zit kan je er niet heel veel aan doen, behalve je eigen kleine steentje bijdragen en andere bewust maken van het probleem.  
+
+## Bronnen
+
+- [Google isn’t the company that we should have handed the Web over to](https://arstechnica.com/gadgets/2018/12/the-web-now-belongs-to-google-and-that-should-worry-us-all/)
+- [Intent to Remove: Cross origin subframe JS Dialogs](https://groups.google.com/a/chromium.org/g/blink-dev/c/hTOXiBj3D6A/m/PVc8zwKTAwAJ?pli=1)
+- [Google is breaking the web to rebuild it in their own image.](https://www.youtube.com/watch?v=P39Buvpzjaw)
+
+[^1]: Je zou kunnen zeggen dat Safari ook niet op Chromium is gebaseerd, maar Safari gebruikt WebKit, dat zo nauw verwant is met Blink (de browser engine van Google) dat het niet echt een verschil maakt. Zeker als je kijkt naar hoeveel mensen Safari gebruiken tenopzichte van Chromium.
+
+[^2]: Zie hier een StackOverflow post van andere programmeurs die er last van hadden: [https://stackoverflow.com/questions/68492434/javascript-dialogs-alert-confirm-and-prompt-in-cross-origin-iframe-does-n](https://stackoverflow.com/questions/68492434/javascript-dialogs-alert-confirm-and-prompt-in-cross-origin-iframe-does-n)
+
+[^3]: Ondanks de gelijkenis met Blink en Chromium
+
+[^4]: Een artikel over de recente problemen van Firefox: [https://www.computerworld.com/article/3628338/as-mozilla-talks-up-firefoxs-future-the-present-is-killing-it.html](https://www.computerworld.com/article/3628338/as-mozilla-talks-up-firefoxs-future-the-present-is-killing-it.html)

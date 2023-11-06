@@ -1,0 +1,35 @@
+---
+title: Over mij
+language: nl
+hide_from_index: true
+---
+
+![Mijn avatar](https://geheimesite.nl/assets/images/me-optimized.webp)
+
+Hoi, ik ben Robin. Ik ben een {{ age }} jaar oude tiener uit Nederland. Ik werk momenteel bij [Qdentity](https://qdentity.nl) als Junior Developer, en ik zit in 5VWO op het Lyceum Schravenlant.
+
+Ik hou van random dingen bouwen met het Web, servers en Linux. Ik ben goed in Elixir, JavaScript, HTML/CSS en de Linux commandline. Daarnaast ken ik ook een klein beetje PHP.
+
+- [Resumé](/resume)
+- [GitHub](https://git.dupunkto.org/~robin)
+- [LinkedIn](https://www.linkedin.com/in/robin-boers-b18691229/)
+
+## Skills
+
+Ik ben vooral goed in het bouwen van websites, zowel frontend als backend. Ik ben comfortabel met HTML, CSS, Javascript, Elixir en Phoenix. Ik ook redelijk veel ervaring met Linux. Daarnaast kan ik aardig overweg met PHP en WordPress, maar ik werk liever met [Static Site Generators](https://en.wikipedia.org/wiki/Static_site_generator).
+
+Ik post op mijn blog regelmatig updates over wat ik maak, leer en doe. Ik probeer altijd te blijven leren.
+
+## Over deze site
+
+Mijn site is gebouwd met mijn eigen static site generator, genaamd [Chop](https://git.dupunkto.org/~robin/libre0b11/chop). Hij wordt gehost bij [bHosted](https://www.bhosted.nl/?ref=97f4c4a4b13e269e12cfd4f0352ba527). De [source code](https://git.dupunkto.org/~robin/geheimesite.nl) is openbaar, maar ik heb nog (steeds) niet besloten onder welke licentie.
+
+## Contact
+
+Mijn (publieke) emailadres is [hello@geheimesite.nl](mailto:hello@geheimesite.nl). Verder kan je me een friend request sturen op Discord, mijn handle is **ThatComputerBoy#9914**.
+
+Ik heb een absolute hekel aan social media, dus ik ben niet te vinden op Snapchat, Instagram, Twitter, TikTok of Facebook. Je kan me wel [volgen via RSS](/volg). 
+
+Je kan ook het onderstaande contactformulier invullen om een mailtje naar één van mijn zes emailadressen te sturen.
+
+{% render "includes/contact-form", language: language %}

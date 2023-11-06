@@ -1,0 +1,15 @@
+{% if page.date %}
+  <item>
+    <title>{{ page.title }}</title>
+    <pubdate>{{ page.date | date: "%D, %d %M %Y 12:00:00 +0100" }}</pubdate>
+    <guid>{{ site.root }}{{ page.path }}</guid>
+    <description>
+      {{ page.content | truncate: 50 }}...
+    </description>
+    <content:encoded>
+      <![CDATA[
+        {{ page.content_rendered }}
+      ]]>
+    </content:encoded>
+  </item>
+{% endif %}
