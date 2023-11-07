@@ -278,19 +278,20 @@ html {
   background-blend-mode: darken;
 }
 
-@media (min-width: 900px) {
-  body {
-    padding: 8vh 8vw;
-    box-sizing: content-box;
-  }
-}
-
 body {
   background: rgba(255, 255, 255, 0.95);
   box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   margin: 10px;
   min-height: fit-content;
   border-radius: 7px;
+  padding: 1em;
+}
+
+@media (min-width: 700px) {
+  body {
+    padding: 8vh 7vw;
+    box-sizing: content-box;
+  }
 }
 
 /* Homepage */
