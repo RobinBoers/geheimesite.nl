@@ -16,7 +16,7 @@ Het resultaat is dat je een bedrijf hebt dat als doelstelling heeft winst te mak
 
 ## De belangen van de investeerders
 
-Het doel is te groeien en zoveel mogelijk winst binnen te harken. Niet om een veilig en privacybewust platform te bouwen, of een goede zoekmachine. De belangen van de bedrijven wijken af van die van de consumenten. Dit leidt tot situaties waar de gebruiker niet voorop gezet wordt. Apps en algoritmes zijn gemaakt om zo lang mogelijk je aandacht vast te houden. In deze omgeving worden de timelines en feeds overspoeld met clickbait en extreme content. Wie het hardst roept krijgt de aandacht van de gebruiker. Het tweede probleem is dat je ook alleen dingen uit je eigen ["bubbel"](https://www.youtube.com/watch?v=FLoR2Spftwg) hoort. Als dat over katten of lego gaat is het niet erg, maar als het over de maatschappij of politiek gaat is het een ander verhaal. Het zorgt voor verdeeldheid en conflicten.
+Het doel is te groeien en zoveel mogelijk winst binnen te harken. Niet om een veilig en privacybewust platform te bouwen, of een goede zoekmachine. De belangen van de bedrijven wijken af van die van de consumenten. Dit leidt tot situaties waar de gebruiker niet voorop gezet wordt. Apps en algoritmes zijn gemaakt om zo lang mogelijk je aandacht vast te houden. In deze omgeving worden de timelines en feeds overspoeld met clickbait en extreme content. Wie het hardst roept krijgt de aandacht van de gebruiker. Het tweede probleem is dat je ook alleen dingen uit je eigen ["bubbel"](https://yewtu.be/watch?v=FLoR2Spftwg) hoort. Als dat over katten of lego gaat is het niet erg, maar als het over de maatschappij of politiek gaat is het een ander verhaal. Het zorgt voor verdeeldheid en conflicten.
 
 Social media bedrijven kunnen de algoritmes gewoon aanpassen. Het is niet heel moeilijk om ervoor te zorgen dat er geen extreme politieke content wordt aanbevolen, of dat misinformatie wordt gefilterd[^1]. Het probleem is dat het goed betaalt. Mensen houden ervan te horen wat ze leuk vinden, en dat betekent dat ze langer op je app blijven. Meer winst voor het techbedrijf, dus die zijn blij. "Waarom zouden we ons algoritme ook verbeteren als we dan minder winst zouden maken. [Het is niet alsof we het kunnen missen](https://mkorostoff.github.io/1-pixel-wealth/)."
 
@@ -57,13 +57,13 @@ Maar er is ook iets wat wij als consumenten kunnen doen. Zeg nee tegen deze plat
 - [Into the Personal-Website-Verse](https://matthiasott.com/articles/into-the-personal-website-verse)
 - [Nothing Fails Like Success](https://alistapart.com/article/nothing-fails-like-success/)
 - [Who originally suggested that 'if you're not paying for the product, you are the product'?](https://www.quora.com/Who-originally-suggested-that-if-youre-not-paying-for-the-product-you-are-the-product)
-- [Own your content on Social Media using the IndieWeb](https://www.youtube.com/watch?v=X3SrZuH00GQ)
-- [Tantek Celik, "Why We Need the IndieWeb",](https://www.youtube.com/watch?v=HNmKO7Gr4TE)
+- [Own your content on Social Media using the IndieWeb](https://yewtu.be/watch?v=X3SrZuH00GQ)
+- [Tantek Celik, "Why We Need the IndieWeb",](https://yewtu.be/watch?v=HNmKO7Gr4TE)
 - [Maak je eigen moederschip](https://diggingthedigital.com/maak-je-eigen-moederschip/)
 - [Make Free Stuff](https://mxb.dev/blog/make-free-stuff/)
 - [Yesterweb](https://yesterweb.org)
-- [Why The Web Is Such A Mess](https://www.youtube.com/watch?v=OFRjZtYs3wY)
-- [This Video Has 51,827,520 Views](https://www.youtube.com/watch?v=BxV14h0kFs0)
+- [Why The Web Is Such A Mess](https://yewtu.be/watch?v=OFRjZtYs3wY)
+- [This Video Has 51,827,520 Views](https://yewtu.be/watch?v=BxV14h0kFs0)
 
 Als ik je heb overgehaald en je het IndieWeb wil joinen:
 
