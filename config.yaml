@@ -1,5 +1,5 @@
 site:
-  base_url: https://dupunkto.org
+  baseurl: https://dupunkto.org
   prefix: /~robin
   language: nl-en
   title: geheimesite.nl

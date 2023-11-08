@@ -6,7 +6,7 @@
   
 <meta name="description" content="{{ description | escape_once | truncate: 50 | strip_newlines }}..." />
 
-<link rel="canonical" href="{{ site.root }}{{ path }}" />
+<link rel="canonical" href="{{ site.baseurl }}{{ path }}" />
 
 <link rel="icon" sizes="16x16" href="{{ site.prefix }}/favicon.ico" />
 <link rel="apple-touch-icon" sizes="16x16" href="{{ site.prefix }}/favicon.ico" />
@@ -18,11 +18,11 @@
   rel="alternate"
   type="application/rss+xml"
   title="primary feed, dutch"
-  href="{{ site.root }}{{ site.prefix }}/index-nl.xml" />
+  href="{{ site.baseurl }}{{ site.prefix }}/index-nl.xml" />
 
 <link
   rel="alternate"
   type="application/rss+xml"
   title="secondary feed, english"
-  href="{{ site.root }}{{ site.prefix }}/index-en.xml" />
+  href="{{ site.baseurl }}{{ site.prefix }}/index-en.xml" />
 
