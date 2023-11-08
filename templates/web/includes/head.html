@@ -6,7 +6,7 @@
   
 <meta name="description" content="{{ description | escape_once | truncate: 50 | strip_newlines }}..." />
 
-<link rel="canonical" href="{{ site.baseurl }}{{ path }}" />
+<link rel="canonical" href="{{ site.canonical }}{{ path | remove_first: site.prefix }}" />
 
 <link rel="icon" sizes="16x16" href="{{ site.prefix }}/favicon.ico" />
 <link rel="apple-touch-icon" sizes="16x16" href="{{ site.prefix }}/favicon.ico" />

@@ -1,4 +1,5 @@
 site:
+  canonical: https://geheimesite.nl
   baseurl: https://dupunkto.org
   prefix: /~robin
   language: nl-en
