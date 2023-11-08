@@ -47,4 +47,4 @@ I speak both Dutch, which is my native language, as well as English, which I lea
 - Documentation
 - Writing
 
-[Full overview of my projects and previous work ->](/projects)
+[Full overview of my projects and previous work 🡪](/projects)
