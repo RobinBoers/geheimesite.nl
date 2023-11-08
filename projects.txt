@@ -73,21 +73,21 @@ websites:
     url: streekproeverijweij.nl
     description: Landingpage voor Weij, een initiatief Tom en Joyce van Zwet om met elkaar, een mooie, duurzame en sociale omgeving te realiseren.
 
-  - title: Thesis - Eveline Boers
-    screenshot: /images/websites/thesis-eveline-boers.png
-    url: thesisevelineboers.blogspot.com
-    description: Een website met extra materialen, uitleg en videos met betrekking tot de promotiestudie van mijn moeder.
-
   - title: Duurzame Maassluizers
     screenshot: /images/websites/duurzame-maassluizers.png
     url: duurzamemaassluizers.nl
     description: Nieuwswebsite van de Duurzame Maassluizers, een bewonersgroep uit Maassluis die zich inzet voor verschillende thema's met betrekking tot duurzaamheid.
+
+  - title: Thesis Eveline Boers
+    screenshot: /images/websites/thesis-eveline-boers.png
+    url: thesisevelineboers.blogspot.com
+    description: Een website met extra materialen, uitleg en videos met betrekking tot de promotiestudie van mijn moeder.
 
 ---
 
 {% render "includes/projects", projects: projects %}
 
 
-## Websites
+# Websites
 
-{% render "includes/websites", websites: websites %}
+{% render "includes/websites", websites: websites, site: site %}

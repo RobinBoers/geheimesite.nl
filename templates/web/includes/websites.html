@@ -1,20 +1,20 @@
 {% if websites | first %}
 <div class="h-feed websites">
-    {% for site in websites %}
+    {% for project in websites %}
         <section class="h-entry">
             <div>
-                <h3 class="p-name">{{ site.title }}</h3>
-                <p class="e-content p-summary">{{ site.description }}</p>
+                <h2 class="p-name">{{ project.title }}</h2>
+                <p class="e-content p-summary">{{ project.description }}</p>
                 <p>
-                    <a href="https://{{ site.url }}" target="_blank" class="u-url">
-                        {{ site.url }}
+                    <a href="https://{{ project.url }}" target="_blank" class="u-url">
+                        {{ project.url }}
                     </a>
                 </p>
             </div>
 
             <img 
-                src="{{ site.screenshot }}" 
-                alt="Screenshot van {{ site.title }}"
+                src="{{ site.prefix }}{{ project.screenshot }}" 
+                alt="Screenshot van {{ project.title }}"
             >
         </section>
     {% endfor %}
