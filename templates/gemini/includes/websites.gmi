@@ -1,8 +1,7 @@
 {%- for project in websites -%}
-## {{ project.title }}
+=> https://{{ project.url }} {{ project.title }}
+=> {{ site.prefix }}{{ project.screenshot }} Screenshot
 
 {{ project.description }}
 
-=> {{ site.prefix }}{{ project.screenshot }} Screenshot
-=> https://{{ project.url }} {{ project.url }}
 {% endfor -%}
