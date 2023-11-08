@@ -306,6 +306,41 @@ img[alt~="avatar"] {
   margin-bottom: 1em;
 }
 
+/* Projects page */
+
+.projects {
+  margin-bottom: 4em;
+}
+
+.websites .h-entry {
+  margin-bottom: 30px;
+}
+
+@media (min-width: 750px) {
+  .websites .h-entry {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    grid-auto-flow: column;
+    gap: 1.5em;
+  }
+
+  .websites .h-entry h3 {
+    margin-top: 0;
+  }
+}
+
+.websites img {
+  border-radius: 5px;
+  margin-right: 2em;
+  clear: both;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  grid-column: 1;
+}
+
+.websites .h-entry > div {
+  grid-column: 2;
+}
+
 /* Fancy theme */
 
 html {

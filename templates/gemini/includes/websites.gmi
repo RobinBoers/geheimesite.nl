@@ -1,0 +1,8 @@
+{%- for site in websites -%}
+### {{ site.title }}
+
+{{ site.description }}
+
+=> {{ site.screenshot }} Screenshot
+=> https://{{ site.url }} {{ site.url }}
+{% endfor -%}

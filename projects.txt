@@ -40,6 +40,54 @@ projects:
   - title: Mushroom Highlands
     source: ~robin/MushroomHighlands
     description: A Minecraft Datapack that adds a new dimension to the game. Features new items, mobs, biomes and structures. It's inspired by the famous Minecraft mod The Aether.
+
+websites:
+
+  - title: HVM Old's Cool
+    screenshot: /images/websites/hvm-oldscool.png
+    url: hvm-oldscool.nl
+    description: Educatieve website van de Historische Vereniging Maassluis, met interactief lesmateriaal.
+
+  - title: De Groentemeester
+    screenshot: /images/websites/degroentemeester.png
+    url: degroentemeester.nl
+    description: Landingpage voor de zelfoogsttuin van mijn vader, de Groentemeester.
+
+  - title: Sterrenkruid
+    screenshot: /images/websites/sterrenkruid.png
+    url: jokessterrenkruid.blogspot.com
+    description: Het blog van mijn oma. Ze blogt over astrologie, bomen, stenen en andere dingen.
+
+  - title: Groendoenerij
+    screenshot: /images/websites/groendoenerij.png
+    url: groendoenerij.nl
+    description: Bedrijfswebsite van mijn vader. Hij doet momenteel vooral kleinschalige groenteteelt, maar in het verleden legde hij ook groene tuinen en schoolpleinen aan.
+
+  - title: Dagboek van een Grootmoeder
+    screenshot: /images/websites/grootmoedersdagboek.png
+    url: grootmoedersdagboek.blogspot.com
+    description: Dit is een ander blog van mijn oma. Hier blogt ze over kinderen, kruiden en andere dingen die haar leven leuk maken.
+
+  - title: Streekproeverij Weij
+    screenshot: /images/websites/streekproeverij-weij.png
+    url: streekproeverijweij.nl
+    description: Landingpage voor Weij, een initiatief Tom en Joyce van Zwet om met elkaar, een mooie, duurzame en sociale omgeving te realiseren.
+
+  - title: Thesis - Eveline Boers
+    screenshot: /images/websites/thesis-eveline-boers.png
+    url: thesisevelineboers.blogspot.com
+    description: Een website met extra materialen, uitleg en videos met betrekking tot de promotiestudie van mijn moeder.
+
+  - title: Duurzame Maassluizers
+    screenshot: /images/websites/duurzame-maassluizers.png
+    url: duurzamemaassluizers.nl
+    description: Nieuwswebsite van de Duurzame Maassluizers, een bewonersgroep uit Maassluis die zich inzet voor verschillende thema's met betrekking tot duurzaamheid.
+
 ---
 
 {% render "includes/projects", projects: projects %}
+
+
+## Websites
+
+{% render "includes/websites", websites: websites %}
