@@ -82,6 +82,7 @@ The initial version has these features:
 - Static files
 - Multiple outputs (HTML, gemtext, RSS etc.)
 - Smartypants punctuation
+- Automatic image compression
 - Render content as liquid templates
   (which allows you to use variables and partials in content)
 - Prefixing relative URLs (in content).
@@ -89,7 +90,6 @@ The initial version has these features:
 But I'm planning to add quite a bit more:
 
 - Syntax highlighting
-- Automatic image compression
 - Automatic hashes in filenames for CSS
 - Integration with `git` (for file history)
 

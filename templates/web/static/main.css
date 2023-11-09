@@ -110,7 +110,13 @@ code {
 pre {
   max-width: 100%;
   width: 100%;
-  overflow: auto;
+  overflow-x: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+pre::-webkit-scrollbar {
+  display: none;
 }
 
 pre:has(code) {
@@ -339,10 +345,12 @@ html {
 }
 
 body {
+  background: Canvas;
   box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   margin: 10px;
   border-radius: 7px;
   padding: 1em;
+  min-height: min-content;
 }
 
 @media (prefers-color-scheme: light) {
@@ -352,7 +360,7 @@ body {
   }
 
   body {
-    background: rgba(255, 255, 255, 0.95);
+    /*background: rgba(255, 255, 255, 0.95);*/
   }
 }
 
@@ -360,10 +368,6 @@ body {
   * {
     border-color: #444 !important;
     text-decoration-color: #888 !important;
-  }
-
-  body {
-    background: Canvas;
   }
 }
 
