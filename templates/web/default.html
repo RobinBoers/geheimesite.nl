@@ -40,10 +40,17 @@
       {% if date %}
         <footer>
             <p>
-              Posted on 
-              <time class="dt-published" datetime="{{ date | date: '%Y-%M-%DT%H:%k:%M' }}">
-                {{ date | date: "%b %d, %Y" }}
-              </time>
+              {% if language == "en" or language == site.language %}
+                Gepubliceerd op
+              {% elsif language == "nl" %}
+                Posted on
+              {% endif %}
+
+              <a class="u-url" href="{{ site.baseurl }}{{ path }}">
+                <time class="dt-published" datetime="{{ date | date: '%Y-%m-%d' }}">
+                  {{ date | date: "%b %d, %Y" }}
+                </time>
+              </a>
             </p>
           
 
