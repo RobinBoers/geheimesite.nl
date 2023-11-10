@@ -3,6 +3,178 @@ title: Blogroll
 language: en
 ---
 
+This page contains a bunch of links to things I liked reading or watching. Feel free to look around, and if you have a suggestion for something interesting to read or watch, don't hesitate to drop me an email at <robin@geheimesite.nl>.
+
 I use RSS a lot, and I maintain my own OPML file for keeping track of the feeds that I follow, which is available for download here:
 
-{% render "includes/button", text: "Download", download: "feeds.opml", location: "https://api.geheimesite.nl/resources/feeds/subscriptions" %}
+{% render "includes/button", text: "Download", download: "feeds.opml", location: "/feeds.opml" %}
+
+## Interesting things read
+
+- [**Herman**: The Frustration Loop](https://herman.bearblog.dev/the-frustration-loop/)
+- [History of the browser user-agent string](https://webaim.org/blog/user-agent-string-history/)
+- [**Peter Saint-Andre**: Who’s Afraid of the Public Domain?](https://stpeter.im/writings/essays/publicdomain.html)
+- [Wesley's Notebook -- he's such a good writer!](https://notebook.wesleyac.com)
+- [What if We Replace Guns and Bullets with Bows and Arrows?](https://solar.lowtechmagazine.com/2022/11/what-if-we-replace-guns-and-bullets-with-bows-and-arrows)
+- [Cool desktops don't change :sunglasses:](https://tylercipriani.com/blog/2022/06/15/choose-boring-desktop-technology/)
+- [Shakespeare's Missing Smile](https://shkspr.mobi/blog/2023/02/shakespeares-missing-smile/)
+- [**Kris De Decker**: How and Why I Stopped Buying New Laptops](https://solar.lowtechmagazine.com/2020/12/how-and-why-i-stopped-buying-new-laptops.html)
+
+This blogpost by Ava Zeldman touched me particularly: [Schmile](https://avazeldman.com/2023/08/31/shmile/).
+
+## Videos I particularly enjoyed
+
+- [Unlimited Ricepudding](https://yewtu.be/watch?v=wPODghAr3Vc)
+- [Line Goes Up – The Problem With NFTs](https://yewtu.be/watch?v=YQ_xWvX1n9g)
+- [**Dylan Beattie**: The Art of Code](https://yewtu.be/watch?v=6avJHaC3C2U)
+- [Let's Ban Cars! (Seriously)](https://yewtu.be/watch?v=rSSNlM3Au1A)
+- [The Shape of Infinity](https://yewtu.be/watch?v=Zm5Ogh_c0Ig)
+- [The Rules for Rulers](https://yewtu.be/watch?v=rStL7niR7gs)
+- [history of the entire world, i guess](https://yewtu.be/watch?v=xuCn8ux2gbs)
+- [Games that Don't Fake the Space](https://yewtu.be/watch?v=Q85l1Fenc5w)
+
+## Fun things around the web
+
+- [**Sans Bullshit Sans**: a font that replaces buzzwords with a "bullshit" label, using black font ligature magic](https://pixelambacht.nl/2015/sans-bullshit-sans/)
+- [Octodex: an octocat fanclub](https://octodex.github.com)
+- [LOW←TECH MAGAZINE](https://solar.lowtechmagazine.com)
+- [Windows 93](https://windows93.net)
+- [Pointer pointer -- Show this to your friends. Guaranteed laugh.](https://pointerpointer.com)
+- [Map of Reddit, or: reddit big](https://anvaka.github.io/map-of-reddit/)
+- [After The Tone](https://afterthetone.com)
+- [sandspiel.club](https://sandspiel.club)
+- [neal.fun](https://neal.fun)
+- [ncase.me](https://ncase.me)
+
+## The State of the Web
+
+I'm in the "big corporations ruined the web!!" bubble, as you might have noted.
+
+- [**Tom Scott**: Why The Web Is Such A Mess](https://yewtu.be/watch?v=OFRjZtYs3wY)
+- [**Tom Scott**: This video has XXX views](https://yewtu.be/watch?v=BxV14h0kFs0)
+- [**Dylan Beattie**: The Web That Never Was](https://yewtu.be/watch?v=8JOD1AQGqEg)
+
+I'm also not a huge fan of social media...
+
+- [**Drew DeVault**: Social media and "parasocial media"](https://drewdevault.com/2023/06/30/Social-and-parasocial-media.html)
+
+And some stuff related to AI:
+
+- [**Drew DeVault**: AI crap](https://drewdevault.com/2023/08/29/2023-08-29-AI-crap.html)
+
+### Counter-movements
+
+- [Gemini](//geminiprotocol.net)
+- [IndieWeb](https://indieweb.org)
+- [Small web](https://small-tech.org)
+- [Yesterweb](https://yesterweb.org)
+- [neocities](//neocities.org)
+- [Local-first software](https://www.inkandswitch.com/local-first/)
+
+## Tildes / pubnixes
+
+I'm a huge fan of the concept of a pubnix: a public access unix server. It's basically a shared *nix computer that a bunch of people have access to. Tildes are small communities on these pubnixes, inspired by [tilde.club](https://tilde.club).
+
+- [tilde.club](https://tilde.club)
+- [tilde.town](https://tilde.town)
+- [rawtext.club](//rawtext.club)
+- [{du}punkto -- which I maintain :)](//dupunkto.org)
+
+## The State of Society
+
+- [**Tom Scott**: YouTube's Copyright System Isn't Broken. The World's Is.](https://yewtu.be/watch?v=1Jwo5qc78QU)
+- [**Tom Scott**: This Video Is Sponsored By ███ VPN](https://yewtu.be/watch?v=WVDQEoe6ZWY)
+- [**SHAUN**: Andrew Tate: How to be a Real Man (or: why patriarchy should be abolished)](https://yewtu.be/watch?v=y6_TOFy3k6k)
+
+## Computers & Programming
+
+- [**Evan Hahn**: How big is a kilobyte?](https://evanhahn.com/how-big-is-a-kilobyte/)
+
+Here's some interesting videos as well:
+
+- [**Sebastian Lague**: Exploring How Computers Work](https://youtube.com/playlist?list=PLFt_AvWsXl0dPhqVsKt1Ni_46ARyiCGSq)
+- [**Kevlin Henney**: Lambda? You Keep Using that Letter](https://yewtu.be/watch?v=Y7StjYhXvpE)
+- [**Dylan Beattie**: Computational Creativity](https://yewtu.be/watch?v=YPYks7lBKSY)
+- [**Computerphile**: Floating Point Numbers](https://yewtu.be/watch?v=PZRI1IfStY0)
+- [**Tom Scott**: The Worst Typo I Ever Made](https://yewtu.be/watch?v=X6NJkWbM1xk)
+- [**Dylan Beattie**: Ctrl-Alt-Del: Learning to Love Legacy Code](https://yewtu.be/watch?v=wPjHuvulivM)
+- [**Computerphile**: The Problem with Time & Timezones](https://yewtu.be/watch?v=-5wpm-gesOY)
+- [**Posy**: Mouse Cursor History (and why I made my own)](https://yewtu.be/watch?v=YThelfB2fvg)
+
+Yup, I'm a huge fan of Dylan Beattie and Tom Scott :)
+
+### Text & Encodings
+
+I'm fascinated by text encodings and Unicode. Here's something to get you started:
+
+- [**Dylan Beattie**: Plain Text](https://yewtu.be/watch?v=_mZBa3sqTrI)
+- [**Computerphile**: Characters, Symbols and the Unicode Miracle](https://yewtu.be/watch?v=MijmeoH9LT4)
+
+## Link directories
+
+Here are some link directories that contain a bunch of links to cool things. The internet is beautiful, isn't it :D
+
+- [vole.wtf](https://vole.wtf)
+- [href.cool](https://href.cool)
+- [Yesterweb Links](https://links.yesterweb.org)
+- [XXIIVV webring](https://webring.xxiivv.com)
+- [demlinks.com](https://demlinks.com)
+
+## Science
+
+- [**Veritasium**: Why Gravity is NOT a Force](https://yewtu.be/watch?v=XRr1kaXKBsU)
+- [**Veritasium**: The Science of Thinking](https://yewtu.be/watch?v=UBVV8pch1dM)
+- [**Veritasium**: The Logistics Map](https://yewtu.be/watch?v=ovJcsL7vyrk)
+- [**Veritasium**: Chaos: The Science of the Butterfly Effect](https://yewtu.be/watch?v=fDek6cYijxI)
+- [**Veritasium**: The Universe is Hostile to Computers](https://yewtu.be/watch?v=AaZ_RSt0KP8)
+
+## Math
+
+- [**Veritasium**: The Simplest Math Problem No One Can Solve -- Collatz Conjecture](https://yewtu.be/watch?v=094y1Z2wpJg)
+- [**Numberphile**: The Golden Ratio (why it is so irrational)](https://yewtu.be/watch?v=sj8Sg8qnjOg)
+- [**Numberphile**: e (Euler's Number)](https://yewtu.be/watch?v=AuA2EAgAegE)
+- [**Veritasium**: How Imaginary Numbers Were Invented](https://yewtu.be/watch?v=cUzklzVXJwo)
+- [**Veritasium**: Math's Fundamental Flaw](https://yewtu.be/watch?v=HeQX2HjkcNo)
+
+## Interesting mini docus
+
+- [**VOX:** Why the Titanic didn’t have enough lifeboats](https://yewtu.be/v/K64wRD8eaus)
+
+Interesting video about how the Titanic was designed, and why it ultimately sunk.
+
+## To think about
+
+These are some interesting things to think about:
+
+- [**Drew DeVault**: Should private platforms engage in censorship?](https://drewdevault.com/2023/01/30/2023-01-30-Should-private-platforms-engage-in-censorship.html)
+
+- [**Veritasium**: How An Infinite Hotel Ran Out Of Room](https://yewtu.be/watch?v=OxGsU8oIWjY)
+- [**jan Misali**: the five kinds of paradox](https://yewtu.be/watch?v=ppX7Qjbe6BM)
+- [**Jacob Geller**: Fear of Big Things Underwater](https://yewtu.be/watch?v=ZOEaUD82GlI)
+- [**exurb1a**: And nothing can ever ruin this](https://yewtu.be/watch?v=tJ7LdrAqL0Y)
+- [**Tom Scott**: Single Point of Failure: The (Fictional) Day Google Forgot To Check Passwords](https://yewtu.be/watch?v=y4GB_NDU43Q)
+
+I think these two videos by Wren particularly get you to think. They really offer some perspective and sense of scale. Plus, the editing is *sooo* good!
+
+- [**Wren Weichman**: VFX Artist Reveals the True Scale of Atoms](https://yewtu.be/watch?v=KgSGlbV0kZo)
+- [**Wren Weichman**: Using VFX to Explain Why COVID-19 Surprised Everyone](https://yewtu.be/watch?v=e02eiX866N4)
+
+## Fun!!
+
+Some sketches, philosophy, language theory :)
+
+- [**Tom Scott**: Ə: The Most Common Vowel in English](https://yewtu.be/watch?v=qu4zyRqILYM)
+- [**exurb1a**: Letter to Marble 3](https://yewtu.be/watch?v=0R7EN_GTAlw)
+- [**Tom Scott**: Danger: Humans](https://yewtu.be/watch?v=OcPqk-O-fD4)
+- [**exurb1a**: Meaning is a Jumper That You Have to Knit Yourself](https://yewtu.be/watch?v=psaCM1j9LEM)
+- [**exurb1a**: You (probably) do not exist](https://yewtu.be/watch?v=8kX62n6yNXA)
+- [**Tom Scott**: I promise this story about microwaves is interesting.](https://yewtu.be/watch?v=2tdiKTSdE9Y)
+- [**Johny Harris**: Junk Mail, Explained](https://yewtu.be/watch?v=yyWjHVmZWvg)
+- [**Johnny Harris**: Why Americans Eat Dessert for Breakfast](https://yewtu.be/watch?v=kNovwPIWr3Q)
+- [**exurb1a**: 27](https://yewtu.be/watch?v=dLRLYPiaAoA)
+
+## Tools
+
+- [**randoma11y**: generate accessible and good looking color combinations](https://randoma11y.com)
+- [**Chiptone**: handy tool for creating video game sound effects](https://sfbgames.itch.io/chiptone)
+- [Old school filters for pictures](http://patorjk.com/old-school-gaming-filters)
