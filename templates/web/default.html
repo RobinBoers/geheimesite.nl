@@ -55,7 +55,11 @@
           
           <p class="reply-by-email">
             <a href="mailto:hello@geheimesite.nl?subject=RE:%20“{{ title | url_encode }}”">
-              Reply by email
+              {% if language == "en" %}
+                Reply by email
+              {% elsif language == "nl" %}
+                Reageren via email
+              {% endif %}
             </a>
           </p>
         </footer>

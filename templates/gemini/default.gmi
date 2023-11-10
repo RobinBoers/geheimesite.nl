@@ -6,9 +6,12 @@
 {% if date %}
 Posted on {{ date | date: "%b %d, %Y" }}
 
-=> mailto:hello@geheimesite.nl?subject=RE:%20“{{ title | url_encode }} Reply by email
+=> mailto:hello@geheimesite.nl?subject=RE:%20“{{ title | url_encode }}
+{%- if language == "en" %} Reply by email
+{%- elsif language == "nl" %} Reageren via email
+{%- endif %}
 {%- endif %}
 => {{ site.prefix }}/
-{%- if language == "en" or language == site.language %} Back to the homepage 
+{%- if language == "en" %} Back to the homepage 
 {%- elsif language == "nl" %} Terug naar de homepage
 {%- endif %}
