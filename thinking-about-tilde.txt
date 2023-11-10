@@ -22,7 +22,7 @@ I think it would be a very cool opportunity to learn a bit about Linux and the i
 
 That's what I want. I was thinking about allowing password logins tho. I already have a VPS, which I want to reinstall to turn into this thing.
 
-I basically want to configure the services in a way, that they all depend on Unix accounts. That way I can create a Unix account with suitable permissions for every member, and shit should Just Work™.
+I basically want to configure the services in a way, that they all depend on Unix accounts. That way I can create a Unix account with suitable permissions for every member, and shit should Just Work(tm).
 
 So, I was thinking:
 

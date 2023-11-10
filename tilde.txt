@@ -4,7 +4,7 @@ date: 2023-10-27
 language: en
 ---
 
-_This is a living document, describing my progress on setting up my own tilde/pubnix server. Keep in mind that this is very much a Work-In-Progress™._
+_This is a living document, describing my progress on setting up my own tilde/pubnix server. Keep in mind that this is very much a Work-In-Progress(tm)._
 
 So, I decided I wanted to host my own pubnix/tilde (I still don't know what to call it LMAO). Basically, it's gonna be a server where members can log in via SSH to collaborate on code, experiment with Linux and play around on the CLI.
 
