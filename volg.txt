@@ -3,7 +3,7 @@ title: Volg me
 language: nl
 ---
 
-Ik houd niet van social media. Nee, eigenlijk heb ik er een [hekel aan](/social-media-wat-moeten-we-er-mee-aan). Maar, ik heb wel een aantal [RSS](https://en.wikipedia.org/wiki/RSS) feeds:
+Ik houd niet van social media. Nee, eigenlijk heb ik er een hekel aan. Maar, ik heb wel een aantal RSS feeds:
 
 - [primaire feed, nederlands](/index-nl.xml)
 - [minder frequente posts, engels](/index-en.xml)
@@ -20,6 +20,4 @@ Ik kan proberen uit te leggen hoe RSS werkt, maar ik denk dat Nicky Case dat een
 
 Nou, ik begrijp het volledig als je liever gewoon een mailtje in je inbox wil in plaats van helemaal RSS op te zetten voor alleen mijn blog. Dat is waarom ik ook een [Follow.it feed](https://follow.it/webdevelopment-en-meer) heb waar je je via email op kan abonneren.
 
-{% render "includes/follow-it", language: language %}
-
-_Als je je emailadres in dit formulier invult is er een vrij grote kans dat ik het te zien krijg._
+{%- render "includes/follow-it", language: language %}

@@ -4,7 +4,7 @@ language: en
 hide_from_index: true
 ---
 
-![My avatar](https://geheimesite.nl/assets/images/me-optimized.webp)
+![My avatar](/images/me.webp)
 
 Hi, my name is Robin. I'm a {{ age }}-year-old teenager from the Netherlands. I work at [Qdentity](https://qdentity.com) as Junior Developer. I’m currently in 5VWO. I think you British people would call it Year 12, and American folks would call it Grade 10 or something.
 
@@ -32,6 +32,4 @@ My public emailaddress is [hello@geheimesite.nl](mailto:hello@geheimesite.nl). Y
 
 I absolutely hate social media, so I’m not on Snapchat, Instagram, Twitter, TikTok or Facebook. You can [follow me via RSS](/follow) tho.
 
-Alternatively, you can also fill out the form below, to send an email to one of my six email addresses.
-
-{% render "includes/contact-form", language: language %}
+{%- render "includes/contact-form", language: language, site: site, path: path, introduction: "Alternatively, you can also fill out the form below, to send an email to one of my six email addresses." %}

@@ -1,3 +1,9 @@
+{% if introduction %}
+<p>
+    {{ introduction }}
+</p>
+{% endif %}
+
 {% liquid
     if language == "en"
         assign email_text = "Emailaddress"

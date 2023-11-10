@@ -1,10 +1,18 @@
+{% if introduction %}
+<p>
+    {{ introduction }}
+</p>
+{% endif %}
+
 {% liquid
     if language == "en"
         assign email_text = "Emailaddress"
         assign button_text = "Subscribe"
+        assign disclaimer = "If you fill in the form I will probably be able to see your emailaddress."
     elsif language == "nl"
         assign email_text = "Emailadress"
         assign button_text = "Abboneren"
+        assign disclaimer = "Als je je emailadres in dit formulier invult is er een vrij grote kans dat ik het te zien krijg."
     endif
 %}
 
@@ -15,3 +23,5 @@
     <input class="input" id="email" type="email" name="email" placeholder="{{ email_text }}" />
     <input class="input button" type="submit" value="{{ button_text }}" />
 </form>
+
+<p class="disclaimer"><em>{{ disclaimer }}</em></p>

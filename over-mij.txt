@@ -4,7 +4,7 @@ language: nl
 hide_from_index: true
 ---
 
-![Mijn avatar](https://geheimesite.nl/assets/images/me-optimized.webp)
+![Mijn avatar](/images/me.webp)
 
 Hoi, ik ben Robin. Ik ben een {{ age }} jaar oude tiener uit Nederland. Ik werk momenteel bij [Qdentity](https://qdentity.nl) als Junior Developer, en ik zit in 5VWO op het Lyceum Schravenlant.
 
@@ -28,8 +28,6 @@ Mijn site is gebouwd met mijn eigen static site generator, genaamd [Chop](https:
 
 Mijn (publieke) emailadres is [hello@geheimesite.nl](mailto:hello@geheimesite.nl). Verder kan je me een friend request sturen op Discord, mijn handle is **ThatComputerBoy#9914**.
 
-Ik heb een absolute hekel aan social media, dus ik ben niet te vinden op Snapchat, Instagram, Twitter, TikTok of Facebook. Je kan me wel [volgen via RSS](/volg). 
+Ik heb een absolute hekel aan social media, dus ik ben niet te vinden op Snapchat, Instagram, Twitter, TikTok of Facebook. Je kan me wel [volgen via RSS](/volg).
 
-Je kan ook het onderstaande contactformulier invullen om een mailtje naar één van mijn zes emailadressen te sturen.
-
-{% render "includes/contact-form", language: language %}
+{%- render "includes/contact-form", language: language, site: site, path: path, introduction: "Je kan ook het onderstaande contactformulier invullen om een mailtje naar één van mijn zes emailadressen te sturen." %}

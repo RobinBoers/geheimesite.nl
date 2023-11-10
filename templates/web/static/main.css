@@ -48,7 +48,8 @@ figure img {
 }
 
 figcaption,
-table caption {
+table caption,
+.disclaimer {
   filter: brightness(1.25);
   text-align: center;
   font-style: italic;
@@ -58,13 +59,14 @@ table caption {
 @media (prefers-color-scheme: dark) {
   figcaption,
   table caption,
-  img::after {
+  .disclaimer {
     filter: brightness(0.75);
   }
 }
 
 figcaption a,
-table caption a {
+table caption a,
+.disclaimer a {
   filter: brightness(0.75);
 }
 

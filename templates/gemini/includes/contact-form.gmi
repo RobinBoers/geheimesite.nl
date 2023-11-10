@@ -1,1 +1,5 @@
-Sorry, I can't make forms using Gemini :(
+
+=> https:{{ site.baseurl }}{{ path }}
+{%- if language == "en" %}  Contact form on the Web
+{%- elsif language == "nl" %} Contact form op het Web
+{%- endif %}
