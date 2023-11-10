@@ -1,4 +1,6 @@
-{% if hide_title != true %}# {{ title }}{% endif %}
+{% if hide_title != true -%}
+# {{ title }}
+{%- endif %}
 
 {{ content_rendered }}
 

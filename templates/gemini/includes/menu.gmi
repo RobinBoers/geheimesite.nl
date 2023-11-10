@@ -1,3 +1,3 @@
 {% for page in menu -%}
-=> {{ site.prefix }}{{ page.path }} {{ page.title }}
+=> {{ site.prefix }}{{ page.path }}.gmi {{ page.title }}
 {% endfor -%}
