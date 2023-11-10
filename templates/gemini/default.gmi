@@ -9,6 +9,7 @@
 Posted on {{ date | date: "%b %d, %Y" }}
 {%- endif %}
 
+=> mailto:hello@geheimesite.nl?subject=RE:%20“{{ title | url_encode }} Reply by email
 => {{ site.prefix }}/
 {%- if language == "en" or language == site.language %} Back to the homepage 
 {%- elsif language == "nl" %} Terug naar de homepage

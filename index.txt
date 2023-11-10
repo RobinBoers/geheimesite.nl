@@ -1,6 +1,6 @@
 ---
 title: Working towards a more sustainable and accessible web
-language: nl-en
+language: en
 ---
 
 Hi, my name is Robin. I'm a teenager from the Netherlands who enjoys coding and playing around with computers. I love building websites; I also hate the web. I'm {{ age }} years old, and I currently work at [Qdentity](https://qdentity.com). This site is my place on the interwebs. Welcome!

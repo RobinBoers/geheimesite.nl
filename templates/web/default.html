@@ -13,7 +13,7 @@
       <nav>
         <a href="{{ site.prefix }}/">
           ← 
-          {% if language == "en" or language == site.language %}
+          {% if language == "en" %}
             Back to the homepage
           {% elsif language == "nl" %}
             Terug naar de homepage
@@ -39,23 +39,22 @@
 
       {% if date %}
         <footer>
-            <p>
-              {% if language == "en" or language == site.language %}
-                Gepubliceerd op
-              {% elsif language == "nl" %}
-                Posted on
-              {% endif %}
+          <p>
+            {% if language == "en" %}
+              Posted on
+            {% elsif language == "nl" %}
+              Gepubliceerd op
+            {% endif %}
 
-              <a class="u-url" href="{{ site.baseurl }}{{ path }}">
-                <time class="dt-published" datetime="{{ date | date: '%Y-%m-%d' }}">
-                  {{ date | date: "%b %d, %Y" }}
-                </time>
-              </a>
-            </p>
+            <a class="u-url" href="{{ site.baseurl }}{{ path }}">
+              <time class="dt-published" datetime="{{ date | date: '%Y-%m-%d' }}">
+                {{ date | date: "%b %d, %Y" }}
+              </time>
+            </a>
+          </p>
           
-
           <p class="reply-by-email">
-            <a href="mailto:hello@geheimesite.nl?subject=RE: “{{ title | url_encode }}”">
+            <a href="mailto:hello@geheimesite.nl?subject=RE:%20“{{ title | url_encode }}”">
               Reply by email
             </a>
           </p>

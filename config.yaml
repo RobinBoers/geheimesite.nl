@@ -1,8 +1,8 @@
 site:
   canonical: https://geheimesite.nl
-  baseurl: https://dupunkto.org
+  baseurl: //dupunkto.org
   prefix: /~robin
-  language: nl-en
+  language: en
   title: geheimesite.nl
   author: Robin Boers
   description: TL;DR I'm a teenager from the Netherlands who enjoys programming.

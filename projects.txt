@@ -1,6 +1,6 @@
 ---
 title: Projects
-language: nl-en
+language: en
 hide_from_index: true
 projects:
 
