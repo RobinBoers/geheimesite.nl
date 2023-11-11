@@ -11,16 +11,16 @@ I use RSS a lot, and I maintain my own OPML file for keeping track of the feeds 
 
 ## Interesting things read
 
-- [**Herman**: The Frustration Loop](https://herman.bearblog.dev/the-frustration-loop/)
 - [History of the browser user-agent string](https://webaim.org/blog/user-agent-string-history/)
-- [**Peter Saint-Andre**: Who’s Afraid of the Public Domain?](https://stpeter.im/writings/essays/publicdomain.html)
+- [Who’s Afraid of the Public Domain?](https://stpeter.im/writings/essays/publicdomain.html)
 - [Wesley's Notebook -- he's such a good writer!](https://notebook.wesleyac.com)
 - [What if We Replace Guns and Bullets with Bows and Arrows?](https://solar.lowtechmagazine.com/2022/11/what-if-we-replace-guns-and-bullets-with-bows-and-arrows)
 - [Cool desktops don't change :sunglasses:](https://tylercipriani.com/blog/2022/06/15/choose-boring-desktop-technology/)
 - [Shakespeare's Missing Smile](https://shkspr.mobi/blog/2023/02/shakespeares-missing-smile/)
-- [**Kris De Decker**: How and Why I Stopped Buying New Laptops](https://solar.lowtechmagazine.com/2020/12/how-and-why-i-stopped-buying-new-laptops.html)
+- [How and Why I Stopped Buying New Laptops](https://solar.lowtechmagazine.com/2020/12/how-and-why-i-stopped-buying-new-laptops.html)
+- [The Frustration Loop](https://herman.bearblog.dev/the-frustration-loop/)
 
-This blogpost by Ava Zeldman touched me particularly: [Schmile](https://avazeldman.com/2023/08/31/shmile/).
+This blogpost by Ava Zeldman touched me in particular: [Schmile](https://avazeldman.com/2023/08/31/shmile/).
 
 ## Videos I particularly enjoyed
 
@@ -33,19 +33,6 @@ This blogpost by Ava Zeldman touched me particularly: [Schmile](https://avazeldm
 - [history of the entire world, i guess](https://yewtu.be/watch?v=xuCn8ux2gbs)
 - [Games that Don't Fake the Space](https://yewtu.be/watch?v=Q85l1Fenc5w)
 
-## Fun things around the web
-
-- [**Sans Bullshit Sans**: a font that replaces buzzwords with a "bullshit" label, using black font ligature magic](https://pixelambacht.nl/2015/sans-bullshit-sans/)
-- [Octodex: an octocat fanclub](https://octodex.github.com)
-- [LOW←TECH MAGAZINE](https://solar.lowtechmagazine.com)
-- [Windows 93](https://windows93.net)
-- [Pointer pointer -- Show this to your friends. Guaranteed laugh.](https://pointerpointer.com)
-- [Map of Reddit, or: reddit big](https://anvaka.github.io/map-of-reddit/)
-- [After The Tone](https://afterthetone.com)
-- [sandspiel.club](https://sandspiel.club)
-- [neal.fun](https://neal.fun)
-- [ncase.me](https://ncase.me)
-
 ## The State of the Web
 
 I'm in the "big corporations ruined the web!!" bubble, as you might have noted.
@@ -53,6 +40,7 @@ I'm in the "big corporations ruined the web!!" bubble, as you might have noted.
 - [**Tom Scott**: Why The Web Is Such A Mess](https://yewtu.be/watch?v=OFRjZtYs3wY)
 - [**Tom Scott**: This video has XXX views](https://yewtu.be/watch?v=BxV14h0kFs0)
 - [**Dylan Beattie**: The Web That Never Was](https://yewtu.be/watch?v=8JOD1AQGqEg)
+- [**Tom Scott**: This Video Is Sponsored By ███ VPN](https://yewtu.be/watch?v=WVDQEoe6ZWY)
 
 I'm also not a huge fan of social media...
 
@@ -83,8 +71,20 @@ I'm a huge fan of the concept of a pubnix: a public access unix server. It's bas
 ## The State of Society
 
 - [**Tom Scott**: YouTube's Copyright System Isn't Broken. The World's Is.](https://yewtu.be/watch?v=1Jwo5qc78QU)
-- [**Tom Scott**: This Video Is Sponsored By ███ VPN](https://yewtu.be/watch?v=WVDQEoe6ZWY)
 - [**SHAUN**: Andrew Tate: How to be a Real Man (or: why patriarchy should be abolished)](https://yewtu.be/watch?v=y6_TOFy3k6k)
+
+## Fun things around the web
+
+- [Sans Bullshit Sans: a font that replaces buzzwords with a "bullshit" label, using black font ligature magic](https://pixelambacht.nl/2015/sans-bullshit-sans/)
+- [Octodex: an octocat fanclub](https://octodex.github.com)
+- [LOW←TECH MAGAZINE](https://solar.lowtechmagazine.com)
+- [Windows 93](https://windows93.net)
+- [Pointer pointer -- Show this to your friends. Guaranteed laugh.](https://pointerpointer.com)
+- [Map of Reddit, or: reddit big](https://anvaka.github.io/map-of-reddit/)
+- [After The Tone](https://afterthetone.com)
+- [sandspiel.club](https://sandspiel.club)
+- [neal.fun](https://neal.fun)
+- [ncase.me](https://ncase.me)
 
 ## Computers & Programming
 
