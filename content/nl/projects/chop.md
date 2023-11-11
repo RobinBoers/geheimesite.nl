@@ -22,4 +22,3 @@ Geschreven in ~300 lines spaghetti JavaScript, met gebruik van het nieuwe Bun ru
 De naam chop komt van "chop-chop", omdat ik hoopte dat het programma semi-snel zou zijn.
 
 <span hidden>Post information</span> {{< gitea-icon repo="libre0b11/chop" >}}
-
