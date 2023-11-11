@@ -1,10 +1,5 @@
 [
     {
-        "name": "bix",
-        "repo": "libre0b11/bix",
-        "page": "/projects/grape"
-    },
-    {
         "name": "ghme.css",
         "repo": "RobinBoers/ghme.css",
         "page": "/projects/ghmecss"
