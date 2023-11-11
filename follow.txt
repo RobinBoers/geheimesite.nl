@@ -7,6 +7,7 @@ I don't like social media. Actually, I hate it. Instead, I have a few RSS feeds:
 
 - [primary feed, dutch](/index-nl.xml)
 - [less frequent posts, english](/index-en.xml)
+- [bilingual feed, dutch & english](/index.xml)
 
 ## What is RSS?
 

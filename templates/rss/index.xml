@@ -4,10 +4,37 @@
     <title>{{ site.title }}</title>
     <link>{{ site.baseurl }}{{ site.prefix }}</link>
     <description>{{ site.description }}</description>
-    <atom:link href="{{ site.baseurl }}{{ site.prefix }}/index.xml" rel="self" type="application/rss+xml" />
+    {% if language %}
+      {% capture path -%}
+        /index-{{ language }}.xml
+      {%- endcapture %}
+    {% else %}
+      {% assign path = "/index.xml" %}
+    {% endif %}
+    <atom:link href="{{ site.baseurl }}{{ site.prefix }}{{ path }}" rel="self" type="application/rss+xml" />
     <copyright>{{ site.copyright }}</copyright>
     
-    {% assign sorted_pages = pages | sort: "date" | reverse %}
-    {% render 'listing.xml' for sorted_pages as page %}
+    {% assign sorted_pages = pages | where: "date" | sort: "date" | reverse %}
+
+    {% if language %}
+      {% assign sorted_pages = sorted_pages | where: "language", language %}
+    {% endif %}
+
+    {% for page in sorted_pages %}
+      <item>
+        <title>{{ page.title }}</title>
+        <pubdate>{{ page.date | date: "%D, %d %M %Y 12:00:00 +0100" }}</pubdate>
+        <guid>{{ site.baseurl }}{{ page.path }}</guid>
+        <description>
+          {{ page.content | truncate: 50 }}...
+        </description>
+        <content:encoded>
+          <![CDATA[
+            {{ page.content_rendered }}
+          ]]>
+        </content:encoded>
+      </item>
+    {% endfor %}
   </channel>
 </rss>
+

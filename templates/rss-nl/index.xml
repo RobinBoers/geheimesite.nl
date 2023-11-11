@@ -1,0 +1,1 @@
+{% include "rss/index.xml", site: site, pages: pages, language: "nl" %}

@@ -7,6 +7,7 @@ Ik houd niet van social media. Nee, eigenlijk heb ik er een hekel aan. Maar, ik 
 
 - [primaire feed, nederlands](/index-nl.xml)
 - [minder frequente posts, engels](/index-en.xml)
+- [tweetalige feed, nederlands & engels](/index.xml)
 
 ## Wat is RSS?
 
