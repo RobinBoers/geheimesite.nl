@@ -9,14 +9,14 @@ Geschreven in ~300 lines spaghetti JavaScript, met gebruik van het nieuwe Bun ru
 
 ## Features
 
-- Write content in CommonMark
-- Frontmatter
-- Rigid templating system
-- Prefixing links
-- Index pages
-- Static files
-- CSS minification
-- Image compression
-- Smartypants
+-   Write content in CommonMark
+-   Frontmatter
+-   Rigid templating system
+-   Prefixing links
+-   Index pages
+-   Static files
+-   CSS minification
+-   Image compression
+-   Smartypants
 
 De naam chop komt van "chop-chop", omdat ik hoopte dat het programma semi-snel zou zijn.
