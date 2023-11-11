@@ -1,0 +1,12 @@
+# Files to ignore when uploading site to FTP server
+# (to prevent rsync from deleting these directories)
+
+index*.xml
+website/nindo/
+ckvrobinboers4a2/
+projects/commandpromt2
+projects/commandpromt
+projects/Website-To-Webapp
+projects/VSKodium
+projects/SticksAndRocks-v0.2
+projects/SticksAndRocks-v0.1
