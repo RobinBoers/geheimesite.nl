@@ -23,7 +23,7 @@
     {% for page in sorted_pages %}
       <item>
         <title>{{ page.title }}</title>
-        <pubdate>{{ page.date | date: "%D, %d %M %Y 12:00:00 +0100" }}</pubdate>
+        <pubDate>{{ page.date | date: "%d %b %Y 12:00:00 +0100" }}</pubDate>
         <guid>{{ site.baseurl }}{{ page.path }}</guid>
         <description>
           {{ page.content | truncate: 50 }}...

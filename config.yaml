@@ -1,6 +1,6 @@
 site:
   canonical: https://geheimesite.nl
-  baseurl: //dupunkto.org
+  baseurl: https://dupunkto.org
   prefix: /~robin
   language: en
   title: geheimesite.nl
