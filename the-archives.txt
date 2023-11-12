@@ -1,0 +1,23 @@
+---
+title: The Archives
+---
+
+This page offers an insight into the history of this site. I built the first version way back in 2017, when I was still in primary school. Back then, I was a *huge* fan of undercover spies, thus that was the main topic of the site. Which also explains the name -- geheimesite means secret site in Dutch.
+
+When I started out on my webdevelopment journey, I was blissfully unaware of literally *anything*. Hence, the lack of version control. I recovered older versions of the site from backups, folders called "v0.1", "v0.3.4" etc. I also lost a bunch of versions, and a bunch of things contained so much buggy and insecure PHP (I exposed the filesystem), that I didn't dare to reupload it.
+
+Anyways, here's an incomplete list of previous versions of this site. Beware of the (many) dead links :P
+
+- [Version 2](https://classic.geheimesite.nl/v/2/)
+- [Version 3](https://classic.geheimesite.nl/v/3/)
+- [Version 4](https://classic.geheimesite.nl/v/4/)
+- [Version 5](https://classic.geheimesite.nl/v/5/)
+- [Version 6](https://classic.geheimesite.nl/v/6/)
+- [Version 7](https://classic.geheimesite.nl/v/7/)
+- [Version 8](https://classic.geheimesite.nl/v/8/)
+- [Version 9](https://classic.geheimesite.nl/v/9/)
+- [Version 12](https://classic.geheimesite.nl/v/12/)
+- [Version 13](https://classic.geheimesite.nl/v/13/)
+- [Version 14](https://classic.geheimesite.nl/v/14/)
+- [Version 15](https://classic.geheimesite.nl/v/15/)
+- [Version 17](https://classic.geheimesite.nl/v/17/)
