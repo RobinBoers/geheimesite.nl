@@ -8,6 +8,6 @@ echo "Done building"
 echo
 echo "=> Formatting generated HTML"
 
-cd dist/web 
+cd dist 
 prettier --write ./**/*.html
 prettier --write ./**/*.xml
