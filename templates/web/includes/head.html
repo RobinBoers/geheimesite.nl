@@ -4,7 +4,7 @@
 
 <title>{{ title | escape_once }} — {{ site.title | escape_once }} | {{ site.author | escape_once }}</title>
   
-<meta name="description" content="{{ description | escape_once | truncate: 50 | strip_newlines }}..." />
+<meta name="description" content="{{ description | escape_once | truncate: 150 | strip_newlines }}..." />
 
 <link rel="canonical" href="{{ site.canonical }}{{ path | remove_first: site.prefix }}" />
 
