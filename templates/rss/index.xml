@@ -3,6 +3,9 @@
   <channel>
     <title>{{ site.title }}</title>
     <link>{{ site.baseurl }}{{ site.prefix }}</link>
+    {% if language %}
+      <language>{{ language }}</language>
+    {% endif %}
     <description>{{ site.description }}</description>
     {% if language %}
       {% capture path -%}
@@ -13,6 +16,9 @@
     {% endif %}
     <atom:link href="{{ site.baseurl }}{{ site.prefix }}{{ path }}" rel="self" type="application/rss+xml" />
     <copyright>{{ site.copyright }}</copyright>
+    <managingEditor>{{ site.author }}</managingEditor>
+    <webMaster>{{ site.author }}</webMaster>
+    <generator>Chop</generator>
     
     {% assign sorted_pages = pages | where: "date" | sort: "date" | reverse %}
 
@@ -23,6 +29,7 @@
     {% for page in sorted_pages %}
       <item>
         <title>{{ page.title }}</title>
+        <link>{{ site.baseurl }}{{ page.path }}</link>
         <pubDate>{{ page.date | date: "%d %b %Y 12:00:00 +0100" }}</pubDate>
         <guid>{{ site.baseurl }}{{ page.path }}</guid>
         <description>
