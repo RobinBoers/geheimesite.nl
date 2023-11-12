@@ -1,6 +1,7 @@
 ---
 title: Plans for my own RSS reader
 date: 2023-11-12
+language: en
 ---
 
 I've been using RSS for 6 years now -- for perspective, that's ~40% of my life -- and I really enjoy it. It allows me to curate my own collection of interesting things to read. It then automatically collects them all in one place, where I'm able to read everything in my own preferred font & styling.
