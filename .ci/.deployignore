@@ -2,6 +2,7 @@
 # (to prevent rsync from deleting these directories)
 
 index*.xml
+sitemap.xml
 website/nindo/
 ckvrobinboers4a2/
 projects/commandpromt2

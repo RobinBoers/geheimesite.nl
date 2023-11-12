@@ -16,15 +16,17 @@ bix build
 rsync -ciavuz --delete --exclude-from=$ignore_file dist/gemini/ "$remote/$gem_dir"
 rsync -ciavuz --delete --exclude-from=$ignore_file dist/web/ "$remote/$web_dir"
 
+# Upload sitemap
+rsync -ciavuz dist/sitemap/index.xml "$remote/$web_dir/sitemap.xml"
+
 # Upload bilingual RSS feed
-rsync -ciavuz --delete dist/rss/index.xml "$remote/$gem_dir/index.xml"
-rsync -ciavuz --delete dist/rss/index.xml "$remote/$web_dir/index.xml"
+rsync -ciavuz dist/rss/index.xml "$remote/$gem_dir/index.xml"
+rsync -ciavuz dist/rss/index.xml "$remote/$web_dir/index.xml"
 
 # Upload single-language RSS feeds
 for directory in dist/rss-*
     set language (echo $directory | cut -d'-' -f2)
    
-    rsync -ciavuz dist/rss-$language/index.xml "$remote/$gem_dir/index-$language.xml"
+    rsync -ciavuz  dist/rss-$language/index.xml "$remote/$gem_dir/index-$language.xml"
     rsync -ciavuz dist/rss-$language/index.xml "$remote/$web_dir/index-$language.xml"
 end
-
