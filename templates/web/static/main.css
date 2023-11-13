@@ -298,8 +298,14 @@ nav ul li {
 }
 
 .h-feed time {
-  color: gray;
+  color: #5f5f5f;
   font-weight: 400;
+}
+
+@media (prefers-color-scheme: dark) {
+  .h-feed time {
+    color: gray;
+  }
 }
 
 /* About page */
