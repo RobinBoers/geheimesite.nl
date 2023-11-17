@@ -17,7 +17,7 @@ reader.
 			xmlUrl="https://haileyvdschans.github.io/feed/index.xml"
 			htmlUrl="https://haileyvdschans.github.io"
       url="https://haileyvdschans.github.io/feed/index.xml"></outline>
-     <outline title="Len Falken's Writing" text="Len's collection of writing on all topics of interest." type="feed"
+    <outline title="Len Falken's Writing" text="Len's collection of writing on all topics of interest." type="feed"
 			xmlUrl="https://len.falken.directory/feed.xml"
 			htmlUrl="https://len.falken.directory"
 			url="https://len.falken.directory/feed.xml"></outline>
