@@ -375,7 +375,7 @@ body {
   }
 
   html {
-    background: linear-gradient(to right, lightskyblue, lime), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    background: linear-gradient(to right, lightskyblue, magenta), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
     background-blend-mode: darken;
   }
 }
