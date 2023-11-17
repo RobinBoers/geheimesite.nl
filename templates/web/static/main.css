@@ -367,6 +367,10 @@ body {
     text-decoration-color: #aaa !important;
   }
 
+  html {
+    background: linear-gradient(to right, lightskyblue, lime), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  }
+
   body {
     /*background: rgba(255, 255, 255, 0.95);*/
   }
