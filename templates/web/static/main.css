@@ -347,11 +347,6 @@ img[alt~="avatar"] {
 
 /* Fancy theme */
 
-html {
-  background: linear-gradient(to right, magenta, orangered), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
-  background-blend-mode: darken;
-}
-
 body {
   background: Canvas;
   box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
@@ -368,11 +363,8 @@ body {
   }
 
   html {
-    background: linear-gradient(to right, lightskyblue, lime), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
-  }
-
-  body {
-    /*background: rgba(255, 255, 255, 0.95);*/
+    background: linear-gradient(to right, magenta, orangered), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    background-blend-mode: darken;
   }
 }
 
@@ -380,6 +372,11 @@ body {
   * {
     border-color: #444 !important;
     text-decoration-color: #888 !important;
+  }
+
+  html {
+    background: linear-gradient(to right, lightskyblue, lime), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    background-blend-mode: darken;
   }
 }
 
