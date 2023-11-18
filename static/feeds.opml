@@ -25,10 +25,6 @@ reader.
 			xmlUrl="https://faultlore.com/blah/rss.xml"
 			htmlUrl="https://faultlore.com/blah"
 			url="https://faultlore.com/blah/rss.xml"></outline>
-		<outline title="Faultlore" text="Aria's Feverdreams" type="feed"
-			xmlUrl="https://faultlore.com/blah/rss.xml"
-			htmlUrl="https://faultlore.com/blah"
-			url="https://faultlore.com/blah/rss.xml"></outline>
 		<outline title="Rachel by the Bay" text="Rachel by the Bay" type="feed"
 			xmlUrl="https://rachelbythebay.com/w/atom.xml" 
 			htmlUrl="https://rachelbythebay.com/w/"
@@ -61,10 +57,22 @@ reader.
 			xmlUrl="https://feeding.cloud.geek.nz/index.rss" 
 			htmlUrl="https://feeding.cloud.geek.nz"
 			url="https://feeding.cloud.geek.nz/index.rss"></outline>
-		<outline title="David Darnes" text="David Darnes" type="feed"
-			xmlUrl="https://darn.es/rss.xml" 
-			htmlUrl="https://darn.es"
-			url="https://darn.es/rss.xml"></outline>
+		<outline title="Xe Iaso" text="Xe Iaso" type="feed"
+			xmlUrl="https://xeiaso.net/blog.rss" 
+			htmlUrl="https://xeiaso.net"
+			url="https://xeiaso.net/blog.rss"></outline>
+		<outline title="Robb Knight" text="Robb Knight" type="feed"
+			xmlUrl="https://rknight.me/feed.xml" 
+			htmlUrl="https://rknight.me"
+			url="https://rknight.me/feed.xml"></outline>
+		<outline title="Matthias Ott" text="Matthias Ott" type="feed"
+			xmlUrl="https://matthiasott.com/feed" 
+			htmlUrl="https://matthiasott.com"
+			url="https://matthiasott.com/feed"></outline>
+		<outline title="Escaping Flatland" text="Notes on relationships, culture, and learning. Essays sent when I have something to say (usually a few times a month)." type="feed"
+			xmlUrl="https://www.henrikkarlsson.xyz/feed" 
+			htmlUrl="https://www.henrikkarlsson.xyz"
+			url="https://www.henrikkarlsson.xyz/feed"></outline>
 		<outline title="No Happy Nonsense" text="No Happy Nonsense" type="feed"
 			xmlUrl="https://nohappynonsense.net/bestfeed.xml" 
 			htmlUrl="https://nohappynonsense.net"
@@ -282,6 +290,30 @@ reader.
 			xmlUrl="https://seirdy.one/posts/index.xml" 
 			htmlUrl="https://seirdy.one"
 			url="https://seirdy.one/posts/index.xml"></outline>
+		<outline title="Allen Pike" text="Allen Pike" type="feed"
+			xmlUrl="https://feeds.allenpike.com/feed/" 
+			htmlUrl="https://allenpike.com"
+			url="https://feeds.allenpike.com/feed/"></outline>
+		<outline title="furbo.org" text="furbo.org" type="feed"
+			xmlUrl="https://furbo.org/feed/" 
+			htmlUrl="https://furbo.org"
+			url="https://furbo.org/feed/"></outline>
+		<outline title="furbo.org" text="furbo.org" type="feed"
+			xmlUrl="https://furbo.org/feed/" 
+			htmlUrl="https://furbo.org"
+			url="https://furbo.org/feed/"></outline>
+		<outline title="Julia Evans" text="Julia Evans" type="feed"
+			xmlUrl="https://jvns.ca/atom.xml" 
+			htmlUrl="https://jvns.ca"
+			url="https://jvns.ca/atom.xml"></outline>
+		<outline title="Ploum.net" text="Ploum.net" type="feed"
+			xmlUrl="https://ploum.net/atom_en.xml" 
+			htmlUrl="https://ploum.net"
+			url="https://ploum.net/atom_en.xml"></outline>
+		<outline title="thesephist" text="thesephist" type="feed"
+			xmlUrl="https://thesephist.com/index.xml" 
+			htmlUrl="https://thesephist.com"
+			url="https://thesephist.com/index.xml"></outline>
 		<outline title="Niall Burkley" text="Niall Burkley’s Developer Blog" type="feed"
 			xmlUrl="https://niallburkley.com/feed.xml" 
 			htmlUrl="https://niallburkley.com"
