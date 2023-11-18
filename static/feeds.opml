@@ -173,14 +173,22 @@ reader.
       xmlUrl="https://benhoyt.com/writings/rss.xml"
 			htmlUrl="https://benhoyt.com/writings"
       url="https://benhoyt.com/writings/rss.xml"></outline>
-    <outline title="David Heinemeier Hansson" text="David Heinemeier Hansson" type="feed"
-      xmlUrl="https://world.hey.com/dhh/feed.atom"
-			htmlUrl="https://world.hey.com/dhh"
-      url="https://world.hey.com/dhh/feed.atom"></outline>
     <outline title="Jason Friend" text="Jason Fried" type="feed"
       xmlUrl="https://world.hey.com/jason/feed.atom"
 			htmlUrl="https://world.hey.com/jason"
       url="https://world.hey.com/jason/feed.atom"></outline>
+    <outline title="David Heinemeier Hansson" text="David Heinemeier Hansson" type="feed"
+      xmlUrl="https://world.hey.com/dhh/feed.atom"
+			htmlUrl="https://world.hey.com/dhh"
+      url="https://world.hey.com/dhh/feed.atom"></outline>
+    <outline title="Thought Brew" text="Thought Brew" type="feed"
+      xmlUrl="https://thoughts.jatan.space/feed"
+			htmlUrl="https://thoughts.jatan.space"
+      url="https://thoughts.jatan.space/feed"></outline>
+    <outline title="Eddie Dale" text="Eddie Dale" type="feed"
+      xmlUrl="https://www.eddiedale.com/blog-feed"
+			htmlUrl="https://www.eddiedale.com/blog"
+      url="https://www.eddiedale.com/blog-feed"></outline>
     <outline title="37signals" text="37signals" type="feed"
       xmlUrl="https://dev.37signals.com/feed/posts.xml"
 			htmlUrl="https://dev.37signals.com"
