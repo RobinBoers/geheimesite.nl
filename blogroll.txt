@@ -100,6 +100,7 @@ Here's some interesting videos as well:
 - [**Dylan Beattie**: Ctrl-Alt-Del: Learning to Love Legacy Code](https://yewtu.be/watch?v=wPjHuvulivM)
 - [**Computerphile**: The Problem with Time & Timezones](https://yewtu.be/watch?v=-5wpm-gesOY)
 - [**Posy**: Mouse Cursor History (and why I made my own)](https://yewtu.be/watch?v=YThelfB2fvg)
+- [**Circuit Rewind**: FreeBSD: A Successful Failure - Linux: A Failing Success](https://www.youtube.com/watch?v=f2e4FNMzyto)
 
 Yup, I'm a huge fan of Dylan Beattie and Tom Scott :)
 
