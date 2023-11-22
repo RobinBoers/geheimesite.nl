@@ -12,10 +12,6 @@ projects:
     source: ~robin/grape-lang
     description: A general purpose programming language made for rapid-pase prototyping. The goal is a functional language with the nice syntax of Elixir or Ruby, but compiled to statically linked binaries.
   
-  - title: Sharefox
-    homepage: //sharefox.eu
-    description: Sharefox is a product that I built at Qdentity. It's a simple tool to easily share sensitive information, like passwords and API keys. It supports files too!
-
   - title: neopub
     source: ~robin/neopub
     homepage: //micro.geheimesite.nl
@@ -57,6 +53,11 @@ websites:
     screenshot: /images/websites/sterrenkruid.png
     url: jokessterrenkruid.blogspot.com
     description: Het blog van mijn oma. Ze blogt over astrologie, bomen, stenen en andere dingen.
+
+  - title: Sharefox
+    screenshot: /images/websites/sharefox.png
+    url: sharefox.eu
+    description: Sharefox is een product dat ik bij Qdentity heb gebouwd. Het is een simpele tool om gevoelige informatie zoals wachtwoorden, financiële informatie, API keys en andere documenten uit te wisselen.
 
   - title: Groendoenerij
     screenshot: /images/websites/groendoenerij.png
