@@ -2,13 +2,13 @@
 
 set ignore_file .ci/.deployignore
 
-set remote robin@dupunkto.org:pub
-# set remote geheimesite.nl:domains/geheimesite.nl
+# set remote robin@dupunkto.org:pub
+set remote geheimesite.nl:domains/geheimesite.nl
 
-set gem_dir gem
-set web_dir web
-# set gem_dir public_gemini
-# set web_dir public_html
+# set gem_dir gem
+# set web_dir web
+set gem_dir public_gemini
+set web_dir public_html
 
 bix build
 

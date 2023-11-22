@@ -1,9 +1,9 @@
 #!/usr/bin/env fish
 
-set base https://dupunkto.org
-# set base https://geheimesite.nl
+# set base https://dupunkto.org
+set base https://geheimesite.nl
 
-set prefix "/~robin"
+# set prefix "/~robin"
 
 cp .ci/config.template config.yaml
 echo >> config.yaml
