@@ -196,7 +196,7 @@ However, I don't want members to have to edit files in `/var/gemini/users/userna
 ```bash
 #!/bin/bash
 
-# Define the base directory 
+# Define the base directory for repositories
 web_base_dir="/var/gemini/users"
 
 # Loop through all the user directories in the 'members' group
@@ -270,23 +270,24 @@ server {
 
         index index.html index.htm;  
 
-        location ~ ^/~(.+?)(/.*)?$ {
-            alias /var/www/users/$1/$2;
-            autoindex on;
-        }
+        fancyindex on;
+	      fancyindex_header /header.html;
+        fancyindex_footer /footer.html;
+	      fancyindex_ignore "header.html" "footer.html";
+	      fancyindex_time_format "%Y-%m-%d";
 
-        # This is needed later, for the Matrix server.
-        location /.well-known/matrix/server {
-            return 200 '{"m.server": "matrix.dupunkto.org"}';
-            default_type application/json;
-            add_header Access-Control-Allow-Origin *;
-        }
+        try_files $uri $uri.html $uri.htm $uri/ =404; 
 
-        location /.well-known/matrix/client {
-            return 200 '{"m.homeserver": {"base_url": "https://matrix.dupunkto.org"}}';
-            default_type application/json;
-            add_header Access-Control-Allow-Origin *;
-        }
+        location ~ (README|\.md)$ {
+		        default_type text/plain;
+		        charset utf-8;
+	      }
+
+        # Special config for me :)
+        location /~robin {
+		        fancyindex_header /~robin/header.html;
+		        try_files $uri $uri.html $uri/ =404;
+	      }
 }
 ```
 
@@ -295,7 +296,7 @@ Again, I used a fancy script to symlink the directories:
 ```bash
 #!/bin/bash
 
-# Define the base directory 
+# Define the base directory for repositories
 web_base_dir="/var/www"
 
 # Loop through all the user directories in the 'members' group
@@ -378,9 +379,9 @@ enable-index-owner=0
 side-by-side-diffs=1
 summary-branches=5
 
-# Enable READMEs & syntax
+# Enable READMEs
 about-filter=/usr/lib/cgit/filters/about-formatting.sh
-source-filter=/usr/lib/cgit/filters/syntax-highlighting.py
+#source-filter=/usr/lib/cgit/filters/syntax-highlighting.sh
 readme=:README.md
 
 # Prevent spam
@@ -397,6 +398,175 @@ scan-path=/var/git/repositories
 ```
 
 I stole some CSS from <https://git.oriole.systems/custom.css> and put it in `/usr/share/cgit`, along with a logo titled `dupunkto.png`.
+
+```css
+@import "cgit.css";
+
+html {
+	background-color: white;
+}
+
+* {
+	line-height: 1.35em;
+}
+
+@media (max-width: 480px) {
+	html {
+		font-size: 12px;
+	}
+}
+
+@media (min-width: 480px) {
+	html {
+		font-size: 13px;
+	}
+}
+
+@media (min-width: 786px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 786px) {
+	div#cgit table#header td.logo {
+		display: none;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 15px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 1600px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+div#cgit {
+	/*font-family: monospace;*/
+	font-size: 1em;
+}
+
+pre, div#cgit table.diff td, div#cgit table.ssdiff td {
+	font-size: 1.1em;
+	font-family: monospace;
+}
+
+code {
+	font-family: inherit;
+}
+
+#summary code {
+	font-family: monospace;
+}
+
+div#cgit div.commit-msg {
+	font-family: monospace;
+}
+
+div#cgit a.ls-blob, div#cgit a.ls-dir, div#cgit .ls-mod, div#cgit td.ls-mode, div#cgit td.ls-size {
+	font-family: monospace;
+}
+
+div#cgit table.list td.commitgraph, div#cgit table.list td.logmsg, div#cgit table.list td.logsubject{
+	font-family: monospace;
+}
+
+div#cgit .sha1 {
+	font-family: monospace;
+}
+
+div#cgit table.ssdiff td {
+	font-size: 14px;
+}
+
+.highlight pre {
+	font-size: inherit;
+}
+
+div#cgit .commit-subject, div#cgit div#summary {
+	max-width: 80ch;
+}
+
+div#cgit div.footer, div#cgit div.footer a {
+	color: #aaa;
+}
+
+div#cgit table.list tr:nth-child(even) {
+	background: inherit;
+}
+
+div#cgit table.list tr:hover {
+	background: inherit;
+}
+
+div#cgit table.list tr.nohover-highlight:hover:nth-child(even) {
+	background: inherit;
+}
+
+div#cgit table.commit-info th {
+	color: #888;
+}
+
+div#cgit table.blob td.linenumbers a:target {
+	color: white;
+	background-color: black;
+}
+
+div#cgit table.list td a.ls-dir {
+	font-weight: normal;
+}
+
+div#cgit table.tabs td.form form, div#cgit table#header td.form {
+	padding-bottom: 4px;
+}
+
+td.logo img {
+	width: 100%;
+	border-radius: 15px;
+}
+
+table.head, table.foot { width: 100%; }
+td.head-rtitle, td.foot-os { text-align: right; }
+td.head-vol { text-align: center; }
+div.Pp { margin: 1ex 0ex; }
+div.Nd, div.Bf, div.Op { display: inline; }
+span.Pa, span.Ad { font-style: italic; }
+span.Ms { font-weight: bold; }
+dl.Bl-diag > dt { font-weight: bold; }
+code.Nm, code.Fl, code.Cm, code.Ic, code.In, code.Fd, code.Fn,
+code.Cd { font-weight: bold; font-family: inherit; }
+
+table.Nm td:first-child { padding-right: 1ch; }
+code.Fl { white-space: nowrap; }
+span.RsT { font-style: italic; }
+dl.Bl-tag:not(.Bl-compact) dt { margin-top: 1em; }
+ul.Bl-bullet:not(.Bl-compact) li { margin-top: 1em; }
+div.Bd-indent { margin-left: 4ch; }
+table.Bl-column { width: 100%; }
+table.foot { margin-top: 1em; }
+table.tbl td:not(:last-child) { border-right: solid 1px; }
+table.tbl tr:first-child { border-bottom: 2px solid black; }
+table.tbl td { padding: 0 1em; }
+
+div.manual-text a.Xr {
+	color: inherit !important;
+}
+
+div.manual-text a.Xr:hover {
+	text-decoration: none !important;
+}
+```
 
 I then created the `/var/git` and `/var/git/repositories` directories, and ran an adaptation of the script used to setup gemini hosting:
 

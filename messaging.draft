@@ -101,6 +101,23 @@ server {
 }
 ```
 
+And add the relevant bits to the main config:
+
+```nginx
+# This is needed later, for the Matrix server.
+location /.well-known/matrix/server {
+  return 200 '{"m.server": "matrix.dupunkto.org"}';
+  default_type application/json;
+  add_header Access-Control-Allow-Origin *;
+}
+
+location /.well-known/matrix/client {
+  return 200 '{"m.homeserver": {"base_url": "https://matrix.dupunkto.org"}}';
+  default_type application/json;
+  add_header Access-Control-Allow-Origin *;
+}
+```
+
 I wanted to use PAM as authentication provider. Fortunately, there was a repo available. Unfortunately, it was ancient. There was a more up-to-date fork tho, which I then forked and cleaned up a bit. Long story short:
 
 ```sh
