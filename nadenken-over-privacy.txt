@@ -1,0 +1,34 @@
+---
+title: Nadenken over privacy
+date: 2023-02-07
+language: nl
+---
+
+Ik ben bezig met het lezen van _[This is how they tell me the world ends](https://www.bibliotheek.nl/catalogus/titel.434364606.html/this-is-how-they-tell-me-the-world-ends/)_. Het gaat over hoe regeringen kritieke bugs in software (zero-days) kopen en exploiteren om toegang te krijgen tot data waar we geen toestemming voor hebben. Het zette me aan het denken over privacy en data op het internet.
+
+Je ziet overal ter wereld dat er steeds meer voor digitalisering gepusht wordt. Alles moet ineens via het internet gaan. Het lijkt me een nachtmerrie als straks al onze privé-informatie op onze smartphone staat. We hebben al geen inzicht op welke data er mee wordt verzameld en door welke bedrijven deze wordt opgeslagen en verwerkt. Het lijkt me dus al helemaal een slecht idee om daar onze identiteitskaart, betaalgegevens en medische gegevens aan toe te voegen.
+
+Ik wil zelf kunnen bepalen welke informatie ik online zet, en alleen de data waarvan ik *kies* dat ik deze upload wil ik online hebben. Ik heb niks te verbergen, maar ik wil het liefst wel zelf kunnen bepalen wat ik wel en niet deel. 
+
+Ik wil mijn eigen data beheren. Daarmee bedoel ik dat ik zelf bepaal wat ik wel en niet deel en waar en hoe het wordt opgeslagen. Ik ben al sinds 2021 bezig met het verplaatsen van mijn accounts en data naar plekken die ik zelf beheer.
+
+Zo maakt dit blog nu gebruik van [Chop](https://git.dupunkto.org/~robin/libre0b11/chop) en GitHub Pages. Ik heb al mijn content als Markdown files op mijn laptop staan in een Git repo. Ik kan de Git repo nu makkelijk naar een andere code forge zoals Codeberg of GitLab verplaatsen en de site bij een andere provider deployen. Ik ben daardoor niet meer afhankelijk van Blogger[^1].
+
+Mijn wachtwoorden staan als GPG-versleutelde bestanden in een andere Git repo in plaats van in de Firefox password manager. Hierdoor kan ik mijn wachtwoorden makkelijk synchroniseren en heb ik zelf inzicht in hoe ze beveiligd zijn[^2].
+
+Mijn email gaat primair via twee emailadressen op deze domeinnaam -- geheimesite.nl. Daardoor kan ik makkelijk naar een andere provider switchen, zonder dat ik een nieuw emailadres aan al mijn contacten moet doorgeven.
+
+Het is niet per se dat ik Google, Microsoft en Mozilla niet vertrouw. Het punt is dat ik nu zelf bepaal welke informatie ik openbaar maak en wie er toegang tot heeft. Daarnaast ben ik ook zelf volledig in controle over de data: ik kan het verplaatsen naar een andere plek (want alles is met [open standaarden](/belang-van-open-standaarden) opgeslagen) en bepalen wanneer het verwijderd wordt (en dan bedoel ik dus ook 100% verwijderd). En als nu mijn data gelekt wordt is het in ieder geval mijn eigen schuld.
+
+Ik krijg van leeftijdsgenoten vaak te horen dat ze het gek vinden dat ik zo privacybewust ben. Ze vragen dan waarom ik "zo bang ben dat mijn data gestolen wordt". Ik denk dat het op drie dingen aankomt:
+
+- Ik denk dat iedereen een fundamenteel recht op privacy heeft en ik vind dat dat beschermd moet worden.
+- Ik wil digitaal onafhankelijk zijn van bedrijven die andere belangen hebben dan ik.
+- Ik wil dat informatie over mij op *mijn* voorwaarden wordt verwerkt, niet op willekeurig veranderende voorwaarden van een Amerikaans bedrijf.
+- Ik vind het leuk om zelf de technische problemen op te lossen en systemen te beheren waarin mijn data staat.
+
+Het gaat me dus om onafhankelijkheid en inzicht. Mensen mogen mijn privé-informatie hebben -- als ze het nodig hebben -- maar ik wil wel weten hoe, waarom en door wie mijn het wordt verwerkt.
+
+[^1]: Blogger heeft meerdere keren zonder duidelijke reden willekeurige blogs offline gehaald, en daar geen toelichting op gegeven. In sommige gevallen waren er geen backups, en gingen jaren aan posts verloren.
+
+[^2]: Password managers zijn een groot target voor hackers, omdat ze makkelijk toegang verschaffen tot duizenden accounts. Door een selfhosted password manager te gebruiken ben je een kleiner target en kan je zelf de beveiliging beheren.

@@ -1,0 +1,94 @@
+---
+title: Projects
+language: en
+hide_from_index: true
+projects:
+
+  - title: Unlibrary
+    source: ~robin/unlibrary
+    description: A fully fledged RSS reader written in Elixir. Runs as a daemon in the background that multiple clients, like a CLI and webapp, can connect to. Handles pulling feeds concurrently and storing them in the database.
+
+  - title: The Grape Programming Language
+    source: ~robin/grape-lang
+    description: A general purpose programming language made for rapid-pase prototyping. The goal is a functional language with the nice syntax of Elixir or Ruby, but compiled to statically linked binaries.
+  
+  - title: neopub
+    source: ~robin/neopub
+    homepage: //micro.geheimesite.nl
+    description: Self-hosted blogging platform for microblogs. Runs my microblog and has support for micropub (with media endpoint) and multiple post types.
+
+  - title: CutieTanks
+    source: ~robin/cutie-tanks
+    description: Shoot 'em all local multiplayer arcade game with controller support built using PhaserJS.
+
+  - title: VSKodium
+    source: ~robin/VSKodium
+    description: Web-based editor for Chromebooks made using CodeMirror and CSS Grid layout. I made it because the Python editor we used at school was trash and I wanted something I liked.
+
+  - title: js0.23-improved
+    source: ~robin/js0.23-improved
+    description: A fork of the classic.minecraft.net that aims to improve it by adding features to make it closer to the original, or just stuff that I like myself.
+
+  - title: fallen world
+    source: ~robin/fallen_world
+    description: A Minecraft RPG and adventure map, built completely without any plugins or mods. It's all vanilla Minecraft commands, scoreboards and loottables.
+
+  - title: Mushroom Highlands
+    source: ~robin/MushroomHighlands
+    description: A Minecraft Datapack that adds a new dimension to the game. Features new items, mobs, biomes and structures. It's inspired by the famous Minecraft mod The Aether.
+
+websites:
+
+  - title: HVM Old's Cool
+    screenshot: /images/websites/hvm-oldscool.png
+    url: hvm-oldscool.nl
+    description: Educatieve website van de Historische Vereniging Maassluis, met interactief lesmateriaal.
+
+  - title: De Groentemeester
+    screenshot: /images/websites/degroentemeester.png
+    url: degroentemeester.nl
+    description: Landingpage voor de zelfoogsttuin van mijn vader, de Groentemeester.
+
+  - title: Sterrenkruid
+    screenshot: /images/websites/sterrenkruid.png
+    url: jokessterrenkruid.blogspot.com
+    description: Het blog van mijn oma. Ze blogt over astrologie, bomen, stenen en andere dingen.
+
+  - title: Sharefox
+    screenshot: /images/websites/sharefox.png
+    url: sharefox.eu
+    description: Sharefox is een product dat ik bij Qdentity heb gebouwd. Het is een simpele tool om gevoelige informatie zoals wachtwoorden, financiële informatie, API keys en andere documenten uit te wisselen.
+
+  - title: Groendoenerij
+    screenshot: /images/websites/groendoenerij.png
+    url: groendoenerij.nl
+    description: Bedrijfswebsite van mijn vader. Hij doet momenteel vooral kleinschalige groenteteelt, maar in het verleden legde hij ook groene tuinen en schoolpleinen aan.
+
+  - title: Dagboek van een Grootmoeder
+    screenshot: /images/websites/grootmoedersdagboek.png
+    url: grootmoedersdagboek.blogspot.com
+    description: Dit is een ander blog van mijn oma. Hier blogt ze over kinderen, kruiden en andere dingen die haar leven leuk maken.
+
+  - title: Streekproeverij Weij
+    screenshot: /images/websites/streekproeverij-weij.png
+    url: streekproeverijweij.nl
+    description: Landingpage voor Weij, een initiatief Tom en Joyce van Zwet om met elkaar, een mooie, duurzame en sociale omgeving te realiseren.
+
+  - title: Duurzame Maassluizers
+    screenshot: /images/websites/duurzame-maassluizers.png
+    url: duurzamemaassluizers.nl
+    description: Nieuwswebsite van de Duurzame Maassluizers, een bewonersgroep uit Maassluis die zich inzet voor verschillende thema's met betrekking tot duurzaamheid.
+
+  - title: Thesis Eveline Boers
+    screenshot: /images/websites/thesis-eveline-boers.png
+    url: thesisevelineboers.blogspot.com
+    description: Een website met extra materialen, uitleg en videos met betrekking tot de promotiestudie van mijn moeder.
+
+---
+
+{% render "includes/projects", projects: projects %}
+
+
+# Websites
+
+{% render "includes/websites", websites: websites, site: site %}

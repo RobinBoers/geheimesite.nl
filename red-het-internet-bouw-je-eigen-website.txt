@@ -1,0 +1,72 @@
+---
+title: Red het internet, bouw je eigen website.
+date: 2022-05-30
+language: nl
+---
+
+[Het internet is stuk](https://waag.org/nl/hetinternetisstuk). Scams, advertenties, fake news, misinformatie, verslaving, privacy schending, hatespeech, echo chambers, rascisme en discriminatie. Hoe zijn we hier terecht gekomen? Zoals ik en mijn vriend Kevin altijd bij bijna al ons geschiedenishuiswerk invullen: *geld macht politiek*.
+
+## Durfkapitaal
+
+Bedrijven als [Uber](https://www.rtlnieuws.nl/tech/artikel/4808216/uber-boekt-grootste-verlies-ooit-meer-dan-5-miljard-dollar), [Spotify](https://www.volkskrant.nl/economie/spotify-groeit-verder-maar-maakt-nog-geen-winst~b91b3f2a/) en [Thuisbezorgd.nl](https://www.nu.nl/economie/6120928/moederbedrijf-thuisbezorgd-blijft-ondanks-corona-verliesgevend.html) groeien razendsnel, maar maken al jaren verlies. Het idee is om zo snel mogelijk een zo groot mogelijk marktaandeel te krijgen. Maar hoe kan dat? Iemand moet toch de salarissen van de werknemers betalen? En de grote panden?
+
+Deze bedrijven kunnen alleen overleven omdat ze verschrikkelijk veel geld binnenkrijgen van investeerders met durfkapitaal. Het is alsof je een zwembadje hebt wat volledig lek is, maar daar gewoon tien tuinslangen in legt om het continue bij te vullen. Het is alsof ze monopoly spelen met infinite geld. En wat willen investeerders? Precies: **winst**.
+
+Het resultaat is dat je een bedrijf hebt dat als doelstelling heeft winst te maken voor de investeerders. De eigenaren van het bedrijf zijn namelijk de investeerders (want zo werken aandelen). Dit is niet alleen een probleem met bedrijven die verlies draaien, maar ook met winstgevende bedrijven als Facebook, Google en Amazon. Het is veel lucratiever om persoonlijke data van je klanten te verkopen met een gratis product dan om klanten te overtuigen van het kopen van je product.
+
+## De belangen van de investeerders
+
+Het doel is te groeien en zoveel mogelijk winst binnen te harken. Niet om een veilig en privacybewust platform te bouwen, of een goede zoekmachine. De belangen van de bedrijven wijken af van die van de consumenten. Dit leidt tot situaties waar de gebruiker niet voorop gezet wordt. Apps en algoritmes zijn gemaakt om zo lang mogelijk je aandacht vast te houden. In deze omgeving worden de timelines en feeds overspoeld met clickbait en extreme content. Wie het hardst roept krijgt de aandacht van de gebruiker. Het tweede probleem is dat je ook alleen dingen uit je eigen ["bubbel"](https://yewtu.be/watch?v=FLoR2Spftwg) hoort. Als dat over katten of lego gaat is het niet erg, maar als het over de maatschappij of politiek gaat is het een ander verhaal. Het zorgt voor verdeeldheid en conflicten.
+
+Social media bedrijven kunnen de algoritmes gewoon aanpassen. Het is niet heel moeilijk om ervoor te zorgen dat er geen extreme politieke content wordt aanbevolen, of dat misinformatie wordt gefilterd[^1]. Het probleem is dat het goed betaalt. Mensen houden ervan te horen wat ze leuk vinden, en dat betekent dat ze langer op je app blijven. Meer winst voor het techbedrijf, dus die zijn blij. "Waarom zouden we ons algoritme ook verbeteren als we dan minder winst zouden maken. [Het is niet alsof we het kunnen missen](https://mkorostoff.github.io/1-pixel-wealth/)."
+
+Het probleem is dat al deze apps "gratis" zijn. Je ziet keer op keer dat bedrijven met een normaal bussiness model gewoon een goed, betaald, product kunnen bouwen zonder de privacy van de gebruikers te schenden of advertenties te tonen. Het wordt alleen heel moeilijk om ineens geld te gaan vragen voor een product dat altijd gratis is geweest.
+
+## Wie is de eigenaar van de content?
+
+Sinds de opkomst van Web 2.0 en de bijbehorende [silos](https://indieweb.org/silos) zetten we al onze content op gecentraliseerde platformen. We geven hiermee controle weg over onze privacy, onze identiteit, en, het belangrijkst, de [permalink](https://indieweb.org/permalink). [All social media is doomed to fail](https://indieweb.org/site-deaths). Als een platform verdwijnt is alle content, en bijbehorende culturele geschiedenis, *voor goed* weg.
+
+Als je dingen naar je eigen site post is dit probleem er niet. Met een eigen domeinnaam en een Wordpress installatie kom je al best ver. Je hebt geen centraal platform nodig. Het is veiliger en je bent zelf in beheer over welke data je wel/niet weggeeft, en, niet onbelangrijk, je bent zelf in beheer van de permalink. Je kan naar wens van webhost of CSM switchen zonder dat de permalink stopt te werken. Probeer [RSS](https://en.wikipedia.org/wiki/RSS) te gebruiken in plaats van een [silo](https://indieweb.org/silo). Comment met [webmentions](https://indieweb.org/webmention). Deze kleine dingen helpen al een hele hoop.
+
+## Breng de creativiteit terug
+
+Hoe vaak ben je niet op een website gekomen die ongeveer zo in elkaar zat: logo en menu bovenin, grote slogan en dan een felgekleurde knop waar ze willen dat je op klikt.
+
+![Voorbeelden van deze layout. Het is overused.](/images/basic-cta-webdesign-examples.jpg)
+
+Dit is weer een symptoom van het willen geld verdienen met het internet. En ook bedrijven met betaalde producten hebben vaak dit soort pages. Het doel is om jou zo snel mogelijk op de gekleurde knop te laten klikken voor je weer wegklikt naar een andere site — en het werkt.
+
+Het probleem met deze standaard layout is dat het alle creativiteit uit het ontwerpproces haalt. Ja, je kan nog steeds een mooie site ontwerpen, maar je zit wel vast aan de layout. Tot op zekere hoogte geld dit ook voor social media. Je kan misschien wat kleuren aanpassen en een profielfoto of banner uploaden, maar daar houdt het ook op. Als je een eigen site hebt kan je juist die creativiteit terugbrengen die oudere websites zo kenmerkt.
+
+Er zijn geweldige communities ontstaan op bijvoorbeeld [Neocities](https://neocities.org/), een gratis webhost geïnspireerd door Geocities, die als missie heeft "het terugbrengen van de creativiteit en expression op het world wide web, die het zo fantastisch maakte". Het is helemaal gratis, maar je kan ze ook sponsoren met een subscription. Het platform is volledig open-source en wordt betaald uit de inkomsten van de subscribers.
+
+Dit soort initiatieven zorgen ervoor dat het internet een betere plek wordt. In plaats van het belang van de investeerders plaatsen zij publieke waarden voorop. Ik raad ook aan eens te kijken naar [Yesterweb](https://yesterweb.org), een beweging die zich inzet voor creativiteit en diversiteit op het internet.
+
+## En nu?
+
+Het probleem dat ik vooral heb met de huidige staat van het internet is dat het een totale rotzooi is, maar voor veel van ons is het wel een groot deel van onze identiteit. Er is een gebrek aan regulering. Internetbedrijven worden niet voldoende verantwoordelijk gesteld voor de schade die zij aanrichten aan onze samenleving. Ik heb al eerder posts geschreven over dit onderwerp:
+
+- [Het belang van open standaarden](/post/belang-van-open-standaarden/)
+- [Social media, wat moeten we er mee aan?](/2021/12/social-media-wat-moeten-we-er-mee-aan.html)
+
+Maar er is ook iets wat wij als consumenten kunnen doen. Zeg nee tegen deze platformen. Red het internet en bouw je eigen website.
+
+## Gerelateerd
+
+- [Het internet is stuk](https://waag.org/nl/hetinternetisstuk)
+- [Into the Personal-Website-Verse](https://matthiasott.com/articles/into-the-personal-website-verse)
+- [Nothing Fails Like Success](https://alistapart.com/article/nothing-fails-like-success/)
+- [Who originally suggested that 'if you're not paying for the product, you are the product'?](https://www.quora.com/Who-originally-suggested-that-if-youre-not-paying-for-the-product-you-are-the-product)
+- [Own your content on Social Media using the IndieWeb](https://yewtu.be/watch?v=X3SrZuH00GQ)
+- [Tantek Celik, "Why We Need the IndieWeb",](https://yewtu.be/watch?v=HNmKO7Gr4TE)
+- [Maak je eigen moederschip](https://diggingthedigital.com/maak-je-eigen-moederschip/)
+- [Make Free Stuff](https://mxb.dev/blog/make-free-stuff/)
+- [Yesterweb](https://yesterweb.org)
+- [Why The Web Is Such A Mess](https://yewtu.be/watch?v=OFRjZtYs3wY)
+- [This Video Has 51,827,520 Views](https://yewtu.be/watch?v=BxV14h0kFs0)
+
+Als ik je heb overgehaald en je het IndieWeb wil joinen:
+
+- [Getting Started - IndieWeb](https://indieweb.org/Getting_Started)
+
+[^1]: Niet als je de resources van zo'n groot internetbedrijf hebt tenminste. Het is niet bepaald makkelijk om content juist te filteren zonder gezeur te krijgen over censuur, en waar de lijn van extreme content dan ligt. Maar als ze het echt zouden willen zouden ze het kunnen doen.

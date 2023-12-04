@@ -1,0 +1,3 @@
+{% for page in menu -%}
+=> {{ site.prefix }}{{ page.path }}.gmi {{ page.title }}
+{% endfor -%}

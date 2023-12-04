@@ -1,0 +1,25 @@
+---
+title: Plans for my own RSS reader
+date: 2023-11-12
+language: en
+---
+
+I've been using RSS for 6 years now -- for perspective, that's ~40% of my life -- and I really enjoy it. It allows me to curate my own collection of interesting things to read. It then automatically collects them all in one place, where I'm able to read everything in my own preferred font & styling.
+
+But where to keep all those feeds? I used Inoreader in the past. But, I'm looking for something more minimal and lightweight. So I handcrafted my own OPML file, which you can download on the [Blogroll](/blogroll) page if you're interested. One problem tho: not a lot of RSS clients seem to support it. Admittedly, they can all import and export OPML files just fine. But I want a single source of truth -- instead of a bunch of RSS readers that all use a slightly different version of my OPML file (that I downloaded at different times).
+
+Furthermore, I would love to be able to read my feeds from everywhere. For example, I'd love to be able to read RSS on those crappy school Chromebooks, so that I can procrastinate even more. Unfortunately, they disabled virtually everything on those things :(
+
+So I've been thinking. What if I DIY something like [Antenna](gemini://warmsdal.se/~antenna) on Gemini? It would work a bit like this: a single statically linked executable, which:
+
+- Parses an OPML file
+- Fetches & parses every feed
+- Writes every entry to `HASH.html`
+- Constructs an index
+
+Basically, an RSS reader as static site generator. It would run every two to three hours, and it would have to follow best practices, like `ETag` and `Last-Modified` headers (because I don't want to spam others' RSS feeds). I've been eyeing [OCaml](https://ocaml.org) for a while now, and this seems like a fun project to try it out. For a name, I think I'm gonna call it Pod, because it sounds fun.
+
+I'd also be completely open to suggestions for feeds to add to the OPML file, so that it might also be of use to others. 
+
+Sounds like a good idea, eh?
+

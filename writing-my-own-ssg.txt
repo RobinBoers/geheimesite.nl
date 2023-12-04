@@ -1,0 +1,100 @@
+---
+title: Writing my own SSG
+date: 2023-10-16
+language: en
+---
+
+A few days ago, I discovered the Gemini protocol. I heard about it a while back already, but I didn't pay that much attention and failed to notice it.
+
+So, naturally, I was REALLY excited about this cool new toy. I downloaded about four different clients/browsers to see which one I liked the best (it turned out to be [Lagrange](//gmi.skyjake.fi/lagrange/)), and immediately thought about porting my website to it. Small problem however: my site is built using [Hugo](https://gohugo.io).
+
+And I *love* Hugo. It's fast. It's easy. It's powerful. It's fast. Did I mention that it's fast? However, Hugo is also really centered around HTML files. And to make matters worse, my site is really complicated. It interacts with multiple things on `api.geheimesite.nl`, renders RSS feeds, downloads images, does fancy resource things.
+
+In short, porting it over was gonna be *really hard*. So, instead of breaking my brain over porting my primary website, I took a look at my blog. Just like my website, my blog is built using Hugo. Because I do really like Hugo a lot. So, after a quick bit of Googling, I found out that I could [add an output to Hugo](https://sylvaindurand.org/gemini-and-hugo/). But what would be the fun of that, eh?
+
+And to be honest, I've been wanting to build another blog for a while now. Actually, I already bought a domain for it 4 months back. Initially, I built it like a text-based system. I wrote a little PHP script that handled the HTTP `PUT` verb, which meant I could do cool things like this:
+
+```shell
+curl http://example.com/essay.txt --upload-file essay.txt -u robin:password
+```
+
+All files would be served as `text/plain`, and hyperlinks would be added on separate lines, where you could easily copy and paste them. Sounds familiar, right?
+
+I also got very hyped when I found [Wesley's notebook](https://notebook.wesleyac.com) a while back. It's such a simple, sleek and beautiful website. And the cool thing is that he completely wrote the thing using POSIX-complaint shell scripts, with almost no dependencies. In addition to one of the prettiest designs I've seen in a while, it also has a bunch of cool features:
+
+- Deep linking
+- Very cool 404 page
+- Images are automatically compressed
+- Builtin `git` history with links to diffs
+
+So, of course, I decided to create a new blog. And not just that, I wanted to build my own static site generator, just like Wesley did. So, I spent my weekend cooking up this little project. 
+
+How does one build a SSG, you might ask? Well, it's actually fairly simple, because a lot of the building blocks are already out there. For my project, I chose the [Liquid templating language](https://shopify.github.io/liquid/). Luckily, there's already an amazing Javascript library for using Liquid out there, called [LiquidJS](https://liquidjs.com). The same goes for [YAML parsing](https://www.npmjs.com/package/js-yaml) and Markdown (using [gemdown](https://github.com/audiodude/gemdown) and [marked](https://marked.js.org) respectively). 
+
+Consequently, after glueing together a bunch of libraries that other people wrote, I ended up with something like this:
+
+```javascript
+// This code snippet is greatly simplied,
+// but the general flow is like this.
+
+let globalVariables = readGlobalConfigFile();
+
+let contentFiles = 
+  getAllFilesWithExtension(".txt").map(mergeFrontmatterWithGlobalVariables);
+
+for (const output in directoriesIn("templates")) {
+  let template = parseDefaultTemplateFor(output);
+  let pages = [];
+
+  for(file in files.filter((f) => !isIndex(f))) {
+    let destPath = generateDestinationPath(file, path.extname(template.path));
+    let parsedMarkdown = parseMarkdown(template, getContent(file));
+    let variables = { url: destPath, content_rendered: parsedMarkdown, ...variables };
+
+    pages.append(variables);
+
+    let finalContent = renderTemplate(template, variables);
+    writeToFile(finalContent, output, destPath);
+  }
+  
+  for(file in files.filter((f) => !isIndex(f))) {
+    let destPath = generateDestinationPath(file, path.extname(template.path));
+    let parsedMarkdown = parseMarkdown(template, getContent(file));
+    let variables = { url: destPath, content_rendered: parsedMarkdown, pages: pages, ...variables };
+
+    let finalContent = renderTemplate(template, variables);
+    writeToFile(finalContent, output, destPath);
+  }
+
+  copyOverStaticFiles(output);
+}
+```
+
+Yup. It's that simple.
+
+I settled on calling it `chop`, because I hoped it would be semi-fast (in dutch "chop chop" is a way to tell someone to speed things up).
+
+The initial version has these features:
+
+- A global config file
+- Front Matter
+- Liquid templates
+- Static files
+- Multiple outputs (HTML, gemtext, RSS etc.)
+- Smartypants punctuation
+- Automatic image compression
+- Render content as liquid templates
+  (which allows you to use variables and partials in content)
+- Prefixing relative URLs (in content).
+
+But I'm planning to add quite a bit more:
+
+- Syntax highlighting
+- Automatic hashes in filenames for CSS
+- Integration with `git` (for file history)
+
+I'm not building this to be extendible or modular. Instead, this should stay a relatively simple script that just does what *I* want it to do. If *you* want to build something else, go for it!
+
+So yea. Writing `chop` was quite fun, and I'm definitely happy with the end result!
+
+[Source code](https://git.dupunkto.org/~robin/libre0b11/chop)

@@ -1,0 +1,9 @@
+{%- for project in projects %}
+=> {% if project.source -%}
+https://git.dupunkto.org/{{ project.source }}
+{%- elsif project.homepage -%}
+{{ project.homepage }}
+{%- endif %} {{ project.title }}
+
+{{ project.description }}
+{% endfor -%}

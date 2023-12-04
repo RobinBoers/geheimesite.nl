@@ -1,0 +1,11 @@
+# {{ title }}
+
+{{ content_rendered }}
+
+{% render "includes/menu.gmi", site: site, menu: menu %}
+## Recent posts
+{% assign posts = pages | where: "hide_from_index", null | where: "date" | sort: "date" | reverse %}
+{% render "listing.gmi" for posts as page %}
+## Other pages
+{% assign pages = pages | where: "hide_from_index", null | where: "date", null %}
+{% render "listing.gmi" for pages as page %}

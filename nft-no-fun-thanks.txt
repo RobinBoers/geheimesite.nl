@@ -1,0 +1,67 @@
+---
+title: NFT? No fun, thanks.
+date: 2023-01-08
+language: nl
+---
+
+Ik hoor de laatste tijd veel mensen over NFTs, crypto, dapps[^1] en web3. Maar waar gaat het nou precies over, en waarom is het juist *niet* de oplossing? Dat ga ik kort proberen uit te leggen. Hou er rekening mee dat dit de mening is van een vijftienjarige die niet gespecialiseerd is in crypto. Neem het dus met een korreltje zout.
+
+Dus om te beginnen, wat is crypto? Crypto is een afkorting voor cryptography, een technologie om data te ver- en ontsleutelen. Het beveiligt bijvoorbeeld al het webverkeer over HTTPS en zorgt ervoor dat je veilig via het internet kan betalen. Waar het begrip de laatste tijd echter veel voor wordt gebruikt is als afkorting voor cryptocurrencies.
+
+Cryptocurrencies zijn digitale betaalmiddelen die gebruikmaken van een blockchain. Een blockchain is een manier om data op te slaan zodat deze later niet meer aangepast kan worden. Hierbij wordt dus gebruikgemaakt van cryptography. De eerste populaire cryptomunt is bitcoin. Bitcoin is bedacht als experiment voor het ontwikkelen van een alternatief geldsysteem nadat vertrouwen in het bestaande geldsysteem was verloren door de financiële crisis van 2008.
+
+Het probleem met Bitcoin is dat *het alleen een experiment was*. Daarnaast, het heeft nooit gefunctioneerd als betrouwbaar betaalmiddel. De waarde van een Bitcoin fluctueert veel te veel, en het is voor veel mensen te technisch om makkelijk te gebruiken. Geloof je me niet? Probeer jij eens je hypotheek te betalen met Bitcoin of een blikje Cola te kopen met Etherium. Tel daar bij op dat een crypto transactie vaak uren kan duren, en je hebt een onbruikbaar betaalmiddel.
+
+Het gevolg is dat het vooral als [Investment vehicel](https://www.investopedia.com/terms/i/investmentvehicle.asp) gebruikt wordt: je investeert in crypto om het later voor winst te verkopen, vergelijkbaar met hoe aandelen werken. Het is dus geen realistisch alternatief voor het huidige financiële systeem en eigenlijk alleen een nieuw middel dat gebruikt kan worden door banken en speculanten.
+
+Omdat het alleen een financieël instrument is en niet als daadwerkelijk betaalmiddel gebruikt kan worden ontstaat er een probleem: je hebt misschien cryptocoins die 10x zoveel waard zijn geworden, maar je kan ze nergens uitgeven. De enige manier om die waarde uit de cryptocurrency te krijgen is door het te verkopen voor "echt geld" (lees: euro's of dollars) en dat vervolgens uit te geven.
+
+Dat betekent dat de enige manier om de waarde uit crypto te krijgen is door iemand anders met de cryptocoins op te zadelen. Je koopt assets zonder echte waarde in de hoop ze later te verkopen aan een ander voor meer geld. Dit noem je een [greater-fools scheme](https://en.wikipedia.org/wiki/Greater_fool_theory).
+
+Crypto kan geen geld genereren. Voor elke euro die je met crypto verdient moet iemand anders dat erin gestopt hebben. Crypto zelf heeft geen waarde, de enige waarde die crypto heeft is de mogelijkheid het later te verkopen. Als dat niet lukt omdat de prijzen absurd hoog geworden zijn ben je de pineut.
+
+Het zou kunnen dat je nu denkt: maar dat is toch hoe aandelen ook werken? Die koop je ook in de verwachting later te kunnen verkopen tegen een hogere prijs. Maar bij een aandeel heb je in tegenstelling tot crypto ook nog daadwerkelijke waarde: je koopt een stukje bedrijf, en dat bedrijf heeft eigendommen die geld waard zijn. Dat geldt ook voor andere dingen die je kan verkopen voor een hogere prijs: bijvoorbeeld een huis of een stuk grond.
+
+Daarbij komt nog dat alle mensen die je proberen over te halen te investeren in crypto bijna allemaal zelf cryptocoins bezitten en dus een financieël motief hebben om meer mensen binnen te halen: als meer mensen cryptocurrencies gebruiken worden hun coins meer waard.
+
+En de hele droom om een betaalmiddel te hebben dat niet via centrale organisaties (lees: banken) gaat is toch al mislukt, want door de complexiteit van crypto handelt bijna iedereen via crypto exchanges. Dat zijn een soort digitale handelplekken voor cryptocurrencies. Ze beheren je crypto wallet voor je en je maakt transacties via de exchange. Hmm, komt dat je bekend voor? Ja, dat klinkt verdacht veel als een bank.
+
+Al met al introduceert crypto meer problemen dan het oplost. Het is geen functionerend betaalmiddel, je handelt nog steeds via exchanges die [net iets te vaak hun gebruikers volledig scammen](https://web3isgoinggreat.com/?theme=hack), het is verschrikkelijk complex (en daardoor neemt de kans dat je gescamd wordt omdat je geen idee hebt wat je aan het doen bent toe) en het is basically een greater-fools scheme.
+
+En dan de olifant in de kamer: crypto gebruikt echt *fucking veel* energie. Bitcoin alleen gebruikte in 2021 al [meer dan 100 TWh](https://ccaf.io/cbeci/index) aan energie. Dat is meer dan het jaarlijkse energieverbruik *40 miljoen* (gemiddelde) gezinnen.  
+
+Als je een jaar lang je auto niet aanraakt kan je zo'n 2.4 ton[^2] CO<sub>2</sub> besparen. Als je vervolgens 5 bitcoin transacties maakt heb je dat volledig ongedaan gemaakt. Ter vergelijking: één bitcoin transactie verbruikt even veel energie als ongeveer een miljoen VISA transacties en 80.000 uur YouTube kijken[^3].
+
+En dan hebben we het dus nog niet eens gehad over NFTs. Oh boy, here we go.
+
+Om te beginnen: wat is een NFT eigenlijk? NFT staat voor non-fungible token. Het is vergelijkbaar met een crypto coin, maar het belangrijke verschil is dat een crypto coin[^4] uitwisselbaar is met elke andere coin, en een NFT niet. Dit is waar non-fungible (niet-uitwisselbaar) voor staat.
+
+Maar als je een NFT koopt, wat koop je dan precies? Dat is dus niet helemaal duidelijk. Juridisch gezien koop je alleen bragging-rights over het digitale kunstwerk dat aan de NFT gekoppeld zit. Je koopt geen copyright of intellectueel eigendom. Ook iedereen kan een NFT maken en er is geen enkele manier om te checken of degene die een NFT heeft gemaakt ook de originele maker van het kunstwerk is. Hierdoor komt het binnen de cryptomarkt veel voor dat mensen NFTs verkopen van kunstwerken die ze niet zelf gemaakt hebben. Wat koop je dan? Bragging-rights over het "ownen" van een kunstwerk dat ook nog eens gestolen is van de originele maker. Het enige wat je dus hebt is bewijs dat je het kon betalen: status.
+
+Daarbij komt dat de meeste NFTs niet eens het kunstwerk zelf bevatten, enkel een link ernaartoe. Die link is net zo vatbaar voor [link rot](https://en.wikipedia.org/wiki/Link_rot) als alle andere URLs. Heb je straks een NFT gekocht en gaat de server van de verkoper offline, zit je met een NFT die een dead link bevat.
+
+Ook kan iedereen die link bezoeken en een kopie van je asset maken (want om het plaatje weer te geven moet je computer het eerst downloaden, dat is namelijk hoe het internet werkt). Misschien denk je nu: maar Robin, dat lijkt toch op hoe normale kunst ook werkt? Je kan ook een kopie van de Mona Lisa kopen die door een imitatie schilder gemaakt is en het verschil bijna niet zien. Je betaalt geld voor het origineel, voor de ambacht die daar in zit[^5].
+
+Hier valt de vergelijking dan wel gelijk uit elkaar. Een kopie van een digitaal kunstwerk is namelijk 100% hetzelfde als het origineel. Het lijkt er niet alleen op, het is exact hetzelfde kunstwerk. Je zou ook 2 verschillende NFTs van hetzelfde plaatje kunnen maken[^6]. Het plaatje dat de NFT representeert is niet uniek, alleen de NFT zelf. Je koopt eigenlijk alleen het bewijs dat je er geld aan besteed hebt, niet het plaatje[^7] zelf. Dus wat koop je nou eigenlijk? Precies, status.
+
+Gewoon de JPG kopen zou exact hetzelfde effect hebben als het kopen van een NFT. Je kan de factuur/afschrijving op je bankrekening laten zien om te bewijzen dat je echt het kunstwerk hebt gekocht, als je dat zo graag wil. Je betaalt geld aan de kunstenaar en krijgt een link naar het plaatje dat je dan kan downloaden. TADA: je hebt een makkelijk te kopieëren plaatje (net als bij NFTs) en je kan bewijzen dat het (veel) geld waard is met je rekening afschriften. Het probleem: je kan het moeilijk doorverkopen.
+
+En dat is dus exact het probleem voor veel mensen. NFTs zijn een digitale kunstmarkt geworden waarbij met duizenden euro's gesmeten wordt voor "kunst"[^8]. In de kunstwereld heb je ook kunstwerken die heel makkelijk te maken zijn, heel veel op elkaar lijken en er niet uitzien waar mensen alsnog heel veel geld voor over hebben (lees: abstracte kunst), net als bij NFTs. En ik denk dat er met de kunstwereld zelf ook best veel mis is. Het verschil is denk ik dat daar minder mensen gescamd worden vanwege een te complex systeem en we er niet ons klimaat mee om zeep helpen.
+
+Dus als mensen aan mij vragen hoe dat nou zit met die crypto en NFTs of zelfs voorstellen er in te investeren zeg ik: NFT? No fun, thanks!
+
+[^1]: decentralised apps
+
+[^2]: Hierbij ga ik ervan uit dat je ca. 10.600km/jaar rijdt (bron: [www.milieucentraal.nl](https://www.milieucentraal.nl/klimaat-en-aarde/klimaatverandering/wat-is-je-co2-voetafdruk/) en 1kg CO<sub>2</sub> gelijkstaat tot 4.5km rijden (bron: [corekees.nl](https://corekees.com/news/hoeveel-is-een-kilo-co2/)).
+
+[^3]: Bron: [digiconomist.net](https://digiconomist.net/bitcoin-energy-consumption). Sowieso wel interessant om te lezen.
+
+[^4]: Er is een belangrijk verschil tussen coins en tokens: een coin representeert geld op de blockchain. Elke coin is uitwisselbaar voor een andere (fungible). Een coin heeft een bepaalde waarde, en dat is alles wat de coin doet. Het belangrijke verschil met een token (lees: NFT) is dat een token gebruik maakt van een smart contract. Een smart contract is een stukje code dat bij elke transactie wordt uitgevoerd, maar in de praktijk bevat het meestal alleen een URL naar een bestand. De token representeert dus niet een bepaalde waarde, maar een stukje data (lees: een bestand).
+
+[^5]: En om eerlijk te zijn, ik zou daar ook het geld niet voor over hebben. Ik zou kunst puur en alleen kopen omdat ik het mooi vond of omdat ik vond dat de artiest het verdient.
+
+[^6]: Bronnen: [StackOverflow](https://stackoverflow.com/questions/68816228/multiple-nfts-from-the-same-source) en [NFT Plazas](https://nftplazas.com/learn-about-nfts/multiple-nfts-for-one-piece-of-digital-art/). [Hier is nog een voorbeeld](/images/omniswtf.png): een collectie genaamd _omnis.wtf_. 5000x hetzelfde plaatje dat voor ca. 0.3ETH (= €355) per stuk verkocht wordt. Dan koop je inderdaad iets heel "unieks".
+
+[^7]: Als ik het over _plaatje_, _asset_ of _bestand_ heb bedoel ik hetzelfde: hetgene waar de link in de NFT naar toe verwijst.
+
+[^8]: [Noem dit maar eens kunst](https://opensea.io/assets).

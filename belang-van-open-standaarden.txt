@@ -1,0 +1,27 @@
+---
+title: Het belang van open standaarden
+date: 2022-03-08
+language: nl
+---
+
+Als je vroeger iets online wilde zetten had je alleen simpele HTML webpages. Je uploadde ze dan naar je eigen website of blog. Je was op je favoriete blogs geabonneerd via RSS en chatten ging via IRC. Dat zijn open standaarden voor communiceren, die door iedereen ondersteund worden.
+
+Maar sinds de opkomst van het zogenoemde "web 2.0" zetten we alles bij Big Tech: Facebook, Microsoft, Apple, Amazon en Google. Denk daar eens over na. Als je iemand een berichtje wil sturen, wat gebruik je dan? Whatsapp of Facebook Messenger? Als je online iets wil posten? Sommigen van mijn lezers hebben misschien een eigen blog, maar de rest zet het waarschijnlijk op Facebook, Instagram, Snapchat of TikTok. Onze feeds bestaan niet uit wat we leuk vinden, maar uit wat de bedrijven op basis van data *denken* dat we leuk vinden. We hebben geen enkele inzichten in de algoritmes, we weten niet hoe ze werken, wat voor content ze het meest pushen en waarom. Clickbait en misinformatie domineren. Als het platform wordt opgeheven, [ik kijk naar jou Google+](https://plus.google.com), dan zijn we de content *voor goed kwijt.
+
+Content kan niet makkelijk tussen de platforms verplaatst worden. Er zijn geen open standaarden die iedereen ondersteund. Daardoor raken we locked in. We gebruiken allemaal nog steeds Whatsapp, omdat *iedereen Whatsapp gebruikt. Als je besluit een privacy-bewust alternatief zoals [Signal](https://signal.org/en/) te gebruiken raak je contact met je familie en vrienden kwijt.
+
+Blijkbaar vinden we het prima dat *al onze activiteit* getrackt wordt. En dat terwijl zelfstandige blogs, RSS en IRC nog steeds gewoon beschikbaar zijn. Het is duidelijk dat we blijkbaar liever het gemak van Facebook hebben. We hebben toch niets te verbergen, toch?
+
+[We hebben *wel* iets te verbergen](https://decorrespondent.nl/nietsteverbergen)! Onze data is van ons, en zou niet zonder onze explicitiete toestemming ergens in een datacenter moeten belanden. Wat mij frustreert is dat deze bedrijven de bewuste keuze maken om winst boven het publieke belang te plaatsen. [Algoritmes zijn niet een soort magische AI superpower](https://yewtu.be/watch?v=P_9MIU8ZueU) waar we geen invloed op hebben. Algoritmes zijn gewoon een set aan instructies, net als andere computer programma's. Misschien klinkt dit gek, maar computers hebben zegmaar dit gekke gedrag dat ze altijd *precies doen wat aan ze wordt opgedragen*. Een computer besluit niet ineens uit zichzelf om een bepaalde post bovenaan in je feed te zetten. Het is ingeprogrammeerd.
+
+Gelukkig hebben open standaarden en open-source code. Als al deze platforms open standaarden zouden gaan ondersteunen en de source code voor hun algoritmes zou vrijgeven zouden we vrij zijn om gemakkelijk van platform te switchen. We zouden ook kunnen zien hoe en op basis waarvan onze feeds worden geconstruct, deze code aanpassen en kunnen delen met anderen. We zouden alternatieve clients kunnen ontwikkelen die rekening houden met mensen, en hun gedrag niet [beïnvloeden met allemaal psychologische trucs](https://schooltv.nl/video/hoe-maken-apps-ons-verslaafd-psychologische-trucs-van-facebook-instagram-en-whatsapp/). Daarnaast blijkt uit het success van bijvoorbeeld Red Hat, Blender, GIMP en nog veel meer open-source projecten dat je met open-source software ook gewoon geld kan verdienen. Natuurlijk, de grote techbedrijven verdienen dan wat minder, [maar ik denk dat ze het kunnen missen](https://www.emerce.nl/nieuws/google-eindigt-2021-nettowinst-76-miljard).
+
+Als er geen open standaarden zouden zijn geweest zou er in de eerste plaats al geen internet zijn. Het [internet protocol](https://en.wikipedia.org/wiki/Internet_Protocol) kan gewoon iedereen gebruiken. Daarom kunnen al onze computers met elkaar praten, en kan jij nu dus deze post lezen. Ik vind het niet meer dan normaal dat de grote bedrijven die hiervan profiteren dan ook open standaarden zouden ondersteunen. Het zou veel van de huidige problemen met social media zoals verslaving, misinformatie en fake news, discriminatie, maar ook met het internet in het algemeen oplossen. Ik heb het al eerder gezegd, maar het is tijd dat deze bedrijven zelf verantwoordelijkheid nemen inplaatsvan deze bij de eindgebruikers neer te leggen.
+
+## Meer lezen
+
+- [Make Free Stuff](https://mxb.dev/blog/make-free-stuff/)
+- [Why The Web Is Such A Mess](https://yewtu.be/watch?v=OFRjZtYs3wY)
+- [This Video Has 51,827,520 Views](https://yewtu.be/watch?v=BxV14h0kFs0)
+- [Het internet is stuk, maar we kunnen het repareren](https://www.bol.com/nl/nl/f/het-internet-is-stuk/9200000115140353/)
+- [The social dilemma](https://www.thesocialdilemma.com)

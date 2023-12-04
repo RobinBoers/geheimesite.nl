@@ -1,0 +1,24 @@
+---
+title: Follow me
+language: en
+---
+
+I don't like social media. Actually, I hate it. Instead, I have a few RSS feeds:
+
+- [primary feed, dutch](/index-nl.xml)
+- [less frequent posts, english](/index-en.xml)
+- [bilingual feed, dutch & english](/index.xml)
+
+## What is RSS?
+
+RSS is like your facebook feed, but instead of an algorithm deciding what to show you, you choose which feeds to subscribe to. That means it is fully in your control: no ads, no snooping.
+
+In order to read the feeds you need an [RSS reader](https://en.wikipedia.org/wiki/News_aggregator). I recommend either [Inoreader](https://inoreader.com) or [The Old Reader](https://theoldreader.com).
+
+I can explain how RSS works here, but I think Nicky Case does a way better job than I do, so please read [her explanation](https://ncase.me/rss) instead :)
+
+## But if you really ❤️ email....
+
+Look, I totally understand if you don't want to setup RSS and you'd rather receive an email if I post something. That's why I also use [Follow.it](https://follow.it/that-crazy-webdev) for email notifications.
+
+{%- render "includes/follow-it", language: language %}

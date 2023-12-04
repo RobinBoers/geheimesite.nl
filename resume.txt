@@ -1,0 +1,50 @@
+---
+title: Resumé
+hide_title: true
+language: en
+---
+
+# Robin Boers
+
+**Developer & webdesigner**  
+hello@geheimesite.nl
+
+## Technical skills
+
+I'm pretty good at building websites. I’m fluent in HTML/CSS, Javascript, Elixir and Phoenix. Additionally, I'm comfortable with the Linux commandline. 
+
+I also have experience with PostgreSQL, MySQL, Svelte, end-to-end encryption, tailwindcss and deployment to Fly.io.
+
+I can work with PHP and WordPress, but I'd rather use a [Static Site Generator](https://en.wikipedia.org/wiki/Static_site_generator). 
+
+## Experience
+
+| Title                | Organisation | Duration     |
+|----------------------|--------------|--------------|
+| Founder & maintainer | {du}punkto   | 2023-Current |
+| Junior Developer     | Qdentity     | 2021-Current |
+
+I worked with Elixir, Phoenix Framework and tailwindcss and I built [Sharefox](https://sharefox.eu) and some other internal APIs.
+
+## Certifications
+
+| School                 | Program      | Duration   |
+|------------------------|--------------|------------|
+| Lyceum Schravenlant    | VWO/Atheneum | 2019-2025  |
+
+## Languages
+
+I speak both Dutch, which is my native language, as well as English, which I learned through online interactions and a lot of Netflix (don't worry, I also got courses at school of course ;).
+
+## Projects & Interests
+
+- Free software
+- Alternatives to the Web
+- Simple software, such as IRC, FTP and RSS
+- Functional programming
+- *NIX systems
+- Webdesign & UI design
+- Documentation
+- Writing
+
+[Full overview of my projects and previous work 🡪](/projects)

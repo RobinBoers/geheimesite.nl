@@ -1,0 +1,22 @@
+{% if websites | first %}
+<div class="h-feed websites">
+    {% for project in websites %}
+        <section class="h-entry">
+            <div>
+                <h2 class="p-name">{{ project.title }}</h2>
+                <p class="e-content p-summary">{{ project.description }}</p>
+                <p>
+                    <a href="https://{{ project.url }}" target="_blank" class="u-url">
+                        {{ project.url }}
+                    </a>
+                </p>
+            </div>
+
+            <img 
+                src="{{ site.prefix }}{{ project.screenshot }}" 
+                alt="Screenshot van {{ project.title }}"
+            >
+        </section>
+    {% endfor %}
+</div>
+{% endif %}

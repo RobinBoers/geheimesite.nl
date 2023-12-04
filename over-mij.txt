@@ -1,0 +1,37 @@
+---
+title: Over mij
+language: nl
+hide_from_index: true
+---
+
+![Mijn avatar](/images/me.webp)
+
+Hoi, ik ben Robin. Ik ben een {{ age }} jaar oude tiener uit Nederland. Ik werk momenteel bij [Qdentity](https://qdentity.nl) als Junior Developer, en ik zit in 5VWO op het Lyceum Schravenlant.
+
+Ik hou van random dingen bouwen met het Web, servers en Linux. Ik ben goed in Elixir, JavaScript, HTML/CSS en de Linux commandline. Daarnaast ken ik ook een klein beetje PHP.
+
+- [Resumé](/resume)
+- [GitHub](https://git.dupunkto.org/~robin)
+- [LinkedIn](https://www.linkedin.com/in/robin-boers-b18691229/)
+
+## Skills
+
+Ik ben vooral goed in het bouwen van websites, zowel frontend als backend. Ik ben comfortabel met HTML, CSS, Javascript, Elixir en Phoenix. Ik ook redelijk veel ervaring met Linux. Daarnaast kan ik aardig overweg met PHP en WordPress, maar ik werk liever met [Static Site Generators](https://en.wikipedia.org/wiki/Static_site_generator).
+
+Ik post op mijn blog regelmatig updates over wat ik maak, leer en doe. Ik probeer altijd te blijven leren.
+
+## Over deze site
+
+Mijn site is gebouwd met mijn eigen static site generator, genaamd [Chop](https://git.dupunkto.org/~robin/libre0b11/chop). Hij wordt gehost bij [bHosted](https://www.bhosted.nl/?ref=97f4c4a4b13e269e12cfd4f0352ba527). Alle inhoud waarvan ik de auteur ben is in het [publieke domein](https://stpeter.im/writings/essays/publicdomain.html) (specifiek CC0) De [source code](https://git.dupunkto.org/~robin/geheimesite.nl) is openbaar beschikbaar onder de AGPLv3. 
+
+De site heeft een grote focus op eenvoud, toegankelijkheid en duurzaamheid. Ik schrijf in kale Markdown, die daarna wordt omgezet in HTML en Gemtext door een klein programmaatje genaamd [Chop](https://git.dupunkto.org/~robin/libre0b11/chop). Tijdens dit proces worden afbeeldingen verkleind naar 600x en worden de [~400 regels ambachtelijke CSS](https://git.dupunkto.org/~robin/geheimesite.nl/tree/templates/web/static/main.css?h=next) geminified. Met uitzondering van de achtergrond gebruikt de site het colorscheme en de fonts die in de browser zijn ingesteld.
+
+De server is zo ingesteld dat pagina's worden [gecompressed](https://git.dupunkto.org/~robin/geheimesite.nl/tree/templates/web/static/.htaccess?h=next#n58) en verstuurd met [correcte caching headers](https://git.dupunkto.org/~robin/geheimesite.nl/tree/templates/web/static/.htaccess?h=next#n69). Ook maak ik gebruik van een [strenge CSP](https://git.dupunkto.org/~robin/geheimesite.nl/tree/templates/web/static/.htaccess?h=next#n40), die scripts en onveilige content blokkeert. Ik stuur ook een aantal privacy-gerelateerde headers mee, want *het web is een complete shitshow by default*, en ik heb liever niet dat bezoekers door *hun eigen browser* worden getrackt.
+
+## Contact
+
+Mijn (publieke) emailadres is [hello@geheimesite.nl](mailto:hello@geheimesite.nl). Verder kan je me een friend request sturen op Discord, mijn handle is **ThatComputerBoy#9914**.
+
+Ik heb een absolute hekel aan social media, dus ik ben niet te vinden op Snapchat, Instagram, Twitter, TikTok of Facebook. Je kan me wel [volgen via RSS](/volg).
+
+{%- render "includes/contact-form", language: language, site: site, path: path, introduction: "Je kan ook het onderstaande contactformulier invullen om een mailtje naar één van mijn zes emailadressen te sturen." %}

@@ -1,0 +1,40 @@
+---
+title: Hoe kunnen we software lokaler maken?
+date: 2023-03-19
+language: nl
+---
+
+Ik heb eerder al meerdere keren geschreven over [social media](/social-media-wat-moeten-we-er-mee-aan), [het internet](red-het-internet-bouw-je-eigen-website) en het [belang van open standaarden](/belang-van-open-standaarden). Toch wil ik het er nog één keer over hebben.
+
+Internetbedrijven hebben gewoonweg teveel macht. Er zijn wel goede alternatieven: denk aan Linux als alternatief voor Windows of macOS. Er zijn talloze voorbeelden van open-source software die net zo goed, al dan niet beter, is ten opzichte van propriatiery software.
+
+We moeten zorgen dat software, net als veel andere dingen zoals regelgeving en voedselproductie, veel lokaler wordt. Dat zou een aantal problemen oplossen: in een lokalere versie van bijvoorbeeld social media is moderation een stuk makkelijker omdat elke _instance_[^1] niet super veel gebruikers zou hebben. Daarnaast zou je zelf kunnen kiezen wie je wel/niet volgt waardoor er geen algoritmes (en dus geen datacollectie) meer nodig zijn. Ook zouden advertenties niet nodig zijn omdat je zelf betaalt voor de server waarop de instance staat. Daarnaast zorgen langere posts (zoals op een blog) ervoor dat je minder snel impulsieve berichten plaatst en beter nadenkt over wat je schrijft.
+
+Lokalere software zorgt er ook voor dat je zelf veel meer in controle bent over wat je ziet en wie je volgt. Je hebt zelf *eigendom over je content* en kan zelf bepalen met wie je het deelt, zonder tussenpersoon zoals Twitter of Facebook.
+
+En er zijn veel initiatieven die lokalere software proberen te maken.
+
+We hebben het _IndieWeb_, een tegenbeweging die is ontstaan rond dezelfde tijd dat social media mainstream werd. Hun ideeën gaan over hoe we onze eigen websites kunnen gebruiken om onze content te publiceren en die websites vervolgens met elkaar kunnen laten praten met open standaarden zoals Webmention, IndieAuth en Micropub. Je website zou de primary locatie van je content zijn (met een URL op je eigen domein zodat je altijd van host kan switchen), en je zou kopiëen of links naar andere platforms te cross-posten.
+
+Het _Yesterweb_ is een movement die tegen het corporate web is. Ze willen de creativiteit en experimentatie uit de begindagen terug en ze willen dat het web weer een persoonlijk karakter krijgt. Er is een gratis webhost genaamd neocities, die hetzelfde doet als geocities in de jaren 90 deed: gratis webhosting voor iedereen. Het is echt heel cool om hun directory eens door te bladeren en te zien wat mensen allemaal gemaakt hebben.
+
+Het _Fediverse_ bestaat uit websites die met elkaar kunnen communiceren met behulp van het ActivityPub protocol. De meest bekende software is Mastodon, waarvan iedereen zijn eigen instance kan runnen.
+
+Het probleem is echter dat al deze ideeën een veel te hoge drempel om in te stappen hebben. Ze zijn gewoonweg te ingewikkeld voor "normale mensen". En dat is niet omdat normale mensen niet slim genoeg zijn, dat is gewoonweg omdat ze er geen tijd voor hebben. En het is nou eenmaal veel makkelijker om een Twitter-account aan te maken dan om uit te vogelen hoe het IndieWeb werkt en zelf (zonder programmeerkennis) de protocollen te implementeren.
+
+Mastodon is enigzins een uitzondering, en sinds de overname van Twitter zie je steeds meer mensen Mastodon gebruiken. Toch is er een klein probleem: ze zitten allemaal op de Mastodon.social instance. Het hele idee van Mastodon is dat je verschillenden instances met elkaar verbindt. Doordat iedereen op dezelfde instance zit is het totaal niet lokaler geworden en zijn we gewoon bezig met het namaken van Twitter. Zoals Aral Balkan het [zegt](https://ar.al/2022/11/09/is-the-fediverse-about-to-get-fryed-or-why-every-toot-is-also-a-potential-denial-of-service-attack/):
+
+> Today, we equate the size of mastodon.social (the instance run by Eugen) with how successful Mastodon (the software created by Eugen) is. This is very dangerous. The larger mastodon.social gets, the more it will become like Twitter.  
+> Food for thought: The bigger mastodon.social gets, the less successful the #fediverse is.
+
+De beste manier om software lokaler te maken is door iedereen zijn eigen server te laten runnen. Dat was oorspronkelijk ook hoe het internet was ontworpen. Het idee was dat iedereen zijn eigen server zou hosten. Je zou thuis een server hebben waarop SMTP stond, waarmee je je eigen emails verstuurt met je eigen domeinnaam. Als ik thuis een server zou hosten met de domeinnaam `boers.nl`, dan zouden mensen mij kunnen mailen op `robin@boers.nl` en mijn zusje op `lize@boers.nl`. Of, je zou de servers met je wijk of gemeente kunnen delen (`robinboers@maassluis.nl` en `lizeboers@maassluis.nl`). In het internet zoals we dat nu kennen zitten super veel dingen ingebouwd waar we momenteel services van Big tech voor gebruiken. Chat zit ingebouwd: [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat). Email ook: [SMTP](https://nl.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol). Filesharing? Yup, [FTP](https://nl.wikipedia.org/wiki/File_transfer_protocol). En dit alles kan je op je eigen server op je eigen domeinnaam runnen.
+
+Het probleem? Niemand wil zijn eigen server runnen. Dus de bedrijven die servers voor je runnen zijn gigantisch geworden. Denk aan Outlook en Gmail voor email. Daarnaast publiceert bijna niemand meer op zijn eigen site, maar wordt alles via social media gedaan. AWS, Azure en Google Cloud. En neem het ze eens kwalijk: het is super veel werk een server op te zetten en te onderhouden (zeker als je er geen enkele kennis van hebt). We hebben een systeem nodig dat mensen net zo makkelijk, al dan niet makkelijker, als mainstream platforms kunnen gebruiken[^2].
+
+Er zijn pogingen gedaan. Mastodon was semi-effectief. We hebben echter een veel beter systeem nodig. En wij (programmeurs) zijn de enige die dat kunnen bouwen.
+
+Dus, iemand ideeën?
+
+[^1]: Met een instance bedoel ik een lokaler georganiseerd platform dat nog steeds kan praten met de andere platforms. Ik zou bijvoorbeeld een instance kunnen hebben waarop de gebruikers van mijn wijk zouden zitten. Dan kunnen die onderling met elkaar communiceren, en daarnaast ook kunnen praten met mensen op een andere instance. Je krijgt in eerste instantie echter niet de posts van mensen van een andere instance te zien, tenzij je die mensen expliciet volgt.
+
+[^2]: Als we het voor elkaar krijgen om een het hosten van een server zo makkelijk te maken als het gebruiken van een koelkast, dan is onze missie geslaagd.
