@@ -24,7 +24,7 @@ I regularly post updates on my blog about my findings. I try to keep learning (b
 
 ## About the site
 
-My site is built using my own static site generator called [Chop](https://git.dupunkto.org/~robin/libre0b11/chop), and is hosted at [bHosted](https://www.bhosted.nl/?ref=97f4c4a4b13e269e12cfd4f0352ba527). All contents on it -- at least those that I made -- are in the [public domain](https://stpeter.im/writings/essays/publicdomain.html) (specifically CC0). The [source code](//git.dupunkto.org/~robin/geheimesite.nl) is publicly available and licensed under the AGPLv3.
+My site is built using my own static site generator called [Chop](https://git.dupunkto.org/~robin/libre0b11/chop), and is hosted at [bHosted](https://www.bhosted.nl/?ref=97f4c4a4b13e269e12cfd4f0352ba527). All contents on it -- at least those that I made -- are in the [public domain](https://stpeter.im/writings/essays/publicdomain.html) (specifically CC0). The [source code](//git.dupunkto.org/~robin/geheimesite.nl) is also publicly available and licensed under the AGPLv3.
 
 The site has a very heavy focus on simplicity, accessibility and sustainability. It's built using semantic HTML and some [~400 lines of handwritten CSS](https://git.dupunkto.org/~robin/geheimesite.nl/tree/templates/web/static/main.css?h=next). Content is written in plain Markdown, which is then converted to HTML and Gemtext pages using [Chop](https://git.dupunkto.org/~robin/libre0b11/chop), my own static site generator. Images are automatically downsized to 600x and optimized during build. Similarly, CSS is minified. With exception of the background, it uses the colorscheme and fonts defined by the user agent (which is configurable in many browsers).
 
