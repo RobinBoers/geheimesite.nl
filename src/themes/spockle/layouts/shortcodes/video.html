@@ -1,6 +1,0 @@
-<iframe
-    src='https://yewtu.be/embed/{{ with .Get "id" }}{{ . }}{{ else }}{{ .Get 0 }}{{ end }}'
-    allowfullscreen
-    class='border-none aspect-video{{ with .Get "class" }} {{ . }}{{ end }}'
-    title='{{ with .Get "title" }}{{ . }}{{ else }}YouTube video via Invidious{{ end }}'>
-</iframe>

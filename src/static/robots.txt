@@ -1,8 +1,0 @@
-User-agent: *
-Disallow: /library/website/version/
-Disallow: /website/v/
-Disallow: /ckv/
-Disallow: /api/
-
-Sitemap: https://geheimesite.nl/sitemap.xml
-Sitemap: https://geheimesite.nl/en/sitemap.xml
