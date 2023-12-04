@@ -113,21 +113,20 @@ if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
 fi
 
 if [ "$colors" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[>
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
 
 # Color support in ls and other utils
 if [ "$colors" = yes ]; then
-    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dir>
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ls='ls --color=auto'
     alias dir='dir --color=auto'
     alias grep='grep --color=auto'
 fi
 
 # Colored GCC warnings and errors
-#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:>
 
 alias ll='ls -l'
 alias la='ls -A'
@@ -181,18 +180,17 @@ Port = 1965
 Hostname = "dupunkto.org"
 DocBase = "/var/gemini/"
 HomeDocBase = "users"
-CertPath = "/etc/molly.cert"
+CertPath = "/etc/molly.crt"
 KeyPath = "/etc/molly.key"
 
 DirectoryListing = true
-DirectorySort = "Time"
 DirectorySubdirsFirst = true
 ```
 
 I also created a user for it: 
 
 ```sh
-adduser --system --group molly --no-create-home --shell /usr/sbin/nologin --comment "Molly gemini server" molly
+adduser --system --group --no-create-home --shell /usr/sbin/nologin --comment "Molly gemini server" molly
 sudo chown molly:molly /etc/molly.*
 ```
 
@@ -255,44 +253,46 @@ I put it in `/etc/systemd/system/molly-brown.service`. Then simply run: `systemc
 I also wanted normal webhosting, which would work the same as Gemini hosting, but uses the `pub/web` directory, instead of `pub/gem`. For that I chose `nginx`, which I installed with APT. 
 
 ```sh
-sudo apt install nginx
+sudo apt install nginx libnginx-mod-http-fancyindex
 ```
 
 I added this in `/etc/nginx/conf.d/01-userdirs.conf`:
 
 ```nginx
 server {
-        server_name dupunkto.org;
+    server_name dupunkto.org;
 
-        listen 80 default_server;
-        listen [::]:80 default_server;
+    listen 80 default_server;
+    listen [::]:80 default_server;
 
-        # SSL configuration
-        listen 443 ssl default_server;
-        listen [::]:443 ssl default_server;
+    # SSL configuration
+    listen 443 ssl default_server;
+    listen [::]:443 ssl default_server;
 
-        root /var/www;
+    charset utf-8;
+    gzip on;
 
-        index index.html index.htm;  
+    root /var/www;
 
-        fancyindex on;
-	      fancyindex_header /header.html;
-        fancyindex_footer /footer.html;
-	      fancyindex_ignore "header.html" "footer.html";
-	      fancyindex_time_format "%Y-%m-%d";
+    index index.html index.htm;  
 
-        try_files $uri $uri.html $uri.htm $uri/ =404; 
+    fancyindex on;
+    fancyindex_header /header.html;
+    fancyindex_footer /footer.html;
+    fancyindex_ignore "header.html" "footer.html";
+    fancyindex_time_format "%Y-%m-%d";
 
-        location ~ (README|\.md)$ {
-		        default_type text/plain;
-		        charset utf-8;
-	      }
+    try_files $uri $uri.html $uri.htm $uri/ =404; 
 
-        # Special config for me :)
-        location /~robin {
-		        fancyindex_header /~robin/header.html;
-		        try_files $uri $uri.html $uri/ =404;
-	      }
+    location ~ (README.?|\.md|\.gmi)$ {
+        default_type text/plain;
+    }
+
+    # Special config for me :)
+    location /~robin {
+        fancyindex_header /~robin/header.html;
+        try_files $uri $uri.html $uri/ =404;
+    }
 }
 ```
 
@@ -335,7 +335,7 @@ Oh, and to setup SSL (as root):
 
 ```shell
 apt install certbot python3-certbot-nginx
-certbot certonly -d dupunkto.org,git.dupunkto.org,matrix.dupunkto.org,irc.dupunkto.org,chat.dupunkto.org
+certbot certonly -d dupunkto.org,git.dupunkto.org,ftp.dupunkto.org,dav.dupunkto.org,chat.dupunkto.org
 ```
 
 If it says Nginx isn't properly configured, that's probably because it expects SSL to be there but it isn't (yet). If so, just choose the "standalone server" option.
@@ -343,16 +343,12 @@ If it says Nginx isn't properly configured, that's probably because it expects S
 I also added this to my `/etc/nginx/nginx.conf`, which I generated using the [Mozilla SSL Configuration Generator](https://ssl-config.mozilla.org/#server=nginx&version=1.22.1&config=intermediate&openssl=3.0.11&hsts=false&guideline=5.7):
 
 ```nginx
-ssl_protocols TLSv1.2 TLSv1.3;
-ssl_ciphers ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:DHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384:DHE-RSA-CHACHA20-POLY1305;
-ssl_prefer_server_ciphers off;
-ssl_session_timeout 1d;
-ssl_session_cache shared:MozSSL:10m;  # about 40000 sessions
-ssl_session_tickets off;
+include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
 ssl_certificate /etc/letsencrypt/live/dupunkto.org/fullchain.pem;
 ssl_certificate_key /etc/letsencrypt/live/dupunkto.org/privkey.pem;
-ssl_trusted_certificate /etc/letsencrypt/live/dupunkto.org/chain.pem
+ssl_trusted_certificate /etc/letsencrypt/live/dupunkto.org/chain.pem;
 
 # OCSP stapling
 ssl_stapling on;
@@ -364,7 +360,6 @@ ssl_stapling_verify on;
 Setting up git hosting vas very straight forward after setting up Nginx. Just install `cgit` and edit the config file in `/etc/cgitrc`:
 
 ```ini
-root-readme=/usr/share/cgit/README
 css=/custom.css
 logo=/dupunkto.png
 virtual-root=/
@@ -385,12 +380,17 @@ side-by-side-diffs=1
 summary-branches=5
 
 # Enable READMEs
-about-filter=/usr/lib/cgit/filters/about-formatting.sh
-#source-filter=/usr/lib/cgit/filters/syntax-highlighting.sh
+about-filter=/usr/local/lib/cgit/filters/about-formatting.sh
+source-filter=/usr/local/lib/cgit/filters/syntax-highlighting.py
+readme=:README.txt
 readme=:README.md
+readme=:README
 
 # Prevent spam
 noplainemail=1
+
+# Allow downloads
+snapshots=tar.gz zip
 
 branch-sort=age
 repository-sort=age
@@ -399,7 +399,7 @@ root-title={du}punkto
 root-desc=git hosting for {du}puntko members
 
 robots=noindex, nofollow
-scan-path=/var/git/repositories
+scan-path=/usr/local/git/repositories
 ```
 
 I stole some CSS from <https://git.oriole.systems/custom.css> and put it in `/usr/share/cgit`, along with a logo titled `dupunkto.png`.
@@ -668,8 +668,8 @@ sudo apt install ufw
 ufw allow 20/tcp # SSH
 ufw allow 80/tcp # HTTP
 ufw allow 443/tcp # SSL
-ufw allow 8448/tcp # Matrix (federation)
 ufw allow 1965/tcp # Gemini
+ufw allow 8448/tcp # Matrix (federation)
 ufw allow 5222/tcp # XMPP
 ufw allow 5223/tcp # XMPP SSL
 ufw allow 5296/tcp # XMPP server
