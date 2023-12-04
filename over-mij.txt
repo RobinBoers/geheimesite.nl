@@ -22,7 +22,11 @@ Ik post op mijn blog regelmatig updates over wat ik maak, leer en doe. Ik probee
 
 ## Over deze site
 
-Mijn site is gebouwd met mijn eigen static site generator, genaamd [Chop](https://git.dupunkto.org/~robin/libre0b11/chop). Hij wordt gehost bij [bHosted](https://www.bhosted.nl/?ref=97f4c4a4b13e269e12cfd4f0352ba527). De [source code](https://git.dupunkto.org/~robin/geheimesite.nl) is openbaar, maar ik heb nog (steeds) niet besloten onder welke licentie.
+Mijn site is gebouwd met mijn eigen static site generator, genaamd [Chop](https://git.dupunkto.org/~robin/libre0b11/chop). Hij wordt gehost bij [bHosted](https://www.bhosted.nl/?ref=97f4c4a4b13e269e12cfd4f0352ba527). Alle inhoud waarvan ik de auteur ben is in het [publieke domein](https://stpeter.im/writings/essays/publicdomain.html) (specifiek CC0) De [source code](https://git.dupunkto.org/~robin/geheimesite.nl) is openbaar beschikbaar onder de AGPLv3. 
+
+De site heeft een grote focus op eenvoud, toegankelijkheid en duurzaamheid. Ik schrijf in kale Markdown, die daarna wordt omgezet in HTML en Gemtext door een klein programmaatje genaamd [Chop](https://git.dupunkto.org/~robin/libre0b11/chop). Tijdens dit proces worden afbeeldingen verkleind naar 600x en worden de [~400 regels ambachtelijke CSS](https://git.dupunkto.org/~robin/geheimesite.nl/tree/templates/web/static/main.css?h=next) geminified. Met uitzondering van de achtergrond gebruikt de site het colorscheme en de fonts die in de browser zijn ingesteld.
+
+De server is zo ingesteld dat pagina's worden [gecompressed](https://git.dupunkto.org/~robin/geheimesite.nl/tree/templates/web/static/.htaccess?h=next#n58) en verstuurd met [correcte caching headers](https://git.dupunkto.org/~robin/geheimesite.nl/tree/templates/web/static/.htaccess?h=next#n69). Ook maak ik gebruik van een [strenge CSP](https://git.dupunkto.org/~robin/geheimesite.nl/tree/templates/web/static/.htaccess?h=next#n40), die scripts en onveilige content blokkeert. Ik stuur ook een aantal privacy-gerelateerde headers mee, want *het web is een complete shitshow by default*, en ik heb liever niet dat bezoekers door *hun eigen browser* worden getrackt :)
 
 ## Contact
 
