@@ -1,0 +1,30 @@
+---
+title: Blind door bloeddruk
+subtitle: Robin, Berkay, Rahel en Siddharth
+language: nl
+---
+
+# Wat is een te hoge bloeddruk?
+
+Een hoge bloeddruk, of hypertensie, is een bloeddruk van 140/90 mmHg (140 bij het pompen en 90 tussen het pompen in). Een hoge bloeddruk wordt veroorzaakt door vernauwing van de aderen door slagaderverkalking. Slagaderverkalking ontstaat door het ophopen van vet bij beschadiging van de vaatwand. Een hoge bloeddruk verhoogt de kans op onder andere hart- en vaatziekten. In 2021 hadden 2,8 miljoen Nederlanders last van een verhoogde bloeddruk.
+
+# Behandelmethoden
+
+Een hoge bloeddruk is op verschillende manier te behandelen, hieronder worden er 3 methodes beschreven:
+
+1. Niet medicinale behandelingen:  
+   Gezonder eten, meer bewegen, minder roken en stress verminderen zijn manieren om een te hoge bloeddruk te verhelpen.
+
+2. Bètablokkers wordt vaak voorgeschreven door artsen als middel tegen een te hoge bloeddruk. Het middel wordt vaak in combinatie met andere medicijnen (zoals plastabletten) voorgeschreven. Bètablokkers zorgen ervoor dat het hart rustiger pompt, hierdoor daalt de bloeddruk en wordt de kans op een beroerte verminderd.
+
+3. Naast Bètablokkers zijn er ook alfablokkers. Dit is een ander medicijn dat de bloedvaten laat ontspannen, waardoor het bloed gemakkelijker door de bloedvaten kan stromen. Dit resulteert in een lagere bloeddruk.
+
+# Voor- en nadelen van behandelmethoden
+
+# Meest voorgeschreven middelen
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci ante, lobortis ut justo eu, scelerisque volutpat augue. Nam sed volutpat tellus. Sed nulla mi, malesuada et purus quis, molestie condimentum libero. Suspendisse tincidunt metus interdum ultricies placerat. Etiam tristique condimentum elementum. Nullam at nibh sem. Phasellus nulla tellus, ultricies eget enim in, tincidunt sodales velit. Phasellus auctor malesuada porta. Integer et neque tempus, porta urna nec, tempus nibh. Duis blandit volutpat est at tempor. Vestibulum auctor turpis enim. Phasellus maximus fermentum leo, id consequat lorem condimentum et. Nunc eget rutrum mauris.
+
+Maecenas consequat in quam eget mollis. Aenean feugiat et sapien eu fermentum. Donec quis ante sagittis, tempor est ac, porta arcu. Duis euismod vel metus sit amet lobortis. Vestibulum aliquet lacus in augue sollicitudin pulvinar. Nullam porta est nec ligula accumsan congue. Sed luctus mauris sit amet rutrum pharetra. Nullam maximus sapien quis nulla tristique lacinia.
+
+# Conclusie
