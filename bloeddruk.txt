@@ -6,25 +6,63 @@ language: nl
 
 # Wat is een te hoge bloeddruk?
 
-Een hoge bloeddruk, of hypertensie, is een bloeddruk van 140/90 mmHg (140 bij het pompen en 90 tussen het pompen in). Een hoge bloeddruk wordt veroorzaakt door vernauwing van de aderen door slagaderverkalking. Slagaderverkalking ontstaat door het ophopen van vet bij beschadiging van de vaatwand. Een hoge bloeddruk verhoogt de kans op onder andere hart- en vaatziekten. In 2021 hadden 2,8 miljoen Nederlanders last van een verhoogde bloeddruk.
+Een hoge bloeddruk, of hypertensie, is een bloeddruk van 140/90 mmHg (140 bij het pompen en 90 tussen het pompen in). Een te hoge bloeddruk wordt veroorzaakt door een aantal factoren, waaronder ongezonde voeding, roken, stress, overgewicht en alcohol. Het verhoogt de kans op onder andere hart- en vaatziekten. In 2021 hadden 2,8 miljoen Nederlanders last van een verhoogde bloeddruk.
 
 # Behandelmethoden
 
-Een hoge bloeddruk is op verschillende manier te behandelen, hieronder worden er 3 methodes beschreven:
+Een hoge bloeddruk is op verschillende manier te behandelen, hieronder worden er 4 methodes beschreven:
 
-1. Niet medicinale behandelingen:  
-   Gezonder eten, meer bewegen, minder roken en stress verminderen zijn manieren om een te hoge bloeddruk te verhelpen.
+1. Niet-medicinale behandelingen zoals gezonder eten, meer bewegen, minder roken en stress verminderen zijn manieren om een te hoge bloeddruk te verhelpen.
 
-2. Bètablokkers wordt vaak voorgeschreven door artsen als middel tegen een te hoge bloeddruk. Het middel wordt vaak in combinatie met andere medicijnen (zoals plastabletten) voorgeschreven. Bètablokkers zorgen ervoor dat het hart rustiger pompt, hierdoor daalt de bloeddruk en wordt de kans op een beroerte verminderd.
+2. Calciumantagonisten remmen de calciuminstroom in de hartspiervezels en de gladde spieren van de vaatwand, hierdoor verslappen de spieren en verwijden de vaatwanden. Hierdoor kan bloed makkelijker stromen door de vaten en wordt de bloeddruk verlaagd. Ook zorgen ze ervoor dat de hartspier minder calcium tot zijn beschikking heeft. Calcium is nodig voor het samentrekken van de spier. Hierdoor gaat het hart minder snel kloppen.
 
-3. Naast Bètablokkers zijn er ook alfablokkers. Dit is een ander medicijn dat de bloedvaten laat ontspannen, waardoor het bloed gemakkelijker door de bloedvaten kan stromen. Dit resulteert in een lagere bloeddruk.
+3. Bètablokkers wordt vaak voorgeschreven door artsen als middel tegen een te hoge bloeddruk. Het middel wordt vaak in combinatie met andere medicijnen (zoals plastabletten) voorgeschreven. Bètablokkers zorgen ervoor dat het hart rustiger pompt, hierdoor daalt de bloeddruk en wordt de kans op een beroerte verminderd.
+
+4. Naast Bètablokkers zijn er ook alfablokkers. Dit is een ander medicijn dat de bloedvaten laat ontspannen, waardoor het bloed gemakkelijker door de bloedvaten kan stromen. Dit resulteert in een lagere bloeddruk.
 
 # Voor- en nadelen van behandelmethoden
 
+## Niet-medicanaal
+
+| Voordelen                                                                                           | Nadelen                                                                                                                                                          |
+|-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Gezonder eten kan ook de kans op ziekten als diabetes 2 of kanker verminderen.                      | Het zou moeilijk kunnen zijn om om te schakelen naar gezonder eten, als je er niet aan gewend bent.                                                              |
+| Door middel van gezond eten kan je een gezond gewicht aanhouden.                                    | Het is moeilijk om na een bepaalde periode te kunnen stoppen met roken, doordat je eenmaal verslaafd raakt aan nicotine; de kans dat het slaagt is dus erg laag. |
+| Door te stoppen met roken, verlaag je de kans op kanker.                                            |                                                                                                                                                                  |
+| Naast de voordelen op je gezondheid zorgt het stoppen met roken ook ervoor dat je er beter uitziet. |                                                                                                                                                                  |
+
+## Calciumantagonisten
+
+| Voordelen                                                            | Nadelen                                                                                                                                                                                                                         |
+|----------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| - Makkelijk in te nemen: vloeistof kan gemakkelijk ingenomen worden. | Bijwerkingen als duizeligheid, misselijkheid, darm- en maagproblemen.                                                                                                                                                           |
+|                                                                      | Het is een pro-drug die afhankelijk is van het CYP3A4 enzym in de lever. Dit enzym wordt geremd door bepaalde stoffen in voeding. Dieet moet dus mogelijk worden aangepast.                                                     |
+|                                                                      | Dit enzym kan ook door andere medicatie zoals HIV-remmers geremd worden. Medicatie moet dus zo gecombineerd worden dat ze elkaar niet tegen werken.                                                                             |
+|                                                                      | Spiercellen trekken samen door middel van elektrische signalen. Dit gaat via voltage-afhankelijke calcium poorten. Als je die blokkeert disfunctioneert de hartspier en loopt de patiënt kans op allerlei hart- en vaatziekten. |
+
+## Bètablokkers
+
+| Voordelen                                                                              | Nadelen                                                                                                         |
+|----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| Makkelijk in te nemen: slikken van tabletten met behulp van een glas water.            | Bijwerkingen als duizeligheid, maagdarmklachten, zweten, koude handen en voeten en vermoeidheid.                |
+| De bijwerkingen zijn niet langdurig; treden vooral in het begin van de behandeling op. | Bètablokkers kunnen gevaarlijk zijn voor mensen met bepaalde aandoeningen, zoals astma en hartritmestoornissen. |
+
+## Alfablokkers
+
+| Voordelen                                                                                              | Nadelen                                                                                                                                                         |
+|--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Verbeter de urinestroom vanwege de ontspanning van de gladde  spieren in de prostaat en urinewegen.    | Bijwerkingen als duizeligheid, tachycardie (te snel hartritme), orthostatische hypotensie (lage bloeddruk bij het opstaan) met mogelijk flauwvallen en moeheid. |
+| Heeft een gunstig effect op steenlozing.                                                               | Langdurig gebruik zou het risico op hartfalen kunnen verhogen.                                                                                                  |
+| Vrijwel alle vormen van alfablokkers zijn in de vorm van tabletten en zijn dus makkelijk te gebruiken. |                                                                                                                                                                 |
 # Meest voorgeschreven middelen
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci ante, lobortis ut justo eu, scelerisque volutpat augue. Nam sed volutpat tellus. Sed nulla mi, malesuada et purus quis, molestie condimentum libero. Suspendisse tincidunt metus interdum ultricies placerat. Etiam tristique condimentum elementum. Nullam at nibh sem. Phasellus nulla tellus, ultricies eget enim in, tincidunt sodales velit. Phasellus auctor malesuada porta. Integer et neque tempus, porta urna nec, tempus nibh. Duis blandit volutpat est at tempor. Vestibulum auctor turpis enim. Phasellus maximus fermentum leo, id consequat lorem condimentum et. Nunc eget rutrum mauris.
+Een van de meest voorgeschreven medicijnen tegen hypertensie is hydrochloorthiazide. Hydrochloorthiazide zorgt ervoor dat de nieren meer zout en water uitscheiden, hierdoor is de patiënt genoodzaakt om vaker te plassen, wat ervoor zorgt dat de bloeddruk verlaagd wordt. 
 
-Maecenas consequat in quam eget mollis. Aenean feugiat et sapien eu fermentum. Donec quis ante sagittis, tempor est ac, porta arcu. Duis euismod vel metus sit amet lobortis. Vestibulum aliquet lacus in augue sollicitudin pulvinar. Nullam porta est nec ligula accumsan congue. Sed luctus mauris sit amet rutrum pharetra. Nullam maximus sapien quis nulla tristique lacinia.
+Een ander veelgebruikt medicijn is metoprolol. Metoprolol is een bètablokker, die ervoor zorgt dat het hart rustiger pompt, wat ervoor zorgt dat de bloeddruk verlaagd wordt. 
+
+Doxazosine wordt ook vaak voorgeschreven als middel tegen hypertensie. Captopril hoort bij de groep van alfablokkers. Alfablokkers laten de bloedvaten ontspannen, waardoor het bloed makkelijker door de vaten kan stromen, waardoor de bloeddruk verlaagd wordt. 
 
 # Conclusie
+
+Door de hoeveelheid beschikbare calcium te verminderen met calciumantagonisten zorgen we ervoor dat spiercellen in de vaatwand en in het hart minder goed kunnen samentrekken. Hierdoor verlaagt de bloeddruk. We moeten wel mogelijk het dieet en andere medicatie van de patiënt aanpassen zodat het geen CYP3A4-remmers bevat. Ook moet het medicijn alleen aangrijpen op voltage-onafhankelijke calcium poorten, zodat het actiepotentiaal van de cel kan worden doorgegeven en de werking van de spieren niet wordt verstoord. Zo voorkom je hart- en vaatziekten op de lange termijn. Een voorbeeld van een calciumantagonist die de patiënt kan innemen zijn tabletten (10mg/dag) lacidipine.
+
