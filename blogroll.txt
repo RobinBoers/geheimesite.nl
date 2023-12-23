@@ -19,6 +19,7 @@ I use RSS a lot, and I maintain my own OPML file for keeping track of the feeds 
 - [Shakespeare's Missing Smile](https://shkspr.mobi/blog/2023/02/shakespeares-missing-smile/)
 - [How and Why I Stopped Buying New Laptops](https://solar.lowtechmagazine.com/2020/12/how-and-why-i-stopped-buying-new-laptops.html)
 - [The Frustration Loop](https://herman.bearblog.dev/the-frustration-loop/)
+- [One Device to Do it All, And in Inattention Drown Me](https://adrienplazas.com/blog/2023/08/26/one-device-to-do-it-all.html)
 
 This blogpost by Ava Zeldman touched me in particular: [Schmile](https://avazeldman.com/2023/08/31/shmile/).
 
@@ -41,14 +42,22 @@ I'm in the "big corporations ruined the web!!" bubble, as you might have noticed
 - [**Tom Scott**: This video has XXX views](https://yewtu.be/watch?v=BxV14h0kFs0)
 - [**Dylan Beattie**: The Web That Never Was](https://yewtu.be/watch?v=8JOD1AQGqEg)
 - [**Tom Scott**: This Video Is Sponsored By ███ VPN](https://yewtu.be/watch?v=WVDQEoe6ZWY)
+- [**Drew DeVault**: The Reckless, Limitless scope of browsers](https://drewdevault.com/2020/03/18/Reckless-limitless-scope.html)
+- [The struggles of the web browser](https://thejollyteapot.com/2023/12/9/the-struggles-of-the-web-browser)
+- [SHITTY SEARCH](https://dkb.blog/p/google-search-is-dying)
+- [**Chris Coyier**: Everything about SEO is obnoxious](https://chriscoyier.net/2023/11/08/everything-about-seo-is-obnoxious/)
+- [**Jatan Metha**: Are we living an internet without intent?](https://thoughts.jatan.space/p/an-internet-without-intent)
 
 I'm also not a huge fan of social media...
 
+- [The social dilemma](https://www.netflix.com/title/81254224)
 - [**Drew DeVault**: Social media and "parasocial media"](https://drewdevault.com/2023/06/30/Social-and-parasocial-media.html)
+- [Stop Trying to Make Social Networks Succeed](https://ploum.net/2023-07-06-stop-trying-to-make-social-networks-succeed.html)
 
 And some stuff related to AI:
 
 - [**Drew DeVault**: AI crap](https://drewdevault.com/2023/08/29/2023-08-29-AI-crap.html)
+- [Scattered ChatGPT thoughts](https://notebook.wesleyac.com/gpt-ugh/)
 
 ### Counter-movements
 
@@ -148,7 +157,6 @@ Interesting video about how the Titanic was designed, and why it ultimately sunk
 These are some interesting things to think about:
 
 - [**Drew DeVault**: Should private platforms engage in censorship?](https://drewdevault.com/2023/01/30/2023-01-30-Should-private-platforms-engage-in-censorship.html)
-
 - [**Veritasium**: How An Infinite Hotel Ran Out Of Room](https://yewtu.be/watch?v=OxGsU8oIWjY)
 - [**jan Misali**: the five kinds of paradox](https://yewtu.be/watch?v=ppX7Qjbe6BM)
 - [**Jacob Geller**: Fear of Big Things Underwater](https://yewtu.be/watch?v=ZOEaUD82GlI)
