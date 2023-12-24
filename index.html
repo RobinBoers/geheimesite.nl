@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>
+      Robin (axcelott)
+    </title>
+
+    <link rel="canonical" href="https://roblog.nl" />
+    <link rel="stylesheet" href="/main.css" />
+
+    <style>
+      h2 {
+	border: none;
+	padding: 0;
+      }
+
+      p {
+  	max-width: 45ch;
+      }
+
+      .t {
+	font-weight: bold;
+      }
+
+      @media (min-width: 1000px) {
+	body {
+	  display: grid;
+  	  grid-template-columns: auto auto;
+	} 
+
+	body > main {
+          grid-column: 1;
+	  grid-row: 1;
+        }
+
+        body > nav {
+	  margin-top: 1em;
+  	  text-align: right;
+  	  grid-column: 2;
+	  grid-row: 1;
+        }
+      }
+
+      body > nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      body > nav summary h2 {
+  	display: inline;
+  	font-weight: normal;
+  	font-size: 1em;
+      }
+
+      body > footer {
+	grid-column-start: 1;
+  	grid-column-end: 3;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <details open>
+	<summary><h2>Menu</h2></summary>
+
+	<h3>writing</h3>
+
+	<ul>
+	  <li><a href="/blog">Blog</a></li>
+	  <li><a href="/now">Now</a></li>
+	  <li><a href="/rss">Subscribe</a></li>
+	</ul>
+
+	<h3>work, art</h3>
+
+	<ul>
+	  <li><a href="/projects">Projects</a></li>
+	  <li><a href="/resume">Resumé</a></li>
+	  <li><a href="/pixelart">Pixelart</a></li>
+	  <li><a href="//dupunkto.org">{du}punkto</a></li>
+	  <li><a href="//git.dupunkto.org/~axcelott">Code</a></li>
+	</ul>
+
+	<h3>meta</h3>
+
+	<ul>
+	  <li><a href="//classic.geheimesite.nl">The Archives</a></li>
+	  <li><a href="//blog.geheimesite.nl">Public Archive</a></li>
+	</ul>
+      </details>
+    </nav>
+
+    <main class="h-card">
+      <h1>Axcelott</h1>
+
+      <p>
+      Hi, I'm <span class="p-name">Robin</span> (<span class="p-pronouns">he/him</span>), also known as <i class="p-nickname">axcelott</i> online. I’m a 16-year-old teenager from the <span class="p-country">Netherlands</span>. This is my corner of the interwebs. 
+      </p>
+
+      <h2>About me</h2>
+
+      <p>
+        I like anything *NIX or BSD, I'm a sucker for functional programming and I enjoy listening to <a href="https://en.wikipedia.org/wiki/Krezip">some good music</a>. I currently work at <a href="https://qdentity.nl" class="p-org">Qdentity</a> as <span class="p-title">Junior Developer</span>. 
+      </p>
+
+      <p>
+        I’m in 5VWO. I pretty sure that's year 12 for British people, and grade 10 for American folks. I think. <!-- I'm following these courses: physics, chemistry, computer science, mathmatics B, mathmatics D, NLT, Dutch, English, German. -->
+      </p>
+
+      <!--<p>
+            I love building websites; I also hate the web. I'm an avid supporter of counter-movements like the <a href="https://yesterweb.org">YesterWeb</a>, <a href="https://small-tech.org">Small Web</a>, <a href="https://indieweb.org">IndieWeb</a> and such.
+      </p>-->
+
+      <p>
+        Some random facts about me: I have a cat called Coco (who apparently has an instagram profile: <a href="https://www.instagram.com/coconootje23/">@coconootje23</a>, go follow him!). I absolutely love Belgian waffles (but stroopwafels are nice too). I enjoy playing Minecraft. I’m very clumsy; I tend to break things. 
+      </p>
+
+      <p><a href="random.jpeg">Here's a random picture</a> I decided I liked :)</p>
+ 
+      <h2>Writing</h2>
+
+      <p>
+        I regularly post updates on <a href="/blog">my blog</a> about my findings. Here's a selection of my writing: 
+      </p>
+
+      <p>
+        <a href="/waarom-altijd-meer" class="t">Waarom altijd meer?</a>, about value judgements regarding study tracks and courses in Dutch highschool.
+      </p>
+
+      <p>
+        <a href="/gebrek-aan-ambitie" class="t">Gebrek aan ambitie</a>, expressing my frustrations with the Dutch education system, and how it fails students.
+      </p>
+
+      <p>
+        <a href="/belang-van-open-standaarden" class="t">Het belang van open standaarden</a>, an essay about the importance of an open web.
+      </p>
+ 
+      <h2>About the site</h2>
+
+      <p>
+        My site is built using beautiful, readable, handwritten HTML and some ~200 lines of handcrafted CSS. It's hosted at <a href="https://www.bhosted.nl/?ref=97f4c4a4b13e269e12cfd4f0352ba527">bHosted</a>. All content on it — at least what I made — is in the <a href="https://stpeter.im/writings/essays/publicdomain.html">public domain</a> (specifically CC0). The <a href="https://git.dupunkto.org/~robin/geheimesite.nl">source code</a> is also publicly available and licensed under the AGPLv3. 
+      </p>
+
+      <p>
+        The server has been configured to <a href="https://git.dupunkto.org/~robin/geheimesite.nl/tree/templates/web/static/.htaccess?h=next#n58">compress</a> and sent the <a href="https://git.dupunkto.org/~robin/geheimesite.nl/tree/templates/web/static/.htaccess?h=next#n69">correct caching headers</a>. It also enforces a <a href="https://git.dupunkto.org/~robin/geheimesite.nl/tree/templates/web/static/.htaccess?h=next#n40">very strict CSP</a>, which disables any scripts and insecure content. I also send a bunch of privacy-related headers, because <em>the modern web absolutely sucks by default</em>, and I prefer visitors to not be tracked <em>by their own browsers</em>. 
+      </p>
+
+      <h2>Contact</h2>
+
+      <p>
+        You can reach me via IRC, I'm often hanging out on <a href="https://libera.chat">Libera</a>; my nick is <b>axcelott</b>. You can also send me a friend request on Discord, my handle is <b>Axcelott#9914</b>.
+      </p>
+
+      <p>
+        I absolutely hate social media, so I’m not on Snapchat, Instagram, Twitter, TikTok or Facebook. You can <a href="/rss">follow me via RSS</a> tho. 
+      </p>
+
+      <p>
+        Alternatively, if your message is urgent (it isn't) you can also reach me via email. But you can also shoot me an email just for fun, I'll always reply. My address is below:
+      </p>
+
+      <pre><code class="language-sh">printf "%s@%s.%s\n" axcelott roblog nl</code></pre>
+
+      <p>Cheers!</p>
+    </main>
+
+    <footer>
+      Made with ♡ in the Netherlands. Copying is an act of love. Please copy.
+    </footer>
+  </body>
+</html>
