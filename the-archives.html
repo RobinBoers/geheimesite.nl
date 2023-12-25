@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Archives</title>
+
+    <link rel="canonical" href="https://roblog.nl/the-archives">
+    <link rel="stylesheet" href="/main.css">
+
+    <style>
+      details > summary {
+        list-style: none;
+      }
+      summary::-webkit-details-marker, summary::marker {
+        display: none
+      } 
+      summary::after {
+        content: ' ▲';
+      }
+      details[open] summary:after {
+        content: " ▼";
+      }
+      summary a, li > a:first-child {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/"> ← Back to the homepage</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>The Archives</h1>
+
+      <p>
+        This site was first launched in the last few months of 2017, when I was still in primary school. Since then, a lot has happened. I've torn down and rebuilt the site countless of times. With this page I hope to offer some insight into the development and creative process that shaped the site as it is today.
+      </p>
+
+      <p>
+        When I started out on my webdevelopment journey, I was blissfully unaware of <em>literally anything</em>. This includes version control. I recovered older versions of the site from backups, folders called <i>v0.1</i>, <i>v0.3.4</i> etc. I also lost a bunch of versions, and lots backups contained so much buggy and insecure PHP (think of exposing the file system for arbitrary use via a GUI), that I didn’t dare to reupload it.
+      </p>
+
+      <p>
+        Anyways, here’s a non-exhaustive list of previous versions of this site. Beware of the (many) dead links :)
+      </p>
+    </main>
+
+    <nav>
+      <ul>
+        <li>
+          <details>
+            <summary><a href="//classic.geheimesite.nl/v/2/">2: Based on CoderDojo Nano</a></summary>
+            <p>
+              <!--Unfortunately I lost the very first files I uploaded to the Web, because they have been overwritten with this version.--> The site is still very much a work-in-progress at this stage. You can also clearly see the resemblance to <a href="/nanonauten" target="_blank">the example site</a> from the <a href="https://web.archive.org/web/20220211085906/http://www.nano-tips.com/" target="_blank">CoderDojo Nano book</a> I used to write it.
+            </p>
+
+            <p>
+              The site originally featured a nice background of some canyon with a waterfall in it. However, inexperienced as I was, I directly hotlinked to the image instead of downloading and serving it myself. <em>Oof!</em> The site that was hosting the image is no longer hosting it, and any trace of it has vanished from the Web. Well, shit happens I guess.
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary><a href="//classic.geheimesite.nl/v/3/">3: Fancy blue squares</a></summary>
+            <p>I wanted to experiment some more and put fancy blue squares everywhere :)
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary><a href="//classic.geheimesite.nl/v/4/">4: Inspired by Jeugdjournaal.nl</a></summary>
+            <p>
+              This version was heavily inspired by the design of the <a href="https://web.archive.org/web/20171027130841/https://jeugdjournaal.nl/" target="_blank">Jeugdjournaal</a> site, a news show we used to watch in primary school.
+            </p>
+          </details>
+        </li>
+        <li><a href="//classic.geheimesite.nl/v/5/">5: I discovered parallax...</a></li>
+        <li>
+          <details>
+            <summary><a href="//classic.geheimesite.nl/v/6/">6: There comes JS...</a></summary>
+            <p>At this point I discovered W3Schools and completely went over-the-top with JS-powered widgets, slideshows and what-not. Ew.</p>
+        </li>
+        <li><a href="//classic.geheimesite.nl/v/7/">7: very gray</a></li>
+        <li>
+          <details>
+            <summary><a href="//classic.geheimesite.nl/v/8/">8: still my favorite :D</a></summary>
+            <p>
+              This version is very special to me. The design is brilliantly simple. I <em>love</em> it! This is also when I started experimenting with writing my own JavaScript and PHP, instead of copy-pasting stuff in, like I did before. I learned so much while writing this, most of it because of two <a href="//linkedin.com/in/midge-t-hoen-2074a5a2/" target="_blank">amazing</a> <a href="//linkedin.com/in/rick-van-buuren-89363018a/" target="_blank">teachers</a> who spent their free time teaching me how to write PHP at <a href="//coderdojo.nl" target="_blank">CoderDojo</a>.
+            </p>
+        </li>
+        <li>
+          <details>
+            <summary><a href="//classic.geheimesite.nl/v/9/">9: Unified a bunch of sites</a></summary>
+            <p>
+              At this point I wrote a bunch of different websites and "apps" that were scattered all over the place. I decided to unify them under a single navigation bar, inspired by the way Google apps share a common menu in the top-right. This is also the moment I decided to drop the undercover spy content that had been the main topic of the site for almost two years at that point. Instead, I proudly presented my projects on the homepage.
+            </p>
+          </details>
+        </li>
+        <li><a href="//classic.geheimesite.nl/v/12/">12: Very much a W3Schools look</a></li>
+        <li><a href="//classic.geheimesite.nl/v/13/">13: Time to get more professional</a></li>
+        <li><a href="//classic.geheimesite.nl/v/14/">14: Learning how APIs work</a></li>
+        <li><a href="//classic.geheimesite.nl/v/15/">15: read a book on design</a></li>
+        <li><a href="//classic.geheimesite.nl/v/16">16: Very into the IndieWeb</a></li>
+        <li><a href="//classic.geheimesite.nl/v/17/">17: lets make it pink!</a></li>
+        <li>
+          <details>
+            <summary><a href="//classic.geheimesite.nl/v/18/">18: less is more ;)</a></summary>
+            <p>
+            I still liked pink, but I wanted something more simple, and something that better reflected my ideals regarding webdevelopment. So, I redesigned the site according to <a href="//seirdy.one/posts/2020/11/23/website-best-practices/" target="_blank">best practices for inclusive textual websites</a>. It has a heavy focus on correctness, adaptability, accessibility, security, performance and sustainability. This iteration of the site was heavily inspired by various versions of <a href="https://web.archive.org/web/20221222075138/https://bt.ht/">bt.ht</a>, <a href="//seirdy.one" target="_blank">seirdy.one</a> and <a href="//drewdevault.com" target="_blank">drewdevault.com</a>.
+            </p>
+        </li>
+        <li>
+          <details>
+            <summary><a href="//roblog.nl">19: art?</a> (current version)</summary>
+            <p>
+              While I was very pleased with the previous interation of my site, I felt like it constrained me too much. Don't get me wrong, it worked wonderfully, and ticked all the boxes for what I consider a great website. However, I felt like it didn't fully capture <em>me</em>. So, I redesigned again. I went with a very simple monochrome color palette, based on the colors and fonts the from the user agent. This iteration was inspired by <a href="//100r.co" target="_blank">100r.co</a>, <a href="//mat.tl" target="_blank">mat.tl</a>, <a href="//wesleyac.com" target="_blank">wesleyac.com</a>, <a href="//bt.ht" target="_blank">bt.ht</a>, and <a href="//rubenerd.com" target="_blank">rubenerd.com</a>. I like it a lot, it feels more free-form and somehow very cozy.
+            </p>
+            <p>
+              For reasons still unknown, I decided to handcode again, which I hadn't done since at least version 15. I like it tho; it allows me to perfectionate the HTML, which I couldn't really do with Markdown. 
+            </p>
+          </details>
+        </li>
+      </ul>
+    </nav>
+
+    <footer>
+      Made with ♡ in the Netherlands. Copying is an act of love. Please copy.
+    </footer>
+  </body>
+</html>
+
