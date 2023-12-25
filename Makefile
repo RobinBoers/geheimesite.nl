@@ -1,32 +1,32 @@
 SRC_DIR := src
 DIST_DIR := dist
 
-PNG_FILES := $(wildcard $(SRC_DIR)/**/*.png)
-JPG_FILES := $(wildcard $(SRC_DIR)/**/*.{jpg,jpeg})
+SCALE_DOWN := convert {} -resize 600x\> {}
+OPTIMIZE_PNG := optipng -strip all -clobber -preserve {} -out {}
+OPTIMIZE_JPG := jpegoptim --strip-all --all-progressive --preserve {}
 
-SCALE_DOWN = convert -resize 600x> 
-OPTIMIZE_PNG = optipng -o7 -strip all
-OPTIMIZE_JPG = jpegoptim --strip-all --all-progressive
+build: optimize-images copy-files scale-images
 
-build: scale-down optimize-png optimize-jpg copy-rest
+copy-files:
+	mkdir -p $(DIST_DIR)
+	cp -r $(SRC_DIR)/* $(DIST_DIR)/
+
+optimize-images: optimize-png optimize-jpg
+
+optimize-jpg:
+	find $(SRC_DIR) -type f \( -iname "*.jpg" -o -iname "*.jpeg" \) -exec $(OPTIMIZE_JPG) \; 
+
+optimize-png:
+	find $(SRC_DIR) -type f -iname "*.png" -exec $(OPTIMIZE_PNG) \; 
+
+scale-images:
+	find $(DIST_DIR) -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) -exec $(SCALE_DOWN) \;
+
+new:
+	./new.sh
+
 serve: 
-	@waiter --dev
-
-scale-down: $(PNG_FILES) $(JPG_FILES)
-	@$(SCALE_DOWN) $(PNG_FILES) $(JPG_FILES) -set filename:output $(DIST_DIR)/%t.%e -evaluate-sequence Add
-
-optimize-png: $(PNG_FILES)
-	@echo "Optimizing PNG files..."
-	@$(OPTIMIZE_PNG) $(PNG_FILES) -out $(DIST_DIR)
-
-optimize-jpg: $(JPG_FILES)
-	@echo "Optimizing JPG files..."
-	@$(OPTIMIZE_JPG) $(JPG_FILES) --dest=$(DIST_DIR)
-
-copy-rest:
-	@echo "Copying other files..."
-	@find $(SRC_DIR) -type f \( ! -name "*.png" ! -name "*.jpg" ! -name "*.jpeg" \) -exec cp {} $(DIST_DIR)/{} \;
+	cd src && waiter --dev
 
 clean:
-	rm -rf dist
-	mkdir -p dist
+	rm -rf $(DIST_DIR)

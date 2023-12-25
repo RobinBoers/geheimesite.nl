@@ -40,7 +40,10 @@ fi
 
 export TITLE
 export LANG
-export URL="$(basename "$path" ".$EXT")"
+export URL="${path%.*}"
 
+path="src/$path"
+
+mkdir -p "$(dirname "$path")"
 cat TEMPLATE.html | envsubst > "$path" 
 e "$path"
