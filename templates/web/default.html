@@ -1,52 +1,34 @@
 <!DOCTYPE html>
-<html lang="{{ language }}">
+<html lang="en">
   <head>
-    {% render 'includes/head.html', 
-      title: title, 
-      path: path, 
-      site: site,
-      description: content
-    %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ title }}</title>
+
+    <link rel="canonical" href="https://roblog.nl{{ path }}">
+    <link rel="stylesheet" href="/main.css">
   </head>
   <body>
     <header>
       <nav>
-        <a href="{{ site.prefix }}/">
-          ← 
-          {% if language == "en" %}
-            Back to the homepage
-          {% elsif language == "nl" %}
-            Terug naar de homepage
-          {% endif %}
-        </a>
+	<a href="/"> ← Back to the homepage</a>
       </nav>
     </header>
 
     <main class="h-entry">
-      <h1 class="p-name" {% if hide_title %}hidden{% endif %}>
-        {{ title | escape_once }}
+      <h1>>{{ title }}</h1>
 
-        {% if subtitle %}
-          <span class="subtitle">
-            {{ subtitle | escape_once }}
-          </span>
-        {% endif %}
-      </h1>
-      
-      <div class="content p-summary e-content">
-        {{ content_rendered }}
+      <div class="e-content p-summary">
+	{{ content_rendered }}
       </div>
 
-      {% if date %}
-        <footer>
-          <p>
-            {% if language == "en" %}
+      <footer>
+	<p>
               Posted on
-            {% elsif language == "nl" %}
-              Gepubliceerd op
-            {% endif %}
 
-            <a class="u-url" href="{{ site.baseurl }}{{ path }}">
+            <a class="u-url" href="//roblog.nl{{ path }}">
               <time class="dt-published" datetime="{{ date | date: '%Y-%m-%d' }}">
                 {{ date | date: "%b %d, %Y" }}
               </time>
@@ -54,18 +36,18 @@
           </p>
           
           <p class="reply-by-email">
-            <a href="mailto:hello@geheimesite.nl?subject=RE:%20“{{ title | url_encode }}”">
-              {% if language == "en" %}
-                Reply by email
-              {% elsif language == "nl" %}
-                Reageren via email
-              {% endif %}
+            <a href="mailto:axcelott@roblog.nl?subject=RE:%20“{{ title | url_encode }}”">
+              Reply by email
             </a>
           </p>
-        </footer>
-      {% endif %}
+
+      </footer>
     </main>
 
-    {% render 'includes/footer.html', site: site %}
+    <footer>
+      Made with ♡ in the Netherlands. Copying is an act of love. Please copy.
+    </footer>
   </body>
 </html>
+
+
