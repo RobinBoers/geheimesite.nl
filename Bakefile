@@ -38,6 +38,7 @@ new() {
   p:get_with_default "Language" LANGUAGE "en"
   p:get_with_default "Path" URL "$(p:sluggify "$TITLE")" 
 
+  export PARENT="/"
   export CONTENT="<!-- CONTENT HERE -->"
   p:render
 }
@@ -48,6 +49,7 @@ publish() {
     p:get_with_default "Date" DATE "$(date +"%Y-%m-%d")"
     p:get_with_default "Language" LANGUAGE "en"
 
+    export PARENT="/blog"
     export URL="blog/$(basename "$1" ".html")"
     export CONTENT="$(cat "$1")"
 

@@ -27,7 +27,7 @@ a {
 }
 
 a:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 img {
@@ -155,16 +155,16 @@ body > footer blockquote a::after {
 body main footer {
   margin: 2em 0;
   border-top: 2px solid #ccc;
-  font-size: .9em;
+  font-size: 0.9em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
 }
 
-body main footer .reply-by-email a { 
+body main footer .reply-by-email a {
   text-decoration: none;
-  padding: .5em 1em;
+  padding: 0.5em 1em;
   background: black;
   color: white;
   background: CanvasText;
