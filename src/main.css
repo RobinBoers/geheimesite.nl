@@ -26,6 +26,10 @@ a {
   text-decoration-color: #aaa;
 }
 
+a:hover {
+  opacity: .8;
+}
+
 img {
   max-width: 100%;
   user-select: none;
@@ -96,9 +100,9 @@ tr {
 }
 
 blockquote {
-  border-left: 2px solid #ccc;
   font-style: italic;
-  opacity: 0.7;
+  border-left: 2px solid #ccc;
+  color: #ccc;
   padding-left: 1.2em;
   margin: auto 0;
 }
@@ -120,7 +124,8 @@ body {
 }
 
 .h-feed time {
-  color: #5f5f5f;
+  color: gray;
+  color: GrayText;
   font-weight: 400;
 }
 
@@ -145,4 +150,23 @@ body > footer blockquote {
 
 body > footer blockquote a::after {
   content: " ↗";
+}
+
+body main footer {
+  margin: 2em 0;
+  border-top: 2px solid #ccc;
+  font-size: .9em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+body main footer .reply-by-email a { 
+  text-decoration: none;
+  padding: .5em 1em;
+  background: black;
+  color: white;
+  background: CanvasText;
+  color: Canvas;
 }
