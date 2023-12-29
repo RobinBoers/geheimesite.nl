@@ -47,10 +47,12 @@ publish() {
     p:get_with_default "Date" date "$(date +"%Y-%m-%d")"
     p:get_with_default "Language" lang "en"
 
-    content="$(p:append_post_footer $(cat "$1") "$date")"
     export DATE="$date"
+    export URL="blog/$(basename "$1" ".html")"
 
-    p:render "$SRC_DIR" "blog/$(basename "$1")" "$title" "$lang" "$content" 
+    content="$(p:append_post_footer "$1")"
+
+    p:render "$SRC_DIR" "$URL" "$title" "$lang" "$content" 
     p:append_to_index
     p:append_to_rss
   else
@@ -108,15 +110,15 @@ p:render() {
 }
 
 p:append_post_footer() {
-  echo <<EOF
-    $1
+  CONTENT=$(cat <<EOF
+    $(cat "$1")
 
     <footer>
       <p>
 	Posted on
-	<a href="//roblog.eu/$2">
-	  <time datetime="$(date +%Y-%m-%d)">
-	    $(date +%b %d, %Y)
+	<a href="//roblog.nl/$URL">
+	  <time datetime="$(date -d "$DATE" +"%Y-%m-%d")">
+	    $(date -d "$DATE" +"%b %d, %Y")
 	  </time>
 	</a>
       </p>
@@ -128,6 +130,9 @@ p:append_post_footer() {
       </p>
     </footer>
 EOF
+)
+
+echo "$CONTENT"
 }
 
 p:append_to_index() {
@@ -139,15 +144,15 @@ p:append_to_index() {
         </a>
       </td>
       <td>
-        <time class="dt-published" datetime="$(date -d "$2" +%Y-%m-%d)">
-          $(date -d "$2" +%b %d, %Y)
+        <time class="dt-published" datetime="$(date -d "$DATE" +"%Y-%m-%d")">
+          $(date -d "$DATE" +"%b %d, %Y")
         </time>
       </td>
     </tr>
 EOF
 )
 
-sed '/<!-- INSERT NEW POSTS HERE -->/a' "$H_ENTRY" "$SRC_DIR/blog.html"
+sed '/<\!-- INSERT NEW POSTS HERE -->/a' "$H_ENTRY" "$SRC_DIR/blog.html"
 }
 
 p:append_to_rss() {
@@ -166,6 +171,6 @@ p:append_to_rss() {
 EOF
 )
 
-sed '/<!-- INSERT NEW POSTS HERE -->/a' "$RSS_ENTRY" "$SRC_DIR/index.xml"
+sed '/<\!-- INSERT NEW POSTS HERE -->/a' "$RSS_ENTRY" "$SRC_DIR/index.xml"
 }
 
