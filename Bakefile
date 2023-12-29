@@ -34,27 +34,28 @@ optimize() {
 }
 
 new() {
-  p:get "Title" title
-  p:get_with_default "Language" lang "en"
-  p:get_with_default "Path" path "$(p:sluggify "$title")" 
+  p:get "Title" TITLE
+  p:get_with_default "Language" LANGUAGE "en"
+  p:get_with_default "Path" URL "$(p:sluggify "$TITLE")" 
 
-  p:render "$SRC_DIR" "$path" "$title" "$lang" "<!--CONTENT HERE -->"
+  export CONTENT="<!-- CONTENT HERE -->"
+  p:render
 }
 
 publish() {
   if [ -e "$1" ]; then
-    p:get "Title" title
-    p:get_with_default "Date" date "$(date +"%Y-%m-%d")"
-    p:get_with_default "Language" lang "en"
+    p:get "Title" TITLE
+    p:get_with_default "Date" DATE "$(date +"%Y-%m-%d")"
+    p:get_with_default "Language" LANGUAGE "en"
 
-    export DATE="$date"
     export URL="blog/$(basename "$1" ".html")"
+    export CONTENT="$(cat "$1")"
 
-    content="$(p:append_post_footer "$1")"
-
-    p:render "$SRC_DIR" "$URL" "$title" "$lang" "$content" 
     p:append_to_index
     p:append_to_rss
+
+    export CONTENT="$(p:append_post_footer "$CONTENT")" 
+    p:render 
   else
     echo >&2 "Error: file '$1' doesn't exist."
     echo >&2
@@ -67,6 +68,7 @@ p:get() {
 
   printf "\n$1: "
   read $2
+  export $2
 
   if [ "${!2}" = "" ]; then
     echo >&2 "Error: you didn't provide $1."
@@ -82,7 +84,7 @@ p:get_with_default() {
   read $2
 
   if [ "${!2}" = "" ]; then
-    eval "$2='$3'"
+    eval "export $2='$3'"
   fi
 }
 
@@ -90,13 +92,8 @@ p:sluggify() {
   echo "$1" | tr '[:upper:]' '[:lower:]' | tr -cs '[:alnum:]' '-' | sed 's/-$//'
 }
 
-p:render() {
-  export TITLE="$3"
-  export LANG="$4"
-  export URL="$2"
-  export CONTENT="$5"
-
-  path="$1/$2.html"
+p:render() { 
+  path="$SRC_DIR/$URL.html"
 
   if [ -e "$path" ]; then
     echo >&2 "Error: file '$path' already exists."
@@ -111,7 +108,7 @@ p:render() {
 
 p:append_post_footer() {
   CONTENT=$(cat <<EOF
-    $(cat "$1")
+    $1
 
     <footer>
       <p>
@@ -136,41 +133,47 @@ echo "$CONTENT"
 }
 
 p:append_to_index() {
-  H_ENTRY=$(cat <<EOF
-    <tr class="h-entry">
-      <td class="p-title">
-        <a class="u-url" href="/$URL">
-          $TITLE
-        </a>
-      </td>
-      <td>
-        <time class="dt-published" datetime="$(date -d "$DATE" +"%Y-%m-%d")">
-          $(date -d "$DATE" +"%b %d, %Y")
-        </time>
-      </td>
-    </tr>
+  H_ENTRY="$(cat <<EOF
+<tr class="h-entry">
+  <td class="p-title">
+    <a class="u-url" href="/$URL">
+      $TITLE
+    </a>
+  </td>
+  <td>
+    <time class="dt-published" datetime="$(date -d "$DATE" +"%Y-%m-%d")">
+      $(date -d "$DATE" +"%b %d, %Y")
+    </time>
+  </td>
+</tr>
 EOF
-)
+)"
 
-sed '/<\!-- INSERT NEW POSTS HERE -->/a' "$H_ENTRY" "$SRC_DIR/blog.html"
+local C=$(p:escape_xml "$H_ENTRY")
+sed -i /'<!-- INSERT NEW POSTS HERE -->'/a\\"$C" "$SRC_DIR/blog/index.html"
 }
 
 p:append_to_rss() {
-  RSS_ENTRY=$(cat <<EOF
-    <item>
-      <title>$TITLE</title>
-      <link>https://roblog.nl/$URL</link>
-      <pubDate>$(date -d "$DATE" +%d %b %Y) 12:00:00 +0100</pubDate>
-      <guid>https://roblog.nl/$URL</guid>
-      <content:encoded>
-        <![CDATA[
-        $CONTENT
-        ]]>
-      </content:encoded>
-    </item>
+  RSS_ENTRY="$(cat <<EOF
+<item>
+  <title>$TITLE</title>
+  <link>https://roblog.nl/$URL</link>
+  <pubDate>$(date -d "$DATE" +"%d %b %Y") 12:00:00 +0100</pubDate>
+  <guid>https://roblog.nl/$URL</guid>
+  <content:encoded>
+    <![CDATA[
+    $CONTENT
+    ]]>
+  </content:encoded>
+</item>
 EOF
-)
+)"
 
-sed '/<\!-- INSERT NEW POSTS HERE -->/a' "$RSS_ENTRY" "$SRC_DIR/index.xml"
+local C=$(p:escape_xml "$RSS_ENTRY")
+sed -i /'<!-- INSERT NEW POSTS HERE -->'/a\\"$C" "$SRC_DIR/index.xml"
+}
+
+p:escape_xml() {
+  echo "$1" | sed -e 's/^[[:space:]]*//;s/[[:space:]]*$//;s/\//\\\//g' | tr '\n' ' ' 
 }
 
