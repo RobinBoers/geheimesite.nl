@@ -44,9 +44,11 @@ new() {
 publish() {
   if [ -e "$1" ]; then
     p:get "Title" title
+    p:get_with_default "Date" date "$(date +"%Y-%m-%d")"
     p:get_with_default "Language" lang "en"
 
-    content="$(cat "$1" | p:append_post_footer)"
+    content="$(p:append_post_footer $(cat "$1") "$date")"
+    export DATE="$date"
 
     p:render "$SRC_DIR" "blog/$(basename "$1")" "$title" "$lang" "$content" 
     p:append_to_index
@@ -106,27 +108,26 @@ p:render() {
 }
 
 p:append_post_footer() {
-  FOOTER=$(cat <<EOF
-      <footer>
-        <p>
-	  Posted on
-	  <a class="u-url" href="//roblog.eu/$2">
-	    <time class="dt-published" datetime="$(date +%Y-%m-%d)">
-	      $(date +%b %d, %Y)
-	    </time>
-	  </a>
-	</p>
+  echo <<EOF
+    $1
 
-	<p class="reply-by-email">
-          <a href="mailto:axcelott@roblog.nl">
-	    Reply by email
-	  </a>
-	</p>
-      </footer>
+    <footer>
+      <p>
+	Posted on
+	<a href="//roblog.eu/$2">
+	  <time datetime="$(date +%Y-%m-%d)">
+	    $(date +%b %d, %Y)
+	  </time>
+	</a>
+      </p>
+
+      <p class="reply-by-email">
+        <a href="mailto:axcelott@roblog.nl">
+	  Reply by email
+	</a>
+      </p>
+    </footer>
 EOF
-)
-
-  echo "$1 $FOOTER"
 }
 
 p:append_to_index() {
@@ -138,8 +139,8 @@ p:append_to_index() {
         </a>
       </td>
       <td>
-        <time class="dt-published" datetime="$(date +%Y-%m-%d)">
-          $(date +%b %d, %Y)
+        <time class="dt-published" datetime="$(date -d "$2" +%Y-%m-%d)">
+          $(date -d "$2" +%b %d, %Y)
         </time>
       </td>
     </tr>
@@ -151,19 +152,20 @@ sed '/<!-- INSERT NEW POSTS HERE -->/a' "$H_ENTRY" "$SRC_DIR/blog.html"
 
 p:append_to_rss() {
   RSS_ENTRY=$(cat <<EOF
-  <item>
-    <title>$TITLE</title>
-    <link>https://roblog.nl/$URL</link>
-    <pubDate>$(date +%d %b %Y) 12:00:00 +0100</pubDate>
-    <guid>https://roblog.nl/$URL</guid>
-    <content:encoded>
-      <![CDATA[
-      $CONTENT
-      ]]>
-    </content:encoded>
-  </item>
+    <item>
+      <title>$TITLE</title>
+      <link>https://roblog.nl/$URL</link>
+      <pubDate>$(date -d "$DATE" +%d %b %Y) 12:00:00 +0100</pubDate>
+      <guid>https://roblog.nl/$URL</guid>
+      <content:encoded>
+        <![CDATA[
+        $CONTENT
+        ]]>
+      </content:encoded>
+    </item>
 EOF
 )
 
 sed '/<!-- INSERT NEW POSTS HERE -->/a' "$RSS_ENTRY" "$SRC_DIR/index.xml"
 }
+
