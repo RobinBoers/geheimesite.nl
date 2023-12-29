@@ -1,0 +1,14 @@
+{
+  "name": "roblog.nl",
+  "author": "Axcelott",
+  "description": "Personal website",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git.dupunkto.org/~axcelott/roblog.nl"
+  },
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "prettier": "^3.1.1"
+  }
+}
