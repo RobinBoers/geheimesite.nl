@@ -9,6 +9,13 @@ build() {
   optimize
 }
 
+deploy() {
+  clean
+  build
+
+  rsync -ciavuP --delete dist/* geheimesite.nl:domains/roblog.nl/public_html
+}
+
 format() {
   prettier --write "$SRC_DIR" 
 }
