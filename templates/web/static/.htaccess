@@ -1,6 +1,12 @@
 RewriteEngine On
 RewriteBase /
 
+# Redirect all paths to new domain name
+RewriteCond %{HTTPS} off 
+RewriteRule ^(.*)$ http://roblog.nl/$1 [R=307]
+RewriteCond %{HTTPS} on
+RewriteRule ^(.*)$ https://roblog.nl/$1 [R=307]
+
 # Set default charset and language
 AddDefaultCharset UTF-8
 DefaultLanguage en-US
