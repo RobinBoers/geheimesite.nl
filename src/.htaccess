@@ -1,6 +1,14 @@
 RewriteEngine On
 RewriteBase /
 
+# Fuck the www prefix!
+RewriteCond %{HTTP_HOST} ^www\.
+RewriteRule ^(.*)$ ${REQUEST_SCHEME}://${HTTP_HOST}%{REQUEST_URI} [R=307]
+
+# Force https (disabled, see 1mb.club)
+#RewriteCond %{HTTPS} off 
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
 # Set default charset and language
 AddDefaultCharset UTF-8
 DefaultLanguage en-US
@@ -8,8 +16,8 @@ DefaultLanguage en-US
 # Limit file uploads to 100K
 LimitRequestBody 102400
 
-# Make OPML files display in-browser
-AddType text/xml .opml 
+# Make OPML & RSS files display in-browser
+AddType text/xml .opml
 AddHandler text/xml .opml
 
 # Preserve bandwidth for PHP enabled servers
@@ -20,18 +28,25 @@ AddHandler text/xml .opml
 # Google, FLoC off! (and other privacy headers)
 Header set Referrer-Policy "no-referrer"
 Header set X-Content-Type-Options "nosniff"
-Header set X-Frame-Options  deny
+Header set X-Frame-Options "deny"
+
+# HSTS: Enable automatic HTTPS redirects for a year, including subdomains
+Header set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+
+# OCSP stapling
+SSLUseStapling On
+SSLStaplingCache "shmcb:logs/ssl_stapling(32768)"
 
 # CSP
 # Don't allow anything by default, but enable
 # images & stylesheets from same origin.
-
+#
 # I also do not allow other pages to embed my pages.
-
-# `upgrade-insecure-requests` will auto enable HTTP for
+#
+# `upgrade-insecure-requests` will auto enable HTTPS for
 # compliant browsers, while still serving over HTTP for older browsers
 # (like Lynx).
-
+#
 # `sandbox` disables A LOT of things. I explicitly re-enable the
 # things I need:
 # - Forms
@@ -43,13 +58,9 @@ Header set Content-Security-Policy "default-src 'none'; img-src 'self'; media-sr
 # Don't disclose server
 ServerSignature Off
 
-# Force https (disabled, see 1mb.club)
-#RewriteCond %{HTTPS} off 
-#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
 # Pretty URLs
-RewriteCond %{REQUEST_FILENAME} !-d 
-RewriteCond %{REQUEST_FILENAME}\.html -f 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html
 
 # Follow symbolic links
@@ -57,9 +68,7 @@ Options +FollowSymLinks
 
 # GZip compression
 <IfModule mod_deflate.c>
-    <FilesMatch "\.(js|css|html|xml|opml)$">
-        SetOutputFilter DEFLATE
-    </FilesMatch>
+	SetOutputFilter DEFLATE
 	
 	BrowserMatch ^Mozilla/4 gzip-only-text/html
 	BrowserMatch ^Mozilla/4\.0[678] no-gzip
@@ -85,4 +94,3 @@ Options +FollowSymLinks
 <FilesMatch "\.(pl|cgi|spl|scgi|fcgi|php)$">
 	Header unset Cache-Control
 </FilesMatch>
-
