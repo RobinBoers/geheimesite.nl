@@ -5,43 +5,45 @@
     <domain>roblog.nl</domain>
     <domain>geheimesite.nl</domain>
 
-    <displayName>{du}punkto</displayName>
-    <displayShortName>{du}punkto</displayShortName>
+    <displayName>%EMAILADDRESS%</displayName>
+    <displayShortName>%EMAILLOCALPART%</displayShortName>
+
     <incomingServer type="imap">
       <hostname>imap.bhosted.nl</hostname>
       <port>993</port>
       <socketType>SSL</socketType>
-      <authentication>password-encrypted</authentication>
+      <authentication>password-cleartext</authentication>
       <username>%EMAILADDRESS%</username>
     </incomingServer>
     <incomingServer type="pop3">
       <hostname>pop3.bhosted.nl</hostname>
       <port>995</port>
       <socketType>SSL</socketType>
-      <authentication>password-encrypted</authentication>
+      <authentication>password-cleartext</authentication>
       <username>%EMAILADDRESS%</username>
     </incomingServer>
     <outgoingServer type="smtp">
       <hostname>smtp.bhosted.nl</hostname>
       <port>465</port>
       <socketType>SSL</socketType>
-      <authentication>password-encrypted</authentication>
+      <authentication>password-cleartext</authentication>
       <username>%EMAILADDRESS%</username>
     </outgoingServer>
 
     <!-- Documentation -->
-    <documentation
-      url="https://helpdesk.bhosted.nl/hc/nl/articles/207194729-Wat-zijn-de-SMTP-instellingen-voor-het-versturen-van-e-mail-">
+    <documentation url="https://helpdesk.bhosted.nl/hc/nl/categories/200707429">
+      <descr lang="nl">Beschrijving van e-mail instellingen</descr>
+      <descr lang="en">Description of email settings</descr>
+    </documentation>
+    <documentation url="https://helpdesk.bhosted.nl/hc/nl/articles/207194729">
       <descr lang="nl">Wat zijn de SMTP instellingen voor het versturen van e-mail?</descr>
       <descr lang="en">What are the SMTP settings for sending email?</descr>
     </documentation>
-    <documentation
-      url="https://helpdesk.bhosted.nl/hc/nl/articles/207194679-Wat-zijn-de-POP3-instellingen-voor-het-ophalen-van-e-mail-">
+    <documentation url="https://helpdesk.bhosted.nl/hc/nl/articles/207194679">
       <descr lang="nl">Wat zijn de POP3 instellingen voor het ophalen van e-mail?</descr>
       <descr lang="en">What are the POP3 settings for retrieving email?</descr>
     </documentation>
-    <documentation
-      url="https://helpdesk.bhosted.nl/hc/nl/articles/207906735-Wat-zijn-de-IMAP-instellingen-voor-het-ophalen-van-e-mail-">
+    <documentation url="https://helpdesk.bhosted.nl/hc/nl/articles/207906735">
       <descr lang="nl">Wat zijn de IMAP instellingen voor het ophalen van e-mail?</descr>
       <descr lang="en">What are the IMAP settings for retrieving email?</descr>
     </documentation>
