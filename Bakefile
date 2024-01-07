@@ -2,17 +2,21 @@
 
 SRC_DIR="src"
 DIST_DIR="dist"
+DOMAIN="roblog.nl"
 
 build() {
-  cp -r "$SRC_DIR" "$DIST_DIR"
-  optimize
+  rsync -av --update "$SRC_DIR/" "$DIST_DIR/"
+  p:generate_sitemap
+  p:optimize_images
 }
 
 deploy() {
-  clean
-  build
-
-  rsync -ciavuP --delete dist/ geheimesite.nl:domains/roblog.nl/public_html
+  if [ -d "$DIST_DIR" ]; then
+    rsync -ciavuP --delete "$DIST_DIR/" geheimesite.nl:domains/$DOMAIN/public_html
+  else
+    echo >&2 "Error: '$DIST_DIR' does not exist."
+    echo >&2
+  fi
 }
 
 format() {
@@ -29,7 +33,7 @@ clean() {
   rm -rf node_modules package-lock.json
 }
 
-optimize() {
+p:optimize_images() {
   SCALE_DOWN="convert {} -resize 600x> {}"
   OPTIMIZE_PNG="optipng -strip all -clobber -preserve {} -out {}"
   OPTIMIZE_JPG="jpegoptim --strip-all --all-progressive --preserve {}"
@@ -37,6 +41,27 @@ optimize() {
   find "$DIST_DIR" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) -exec $SCALE_DOWN \;
   find "$DIST_DIR" -type f -iname "*.png" -exec $OPTIMIZE_PNG \; 
   find "$DIST_DIR" -type f \( -iname "*.jpg" -o -iname "*.jpeg" \) -exec $OPTIMIZE_JPG \;
+}
+
+p:generate_sitemap() {
+  local sitemap="$DIST_DIR/sitemap.xml"
+  local robots="$DIST_DIR/robots.txt"
+
+  echo '<?xml version="1.0" encoding="UTF-8"?>' > "$sitemap"
+  echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' >> "$sitemap"
+
+  find "$DIST_DIR" -type f -name "*.html" | while read -r path; do
+      local path=$(realpath --relative-to="$DIST_DIR" "$path" | p:url_encode)
+      echo "<url><loc>https://$DOMAIN/${path%index}</loc></url>" >> "$sitemap"
+  done
+
+  echo '</urlset>' >> "$sitemap"
+  echo "Sitemap: https://$DOMAIN/robots.txt" >> "$robots"
+}
+
+p:url_encode() {
+  read -r string
+  echo "${string%.html}" | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'\''/\&apos;/g'
 }
 
 new() {
@@ -121,7 +146,7 @@ p:append_post_footer() {
     <footer>
       <p>
 	Posted on
-	<a href="//roblog.nl/$URL">
+	<a href="//$DOMAIN/$URL">
 	  <time datetime="$(date -d "$DATE" +"%Y-%m-%d")">
 	    $(date -d "$DATE" +"%b %d, %Y")
 	  </time>
@@ -165,9 +190,9 @@ p:append_to_rss() {
   RSS_ENTRY="$(cat <<EOF
 <item>
   <title>$TITLE</title>
-  <link>https://roblog.nl/$URL</link>
+  <link>https://$DOMAIN/$URL</link>
   <pubDate>$(date -d "$DATE" +"%d %b %Y") 12:00:00 +0100</pubDate>
-  <guid>https://roblog.nl/$URL</guid>
+  <guid>https://$DOMAIN/$URL</guid>
   <content:encoded>
     <![CDATA[
     $CONTENT
@@ -184,4 +209,3 @@ sed -i /'<!-- INSERT NEW POSTS HERE -->'/a\\"$C" "$SRC_DIR/index.xml"
 p:escape_xml() {
   echo "$1" | sed -e 's/^[[:space:]]*//;s/[[:space:]]*$//;s/\//\\\//g' | tr '\n' ' ' 
 }
-

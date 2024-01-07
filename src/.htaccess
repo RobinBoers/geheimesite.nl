@@ -3,11 +3,16 @@ RewriteBase /
 
 # Fuck the www prefix!
 RewriteCond %{HTTP_HOST} ^www\.
-RewriteRule ^(.*)$ ${REQUEST_SCHEME}://${HTTP_HOST}%{REQUEST_URI} [R=307]
+RewriteRule ^(.*)$ %{REQUEST_SCHEME}://roblog.nl%{REQUEST_URI} [R=307]
 
 # Force https (disabled, see 1mb.club)
 #RewriteCond %{HTTPS} off 
 #RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# .well-known URIs
+Redirect /.well-known/security.txt /security.txt
+Redirect /.well-known/carddav https://contacts.dupunkto.org/admin
+Redirect /.well-known/caldav https://contacts.dupunkto.org/admin
 
 # Set default charset and language
 AddDefaultCharset UTF-8
@@ -32,10 +37,6 @@ Header set X-Frame-Options "deny"
 
 # HSTS: Enable automatic HTTPS redirects for a year, including subdomains
 Header set Strict-Transport-Security "max-age=31536000; includeSubDomains"
-
-# OCSP stapling
-SSLUseStapling On
-SSLStaplingCache "shmcb:logs/ssl_stapling(32768)"
 
 # CSP
 # Don't allow anything by default, but enable
@@ -67,13 +68,11 @@ RewriteRule ^(.*)$ $1.html
 Options +FollowSymLinks
 
 # GZip compression
-<IfModule mod_deflate.c>
-	SetOutputFilter DEFLATE
-	
-	BrowserMatch ^Mozilla/4 gzip-only-text/html
-	BrowserMatch ^Mozilla/4\.0[678] no-gzip
-	BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
-</IfModule>
+SetOutputFilter DEFLATE
+
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
 
 # File cache for static assets and images
 <FilesMatch "\.(ico|jpg|jpeg|png|webp|gif|svg|woff|woff2)$">
