@@ -11,8 +11,8 @@ RewriteRule ^(.*)$ %{REQUEST_SCHEME}://roblog.nl%{REQUEST_URI} [R=307]
 
 # .well-known URIs
 Redirect 302 /.well-known/security.txt /security.txt
-Redirect 302 /.well-known/carddav https://contacts.dupunkto.org/admin/
-Redirect 302 /.well-known/caldav https://contacts.dupunkto.org/admin/
+Redirect 302 /.well-known/carddav https://contacts.dupunkto.org/admin/axcelott/d04048ab-e2e6-f5bd-1965-9794fe86a398/
+Redirect 302 /.well-known/caldav https://contacts.dupunkto.org/admin/axcelott/d04048ab-e2e6-f5bd-1965-9794fe86a398/
 
 # Set default charset and language
 AddDefaultCharset UTF-8
