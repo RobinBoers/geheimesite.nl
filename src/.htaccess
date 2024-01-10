@@ -50,11 +50,11 @@ Header set Strict-Transport-Security "max-age=31536000; includeSubDomains"
 #
 # `sandbox` disables A LOT of things. I explicitly re-enable the
 # things I need:
-# - Forms
+# - target=_blank (categorized popups)
 # - Downloads
 # - `allow-same-origin` makes some browser extensions work again.
 
-Header set Content-Security-Policy "default-src 'none'; img-src 'self'; media-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'; upgrade-insecure-requests; sandbox allow-forms allow-downloads allow-same-origin;"
+Header set Content-Security-Policy "default-src 'none'; img-src 'self'; media-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'; upgrade-insecure-requests; sandbox allow-popups allow-downloads allow-same-origin;"
 
 # Don't disclose server
 ServerSignature Off
