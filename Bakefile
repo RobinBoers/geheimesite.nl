@@ -5,7 +5,7 @@ DIST_DIR="dist"
 DOMAIN="roblog.nl"
 
 build() {
-  rsync -av --update "$SRC_DIR/" "$DIST_DIR/"
+  rsync -avu "$SRC_DIR/" "$DIST_DIR/"
   p:generate_sitemap
   p:optimize_images
 }

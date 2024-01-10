@@ -21,9 +21,22 @@ body {
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
+@media (prefers-color-scheme: light) {
+  * {
+    border-color: #ccc;
+    text-decoration-color: #aaa;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  * {
+    border-color: #444;
+    text-decoration-color: #888;
+  }
+}
+
 a {
   color: currentColor;
-  text-decoration-color: #aaa;
 }
 
 a:hover {
@@ -45,7 +58,7 @@ h6 a {
 }
 
 h2 {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid;
   padding-bottom: 5px;
 }
 
