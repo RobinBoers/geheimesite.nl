@@ -146,7 +146,7 @@ p:append_post_footer() {
     <footer>
       <p>
 	Posted on
-	<a href="//$DOMAIN/$URL">
+	<a href="https://$DOMAIN/$URL">
 	  <time datetime="$(date -d "$DATE" +"%Y-%m-%d")">
 	    $(date -d "$DATE" +"%b %d, %Y")
 	  </time>
