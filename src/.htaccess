@@ -56,6 +56,10 @@ Header set Strict-Transport-Security "max-age=31536000; includeSubDomains"
 
 Header set Content-Security-Policy "default-src 'none'; img-src 'self'; media-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'; upgrade-insecure-requests; sandbox allow-popups allow-downloads allow-same-origin;"
 
+# Allow other sites to get content
+# See https://ncase.me/nutshell/#CORSForWebDevs
+Header set Access-Control-Allow-Origin "*"
+
 # Don't disclose server
 ServerSignature Off
 
