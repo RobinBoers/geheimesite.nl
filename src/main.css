@@ -59,6 +59,7 @@ h6 a {
 
 h2 {
   border-bottom: 1px solid;
+  border-color: inherit;
   padding-bottom: 5px;
 }
 
@@ -66,6 +67,18 @@ h4,
 h5,
 h6 {
   margin-bottom: 0;
+}
+
+hgroup h1 {
+  margin-bottom: 0;
+}
+
+hgroup p {
+  margin-top: 0;
+}
+
+hgroup {
+  margin-bottom: 1em;
 }
 
 pre {
@@ -109,7 +122,8 @@ th {
 }
 
 tr {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid;
+  border-color: inherit;
 }
 
 blockquote {
@@ -167,7 +181,8 @@ body > footer blockquote a::after {
 
 body main footer {
   margin: 2em 0;
-  border-top: 2px solid #ccc;
+  border-top: 2px solid;
+  border-color: inherit;
   font-size: 0.9em;
   display: flex;
   flex-direction: row;

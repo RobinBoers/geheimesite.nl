@@ -18,15 +18,32 @@
     </header>
 
     <main>
-      <h1>Subscribe</h1>
+      <hgroup>
+        <h1>What is RSS?</h1>
+        <p>
+          <small>
+            (If you already know RSS, <a href="/index.xml">here's my feed</a>.)
+          </small>
+        </p>
+      </hgroup>
 
       <p>
-        I don't like social media. Actually, I hate it. Instead, I have an RSS
-        feed. If you already know RSS (great!),
-        <a href="/index.xml">here's my feed</a>.
+        Nearly every blog has a feature called <dfn>syndication</dfn>. This is a
+        way to to easily subscribe to a site. It works like this: the site
+        exposes a feed, which is a simple text file that contains the latest
+        content in a form that a newsreader app can understand. Your newsreader
+        then periodically checks the feed and shows updates of all sites that
+        you follow in reverse-chronological order.
       </p>
 
-      <h2>What is RSS?</h2>
+      <p>
+        The technology to make this work is called <abbr>RSS</abbr> (Really
+        Simple Syndication), and thus these feeds are often called RSS feeds.
+        There's also another very similar format called Atom. Virtually all
+        newsreaders work equally with both.
+      </p>
+
+      <h2>But why?</h2>
 
       <p>
         Basically, RSS is like your Facebook feed, but instead of an algorithm
@@ -36,28 +53,161 @@
         American company for them to sell to spammers.
       </p>
 
+      <h2>Cool, how do I get started?</h2>
+
       <p>
-        It's a very simple system: a website exposes an RSS feed. A feed is a
-        simple text file that contains links to all their posts with a little
-        description. This isn't "personalised", it's more like a printed
-        newspaper. You can use an RSS reader to subscribe to that feed, and
-        you'll get an update when someone posts something new.
+        To subscribe to an RSS feed, you use a newsreader app. There's
+        <a
+          href="//en.wikipedia.org/wiki/Comparison_of_feed_aggregators"
+          target="_blank"
+          >lots of choises</a
+        >
+        out there.
+      </p>
+
+      <p>
+        RSS itself is free, but some apps provide additional features in a paid
+        subscription. Most of these apps also allow you to sync your
+        subscriptions between devices, but limit the amount of subscriptions you
+        can have.
+      </p>
+
+      <ul>
+        <li>
+          <p>
+            <a href="//inoreader.com" target="_blank">Inoreader</a>. Free up to
+            150 subscriptions.<br />
+            Offers iOS, iPadOS, and Android apps, and a web app.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <a href="//newsblur.com" target="_blank">NewsBlur</a>. Free up to 64
+            subscriptions.<br />
+            Offers iOS, iPadOS and Android apps, and a web app.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <a href="//netnewswire.com" target="_blank">NetNewsWire</a>. Offers
+            iOS, iPadOS and MacOS apps. The apps themselves are entirely free
+            and don't put limits on the amount of feeds. However, if you use an
+            online service like Inoreader or NewsBlur to sync your
+            subscriptions, their limits still apply.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <a href="//theoldreader.com" target="_blank">The Old Reader</a>.
+            Free up to 100 subscriptions.<br />
+            Offers iOS and Android apps, and a web app. Contains ads.
+          </p>
+        </li>
+      </ul>
+
+      <h2>But how do I use RSS?</h2>
+
+      <p>
+        Most sites that offer an RSS will probably have a link saying "RSS/Atom"
+        or an orage icon similar to this:
+        <!-- https://commons.wikimedia.org/wiki/File:Feed-icon.svg -->
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          version="1.1"
+          style="vertical-align: text-bottom; width: 1.2em; height: 1.2em"
+          class="pr-1"
+          id="RSSicon"
+          viewBox="0 0 256 256">
+          <defs>
+            <linearGradient
+              x1="0.085"
+              y1="0.085"
+              x2="0.915"
+              y2="0.915"
+              id="RSSg">
+              <stop offset="0.0" stop-color="#E3702D" />
+              <stop offset="0.1071" stop-color="#EA7D31" />
+              <stop offset="0.3503" stop-color="#F69537" />
+              <stop offset="0.5" stop-color="#FB9E3A" />
+              <stop offset="0.7016" stop-color="#EA7C31" />
+              <stop offset="0.8866" stop-color="#DE642B" />
+              <stop offset="1.0" stop-color="#D95B29" />
+            </linearGradient>
+          </defs>
+          <rect
+            width="256"
+            height="256"
+            rx="55"
+            ry="55"
+            x="0"
+            y="0"
+            fill="#CC5D15" />
+          <rect
+            width="246"
+            height="246"
+            rx="50"
+            ry="50"
+            x="5"
+            y="5"
+            fill="#F49C52" />
+          <rect
+            width="236"
+            height="236"
+            rx="47"
+            ry="47"
+            x="10"
+            y="10"
+            fill="url(#RSSg)" />
+          <circle cx="68" cy="189" r="24" fill="#FFF" />
+          <path
+            d="M160 213h-34a82 82 0 0 0 -82 -82v-34a116 116 0 0 1 116 116z"
+            fill="#FFF" />
+          <path
+            d="M184 213A140 140 0 0 0 44 73 V 38a175 175 0 0 1 175 175z"
+            fill="#FFF" />
+        </svg>
+        somewhere on the page. If they do, you can subscribe to them.
       </p>
 
       <p>
         Subscribing is dead simple to do: you subscribe to someone by entering
-        the URL to their blog, website, channel, profile into your RSS reader
-        app. Then, the app will check their feed for updates every few hours,
-        and show the posts in reverse-chronological order. Some apps also
-        provide other filters for showing the content, but whatever you choose,
-        it's always <em>under your control</em>.
+        the URL to their blog, website, channel, profile, whatever into your RSS
+        reader app.
       </p>
 
       <p>
-        In order to read the feeds you need an
-        <a href="//en.wikipedia.org/wiki/News_aggregator">RSS reader</a>. I
-        recommend <a href="//inoreader.com">Inoreader</a> or
-        <a href="//netnewswire.com">NetNewsWire</a>.
+        Then, the app will check the feed for updates every few hours, and show
+        the posts in reverse-chronological order. Some apps also provide other
+        filters for showing the content, but whatever you choose, it's always
+        under your control.
+      </p>
+
+      <h2>Where can I find feeds to subscribe to?</h2>
+
+      <p>
+        The best way to discover blogs to follow is by simply browsing the web.
+        Not with a search engine, but by following links from site to site.
+        There's tons of interesting stuff out there. Often, blogs have a
+        blogroll: a list of blogs that they like.
+      </p>
+
+      <p>Here are some starting points:</p>
+      <ul>
+        <li><a href="//ooh.directory" target="_blank">ooh.directory</a></li>
+        <li><a href="//blogroll.org" target="_blank">blogroll.org</a></li>
+        <li><a href="/blogroll">My blogroll</a></li>
+      </ul>
+
+      <p>
+        In addition to most blogs, lots of other sites also offer RSS feeds.
+        Forexample, every YouTube channel has an RSS feed (try it: simply enter
+        the channel URL in your RSS reader!). And most news sites (like
+        <a href="//nos.nl/feeds">NOS</a>) offer RSS feeds too, as do
+        <a href="//rss.buienradar.nl/radar.php">weather forecasts</a>.
+        Additionally, RSS is often used for podcasts too.
       </p>
     </main>
 
