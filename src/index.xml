@@ -3,15 +3,21 @@
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Robin (axcelott)</title>
-    <descriptions>Thoughts and opinions of a teenager from the Netherlands.</descriptions>
+    <description>Thoughts and opinions of a teenager from the Netherlands.</description>
     <link>https://roblog.nl</link>
     <language>en</language>
-    <webMaster>Robin Boers &lt;webmaster@roblog.nl&gt;</webMaster>
+    <webMaster>webmaster@roblog.nl (Robin Boers)</webMaster>
     <copyright>Made with ♡ in the Netherlands. Copying is an act of love. Please copy.</copyright>
     <atom:link href="//roblog.nl/index.xml" rel="self" type="application/rss+xml" />
 
     <!-- INSERT NEW POSTS HERE -->
-<item> <title>Banning phones is not solving anything</title> <link>https://roblog.nl/blog/symptom-relief</link> <pubDate>14 Jan 2024 12:00:00 +0100</pubDate> <guid>https://roblog.nl/blog/symptom-relief</guid> <content:encoded> <![CDATA[ <p>A few days ago, I posted some of my thoughts regarding the new mobile phone ban in high schools in the Netherlands. I want to add a few more things: </p> <p> I think the fundamental problem is not the phones themselves. Why are phones distracting? Push notifications and FOMO. <em>The phones are not the problem, social media is</em>. And because we failed to properly regulate social media, phones are getting banned. </p>  <p> The ban is a prime example of symptom relief. The government is doing nothing to actually address the problem; all they're doing is prohibiting the manifestation. The ban will <em>not</em> help students overcome their addiction. Neither is the ban preventing social media use and all the problems than come with it; students are simply going to use different devices to access their beloved Snapchat selfies. </p> ]]> </content:encoded> </item> 
+    <item>
+      <title>Banning phones is not solving anything</title>
+      <link>https://roblog.nl/blog/symptom-relief</link>
+      <pubDate>14 Jan 2024 12:00:00 +0100</pubDate>
+      <guid>https://roblog.nl/blog/symptom-relief</guid>
+      <content:encoded> <![CDATA[ <p>A few days ago, I posted some of my thoughts regarding the new mobile phone ban in high schools in the Netherlands. I want to add a few more things: </p> <p> I think the fundamental problem is not the phones themselves. Why are phones distracting? Push notifications and FOMO. <em>The phones are not the problem, social media is</em>. And because we failed to properly regulate social media, phones are getting banned. </p>  <p> The ban is a prime example of symptom relief. The government is doing nothing to actually address the problem; all they're doing is prohibiting the manifestation. The ban will <em>not</em> help students overcome their addiction. Neither is the ban preventing social media use and all the problems than come with it; students are simply going to use different devices to access their beloved Snapchat selfies. </p> ]]> </content:encoded>
+    </item>
     <item>
       <title>Thoughts on the mobile phone ban</title>
       <link>https://roblog.nl/blog/phones-banned</link>
