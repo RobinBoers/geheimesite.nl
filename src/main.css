@@ -128,10 +128,18 @@ tr {
 
 blockquote {
   font-style: italic;
-  border-left: 2px solid #ccc;
-  color: #ccc;
+  border-left: 2px solid;
   padding-left: 1.2em;
   margin: auto 0;
+  color: gray;
+  border-color: gray;
+}
+
+@media (prefers-color-scheme: dark) {
+  blockquote {
+    color: #ccc;
+    border-color: #ccc;
+  }
 }
 
 /* Site-specific */
