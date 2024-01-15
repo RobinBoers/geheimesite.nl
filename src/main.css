@@ -135,6 +135,11 @@ blockquote {
   border-color: inherit;
 }
 
+ins {
+  text-decoration: none;
+  font-weight: 600;
+}
+
 /* Site-specific */
 
 body {
