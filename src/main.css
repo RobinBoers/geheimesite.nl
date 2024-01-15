@@ -132,14 +132,7 @@ blockquote {
   padding-left: 1.2em;
   margin: auto 0;
   color: gray;
-  border-color: gray;
-}
-
-@media (prefers-color-scheme: dark) {
-  blockquote {
-    color: #ccc;
-    border-color: #ccc;
-  }
+  border-color: inherit;
 }
 
 /* Site-specific */
