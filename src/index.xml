@@ -11,6 +11,7 @@
     <atom:link href="//roblog.nl/index.xml" rel="self" type="application/rss+xml" />
 
     <!-- INSERT NEW POSTS HERE -->
+<item> <title>Stop saying "users" and "content"</title> <link>https://roblog.nl/blog/stupid-terminology</link> <pubDate>15 Jan 2024 12:00:00 +0100</pubDate> <guid>https://roblog.nl/blog/stupid-terminology</guid> <content:encoded> <![CDATA[ <p>Terminology like "users" and "content" is demeaning and hurtful.</p> <p> Artists aren't creating "content" to populate our datasets--they're creating movies, music, essays, drawings, games, paintings. Labeling a work that someone created, out of passion and love, "content", is frankly disrespectful. It reduces the creative work from something beautiful to merely another piece of "content", and greatly undervalues the effort and skill necessary to create it. </p><p> Likewise, calling <em>people</em> "<em>users</em>", dehumanizes them. It turns them into a mere datapoint, or worse, an asset to be exploited. </p> <blockquote> <p>There are only two industries that call their customers "users": illegal drugs and software.</p>  <footer>—<cite>Edward Tufte</cite></footer> </blockquote> <p>We should stop using these terms; they're stupid.</p> ]]> </content:encoded> </item> 
     <item>
       <title>Banning phones is not solving anything</title>
       <link>https://roblog.nl/blog/symptom-relief</link>
