@@ -2,17 +2,18 @@
 
 SRC_DIR="src"
 DIST_DIR="dist"
+REMOTE="s11"
 DOMAIN="roblog.nl"
 
 build() {
-  rsync -avu "$SRC_DIR/" "$DIST_DIR/"
+  rsync -au "$SRC_DIR/" "$DIST_DIR/" --exclude "images"
   p:generate_sitemap
-  p:optimize_images
+  p:build_assets
 }
 
 deploy() {
   if [ -d "$DIST_DIR" ]; then
-    rsync -ciavuP --delete "$DIST_DIR/" geheimesite.nl:domains/$DOMAIN/public_html
+    rsync -ciavuP --delete "$DIST_DIR/" $REMOTE:domains/$DOMAIN/public_html
   else
     echo >&2 "Error: '$DIST_DIR' does not exist."
     echo >&2
@@ -33,14 +34,30 @@ clean() {
   rm -rf node_modules package-lock.json
 }
 
-p:optimize_images() {
-  SCALE_DOWN="convert {} -resize 600x> {}"
-  OPTIMIZE_PNG="optipng -strip all -clobber -preserve {} -out {}"
-  OPTIMIZE_JPG="jpegoptim --strip-all --all-progressive --preserve {}"
+p:build_assets() {
+  while IFS= read -d '' filename; do
+    p:optimize_image "$filename"
+  done < <(find "$SRC_DIR" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) -print0)
+}
+
+p:optimize_image() {
+  local dist="$DIST_DIR/$(realpath --relative-to="$SRC_DIR" "$1")"
+
+  [ -e "$dist" ] && return
+  rsync -a --mkpath "$1" "$dist"
+
+  # Scale images down to max 600x
+  convert "$dist" -resize 600x\> "$dist"
   
-  find "$DIST_DIR" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) -exec $SCALE_DOWN \;
-  find "$DIST_DIR" -type f -iname "*.png" -exec $OPTIMIZE_PNG \; 
-  find "$DIST_DIR" -type f \( -iname "*.jpg" -o -iname "*.jpeg" \) -exec $OPTIMIZE_JPG \;
+  # Compress images
+  case "${dist##*.}" in
+    png) 
+      optipng -strip all -clobber -preserve "$dist" -out "$dist"
+      ;;
+    jpg|jpeg) 
+      jpegoptim --strip-all --all-progressive --preserve "$dist"
+      ;;
+  esac  
 }
 
 p:generate_sitemap() {
@@ -50,9 +67,11 @@ p:generate_sitemap() {
   echo '<?xml version="1.0" encoding="UTF-8"?>' > "$sitemap"
   echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' >> "$sitemap"
 
-  find "$DIST_DIR" -type f -name "*.html" | while read -r path; do
+  # TODO(robin): sort by last modified
+  find "$DIST_DIR" -type f -name "*.html" | sort -rn | while read -r path; do
+      local lastmod="$(date -r "$path" -u +"%Y-%m-%dT%H:%M:%SZ")"
       local path=$(realpath --relative-to="$DIST_DIR" "$path" | p:url_encode)
-      echo "<url><loc>https://$DOMAIN/${path%index}</loc></url>" >> "$sitemap"
+      echo "<url><loc>https://$DOMAIN/${path%index}</loc><lastmod>$lastmod</lastmod></url>" >> "$sitemap"
   done
 
   echo '</urlset>' >> "$sitemap"
