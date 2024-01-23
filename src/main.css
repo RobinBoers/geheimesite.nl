@@ -204,3 +204,17 @@ body main footer .reply-by-email a {
   background: CanvasText;
   color: Canvas;
 }
+
+/* Printing */
+
+@media print {
+  body {
+    margin: 0;
+    width: 100%;
+  }
+
+  body > header,
+  main > footer {
+    display: none !important;
+  }
+}
