@@ -19,9 +19,9 @@
       <content:encoded> <![CDATA[ <p>
         Since its introduction a little more than a year ago, we've been
         discussing ChatGPT a lot at school. It's an interesting topic, for sure.
-        How can it be used at school? By students or teachers? Is using AI
-        cheating? Will using it aid in the development of writing skill or slow
-        it? Should it be used at all?
+        How can it be used in school? By students or teachers? Is using AI
+        cheating? Will it interfere with the development of writing skills or
+        help? Should it be used at all?
       </p>
       <p>
         Generally, we seem to have the urge to ban upcoming technologies that
@@ -56,6 +56,14 @@
         </p>
       </blockquote>
       <p>
+        The AI models are unable to understand what they are writing about.
+        They're only selecting words that sound plausible given the context of
+        their training data and the prompt. But they do know grammar, spelling,
+        and essay structure. That's where their strength lies. Not the ability
+        to generate okay-sounding essays, but their ability to understand and
+        transform language. Use it to your advantage.
+      </p>
+      <p>
         Instead of prompting "can you generate an argumentative essay on the
         role of religion in public schools", we should prompt things like "can
         you rewrite this paragraph to be more academic" or "can you show me
@@ -65,7 +73,36 @@
         ChatGPT and similar models are not a threat to writing. Instead, they
         are merely new tools that can—if utilized correctly—further improve our
         writing. The impact they will have is purely defined by how we use them.
-      </p> ]]> </content:encoded>
+      </p>
+
+      <p>
+        <small>
+          *this post was written by me, but edited and
+          <a href="//languagetool.org">checked for grammar mistakes</a> using
+          AI.
+        </small>
+      </p>
+
+      <details>
+        <summary>Extras</summary>
+        <p>Some additional notes:</p>
+        <ul>
+          <li>
+            LLMs are best used in combination with existing tools, like
+            <a href="//jsomers.net/blog/dictionary">a good dictionary</a>,
+            thesaurus, and spell checkers.
+          </li>
+          <li>
+            It's really a bit silly to call this category of AI "generative",
+            because (in my opinion) that's the thing they're worst at.
+          </li>
+          <li>
+            While not really related to this topic, the
+            <a>post I quoted from Linus</a> is great and you should really read
+            it!
+          </li>
+        </ul>
+      </details> ]]> </content:encoded>
     </item>
     <item>
       <title>Stop saying "users" and "content"</title>
