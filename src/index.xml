@@ -12,6 +12,62 @@
 
     <!-- INSERT NEW POSTS HERE -->
     <item>
+      <title>The role of generative AI in writing</title>
+      <link>https://roblog.nl/blog/gpt</link>
+      <pubDate>23 Jan 2024 12:00:00 +0100</pubDate>
+      <guid>https://roblog.nl/blog/gpt</guid>
+      <content:encoded> <![CDATA[ <p>
+        Since its introduction a little more than a year ago, we've been
+        discussing ChatGPT a lot at school. It's an interesting topic, for sure.
+        How can it be used at school? By students or teachers? Is using AI
+        cheating? Will using it aid in the development of writing skill or slow
+        it? Should it be used at all?
+      </p>
+      <p>
+        Generally, we seem to have the urge to ban upcoming technologies that
+        radically change things. Indeed, I've repeatedly heard people call to
+        ban use of generative AI, calling it plagiarism and fraud. However, like
+        everything, the matter is more nuanced than seems to be the case at
+        first sight. Even if we were to completely ban generative AI, enforcing
+        a ban like that will prove harder and harder the further models like GPT
+        evolve. Besides, it probably won't restrain students from using models
+        like them. Therefore, we should think about and discuss how we could
+        properly integrate AI models into our writing.
+      </p>
+      <p>
+        With that in mind, here are some of the primary takeaways after using
+        ChatGPT on-and-off for about a year.
+      </p>
+      <p>
+        ChatGPT is—mistakenly—mainly used to <em>generate</em> prose. However,
+        the prose it generates is mediocre; it's dull and repetitive.
+        Moreover,—even tho OpenAI tries to prevent it—the model hallucinates
+        fairly often. This means nothing it generates can be trusted to be
+        factually correct.
+      </p>
+      <p>
+        Instead, it is way more powerful as a tool to edit and transform
+        language. As Linus wrote a while back:
+      </p>
+      <blockquote cite="https://thesephist.com/posts/latent/">
+        <p>
+          Not "computers can complete text prompts, now what?" but "computers
+          can understand language, now what?"
+        </p>
+      </blockquote>
+      <p>
+        Instead of prompting "can you generate an argumentative essay on the
+        role of religion in public schools", we should prompt things like "can
+        you rewrite this paragraph to be more academic" or "can you show me
+        alternatives to this sentence".
+      </p>
+      <p>
+        ChatGPT and similar models are not a threat to writing. Instead, they
+        are merely new tools that can—if utilized correctly—further improve our
+        writing. The impact they will have is purely defined by how we use them.
+      </p> ]]> </content:encoded>
+    </item>
+    <item>
       <title>Stop saying "users" and "content"</title>
       <link>https://roblog.nl/blog/stupid-terminology</link>
       <pubDate>15 Jan 2024 12:00:00 +0100</pubDate>
@@ -22,7 +78,7 @@
       </p>
       <p>
         Artists aren't creating <em>content</em> to populate our
-        datasets--they're creating movies, music, essays, drawings, games,
+        datasets—they're creating movies, music, essays, drawings, games,
         paintings. Labeling a work that someone created, out of passion and
         love, <em>content</em>, is frankly disrespectful. It reduces the
         creative work from something beautiful to merely another piece of
