@@ -186,18 +186,14 @@ echo "$CONTENT"
 
 p:append_to_index() {
   H_ENTRY="$(cat <<EOF
-<tr class="h-entry">
-  <td class="p-title">
-    <a class="u-url" href="/$URL">
-      $TITLE
-    </a>
-  </td>
-  <td>
+<li class="h-entry">
+  <a class="u-url" href="/$URL">
     <time class="dt-published" datetime="$(date -d "$DATE" +"%Y-%m-%d")">
-      $(date -d "$DATE" +"%b %d, %Y")
+      $(date -d "$DATE" +"%b %d, %Y"):
     </time>
-  </td>
-</tr>
+    <span class="p-title">$TITLE</span>
+  </a>
+</li>
 EOF
 )"
 

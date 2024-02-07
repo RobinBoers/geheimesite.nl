@@ -156,10 +156,15 @@ body {
   }
 }
 
+.h-feed {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 1.8;
+}
+
 .h-feed time {
-  color: gray;
-  color: GrayText;
-  font-weight: 400;
+  font-weight: bolder;
 }
 
 body > header nav a {
