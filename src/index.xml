@@ -12,6 +12,73 @@
 
     <!-- INSERT NEW POSTS HERE -->
     <item>
+      <title>Movies and Limited Series</title>
+      <link>https://roblog.nl/blog/good-movies</link>
+      <pubDate>07 Feb 2024 12:00:00 +0100</pubDate>
+      <guid>https://roblog.nl/blog/good-movies</guid>
+      <content:encoded> <![CDATA[ <p>So lately I've been watching a lot of Netflix.</p>
+
+      <p>
+        Generally I'm not the kind of person that consumes a lot of media. I'd
+        rather make things; I find creating things way more satisfying.
+      </p>
+
+      <p>
+        However, I got a bit burned out in terms of ideas — I didn't know what
+        to build — enery, and time (school am I right ✨). So, instead I spent
+        about 20 hours of my life staring at a screen, looking at fictional
+        characters living their almost perfect made-up lives.
+      </p>
+
+      <p>Anyways, I really enjoyed these in particular:</p>
+
+      <ul>
+        <li>After</li>
+        <li>Tick, tick… BOOM!</li>
+        <li>Heartstopper</li>
+        <li>Inventing Anna</li>
+        <li>Bohemian Rhapsody</li>
+        <li>Love, Rosie</li>
+        <li>Friends with Benefits</li>
+        <li>Lady Chatterley's Lover</li>
+        <li>The Girl Nextdoor</li>
+        <li>Queen's Gambit</li>
+        <li>Don't Look Up</li>
+        <li>Dirty Lines</li>
+        <li>The Social Network</li>
+        <li>The Playlist</li>
+        <li>The Social Dilemma</li>
+        <li>Yesterday</li>
+        <li>I Used to Be Famous</li>
+        <li>We Are the Wave</li>
+      </ul>
+
+      <p>
+        I really enjoyed the mini series in particular; it allows the filmmaker
+        to tell a more detailed story, yet it doesn't require as much time (and
+        commitment) to watch, opposed to, forexample, a 7-season-long show.
+      </p>
+
+      <p>
+        A movie feels short when you're used to a series. But that's part of the
+        appeal I think. A movie doesn't try to suck you in, like a series does.
+        It just tells a story.
+      </p>
+
+      <details>
+        <summary>Context</summary>
+        <p>
+          I wrote this a while back (somewhere fall last year), but I forgot to
+          publish it. I found the draft yesterday.
+        </p>
+
+        <p>
+          Also, a lot of movies listed above share one common theme: they're all
+          semi-related to the reproductive system; I'm a teenager, after all ;)
+        </p>
+      </details> ]]> </content:encoded>
+    </item>
+    <item>
       <title>The role of generative AI in writing</title>
       <link>https://roblog.nl/blog/gpt</link>
       <pubDate>23 Jan 2024 12:00:00 +0100</pubDate>
@@ -339,6 +406,76 @@
         It's the small things, the assumptions and expectations.<br />
         And it's so annoying.
       </p> ]]> </content:encoded>
+    </item>
+    <item>
+      <title>The Beginning</title>
+      <link>https://roblog.nl/blog/the-beginning</link>
+      <pubDate>09 Nov 2023 12:00:00 +0100</pubDate>
+      <guid>https://roblog.nl/blog/the-beginning</guid>
+      <content:encoded> <![CDATA[ <p>
+        The dawn of the universe is a paradox. There are two ways to explain it:
+      </p>
+
+      <ul>
+        <li>
+          <p>
+            The universe has a beginning. Something initiated the universe,
+            which raises the question: how did that thing get there? And if
+            there was no thing—the universe sprung from nothing—how can all be
+            made from none?
+          </p>
+        </li>
+        <li>
+          <p>
+            The universe has no beginning—it has always existed in some form or
+            capacity. This seems contradictory: how can everything exist
+            forever? All this <em>stuff</em> must come from somewhere, right?
+          </p>
+        </li>
+      </ul>
+
+      <p>
+        Saying you know the truth of the origin of the universe is lying to
+        yourself. Nobody knows — and nobody will ever know. We simply can't
+        grasp the very beginning, it's too contradictory. It's
+        all-encompassing—too immense for a single human being to fathom.
+      </p>
+
+      <p>
+        We must learn to live with the fact that we might never know the truth
+        to some things. And I know, that's hard. It means letting go of the
+        little grip we have on reality. But ultimately, it's the only real
+        answer we have.
+        <em>We don't know, and that's okay.</em>
+      </p> ]]> </content:encoded>
+    </item>
+    <item>
+      <title>Introduction</title>
+      <link>https://roblog.nl/blog/introduction</link>
+      <pubDate>15 Oct 2023 12:00:00 +0100</pubDate>
+      <guid>https://roblog.nl/blog/introduction</guid>
+      <content:encoded> <![CDATA[ <p>Hi. So, you stumbled upon my blog, cool.</p>
+
+      <p>
+        I'm a random teenager from the Netherlands, and this is my little corner
+        of the internet.
+      </p>
+
+      <p>
+        I post little notes about my life here. I made this site because I love
+        minimalism and the initial idea of the web: a giant library of
+        knowledge. This is my lil' corner of that library; as lightweight and
+        simple as it can get. I'm not trying to scream, I'm just looking talk.
+      </p>
+
+      <p>
+        This blog is mostly for myself, but you can read along if you're
+        inclined. I'm planning to do mostly long-form casual writing. For now
+        posts will be published exclusively on the Web, but I'm looking into
+        Gemini and Gopher hosting.
+      </p>
+
+      <p>I'm really bad at these “welcome!!” kind of posts. Sowwy!</p> ]]> </content:encoded>
     </item>
   </channel>
 </rss>
