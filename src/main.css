@@ -159,17 +159,6 @@ body {
   }
 }
 
-.h-feed {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  line-height: 1.8;
-}
-
-.h-feed time {
-  font-weight: bolder;
-}
-
 body > header nav a {
   text-decoration: none;
   font-size: 0.8em;
