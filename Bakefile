@@ -94,14 +94,16 @@ new() {
 }
 
 publish() {
-  if [ -e "$1" ]; then
+  local draft="drafts/$1.html"
+
+  if [ -e "$draft" ]; then
     p:get "Title" TITLE
     p:get_with_default "Date" DATE "$(date +"%Y-%m-%d")"
     p:get_with_default "Language" LANGUAGE "en"
 
     export PARENT="/blog"
-    export URL="blog/$(basename "$1" ".html")"
-    export CONTENT="$(cat "$1")"
+    export URL="blog/$1"
+    export CONTENT="$(cat "$draft")"
 
     p:append_to_index
     p:append_to_rss
@@ -109,7 +111,7 @@ publish() {
     export CONTENT="$(p:append_post_footer "$CONTENT")" 
     p:render 
   else
-    echo >&2 "Error: file '$1' doesn't exist."
+    echo >&2 "Error: file '$draft' doesn't exist."
     echo >&2
     exit 1
   fi
