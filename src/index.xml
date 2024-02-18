@@ -12,6 +12,82 @@
 
     <!-- INSERT NEW POSTS HERE -->
     <item>
+      <title>Introducing {du}punkto</title>
+      <link>https://roblog.nl/blog/dupunkto</link>
+      <pubDate>18 Feb 2024 12:00:00 +0100</pubDate>
+      <guid>https://roblog.nl/blog/dupunkto</guid>
+      <content:encoded> <![CDATA[ <p>
+        Last year, I posted
+        <a href="//classic.geheimesite.nl/v/18/thinking-about-tilde">
+          my thoughts on running a tilde/pubnix</a
+        >. In a nutshell, I wanted to experiment with setting up a small tilde, to
+        learn more about Linux and the internet. And after a few months of
+        experimenting, I finally have a system that I'm happy with. So today I'm
+        introducing <a href="//dupunkto.org">{du}punkto</a>, my attempt at
+        building <em>something</em>.
+      </p>
+
+      <p>
+        In short, {du}punkto is a small group of like-minded people who are
+        sharing a VPS. Everyone has access to the server over SSH or Mosh (handy
+        for areas with wonky connections). The goal is to learn new things about
+        *NIX systems, collaborate on code, experiment, and, above all, have fun.
+        I'm co-maintaining it with
+        <a href="//dupunkto.org/~msb">MSB</a>, one of my best friends. The
+        website isn't finished yet, but it has a little more info, if you're
+        curious.
+      </p>
+
+      <p>
+        Our server is named <code>du11</code>, after my web server
+        <code>s11</code>, and it's running FreeBSD 13. I opted for BSD because I
+        like the tidy and organized folder structure, large repos, and Jails
+        functionality. It's running a bunch of services for developing and
+        collaborating on software. Most notably:
+      </p>
+
+      <ul>
+        <li>
+          Web hosting for every Unix user via a <code>public_html</code> folder
+          in their home directory.
+        </li>
+        <li>
+          A Gitolite server with a cgit web frontend and mirroring to GitHub and
+          Codeberg.
+        </li>
+        <li>FTP storage with a web portal.</li>
+      </ul>
+
+      <p>
+        It's also possible to run complimentary services in FreeBSD jails, like:
+      </p>
+
+      <ul>
+        <li>A CardDAV and CalDAV server for me and my girlfriend.</li>
+        <li>A Miniflux instance for personal use.</li>
+      </ul>
+
+      <p>
+        I'm very excited about it. I'm looking forward to seeing what we're
+        gonna do with it further.
+      </p>
+
+      <p>Future plans:</p>
+
+      <ul>
+        <li>A handwritten classic Minecraft server.</li>
+        <li>
+          Gopher and Gemini hosting, using <code>public_gem</code> and
+          <code>public_gopher</code> respectively.
+        </li>
+        <li>
+          A VSCode server, similar to <a href="//vscode.dev">vscode.dev</a>.
+        </li>
+        <li>A Matrix homeserver with Whatsapp bridging.</li>
+        <li>A Mastodon or Lemmy instance?</li>
+      </ul> ]]> </content:encoded>
+    </item>
+    <item>
       <title>Movies and Limited Series</title>
       <link>https://roblog.nl/blog/good-movies</link>
       <pubDate>07 Feb 2024 12:00:00 +0100</pubDate>
