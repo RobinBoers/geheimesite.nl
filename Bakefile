@@ -62,7 +62,6 @@ p:optimize_image() {
 
 p:generate_sitemap() {
   local sitemap="$DIST_DIR/sitemap.xml"
-  local robots="$DIST_DIR/robots.txt"
 
   echo '<?xml version="1.0" encoding="UTF-8"?>' > "$sitemap"
   echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' >> "$sitemap"
@@ -75,7 +74,6 @@ p:generate_sitemap() {
   done
 
   echo '</urlset>' >> "$sitemap"
-  echo "Sitemap: https://$DOMAIN/robots.txt" >> "$robots"
 }
 
 p:url_encode() {
