@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="nl">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,257 +7,174 @@
 
     <title>Projects</title>
 
-    <link rel="canonical" href="https://roblog.nl/projects" />
+    <link rel="canonical" href="https://roblog.nl/stability" />
     <link rel="stylesheet" href="/main.css" />
 
     <style>
-      .h-entry {
-        margin-bottom: 30px;
-      }
-
-      .h-entry h2 {
-        margin-top: 0.5em;
-      }
-
-      @media (min-width: 1250px) {
-        .h-entry {
-          display: grid;
-          grid-template-columns: 55% 500px;
-          gap: 1em;
-          grid-auto-flow: dense;
-        }
-      }
-
-      .h-entry img {
-        border: 2px solid #ddd;
-        filter: grayscale(1);
-        /*
-        border-radius: 5px;
-        box-shadow:0 10px 15px -3px rgb(0 0 0/.1),0 4px 6px -4px rgb(0 0 0/.1);
-        */
+      table {
+        margin: 2em 0;
       }
     </style>
   </head>
   <body>
     <header>
       <nav>
-        <a href="/"> ← Terug naar de index</a>
+        <a href="/"> ← Back to the index</a>
       </nav>
     </header>
 
-    <main class="h-feed">
-      <h1 class="p-title">Projects</h1>
+    <main>
+      <h1>Projects</h1>
 
-      <section class="h-entry">
-        <div>
-          <h2 class="p-name">HVM Old's Cool</h2>
-          <p class="e-content p-summary">
-            Educatieve website van de Historische Vereniging Maassluis, met
-            interactief lesmateriaal.
-          </p>
-          <p>
-            <a href="//hvm-oldscool.nl" target="_blank" class="u-url">
-              hvm-oldscool.nl
-            </a>
-          </p>
-        </div>
+      <p>
+        At work, I code in Elixir and Javascript. In my free time however, I
+        like to play around with *NIX systems. I'm always trying to build new
+        things to improve my "workflow" or make things look pretty. Basically, a
+        r/unixp0rn user :P
+      </p>
 
-        <img
-          src="/images/websites/hvm-oldscool.png"
-          alt="Screenshot van HVM Old's Cool" />
-      </section>
+      <p>
+        Here's a selection of some of the stuff I've built. For the rest, take a
+        look on <a href="//git.dupunkto.org">{du}punkto</a>.
+      </p>
 
-      <section class="h-entry">
-        <div>
-          <h2 class="p-name">De Groentemeester</h2>
-          <p class="e-content p-summary">
-            Landingpage voor de zelfoogsttuin van mijn vader, de Groentemeester.
-          </p>
-          <p>
-            <a href="//degroentemeester.nl" target="_blank" class="u-url">
-              degroentemeester.nl
-            </a>
-          </p>
-        </div>
+      <table class="h-feed projects">
+        <thead>
+          <tr>
+            <th>Project</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="h-entry">
+            <td class="p-title">
+              <a
+                class="u-url"
+                href="https://git.dupunkto.org/~robin/grape-lang">
+                The Grape Programming Language
+              </a>
+            </td>
+            <td>
+              A general purpose programming language made for rapid-pase
+              prototyping. The goal is a functional language with the nice
+              syntax of Elixir or Ruby, but compiled to statically linked
+              binaries.
 
-        <img
-          src="/images/websites/degroentemeester.png"
-          alt="Screenshot van De Groentemeester" />
-      </section>
-      <section class="h-entry">
-        <div>
-          <h2 class="p-name">Sterrenkruid</h2>
-          <p class="e-content p-summary">
-            Het blog van mijn oma. Ze blogt over astrologie, bomen, stenen en
-            andere dingen.
-          </p>
-          <p>
-            <a
-              href="//jokessterrenkruid.blogspot.com"
-              target="_blank"
-              class="u-url">
-              jokessterrenkruid.blogspot.com
-            </a>
-          </p>
-        </div>
+              <small>(In-Progress™)</small>
+            </td>
+          </tr>
 
-        <img
-          src="/images/websites/sterrenkruid.png"
-          alt="Screenshot van Sterrenkruid" />
-      </section>
+          <tr class="h-entry">
+            <td class="p-title">
+              <a class="u-url" href="https://git.dupunkto.org/~robin/unlibrary">
+                Unlibrary
+              </a>
+            </td>
+            <td>
+              A fully fledged RSS reader written in Elixir. Runs as a daemon in
+              the background that multiple clients, like a CLI and webapp, can
+              connect to. Handles pulling feeds concurrently and storing them in
+              the database.
 
-      <section class="h-entry">
-        <div>
-          <h2 class="p-name">Sharefox</h2>
-          <p class="e-content p-summary">
-            Sharefox is een product dat ik bij Qdentity heb gebouwd. Het is een
-            simpele tool om gevoelige informatie zoals wachtwoorden, financiële
-            informatie, API keys en andere documenten uit te wisselen.
-          </p>
-          <p>
-            <a href="//sharefox.eu" target="_blank" class="u-url">
-              sharefox.eu
-            </a>
-          </p>
-        </div>
+              <br />
+              <small>I'll eventually finish this, trust me ;)</small>
+            </td>
+          </tr>
 
-        <img
-          src="/images/websites/sharefox.png"
-          alt="Screenshot van Sharefox" />
-      </section>
+          <tr class="h-entry">
+            <td class="p-title">
+              <a
+                class="u-url"
+                href="https://git.dupunkto.org/~robin/cutie-tanks">
+                CutieTanks
+              </a>
+            </td>
+            <td>
+              Shoot ‘em all local multiplayer arcade game with controller
+              support built using PhaserJS.
+            </td>
+          </tr>
 
-      <section class="h-entry">
-        <div>
-          <h2 class="p-name">Groendoenerij</h2>
-          <p class="e-content p-summary">
-            Bedrijfswebsite van mijn vader. Hij doet momenteel vooral
-            kleinschalige groenteteelt, maar in het verleden legde hij ook
-            groene tuinen en schoolpleinen aan.
-          </p>
-          <p>
-            <a href="//groendoenerij.nl" target="_blank" class="u-url">
-              groendoenerij.nl
-            </a>
-          </p>
-        </div>
+          <tr class="h-entry">
+            <td class="p-title">
+              <a class="u-url" href="https://git.dupunkto.org/~robin/neopub">
+                neopub
+              </a>
+            </td>
+            <td>
+              Self-hosted blogging platform for microblogs. Runs my microblog
+              and has support for micropub (with media endpoint) and multiple
+              post types.
+            </td>
+          </tr>
 
-        <img
-          src="/images/websites/groendoenerij.png"
-          alt="Screenshot van Groendoenerij" />
-      </section>
+          <tr class="h-entry">
+            <td class="p-title">
+              <a class="u-url" href="https://git.dupunkto.org/~robin/VSKodium">
+                VSKodium
+              </a>
+            </td>
+            <td>
+              Web-based editor for Chromebooks made using CodeMirror and CSS
+              Grid layout. I made it because the Python editor we used at school
+              was trash and I wanted something I liked.
+            </td>
+          </tr>
 
-      <section class="h-entry">
-        <div>
-          <h2 class="p-name">Dagboek van een Grootmoeder</h2>
-          <p class="e-content p-summary">
-            Dit is een ander blog van mijn oma. Hier blogt ze over kinderen,
-            kruiden en andere dingen die haar leven leuk maken.
-          </p>
-          <p>
-            <a
-              href="//grootmoedersdagboek.blogspot.com"
-              target="_blank"
-              class="u-url">
-              grootmoedersdagboek.blogspot.com
-            </a>
-          </p>
-        </div>
+          <tr class="h-entry">
+            <td class="p-title">
+              <a
+                class="u-url"
+                href="https://git.dupunkto.org/~robin/js0.23-improved">
+                js0.23-improved
+              </a>
+            </td>
+            <td>
+              A fork of the classic.minecraft.net that aims to improve it by
+              adding features to make it closer to the original, or just stuff
+              that I like myself.
+            </td>
+          </tr>
 
-        <img
-          src="/images/websites/grootmoedersdagboek.png"
-          alt="Screenshot van Dagboek van een Grootmoeder" />
-      </section>
+          <tr class="h-entry">
+            <td class="p-title">
+              <a
+                class="u-url"
+                href="https://git.dupunkto.org/~robin/fallen_world">
+                fallen world
+              </a>
+            </td>
+            <td>
+              A (proof-of-concept) Minecraft RPG and adventure map, built
+              completely without any plugins or mods. It’s all vanilla Minecraft
+              commands, scoreboards and loottables.
+            </td>
+          </tr>
 
-      <section class="h-entry">
-        <div>
-          <h2 class="p-name">Streekproeverij Weij</h2>
-          <p class="e-content p-summary">
-            Landingpage voor Weij, een initiatief Tom en Joyce van Zwet om met
-            elkaar, een mooie, duurzame en sociale omgeving te realiseren.
-          </p>
-          <p>
-            <a href="//streekproeverijweij.nl" target="_blank" class="u-url">
-              streekproeverijweij.nl
-            </a>
-          </p>
-        </div>
+          <tr class="h-entry">
+            <td class="p-title">
+              <a
+                class="u-url"
+                href="https://git.dupunkto.org/~robin/MushroomHighlands">
+                Mushroom Highlands
+              </a>
+            </td>
+            <td>
+              A Minecraft Datapack that adds a new dimension to the game.
+              Features new items, mobs, biomes and structures. It’s inspired by
+              the famous Minecraft mod The Aether.
+            </td>
+          </tr>
+        </tbody>
+      </table>
 
-        <img
-          src="/images/websites/streekproeverij-weij.png"
-          alt="Screenshot van Streekproeverij Weij" />
-      </section>
-
-      <!--<section class="h-entry">
-        <div>
-          <h2 class="p-name">De Groene Jeroenen</h2>
-          <p class="e-content p-summary">
-            Bedrijfswebsite voor De Groene Jeroenen, die saaie tuinen en natuurarme groenstroken omvormen naar natuurlijke groenparadijsjes met een grote rijkdom aan biotopen, vormen en inheemse planten en dieren.
-          </p>
-          <p>
-            <a
-              href="//degroenejeroenen.nl"
-              target="_blank"
-              class="u-url"
-            >
-              degroenejeroenen.nl
-            </a>
-          </p>
-        </div>
-
-        <img
-          src="/images/websites/groene-jeroenen.png"
-          alt="Screenshot van De Groene Jeroenen"
-        />
-      </section>-->
-
-      <section class="h-entry">
-        <div>
-          <h2 class="p-name">Duurzame Maassluizers</h2>
-          <p class="e-content p-summary">
-            Nieuwswebsite van de Duurzame Maassluizers, een bewonersgroep uit
-            Maassluis die zich inzet voor verschillende thema's met betrekking
-            tot duurzaamheid.
-          </p>
-          <p>
-            <a href="//duurzamemaassluizers.nl" target="_blank" class="u-url">
-              duurzamemaassluizers.nl
-            </a>
-          </p>
-        </div>
-
-        <img
-          src="/images/websites/duurzame-maassluizers.png"
-          alt="Screenshot van Duurzame Maassluizers" />
-      </section>
-
-      <section class="h-entry">
-        <div>
-          <h2 class="p-name">Thesis Eveline Boers</h2>
-          <p class="e-content p-summary">
-            Een website met extra materialen, uitleg en videos met betrekking
-            tot de promotiestudie van mijn moeder.
-          </p>
-          <p>
-            <a
-              i
-              href="//thesisevelineboers.blogspot.com"
-              target="_blank"
-              class="u-url">
-              thesisevelineboers.blogspot.com
-            </a>
-          </p>
-        </div>
-
-        <img
-          src="/images/websites/thesis-eveline-boers.png"
-          alt="Screenshot van Thesis Eveline Boers" />
-      </section>
+      <p style="font-size: 0.85em">
+        I also <a href="/webdesign">build websites</a>—sometimes.
+      </p>
     </main>
 
     <footer>
-      Gemaakt met ♡ in Nederland. Copying is an act of love. Please copy.
-
-      <blockquote>Now in 720p!</blockquote>
+      Made with ♡ in the Netherlands. Copying is an act of love. Please copy.
     </footer>
   </body>
 </html>
