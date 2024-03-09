@@ -197,7 +197,8 @@ body main footer {
   align-items: flex-start;
 }
 
-body main footer .reply-by-email a {
+body main footer .reply-by-email a,
+a.button {
   text-decoration: none;
   padding: 0.5em 1em;
   background: black;
