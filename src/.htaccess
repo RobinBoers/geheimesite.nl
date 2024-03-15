@@ -82,16 +82,7 @@ Options +FollowSymLinks
 
 # GZip compression
 <IfModule mod_deflate.c>
-	<IfModule mod_setenvif.c>
-				<IfModule mod_headers.c>
-						SetEnvIfNoCase ^(Accept-EncodXng|X-cept-Encoding|X{15}|~{15}|-{15})$ ^((gzip|deflate)\s*,?\s*)+|[X~-]{4,13}$ HAVE_Accept-Encoding
-						RequestHeader append Accept-Encoding "gzip,deflate" env=HAVE_Accept-Encoding
-				</IfModule>
-		</IfModule>
-
-	<IfModule mod_filter.c>
-		SetOutputFilter DEFLATE
-	</IfModule>
+	SetOutputFilter DEFLATE
 </IfModule>
 
 # Caching
@@ -102,7 +93,7 @@ Options +FollowSymLinks
 	</FilesMatch>
 
 	# Cache SS and JavaScript files for one week
-	<FilesMatch ".(js|css)$">
+	<FilesMatch "\.(js|css)$">
 		Header set Cache-Control "max-age=604800, stale-while-revalidate"
 	</FilesMatch>
 
