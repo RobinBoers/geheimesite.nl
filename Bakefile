@@ -6,7 +6,7 @@ REMOTE="s11"
 DOMAIN="roblog.nl"
 
 build() {
-  rsync -au "$SRC_DIR/" "$DIST_DIR/" --exclude "images"
+  rsync -au --delete "$SRC_DIR/" "$DIST_DIR/" --exclude "images"
   p:generate_sitemap
   p:build_assets
 }
