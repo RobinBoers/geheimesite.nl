@@ -22,6 +22,10 @@ LimitRequestBody 102400
 	RewriteCond %{REQUEST_FILENAME}\.html -f
 	RewriteRule ^(.*)$ $1.html
 
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME}\.php -f
+	RewriteRule ^(.*)$ $1.php
+
 	# Block access to all hidden files and directories except for the
 	# visible content from within the `/.well-known/` hidden directory.
 	RewriteCond %{REQUEST_URI} "!(^|/)\.well-known/([^./]+./?)+$" [NC]
@@ -63,14 +67,8 @@ Redirect 302 /.well-known/caldav https://contacts.dupunkto.org/admin/axcelott/d0
 	# `upgrade-insecure-requests` will auto enable HTTPS for
 	# compliant browsers, while still serving over HTTP for older browsers
 	# (like Lynx).
-	#
-	# `sandbox` disables A LOT of things. I explicitly re-enable the
-	# things I need:
-	# - target=_blank (categorized popups)
-	# - Downloads
-	# - `allow-same-origin` makes some browser extensions work again.
 
-	Header set Content-Security-Policy "default-src 'none'; img-src 'self'; media-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'; upgrade-insecure-requests; sandbox allow-popups allow-downloads allow-same-origin;"
+	Header set Content-Security-Policy "default-src 'none'; img-src 'self'; media-src 'self'; script-src 'sha384-iDekUgLzyxmdF/VjLp3Eh8XdQMDov4wPe+wpYv+0psDbHRejM0AXlknJVp310CVX'; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'; upgrade-insecure-requests;"
 
 	# Allow other sites to get content
 	# See https://ncase.me/nutshell/#CORSForWebDevs

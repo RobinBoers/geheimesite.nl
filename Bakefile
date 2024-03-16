@@ -13,7 +13,7 @@ build() {
 
 deploy() {
   if [ -d "$DIST_DIR" ]; then
-    rsync -ciavuP --delete "$DIST_DIR/" $REMOTE:domains/$DOMAIN/public_html
+    rsync -ciavuP --exclude "canvas.json" --delete "$DIST_DIR/" $REMOTE:domains/$DOMAIN/public_html
   else
     echo >&2 "Error: '$DIST_DIR' does not exist."
     echo >&2
