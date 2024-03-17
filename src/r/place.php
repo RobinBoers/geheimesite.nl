@@ -132,7 +132,7 @@ function save_canvas($canvas) {
       <form action="<?= $_SERVER['REQUEST_URI'] ?>" method="post">
         <input type="hidden" name="x">
         <input type="hidden" name="y">
-        <input type="color" name="c">
+        <input type="color" name="c" value="<?= $_POST["c"] ?? $default_color ?>">
       </form>
     </header>
 
