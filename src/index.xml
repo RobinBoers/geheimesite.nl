@@ -126,20 +126,22 @@
         gonna do with it further.
       </p>
 
-      <p>Future plans:</p>
+      <details>
+        <summary>Future plans</summary>
 
-      <ul>
-        <li>A handwritten classic Minecraft server.</li>
-        <li>
-          Gopher and Gemini hosting, using <code>public_gem</code> and
-          <code>public_gopher</code> respectively.
-        </li>
-        <li>
-          A VSCode server, similar to <a href="//vscode.dev">vscode.dev</a>.
-        </li>
-        <li>A Matrix homeserver with Whatsapp bridging.</li>
-        <li>A Mastodon or Lemmy instance?</li>
-      </ul> ]]> </content:encoded>
+        <ul>
+          <li>A handwritten classic Minecraft server.</li>
+          <li>
+            Gopher and Gemini hosting, using <code>public_gem</code> and
+            <code>public_gopher</code> respectively.
+          </li>
+          <li>
+            A VSCode server, similar to <a href="//vscode.dev">vscode.dev</a>.
+          </li>
+          <li>A Matrix homeserver with Whatsapp bridging.</li>
+          <li>A Mastodon or Lemmy instance?</li>
+        </ul>
+      </details> ]]> </content:encoded>
     </item>
     <item>
       <title>Movies and Limited Series</title>
