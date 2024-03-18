@@ -2,7 +2,7 @@
 
 #
 # r/place clone written in a single PHP file.
-# Written by Axcelott--Unlicensed.
+# Written by Axcelott—Unlicensed.
 #
 
 $dimensions = 20;
