@@ -142,6 +142,24 @@ tr {
   border-color: inherit;
 }
 
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: 1em;
+}
+
+figure img {
+  border: 1px solid;
+  border-color: inherit;
+}
+
+figcaption,
+table caption {
+  color: #666;
+}
+
 blockquote {
   font-style: italic;
   border-left: 2px solid;
