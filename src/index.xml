@@ -12,6 +12,13 @@
 
     <!-- INSERT NEW POSTS HERE -->
     <item>
+      <title>Rules</title>
+      <link>https://roblog.nl/blog/rules</link>
+      <pubDate>21 Mar 2024 12:00:00 +0100</pubDate>
+      <guid>https://roblog.nl/blog/rules</guid>
+      <content:encoded> <![CDATA[ <p> <a href="https://blog.geheimesite.nl/notes/regels/">In the past</a> I've written about what I called "two rules for any well-functioning group": </p>  <blockquote> <ul> <li>Everyone behaves</li> <li>Everyone should have fun</li> </ul> </blockquote>  <p> However, I was probably wrong. Because while small groups of people are pretty much self-organizing, as the group grows, some hierarchy is needed. In a relatively small group--everyone knows everyone--rules are generally unneeded, as people tend to behave properly due to peer pressure and social dynamics. However, the controlling effect of peer pressure breaks down in larger groups, because people are relatively anonymous. Social dynamics alone are not effective anymore, hence the need for formal rules. </p>  <p> So while you can get away with my two rules for a small group, let's say a classroom of around ~25 people, they will most definitely cause complete anarchy and chaos when applied to the entire school of around 700 students. </p>  <p>I was right about one thing tho:</p>  <blockquote> If there is no basis for the rule, the rule doesn't work, or the rule is unneeded, it should probably not be a rule. </blockquote> ]]> </content:encoded>
+    </item>
+    <item>
       <title>HotFox: RSS superpowers for Firefox</title>
       <link>https://roblog.nl/blog/hotfox</link>
       <pubDate>20 Mar 2024 12:00:00 +0100</pubDate>
