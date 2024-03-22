@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
-  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Robin (axcelott)</title>
     <description>Thoughts and opinions of a teenager from the Netherlands.</description>
     <link>https://roblog.nl</link>
     <language>en</language>
     <webMaster>webmaster@roblog.nl (Robin Boers)</webMaster>
-    <copyright>Made with ♡ in the Netherlands. Copying is an act of love. Please copy.</copyright>
+    <copyright>Made with :love: in the Netherlands. Copying is an act of love. Please copy.</copyright>
     <atom:link href="//roblog.nl/index.xml" rel="self" type="application/rss+xml" />
 
     <!-- INSERT NEW POSTS HERE -->
@@ -16,14 +15,14 @@
       <link>https://roblog.nl/blog/rules</link>
       <pubDate>21 Mar 2024 12:00:00 +0100</pubDate>
       <guid>https://roblog.nl/blog/rules</guid>
-      <content:encoded> <![CDATA[ <p> <a href="https://blog.geheimesite.nl/notes/regels/">In the past</a> I've written about what I called "two rules for any well-functioning group": </p>  <blockquote> <ul> <li>Everyone behaves</li> <li>Everyone should have fun</li> </ul> </blockquote>  <p> However, I was probably wrong. Because while small groups of people are pretty much self-organizing, as the group grows, some hierarchy is needed. In a relatively small group—everyone knows everyone—rules are generally unneeded, as people tend to behave properly due to peer pressure and social dynamics. However, the controlling effect of peer pressure breaks down in larger groups, because people are relatively anonymous. Social dynamics alone are not effective anymore, hence the need for formal rules. </p>  <p> So while you can get away with my two rules for a small group, let's say a classroom of around ~25 people, they will most definitely cause complete anarchy and chaos when applied to the entire school of around 700 students. </p>  <p>I was right about one thing tho:</p>  <blockquote> If there is no basis for the rule, the rule doesn't work, or the rule is unneeded, it should probably not be a rule. </blockquote> ]]> </content:encoded>
+      <description> <![CDATA[ <p> <a href="https://blog.geheimesite.nl/notes/regels/">In the past</a> I've written about what I called "two rules for any well-functioning group": </p>  <blockquote> <ul> <li>Everyone behaves</li> <li>Everyone should have fun</li> </ul> </blockquote>  <p> However, I was probably wrong. Because while small groups of people are pretty much self-organizing, as the group grows, some hierarchy is needed. In a relatively small group—everyone knows everyone—rules are generally unneeded, as people tend to behave properly due to peer pressure and social dynamics. However, the controlling effect of peer pressure breaks down in larger groups, because people are relatively anonymous. Social dynamics alone are not effective anymore, hence the need for formal rules. </p>  <p> So while you can get away with my two rules for a small group, let's say a classroom of around ~25 people, they will most definitely cause complete anarchy and chaos when applied to the entire school of around 700 students. </p>  <p>I was right about one thing tho:</p>  <blockquote> If there is no basis for the rule, the rule doesn't work, or the rule is unneeded, it should probably not be a rule. </blockquote> ]]> </description>
     </item>
     <item>
       <title>HotFox: RSS superpowers for Firefox</title>
       <link>https://roblog.nl/blog/hotfox</link>
       <pubDate>20 Mar 2024 12:00:00 +0100</pubDate>
       <guid>https://roblog.nl/blog/hotfox</guid>
-      <content:encoded> <![CDATA[ <p>
+      <description> <![CDATA[ <p>
         A few weeks ago, I ran across an old article about XUL, a XML variant
         developed by Mozilla for use in the Firefox interface. They killed it a
         few years ago in favor of HTML, once again leaving behind their
@@ -133,14 +132,14 @@
             >.
           </dd>
         </dl>
-      </details> ]]> </content:encoded>
+      </details> ]]> </description>
     </item>
     <item>
       <title>In favor of the small</title>
       <link>https://roblog.nl/blog/sources</link>
       <pubDate>18 Mar 2024 12:00:00 +0100</pubDate>
       <guid>https://roblog.nl/blog/sources</guid>
-      <content:encoded> <![CDATA[ <p>
+      <description> <![CDATA[ <p>
         Since the internet went mainstream in the 90s, information has been
         readily available for everyone. But can it be trusted? What makes a
         reliable source? At school, people seem to think 'the bigger the
@@ -218,14 +217,14 @@
           <a href="//neustadt.fr/essays/the-small-web/">Small</a>
           <a href="//www.marginalia.nu/marginalia-search/about/">Web</a>.
         </p>
-      </details> ]]> </content:encoded>
+      </details> ]]> </description>
     </item>
     <item>
       <title>Good Defaults</title>
       <link>https://roblog.nl/blog/defaults</link>
       <pubDate>15 Mar 2024 12:00:00 +0100</pubDate>
       <guid>https://roblog.nl/blog/defaults</guid>
-      <content:encoded> <![CDATA[ <p>
+      <description> <![CDATA[ <p>
         Most documents are written in Calibri or Arial, everyone uses Google,
         and links on the second page of Google are rarely seen.
         <a
@@ -265,14 +264,14 @@
         Furthermore, users assume us programmers to know better. And frankly, we
         should. Just because we nerds like to play around with the settings
         doesn't mean everyone does. And it shouldn't be necessary either. Thus, the takeaway is: provide good defaults.
-      </p> ]]> </content:encoded>
+      </p> ]]> </description>
     </item>
     <item>
       <title>Introducing {du}punkto</title>
       <link>https://roblog.nl/blog/dupunkto</link>
       <pubDate>18 Feb 2024 12:00:00 +0100</pubDate>
       <guid>https://roblog.nl/blog/dupunkto</guid>
-      <content:encoded> <![CDATA[ <p>
+      <description> <![CDATA[ <p>
         Last year, I posted
         <a href="//classic.geheimesite.nl/v/18/thinking-about-tilde">
           my thoughts on running a tilde/pubnix</a
@@ -343,14 +342,14 @@
           <li>A Matrix homeserver with Whatsapp bridging.</li>
           <li>A Mastodon or Lemmy instance?</li>
         </ul>
-      </details> ]]> </content:encoded>
+      </details> ]]> </description>
     </item>
     <item>
       <title>Movies and Limited Series</title>
       <link>https://roblog.nl/blog/good-movies</link>
       <pubDate>07 Feb 2024 12:00:00 +0100</pubDate>
       <guid>https://roblog.nl/blog/good-movies</guid>
-      <content:encoded> <![CDATA[ <p>So lately I've been watching a lot of Netflix.</p>
+      <description> <![CDATA[ <p>So lately I've been watching a lot of Netflix.</p>
 
       <p>
         Generally I'm not the kind of person that consumes a lot of media. I'd
@@ -359,7 +358,7 @@
 
       <p>
         However, I got a bit burned out in terms of ideas — I didn't know what
-        to build — enery, and time (school am I right ✨). So, instead I spent
+        to build — enery, and time (school am I right :sparkles:). So, instead I spent
         about 20 hours of my life staring at a screen, looking at fictional
         characters living their almost perfect made-up lives.
       </p>
@@ -410,14 +409,14 @@
           Also, a lot of movies listed above share one common theme: they're all
           semi-related to the reproductive system; I'm a teenager, after all ;)
         </p>
-      </details> ]]> </content:encoded>
+      </details> ]]> </description>
     </item>
     <item>
       <title>The role of generative AI in writing</title>
       <link>https://roblog.nl/blog/gpt</link>
       <pubDate>23 Jan 2024 12:00:00 +0100</pubDate>
       <guid>https://roblog.nl/blog/gpt</guid>
-      <content:encoded> <![CDATA[ <p>
+      <description> <![CDATA[ <p>
         Since its introduction a little more than a year ago, we've been
         discussing ChatGPT a lot at school. It's an interesting topic, for sure.
         How can it be used in school? By students or teachers? Is using AI
@@ -505,14 +504,14 @@
             is great and you should definitely read it!
           </li>
         </ul>
-      </details> ]]> </content:encoded>
+      </details> ]]> </description>
     </item>
     <item>
       <title>Stop saying "users" and "content"</title>
       <link>https://roblog.nl/blog/stupid-terminology</link>
       <pubDate>15 Jan 2024 12:00:00 +0100</pubDate>
       <guid>https://roblog.nl/blog/stupid-terminology</guid>
-      <content:encoded> <![CDATA[ <p>
+      <description> <![CDATA[ <p>
         Terminology like <em>users</em> and <em>content</em> is demeaning and
         hurtful.
       </p>
@@ -538,7 +537,7 @@
         —<cite>Edward Tufte</cite>
       </blockquote>
 
-      <p>We should stop using these terms; they're stupid.</p> ]]> </content:encoded>
+      <p>We should stop using these terms; they're stupid.</p> ]]> </description>
     </item>
 
     <item>
@@ -546,7 +545,7 @@
       <link>https://roblog.nl/blog/symptom-relief</link>
       <pubDate>14 Jan 2024 12:00:00 +0100</pubDate>
       <guid>https://roblog.nl/blog/symptom-relief</guid>
-      <content:encoded> <![CDATA[ <p>
+      <description> <![CDATA[ <p>
         Terminology like <em>users</em> and <em>content</em> is demeaning and
         hurtful.
       </p>
@@ -575,14 +574,14 @@
       <p>
         Terms like these shift focus away from the humans in the equation.
         Language is the lense through which we see the world. Use it wisely.
-      </p> ]]> </content:encoded>
+      </p> ]]> </description>
     </item>
     <item>
       <title>Thoughts on the mobile phone ban</title>
       <link>https://roblog.nl/blog/phones-banned</link>
       <pubDate>08 Jan 2024 12:00:00 +0100</pubDate>
       <guid>https://roblog.nl/blog/phones-banned</guid>
-      <content:encoded> <![CDATA[
+      <description> <![CDATA[
       <p>
         Last month the Dutch government announced that from next year on mobile
         phones will be banned in high school. As a student who is currently in
@@ -674,14 +673,14 @@
             </p>
           </li>
         </ul>
-      </details> ]]> </content:encoded>
+      </details> ]]> </description>
     </item>
     <item>
       <title>Phones, assumptions and expectations</title>
       <link>https://roblog.nl/blog/phones</link>
       <pubDate>29 Dec 2023 12:00:00 +0100</pubDate>
       <guid>https://roblog.nl/blog/phones</guid>
-      <content:encoded> <![CDATA[
+      <description> <![CDATA[
       <p>
         I'm 16 years old. I strongly dislike my phone. You never thought you'd
         ever hear those two sentences from the same person, did you?
@@ -739,14 +738,14 @@
       <p>
         It's the small things, the assumptions and expectations.<br />
         And it's so annoying.
-      </p> ]]> </content:encoded>
+      </p> ]]> </description>
     </item>
     <item>
       <title>The Beginning</title>
       <link>https://roblog.nl/blog/the-beginning</link>
       <pubDate>09 Nov 2023 12:00:00 +0100</pubDate>
       <guid>https://roblog.nl/blog/the-beginning</guid>
-      <content:encoded> <![CDATA[ <p>
+      <description> <![CDATA[ <p>
         The dawn of the universe is a paradox. There are two ways to explain it:
       </p>
 
@@ -781,14 +780,14 @@
         little grip we have on reality. But ultimately, it's the only real
         answer we have.
         <em>We don't know, and that's okay.</em>
-      </p> ]]> </content:encoded>
+      </p> ]]> </description>
     </item>
     <item>
       <title>Introduction</title>
       <link>https://roblog.nl/blog/introduction</link>
       <pubDate>15 Oct 2023 12:00:00 +0100</pubDate>
       <guid>https://roblog.nl/blog/introduction</guid>
-      <content:encoded> <![CDATA[ <p>Hi. So, you stumbled upon my blog, cool.</p>
+      <description> <![CDATA[ <p>Hi. So, you stumbled upon my blog, cool.</p>
 
       <p>
         I'm a random teenager from the Netherlands, and this is my little corner
@@ -809,7 +808,7 @@
         Gemini and Gopher hosting.
       </p>
 
-      <p>I'm really bad at these “welcome!!” kind of posts. Sowwy!</p> ]]> </content:encoded>
+      <p>I'm really bad at these “welcome!!” kind of posts. Sowwy!</p> ]]> </description>
     </item>
   </channel>
 </rss>
