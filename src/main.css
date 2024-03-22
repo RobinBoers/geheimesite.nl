@@ -217,7 +217,7 @@ body > footer blockquote a::after {
   content: " ↗";
 }
 
-body main footer {
+article footer {
   margin: 2em 0;
   border-top: 2px solid;
   border-color: inherit;
@@ -228,7 +228,7 @@ body main footer {
   align-items: flex-start;
 }
 
-body main footer .reply-by-email a,
+article footer .reply-by-email a,
 a.button {
   text-decoration: none;
   padding: 0.5em 1em;
@@ -247,7 +247,7 @@ a.button {
   }
 
   body > header,
-  main > footer {
+  article footer {
     display: none !important;
   }
 }
