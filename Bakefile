@@ -1,4 +1,4 @@
-#!/bin/bash -eux
+#!/bin/bash -eu
 
 SRC="src"
 DIST="dist"
@@ -19,7 +19,7 @@ deploy() {
 }
 
 format() {
-  prettier --write "$SRC" 
+  prettier --write "$SRC"
 }
 
 serve() {
@@ -29,22 +29,26 @@ serve() {
 
 clean() {
   rm -rf "$DIST"
-  rm -rf node_modules bun.lockb
+  # rm -rf node_modules bun.lockb
 }
 
 build() {
-  p:copy_over_files
   p:process_files
+  p:build_assets
   p:generate_sitemap
   p:generate_feeds
-  p:build_assets
+  
+  prettier --write "$DIST"
 }
 
-p:copy_over_files() {
-  rsync -au --delete "$SRC/" "$DIST/" --exclude "images"
-}
+COPY="rsync -au --delete "$SRC/" "$DIST/" --exclude images"
 
 p:process_files() {
+  local changed_files="$($COPY -i | cut -d' ' -f2)"
+
+  echo "Updating these files: "
+  echo "$changed_files"
+
   # This does some small build thingies:
   #
   #   * Inserts common <head> contents from `HEAD.html`
@@ -53,26 +57,34 @@ p:process_files() {
   #   * Set the last-modified time to the last git commit
 
   for parent in $(git ls-tree -r -t --full-name --name-only HEAD | grep "$SRC") ; do
-    local child="$(echo "$parent" | sed s/"$SRC"/"$DIST")"
-    if [[ -e "$child" ]]; then
-      local lastmod = "$(git log --pretty=format:%cI -1 HEAD -- "$parent")"
-      local content = "$(cat "$filename" | p:insert_head $lastmod | smartypants | p:shortcodes)"
+    local child="$(echo "$parent" | sed s/"$SRC"/"$DIST"/)"
+    if [[ "$child" == *.html ]] && [[ -f "$child" ]] && p:contains "$changed_files" "$child"; then
+      echo "Processing $child"
 
+      local lastmod="$(git log --pretty=format:%cI -1 HEAD -- "$parent")"
+      local content="$(cat "$child" | p:insert_head "$lastmod" | smartypants | p:shortcodes)"
+
+      echo "$content" > "$child"
       touch -d "$lastmod" "$child"
     fi
   done
 }
 
+p:contains() {
+  echo "$1" | grep -w -q "$2"
+}
+
 p:insert_head() {
-  read -r html
+  sed '/<head>/a\'"$(p:generate_head "$1")"
+}
+
+p:generate_head() {
   export LAST_MODIFIED="$(TZ=GMT date -d "$1" +"%a, %d %b %Y %T")"
-  HEAD="$(cat templates/HEAD.html | envsubst | p:escape_xml)"
-  echo "$html" | sed -i /'<head>'/a\\"$HEAD"
+  cat templates/HEAD.html | envsubst | p:escape_xml
 }
 
 p:shortcodes() {
-  read -r html 
-  echo "$html" | sed -e 's/:love:/♡/g' \
+  sed -e 's/:love:/♡/g' \
     -e 's|:shrug:|¯\\_(ツ)\\_/¯|g' \
     -e 's/(TM)/™/g' \
     -e 's/(c)/©/g' \
@@ -88,6 +100,8 @@ p:shortcodes() {
 }
 
 p:build_assets() {
+  echo "Building assets"
+
   while IFS= read -d '' filename; do
     p:optimize_image "$filename"
   done < <(find "$SRC" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) -print0)
@@ -118,6 +132,8 @@ p:optimize_image() {
 }
 
 p:generate_sitemap() {
+  echo "Generating sitemap"
+
   local sitemap="$DIST/sitemap.xml"
 
   echo '<?xml version="1.0" encoding="UTF-8"?>' > "$sitemap"
@@ -146,31 +162,38 @@ p:generate_feeds() {
 }
 
 p:generate_rss() {
+  echo "Generating RSS feed"
+
   local self="index.xml"
   local feed="$DIST/$self"
+  local last_updated="$(p:last_updated)"
 
   echo '<?xml version="1.0" encoding="utf-8" standalone="yes"?>' > "$feed"
-  echo '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">' > "$feed"
-  echo '<channel>' > "$feed"
+  echo '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">' >> "$feed"
+  echo '<channel>' >> "$feed"
 
-  cat <<EOF
+  local header="$(cat <<EOF
 <title>$1</title>
 <description>$2</description>
 <link>https://$DOMAIN</link>
 <language>$4</language>
 <webMaster>$6 ($3)</webMaster>
 <copyright>$5</copyright>
+<lastBuildDate>$(date -d "$last_updated" +"%a, %d %b %Y") 12:00:00 +0100</lastBuildDate>
 <atom:link href="https://$DOMAIN/$self" rel="self" type="application/rss+xml" />
-EOF > "$feed"
+EOF
+)"
 
-  p:list_blog_posts | while read -r path; do
+  echo "$header" >> "$feed"
+
+  p:list_posts | while read -r path; do
     local C="$(cat "$path")"
     local TITLE="$(echo "$C" | pup article h1 text{})"
     local DATE="$(echo "$C" | pup article footer time attr{datetime})"
     local CANONICAL="$(echo "$C" | pup link[rel="canonical"] attr{href})"
-    local CONTENT="$(echo "$C" | pup article '> :not(footer'))"
+    local CONTENT="$(echo "$C" | pup article)"
 
-    cat <<EOF
+    local post="$(cat <<EOF
 <item>
   <title>$TITLE</title>
   <link>$CANONICAL</link>
@@ -182,41 +205,55 @@ EOF > "$feed"
     ]]>
   </description>
 </item>
-EOF > "$feed"
+EOF
+)"
+
+    echo "$post" >> "$feed"
   done
   
-  echo '</channel>' > "$feed"
-  echo '</rss>' > "$feed"
+  echo '</channel>' >> "$feed"
+  echo '</rss>' >> "$feed"
+
+  # Set the last modified date of the feed to the publicatiom
+  # date of the newest post.
+  touch -d "$last_updated" "$feed"
 }
 
 p:generate_atom() {
+  echo "Generating Atom feed"
+
   local self="atom.xml"
   local feed="$DIST/$self"
+  local last_updated="$(p:last_updated)"
 
   echo '<?xml version="1.0" encoding="utf-8" standalone="yes"?>' > "$feed"
-  echo '<feed xmlns="http://www.w3.org/2005/Atom">' > "$feed"
+  echo '<feed xmlns="http://www.w3.org/2005/Atom">' >> "$feed"
 
-  cat <<EOF
+  local header="$(cat <<EOF
 <title>$1</title>
 <subtitle>$2</subtitle>
 <id>https://$DOMAIN/</id>
 <link href="https://$DOMAIN/" />
+<updated>$(date -d "$last_updated" +"%Y-%m-%d")T12:00:00+01:00</updated>
 <author>
     <name>$3</name>
     <email>$6</email>
   </author>
 <rights>$5</rights>
 <link href="https://$DOMAIN/$self" rel="self" type="application/atom+xml" />
-EOF > "$feed"
+EOF
+)"
 
-  p:list_blog_posts | while read -r path; do
+  echo "$header" >> "$feed"
+
+  p:list_posts | while read -r path; do
     local C="$(cat "$path")"
     local TITLE="$(echo "$C" | pup article h1 text{})"
     local DATE="$(echo "$C" | pup article footer time attr{datetime})"
     local CANONICAL="$(echo "$C" | pup link[rel="canonical"] attr{href})"
-    local CONTENT="$(echo "$C" | pup article '> :not(footer'))"
+    local CONTENT="$(echo "$C" | pup article)"
 
-    cat <<EOF
+    local post="$(cat <<EOF
 <entry>
   <title>$TITLE</title>
   <link href="$CANONICAL" />
@@ -228,16 +265,31 @@ EOF > "$feed"
     ]]>
   </content>
 </entry>
-EOF > "$feed"
+EOF
+)"
+
+    echo "$post" >> "$feed"
   done
   
-  echo '</feed>' > "$feed"
+  echo '</feed>' >> "$feed"
+
+  # Set the last modified date of the feed to the publicatiom
+  # date of the newest post.
+  touch -d "$last_updated" "$feed"
 }
 
-p:list_blog_posts() {
+p:list_posts() {
+  p:posts_by_date | cut -d ' ' -f2-
+}
+
+p:last_updated() {
+  p:posts_by_date | cut -d ' ' -f1 | head -n 1
+}
+
+p:posts_by_date() {
   # Lists blog posts sorted by publication date.
   export -f p:get_pubdate
-  find "$DIST/blog" -type f -name "*.html" -not -name 'index.html' | xargs -d '\n' -I {} bash -c 'p:get_pubdate "{}"' | sort -rn | cut -d ' ' -f2-
+  find "$DIST/blog" -type f -name "*.html" -not -name 'index.html' | xargs -d '\n' -I {} bash -c 'p:get_pubdate "{}"' | sort -rn
 }
 
 p:get_pubdate() {
@@ -366,8 +418,7 @@ EOF
 }
 
 p:escape_xml() {
-  read -r xml
-  echo "$xml" | sed -e 's/^[[:space:]]*//;s/[[:space:]]*$//;s/\//\\\//g' | tr '\n' ' ' 
+  sed -e 's/^[[:space:]]*//;s/[[:space:]]*$//;s/\//\\\//g' | tr '\n' ' ' 
 }
 
 p:url_encode() {
