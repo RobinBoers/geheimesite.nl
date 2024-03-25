@@ -238,6 +238,11 @@ a.button {
   color: Canvas;
 }
 
+strong dfn,
+strong cite {
+  font-style: normal;
+}
+
 /* Printing */
 
 @media print {
