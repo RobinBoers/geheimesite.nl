@@ -5,6 +5,7 @@ DIST=dist
 REMOTE=s11
 DOMAIN=roblog.nl
 
+FORMAT="prettier --ignore-path .prettierignore"
 COPY="rsync -au --delete "$SRC/" "$DIST/" --exclude images"
 DEPLOY="rsync -ciavuP --delete --exclude 'canvas.json'"
 
@@ -22,7 +23,7 @@ deploy() {
 }
 
 format() {
-  prettier --write $SRC
+  $FORMAT --write $SRC
 }
 
 serve() {
@@ -40,24 +41,32 @@ build() {
   # p:build_assets
   p:generate_sitemap
   # p:generate_feeds
-  
-  prettier --write $DIST
 }
 
 p:process_files() {
-  local changed_files="$($COPY -i | cut -d' ' -f2)"
+  local changed_files="$($COPY -i | grep -v '/$' | cut -d' ' -f2)"
 
-  echo "Updating these files: "
+  printf "Updating these files: "
   echo "$changed_files"
+
+  echo
 
   while IFS= read -r file; do
     if [[ "$file" == *.html ]]; then
-      cat "$SRC/$file" | lowc | shortc | smartypants | sed '/<\/head>/i\<link rel="stylesheet" href="/main.css" />' > "$DIST/$file"
+      cat "$SRC/$file" | lowc | shortc | smartypants | sed '/<\/head>/i\\n<link rel="stylesheet" href="/main.css" />' > "$DIST/$file"
 
       local lastmod="$(git log --pretty=format:%cI -1 HEAD -- "$SRC/$file")"
-      touch -d "$lastmod" "$DIST/$file"
+      $FORMAT --write "$DIST/$file" >/dev/null
+
+      # The `+1 second` is because rsync will overwrite files
+      # if they have the exact same last mod date, while I want it
+      # to only overwrite if the source is newer.
+      touch -d "$lastmod + 1 second" "$DIST/$file"
+      printf .
     fi
   done <<< "$changed_files"
+
+  # echo "done"
 }
 
 p:build_assets() {
@@ -65,8 +74,6 @@ p:build_assets() {
 }
 
 p:generate_sitemap() {
-  echo "Generating sitemap"
-
   local sitemap="$DIST/sitemap.xml"
   local files=$(find "$DIST" -type f -name "*.html")
 
