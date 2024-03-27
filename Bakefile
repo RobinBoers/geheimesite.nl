@@ -54,7 +54,6 @@ p:process_files() {
 
   printf "Updating these files: "
   echo "$changed_files"
-  echo
 
   while IFS= read -r file; do
     if [[ "$file" == *.html ]]; then
