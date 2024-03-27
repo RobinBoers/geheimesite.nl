@@ -45,7 +45,7 @@ build() {
   p:process_files
   # p:build_assets
   p:generate_sitemap
-  # p:generate_feeds
+  p:generate_feeds
 }
 
 p:process_files() {
@@ -58,7 +58,7 @@ p:process_files() {
 
   while IFS= read -r file; do
     if [[ "$file" == *.html ]]; then
-      cat "$SRC/$file" | lowc | shortc | smartypants | sed '/<\/head>/i\\n<link rel="stylesheet" href="/main.css" />' > "$DIST/$file"
+      cat "$SRC/$file" | lowc | shortc | smartypants | sed '/<\/title>/i\\n<link rel="stylesheet" href="/main.css" />' > "$DIST/$file"
 
       local lastmod="$(git log --pretty=format:%cI -1 HEAD -- "$SRC/$file")"
       $FORMAT --write "$DIST/$file" >/dev/null
@@ -71,7 +71,7 @@ p:process_files() {
     fi
   done <<< "$changed_files"
 
-  # echo "done"
+  echo "done"
 }
 
 p:build_assets() {
@@ -80,11 +80,21 @@ p:build_assets() {
 
 p:generate_sitemap() {
   local sitemap="$DIST/sitemap.xml"
-  local files=$(find "$DIST" -type f -name "*.html")
-
-  export DOMAIN
-  genmap $sitemap $files
+  genmap "$DIST" "$DOMAIN" > $sitemap
 
   # My canonical URLs are without the .html suffix
   sed -i 's/\.html//g' $sitemap
+}
+
+p:generate_feeds() {
+  export TITLE="Robin (axcelott)"
+  export BIO="Thoughts and opinions of a teenager from the Netherlands."
+  export CANONICAL="$DOMAIN"
+  export LANGUAGE="en"
+  export AUTHOR="Robin Boers"
+  export EMAIL="webmaster@roblog.nl"
+  export RIGHTS="Copying is an act of love. Please copy."
+
+  SELF="/index.xml" genfeed -trss "$DIST/blog" > "$DIST/index.xml"
+  SELF="/atom.xml" genfeed -tatom "$DIST/blog" > "$DIST/atom.xml"
 }
