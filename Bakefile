@@ -8,7 +8,7 @@ DOMAIN=roblog.nl
 
 FORMAT="prettier --ignore-path .prettierignore"
 COPY="rsync -au --delete "$SRC/" "$DIST/" --exclude images"
-DEPLOY="rsync -ciavuP --delete --exclude 'canvas.json'"
+DEPLOY="rsync -ciavuP --delete --exclude canvas.json"
 
 setup() {
   bun i
@@ -44,16 +44,21 @@ clean() {
 
 build() {
   p:process_files
-  # p:build_assets
   p:generate_sitemap
   p:generate_feeds
+  p:build_assets
 }
 
 p:process_files() {
-  local changed_files="$($COPY -i | grep -v '/$' | cut -d' ' -f2)"
+  local changed_files="$($COPY -i | grep -v '/$' | grep -v ".xml$" | cut -d' ' -f2)"
 
-  printf "Updating these files: "
-  echo "$changed_files"
+  if [ -n "$changed_files" ]; then
+    printf "Updating these files: \n"
+    echo "$changed_files"
+    echo
+  else
+    echo "Nothing to do. "
+  fi
 
   while IFS= read -r file; do
     if [[ "$file" == *.html ]]; then
@@ -74,7 +79,7 @@ p:process_files() {
 }
 
 p:build_assets() {
-  find "$SRC" -type f \( -iname "*.jpg" -o -iname "*.png" -o -iname "*.jpeg" \) -printf "%P\n" | xargs -I {} optim "$SRC/{}" "$DIST/{}"
+  find "$SRC/images" -type f \( -iname "*.jpg" -o -iname "*.png" -o -iname "*.jpeg" \) -printf "%P\n" | xargs -I {} sh -c "[ -e '$DIST/images/{}' ] || optim '$SRC/images/{}' '$DIST/images/{}'"
 }
 
 p:generate_sitemap() {
