@@ -26,8 +26,13 @@ format() {
   $FORMAT --write $SRC
 }
 
-serve() {
+dev() {
   cd $SRC
+  waiter --dev
+}
+
+serve() {
+  cd $DIST
   waiter --dev
 }
 
