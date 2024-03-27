@@ -182,6 +182,7 @@ p:get_with_default() {
 
   printf "\n$1 [$3]: "
   read $2
+  export $2
 
   if [ "${!2}" = "" ]; then
     eval "export $2='$3'"
