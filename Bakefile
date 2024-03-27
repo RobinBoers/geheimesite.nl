@@ -80,6 +80,7 @@ p:process_files() {
 
 p:build_assets() {
   find "$SRC/images" -type f \( -iname "*.jpg" -o -iname "*.png" -o -iname "*.jpeg" \) -printf "%P\n" | xargs -I {} sh -c "[ -e '$DIST/images/{}' ] || optim '$SRC/images/{}' '$DIST/images/{}'"
+  rsync -au --delete "$SRC/images/buttons" "$DIST/images/"
 }
 
 p:generate_sitemap() {
