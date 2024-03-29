@@ -116,7 +116,7 @@ new() {
 }
 
 publish() {
-  local draft="~/writing/drafts/$1"
+  local draft="$1"
 
   if [ -e "$draft" ]; then
     p:get "Title" TITLE
