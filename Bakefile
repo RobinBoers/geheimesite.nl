@@ -124,7 +124,7 @@ publish() {
     p:get_with_default "Language" LANGUAGE "en"
 
     export PARENT="/blog"
-    export URL="blog/$1"
+    export URL="blog/$(basename "${1%.*}")"
     export CONTENT="$(cat "$draft")"
 
     export DATE_SHORT="$(date -d "$DATE" +"%Y-%m-%d")"
