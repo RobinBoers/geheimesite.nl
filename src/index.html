@@ -51,6 +51,11 @@
           grid-template-columns: auto auto;
         }
 
+        /* Only show jump link to bottom of screen on mobile & unstyled */
+        body p.jump {
+          display: none;
+        }
+
         body > main {
           grid-column: 1;
           grid-row: 1;
@@ -62,18 +67,29 @@
           grid-column: 2;
           grid-row: 1;
         }
+
+        /* Make "Menu" label look like regular text */
+        body > nav summary h2 {
+          display: inline;
+          font-weight: normal;
+          font-size: 1em;
+        }
+      }
+
+      @media (max-width: 500px) {
+        /* Make "Menu" label look like heading */
+        body > nav summary h2 {
+          display: inline;
+        }
+        body > nav summary::marker {
+          font-size: 0;
+        }
       }
 
       body > nav ul {
         list-style: none;
         margin: 0;
         padding: 0;
-      }
-
-      body > nav summary h2 {
-        display: inline;
-        font-weight: normal;
-        font-size: 1em;
       }
 
       body > footer {
@@ -83,42 +99,7 @@
     </style>
   </head>
   <body>
-    <nav>
-      <details open>
-        <summary><h2>Menu</h2></summary>
-
-        <h3>writing</h3>
-
-        <ul>
-          <li><a href="/blog">Blog</a></li>
-          <li><a href="/now">Now</a></li>
-          <li><a href="/blogroll">Blogroll</a></li>
-          <li><a href="//school.geheimesite.nl">School</a></li>
-          <li><a href="/rss">Subscribe</a></li>
-        </ul>
-
-        <h3>work, art</h3>
-
-        <ul>
-          <li><a href="//git.dupunkto.org">Code</a></li>
-          <li><a href="/projects">Projects</a></li>
-          <li><a href="//dupunkto.org">{du}punkto</a></li>
-          <li><a href="/r/place">r/place</a></li>
-          <li><a href="/buttons">88 by 31</a></li>
-          <li><a href="/resume">Resumé</a></li>
-          <li><a href="/webdesign">Webdesign</a></li>
-        </ul>
-
-        <h3>meta</h3>
-
-        <ul>
-          <li><a href="/stability">Stability note</a></li>
-          <li><a href="/the-archives">The Archives</a></li>
-          <li><a href="/colophon">Colophon</a></li>
-          <li><a href="/netmap">Netmap</a></li>
-        </ul>
-      </details>
-    </nav>
+    <p class="jump"><a href="#menu">Menu 🞃</a></p>
 
     <main class="h-card">
       <h1>Axcelott</h1>
@@ -239,6 +220,43 @@
 
       <p>Cheers!</p>
     </main>
+
+    <nav id="menu">
+      <details open>
+        <summary><h2>Menu</h2></summary>
+
+        <h3>writing</h3>
+
+        <ul>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/now">Now</a></li>
+          <li><a href="/blogroll">Blogroll</a></li>
+          <li><a href="//school.geheimesite.nl">School</a></li>
+          <li><a href="/rss">Subscribe</a></li>
+        </ul>
+
+        <h3>work, art</h3>
+
+        <ul>
+          <li><a href="//git.dupunkto.org">Code</a></li>
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="//dupunkto.org">{du}punkto</a></li>
+          <li><a href="/r/place">r/place</a></li>
+          <li><a href="/buttons">88 by 31</a></li>
+          <li><a href="/resume">Resumé</a></li>
+          <li><a href="/webdesign">Webdesign</a></li>
+        </ul>
+
+        <h3>meta</h3>
+
+        <ul>
+          <li><a href="/stability">Stability note</a></li>
+          <li><a href="/the-archives">The Archives</a></li>
+          <li><a href="/colophon">Colophon</a></li>
+          <li><a href="/netmap">Netmap</a></li>
+        </ul>
+      </details>
+    </nav>
 
     <footer>
       Made with :love: in the Netherlands. Copying is an act of love. Please
