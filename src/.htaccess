@@ -74,7 +74,7 @@ Redirect 302 /.well-known/caldav https://contacts.dupunkto.org/admin/axcelott/d0
   # - Downloads 		
   # - `allow-same-origin` makes some browser extensions work again.
 
-  Header set Content-Security-Policy "default-src 'none'; img-src 'self'; media-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'; upgrade-insecure-requests; sandbox allow-popups allow-downloads allow-same-origin;"
+  Header set Content-Security-Policy "default-src 'none'; img-src 'self'; media-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'; upgrade-insecure-requests; sandbox allow-popups allow-forms allow-downloads allow-same-origin;"
 
 	# Allow other sites to get content
 	# See https://ncase.me/nutshell/#CORSForWebDevs

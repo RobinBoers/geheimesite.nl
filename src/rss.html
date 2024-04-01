@@ -3,6 +3,36 @@
   <head>
     <title>What is RSS?</title>
     <link rel="canonical" href="https://roblog.nl/rss" />
+
+    <style>
+      @media (min-width: 700px) {
+        .split {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 1em;
+        }
+      }
+
+      label {
+        display: block;
+      }
+
+      label span {
+        font-weight: 600;
+      }
+
+      label small {
+        color: gray;
+        font-size: 0.7em;
+      }
+
+      input,
+      select {
+        width: 100%;
+        padding: 0.4em 0.4em;
+        border: 1px solid currentColor;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -202,6 +232,39 @@
         <a href="//rss.buienradar.nl/radar.php">weather forecasts</a>.
         Additionally, RSS is often used for podcasts too.
       </p>
+
+      <h2 id="anyway">But I really :love: email</h2>
+
+      <p>
+        You can subscribe to my blog via email too. But trust me, RSS is
+        <em>good stuff</em>. Anyway, here ya go:
+      </p>
+
+      <form action="https://api.geheimesite.nl/sub" method="post">
+        <p class="split">
+          <label for="email">
+            <span>Email</span>
+            <input type="email" name="email" placeholder="you@example.com" />
+          </label>
+
+          <label for="planet">
+            <span>Which planet to you inhabit?</span>
+            <select name="planet">
+              <option value="">Choose a planet</option>
+              <option value="Mars">Mars</option>
+              <option value="SagittariusA">Sagittarius A*</option>
+              <option value="Jupiter">Jupiter</option>
+              <option value="Earth">Earth</option>
+              <option value="Kronos">Qo'noS</option>
+              <option value="Moon">Moon</option>
+            </select>
+            <small>(Sp4m pr0tect1on)</small>
+          </label>
+        </p>
+
+        <input type="hidden" name="action" value="new" />
+        <input type="submit" value="Subscribe" class="button" />
+      </form>
     </main>
 
     <footer>

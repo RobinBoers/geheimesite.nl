@@ -229,7 +229,8 @@ article footer {
 }
 
 article footer .reply-by-email a,
-a.button {
+a.button,
+input.button {
   text-decoration: none;
   padding: 0.5em 1em;
   background: black;
