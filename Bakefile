@@ -1,4 +1,4 @@
-#!/bin/bash -eu
+#!/bin/bash 
 
 SRC=src
 DIST=dist
@@ -7,8 +7,16 @@ REMOTE=s11
 DOMAIN=roblog.nl
 
 FORMAT="prettier --ignore-path .prettierignore"
-COPY="rsync -au --delete "$SRC/" "$DIST/" --exclude images"
 DEPLOY="rsync -ciavuP --delete --exclude canvas.json"
+
+export TITLE="Robin (axcelott)"
+export BIO="Thoughts and opinions of a teenager from the Netherlands."
+export CANONICAL="$DOMAIN"
+export LANGUAGE="en"
+export AUTHOR="Robin Boers"
+export EMAIL="webmaster@roblog.nl"
+export RIGHTS="Copying is an act of love. Please copy."
+export FORMATTER="$FORMAT"
 
 setup() {
   bun i
@@ -27,9 +35,11 @@ format() {
   $FORMAT --write $SRC
 }
 
-dev() {
-  cd $SRC
-  waiter --dev
+build() {
+  bakery build $SRC $DIST
+
+  # My canonical URLs are without the .html suffix.
+  sed -i 's/\.html//g' "$DIST/sitemap.xml"
 }
 
 serve() {
@@ -37,71 +47,15 @@ serve() {
   waiter --dev
 }
 
+dev() {
+  bakery watch $SRC $DIST &
+  trap "kill $!" SIGINT
+  cd $SRC; waiter --dev
+}
+
 clean() {
   rm -rf $DIST
   rm -rf node_modules bun.lockb
-}
-
-build() {
-  p:process_files
-  p:generate_sitemap
-  p:generate_feeds
-  p:build_assets
-}
-
-p:process_files() {
-  local changed_files="$($COPY -i | grep -v '/$' | grep -v ".xml$" | cut -d' ' -f2)"
-
-  if [ -n "$changed_files" ]; then
-    printf "Updating these files: \n"
-    echo "$changed_files"
-    echo
-  else
-    echo "Nothing to do. "
-  fi
-
-  while IFS= read -r file; do
-    if [[ "$file" == *.html ]]; then
-      cat "$SRC/$file" | lowc | shortc | smartypants | sed '/<\/title>/i\\n<link rel="stylesheet" href="/main.css" />' > "$DIST/$file"
-
-      local lastmod="$(git log --pretty=format:%cI -1 HEAD -- "$SRC/$file")"
-      $FORMAT --write "$DIST/$file" >/dev/null
-
-      # The `+1 second` is because rsync will overwrite files
-      # if they have the exact same last mod date, while I want it
-      # to only overwrite if the source is newer.
-      touch -d "$lastmod + 1 second" "$DIST/$file"
-      printf .
-    fi
-  done <<< "$changed_files"
-
-  echo "done"
-}
-
-p:build_assets() {
-  find "$SRC/images" -type f \( -iname "*.jpg" -o -iname "*.png" -o -iname "*.jpeg" \) -printf "%P\n" | xargs -I {} sh -c "[ -e '$DIST/images/{}' ] || optim '$SRC/images/{}' '$DIST/images/{}'"
-  rsync -au --delete "$SRC/images/buttons" "$DIST/images/"
-}
-
-p:generate_sitemap() {
-  local sitemap="$DIST/sitemap.xml"
-  genmap "$DIST" "$DOMAIN" > $sitemap
-
-  # My canonical URLs are without the .html suffix
-  sed -i 's/\.html//g' $sitemap
-}
-
-p:generate_feeds() {
-  export TITLE="Robin (axcelott)"
-  export BIO="Thoughts and opinions of a teenager from the Netherlands."
-  export CANONICAL="$DOMAIN"
-  export LANGUAGE="en"
-  export AUTHOR="Robin Boers"
-  export EMAIL="webmaster@roblog.nl"
-  export RIGHTS="Copying is an act of love. Please copy."
-
-  SELF="/index.xml" genfeed -trss "$DIST/blog" > "$DIST/index.xml"
-  SELF="/atom.xml" genfeed -tatom "$DIST/blog" > "$DIST/atom.xml"
 }
 
 new() {
