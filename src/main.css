@@ -9,8 +9,8 @@ html {
 }
 
 *,
-:after,
-:before {
+::after,
+::before {
   box-sizing: inherit;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 a {
-  color: currentColor;
+  color: currentcolor;
 }
 
 a:hover {
@@ -165,7 +165,7 @@ blockquote {
   border-left: 2px solid;
   padding-left: 1.2em;
   margin: auto 0;
-  color: gray;
+  color: #666;
   border-color: inherit;
 }
 
@@ -180,6 +180,7 @@ code {
 
 /* Site-specific */
 
+/* stylelint-disable */
 body {
   max-width: 800px;
   margin: 0 auto;
@@ -206,8 +207,7 @@ body > footer {
 }
 
 body > footer blockquote {
-  color: currentColor;
-  margin: 0;
+  color: currentcolor;
   padding: 0;
   border: none;
   margin: 0.3em 0;

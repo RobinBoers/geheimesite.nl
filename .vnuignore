@@ -1,0 +1,7 @@
+# I like the trailing slash. Fuck off.
+Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+# This property does exist, the validator is outdated
+CSS: “shape-margin”: Property “shape-margin” doesn't exist.
+# There's no parse errors, the validator is outdated (doesn't support :has)
+# Parse errors will be caugth by style lint so it's okay
+CSS: Parse Error.

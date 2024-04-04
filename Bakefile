@@ -7,6 +7,8 @@ REMOTE=s11
 DOMAIN=roblog.nl
 
 FORMAT="prettier --ignore-path .prettierignore"
+# TODO(robin): fork this and make it a proper node binary
+VALIDATE="java -jar node_modules/vnu-jar/build/dist/vnu.jar --exit-zero-always --filterfile .vnuignore"
 DEPLOY="rsync -ciavuP --delete --exclude canvas.json"
 
 export TITLE="Robin (axcelott)"
@@ -16,7 +18,7 @@ export LANGUAGE="en"
 export AUTHOR="Robin Boers"
 export EMAIL="webmaster@roblog.nl"
 export RIGHTS="Copying is an act of love. Please copy."
-export FORMATTER="$FORMAT"
+export FORMATTER="$FORMAT --write"
 
 setup() {
   bun i
@@ -56,6 +58,31 @@ dev() {
 clean() {
   rm -rf $DIST
   rm -rf node_modules bun.lockb
+}
+
+check() {
+  echo
+  echo "Running formatter"
+  $FORMAT --check $DIST
+
+  echo
+  echo "Running validators"
+  $VALIDATE --skip-non-html --also-check-css $DIST && echo "No issues."
+  
+  echo
+  echo "Running stylelint"
+  stylelint "$DIST/**/*.css" && echo "No issues."
+
+  echo
+  echo "Running achecker"
+  achecker $DIST
+
+  # BLOCKED: htmltest doesn't yet support pretty URLs like I have,
+  # see https://github.com/wjdp/htmltest/issues/183
+
+  # echo
+  # echo "Running htmltest"
+  # htmltest
 }
 
 new() {
