@@ -14,6 +14,7 @@ DEPLOY="rsync -ciavuP --delete --exclude canvas.json"
 export TITLE="Robin (axcelott)"
 export BIO="Thoughts and opinions of a teenager from the Netherlands."
 export CANONICAL="$DOMAIN"
+export LICENSE="https://creativecommons.org/publicdomain/zero/1.0/"
 export LANGUAGE="en"
 export AUTHOR="Robin Boers"
 export EMAIL="webmaster@roblog.nl"
@@ -52,7 +53,7 @@ serve() {
 dev() {
   bakery watch $SRC $DIST &
   trap "kill $!" SIGINT
-  cd $SRC; waiter --dev
+  cd $DIST; waiter --dev
 }
 
 clean() {
