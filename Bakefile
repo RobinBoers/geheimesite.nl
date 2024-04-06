@@ -11,6 +11,7 @@ FORMAT="prettier --ignore-path .prettierignore"
 VALIDATE="java -jar node_modules/vnu-jar/build/dist/vnu.jar --exit-zero-always --filterfile .vnuignore"
 DEPLOY="rsync -ciavuP --delete --exclude canvas.json"
 
+# Bakery configuration
 export TITLE="Robin (axcelott)"
 export BIO="Thoughts and opinions of a teenager from the Netherlands."
 export CANONICAL="$DOMAIN"
@@ -44,6 +45,36 @@ build() {
 
   # My canonical URLs are without the .html suffix.
   sed -i 's/\.html//g' "$DIST/sitemap.xml"
+}
+
+mentions() {
+  for file in "$DIST/blog"/*.html; do
+    local id="$(basename "$file" .html | md5sum | awk '{print $1}')"
+    local state="$HOME/.local/state/mentions/$id"
+
+    if [ "$(basename "$file")" == "index.html" ]; then
+      continue
+    fi
+
+    if [ ! -e "$state" ]; then
+      local out="$(wm "$file")"
+      local none="No webmention endpoints found on 1 entries found (try increasing with --limit N)"
+
+      if [ "$out" == "$none" ]; then
+        continue
+      fi
+      
+      echo "Wanna send the following mentions for '$(basename "$file")'?"
+      echo "$out"
+      echo
+
+      if prompt -y; then
+        wm "$file" --send
+      fi
+
+      touch "$state"
+    fi
+  done
 }
 
 serve() {
