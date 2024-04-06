@@ -19,6 +19,7 @@ export LANGUAGE="en"
 export AUTHOR="Robin Boers"
 export EMAIL="webmaster@roblog.nl"
 export RIGHTS="Copying is an act of love. Please copy."
+export STYLESHEET="/main.css?v=$(md5sum $SRC/main.css | awk '{print $1}')"
 export FORMATTER="$FORMAT --write"
 
 setup() {
