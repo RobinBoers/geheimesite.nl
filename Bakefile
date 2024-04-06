@@ -54,7 +54,8 @@ serve() {
 dev() {
   bakery watch $SRC $DIST &
   trap "kill $!" SIGINT
-  cd $DIST; waiter --dev
+  mkdir -p $DIST && cd $DIST
+  waiter --dev
 }
 
 clean() {
