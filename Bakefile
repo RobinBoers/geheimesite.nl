@@ -7,8 +7,7 @@ REMOTE=s11
 DOMAIN=roblog.nl
 
 FORMAT="prettier --ignore-path .prettierignore"
-# TODO(robin): fork this and make it a proper node binary
-VALIDATE="java -jar node_modules/vnu-jar/build/dist/vnu.jar --exit-zero-always --filterfile .vnuignore"
+VALIDATE="vnu --exit-zero-always --filterfile .vnuignore"
 DEPLOY="rsync -ciavuP --delete --exclude canvas.json"
 
 # Bakery configuration
