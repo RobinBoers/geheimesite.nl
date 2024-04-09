@@ -97,8 +97,7 @@ dev() {
 }
 
 clean() {
-  rm -rf $DIST
-  rm -rf node_modules bun.lockb results
+  rm -rf $DIST results
 }
 
 check() {
