@@ -1,5 +1,9 @@
 #!/bin/bash 
 
+required bakery
+required tomlq
+required gum
+
 SRC=src
 DIST=dist
 TEMPLATES=templates
@@ -103,15 +107,7 @@ new() {
 
   case $TYPE in
     page) export PARENT="/" ;;
-    post) export PARENT="/blog"
-
-      p:get_with_default "Date" DATE "$(date +"%Y-%m-%d")"
-
-      export DATE_SHORT="$(date -d "$DATE" +"%Y-%m-%d")"
-      export DATE_LONG="$(date -d "$DATE" +"%b %d, %Y")"
-
-      p:append_to_listing
-      ;;
+    post) export PARENT="/blog" ;;
     *) err "invalid page type." ;;
   esac
 
@@ -120,35 +116,39 @@ new() {
 
   export CONTENT="<!-- CONTENT HERE -->"
 
+  if [ $type == "post" ]; then
+    p:get_with_default "Date" DATE "$(date +"%Y-%m-%d")"
+    export DATE_SHORT="$(date -d "$DATE" +"%Y-%m-%d")"
+    export DATE_LONG="$(date -d "$DATE" +"%b %d, %Y")"
+
+    p:append_to_listing
+  fi
+
   p:write "$TYPE.html"
 }
 
-# Writes a page to the $SRC directory.
 p:write() {
-  local dist="$SRC$URL.html"
+  # Writes a page to the $SRC directory.
 
+  local dist="$SRC$URL.html"
   [ -f "$dist" ] && err "'$dist' already exists."
 
   mkdir -p "$(dirname "$dist")"
-
-  # Render sub-template
-  export CONTENT="$(p:render "$1")"
-  # Render into base template
-  p:render "base.html" > "$dist"
-
+  export CONTENT="$(p:render "$1")" # Render sub-template
+  p:render "base.html" > "$dist" # Render into base template
   $FORMAT --write "$dist" >/dev/null
 }
 
-# Appends a post to the posts listings.
-p:append_to_listing() {
-  local C="$(p:render "h-entry.html" | p:sed_escape)"
-  sed -i /'<!-- INSERT NEW POSTS HERE -->'/a\\"$C" "$SRC/blog/index.html"
+p:render() {
+  # Renders a template in the $TEMPLATES directory.
+  cat "$TEMPLATES/$1" | envsubst
 }
 
-# Renders a template in the $TEMPLATES directory.
-p:render() {
-  export CANONICAL="$DOMAIN"
-  cat "$TEMPLATES/$1" | envsubst
+p:append_to_listing() {
+  # Appends item to listing on /blog
+
+  local C="$(p:render "h-entry.html" | p:sed_escape)"
+  sed -i /'<!-- INSERT NEW POSTS HERE -->'/a\\"$C" "$SRC/blog/index.html"
 }
 
 p:get() {
