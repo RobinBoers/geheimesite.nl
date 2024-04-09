@@ -226,6 +226,24 @@ article footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+article footer:has(.rss-only) {
+  border: 0;
+}
+
+article footer .rss-only {
+  background: #eee;
+  padding: 0.3em 0.6em;
+  border-radius: 2.5px;
+  font-size: 0.9em;
+  width: 100%;
+  margin: 0;
+}
+
+article footer p {
+  margin-bottom: 0;
 }
 
 article footer .reply-by-email a,
