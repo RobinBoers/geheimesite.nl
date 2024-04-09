@@ -1,0 +1,11 @@
+Hello, $HANDLE!
+
+I mentioned you on this page:
+
+"$TITLE" ($URL)
+
+If you'd rather not receive emails when I @mention you on my website, 
+please reply to this email, and I'll never send you notifications again.
+
+Cheers!
+Axcelott

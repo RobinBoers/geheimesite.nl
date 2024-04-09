@@ -1,6 +1,7 @@
 #!/bin/bash 
 
 required bakery
+required pup
 required tomlq
 required gum
 
@@ -48,6 +49,26 @@ build() {
 
   # My canonical URLs are without the .html suffix.
   sed -i 's/\.html//g' "$DIST/sitemap.xml"
+}
+
+@mentions() {
+  local c="$(cat "$1")"
+
+  local handles="$(echo "$c" | pup [data-mention="true"] attr{data-handle})"
+  export TITLE="$(echo "$c" | pup h1:first-of-type text{})"
+  export URL="$(echo "$c" | pup link[rel="canonical"] attr{href})"
+
+  echo "$handles" | uniq | while read -r handle; do
+    echo "Sending @mention to @$handle..."
+
+    local draft="$(mktemp)"
+    HANDLE="$handle" p:render "mentioned.txt" > "$draft"
+
+    sendmail axcelott@roblog.nl "$draft" \
+      --subject "I mentioned you!" \
+      --to "$(tomlq -r .$handle.email ~/etc/lowc/mentions.toml)" \
+      --password "$(pass mail/axcelott@roblog.nl)"
+  done
 }
 
 webmentions() {
