@@ -51,15 +51,19 @@ build() {
   sed -i 's/\.html//g' "$DIST/sitemap.xml"
 }
 
-@mentions() {
+mentions() {
   local c="$(cat "$1")"
 
   local handles="$(echo "$c" | pup [data-mention="true"] attr{data-handle})"
   export TITLE="$(echo "$c" | pup h1:first-of-type text{})"
   export URL="$(echo "$c" | pup link[rel="canonical"] attr{href})"
 
+  # Fall back to <title> if page has no heading.
+  [ -z "$TITLE" ] && export TITLE="$(echo "$c" | pup title text{})"
+  [ -z "$handles" ] && exit
+
   echo "$handles" | uniq | while read -r handle; do
-    echo "Sending @mention to @$handle..."
+    echo "Sending email to @$handle..."
 
     local draft="$(mktemp)"
     HANDLE="$handle" p:render "mentioned.txt" > "$draft"
