@@ -99,40 +99,33 @@ check() {
 
 new() {
   p:get "Title" TITLE
-  p:get_with_default "Language" LANGUAGE "en"
-  p:get_with_default "Path" URL "$(sluggify "$TITLE")" 
+  p:get "Type [page|post]" TYPE
 
-  export PARENT="/"
+  case $TYPE in
+    page) export PARENT="/" ;;
+    post) export PARENT="/blog"
+
+      p:get_with_default "Date" DATE "$(date +"%Y-%m-%d")"
+
+      export DATE_SHORT="$(date -d "$DATE" +"%Y-%m-%d")"
+      export DATE_LONG="$(date -d "$DATE" +"%b %d, %Y")"
+
+      p:append_to_listing
+      ;;
+    *) err "invalid page type." ;;
+  esac
+
+  p:get_with_default "Path" URL "${PARENT/%\//}/$(sluggify "$TITLE")" 
+  p:get_with_default "Language" LANGUAGE "en"
+
   export CONTENT="<!-- CONTENT HERE -->"
 
-  p:write "page.html"
-}
-
-publish() {
-  local draft="$1"
-
-  if [ -e "$draft" ]; then
-    p:get "Title" TITLE
-    p:get_with_default "Date" DATE "$(date +"%Y-%m-%d")"
-    p:get_with_default "Language" LANGUAGE "en"
-
-    export PARENT="/blog"
-    export URL="blog/$(basename "${1%.*}")"
-    export CONTENT="$(cat "$draft")"
-
-    export DATE_SHORT="$(date -d "$DATE" +"%Y-%m-%d")"
-    export DATE_LONG="$(date -d "$DATE" +"%b %d, %Y")"
-
-    p:list
-    p:write "post.html"
-  else
-    err "'$draft' doesn't exist."
-  fi
+  p:write "$TYPE.html"
 }
 
 # Writes a page to the $SRC directory.
 p:write() {
-  local dist="$SRC/$URL.html"
+  local dist="$SRC$URL.html"
 
   [ -f "$dist" ] && err "'$dist' already exists."
 
@@ -147,7 +140,7 @@ p:write() {
 }
 
 # Appends a post to the posts listings.
-p:list() {
+p:append_to_listing() {
   local C="$(p:render "h-entry.html" | p:sed_escape)"
   sed -i /'<!-- INSERT NEW POSTS HERE -->'/a\\"$C" "$SRC/blog/index.html"
 }
@@ -159,10 +152,8 @@ p:render() {
 }
 
 p:get() {
-  # Return if $2 is already set.
-  [ -v $2 ] && return
-
-  printf "\n$1: "
+  export $2=""
+  printf "$1: "
   read $2
   export $2
 
@@ -172,9 +163,8 @@ p:get() {
 }
 
 p:get_with_default() {
-  [ -v $2 ] && return
-
-  printf "\n$1 [$3]: "
+  export $2=""
+  printf "$1 [$3]: "
   read $2
   export $2
 
