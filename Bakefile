@@ -1,5 +1,6 @@
 #!/bin/bash 
 
+required bun
 required bakery
 required pup
 required tomlq

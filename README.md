@@ -1,22 +1,125 @@
 # Roblog.nl
 
 This repo contains the source code of [Roblog.nl][https://roblog.nl], my
-personal website and blog. It contains beautiful handcoded HTML and a bunch of
-scripts to manage it.
+personal website and blog. It's built with a bunch of illegible shell scripts
+and beautiful handcrafted HTML.
 
 It's basically my own SSG written in pure Bash.
 
-## Features
+## Bakefile
 
-- RSS & Atom feeds
-- Sitemap with last modified dates
-- [Image compression](https://git.dupunkto.org/meta/dotfiles/tree/bin/optim)
-- [Custom shortcodes](https://git.dupunkto.org/meta/dotfiles/tree/bin/shortc) in
-  HTML
+Bakefile is my Bash-based alternative for Makefile (you get it? make + bash =
+bake :D). The Bakefile used to be giant, but I've since offloaded most of the
+work to smaller, reusable programs in my `~/bin` directory:
 
-## Setup
+- [`bakery`](https://git.dupunkto.org/meta/dotfiles/tree/bin/bakery)
+- [`genmap`](https://git.dupunkto.org/meta/dotfiles/tree/bin/genmap)
+- [`genfeed`](https://git.dupunkto.org/meta/dotfiles/tree/bin/genmap)
+- [`optim`](https://git.dupunkto.org/meta/dotfiles/tree/bin/genmap)
+- [`shortc`](https://git.dupunkto.org/meta/dotfiles/tree/bin/genmap)
 
-The working directory of the repo contains two subdirectories:
+To run a command from the Bakefile, you can simply source it in your shell and
+run the appropriate subcommand:
 
-- `src` contains the raw HTML source code for the site.
-- `dist` contains the built site.
+```bash
+source Bakefile
+build
+```
+
+...or you could use my program
+[`bake`](https://git.dupunkto.org/meta/dotfiles/tree/bin/bake), which does that
+for you--along with a little more magic.
+
+## Pseudo HTML
+
+I write in a pseudo HTML variant that I dubbed LowTML, which gets converted into
+regular HTML by [`lowc`](https://git.dupunkto.org/axcelott/lowc).
+
+This allows me to write in HTML (a great language), without having to deal with
+HTML (a shit language).
+
+I also make heavy use of custom shortcodes, like \:shrug\:, which get replaced
+with their unicode equivalents by
+[`shortc`](https://git.dupunkto.org/meta/dotfiles/tree/bin/shortc).
+
+## Image compression
+
+Images are automatically
+[compressed](https://git.dupunkto.org/meta/dotfiles/tree/bin/optim) using
+`optipng` and `jpegoptim`.
+
+## Templating
+
+I have a function called `new` (which takes up about half of the Bakefile), that
+handles creating new pages using the templates in `/templates`. Just run
+`bake new` and let it do the magic for you ;)
+
+## @mentions
+
+My site implements @mentions, inspired by
+[Personal-Web.org](https://personal-web.org). For this, I'm using a file in
+`$XDG_CONFIG_HOME/lowc/mentions.toml` that contains all the contacts I'd like to
+mention:
+
+```toml
+[john]
+site = "https://example.com"
+email = "john.doe@example.com"
+mention = true
+```
+
+When processing the LowTML, `lowc` will convert any _@handle_ it encounters into
+the following snippet, if the handle it's in the `mentions.toml`:
+
+```html
+<a
+  href="https://example.com"
+  data-handle="john"
+  data-mention="true"
+  class="u-in-reply-to"
+  >@john</a
+>
+```
+
+I then have a command--`bake mentions`--that takes a file path, finds all
+@mentions in that file and sends an email for each, using my
+[`sendmail`](https://git.dupunkto.org/axcelott/sendmail) program.
+
+If someone doesn't want to receive emails, you can set the `mention = true` to
+`mention = false` and the script will skip them.
+
+## Webmentions
+
+In addition to @mentions, I also send [webmentions](https://webmention.net). It
+works similarly; after publishing I run the following command:
+
+```shell
+bake webmentions
+```
+
+...which sends webmentions to any URLs that I've linked to in the post, using
+the amazing [`wm`](https://github.com/remy/wm) CLI.
+
+## Other nicities
+
+There's a `bake dev` mode that runs the site on `localhost:4000` with instant
+rebuilds when I change something--it's still a bit buggy tho.
+
+There's RSS and Atom feeds and a sitemap that use `git` for last-modified
+timestamps.
+
+The stylesheet URL is automatically appended with `?v=SHA`, for cachebusting.
+
+There's pretty good linting, using [`stylelint`](https://stylelint.io),
+[`vnu`](https://git.dupunkto.org/forks/vnu) (HTML validator), and
+[`achecker`](https://github.com/IBMa/equal-access).
+
+All files are formatted using [`prettier`](https://prettier.io).
+
+The site can be redeployed without needing to `git push` (which wasn't possible
+when I was using GitHub Actions), because I'm using `rsync`.
+
+## License
+
+The source code for the site is licensed AGPL. The content of the site is
+released into the public domain, using to the CC0 1.0 license.
