@@ -242,6 +242,12 @@ article footer .rss-only {
   margin: 0;
 }
 
+@media (prefers-color-scheme: dark) {
+  article footer .rss-only {
+    background-color: #444;
+  }
+}
+
 article footer p {
   margin-bottom: 0;
 }
