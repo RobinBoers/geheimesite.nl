@@ -1,6 +1,6 @@
 # Roblog.nl
 
-This repo contains the source code of [Roblog.nl][https://roblog.nl], my
+This repo contains the source code of [Roblog.nl](https://roblog.nl), my
 personal website and blog. It's built with a bunch of illegible shell scripts
 and beautiful handcrafted HTML.
 
@@ -100,6 +100,22 @@ bake webmentions
 ...which sends webmentions to any URLs that I've linked to in the post, using
 the amazing [`wm`](https://github.com/remy/wm) CLI.
 
+I also built
+[my own Webmention endpoint](https://git.dupunkto.org/sites/api.geheimesite.nl/tree/webmentions.php)
+that sends me an email whenever someone links to my site.
+
+## Sub--email subscriptions
+
+I built
+[my own email subscription](https://git.dupunkto.org/sites/api.geheimesite.nl/tree/sub.php)
+_thing_. There's a form on the subscribe page that adds people to the mailing
+list. I can then push messages to the mailing list like this (using
+[this handy script](https://git.dupunkto.org/meta/dotfiles/tree/bin/push)):
+
+```shell
+push $(pass tokens/sub) "Hii!" "$(cat message.txt)"
+```
+
 ## Other nicities
 
 There's a `bake dev` mode that runs the site on `localhost:4000` with instant
@@ -118,6 +134,15 @@ All files are formatted using [`prettier`](https://prettier.io).
 
 The site can be redeployed without needing to `git push` (which wasn't possible
 when I was using GitHub Actions), because I'm using `rsync`.
+
+I use a very strict CSP that prohibits any Javascript, as to not tempt myself to
+use it too much.
+
+## Future plans
+
+- Check for broken links while linting
+- Changelogs using Git history
+- Form for submitting webmentions
 
 ## License
 
