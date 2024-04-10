@@ -39,7 +39,7 @@ This allows me to write in HTML (a great language), without having to deal with
 HTML (a shit language).
 
 I also make heavy use of custom shortcodes, like \:shrug\:, which get replaced
-with their unicode equivalents by
+with their Unicode equivalents by
 [`shortc`](https://git.dupunkto.org/meta/dotfiles/tree/bin/shortc).
 
 ## Image compression
@@ -90,14 +90,14 @@ If someone doesn't want to receive emails, you can set the `mention = true` to
 
 ## Webmentions
 
-In addition to @mentions, I also send [webmentions](https://webmention.net). It
-works similarly; after publishing I run the following command:
+In addition to @mentions, I also send [Webmentions](https://webmention.net). It
+works similarly; after publishing, I run the following command:
 
 ```shell
 bake webmentions
 ```
 
-...which sends webmentions to any URLs that I've linked to in the post, using
+...which sends Webmentions to any URLs that I've linked to in the post, using
 the amazing [`wm`](https://github.com/remy/wm) CLI.
 
 I also built
@@ -116,7 +116,7 @@ list. I can then push messages to the mailing list like this (using
 push $(pass tokens/sub) "Hii!" "$(cat message.txt)"
 ```
 
-## Other nicities
+## Other niceties
 
 There's a `bake dev` mode that runs the site on `localhost:4000` with instant
 rebuilds when I change something--it's still a bit buggy tho.
@@ -135,16 +135,16 @@ All files are formatted using [`prettier`](https://prettier.io).
 The site can be redeployed without needing to `git push` (which wasn't possible
 when I was using GitHub Actions), because I'm using `rsync`.
 
-I use a very strict CSP that prohibits any Javascript, as to not tempt myself to
+I use a very strict CSP that prohibits any JavaScript, as to not tempt myself to
 use it too much.
 
 ## Future plans
 
 - Check for broken links while linting
 - Changelogs using Git history
-- Form for submitting webmentions
+- Form for submitting Webmentions
 
 ## License
 
 The source code for the site is licensed AGPL. The content of the site is
-released into the public domain, using to the CC0 1.0 license.
+released into the public domain, using the CC0 1.0 license.
