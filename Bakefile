@@ -99,6 +99,7 @@ dev() {
 
 clean() {
   rm -rf $DIST results
+  git restore-mtime >/dev/null
 }
 
 check() {
