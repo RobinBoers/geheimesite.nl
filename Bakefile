@@ -4,6 +4,9 @@ required bakery
 required pup
 required yq
 required gum
+required convert
+required optipng
+required jpegoptim
 
 SRC=src
 DIST=dist
