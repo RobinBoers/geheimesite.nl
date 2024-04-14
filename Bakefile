@@ -1,9 +1,8 @@
 #!/bin/bash 
 
-required bun
 required bakery
 required pup
-required tomlq
+required yq
 required gum
 
 SRC=src
@@ -27,10 +26,6 @@ export EMAIL="webmaster@roblog.nl"
 export RIGHTS="Copying is an act of love. Please copy."
 export STYLESHEET="/main.css?v=$(md5sum $SRC/main.css | awk '{print $1}')"
 export FORMATTER="$FORMAT --write"
-
-setup() {
-  bun i
-}
 
 deploy() {
   if [ -d $DIST ]; then
@@ -71,7 +66,7 @@ mentions() {
 
     sendmail axcelott@roblog.nl "$draft" \
       --subject "I mentioned you!" \
-      --to "$(tomlq -r .$handle.email ~/etc/lowc/mentions.toml)" \
+      --to "$(yq -oy .$handle.email ~/etc/lowc/mentions.toml)" \
       --password "$(pass mail/axcelott@roblog.nl)"
   done
 }
