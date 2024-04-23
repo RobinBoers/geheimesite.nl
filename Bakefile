@@ -145,7 +145,7 @@ new() {
 
   export CONTENT="<!-- CONTENT HERE -->"
 
-  if [ $type == "post" ]; then
+  if [ $TYPE == "post" ]; then
     p:get_with_default "Date" DATE "$(date +"%Y-%m-%d")"
     export DATE_SHORT="$(date -d "$DATE" +"%Y-%m-%d")"
     export DATE_LONG="$(date -d "$DATE" +"%b %d, %Y")"
