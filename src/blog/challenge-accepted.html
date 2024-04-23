@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Challenge accepted</title>
+    <link rel="canonical" href="https://roblog.nl/blog/challenge-accepted" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/blog">:back: Back to the index</a>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <h1>Challenge accepted</h1>
+
+        <p>
+          A while back, I read
+          <a href="//gilest.org/indie-easy.html">
+            <cite>Let’s make the indie web easier</cite></a
+          >, and it really resonated with me.
+        </p>
+
+        <blockquote cite="https://gilest.org/indie-easy.html">
+          <p>OK, developers, I have a challenge for you.</p>
+          <p>
+            I’ll assume that we’re all on board with the 2024 indie web revival.
+            We all want things to get weird again, right? Yeah.
+          </p>
+          <p>
+            And, I’ll assume we all agree that owning your own website is a good
+            thing, and we all want more people to do it.
+          </p>
+          <p>
+            But here’s the thing: we need more tools for it. We need simpler
+            tools for it. And we need to make installing and using them
+            trivially simple.
+          </p>
+          <p>We need a whole galaxy of options.</p>
+          <p>
+            So that next time we say to someone: “You should own your own
+            domain, and publish on your own website,” and they answer with
+            “How?”, we can give an answer that’s more than just: “Install
+            Wordpress.”
+          </p>
+          <p>
+            If we want the future web we’re all clamouring for, we need to give
+            people more options for self-hosted independence. If we seriously,
+            truly want the independent, non-enshittified personal web to
+            flourish, we need to make it easier for people to join in.
+          </p>
+          <p>
+            Why not build static website generators that people can just unzip,
+            upload to the shared hosting they’ve just paid for, and start using
+            via a browser?
+          </p>
+        </blockquote>
+
+        <p>Challenge accepted!</p>
+
+        <p>
+          I'm building a successor to
+          <a href="//micro.geheimesite.nl">neopub</a>, my microblogging
+          platform. It's still in early development, but things are going great
+          so far. It's loosely based on the original source code of
+          neopub--which is why its repo is hosted under the neopub namespace--,
+          but has been rewritten from the ground up.
+        </p>
+
+        <p>Here's the idea:</p>
+
+        <p>
+          A single-person microblogging platform written in PHP8, built on open
+          standards. It supports
+          <a href="//microformats.org">microformats2</a>,
+          <a href="//w3.org/TR/micropub">micropub</a>,
+          <a href="//w3.org/TR/webmention/">Webmention</a>, pingback, various
+          feeds, <a href="//w3.org/TR/activitypub/">ActivityPub</a> and
+          <a href="//openheart.fyi">OpenHeart</a>, along with
+          <a href="//personal-web.org">@mentions</a>, which I
+          <a href="/blog/mentions">recently implemented on this site</a> as
+          well. There's going to be a very basic web interface for writing posts
+          and uploading images. Additionally, there will also be a CLI--I'm
+          gonna be using it myself, after all.
+        </p>
+
+        <p>
+          To circle back to @giles's post, I'm designing this thing to
+          :sparkles: just work :sparkles:, Out Of The Box(TM). Because
+          <a href="/blog/defaults">defaults matter</a>. People aren't going to
+          bother figuring out how to setup some obscure plugin to enable some
+          weird protocol they've never heard of--but they might just like it
+          when their site automagically federates with various social media
+          platforms and pulls in comments from each one.
+        </p>
+
+        <p>
+          And to reemphasize his point:
+          <em>installing this thing should be trivially simple</em>. It should
+          be as simple as creating an account on Bluesky. Cause if it's not,
+          what's stopping people from just switching to another content silo?
+          <small
+            >(I'm using the <a href="/blog/stupid-terminology">c-word</a> on
+            purpose. These corporations don't care what you post, as long as
+            they can make money off of it.)</small
+          >
+        </p>
+
+        <p>
+          Since the platform is written in PHP, it should work on virtually all
+          shared hosting, provided they have an up-to-date PHP installation.
+          Installing should be as simple as drag and dropping some PHP files
+          over FPT. To reduce friction even more, I'm using JSON files instead
+          of an SQL database, as setting up and connecting an SQL database is
+          often a mayor roadblock in installing a CMS, for a casual person.
+        </p>
+
+        <p>
+          I'm also thinking about creating some sort of hosted application that
+          integrates with a bunch of common registrars, which would guide
+          newcomers through getting a domain name, picking a hosting plan and
+          uploading said PHP files. Pick a domain name, pick a registrar, pick a
+          plan, and have the service handle the rest for you.
+        </p>
+
+        <p>Anyhow.</p>
+
+        <p>
+          So far, I've implemented Webmention (both sending and receiving),
+          micropub (with a media endpoint), pingback (using
+          <a href="//webmention.io">Webmention.io</a> to forward pingbacks as
+          webmentions), and RSS, Atom, JSON feeds. However, I'm still trying to
+          figure out how the actual fuck ActivityPub works, and the frontend is
+          nowhere near finished.
+        </p>
+
+        <p>
+          <a href="//git.dupunkto.org/neopub/untitled"
+            >Here's the prototype, if you're curious</a
+          >. It doesn't have a name yet, tho. Any suggestions?
+        </p>
+
+        <footer>
+          <p>
+            Posted on
+            <a href="//roblog.nl/blog/challenge-accepted">
+              <time datetime="2024-04-23"> Apr 23, 2024 </time>
+            </a>
+          </p>
+
+          <p class="reply-by-email">
+            <a href="mailto:replies@roblog.nl">Reply by email</a>
+          </p>
+        </footer>
+      </article>
+    </main>
+
+    <footer>
+      Made with :love: in the Netherlands. Copying is an act of love. Please
+      copy.
+    </footer>
+  </body>
+</html>
