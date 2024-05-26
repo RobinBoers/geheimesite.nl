@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>The Web is the everything protocol</title>
+    <link rel="canonical" href="https://roblog.nl/blog/web-sdk" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/blog">:back: Back to the index</a>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <h1>The Web is the everything protocol</h1>
+
+        <p>
+          I love building websites; I also
+          <a href="/blog/love-hate">hate the Web</a>.
+        </p>
+
+        <p>
+          I like the concept of the Web: interlinked documents with optional
+          embedded media. Just pages of text with images and videos here and
+          there. Think books but with interactive elements. The Web was meant to
+          be that: a great document reader.
+        </p>
+
+        <p>
+          Yet we're increasingly treating it as an SDK of some sort. A Universal
+          Application Development ToolKit. Further and further emulating native
+          applications using JavaScript APIs.
+        </p>
+
+        <p>
+          Just look at the ridiculous scope of these Javascript APIs:
+          WebBattery, WebBluetooth, WebGamepad, WebVibration, WebVR, WebMIDI,
+          WebUSB, WebDRM, and WebXR. What's all this <em>stuff</em> needed for?
+          Yea, it makes sense for a Universal Application Development ToolKit,
+          but it's absolutely absurd to implement in a document reader:
+        </p>
+
+        <blockquote
+          cite="//geminiprotocol.net/docs/faq.gmi#15-what-kind-of-timeless-user-experience">
+          <p>
+            [On gemini there's] absolutely no question of accidentally ending up
+            [on] a shady [website] which starts using your computer to mine
+            cryptocurrency for somebody else, because what kind of insane person
+            would design document reading software where that's a thing that
+            could possibly happen under any circumstances?
+          </p>
+        </blockquote>
+
+        <p>
+          The Web platform is so insanely overscoped, that it's difficult to
+          even begin to understand:
+        </p>
+
+        <blockquote
+          cite="//drewdevault.com/2020/03/18/Reckless-limitless-scope.html">
+          <p>
+            The total word count of the W3C specification catalogue is 114
+            million words at the time of writing. If you added the combined word
+            counts of the C11, C++17, UEFI, USB 3.2, and POSIX specifications,
+            all 8,754 published RFCs, and the combined word counts of everything
+            on Wikipedia’s list of longest novels, you would be 12 million words
+            short of the W3C specifications.
+          </p>
+          <p>Web browsers are responsible for more than 8,000 CVEs.</p>
+        </blockquote>
+
+        <p>
+          It's easy to see why it played out like this. Nowadays, every computer
+          has a Web browser, which means a web app has perfect cross-platform
+          compatibility at virtually no cost.
+        </p>
+
+        <p>
+          Worse, the Web browser is becoming
+          <a href="//blog.cjeller.site/browser-as-os"
+            >a standalone OS of its own</a
+          >. Google's literally made their browser their OS--and it worked! To
+          end users, the browser <em>is</em> the OS. It's the first thing they
+          open when starting their computer. What little "desktop" applications
+          they install are often built with Electron, which is just running a
+          browser engine without the browser
+          <abbr title="Chrome is an alternative term for UI">chrome</abbr>.
+        </p>
+
+        <p>Yet again, it's not remarkable that it played out like this:</p>
+
+        <blockquote
+          cite="//developers.slashdot.org/story/18/12/09/0941247/electron-and-the-decline-of-native-apps">
+          <p>
+            To paraphrase Churchill, Electron is the worst architecture for
+            desktop applications, except for all the other ones that have been
+            tried.
+          </p>
+        </blockquote>
+
+        <p>
+          My problem with the Web is that it's trying to be two very different
+          things--and failing at both:
+        </p>
+
+        <ul>
+          <li>
+            <p>
+              An <abbr title="Software Development Toolkit">SDK</abbr>, a
+              platform for developing and shipping applications. Javascript is
+              an absolutely <a href="//jsfuck.com">horrible</a>
+              <a
+                href="//old.reddit.com/r/AskProgramming/comments/lwc3gj/why_a_lot_of_software_engineers_say_javascript_is/"
+                >language</a
+              >. For many advanced applications, the JS bundle is so
+              big--looking at you, Google Earth, that the poor Chromebooks at
+              school straight up crash; the only way to bring them back to life
+              is a hard reboot. Furthermore,
+              <a href="//kryogenix.org/code/browser/everyonehasjs.html"
+                >not everyone can run Javascript</a
+              >. So far for compatibility.
+            </p>
+          </li>
+          <li>
+            <p>
+              A good document reader--don't tell me you think
+              <a href="/blog/love-hate">this nightmare fuel</a> is decent.
+            </p>
+          </li>
+        </ul>
+
+        <p>
+          The Web tries to be everything. It's a shopping centre, a workplace, a
+          cafe, a chatroom, a game engine. I just want it to be a good document
+          reader.
+        </p>
+
+        <p>
+          Building a single all-encompassing standard--an everything
+          protocol--was a mistake.
+        </p>
+
+        <p>
+          We have standalone protocols for those things, you know. We have FTP
+          and network shares for file sharing, IRC and XMPP for chatting, SMTP
+          and DMARC for email, and RSS for syndicating creative work to
+          audiences.
+        </p>
+
+        <p>
+          And if we don't have protocols for the things the Web is trying--and
+          failing--to do, maybe, just maybe, we should build them.
+        </p>
+
+        <footer>
+          <p>
+            Posted on
+            <a href="//roblog.nl/blog/web-sdk">
+              <time datetime="2024-05-27"> May 27, 2024 </time>
+            </a>
+          </p>
+
+          <p class="reply-by-email">
+            <a href="mailto:replies@roblog.nl">Reply by email</a>
+          </p>
+        </footer>
+      </article>
+    </main>
+
+    <footer>
+      Made with :love: in the Netherlands. Copying is an act of love. Please
+      copy.
+    </footer>
+  </body>
+</html>
