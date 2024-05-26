@@ -150,7 +150,11 @@ new() {
     export DATE_SHORT="$(date -d "$DATE" +"%Y-%m-%d")"
     export DATE_LONG="$(date -d "$DATE" +"%b %d, %Y")"
 
-    p:append_to_listing
+    if prompt -n "RSS only?"; then
+      export TYPE="post-rss-only"
+    else
+      p:append_to_listing
+    fi
   fi
 
   p:write "$TYPE.html"
