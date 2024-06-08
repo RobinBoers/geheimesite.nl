@@ -52,7 +52,7 @@ build() {
   bakery build $SRC $DIST
 
   # My canonical URLs are without the .html suffix.
-  sed -i 's/\.html//g' "$DIST/sitemap.xml"
+  sed -i '' 's/\.html//g' "$DIST/sitemap.xml"
 }
 
 mentions() {
