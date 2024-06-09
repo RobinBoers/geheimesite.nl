@@ -39,8 +39,7 @@ deploy() {
   if [ -d $DIST ]; then
     $DEPLOY $DIST/ $REMOTE:domains/$DOMAIN/public_html
   else
-    echo >&2 "Error: '$DIST' does not exist."
-    echo >&2
+    err "'$DIST' does not exist."
   fi
 }
 
