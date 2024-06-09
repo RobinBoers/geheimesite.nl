@@ -44,6 +44,7 @@ img {
   background-size: cover;
   shape-margin: 0.75em;
   user-select: none;
+  -webkit-user-select: none;
 }
 
 h1 a,
