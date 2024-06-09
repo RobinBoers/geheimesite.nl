@@ -8,7 +8,7 @@ body {
   padding: 7px;
 }
 
-@media (min-width: 1000px) {
+@media (width >= 1000px) {
   body {
     margin-left: 12.5%;
     margin-right: auto;
@@ -44,10 +44,9 @@ article footer {
   border-color: inherit;
   font-size: 0.9em;
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   justify-content: space-between;
   align-items: flex-start;
-  flex-wrap: wrap;
 }
 
 article footer:has(.rss-only) {
@@ -73,6 +72,7 @@ article footer p {
   margin-bottom: 0;
 }
 
+/* stylelint-disable declaration-block-no-duplicate-properties */
 article footer .reply-by-email a,
 a.button,
 input.button {
