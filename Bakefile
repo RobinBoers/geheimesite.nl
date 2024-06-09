@@ -106,21 +106,17 @@ clean() {
 }
 
 check() {
-  echo
-  echo "Running formatter"
-  $FORMAT --check $DIST
+  printf "Running formatter... "
+  $FORMAT --check $DIST --log-level warn && great
 
-  echo
-  echo "Running validators"
-  $VALIDATE --skip-non-html --also-check-css $DIST && echo "No issues."
+  printf "Running validators... "
+  $VALIDATE --skip-non-html $DIST && great
   
-  echo
-  echo "Running stylelint"
-  stylelint "$DIST/**/*.css" && echo "No issues."
+  printf "Running stylelint... "
+  stylelint "$SRC/**/*.css" && great
 
-  echo
-  echo "Running achecker"
-  achecker $DIST
+  printf "\nRunning achecker...\n"
+  achecker $DIST && great
 
   # BLOCKED: htmltest doesn't yet support pretty URLs like I have,
   # see https://github.com/wjdp/htmltest/issues/183
@@ -128,6 +124,13 @@ check() {
   # echo
   # echo "Running htmltest"
   # htmltest
+}
+
+great() {
+  GREEN="\033[1;32m"
+  CLEAR="\033[0m"
+
+  printf "${GREEN}no issues${CLEAR}\n"
 }
 
 new() {
