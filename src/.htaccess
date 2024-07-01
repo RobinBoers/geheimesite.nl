@@ -55,6 +55,10 @@ Redirect 301 /index-nl.xml /index.xml
 	Header set X-Frame-Options "deny"
 	Header set Cross-Origin-Opener-Policy "same-origin"
 
+	# War on the AI bots! Nuke 'em all!!
+	RewriteCond %{HTTP_USER_AGENT} (AdsBot-Google|Amazonbot|anthropic-ai|Applebot-Extended|Bytespider|CCBot|ChatGPT-User|ClaudeBot|Claude-Web|cohere-ai|Diffbot|FacebookBot|FriendlyCrawler|Google-Extended|GoogleOther|GPTBot|img2dataset|omgili|omgilibot|peer39_crawler|peer39_crawler/1.0|PerplexityBot|YouBot) [NC]
+	RewriteRule .* - [R=402,L]
+
 	# Remove branding
 	ServerSignature Off
 	Header unset X-Powered-By
