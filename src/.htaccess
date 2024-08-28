@@ -43,6 +43,9 @@ Redirect 302 /.well-known/caldav https://contacts.dupunkto.org/admin/axcelott/d0
 Redirect 301 /index-en.xml /index.xml
 Redirect 301 /index-nl.xml /index.xml
 
+# And images
+Redirect 302 /random.jpeg /me.jpeg
+
 # Preserve bandwidth for PHP enabled servers
 <IfModule mod_php4.c>
 	php_value zlib.output_compression 16386

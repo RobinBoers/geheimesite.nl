@@ -1,51 +1,188 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Colophon</title>
-    <link rel="canonical" href="https://roblog.nl/colophon" />
-  </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+    <!-- Google, please don't mess with my lovingly handcrafted HTML -->
+    <meta name="googlebot" content="notranslate">
+
+    <title>Colophon</title>
+    <link rel="stylesheet" href="/main.css">
+
+    <link rel="canonical" href="https://geheimesite.nl">
+    <link rel="webmention" href="https://api.geheimesite.nl/webmentions">
+    <link rel="pingback" href="https://webmention.io/webmention?forward=https://api.geheimesite.nl/webmentions">
+    <link rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/">
+
+    <link rel="me" href="https://git.dupunkto.org/~axcelott">
+    <link rel="me" href="https://github.com/RobinBoers">
+    <link rel="me" href="https://codeberg.org/RobinBoers">
+    <link rel="me" href="https://linkedin.com/in/robin-boers">
+    <link rel="me" href="https://axcelott.neocities.org">
+    <link rel="me" href="https://tilde.town/~axcelott">
+    <link rel="me" href="https://robijntje.itch.io">
+  </head>
   <body>
     <header>
       <nav>
-        <a href="/">:back: Back to the index</a>
+        <a href="/">← Back to the index</a>
       </nav>
     </header>
 
     <main>
       <h1>Colophon</h1>
 
-      <p>
-        This site was handcrafted using Neovim, the perfect hammer for an
-        imperfect world.
-      </p>
+      This site was handcrafted using Helix, the perfect hammer for an imperfect
+      world.
 
       <p>
         Everything on this site is released into the
         <a href="//stpeter.im/writings/essays/publicdomain.html">
-          public domain</a
-        >. The
+          public domain</a>. The
         <a href="//git.dupunkto.org/sites/roblog.nl">source code</a>
         is also publicly available and licensed AGPLv3.
       </p>
 
       <p>
-        I spent a lot of time and effort tweaking the server configuration. It
-        currently does compression, caching, CSP and a bunch of privacy-related
-        headers, because
-        <em>the modern web absolutely sucks by default</em>, and I prefer
-        visitors to not be tracked <em>by their own browsers</em>.
+        I built this majestic monolith with a beautiful mess of illegible shell
+        scripts and lovingly handcrafted HTML. It's basically my own SSG written
+        in pure Bash.
+      </p>
+
+      <h3>Bakefile</h3>
+
+      <p>
+        Bakefile is my Bash-based alternative for Makefile (you get it? make +
+        bash = bake :D). The Bakefile used to be giant, but I've since offloaded
+        most of the work to smaller, reusable programs in my
+        <code>~/bin</code> directory:
+      </p>
+
+      <ul>
+        <li>
+          <a href="//git.dupunkto.org/meta/dotfiles/tree/bin/bakery">
+            <code>bakery</code>
+          </a>
+        </li>
+        <li>
+          <a href="//git.dupunkto.org/meta/dotfiles/tree/bin/genmap">
+            <code>genmap</code>
+          </a>
+        </li>
+        <li>
+          <a href="//git.dupunkto.org/meta/dotfiles/tree/bin/genmap">
+            <code>genfeed</code>
+          </a>
+        </li>
+        <li>
+          <a href="//git.dupunkto.org/meta/dotfiles/tree/bin/genmap">
+            <code>optim</code>
+          </a>
+        </li>
+        <li>
+          <a href="//git.dupunkto.org/meta/dotfiles/tree/bin/genmap">
+            <code>shortc</code>
+          </a>
+        </li>
+      </ul>
+
+      <p>
+        To run a command from the Bakefile, you can simply source it in your
+        shell and run the appropriate subcommand:
+      </p>
+
+      <pre><code>source Bakefile<br>build</code></pre>
+
+      <p>
+        ...or you could use my program
+        <a href="//git.dupunkto.org/meta/dotfiles/tree/bin/bake">
+          <code>bake</code></a>, which does that for you&mdash;
+        along with a little more magic.
+      </p>
+
+      <h3>Pseudo HTML</h3>
+
+      <p>
+        I write in a pseudo HTML variant that I dubbed LowTML, which gets
+        converted into regular HTML by
+        <a href="//git.dupunkto.org/axcelott/lowc"><code>lowc</code></a>.
       </p>
 
       <p>
-        For a full breakdown of how my site was build, see
-        <a href="//github.com/RobinBoers/roblog.nl#readme">the README</a>.
+        This allows me to write in HTML (a great language), without having to
+        deal with HTML (a horribly, shitty language).
+      </p>
+
+      <p>
+        I also make heavy use of custom shortcodes, which get replaced with
+        their Unicode equivalents by
+        <a href="//git.dupunkto.org/meta/dotfiles/tree/bin/shortc">
+          <code>shortc</code></a>.
+      </p>
+
+      <h3>Other niceties</h3>
+
+      <p>
+        Images are automatically downscaled and
+        <a href="//git.dupunkto.org/meta/dotfiles/tree/bin/optim">compressed</a>
+        using <code>optipng</code> and <code>jpegoptim</code>.
+      </p>
+
+      <p>
+        There's a <code>bake dev</code> subcommand that runs the site on port
+        4000 with instant rebuilds when I change something&mdash;it's still a
+        bit buggy tho.
+      </p>
+
+      <p>
+        There's RSS and Atom feeds and a sitemap that use Git for last-modified
+        timestamps.
+      </p>
+
+      <p>
+        The stylesheet URL is automatically appended with <code>?v=SHA</code>,
+        for cachebusting.
+      </p>
+
+      <p>
+        There's pretty good linting, using
+        <a href="//stylelint.io/"><code>stylelint</code></a>, 
+        <a href="//git.dupunkto.org/forks/vnu"><code>vnu</code></a>
+        (HTML validator), and
+        <a href="//github.com/IBMa/equal-access"><code>achecker</code></a>. 
+        All files are formatted using <a href="//prettier.io"><code>prettier</code></a>.
+      </p>
+
+      <p>
+        The site can be redeployed without needing to
+        <code>git push</code> (which previously wasn't possible as I was using
+        GitHub Actions for deployments), because I'm building it locally and
+        then uploading it using <code>rsync</code>.
+      </p>
+
+      <p>
+        I use a very strict CSP that prohibits any JavaScript, as to not tempt
+        myself to use it too much. I also spent a ridiculous amount of time
+        tweaking the server configuration&mdash;it currently does compression,
+        caching, and sends a bunch of privacy-related headers, because
+        <em>the modern web absolutely sucks by default</em>, and I prefer my
+        visitors to not be tracked <em>by their own fucking browsers</em>.
       </p>
     </main>
 
     <footer>
-      Made with :love: in the Netherlands. Copying is an act of love. Please
-      copy.
+      <p>
+        ♡ Robin Boers 2024. All wrongs deserved.<br>
+        <small>Copying is an act of love. Love is not subject to law. Please copy and share.</small>
+        &mdash; <a href="//creativecommons.org/publicdomain/zero/1.0/">CC0</a>
+      </p>
+
+      <p>
+        <a href="/colofon">Colofon</a> · 
+        <a href="/netmap">Netmap</a>
+      </p>
     </footer>
   </body>
 </html>

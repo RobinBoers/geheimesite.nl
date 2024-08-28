@@ -1,285 +1,99 @@
-<!doctype html>
-<html lang="nl">
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Google, please don't mess with my lovingly handcrafted HTML -->
+    <meta name="googlebot" content="notranslate">
+
     <title>Webdesign</title>
-    <link rel="canonical" href="https://roblog.nl/webdesign" />
+    <link rel="stylesheet" href="/main.css">
+
+    <link rel="canonical" href="https://geheimesite.nl">
+    <link rel="webmention" href="https://api.geheimesite.nl/webmentions">
+    <link rel="pingback" href="https://webmention.io/webmention?forward=https://api.geheimesite.nl/webmentions">
+    <link rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/">
+
+    <link rel="me" href="https://git.dupunkto.org/~axcelott">
+    <link rel="me" href="https://github.com/RobinBoers">
+    <link rel="me" href="https://codeberg.org/RobinBoers">
+    <link rel="me" href="https://linkedin.com/in/robin-boers">
+    <link rel="me" href="https://axcelott.neocities.org">
+    <link rel="me" href="https://tilde.town/~axcelott">
+    <link rel="me" href="https://robijntje.itch.io">
 
     <style>
-      .h-entry {
-        margin-bottom: 30px;
+      section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4em;
+        width: 130%;
+        margin: 2em 0;
       }
+      section a {
+        flex: 1 1 400px;
+        margin: 0;
+        background-image: linear-gradient(to right, #951942, #673ab7);
+        transition: all 0.12s ease-out 0s;
+        opacity: 0.85;
 
-      .h-entry h2 {
-        margin-top: 0.5em;
-      }
+        &:hover {
+          opacity: 1;
+          background-image: none;
+        }
 
-      @media (min-width: 1250px) {
-        .h-entry {
-          display: grid;
-          grid-template-columns: 55% 500px;
-          gap: 1em;
-          grid-auto-flow: dense;
+        img {
+          mix-blend-mode: luminosity;
         }
       }
 
-      .h-entry img {
-        /* border: 2px solid #ddd;
-        filter: grayscale(1); */
-
-        border-radius: 5px;
-        box-shadow:
-          0 10px 15px -3px rgb(0 0 0/0.1),
-          0 4px 6px -4px rgb(0 0 0/0.1);
+      section img {
+        width: 100%;
+        aspect-ratio: 16/9;
+        object-fit: cover;
+        height: auto;
       }
     </style>
   </head>
   <body>
     <header>
       <nav>
-        <a href="/">:back: Back to the index</a>
+        <a href="/">← Back to the index</a>
       </nav>
     </header>
 
-    <main class="h-feed">
-      <h1 class="p-title">Webdesign</h1>
+    <main>
+      <h1>Webdesign</h1>
 
       <p>
-        I build website for people from time to time. Here's a few of them. All
-        of the people were happy. I think. Not everything lives up to my
-        personal standards, but oh well, people change (and learn--hopefully).
+        I build website for people from time to time. Here's a few of them. 
+        All of the people were happy. I think. Not everything lives up to my 
+        personal standards, but oh well&mdash;people change, and so do I.
       </p>
 
-      <section class="h-entry">
-        <div>
-          <h2 class="p-name">HVM Old's Cool</h2>
-          <p class="e-content p-summary">
-            Educational website for the
-            <a href="//histvermaassluis.nl">Historische Vereniging Maassluis</a
-            >. Includes pretty cool interactive examples.
-          </p>
-          <p>
-            <a href="//hvm-oldscool.nl" target="_blank" class="u-url">
-              hvm-oldscool.nl
-            </a>
-          </p>
-        </div>
-
-        <img
-          src="/images/websites/hvm-oldscool.png"
-          alt="Screenshot of HVM Old's Cool" />
-      </section>
-
-      <section class="h-entry">
-        <div>
-          <h2 class="p-name">De Groentemeester</h2>
-          <p class="e-content p-summary">
-            Landing page for my dad's
-            <abbr title="Community-supported agriculture">CSA</abbr>,
-            <i>de Groentemeester</i>.
-          </p>
-          <p>
-            <a href="//degroentemeester.nl" target="_blank" class="u-url">
-              degroentemeester.nl
-            </a>
-          </p>
-        </div>
-
-        <img
-          src="/images/websites/degroentemeester.png"
-          alt="Screenshot of De Groentemeester" />
-      </section>
-      <section class="h-entry">
-        <div>
-          <h2 class="p-name">Sterrenkruid</h2>
-          <p class="e-content p-summary">
-            My grandma's blog. She writes about astrology and churches, among
-            other things.
-          </p>
-          <p>
-            <a
-              href="//jokessterrenkruid.blogspot.com"
-              target="_blank"
-              class="u-url">
-              jokessterrenkruid.blogspot.com
-            </a>
-          </p>
-        </div>
-
-        <img
-          src="/images/websites/sterrenkruid.png"
-          alt="Screenshot of Sterrenkruid" />
-      </section>
-
-      <section class="h-entry">
-        <div>
-          <h2 class="p-name">Sharefox</h2>
-          <p class="e-content p-summary">
-            Sharefox is a service that I built at
-            <a href="//qdentity.nl">Qdentity</a>. It's a tool for exchanging
-            sensitive information, such as passwords, financial documents, API
-            keys and other confidential material. It has full end-to-end
-            encryption and supports textual messages, as well as uploading
-            files.
-          </p>
-          <p>
-            <a href="//sharefox.eu" target="_blank" class="u-url">
-              sharefox.eu
-            </a>
-          </p>
-        </div>
-
-        <img src="/images/websites/sharefox.png" alt="Screenshot of Sharefox" />
-      </section>
-
-      <section class="h-entry">
-        <div>
-          <h2 class="p-name">Streekproeverij Weij</h2>
-          <p class="e-content p-summary">
-            Landing page for Weij, an initiative by Tom and Joyce of Zwet, which
-            aims to realise a beatiful, lasting and social spot in Maasluis,
-            together.
-          </p>
-          <p>
-            <a href="//streekproeverijweij.nl" target="_blank" class="u-url">
-              streekproeverijweij.nl
-            </a>
-          </p>
-        </div>
-
-        <img
-          src="/images/websites/streekproeverij-weij.png"
-          alt="Screenshot of Streekproeverij Weij" />
-      </section>
-
-      <section class="h-entry">
-        <div>
-          <h2 class="p-name">Groendoenerij</h2>
-          <p class="e-content p-summary">
-            My father's company website. He's currently fully focussed on his
-            CSA, but he has also worked on planting gardens and transforming
-            schoolyards in the past.
-          </p>
-          <p>
-            <a href="//groendoenerij.nl" target="_blank" class="u-url">
-              groendoenerij.nl
-            </a>
-          </p>
-        </div>
-
-        <img
-          src="/images/websites/groendoenerij.png"
-          alt="Screenshot of Groendoenerij" />
-      </section>
-
-      <section class="h-entry">
-        <div>
-          <h2 class="p-name">Power Radio 010</h2>
-          <p class="e-content p-summary">
-            Website I built for a local Internet-radio station.
-          </p>
-          <p>
-            <a href="//powerradio010.nl" target="_blank" class="u-url">
-              powerradio010.nl
-            </a>
-          </p>
-        </div>
-
-        <img
-          src="/images/websites/powerradio010.png"
-          alt="Screenshot of Groendoenerij" />
-      </section>
-
-      <section class="h-entry">
-        <div>
-          <h2 class="p-name">Dagboek van een Grootmoeder</h2>
-          <p class="e-content p-summary">
-            Another one of my grandma's blogs. Here, she writes more casual
-            stories about life, trees and herbs.
-          </p>
-          <p>
-            <a
-              href="//grootmoedersdagboek.blogspot.com"
-              target="_blank"
-              class="u-url">
-              grootmoedersdagboek.blogspot.com
-            </a>
-          </p>
-        </div>
-
-        <img
-          src="/images/websites/grootmoedersdagboek.png"
-          alt="Screenshot of Dagboek van een Grootmoeder" />
-      </section>
-
-      <!--<section class="h-entry">
-        <div>
-          <h2 class="p-name">De Groene Jeroenen</h2>
-          <p class="e-content p-summary">
-            Company website for De Groene Jeroenen, who turn boring garden and monotone roadsides into natural green paradises with a great wealth of biotopes, native plants and animals.
-          </p>
-          <p>
-            <a
-              href="//degroenejeroenen.nl"
-              target="_blank"
-              class="u-url"
-            >
-              degroenejeroenen.nl
-            </a>
-          </p>
-        </div>
-
-        <img
-          src="/images/websites/groene-jeroenen.png"
-          alt="Screenshot of De Groene Jeroenen"
-        />
-      </section>-->
-
-      <section class="h-entry">
-        <div>
-          <h2 class="p-name">Duurzame Maassluizers</h2>
-          <p class="e-content p-summary">
-            News website for Duurzame Maassluizers, a residential group from
-            Maassluis, focussing on various themes related to sustainability.
-          </p>
-          <p>
-            <a href="//duurzamemaassluizers.nl" target="_blank" class="u-url">
-              duurzamemaassluizers.nl
-            </a>
-          </p>
-        </div>
-
-        <img
-          src="/images/websites/duurzame-maassluizers.png"
-          alt="Screenshot of Duurzame Maassluizers" />
-      </section>
-
-      <section class="h-entry">
-        <div>
-          <h2 class="p-name">Thesis Eveline Boers</h2>
-          <p class="e-content p-summary">
-            Website containing complimentary materials and summary videos
-            regarding my mom's PhD research.
-          </p>
-          <p>
-            <a
-              href="//thesisevelineboers.blogspot.com"
-              target="_blank"
-              class="u-url">
-              thesisevelineboers.blogspot.com
-            </a>
-          </p>
-        </div>
-
-        <img
-          src="/images/websites/thesis-eveline-boers.png"
-          alt="Screenshot of Thesis Eveline Boers" />
+      <section>
+        <a href="//hvm-oldscool.nl"><img src="https://roblog.nl/images/websites/hvm-oldscool.png"></a>
+        <a href="//degroentemeester.nl"><img src="https://roblog.nl/images/websites/degroentemeester.png"></a>
+        <a href="//jokessterrenkruid.blogspot.com"><img src="https://roblog.nl/images/websites/sterrenkruid.png"></a>
+        <a href="//weijstreekproeverij.nl"><img src="https://roblog.nl/images/websites/streekproeverij-weij.png"></a>
+        <a href="//powerradio010.nl"><img src="https://roblog.nl/images/websites/powerradio010.png"></a>
+        <a href="//sharefox.eu"><img src="https://roblog.nl/images/websites/sharefox.png"></a>
       </section>
     </main>
 
     <footer>
-      Gemaakt met :love: in Nederland. Copying is an act of love. Please copy.
+      <p>
+        ♡ Robin Boers 2024. All wrongs deserved.<br>
+        <small>Copying is an act of love. Love is not subject to law. Please copy and share.</small>
+        &mdash; <a href="//creativecommons.org/publicdomain/zero/1.0/">CC0</a>
+      </p>
 
-      <blockquote cite="https://minecraft.net">Now in 720p!</blockquote>
+      <p>
+        <a href="/colofon">Colofon</a> · 
+        <a href="/netmap">Netmap</a>
+      </p>
     </footer>
   </body>
 </html>

@@ -1,104 +1,55 @@
-@import url("base.css");
-
-/* Site-specific */
+@import url("https://roblog.nl/base.css");
 
 body {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 7px;
+  max-width: 930px;
+  margin-left: 12%;
+  padding: 15px;
 }
 
-@media (width >= 1000px) {
-  body {
-    margin-left: 12.5%;
-    margin-right: auto;
-    margin-top: 2em;
-  }
+.p-name {
+  font-family: "Playwrite AT", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.3em;
+  margin-top: 0.4em;
 }
 
-body > header nav a {
+.u-photo {
+  aspect-ratio: 7/8;
+  object-fit: cover;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+header {
+  margin-top: 2em;
+}
+
+header nav a {
   text-decoration: none;
   font-size: 0.8em;
 }
 
-body > footer {
-  margin: 2em 0;
-  opacity: 0.8;
-  font-size: 0.9em;
-}
-
-body > footer blockquote {
-  color: currentcolor;
-  padding: 0;
+h2 {
   border: none;
-  margin: 0.3em 0;
+  padding: 0;
 }
 
-body > footer blockquote a::after {
-  content: " ↗";
+main {
+  max-width: 75ch;
 }
 
-article footer {
-  margin: 2em 0;
-  border-top: 2px solid;
-  border-color: inherit;
-  font-size: 0.9em;
+aside {
+  float: left;
+  margin-right: 1.5em;
+  margin-bottom: 2em;
+  transform: rotateZ(-2deg);
+}
+
+footer {
+  clear: both;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
   align-items: flex-start;
-}
-
-article footer:has(.rss-only) {
-  border: 0;
-}
-
-article footer .rss-only {
-  background: #eee;
-  padding: 0.3em 0.6em;
-  border-radius: 2.5px;
-  font-size: 0.9em;
-  width: 100%;
-  margin: 0;
-}
-
-@media (prefers-color-scheme: dark) {
-  article footer .rss-only {
-    background-color: #444;
-  }
-}
-
-article footer p {
-  margin-bottom: 0;
-}
-
-/* stylelint-disable declaration-block-no-duplicate-properties */
-article footer .reply-by-email a,
-a.button,
-input.button {
-  text-decoration: none;
-  padding: 0.5em 1em;
-  background: black;
-  color: white;
-  background: CanvasText;
-  color: Canvas;
-}
-
-strong dfn,
-strong cite {
-  font-style: normal;
-}
-
-/* Printing */
-
-@media print {
-  body {
-    margin: 0;
-    width: 100%;
-  }
-
-  body > header,
-  article footer {
-    display: none !important;
-  }
+  justify-content: space-between;
 }

@@ -1,24 +1,33 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Google, please don't mess with my lovingly handcrafted HTML -->
+    <meta name="googlebot" content="notranslate">
+
     <title>Resumé</title>
-    <link rel="canonical" href="https://roblog.nl/resume" />
+    <link rel="stylesheet" href="/main.css">
 
-    <style>
-      body {
-        max-width: 75ch;
-      }
+    <link rel="canonical" href="https://geheimesite.nl">
+    <link rel="webmention" href="https://api.geheimesite.nl/webmentions">
+    <link rel="pingback" href="https://webmention.io/webmention?forward=https://api.geheimesite.nl/webmentions">
+    <link rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/">
 
-      h2 {
-        border: none;
-        padding: 0;
-      }
-    </style>
+    <link rel="me" href="https://git.dupunkto.org/~axcelott">
+    <link rel="me" href="https://github.com/RobinBoers">
+    <link rel="me" href="https://codeberg.org/RobinBoers">
+    <link rel="me" href="https://linkedin.com/in/robin-boers">
+    <link rel="me" href="https://axcelott.neocities.org">
+    <link rel="me" href="https://tilde.town/~axcelott">
+    <link rel="me" href="https://robijntje.itch.io">
   </head>
   <body>
     <header>
       <nav>
-        <a href="/">:back: Back to the index</a>
+        <a href="/">← Back to the index</a>
       </nav>
     </header>
 
@@ -26,27 +35,34 @@
       <h1>Robin Boers</h1>
 
       <p>
-        <strong>Developer & webdesigner</strong><br />
+        <strong>Elixir Developer & webdesigner</strong><br>
         <a href="mailto:hello@geheimesite.nl">hello@geheimesite.nl</a>
       </p>
 
       <h2>Technical skills</h2>
 
       <p>
-        I'm pretty good at building websites. I'm fluent in Elixir, HTML/CSS,
-        Javascript. I know a little PHP too. Additionally, I'm comfortable with
-        the UNIX commandline and git version control.
+        I'm pretty good at building websites. I know HTML/CSS, obviously. I'm also
+        fluent in Elixir and JavaScript, amd I know a little PHP and Python too. 
+        I generally prefer high-level functional programming languages without 
+        mutable references.
       </p>
 
       <p>
-        I also have experience with PostgreSQL, MySQL, Svelte, end-to-end
-        encryption, tailwindcss and deployment to Fly.io. These are just the
-        things I've used so far. I'm capable of picking up any technology and
-        learning it within a short time.
+        I'm comfortable on the UNIX commandline and with Git version control.
+        I also have experience with various flavours of SQL (mainly PostgresSQL at work 
+        and MySQL for hobby projects) and a few styling frameworks, of which I
+        liked TailwindCSS the best. I know a little Docker, but trust me, you don't
+        want me to deploy production-critical software without supervision.
+      </p>
+  
+      <p>
+        Overall, while I do have my own preferences and opinions,
+        I'm capable of picking up any technology and going with it.
       </p>
 
       <p>
-        I can work with WordPress, but I'd rather use a
+        And yes, I can work with WordPress, but I'd rather use a
         <a href="//en.wikipedia.org/wiki/Static_site_generator">
           Static Site Generator.
         </a>
@@ -64,7 +80,7 @@
         </thead>
         <tbody>
           <tr>
-            <td>Founder &amp; maintainer</td>
+            <td>Co-founder &amp; maintainer</td>
             <td>{du}punkto</td>
             <td>2023-Current</td>
           </tr>
@@ -77,13 +93,13 @@
       </table>
 
       <p>
-        At Qdentity, I worked with Elixir, Phoenix Framework and tailwindcss and
-        I built
-        <a href="//sharefox.eu">Sharefox</a> and some other internal APIs.
+        At Qdentity, I worked with Elixir, Phoenix LiveView and TailwindCSS and
+        I built <a href="//sharefox.eu">Sharefox</a> along with some other internal APIs.
+        Later, I also worked extensively on major parts and/or features of their CMS.
       </p>
 
       <p>
-        I also built <a href="/webdesign">websites</a> as independent
+        I also built <a href="webdesign.html">websites</a> as independent
         webdesigner for various people throughout the years.
       </p>
 
@@ -106,12 +122,29 @@
         </tbody>
       </table>
 
+      <p style="margin-top: 0.2em">
+        <small>Yup, that's not a lot, I know :)</small>
+      </p>
+
+      <p>
+        I'm still in consideration about what study I will do after high school. Feel free
+        to email me if you have suggestions.
+      </p>
+
       <h2>Languages</h2>
 
       <p>
         I speak both Dutch, which is my native language, as well as English,
-        which I learned through online interactions and a lot of Netflix (don't
-        worry, I also got courses at school of course ;)
+        which I learned through online interactions and a lot of Netflix
+        (and I also got courses at school of course ;)
+      </p>
+
+      <p>
+        My English is fairly decent in terms of grammar and general fluency, however,
+        I find my vocabulary to be disappointingly narrow, as it is primarily
+        computer-focused. So basically, I can talk for hours about anything related to UNIX, 
+        networking, cryptography, mathmatics, or related subjects, but I'll struggle to 
+        formulate even a single sentence if you ask me about my holiday.
       </p>
 
       <h2>Projects & Interests</h2>
@@ -129,8 +162,16 @@
     </main>
 
     <footer>
-      Made with :love: in the Netherlands. Copying is an act of love. Please
-      copy.
+      <p>
+        ♡ Robin Boers 2024. All wrongs deserved.<br>
+        <small>Copying is an act of love. Love is not subject to law. Please copy and share.</small>
+        &mdash; <a href="//creativecommons.org/publicdomain/zero/1.0/">CC0</a>
+      </p>
+
+      <p>
+        <a href="/colofon">Colofon</a> · 
+        <a href="/netmap">Netmap</a>
+      </p>
     </footer>
   </body>
 </html>

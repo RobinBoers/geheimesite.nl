@@ -1,252 +1,72 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Google, please don't mess with my lovingly handcrafted HTML -->
+    <meta name="googlebot" content="notranslate">
+
     <title>Robin (axcelott)</title>
-    <link rel="canonical" href="https://roblog.nl" />
+    <link rel="stylesheet" href="/main.css">
 
-    <meta
-      name="description"
-      content="Hi. I'm Robin, also known as Axcelott. 
-      This is my lil' corner of the Web." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
 
-    <link rel="icon" sizes="16x16" href="/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="16x16" href="/favicon.ico" />
+    <link rel="canonical" href="https://geheimesite.nl">
+    <link rel="webmention" href="https://api.geheimesite.nl/webmentions">
+    <link rel="pingback" href="https://webmention.io/webmention?forward=https://api.geheimesite.nl/webmentions">
+    <link rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/">
 
-    <link rel="me" href="https://dupunkto.org/~axcelott" />
-    <link rel="me" href="https://git.dupunkto.org/axcelott" />
-    <link rel="me" href="https://github.com/RobinBoers" />
-    <link rel="me" href="https://codeberg.org/RobinBoers" />
-    <link rel="me" href="https://www.linkedin.com/in/robin-boers-b18691229/" />
-    <link rel="me" href="https://robijntje.itch.io" />
-
-    <style>
-      h2 {
-        border: none;
-        padding: 0;
-      }
-
-      p {
-        max-width: 45ch;
-      }
-
-      body {
-        max-width: 70ch;
-      }
-
-      @media (min-width: 500px) {
-        body {
-          display: grid;
-          grid-template-columns: auto auto;
-        }
-
-        /* Only show jump link to bottom of screen on mobile & unstyled */
-        body p.jump {
-          display: none;
-        }
-
-        body > main {
-          grid-column: 1;
-          grid-row: 1;
-        }
-
-        body > nav {
-          margin-top: 1em;
-          text-align: right;
-          grid-column: 2;
-          grid-row: 1;
-        }
-
-        /* Make "Menu" label look like regular text */
-        body > nav summary h2 {
-          display: inline;
-          font-weight: normal;
-          font-size: 1em;
-        }
-      }
-
-      @media (max-width: 500px) {
-        /* Make "Menu" label look like heading */
-        body > nav summary h2 {
-          display: inline;
-        }
-        body > nav summary::marker {
-          font-size: 0;
-        }
-      }
-
-      body > nav ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-      }
-
-      body > footer {
-        grid-column-start: 1;
-        grid-column-end: 3;
-      }
-    </style>
+    <link rel="me" href="https://git.dupunkto.org/~axcelott">
+    <link rel="me" href="https://github.com/RobinBoers">
+    <link rel="me" href="https://codeberg.org/RobinBoers">
+    <link rel="me" href="https://linkedin.com/in/robin-boers">
+    <link rel="me" href="https://axcelott.neocities.org">
+    <link rel="me" href="https://tilde.town/~axcelott">
+    <link rel="me" href="https://robijntje.itch.io">
   </head>
   <body>
-    <p class="jump"><a href="#menu">Menu 🞃</a></p>
+    <aside class="h-card">
+      <img class="u-photo" src="/me.jpeg" alt="A random picture I decided I liked">
 
-    <main class="h-card">
-      <h1>Axcelott</h1>
+      <hgroup>
+        <h1 class="p-name">
+          <span class="p-given-name">Robin</span>
+          <span class="p-family-name">Boers</span>
+        </h1>
+  
+        <p>
+          <a class="u-url" href="//geheimesite.nl" rel="me">https://geheimesite.nl</a>
+        </p>
+      </hgroup>
+    </aside>
 
-      <p>
-        Hi, I'm <span class="p-name">Robin</span> (<span class="p-pronouns"
-          >he/him</span
-        >), also known as <i class="p-nickname">axcelott</i> online. I'm a
-        16-year-old teenager from the
-        <span class="p-country-name">Netherlands</span>. This is my little
-        corner of the vast internet.
-      </p>
+    <main>
+      <h1>Hi!</h1>
 
-      <h2>About me</h2>
-
-      <p>
-        I like anything *NIX or BSD, I'm a sucker for functional programming and
-        I enjoy listening to
-        <a
-          href="//open.spotify.com/track/4blPH3Uy89WnOnYlIv7Ev4?si=4acba8eb53a3402c">
-          some good music</a
-        >. I currently work at
-        <a href="//qdentity.nl" class="p-org">Qdentity</a> as
-        <span class="p-job-title">Junior Developer</span>.
-      </p>
+      <p>I'm a teenage developer from the Netherlands. I build pretty decent software.</p>
 
       <p>
-        I'm in 5VWO. I pretty sure that's year 12 for British people, and grade
-        10 for American folks. I think.
+        <a href="/resume">Resumé</a> ·
+        <a href="/webdesign">Webdesign</a> · 
+        <a href="//school.geheimesite.nl">School</a>
       </p>
-
-      <p>
-        Some random facts about me: I have a cat called Coco (who apparently has
-        an instagram profile:
-        <a href="//www.instagram.com/coconootje23/">@coconootje23</a>, go follow
-        him!). I absolutely love Belgian waffles (but stroopwafels are nice
-        too). I enjoy playing Minecraft. I'm very clumsy; I tend to
-        <a href="//manuelmoreale.com/the-beauty-of-broken-things">break</a>
-        things.
-      </p>
-
-      <p>
-        <a href="random.jpeg">Here's a random picture</a> I decided I liked :)
-      </p>
-
-      <h2 id="writing">Writing</h2>
-
-      <p>
-        I somewhat regularly post rants on
-        <a href="/blog">my blog</a>. Here's a little selection:
-      </p>
-
-      <p>
-        <t> <a href="/blog/gpt">The role of generative AI in writing</a></t
-        >, an essay about the ways we could and shoudn't use AI tooling in the
-        context of high schools.
-      </p>
-
-      <p>
-        <t>
-          <a href="/blog/0x10c">0x10<sup>c</sup></a> </t
-        >, where I explore ideas related to interactive end-user programming as
-        a game.
-      </p>
-
-      <p>
-        <t> <a href="/blog/web-sdk">The Web is the everything protocol</a></t
-        >, which expresses my frustrations with the state of the Web.
-      </p>
-
-      <p>
-        I also
-        <a
-          href="//www.linkedin.com/posts/somtoday_hoe-leuk-robin-boers-schreef-een-artikel-activity-6934511671432380416-TAed/">
-          got invited to Somtoday HQ
-        </a>
-        once, after I wrote a blogpost
-        <a
-          href="//blog.geheimesite.nl/post/somtoday-ziet-er-niet-uit-maar-we-kunnen-het-oplossen-met-css">
-          calling their UI ugly.
-        </a>
-      </p>
-
-      <h2 id="contact">Contact</h2>
-
-      <p>
-        You can reach me via IRC, I'm often hanging out on
-        <a href="//libera.chat">Libera</a>; my nick is <b>axcelott</b>. You can
-        also send me a friend request on Discord, my handle is
-        <b>Axcelott#9914</b>.
-      </p>
-
-      <p>
-        I absolutely hate social media, so I'm not on Snapchat, Instagram,
-        Twitter, TikTok or Facebook. You can
-        <a href="/rss">follow me via RSS</a> tho.
-      </p>
-
-      <p>
-        Alternatively, if your message is urgent (it isn't) you can also reach
-        me via email. I love a good conversation, so don't hesitate to shoot me
-        an email, I'll always reply. My address is below:
-      </p>
-
-      <p style="max-width: fit-content">
-        <code class="language-sh">
-          printf "%s@%s.%s\n" axcelott roblog nl
-        </code>
-      </p>
-
-      <p>Cheers!</p>
     </main>
 
-    <nav id="menu">
-      <details open>
-        <summary><h2>Menu</h2></summary>
-
-        <h3>writing</h3>
-
-        <ul>
-          <li><a href="/blog">Blog</a></li>
-          <li><a href="/now">Now</a></li>
-          <li><a href="/blogroll">Blogroll</a></li>
-          <li><a href="//school.geheimesite.nl">School</a></li>
-          <li><a href="/rss">Subscribe</a></li>
-        </ul>
-
-        <h3>work, art</h3>
-
-        <ul>
-          <li><a href="//git.dupunkto.org">Code</a></li>
-          <li><a href="/projects">Projects</a></li>
-          <li><a href="//dupunkto.org">{du}punkto</a></li>
-          <li><a href="/r/place">r/place</a></li>
-          <li><a href="/buttons">88 by 31</a></li>
-          <li><a href="/resume">Resumé</a></li>
-          <li><a href="/webdesign">Webdesign</a></li>
-        </ul>
-
-        <h3>meta</h3>
-
-        <ul>
-          <li><a href="/stability">Stability note</a></li>
-          <li><a href="/the-archives">The Archives</a></li>
-          <li><a href="/colophon">Colophon</a></li>
-          <li><a href="/netmap">Netmap</a></li>
-        </ul>
-      </details>
-    </nav>
-
     <footer>
-      Made with :love: in the Netherlands. Copying is an act of love. Please
-      copy.
+      <p>
+        ♡ Robin Boers 2024. All wrongs deserved.<br>
+        <small>Copying is an act of love. Love is not subject to law. Please copy and share.</small>
+        &mdash; <a href="//creativecommons.org/publicdomain/zero/1.0/">CC0</a>
+      </p>
 
-      <blockquote cite="https://youtube.com/watch?v=6avJHaC3C2U">
-        <a href="//yewtu.be/watch?v=6avJHaC3C2U" target="_blank">
-          Code is poetry
-        </a>
-      </blockquote>
+      <p>
+        <a href="/colofon">Colofon</a> · 
+        <a href="/netmap">Netmap</a>
+      </p>
     </footer>
   </body>
 </html>
