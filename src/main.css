@@ -7,9 +7,6 @@ body {
 }
 
 .p-name {
-  font-family: "Playwrite AT", cursive;
-  font-optical-sizing: auto;
-  font-style: normal;
   font-size: 1.3em;
   margin-top: 0.4em;
 }
@@ -42,12 +39,17 @@ main {
 
 aside {
   float: left;
-  margin-right: 1.5em;
   margin-bottom: 2em;
+  margin-right: 2em;
   transform: rotateZ(-2deg);
 }
 
+main {
+  float: left;
+}
+
 footer {
+  padding-top: 2em;
   clear: both;
   display: flex;
   align-items: flex-start;
