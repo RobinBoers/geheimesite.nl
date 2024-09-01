@@ -16,7 +16,9 @@ body {
   object-fit: cover;
   width: 300px;
   border-radius: 8px;
-  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  box-shadow:
+    0 10px 15px -3px rgb(0 0 0 / 10%),
+    0 4px 6px -4px rgb(0 0 0 / 10%);
 }
 
 header {
@@ -34,6 +36,7 @@ h2 {
 }
 
 main {
+  float: left;
   max-width: 75ch;
 }
 
@@ -42,10 +45,6 @@ aside {
   margin-bottom: 2em;
   margin-right: 2em;
   transform: rotateZ(-2deg);
-}
-
-main {
-  float: left;
 }
 
 footer {

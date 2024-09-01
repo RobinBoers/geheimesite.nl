@@ -1,6 +1,6 @@
 # I like the trailing slash. Fuck off.
 Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
-# I know articles are required to have a heading, but now all my articles have one. Sowwy!
+# I know articles are required to have a heading, but not all my articles have one. Sowwy!
 Article lacks heading. Consider using “h2”-“h6” elements to add identifying headings to all articles.
 # There's no parse errors, the validator is outdated (doesn't support :has)
 # Parse errors will be caugth by stylelint so it's okay
