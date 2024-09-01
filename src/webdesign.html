@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="/main.css" />
 
     <style>
-      section {
+      .grid {
         display: flex;
         flex-wrap: wrap;
         gap: 0.4em;
@@ -13,12 +13,12 @@
       }
 
       @media (min-width: 1200px) {
-        section {
+        .grid {
           width: 130%;
         }
       }
 
-      section a {
+      .grid a {
         flex: 1 0 250px;
         margin: 0;
         background-image: linear-gradient(to right, #951942, #673ab7);
@@ -35,7 +35,7 @@
         }
       }
 
-      section img {
+      .grid img {
         width: 100%;
         aspect-ratio: 16/9;
         object-fit: cover;
@@ -59,7 +59,7 @@
         personal standards, but oh well--people change, and so do I.
       </p>
 
-      <section>
+      <div class="grid">
         <a href="//hvm-oldscool.nl">
           <img
             src="/images/websites/hvm-oldscool.png"
@@ -90,7 +90,7 @@
             src="/images/websites/sharefox.png"
             alt="Screenshot of Sharefox" />
         </a>
-      </section>
+      </div>
     </main>
 
     <footer>
