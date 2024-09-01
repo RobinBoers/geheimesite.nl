@@ -40,17 +40,65 @@ main {
   max-width: 75ch;
 }
 
-aside {
+body > aside {
   float: left;
   margin-bottom: 2em;
   margin-right: 2em;
   transform: rotateZ(-2deg);
 }
 
-footer {
+body > footer {
   padding-top: 2em;
   clear: both;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+}
+
+/* Legacy blog posts */
+
+article footer {
+  margin: 2em 0;
+  border-top: 2px solid;
+  border-color: inherit;
+  font-size: 0.9em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+article footer:has(.rss-only) {
+  border: 0;
+}
+
+article footer .rss-only {
+  background: #eee;
+  padding: 0.3em 0.6em;
+  border-radius: 2.5px;
+  font-size: 0.9em;
+  width: 100%;
+  margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  article footer .rss-only {
+    background-color: #444;
+  }
+}
+
+article footer p {
+  margin-bottom: 0;
+}
+
+/* stylelint-disable declaration-block-no-duplicate-properties */
+article footer .reply-by-email a,
+a.button,
+input.button {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  background: black;
+  color: white;
+  background: CanvasText;
+  color: Canvas;
 }
