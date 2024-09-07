@@ -1,0 +1,14 @@
+This site was built with love in the Netherlands by me (Robin).
+
+However, I took a lot of inspiration from these people, both
+in coding the site, writing the contents and styling the site.
+
+Wesley (wesleyac.com)
+Drew (drewdevault.com)
+Seirdy (seirdy.one)
+Brad (bt.ht)
+Rek & Devine (100r.co)
+Matt (mat.tl)
+Ruben (rubenerd.com)
+
+Thanks to all of them.

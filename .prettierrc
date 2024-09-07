@@ -1,0 +1,7 @@
+{
+  "tabWidth": 2,
+  "singleQuote": false,
+  "bracketSameLine": true,
+  "proseWrap": "always",
+  "endOfLine": "lf"
+}

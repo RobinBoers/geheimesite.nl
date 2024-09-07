@@ -1,0 +1,53 @@
+RewriteOptions Inherit
+
+# CSP
+# Don't allow anything by default, but enable
+# images & stylesheets from same origin.
+#
+# I also do not allow other pages to embed my pages.
+#
+# `upgrade-insecure-requests` will auto enable HTTPS for
+# compliant browsers, while still serving over HTTP for older browsers
+# (like Lynx).
+# 
+# `sandbox` disables A LOT of things. I explicitly re-enable the 
+# things I need: 
+# - target=_blank (categorized popups) 
+# - Downloads 
+# - `allow-same-origin` makes some browser extensions work again.
+
+Header set Content-Security-Policy "default-src 'none'; img-src 'self'; media-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'; upgrade-insecure-requests; sandbox allow-popups allow-downloads;"
+
+# Allow one specific script in r/place.php
+<Files "place.php">
+  Header set Content-Security-Policy "default-src 'none'; img-src 'self'; media-src 'self'; script-src 'sha384-iDekUgLzyxmdF/VjLp3Eh8XdQMDov4wPe+wpYv+0psDbHRejM0AXlknJVp310CVX'; style-src 'self' 'unsafe-inline'; upgrade-insecure-requests;"
+</Files>
+
+Redirect 302 /.well-known/security.txt /security.txt
+
+# Cool URLs don't change
+Redirect 301 /index-en.xml /index.xml
+Redirect 301 /index-nl.xml /index.xml
+Redirect 301 /images/button.png /button.jpeg
+Redirect 301 /random.jpeg /me.jpeg
+
+# These have been moved
+RewriteRule blog/gpt /gpt [R=301,L]
+RewriteRule blog/0x10c /0x10c [R=301,L]
+
+# These have been archived
+RewriteRule ^blog/(.*)$ https://classic.geheimesite.nl/v/19/blog/$1 [R=301]
+
+# Lives at {du}punkto now
+Redirect 301 /rss https://dupunkto.org/rss
+Redirect 301 /blogroll https://obliviously.eu/blogroll
+
+# These now have their own domain
+Redirect 301 /netmap https://nm.geheimesite.nl
+Redirect 301 /the-archives https://classic.geheimesite.nl
+
+# Redirect feeds to Obliviously
+# Notice the 302. I'd like to have the option to change this in the future.
+Redirect 302 /index.xml https://obliviously.eu/rss.xml
+Redirect 302 /atom.xml https://obliviously.eu/atom.xml
+Redirect 302 /feed.json https://obliviously.eu/feed.json
