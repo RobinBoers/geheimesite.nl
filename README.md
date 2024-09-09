@@ -1,5 +1,10 @@
-# This website has moved (again)
+# geheimesite.nl
 
-I've moved this website back to its original domain, [geheimesite.nl](https://geheimesite.nl) again. Sowwy!
+This is the source tree for [geheimesite.nl](//geheimesite.nl), my personal
+website. It also hosted the source code for my (statically generated) blog for a
+while, but that has since been moved to
+[Untitled](//git.dupunkto.org/dupunkto/pubb), my unnamed neopub successor.
 
-The source code is still in this repository because I'm lazy and can't be bothered to move it. The blog is still online, just not public anymore. Consider it discontinued for now.
+The source code for my site is licensed AGPLv3. The contents are in the
+[public domain](//stpeter.im/writings/essays/publicdomain.html) in accordance to
+the CC0 1.0.
