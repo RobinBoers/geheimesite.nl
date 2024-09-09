@@ -1,0 +1,20 @@
+{
+  "name": "roblog.nl",
+  "author": "Axcelott",
+  "description": "Personal website",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git.dupunkto.org/sites/roblog.nl"
+  },
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "prettier": "^3.1.1",
+    "stylelint": "^16.3.1",
+    "stylelint-config-standard": "^36.0.0",
+    "accessibility-checker": "^3.1.68",
+    "vnu": "RobinBoers/vnu",
+    "smartypants": "RobinBoers/smartypants.js",
+    "webmention": "RobinBoers/wm"
+  }
+}

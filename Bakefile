@@ -1,0 +1,100 @@
+#!/bin/bash 
+
+required bakery
+required bun
+required pup
+required yq
+required gum
+required convert
+required optipng
+required jpegoptim
+
+SRC=src
+DIST=dist
+REMOTE=s11
+DOMAIN=geheimesite.nl
+INC=inc
+
+FORMAT="prettier --ignore-path .prettierignore"
+VALIDATE="vnu --exit-zero-always --filterfile .vnuignore"
+DEPLOY="rsync -ciavuP --delete --exclude canvas.json"
+
+# Bakery configuration
+export TITLE="Robin's amazing website"
+export BIO="Thoughts and opinions of a teenager from the Netherlands."
+export CANONICAL="$DOMAIN"
+export HEADER="$(cat $INC/head.html)"
+export LANGUAGE="en"
+export AUTHOR="Robin Boers"
+export EMAIL="webmaster@roblog.nl"
+export RIGHTS="Copying is an act of love. Please copy."
+export STYLESHEET="/main.css?v=$(md5sum $SRC/main.css | awk '{print $1}')"
+export FORMATTER="$FORMAT --write"
+
+setup() {
+  bun i
+}
+
+deploy() {
+  if [ -d $DIST ]; then
+    $DEPLOY $DIST/ $REMOTE:domains/$DOMAIN/public_html
+  else
+    err "'$DIST' does not exist."
+  fi
+}
+
+format() {
+  $FORMAT --write $SRC
+}
+
+build() {
+  bakery build $SRC $DIST
+
+  # My canonical URLs are without the .html suffix.
+  sed -i '' 's/\.html//g' "$DIST/sitemap.xml"
+}
+
+serve() {
+  cd $DIST
+  waiter --dev
+}
+
+dev() {
+  bakery watch $SRC $DIST &
+  trap "kill $!" SIGINT
+  mkdir -p $DIST && cd $DIST
+  waiter --dev
+}
+
+clean() {
+  rm -rf $DIST results
+  git restore-mtime >/dev/null
+}
+
+check() {
+  printf "Running formatter... "
+  $FORMAT --check $DIST --log-level warn && p:great
+
+  printf "Running validators... "
+  $VALIDATE --skip-non-html $DIST && p:great
+  
+  printf "Running stylelint... "
+  stylelint "$SRC/**/*.css" && p:great
+
+  printf "\nRunning achecker...\n"
+  achecker $DIST && p:great
+
+  # BLOCKED: htmltest doesn't yet support pretty URLs like I have,
+  # see https://github.com/wjdp/htmltest/issues/183
+
+  # echo
+  # echo "Running htmltest"
+  # htmltest
+}
+
+p:great() {
+  GREEN="\033[1;32m"
+  CLEAR="\033[0m"
+
+  printf "${GREEN}no issues${CLEAR}\n"
+}

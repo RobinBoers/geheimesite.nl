@@ -1,0 +1,104 @@
+@import url("/base.css");
+
+body {
+  max-width: 930px;
+  margin-left: 12%;
+  padding: 15px;
+}
+
+.p-name {
+  font-size: 1.3em;
+  margin-top: 0.4em;
+}
+
+.u-photo {
+  aspect-ratio: 7/8;
+  object-fit: cover;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow:
+    0 10px 15px -3px rgb(0 0 0 / 10%),
+    0 4px 6px -4px rgb(0 0 0 / 10%);
+}
+
+header {
+  margin-top: 2em;
+}
+
+header nav a {
+  text-decoration: none;
+  font-size: 0.8em;
+}
+
+h2 {
+  border: none;
+  padding: 0;
+}
+
+main {
+  float: left;
+  max-width: 75ch;
+}
+
+body > aside {
+  float: left;
+  margin-bottom: 2em;
+  margin-right: 2em;
+  transform: rotateZ(-2deg);
+}
+
+body > footer {
+  padding-top: 2em;
+  clear: both;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+/* Legacy blog posts */
+
+article footer {
+  margin: 2em 0;
+  border-top: 2px solid;
+  border-color: inherit;
+  font-size: 0.9em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+article footer:has(.rss-only) {
+  border: 0;
+}
+
+article footer .rss-only {
+  background: #eee;
+  padding: 0.3em 0.6em;
+  border-radius: 2.5px;
+  font-size: 0.9em;
+  width: 100%;
+  margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  article footer .rss-only {
+    background-color: #444;
+  }
+}
+
+article footer p {
+  margin-bottom: 0;
+}
+
+/* stylelint-disable declaration-block-no-duplicate-properties */
+article footer .reply-by-email a,
+a.button,
+input.button {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  background: black;
+  color: white;
+  background: CanvasText;
+  color: Canvas;
+}
