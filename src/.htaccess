@@ -1,154 +1,53 @@
-# Set default charset and language
-AddDefaultCharset UTF-8
-DefaultLanguage en-US
+RewriteOptions Inherit
 
-# Limit file uploads to 100K
-LimitRequestBody 102400
+# CSP
+# Don't allow anything by default, but enable
+# images & stylesheets from same origin.
+#
+# I also do not allow other pages to embed my pages.
+#
+# `upgrade-insecure-requests` will auto enable HTTPS for
+# compliant browsers, while still serving over HTTP for older browsers
+# (like Lynx).
+# 
+# `sandbox` disables A LOT of things. I explicitly re-enable the 
+# things I need: 
+# - target=_blank (categorized popups) 
+# - Downloads 
+# - `allow-same-origin` makes some browser extensions work again.
 
-<IfModule mod_rewrite.c>
-	RewriteEngine On
-	RewriteBase /
+Header set Content-Security-Policy "default-src 'none'; img-src 'self'; media-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'; upgrade-insecure-requests; sandbox allow-popups allow-downloads;"
 
-	# Fuck the www prefix!
-	RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
-	RewriteRule ^ %{REQUEST_SCHEME}://%1%{REQUEST_URI} [R=307,L]
+# Allow one specific script in r/place.php
+<Files "place.php">
+  Header set Content-Security-Policy "default-src 'none'; img-src 'self'; media-src 'self'; script-src 'sha384-iDekUgLzyxmdF/VjLp3Eh8XdQMDov4wPe+wpYv+0psDbHRejM0AXlknJVp310CVX'; style-src 'self' 'unsafe-inline'; upgrade-insecure-requests;"
+</Files>
 
-	# Force https (disabled, see 1mb.club)
-	#RewriteCond %{HTTPS} off 
-	#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-	# Pretty URLs
-	RewriteCond %{REQUEST_FILENAME} !-d
-	RewriteCond %{REQUEST_FILENAME}\.html -f
-	RewriteRule ^(.*)$ $1.html
-
-	RewriteCond %{REQUEST_FILENAME} !-d
-	RewriteCond %{REQUEST_FILENAME}\.php -f
-	RewriteRule ^(.*)$ $1.php
-
-	# Block access to all hidden files and directories except for the
-	# visible content from within the `/.well-known/` hidden directory.
-	RewriteCond %{REQUEST_URI} "!(^|/)\.well-known/([^./]+./?)+$" [NC]
-	RewriteCond %{SCRIPT_FILENAME} -d [OR]
-	RewriteCond %{SCRIPT_FILENAME} -f
-	RewriteRule "(^|/)\." - [F]
-</IfModule>
-
-# .well-known URIs
 Redirect 302 /.well-known/security.txt /security.txt
-Redirect 302 /.well-known/carddav https://contacts.dupunkto.org/admin/axcelott/d04048ab-e2e6-f5bd-1965-9794fe86a398/
-Redirect 302 /.well-known/caldav https://contacts.dupunkto.org/admin/axcelott/d04048ab-e2e6-f5bd-1965-9794fe86a398/
 
-# Old feed URLs
+# Cool URLs don't change
 Redirect 301 /index-en.xml /index.xml
 Redirect 301 /index-nl.xml /index.xml
+Redirect 301 /images/button.png /button.jpeg
+Redirect 301 /random.jpeg /me.jpeg
 
-# And images
-Redirect 302 /random.jpeg /me.jpeg
+# These have been moved
+RewriteRule blog/gpt /gpt [R=301,L]
+RewriteRule blog/0x10c /0x10c [R=301,L]
 
-# Preserve bandwidth for PHP enabled servers
-<IfModule mod_php4.c>
-	php_value zlib.output_compression 16386
-</IfModule>
+# These have been archived
+RewriteRule ^blog/(.*)$ https://classic.geheimesite.nl/v/19/blog/$1 [R=301]
 
-# Google, FLoC off! (and other privacy headers)
-<IfModule mod_headers.c>
-	Header set Referrer-Policy "no-referrer"
-	Header set X-Content-Type-Options "nosniff"
-	Header set X-Frame-Options "deny"
-	Header set Cross-Origin-Opener-Policy "same-origin"
+# Lives at {du}punkto now
+Redirect 301 /rss https://dupunkto.org/rss
+Redirect 301 /blogroll https://obliviously.eu/blogroll
 
-	# War on the AI bots! Nuke 'em all!!
-	RewriteCond %{HTTP_USER_AGENT} (AdsBot-Google|Amazonbot|anthropic-ai|Applebot-Extended|Bytespider|CCBot|ChatGPT-User|ClaudeBot|Claude-Web|cohere-ai|Diffbot|FacebookBot|FriendlyCrawler|Google-Extended|GoogleOther|GPTBot|img2dataset|omgili|omgilibot|peer39_crawler|peer39_crawler/1.0|PerplexityBot|YouBot) [NC]
-	RewriteRule .* - [R=402,L]
+# These now have their own domain
+Redirect 301 /netmap https://nm.geheimesite.nl
+Redirect 301 /the-archives https://classic.geheimesite.nl
 
-	# Remove branding
-	ServerSignature Off
-	Header unset X-Powered-By
-
-	# HSTS: Enable automatic HTTPS redirects for a year, including subdomains
-	Header set Strict-Transport-Security "max-age=31536000; includeSubDomains"
-
-	# CSP
-	# Don't allow anything by default, but enable
-	# images & stylesheets from same origin.
-	#
-	# I also do not allow other pages to embed my pages.
-	#
-	# `upgrade-insecure-requests` will auto enable HTTPS for
-	# compliant browsers, while still serving over HTTP for older browsers
-	# (like Lynx).
-	# 		
-  # `sandbox` disables A LOT of things. I explicitly re-enable the 		
-  # things I need: 		
-  # - target=_blank (categorized popups) 		
-  # - Downloads 		
-  # - `allow-same-origin` makes some browser extensions work again.
-
-  Header set Content-Security-Policy "default-src 'none'; img-src 'self'; media-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'; upgrade-insecure-requests; sandbox allow-popups allow-forms allow-downloads allow-same-origin;"
-
-	# Allow other sites to get content
-	# See https://ncase.me/nutshell/#CORSForWebDevs
-	Header set Access-Control-Allow-Origin "*"
-
-	# Allow one specific script in r/place.php
-	<Files "place.php">
-		Header set Content-Security-Policy "default-src 'none'; img-src 'self'; media-src 'self'; script-src 'sha384-iDekUgLzyxmdF/VjLp3Eh8XdQMDov4wPe+wpYv+0psDbHRejM0AXlknJVp310CVX'; style-src 'self' 'unsafe-inline'; upgrade-insecure-requests;"
-	</Files>
-</IfModule>
-
-# Follow symbolic links
-Options +FollowSymLinks
-
-# GZip compression
-<IfModule mod_deflate.c>
-	SetOutputFilter DEFLATE
-</IfModule>
-
-# Caching
-<IfModule mod_headers.c>
-	# Cache static assets and images ~forever (max value for max age)
-	<FilesMatch "\.(jpg|jpeg|png|webp|gif|svg|woff|woff2)$">
-		Header set Cache-Control "max-age=31536000, immutable"
-	</FilesMatch>
-
-	# Cache SS and JavaScript files for one week
-	<FilesMatch "\.(js|css)$">
-		Header set Cache-Control "max-age=604800, stale-while-revalidate"
-	</FilesMatch>
-
-	# Cache content for a day
-	<FilesMatch "\.(html|pdf|txt)$">
-		Header set Cache-Control "max-age=43200"
-	</FilesMatch>
-
-	# Explicitly disable caching for scripts and other dynamic files
-	<FilesMatch "\.(pl|cgi|spl|scgi|fcgi|php)$">
-		Header set Cache-Control "no-cache"
-		Header unset Expires
-	</FilesMatch>
-</IfModule>
-
-# Serve correct mime types
-<IfModule mod_mime.c>
-	AddType application/atom+xml                        atom
-	AddType application/json                            json map topojson
-	AddType application/ld+json                         jsonld
-	AddType application/rss+xml                         rss
-	AddType application/geo+json                        geojson
-	AddType application/rdf+xml                         rdf
-	AddType application/xml                             xml opml
-	AddType text/vcard                                  vcard vcf
-	AddType text/calendar                               ics
-	AddType text/markdown                               markdown md
-	AddType application/wasm                            wasm
-	AddType image/x-icon                                cur ico
-	AddType application/manifest+json                   webmanifest
-	AddType application/x-web-app-manifest+json         webapp
-	AddType text/cache-manifest                         appcache
-
-	# Servers should use text/javascript for JavaScript resources.
-	# https://html.spec.whatwg.org/multipage/scripting.html#scriptingLanguages
-
-	AddType text/javascript                             js mjs
-</IfModule>
+# Redirect feeds to Obliviously
+# Notice the 302. I'd like to have the option to change this in the future.
+Redirect 302 /index.xml https://obliviously.eu/rss.xml
+Redirect 302 /atom.xml https://obliviously.eu/atom.xml
+Redirect 302 /feed.json https://obliviously.eu/feed.json

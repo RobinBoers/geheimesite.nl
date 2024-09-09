@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Interactive end-user programming in 0x10c</title>
+    <link rel="canonical" href="https://geheimesite.nl/0x10c" />
+
+    <style>
+      html {
+        color-scheme: light dark;
+        font-size: clamp(0.9rem, 2vw, 1.2rem);
+        line-height: 1.5;
+        font-family: serif;
+      }
+
+      body,
+      html {
+        box-sizing: border-box;
+        height: fit-content;
+        scrollbar-gutter: stable;
+      }
+
+      *,
+      ::before,
+      ::after {
+        box-sizing: inherit;
+        border-color: light-dark(#ccc, #444);
+        text-decoration-color: light-dark(#aaa, #888);
+      }
+
+      a {
+        color: currentcolor;
+      }
+
+      a:hover {
+        opacity: 0.8;
+      }
+
+      body {
+        max-width: 794px;
+        margin: 0 auto;
+        margin-top: 0;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 7px;
+      }
+
+      @media (width >= 1000px) {
+        body {
+          margin-left: 12.5%;
+          margin-right: auto;
+          margin-top: 2em;
+        }
+      }
+
+      figcaption,
+      table caption,
+      blockquote {
+        color: light-dark(#666, #999);
+      }
+
+      blockquote {
+        font-style: italic;
+        border-left: 2px solid;
+        padding-left: 1.2em;
+        margin: auto 0;
+        border-color: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Interactive end-user programming in 0x10<sup>c</sup></h1>
+
+    <p>
+      It has been a few years since I learned about
+      <a href="//yewtu.be/watch?v=O1aCbbeFN7E">0x10<sup>c</sup></a>
+      (pronounced "ten to the c") in a documentary about Notch, the creator of
+      Minecraft. It's the game he built after he stepped down from his role as
+      lead developer of Minecraft&mdash;Minecraft's unfinished sequel.
+    </p>
+
+    <p>
+      0x10<sup>c</sup> was supposed to be a space-themed sandbox game. It takes
+      place around 281,474,976,710,656 AD, which is (you guessed it) 0x10<sup
+        >c</sup
+      >
+      in hexidecimal notation. The game's backstory, as told by Notch on the
+      blog, was this:
+    </p>
+
+    <blockquote>
+      <p>
+        In a parallel universe where the space race never ended, space travel
+        was gaining popularity amongst corporations and rich individuals.
+      </p>
+
+      <p>
+        In 1988, a brand new deep sleep cell was released, compatible with all
+        popular 16 bit computers. Unfortunately, it used big endian, whereas the
+        DCPU-16 specifications called for little endian. This led to a severe
+        bug in the included drivers, causing a requested sleep of 0x0000 0000
+        0000 0001 years to last for 0x0001 0000 0000 0000 years.
+      </p>
+
+      <p>
+        It's now the year 281 474 976 712 644 AD, and the first lost people are
+        starting to wake up to a universe on the brink of extinction, with all
+        remote galaxies forever lost to red shift, star formation long since
+        ended, and massive black holes dominating the galaxy.
+      </p>
+    </blockquote>
+
+    <p>
+      Among other things, the game featured an emulated 16-bit computer named
+      DCPU-16 that players could use to interact with their spaceship in various
+      ways, and they could even extend the game with self-written programs.
+    </p>
+
+    <p>
+      I think that's such a neat idea: a programmable environment inside of the
+      game. I've been thinking about a game with a similar in-game virtual
+      machine. The game would be written
+      <em>in</em> that very virtual machine, and exposed to the player, so that
+      the player can interact with and change the game as the please, while they
+      play. Full control over the mechanics and environment of game with live
+      feedback; it opens up so many possibilities for interesting gameplay.
+    </p>
+
+    <p>
+      Think of it like <a href="/v/19//sonic-pi.net">Sonic Pi</a>, but instead
+      of composing live music, you adapt your surroundings and
+      <em>the literal laws of physics</em>. Creating gameplay and solving
+      challenges by adapting the rules of the game. The game doesn't guide the
+      player, but the player has full control over the game.
+    </p>
+
+    <p>
+      Unfortunately Notch abandoned 0x10<sup>c</sup>, he never finished or
+      released it. I don't know if this is how it was supposed to work. There's
+      very little known about the game&mdash;a lot of rumors and a few videos is
+      all we have left. But I can't get this idea out of my head.
+      <em>One day I'll make this game a reality.</em>
+    </p>
+
+    <footer>
+      <p style="text-align: right">
+        <small>
+          <i>Posted on <time datetime="2024-03-29">Mar 29, 2024</time></i>
+        </small>
+      </p>
+    </footer>
+  </body>
+</html>

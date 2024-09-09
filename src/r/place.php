@@ -5,8 +5,10 @@
 # Written by Axcelott—Unlicensed.
 #
 
-$dimensions = 20;
-$default_color = "#ffffff";
+define('DIMENSIONS', 20);
+define('CANVAS_COLOR', "#ffffff");
+define('PENCIL_COLOR', "#000000");
+
 $store = "canvas.json";
 
 if(!file_exists($store)) {
@@ -26,12 +28,11 @@ if(isset($_POST["x"]) && isset($_POST["y"]) && isset($_POST["c"])) {
 }
 
 function initialize_canvas() {
-  global $dimensions, $default_color;
   $canvas = [];
 
-  for($x = 0; $x < $dimensions; $x++) {
-    for($y = 0; $y < $dimensions; $y++) {
-      $canvas[$x][$y] = $default_color;
+  for($x = 0; $x < DIMENSIONS; $x++) {
+    for($y = 0; $y < DIMENSIONS; $y++) {
+      $canvas[$x][$y] = CANVAS_COLOR;
     }
   }
 
@@ -57,13 +58,13 @@ function save_canvas($canvas) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>r/place</title>
-
-    <meta name="color-scheme" content="dark light">
+    <link rel="canonical" href="https://geheimesite.nl/r/place" />
 
     <style>
       body,
       html {
         box-sizing: border-box;
+        color-scheme: light dark;
       }
 
       *,
@@ -133,7 +134,7 @@ function save_canvas($canvas) {
       <form action="<?= $_SERVER['REQUEST_URI'] ?>" method="post">
         <input type="hidden" name="x">
         <input type="hidden" name="y">
-        <input type="color" name="c" value="<?= $_POST["c"] ?? $default_color ?>">
+        <input type="color" name="c" value="<?= $_POST["c"] ?? PENCIL_COLOR ?>">
       </form>
     </header>
 
