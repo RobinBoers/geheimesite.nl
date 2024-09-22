@@ -34,19 +34,11 @@
 
       body {
         font-size: 1.05rem;
-        max-width: calc(60ch + 20px);
-        margin: 0 auto;
+        max-width: calc(62ch + 20px);
+        margin-left: 20px;
         padding: 10px;
-      }
-
-      .u-photo {
-        max-width: 60%;
-        aspect-ratio: 2;
-        width: 100%;
-        height: auto;
-        object-fit: cover;
-        object-position: top;
-        margin-left: 2%;
+        font-family: Inter;
+        font-family: "Victor Mono", "Inter", sans-serif;
       }
 
       cite {
@@ -56,6 +48,57 @@
       footer {
         opacity: 0.7;
         padding-top: 1em;
+
+        a {
+          font-style: normal;
+        }
+      }
+
+      a {
+        font-style: italic;
+        text-decoration: none;
+        font-weight: 300;
+      }
+
+      li a {
+        /* color: light-dark(#3f51b5, #8d9eff); */
+      }
+
+      ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+      }
+
+      li {
+        margin-bottom: 0.5em;
+      }
+
+      li a + span {
+        padding-left: 0.15em;
+      }
+
+      nav ul li .icon {
+        margin-right: 0.2em;
+        filter: grayscale();
+      }
+
+      h2 {
+        font-size: 1em;
+        margin: 0;
+        padding: 0;
+        border: none;
+        margin-top: 2em;
+        margin-bottom: 0.5em;
+      }
+
+      .bio {
+        margin-top: 2em;
+
+        * {
+          display: inline;
+          font-size: 1em;
+        }
       }
 
       nav {
@@ -63,19 +106,10 @@
         margin-left: 1.5em;
       }
 
-      nav ul {
-        padding: 0;
-        margin: 0;
-        list-style: none;
-      }
-
-      nav ul li .icon {
-        margin-right: 0.2em;
-      }
-
       @media (min-width: 530px) {
         nav {
-          margin-top: 1.5em;
+          margin-right: -200px;
+          width: 140px;
           display: block;
         }
       }
@@ -83,7 +117,7 @@
   </head>
   <body class="h-card">
     <nav hidden>
-      <h3>Elsewhere</h3>
+      <h2>Elsewhere</h2>
 
       <ul>
         <li>
@@ -136,84 +170,68 @@
         </li>
       </ul>
     </nav>
-    <hgroup>
+
+    <div class="bio">
       <h1 class="p-name">
         <span class="p-given-name">Robin</span>
-        <span class="p-family-name">Boers</span>
+        <span class="p-family-name">Boers</span>.
       </h1>
-
-      <p>
-        <span class="p-job-title">Junior Developer</span> @
-        <span class="p-org h-card">
-          <a class="p-name u-url" href="//qdentity.nl">Qdentity</a>
-        </span>
+      <p class="p-note">
+        I'm a teenage developer. I write pretty decent software.
       </p>
-    </hgroup>
+    </div>
 
-    <img class="u-photo" src="/me.jpeg" alt="A picture I decided I liked" />
+    <!-- <p>
+      <span class="p-job-title">Junior Developer</span> @
+      <span class="p-org h-card">
+        <a class="p-name u-url" href="//qdentity.nl">Qdentity</a>
+      </span>
+    </p> -->
 
-    <p class="p-note">
-      I'm a teenage developer. I build pretty decent software.
+    <p>
+      <a class="u-email" href="mailto:axcelott@roblog.nl">contact</a>  · 
+      <a href="/stability">website stability note</a>
     </p>
 
-    <p style="padding-left: 40px">
-      <a class="u-email" href="mailto:axcelott@roblog.nl">axcelott@roblog.nl</a>
-      <br />
-      <a class="u-url" href="//obliviously.eu">@axcelott@obliviously.eu</a>
-      <br /><br />
-    </p>
-
-    <small>(see <a href="/stability">website stability note</a>)</small>
-
-    <h3>Writing</h3>
+    <h2>Writing</h2>
 
     <ul>
       <li>
-        <a href="/stemrecht" hreflang="nl">
-          <cite lang="nl">Stemrecht voor jongeren</cite>
+        <a href="/stemrecht" hreflang="nl" lang="nl">
+          Stemrecht voor jongeren
         </a>
       </li>
       <li>
-        <a href="/nepnieuws" hreflang="nl">
-          <cite lang="nl">
-            Hoe werkt nepnieuws en wat kan er tegen gedaan worden?
-          </cite>
+        <a href="/nepnieuws" hreflang="nl" lang="nl">
+          Hoe werkt nepnieuws en wat kan er tegen gedaan worden?
         </a>
       </li>
       <li>
-        <a href="/cryptobros" hreflang="nl">
-          <cite lang="nl">
-            In de ban van de Bitcoin: een beschrijving van cryptobros als
-            subcultuur
-          </cite>
+        <a href="/cryptobros" hreflang="nl" lang="nl">
+          In de ban van de Bitcoin: een beschrijving van cryptobros als
+          subcultuur
         </a>
       </li>
       <li>
-        <a href="/gpt">
-          <cite>The role of generative AI in writing</cite>
-        </a>
+        <a href="/gpt">The role of generative AI in writing</a>
       </li>
       <li>
-        <a href="/0x10c">
-          <cite>Interactive end-user programming inspired by 0x10c</cite>
-        </a>
+        <a href="/0x10c">Interactive end-user programming in 0x10c</a>
       </li>
       <li>
         <a href="/morality">
-          <cite>
-            What 19th-century literature can teach us about modern morality and
-            ethics
-          </cite>
+          What 19th-century literature can teach us about modern morality and
+          ethics
         </a>
       </li>
     </ul>
 
-    <h3>Speaking</h3>
+    <h2>Speaking</h2>
 
     <ul>
       <li>
         <cite>
-          Cryptobros: een heel goede, prachtige, fantastische analyse
+          Cryptobros: een heel goede en prachtige en fantastische analyse
         </cite>
         (<a href="cryptobros.pdf" hreflang="nl">slides</a>)
       </li>
@@ -223,53 +241,67 @@
       </li>
     </ul>
 
-    <h3>Projects</h3>
+    <h2>Projects</h2>
 
     <ul>
       <li>
-        <a href="//git.dupunkto.org/~axcelott/signo">Signo</a>, an experimental
-        compiler for a Lisp-inspired language, written in Elixir.
+        <a href="//git.dupunkto.org/~axcelott/signo">Signo</a>
+        <span>
+          Experimental compiler for a Lisp-inspired language, written in Elixir.
+        </span>
       </li>
       <li>
-        <a href="//git.dupunkto.org/~dupunkto/pubb">Untitled</a>, a
-        yet-to-be-named project that explores ways to blend websites, social
-        media and collaboration on the Web, by implementing an
-        <a href="//gilest.org/indie-easy.html">easy-to-use</a> website engine
-        powered by various open standards.
+        <a href="//git.dupunkto.org/~dupunkto/pubb">Untitled</a>
+        <span>
+          Explores ways to blend websites, social media and collaboration on the
+          Web, by implementing an
+          <a href="//gilest.org/indie-easy.html">easy-to-use</a> website engine
+          powered by various open standards.
+        </span>
       </li>
       <li>
-        <a href="//git.dupunkto.org/~dupunkto/gitz">Gitz</a>, an awesome Git
-        frontend written in PHP.
+        <a href="//git.dupunkto.org/~dupunkto/gitz">Gitz</a>
+        <span>Awesome Git frontend written in PHP.</span>
       </li>
       <li>
-        <a href="//git.dupunkto.org/~dupunkto/oblikvo">Oblikvo</a>, a
-        browser-based 3D first-person shooter with old school graphics and
-        multiplayer support.
+        <a href="//git.dupunkto.org/~dupunkto/oblikvo">Oblikvo</a>
+        <span>
+          Browser-based 3D first-person shooter with old school graphics and
+          multiplayer support.
+        </span>
       </li>
       <li>
-        <a href="//git.dupunkto.org/~axcelott/hotfox">HotFox</a>, a browser
-        extension for Firefox that detects RSS feeds and allows you to subscribe
-        to them. (<a
-          href="//addons.mozilla.org/en-US/firefox/addon/hotfox-for-rss/"
-          >download</a
-        >)
+        <a href="//git.dupunkto.org/~axcelott/hotfox">HotFox</a>
+        <span>
+          Browser extension for Firefox that detects RSS feeds and allows you to
+          subscribe to them. (<a
+            href="//addons.mozilla.org/en-US/firefox/addon/hotfox-for-rss/"
+            >download</a
+          >)
+        </span>
       </li>
     </ul>
 
-    <h3>Fun stuffz</h3>
+    <h2>Fun stuffz</h2>
 
     <ul>
       <li>
-        <a href="/r/place">rplace</a>, an r/place clone written in ~200 lines of
-        PHP.
+        <a href="/r/place">rplace</a>
+        <span>An r/place clone written in ~200 lines of PHP.</span>
       </li>
       <li>
-        <a href="/js0.23">js0.23-improved</a>, a modded fork of
-        <a href="//classic.minecraft.net">classic.minecraft.net</a>.
+        <a href="/js0.23">js0.23-improved</a>
+        <span>
+          Modded fork of
+          <a href="//classic.minecraft.net">classic.minecraft.net</a>.
+        </span>
       </li>
       <li>
-        <a href="/buttons">88 by 31</a>, a beautifully chaotic collection of
-        oldschool 88x31 buttons&mdash;the true friendship bracelets of the Web.
+        <a href="/buttons">88 by 31</a>
+        <span>
+          Beautifully chaotic collection of oldschool 88x31 buttons&mdash;the
+          true friendship bracelets of the Web.
+        </span>
       </li>
     </ul>
 
