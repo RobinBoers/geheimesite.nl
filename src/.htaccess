@@ -29,8 +29,12 @@ Redirect 302 /.well-known/security.txt /security.txt
 Redirect 301 /index-en.xml /index.xml
 Redirect 301 /index-nl.xml /index.xml
 Redirect 301 /images/button.png /button.jpeg
-Redirect 301 /assets/images/me.jpeg /me.jpg
+Redirect 301 /images/me.jpeg /me.jpeg
+Redirect 301 /assets/images/me.jpeg /me.jpeg
 Redirect 301 /random.jpeg /me.jpeg
+
+# Actually, use my Obliviously picture instead.
+Redirect 302 /me.jpeg https://obliviously.eu/uploads/48e6a52868e7d0bcae77aa5b853ed807.jpg
 
 # These have been moved
 RewriteRule blog/gpt /gpt [R=301,L]
