@@ -29,6 +29,7 @@ Redirect 302 /.well-known/security.txt /security.txt
 Redirect 301 /index-en.xml /index.xml
 Redirect 301 /index-nl.xml /index.xml
 Redirect 301 /images/button.png /button.jpeg
+Redirect 301 /assets/images/me.jpeg /me.jpg
 Redirect 301 /random.jpeg /me.jpeg
 
 # These have been moved
@@ -40,6 +41,7 @@ RewriteRule ^blog/(.*)$ https://classic.geheimesite.nl/v/19/blog/$1 [R=301]
 
 # Lives at {du}punkto now
 Redirect 301 /rss https://dupunkto.org/rss
+Redirect 301 /now https://obliviously.eu/now
 Redirect 301 /blogroll https://obliviously.eu/blogroll
 
 # These now have their own domain
