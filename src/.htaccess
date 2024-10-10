@@ -20,7 +20,7 @@ Header set Content-Security-Policy "default-src 'none'; img-src 'self'; media-sr
 
 # Allow one specific script in r/place.php
 <Files "place.php">
-  Header set Content-Security-Policy "default-src 'none'; img-src 'self'; media-src 'self'; script-src 'sha384-iDekUgLzyxmdF/VjLp3Eh8XdQMDov4wPe+wpYv+0psDbHRejM0AXlknJVp310CVX'; style-src 'self' 'unsafe-inline'; upgrade-insecure-requests;"
+  Header set Content-Security-Policy "default-src 'none'; img-src 'self'; media-src 'self'; script-src 'sha384-Xp9m3tNyYpNlfa7sbaw319ahKuJnDh/8rDv4ojszT+9Yz6zeme52S5+XJv84GVwh'; style-src 'self' 'unsafe-inline'; upgrade-insecure-requests;"
 </Files>
 
 Redirect 302 /.well-known/security.txt /security.txt

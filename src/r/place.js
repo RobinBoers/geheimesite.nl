@@ -6,7 +6,7 @@
 
 console.log("IT WORKS :)");
 
-const cooldown = 10;
+const cooldown = 3;
 
 const display = document.querySelector(".cooldown");
 const pixels = document.querySelectorAll("td");

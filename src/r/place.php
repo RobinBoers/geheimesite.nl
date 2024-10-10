@@ -155,7 +155,7 @@ function save_canvas($canvas) {
       </table>
     </main>
 
-    <script src="/r/place.js" integrity="sha384-iDekUgLzyxmdF/VjLp3Eh8XdQMDov4wPe+wpYv+0psDbHRejM0AXlknJVp310CVX" crossorigin="anonymous"></script>
+    <script src="/r/place.js" integrity="sha384-Xp9m3tNyYpNlfa7sbaw319ahKuJnDh/8rDv4ojszT+9Yz6zeme52S5+XJv84GVwh" crossorigin="anonymous"></script>
 
     <footer>
       <p>
