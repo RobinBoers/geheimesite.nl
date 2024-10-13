@@ -30,6 +30,7 @@ Redirect 301 /index-en.xml /index.xml
 Redirect 301 /index-nl.xml /index.xml
 Redirect 301 /images/button.png /button.jpeg
 Redirect 301 /images/me.jpeg /me.jpeg
+Redirect 301 /images/profile.JPG /me.jpeg
 Redirect 301 /assets/images/me.jpeg /me.jpeg
 Redirect 301 /random.jpeg /me.jpeg
 
