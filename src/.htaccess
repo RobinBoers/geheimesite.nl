@@ -44,7 +44,7 @@ RewriteRule blog/0x10c /0x10c [R=301,L]
 # These have been archived
 RewriteRule ^blog/(.*)$ https://classic.geheimesite.nl/v/19/blog/$1 [R=301]
 
-# Lives at {du}punkto now
+# Lives at {du}punkto or Obliviously now
 Redirect 301 /rss https://dupunkto.org/rss
 Redirect 301 /now https://obliviously.eu/now
 Redirect 301 /blogroll https://obliviously.eu/blogroll
@@ -52,6 +52,9 @@ Redirect 301 /blogroll https://obliviously.eu/blogroll
 # These now have their own domain
 Redirect 301 /netmap https://nm.geheimesite.nl
 Redirect 301 /the-archives https://classic.geheimesite.nl
+
+# Quite effective spam protection
+Redirect 302 /contact mailto:axcelott@roblog.nl
 
 # Redirect feeds to Obliviously
 # Notice the 302. I'd like to have the option to change this in the future.
