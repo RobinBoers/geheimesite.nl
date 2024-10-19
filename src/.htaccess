@@ -16,7 +16,7 @@ RewriteOptions Inherit
 # - Downloads 
 # - `allow-same-origin` makes some browser extensions work again.
 
-Header set Content-Security-Policy "default-src 'none'; img-src 'self'; media-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'; upgrade-insecure-requests; sandbox allow-popups allow-downloads;"
+Header set Content-Security-Policy "default-src 'none'; img-src 'self' https://classic.geheimesite.nl http://classic.geheimesite.nl; media-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'; upgrade-insecure-requests; sandbox allow-popups allow-downloads;"
 
 # Allow one specific script in r/place.php
 <Files "place.php">
