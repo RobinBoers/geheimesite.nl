@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Webdesign</title>
+    <link rel="canonical" href="https://geheimesite.nl/webdesign" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lustria&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+    <style>
+      :root {
+        color-scheme: light dark;
+      }
+
+      body,
+      html {
+        box-sizing: border-box;
+        height: fit-content;
+        scrollbar-gutter: stable;
+      }
+
+      *,
+      ::after,
+      ::before {
+        box-sizing: inherit;
+      }
+
+      body {
+        font-size: clamp(0.9rem, 2vw, 1.2rem);
+        line-height: 1.5;
+        font-family: sans-serif;
+      }
+
+      h1, h2 { font-family: 'Roboto Slab', sans-serif; font-weight: 300 }
+      p { font-family: 'Lustria', sans-serif }
+
+      h2 { margin-bottom: 0.2em }
+      p { margin-top: 0.2em }
+
+      html {
+        background: #eee;
+      }
+
+      body {
+        background: #f7f7f7;
+        border-top: 5px solid #ddd;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 2em;
+      }
+
+      a { color: #333 }
+      a:hover { opacity: 0.8 }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1em;
+        overflow-x: hidden;
+      }
+
+      @media (min-width: 900px) {
+        body { max-width: 1200px }
+        .grid { grid-template-columns: 1fr 1fr }
+      }
+
+      section {
+        display: flex;
+        max-width: 600px;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      img {
+        max-width: 100%;
+        width: 100%;
+      }
+
+      footer {
+        text-align: center;
+        margin-top: 2.5em;
+        color: #777;
+        font-size: 0.9em;
+        font-style: italic;
+        margin-bottom: -2em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Past projects</h1>
+
+    <div class="grid">
+      <section>
+        <header>
+          <h2>HVM Old's Cool</h2>
+          <p>Educational, interactive website for the <a href="//histvermaassluis.nl">Historische Vereniging Maassluis</a>.</p>
+        </header>
+
+        <a href="//hvm-oldscool.nl" target="_blank">
+          <img src="//classic.geheimesite.nl/v/19/images/websites/hvm-oldscool.png">
+        </a>
+      </section>
+  
+      <section>
+        <header>
+          <h2>De Groentemeester</h2>
+          <p>Company website for my father and his <abbr title="Community-supported agriculture">CSA</abbr> initiative.</p>
+        </header>
+
+        <a href="//degroentemeester.nl" target="_blank">
+          <img src="//classic.geheimesite.nl/v/19/images/websites/degroentemeester.png">
+        </a>
+      </section>
+  
+      <section>
+        <header>
+          <h2>Sterrenkruid</h2>
+          <p>My grandma's blog. She writes about astrology and mythology, among other things. </p>
+        </header>
+      
+        <a href="//jokessterrenkruid.blogspot.com" target="_blank">
+          <img src="//classic.geheimesite.nl/v/19/images/websites/sterrenkruid.png">
+        </a>
+      </section>
+  
+      <section>
+        <header>
+          <h2>Streekproeverij Weij</h2>
+          <p>Weij, an initiative by Tom and Joyce of Zwet, which aims to realise a beatiful, lasting and social spot in Maasluis, together.</p>
+        </header>
+        
+        <a href="//weijstreekproeverij.nl" target="_blank">
+          <img src="//classic.geheimesite.nl/v/19/images/websites/streekproeverij-weij.png">
+        </a>
+      </section>
+  
+      <section>
+        <header>
+          <h2>Power Radio 010</h2>
+          <p>A local Internet-radio station.</p>
+        </header>
+        
+        <a href="//powerradio010.nl" target="_blank">
+          <img src="//classic.geheimesite.nl/v/19/images/websites/powerradio010.png">
+        </a>
+      </section>
+  
+      <section>
+        <header>
+          <h2>Dagboek van een Grootmoeder</h2>
+          <p>Another one of my grandma's blogs. Here, she writes more casual stories about life, trees and herbs. </p>
+        </header>
+        
+        <a href="//grootmoedersdagboek.blogspot.com" target="_blank">
+          <img src="//classic.geheimesite.nl/v/19/images/websites/grootmoedersdagboek.png">
+        </a>
+      </section>
+    </div>
+
+    <footer>
+      <p>Built by Robin Boers, licensed Creative Commons Zero.</p>
+    </footer>
+  </body>
+</html>
