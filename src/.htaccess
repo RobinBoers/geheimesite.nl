@@ -34,6 +34,11 @@ Redirect 301 /images/profile.JPG /me.jpeg
 Redirect 301 /assets/images/me.jpeg /me.jpeg
 Redirect 301 /random.jpeg /me.jpeg
 
+# There's no about page rn
+Redirect 302 /en/about /
+Redirect 302 /about /
+Redirect 302 /over-mij /
+
 # Actually, use my Obliviously picture instead.
 Redirect 302 /me.jpeg https://obliviously.eu/uploads/48e6a52868e7d0bcae77aa5b853ed807.jpg
 
