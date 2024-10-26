@@ -1,0 +1,16 @@
+{
+  "name": "geheimesite.nl",
+  "version": "1.0.0",
+  "description": "My personal website. It looks pretty decent. I hope :)",
+  "type": "module",
+  "main": "index.js",
+  "author": "Robin Boers",
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve --port 4000"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

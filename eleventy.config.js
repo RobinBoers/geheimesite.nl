@@ -1,0 +1,24 @@
+const range = (from, to) => [...Array(to - from).keys()].map(i => i + from);
+const currentYear = () => new Date().getFullYear();
+
+export default function(config) {
+  config.addGlobalData("year", currentYear());
+  config.addGlobalData("years", range(2018, currentYear()).reverse());
+  
+  // Shortcodes
+  config.addShortcode("hr", () => `<hr style="border: none; margin: 2em 0">`);
+
+  // Blocks
+  config.addPairedShortcode("container", (innerContent) => {
+    return `<div class="container">${innerContent}</div>`;
+  });
+};
+
+export const config = {
+  dir: {
+    input: "src",
+    includes: "../inc",
+    data: "../data",
+    output: "dist",
+  }
+};
