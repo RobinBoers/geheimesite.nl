@@ -2,8 +2,15 @@
 
 body {
   max-width: 1000px;
-  margin: 0 10vw;
   padding: 10px;
+}
+
+@media (min-width: 800px) {
+  body { margin: 0 auto }
+}
+
+@media (min-width: 1200px) {
+  body { margin-left: 10vw }
 }
 
 nav {
@@ -21,7 +28,6 @@ nav {
 
 main {
   padding: 2em;
-  min-height: 78vh;
 }
 
 header, footer {
@@ -35,6 +41,12 @@ main > h1:first-of-type {
 footer {
   margin: 2em;
   margin-bottom: 1em;
+  max-width: 600px;
+  font-size: 0.8em;
+
+
+  &::before { content: "—" }
+  small { font-size: 1em }
 }
 
 .grid, .books {
@@ -46,6 +58,7 @@ footer {
 
   li { list-style: none }
   a { text-decoration: none }
+  a:hover { opacity: 1 }
 
   h3 {
     margin: 0;
@@ -54,6 +67,8 @@ footer {
   }
 
   img {
+    &:hover { filter: brightness(.9) }
+
     width: 100%;
     aspect-ratio: 16/9;
     object-fit: cover;
