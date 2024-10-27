@@ -9,6 +9,12 @@ export default function (config) {
   config.addPassthroughCopy({ assets: "/" });
   config.setServerPassthroughCopyBehavior("passthrough");
 
+  // My pretty URLs are configured in Apache
+  config.addGlobalData("permalink", () => ({ page }) => `${page.filePathStem}.${page.outputFileExtension}`);
+  config.addUrlTransform((page) => {
+    if (page.url.endsWith(".html")) return page.url.slice(0, -1 * ".html".length);
+  });
+
   // Shortcodes
   config.addShortcode("hr", () => `<hr style="border: none; margin: 2em 0">`);
 
