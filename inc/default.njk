@@ -18,11 +18,28 @@ layout: root.njk
 </main>
 
 <footer>
-  ♡ {{ year }}. All wrongs deserved.<br>
-  <small>
-  Copying is an act of love. Love is not subject to law. Please copy and share.
-  </small>
-  &mdash; <a href="//creativecommons.org/publicdomain/zero/1.0/">CC0</a>
+  <p>
+    <small>
+    ♡ {{ year }}. <a href="//copyheart.org">Copying is an act of love.</a> Love is not subject to law. Please copy and share. All wrongs deserved.
+    </small>
+  </p>
+
+  <p>
+    <small>
+      All original content on this website is freely available in the public domain in accordance with the 
+      <a href="//creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal license</a>. Download, copy, remix all allowed.
+    </small>
+  </p>
+
+  <p>
+    Built using Eleventy v{{ buildInfo.generatorVersion }}.
+    Last deployed at <time datetime="{{ buildInfo.buildDate.iso }}">{{ buildInfo.buildDate.human }}</time> from Maassluis, the Netherlands.
+    <a href="//github.com/RobinBoers/geheimesite.nl/commit/{{ buildInfo.commitHash }}">See changes in <code>{{ buildInfo.commitHash }}</code></a>.
+  </p>
+
+  <p>
+    Source code for this site is licensed AGPLv3. <a href="https://github.com/RobinBoers/geheimesite.nl/blob/main/{{ page.inputPath }}">Edit this page on GitHub</a>.
+  </p>
 </footer>
 
 <script>
