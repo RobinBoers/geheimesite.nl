@@ -1,5 +1,17 @@
 [
   {
+    "title": "Het duistere meer",
+    "author": "Sarah Bailey",
+    "cover": "duisteremeer.jpg",
+    "url": "https://www.bibliotheek.nl/catalogus/titel.421957395.html/het-duistere-meer/"
+  },
+  {
+    "title": "Pegasus",
+    "author": "Laurent Richard & Sandrine Rigaud",
+    "cover": "pegasus.jpg",
+    "url": "https://www.bibliotheek.nl/catalogus/titel.442989636.html/pegasus/"
+  },
+  {
     "title": "Sokrates' leven en dood",
     "author": "Plato",
     "cover": "plato.jpg",
@@ -40,12 +52,6 @@
       "author": "Patrick Rothfuss",
       "cover": "wise-mans-fear.jpg",
       "url": "https://www.bol.com/nl/nl/f/the-wise-man-s-fear/34345126/"
-  },
-  {
-      "title": "The Power Of Not Thinking",
-      "author": "Simon Roberts",
-      "cover": "the-power-of-not-thinking.jpg",
-      "url": "https://www.bol.com/be/nl/p/the-power-of-not-thinking/9200000131786644/"
   },
   {
       "title": "Vallen",

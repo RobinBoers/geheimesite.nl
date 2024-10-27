@@ -1,4 +1,4 @@
-const range = (from, to) => [...Array(to - from).keys()].map(i => i + from);
+const range = (from, to) => [...Array(to - from + 1).keys()].map(i => i + from);
 const currentYear = () => new Date().getFullYear();
 
 export default function (config) {
