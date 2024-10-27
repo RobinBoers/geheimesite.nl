@@ -84,7 +84,7 @@ Dat laatste stuk van informatie brengt ons naar de volgende manier: myside bias.
 
 ### 2.3 Negativity/Positivity bias
 
-Stel, je houdt enorm veel van dieren. Je ziet een video van vogels die doodvallen in de nabijheid van een 5G- toren. Dan zou je waarschijnlijk snel geloven dat zo’n toren slecht is voor wat je lief hebt. Dit is natuurlijk nep, maar door de rauwe emotie van het zien van doodvallende vogels zou je denken dat het waar is: waarom zou iemand erover liegen? Als je iets leuk vindt, dan geloof je vaker nieuws dat iets ‘slechts’ laat zien ten opzichte van jouw interesse (Sitskoorn, ND). Nepnieuwsmakers misbruiken zware emoties om mensen iets te laten geloven. Als er wordt ingespeeld op negatieve emoties van personen, ga je er sneller in geloven. Mensen willen niet geloven dat er mensen zijn die zouden liegen over zulk vreselijk nieuws. Dit heet negativity bias (Unravel Behaviour, 2022). Dit gebeurt ook bij positieve dingen: als iemand zegt dat Trump meer geld gaat geven aan minigolfspelers, dan gaan er meer minigolfspelers stemmen op Trump. Zij denken dan dat ze iets leuks eruit gaan krijgen, ook al is dat nep. Dit is een voorbeeld van positivity bias. 
+Stel, je houdt enorm veel van dieren. Je ziet een video van vogels die doodvallen in de nabijheid van een 5G- toren. Dan zou je waarschijnlijk snel geloven dat zo’n toren slecht is voor wat je lief hebt. Dit is natuurlijk nep, maar door de rauwe emotie van het zien van doodvallende vogels zou je denken dat het waar is: waarom zou iemand erover liegen? Als je iets leuk vindt, dan geloof je vaker nieuws dat iets ‘slechts’ laat zien ten opzichte van jouw interesse (Sitskoorn, ND). Nepnieuwsmakers misbruiken zware emoties om mensen iets te laten geloven. Als er wordt ingespeeld op negatieve emoties van personen, ga je er sneller in geloven. Mensen willen niet geloven dat er mensen zijn die zouden liegen over zulk vreselijk nieuws. Dit heet negativity bias (Unravel Behaviour, 2022). Dit gebeurt ook bij positieve dingen: als iemand zegt dat Trump meer geld gaat geven aan minigolfspelers, dan gaan er meer minigolfspelers stemmen op Trump. Zij denken dan dat ze iets leuks eruit gaan krijgen, ook al is dat nep. Dit is een voorbeeld van positivity bias.
 
 ### 2.4 Onzorgvuldig denken
 
@@ -128,7 +128,7 @@ Al deze factoren samen zorgen ervoor dat social media de ideale omgeving is voor
 
 ### 3.3 Uit de hand gelopen grappen
 
-Nepnieuws wordt echter niet altijd met bewust kwade intenties verspreid. In sommige gevallen begint nepnieuws ook als een grap. Cegarra-Navarro et al. (2021) noemen dit "good counter-knowledge": feitelijk incorrecte informatie die niet met slechte intenties gemaakt is. 
+Nepnieuws wordt echter niet altijd met bewust kwade intenties verspreid. In sommige gevallen begint nepnieuws ook als een grap. Cegarra-Navarro et al. (2021) noemen dit "good counter-knowledge": feitelijk incorrecte informatie die niet met slechte intenties gemaakt is.
 
 Cegarra-Navarro et al. (2021) refereren aan een andere studie (Cegarra-Navarro et al., 2014) waarin de conclusie wordt getrokken dat counter-knowledge inherent niet slecht is: het is alleen maar incorrecte informatie. Het zijn vervolgens de individuen die het verspreiden die deze (incorrecte) informatie voor goed (bijv. parodieën of satire) of voor slecht (bijv. nepnieuws) kunnen inzetten.
 
@@ -152,23 +152,23 @@ Met alle informatie uit de voorgaande hoofdstukken zou het best eenvoudig moeten
 
 ### 4.1 Nepnieuws herkennen
 
-Het onderscheiden van nepnieuws en echt nieuws is erg moeilijk, vooral omdat er steeds meer nepnieuws komt. Ook is het extra moeilijk omdat nepnieuws zich blijft ontwikkelen, er komen steeds nieuwe manieren om nepnieuws te maken en het lijkt steeds meer op echt nieuws. Daarom is het belangrijk om niet alleen naar de tekst te kijken, maar naar het hele plaatje. Zo kun je naar deze punten kijken en je de volgende dingen afvragen om nepnieuws te kunnen spotten: 
+Het onderscheiden van nepnieuws en echt nieuws is erg moeilijk, vooral omdat er steeds meer nepnieuws komt. Ook is het extra moeilijk omdat nepnieuws zich blijft ontwikkelen, er komen steeds nieuwe manieren om nepnieuws te maken en het lijkt steeds meer op echt nieuws. Daarom is het belangrijk om niet alleen naar de tekst te kijken, maar naar het hele plaatje. Zo kun je naar deze punten kijken en je de volgende dingen afvragen om nepnieuws te kunnen spotten:
 
 - **De intenties van de schrijver**: Heeft de schrijver er voordeel bij om iets te zeggen? Heeft de schrijver een vooroordeel over het onderwerp?
 - **De auteur**: Wie is de auteur? Bestaat de auteur wel echt? Heeft diegene meer werken geschreven?
-- **De datum**: Klopt de datum? Is het niet achterhaald? 
+- **De datum**: Klopt de datum? Is het niet achterhaald?
 - **De manier waarop de tekst geschreven is**: Staan er spelfouten in de tekst? Probeert de schrijver je aandacht te trekken? Is de schrijver niet serieus?
 - **De gebruikte bronnen**: Kloppen de bronnen? Komt er wat in de tekst staat overeen met wat er in de verwezen bron staat? Zijn de bronnen niet achterhaald?
 
 ### 4.2 Het tegengaan van de verspreiding van nepnieuws
 
-Nepnieuws kan erg misleidend zijn en grote gevolgen hebben, daardoor zou het optimaal zijn om het verspreiden van nepnieuws helemaal tegen te gaan. Veel mensen verspreiden zonder dat ze het weten nepnieuws, soms weten ze het wel maar denken ze dat het geen kwaad kan. Zo bleek uit een onderzoek van Barthel (2016) dat 16% van de deelnemers weleens nepnieuws heeft gedeeld en er pas later achter kwam dat het totaal verzonnen was. 
+Nepnieuws kan erg misleidend zijn en grote gevolgen hebben, daardoor zou het optimaal zijn om het verspreiden van nepnieuws helemaal tegen te gaan. Veel mensen verspreiden zonder dat ze het weten nepnieuws, soms weten ze het wel maar denken ze dat het geen kwaad kan. Zo bleek uit een onderzoek van Barthel (2016) dat 16% van de deelnemers weleens nepnieuws heeft gedeeld en er pas later achter kwam dat het totaal verzonnen was.
 
 Om de verspreiding van nepnieuws tegen te gaan zijn er verschillende mogelijke oplossingen, die momenteel worden overwogen of actief toegepast. We zullen ze kort bespreken en hun voor- en nadelen benoemen:
 
 #### 4.2.1 Met behulp van technologie
 
-Platforms kunnen algoritmes inzetten om de verspreiding van nepnieuws tegen te gaan. Dit is echter erg moeilijk om ook echt in de praktijk te gebruiken aangezien het zelfs voor computers erg lastig is om nepnieuws te onderscheiden van echt nieuws. Een computer weet namelijk niet wat de waarheid is en niet. Echter kan en wordt technologie op een andere manier ingezet voor het tegengaan van nepnieuws. Computers zijn namelijk wel erg goed in het herkennen van patronen, je zou een computer dus kunnen trainen om de kenmerken van nepnieuws te herkennen. Daarnaast zijn de recente ontwikkelingen op het gebied van kunstmatige intelligentie veelbelovend, wat ervoor zou kunnen zorgen dat computers steeds beter worden in het tegengaan van nepnieuws. 
+Platforms kunnen algoritmes inzetten om de verspreiding van nepnieuws tegen te gaan. Dit is echter erg moeilijk om ook echt in de praktijk te gebruiken aangezien het zelfs voor computers erg lastig is om nepnieuws te onderscheiden van echt nieuws. Een computer weet namelijk niet wat de waarheid is en niet. Echter kan en wordt technologie op een andere manier ingezet voor het tegengaan van nepnieuws. Computers zijn namelijk wel erg goed in het herkennen van patronen, je zou een computer dus kunnen trainen om de kenmerken van nepnieuws te herkennen. Daarnaast zijn de recente ontwikkelingen op het gebied van kunstmatige intelligentie veelbelovend, wat ervoor zou kunnen zorgen dat computers steeds beter worden in het tegengaan van nepnieuws.
 
 #### 4.2.2 Op mediaplatformen
 
@@ -182,9 +182,9 @@ In sommige landen zijn er al wetten waardoor nepnieuws en het verspreiden ervan 
 
 Voor het herkennen en tegengaan van nepnieuws zou dus eigenlijk een andere oplossing gevonden moeten worden, aangezien de mogelijke oplossingen die hierboven besproken zijn niet goed genoeg in de praktijk zouden werken. Een mogelijke oplossing is om les te geven in het onderwijs; dit zou in de vorm van mediawijsheid kunnen. Hierdoor zouden jongeren beter kunnen herkennen wat nepnieuws is en niet. Ze leren dan om bewust en kritisch om te gaan met informatiebronnen. Ook het kunnen beoordelen op betrouwbaarheid van een bron is erg belangrijk. Dit alles zou ervoor kunnen zorgen dat het onderscheiden van nepnieuws en echt nieuws een stuk makkelijker wordt en dat er dus ook minder nepnieuws wordt verspreid zonder dat je het zelf doorhebt. Je gaat er dan natuurlijk van uit dat de makers van het lesmateriaal verstand hebben van de technieken achter nepnieuws, die we in dit hoofdstuk besproken hebben. Er is gelukkig genoeg (wetenschappelijke) literatuur om zulk lesmateriaal op te baseren. Met lessen bereik je helaas wel alleen jongeren die momenteel een opleiding volgen. Daarmee mis je dus het grootste deel van de bevolking. Om die mensen toch te bereiken zouden campagnes vanuit de overheid praktisch zijn.
 
+<br><br>
 
-
-Dus in het kort, er zijn verschillende manieren om nepnieuws te kunnen herkennen. Echter blijft dit erg moeilijk aangezien nepnieuws zich blijft ontwikkelen. Er moeten dus tegenmaatregelen genomen worden, echter is dit makkelijker gezegd dan gedaan. Zo zijn er genoeg ideeën maar is het erg moeilijk om deze ideeën ook daadwerkelijk in de praktijk toe te passen. Daarnaast komen er bij sommige mogelijke oplossingen ethische dilemma’s bij kijken, zoals bij de vraag of het modereren door de overheid van alles wat het internet opgaat censuur is of niet. 
+Dus in het kort, er zijn verschillende manieren om nepnieuws te kunnen herkennen. Echter blijft dit erg moeilijk aangezien nepnieuws zich blijft ontwikkelen. Er moeten dus tegenmaatregelen genomen worden, echter is dit makkelijker gezegd dan gedaan. Zo zijn er genoeg ideeën maar is het erg moeilijk om deze ideeën ook daadwerkelijk in de praktijk toe te passen. Daarnaast komen er bij sommige mogelijke oplossingen ethische dilemma’s bij kijken, zoals bij de vraag of het modereren door de overheid van alles wat het internet opgaat censuur is of niet.
 
 ## Conclusie
 

@@ -43,7 +43,7 @@ footer {
   margin-bottom: 1em;
   max-width: 600px;
   font-size: 0.8em;
-
+  opacity: 0.8;
 
   &::before { content: "—" }
   small { font-size: 1em }
