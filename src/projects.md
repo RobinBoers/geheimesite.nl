@@ -4,7 +4,7 @@ title: Projects
 
 {% container %}
 
-<h1>{{title}}</h1>c
+<h1>{{title}}</h1>
 
 ## Open-source
 

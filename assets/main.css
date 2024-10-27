@@ -1,0 +1,102 @@
+@import url("https://cdn.geheimesite.nl/pinkz.css");
+
+body {
+  max-width: 1000px;
+  margin: 0 10vw;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  gap: 1.7em;
+  margin: 1em;
+  justify-content: flex-end;
+  
+  a {
+    font-size: 1.3em;
+    text-transform: lowercase;
+    color: currentColor;
+  }
+}
+
+main {
+  padding: 2em;
+  min-height: 78vh;
+}
+
+header, footer {
+  a { color: currentColor }
+}
+
+main > h1:first-of-type {
+  margin-top: 0;
+}
+
+footer {
+  margin: 2em;
+  margin-bottom: 1em;
+}
+
+.grid, .books {
+  display: grid;
+  padding: 0;
+  gap: 0.5em;
+  margin-top: 3.05263158em;
+  margin-bottom: 1.52631579em;
+
+  li { list-style: none }
+  a { text-decoration: none }
+
+  h3 {
+    margin: 0;
+    font-size: .875em;
+    line-height: 1.25em;
+  }
+
+  img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    margin: 0.5em 0;
+  }
+}
+
+.books {
+  margin-top: 0;
+  row-gap: 1.5em;
+
+  li {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  h3, span {
+    font-size: .75em;
+    line-height: 1rem;
+  }
+  
+  span { opacity: .7 }
+  img { aspect-ratio: unset }
+}
+
+@media (min-width: 600px) {
+  .books { grid-template-columns: repeat(2, 1fr) }
+}
+
+@media (min-width: 800px) {
+  .grid { grid-template-columns: repeat(2, 1fr) }
+  .books { grid-template-columns: repeat(3, 1fr) }
+}
+
+@media (min-width: 1200px) {
+  .grid { grid-template-columns: repeat(3, 1fr) }
+  .books { grid-template-columns: repeat(4, 1fr) }
+}
+
+@media (min-width: 1480px) {
+  .grid, .books { width: 125% }
+  .grid { grid-template-columns: repeat(4, 1fr) }
+  .books { grid-template-columns: repeat(6, 1fr) }
+}
