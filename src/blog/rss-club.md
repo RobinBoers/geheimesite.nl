@@ -1,7 +1,7 @@
 ---
 title: The RSS Club
 date: 2024-05-26
-rss-only: true
+rssonly: true
 ---
 
 I'm setting up RSS-only posts on my site, inspired by Dave Rupert's [RSS Club](//daverupert.com/rss-club/), a 'secret society' consisting of individuals that publish some of their posts exlusively using the ancient peer-to-peer syndication protocol named [RSS](/rss).
@@ -23,5 +23,3 @@ As with any club, there are some rules:
 </blockquote>
 
 RSS-only postings will generally consist of loose ideas, short updates and more personal posts. Things that I'd like to share, but not put "out there". Lil' easter eggs for RSS enthousiasts.
-
-Thanks for keeping RSS alive. You're awesome.

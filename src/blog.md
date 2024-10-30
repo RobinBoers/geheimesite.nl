@@ -45,7 +45,7 @@ head: >
 
 <ul class="h-feed">
   {% for post in posts -%}
-    {%- unless post.data.rss-only -%}
+    {%- unless post.data.rssonly -%}
       <li class="h-entry {% if post.data.favorite %}favorite{% endif %}">
         <a class="u-url" href="{{ post.url }}">
           <b>

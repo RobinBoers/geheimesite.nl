@@ -178,6 +178,13 @@ article {
   max-width: 777px;
   margin-left: 3em;
 
+  .rss-only {
+    background: #f1f5f9;
+    padding: 0.75em;
+    width: 100%;
+    margin: 2em 0;
+  }
+
   .reply-by-email {
     margin-top: 4em;
     margin-bottom: 2em;

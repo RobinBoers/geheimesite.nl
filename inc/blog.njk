@@ -17,6 +17,10 @@ layout: default
   </div>
 
   <footer>
+    {% if rssonly %}
+       <p class="rss-only">This is a RSS-only post. You, subscribed over RSS, are considered a regular reader, and thus get to see early drafts and extra postings. Not a secret; but actually kind of a secret. Thanks for keeping RSS alive. You're awesome.</p>
+    {% endif %}
+
     <p class="reply-by-email"><a class="button" href="/contact?subject=RE: {{ title }}">Reply by email</a></p>
     <p class="please-copy">Made with ♡ in the Netherlands. <a href="//copyheart.org">Copying is an act of love.</a> Please copy.</p>
   </footer>

@@ -1,7 +1,5 @@
 import { $ } from "bun";
-
 const SELF = "package.json";
-const ELEVENTY = "node_modules/@11ty/eleventy/package.json";
 
 const formatDateTime = (dt, tz) =>
   new Intl.DateTimeFormat("en-US", {
@@ -16,12 +14,10 @@ const generateBuildInfo = async () => {
   const tz = "CET";
 
   const buildVersion = (await Bun.file(SELF).json()).version;
-  const generatorVersion = (await Bun.file(ELEVENTY).json()).version;
   const commitHash = (await $`git rev-parse --short HEAD`.text()).trim();
 
   return {
     buildVersion,
-    generatorVersion,
     commitHash,
     buildDate: {
       timestamp: now.getTime(),
