@@ -10,7 +10,7 @@ Part of said traditional interface was a subscribe button that popped up in the 
 Why exactly did "modern" browsers remove this? When I visit an RSS feed in contemporary Firefox, I get this monstrosity:
 
 <figure>
-  <img src="/images/blog/rss-plain.png">
+  <img src="https://cdn.geheimesite.nl/images/blog/rss-plain.png" alt="">
   <figcaption>A bunch of confusing XML. Ew, that looks disgusting.</figcaption>
 </figure>
 
@@ -22,7 +22,7 @@ In an attempt to right this wrong once and for all, I built HotFox, a browser ex
 - It makes unstyled RSS feeds readable; turning the absolute mess from before into a more pleasant preview:
 
 <figure>
-  <img src="/images/blog/rss-fancy.png">
+  <img src="https://cdn.geheimesite.nl/images/blog/rss-fancy.png" alt="">
   <figcaption>A pretty rendered RSS feed with suybscribe button. Phew, that's better.</figcaption>
 </figure>
 

@@ -28,49 +28,49 @@ I build website for people from time to time. Here’s a few of them. All of the
   <li>
     <h3>HVM Old's Cool</h3>
     <a href="//hvm-oldscool.nl">
-      <img src="//cdn.geheimesite.nl/images/websites/hvm-oldscool.png">
+      <img src="https://cdn.geheimesite.nl/images/websites/hvm-oldscool.png" alt="">
     </a>
   </li>
 
   <li>
     <h3>De Groentemeester</h3>
     <a href="//degroentemeester.nl">
-      <img src="//cdn.geheimesite.nl/images/websites/degroentemeester.png">
+      <img src="https://cdn.geheimesite.nl/images/websites/degroentemeester.png" alt="">
     </a>
   </li>
 
   <li>
     <h3>Sterrenkruid</h3>
     <a href="//jokessterrenkruid.blogspot.com">
-      <img src="//cdn.geheimesite.nl/images/websites/sterrenkruid.png">
+      <img src="https://cdn.geheimesite.nl/images/websites/sterrenkruid.png" alt="">
     </a>
   </li>
 
   <li>
     <h3>Streekproeverij Weij</h3>
     <a href="//weijstreekproeverij.nl">
-      <img src="//cdn.geheimesite.nl/images/websites/streekproeverij-weij.png">
+      <img src="https://cdn.geheimesite.nl/images/websites/streekproeverij-weij.png" alt="">
     </a>
   </li>
 
   <li>
     <h3>Power Radio 010</h3>
     <a href="//powerradio010.nl">
-      <img src="//cdn.geheimesite.nl/images/websites/powerradio010.png">
+      <img src="https://cdn.geheimesite.nl/images/websites/powerradio010.png" alt="">
     </a>
   </li>
 
   <li>
     <h3>Dagboek van een Grootmoeder</h3>
     <a href="//grootmoedersdagboek.blogspot.com">
-      <img src="//cdn.geheimesite.nl/images/websites/grootmoedersdagboek.png">
+      <img src="https://cdn.geheimesite.nl/images/websites/grootmoedersdagboek.png" alt="">
     </a>
   </li>
 
   <li>
     <h3>Sharefox</h3>
     <a href="//sharefox.eu">
-      <img src="//cdn.geheimesite.nl/images/websites/sharefox.png">
+      <img src="https://cdn.geheimesite.nl/images/websites/sharefox.png" alt="">
     </a>
   </li>
 </ul>

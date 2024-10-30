@@ -75,7 +75,7 @@ head: >
 ---
 
 <div class="bg" hidden>
-  <img class="bg-img" src="//cdn.geheimesite.nl/images/bird.webp">
+  <img class="bg-img" src="https://cdn.geheimesite.nl/images/bird.webp" alt="">
 </div>
 
 <h1>{{ title }}</h1>

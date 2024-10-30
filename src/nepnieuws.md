@@ -40,7 +40,7 @@ Laten we beginnen met vaststellen wat nepnieuws is en wat eronder valt. De term 
 
 Je moet goed letten op ‘vals of misleidende uitspraken’. Het meest voorkomende nepnieuws is helemaal zelf verzonnen, maar vooral meer schadelijk nepnieuws verdraait de feiten heel handig alsof ze totaal wat anders betekenen dan ze werkelijk doen. Zie figuur 1, zoals je ziet is er een stijgende lijn van temperatuur tussen 1980 en 2015. Je kan ook zeggen dat de jaarlijkse gemiddelde afwijking in de temperatuur  van 1990 ongeveer 0,4 °C is en in 2008 ook 0,4 °Cis. Dan kom je tot de conclusie dat klimaatverandering niet bestaat. Hoewel deze data zou kunnen kloppen , zijn ze misleidend gerepresenteerd waardoor je op een andere conclusie uitkomt. Dit soort nepnieuws is nog gevaarlijker omdat ze zeggen dat ze wetenschappelijk bewijs hebben en de meeste mensen toch niet de bronnen die de auteur gebruikt heeft bekijken.
 
-![Figuur 1: Een voorbeeld van een grafiek die in nepnieuws gebruikt zou kunnen worden.](//classic.geheimesite.nl/v/18/images/nlt/ocean-climate-change-comparison.png)
+![Figuur 1: Een voorbeeld van een grafiek die in nepnieuws gebruikt zou kunnen worden.](https://cdn.geheimesite.nl/images/blog/ocean-climate-change-comparison.png)
 
 ### 1.1 Andere concepten die er onderdeel van maken of er een sterk verband mee hebben
 

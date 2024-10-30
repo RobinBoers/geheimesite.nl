@@ -29,7 +29,7 @@ title: Hey, I'm Robin!!
   <source srcset="//git.dupunkto.org/api/graph/{{ year }}?m=light&c=%23f43f5e" media="(prefers-color-scheme: light)"/>
   <source srcset="//git.dupunkto.org/api/graph/{{ year }}?m=dark&c=%23f43f5e" media="(prefers-color-scheme: dark)"/>
 
-  <img src="//git.dupunkto.org/api/graph/{{ year }}?c=%23f43f5e" width="100%" style="margin: 1em auto">
+  <img eleventy:ignore src="//git.dupunkto.org/api/graph/{{ year }}?c=%23f43f5e" alt="" width="100%" style="margin: 1em auto">
 </picture>
 
 {% container %}

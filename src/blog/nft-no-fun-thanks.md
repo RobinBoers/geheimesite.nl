@@ -61,7 +61,7 @@ Dus als mensen aan mij vragen hoe dat nou zit met die crypto en NFTs of zelfs vo
 
 [^5]: En om eerlijk te zijn, ik zou daar ook het geld niet voor over hebben. Ik zou kunst puur en alleen kopen omdat ik het mooi vond of omdat ik vond dat de artiest het verdient.
 
-[^6]: Bronnen: [StackOverflow](//stackoverflow.com/questions/68816228/multiple-nfts-from-the-same-source) en [NFT Plazas](//nftplazas.com/learn-about-nfts/multiple-nfts-for-one-piece-of-digital-art/). [Hier is nog een voorbeeld](/images/omniswtf.png): een collectie genaamd *omnis.wtf*. 5000x hetzelfde plaatje dat voor ca. 0.3ETH (= €355) per stuk verkocht wordt. Dan koop je inderdaad iets heel "unieks".
+[^6]: Bronnen: [StackOverflow](//stackoverflow.com/questions/68816228/multiple-nfts-from-the-same-source) en [NFT Plazas](//nftplazas.com/learn-about-nfts/multiple-nfts-for-one-piece-of-digital-art/). [Hier is nog een voorbeeld](https://cdn.geheimesite.nl/images/blog/omniswtf.png): een collectie genaamd *omnis.wtf*. 5000x hetzelfde plaatje dat voor ca. 0.3ETH (= €355) per stuk verkocht wordt. Dan koop je inderdaad iets heel "unieks".
 
 [^7]: Als ik het over *plaatje*, *asset* of *bestand* heb bedoel ik hetzelfde: hetgene waar de link in de NFT naar toe verwijst.
 

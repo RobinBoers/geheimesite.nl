@@ -22,7 +22,7 @@ title: Books
         <h3 class="title">{{ book.title }}</h3>
         <span class="author">{{ book.author }}</span>
         <a href="{{ book.url }}">
-          <img src="//cdn.geheimesite.nl/images/books/{{ book.cover }}">
+          <img src="https://cdn.geheimesite.nl/images/books/{{ book.cover }}" alt="">
         </a>
       </li>
     {%- endfor -%}

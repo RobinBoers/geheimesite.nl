@@ -1,4 +1,5 @@
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 const metadata = {
   language: "en",
@@ -50,6 +51,16 @@ export default function (config) {
   config.addPlugin(feedPlugin, { type: "rss", outputPath: "/index.xml", collection, metadata });
   config.addPlugin(feedPlugin, { type: "atom", outputPath: "/atom.xml", collection, metadata });
   config.addPlugin(feedPlugin, { type: "json", outputPath: "/feed.json", collection, metadata });
+
+  // Image optimizations
+  config.addPlugin(eleventyImageTransformPlugin, { 
+    extensions: "html",
+    formats: ["webp", "jpeg"],
+    defaultAttributes: {
+      loading: "lazy",
+      decoding: "async",
+    }
+  });
 
   // Custom filters
   config.addFilter("date", (date, format = "%Y-%m-%d") => {
