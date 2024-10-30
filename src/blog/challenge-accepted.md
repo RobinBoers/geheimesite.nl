@@ -52,7 +52,7 @@ A single-person microblogging platform written in PHP8, built on open standards.
 To circle back to @giles's post, I'm designing this thing to :sparkles: just work :sparkles:, Out Of The Box(TM). Because [defaults matter](/defaults). People aren't going to bother figuring out how to setup some obscure plugin to enable some weird protocol they've never heard of--but they might just like it when their site automagically federates with various social media platforms and pulls in comments from each one.
 
 And to reemphasize his point: *installing this thing should be trivially simple*. It should be as simple as creating an account on Bluesky. Cause if it's not, what's stopping people from just switching to another content silo?
-<small>(I'm using the <a href="/stupid-terminology">c-word</a> on purpose. These corporations don't care what you post, as long as they can make money off of it.)</small>
+<small>(I'm using the <a href="/blog/stupid-terminology">c-word</a> on purpose. These corporations don't care what you post, as long as they can make money off of it.)</small>
 
 Since the platform is written in PHP, it should work on virtually all shared hosting, provided they have an up-to-date PHP installation. Installing should be as simple as drag and dropping some PHP files over FTP. To reduce friction even more, I'm using JSON files instead of an SQL database, as setting up and connecting an SQL database is often a mayor roadblock in installing a CMS, for a casual person.
 

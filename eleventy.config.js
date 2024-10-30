@@ -6,7 +6,7 @@ const metadata = {
   title: "Robin's Blog",
   subtitle: "Thoughts and opinions of a teenager from the Netherlands.",
   base: "https://geheimesite.nl",
-  author: { name: "Robin Boers" }
+  author: { name: "Robin Boers" },
 };
 
 const range = (from, to) => [...Array(to - from + 1).keys()].map(i => i + from);
@@ -22,7 +22,7 @@ export default function (config) {
   config.addGlobalData("years", range(2018, currentYear()).reverse());
 
   // Setup asset pipeline + dev optimizations
-  config.addPassthroughCopy({ assets: "/", "src/*.txt": "/", ".htaccess": "/.htaccess" });
+  config.addPassthroughCopy({ "assets": "/", "src/*.txt": "/", ".htaccess": "/.htaccess" });
   config.setServerPassthroughCopyBehavior("passthrough");
 
   // My pretty URLs are configured in Apache
@@ -53,14 +53,19 @@ export default function (config) {
   config.addPlugin(feedPlugin, { type: "json", outputPath: "/feed.json", collection, metadata });
 
   // Image optimizations
-  config.addPlugin(eleventyImageTransformPlugin, { 
+  config.addPlugin(eleventyImageTransformPlugin, {
     extensions: "html",
-    formats: ["webp", "jpeg"],
+    formats: ["webp", "jpeg", "svg"],
+    urlPath: "/optimized/",
     defaultAttributes: {
       loading: "lazy",
       decoding: "async",
-    }
+    },
   });
+
+  // Smartypants!!
+  // Turned off, because it's mega inconsistent on where the stuff is smartified.
+  //config.amendLibrary("md", (md) => md.set({ typographer: true }));
 
   // Custom filters
   config.addFilter("date", (date, format = "%Y-%m-%d") => {
@@ -74,11 +79,32 @@ export default function (config) {
       "%M": zeroPad(date.getMinutes()),
       "%S": zeroPad(date.getSeconds()),
       "%b": date.toLocaleString("en-US", { month: "short" }),
-      "%B": date.toLocaleString("en-US", { month: "long" })
+      "%B": date.toLocaleString("en-US", { month: "long" }),
     };
 
     return format.replace(/%[YmdHMSbB]/g, (match) => formatMap[match] || match);
   });
+
+  config.addFilter("mdash", text => text.replace(/--(?!>)(?!--)/g, "&mdash;"));
+  config.addFilter("shortc", text => text
+      .replace(/\(TM\)/g, "™")
+      .replace(/\(c\)/g, "©")
+      .replace(/:back:/g, "←")
+      .replace(/:go:/g, "→")
+      .replace(/:x:/g, "×")
+      .replace(/:love:/g, "♡")
+      .replace(/:hot:/g, "🔥")
+      .replace(/:sparkles:/g, "✨")
+      .replace(/:rocket:/g, "🚀")
+      .replace(/:email:/g, "✉️")
+      .replace(/:video:/g, "📺")
+      .replace(/:audio:/g, "🎙️")
+      .replace(/:shrug:/g, "¯\\_(ツ)_/¯")
+      .replace(/:dancing:/g, "ᕕ( ᐛ )ᕗ")
+      .replace(/:fight:/g, "(ง'̀-'́)ง")
+      .replace(/:flex:/g, "ᕦ(•̀‿•́ )ᕤ")
+      .replace(/:happy:/g, "(✿◠‿◠)")
+      .replace(/:cute:/g, "٩(｡•́‿•̀｡)۶"));
 
   return {
     dir: {
