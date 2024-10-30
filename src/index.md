@@ -31,3 +31,9 @@ title: Hey, I'm Robin!!
 
   <img src="//git.dupunkto.org/api/graph/{{ year }}?c=%23f43f5e" width="100%" style="margin: 1em auto">
 </picture>
+
+{% container %}
+
+  [contact](/contact)  ·  [website stability note](/stability)
+
+{% endcontainer %}
