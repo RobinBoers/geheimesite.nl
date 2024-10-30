@@ -8,15 +8,17 @@
     <!-- Google, please don't mess with my lovingly handcrafted HTML -->
     <meta name="googlebot" content="notranslate">
     
-    <title>{{ title }}</title>
+    <title>{{ title }} &mdash; geheimesite.nl</title>
 
-    <link rel="canonical" href="https://geheimesite.nl">
+    <link rel="canonical" href="{{ canonical }}{{ page.url }}">
     <link rel="license" href="//creativecommons.org/publicdomain/zero/1.0/">
     <link rel="webmention" href="//api.geheimesite.nl/webmentions" />
     <link rel="pingback" href="//api.geheimesite.nl/pingback" />
 
     <!-- RSS, because it's amazing -->
-    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="RSS">
+    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="{{ blog.title }} (RSS)">
+    <link rel="alternate" href="/atom.xml" type="application/atom+xml" title="{{ blog.title }} (Atom)">
+    <link rel="alternate" href="/feed.json" type="application/feed+json" title="{{ blog.title }} (JSON)">
 
     {% if stylesheet %}
       <link rel="stylesheet" href="{{ stylesheet | safe }}" type="text/css">

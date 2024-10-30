@@ -27,8 +27,8 @@ head: >
 
 {% container %}
   <hgroup>
-    <h1>Robin's {{ title }}</h1>
-    <p>Thoughts and opinions of a teenager from the Netherlands.</p>
+    <h1>{{ blog.title }}</h1>
+    <p>{{ blog.subtitle }}</p>
   </hgroup>
 
   {% assign posts = collections.blog | sort: 'date' | reverse %}

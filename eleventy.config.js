@@ -1,7 +1,22 @@
+import { feedPlugin } from "@11ty/eleventy-plugin-rss";
+
+const metadata = {
+  language: "en",
+  title: "Robin's Blog",
+  subtitle: "Thoughts and opinions of a teenager from the Netherlands.",
+  base: "https://geheimesite.nl",
+  author: { name: "Robin Boers" }
+};
+
 const range = (from, to) => [...Array(to - from + 1).keys()].map(i => i + from);
 const currentYear = () => new Date().getFullYear();
 
 export default function (config) {
+  config.addGlobalData("blog.title", metadata.title);
+  config.addGlobalData("blog.subtitle", metadata.subtitle);
+  config.addGlobalData("canonical", metadata.base);
+  config.addGlobalData("language", metadata.language);
+  config.addGlobalData("layout", "default.njk");
   config.addGlobalData("year", currentYear());
   config.addGlobalData("years", range(2018, currentYear()).reverse());
 
@@ -29,6 +44,12 @@ export default function (config) {
       post.data.layout = "blog"; return post;
     });
   });
+
+  // Setup RSS feeds
+  const collection = { name: "blog", limit: 0 };
+  config.addPlugin(feedPlugin, { type: "rss", outputPath: "/index.xml", collection, metadata });
+  config.addPlugin(feedPlugin, { type: "atom", outputPath: "/atom.xml", collection, metadata });
+  config.addPlugin(feedPlugin, { type: "json", outputPath: "/feed.json", collection, metadata });
 
   // Custom filters
   config.addFilter("date", (date, format = "%Y-%m-%d") => {
