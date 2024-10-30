@@ -21,7 +21,7 @@ export default function (config) {
   config.addGlobalData("years", range(2018, currentYear()).reverse());
 
   // Setup asset pipeline + dev optimizations
-  config.addPassthroughCopy({ assets: "/" });
+  config.addPassthroughCopy({ assets: "/", "src/*.txt": "/" });
   config.setServerPassthroughCopyBehavior("passthrough");
 
   // My pretty URLs are configured in Apache
