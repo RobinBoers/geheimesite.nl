@@ -1,12 +1,9 @@
 ---
 title: Button Hell of Doom
-layout: blank
-stylesheet: //cdn.geheimesite.nl/punkt.css
 head: >
   <style>
-    body {
+    .container {
       max-width: 800px;
-      margin: 0 auto;
     }
 
     img {
@@ -16,7 +13,7 @@ head: >
   </style>
 ---
 
-<h1>{{ title }}</h1>
+{% container %}
 
 [![Button](/images/buttons/valid-html.gif)](//validator.w3.org/nu/?doc=https%3A%2F%2Froblog.nl)
 [![Button](/images/buttons/valid-css.gif)](//jigsaw.w3.org/css-validator/check/referer)
@@ -90,3 +87,5 @@ head: >
 
 Here's my button:  
 ![Button](/button.jpeg)
+
+{% endcontainer %}
