@@ -1,5 +1,6 @@
 ---
 title: Blog
+permalink: "/blog/index.html"
 head: >
   <style>
     .h-feed {
