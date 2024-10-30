@@ -22,12 +22,21 @@ head: >
         left: -1.5em;
       }
     }
+
+    hgroup > span {
+      display: flex;
+      gap: 1em;
+      align-items: flex-end;
+    }
   </style>
 ---
 
 {% container %}
   <hgroup>
-    <h1>{{ blog.title }}</h1>
+    <span>
+      <h1>{{ blog.title }}</h1>
+      <a class="inline-button" href="/follow">Subscribe</a>
+    </span>
     <p>{{ blog.subtitle }}</p>
   </hgroup>
 

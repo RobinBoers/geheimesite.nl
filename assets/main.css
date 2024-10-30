@@ -139,11 +139,28 @@ body > footer small {
 
 /* Reusable components */
 
+button,
 .button {
-  background-color: #f43f5e;
+  background: #f43f5e;
   text-decoration: none;
   padding:.5em 1em;
-  color: #ffffff
+  color: #ffffff;
+  border: none;
+  &:hover { opacity: 0.9 }
+  &:active { background: #be123c }
+}
+
+.inline-button {
+  background: #fff1f2;
+  text-decoration: none;
+  color: #be123c;
+  border: 1px solid #fecdd3;
+  padding: 0.3em 0.95em;
+  border-radius: 4px;
+  font-size: 0.7em;
+  margin-bottom: 0.8em;
+  &:hover { background: #ffe4e6 }
+  &:active { background: #fecdd3 }
 }
 
 .box {
@@ -172,4 +189,10 @@ article {
     opacity: 0.8;
     text-align: center;
   }
+}
+
+/* Forms */
+
+textarea {
+  width: 100%;
 }
