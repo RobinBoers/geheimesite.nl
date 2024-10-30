@@ -178,6 +178,11 @@ article {
   max-width: 777px;
   margin-left: 3em;
 
+  hgroup h1 {
+    line-height: 1.2;
+    margin-bottom: 0.3em;
+  }
+
   .rss-only {
     background: #f1f5f9;
     padding: 0.75em;
