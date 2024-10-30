@@ -1,0 +1,30 @@
+#!/bin/bash
+
+SRC=src
+DIST=dist
+REMOTE=s11
+DOMAIN=geheimesite.nl
+
+BUILD="bun -b run eleventy"
+FORMAT="prettier --ignore-path .prettierignore"
+DEPLOY="$DEPLOY --exclude canvas.json --exclude js0.23 --exclude r"
+
+build() {
+  $BUILD
+}
+
+serve() {
+  $BUILD --serve --port 4000
+}
+
+deploy() {
+  if [ -d $DIST ]; then
+    $DEPLOY $DIST/ $REMOTE:domains/$DOMAIN/public_html
+  else
+    err "'$DIST' does not exist."
+  fi
+}
+
+clean() {
+  rm -rf $DIST
+}
