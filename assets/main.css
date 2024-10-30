@@ -196,3 +196,9 @@ article {
 textarea {
   width: 100%;
 }
+
+/* Tables */
+
+table, thead, tbody, tr, td, th {
+  border-color:light-dark(#ccc,#444)
+}
