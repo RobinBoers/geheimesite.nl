@@ -151,20 +151,21 @@ button,
 }
 
 .inline-button {
-  background: #fff1f2;
+  background: light-dark(#fff1f2, #e11d48);
+  &:hover { opacity: 1 }
   text-decoration: none;
-  color: #be123c;
-  border: 1px solid #fecdd3;
+  color: light-dark(#be123c, #fff1f2);
+  border: 1px solid light-dark(#fecdd3, #9f1239);
   padding: 0.3em 0.95em;
   border-radius: 4px;
   font-size: 0.7em;
   margin-bottom: 0.8em;
-  &:hover { background: #ffe4e6 }
-  &:active { background: #fecdd3 }
+  &:hover { background: light-dark(#ffe4e6, #be123c) }
+  &:active { background: light-dark(#fecdd3, #9f1239) }
 }
 
 .box {
-  background: #f1f5f9;
+  background: light-dark(#f1f5f9, #0e121b);
   padding: 2em;
   margin: 0.75em 0;
 
