@@ -1,7 +1,7 @@
 RewriteOptions Inherit
 
 # Quite effective spam protection
-RewriteRule /contact mailto:axcelott@roblog.nl [R=301,L,QSA]
+RewriteRule contact mailto:axcelott@roblog.nl [R=301,L,QSA]
 
 # Live at {du}punkto or Obliviously now
 Redirect 301 /rss https://dupunkto.org/rss
