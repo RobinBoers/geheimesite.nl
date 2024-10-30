@@ -1,6 +1,9 @@
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
+import path from "node:path";
+import prettier from "prettier";
+
 const metadata = {
   language: "en",
   title: "Robin's Blog",
@@ -105,6 +108,22 @@ export default function (config) {
       .replace(/:flex:/g, "ᕦ(•̀‿•́ )ᕤ")
       .replace(/:happy:/g, "(✿◠‿◠)")
       .replace(/:cute:/g, "٩(｡•́‿•̀｡)۶"));
+
+  // Format HTML before spitting it out
+  config.addTransform("prettier", function (content, outputPath) {
+    const extension = path.extname(outputPath);
+
+    switch (extension) {
+      case ".html":
+      case ".json":
+        // Strip leading period from extension and use as the Prettier parser.
+        const parser = extension.replace(/^./, "");
+        return prettier.format(content, { parser });
+
+      default: 
+        return content;
+    }
+  });
 
   return {
     dir: {
