@@ -20,7 +20,7 @@ This site uses [Invidious](//invidious.io) for YouTube embeds. They do not store
 
 <section class="box">
 
-  **However**, if you really insist, we store your personal information for you.
+  **However**, if you really insist, we can store your personal information for you.
 
   <noscript>
     Unfortunately, this requires JavaScript.
