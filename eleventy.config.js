@@ -13,7 +13,7 @@ const metadata = {
 };
 
 const range = (from, to) => [...Array(to - from + 1).keys()].map(i => i + from);
-const currentYear = () => new Date().getFullYear();
+const currentYear = new Date().getFullYear();
 
 export default function (config) {
   config.addGlobalData("blog.title", metadata.title);
@@ -21,8 +21,8 @@ export default function (config) {
   config.addGlobalData("canonical", metadata.base);
   config.addGlobalData("language", metadata.language);
   config.addGlobalData("layout", "default.njk");
-  config.addGlobalData("year", currentYear());
-  config.addGlobalData("years", range(2018, currentYear()).reverse());
+  config.addGlobalData("year", currentYear);
+  config.addGlobalData("years", range(2018, currentYear).reverse());
 
   // Setup asset pipeline + dev optimizations
   config.addPassthroughCopy({ "assets": "/", "src/*.txt": "/", ".htaccess": "/.htaccess" });

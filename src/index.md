@@ -26,10 +26,10 @@ title: Hey, I'm Robin!!
 {% endcontainer %}
 
 <picture>
-  <source srcset="//git.dupunkto.org/api/graph/{{ year }}?m=light&c=f43f5e" media="(prefers-color-scheme: light)"/>
-  <source srcset="//git.dupunkto.org/api/graph/{{ year }}?m=dark&c=f43f5e" media="(prefers-color-scheme: dark)"/>
+  <source srcset="{{ commitGraph.light_href }}" media="(prefers-color-scheme: light)"/>
+  <source srcset="{{ commitGraph.dark_href }}" media="(prefers-color-scheme: dark)"/>
 
-  <img eleventy:ignore src="//git.dupunkto.org/api/graph/{{ year }}?c=f43f5e" alt="" width="100%" style="margin: 1em auto">
+  <img eleventy:ignore src="{{ commitGraph.light_href }}" alt="" width="100%" style="margin: 1em auto">
 </picture>
 
 {% container %}
