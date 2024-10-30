@@ -23,6 +23,31 @@ export default function (config) {
     return `<div class="container">${innerContent}</div>`;
   });
 
+  // Setup blog section
+  config.addCollection("blog", async (collectionApi) => {
+    return collectionApi.getFilteredByGlob("src/blog/*.md").map((post) => {
+      post.data.layout = "blog"; return post;
+    });
+  });
+
+  // Custom filters
+  config.addFilter("date", (date, format = "%Y-%m-%d") => {
+    const zeroPad = (num) => String(num).padStart(2, "0");
+
+    const formatMap = {
+      "%Y": date.getFullYear(),
+      "%m": zeroPad(date.getMonth() + 1),
+      "%d": zeroPad(date.getDate()),
+      "%H": zeroPad(date.getHours()),
+      "%M": zeroPad(date.getMinutes()),
+      "%S": zeroPad(date.getSeconds()),
+      "%b": date.toLocaleString("en-US", { month: "short" }),
+      "%B": date.toLocaleString("en-US", { month: "long" })
+    };
+
+    return format.replace(/%[YmdHMSbB]/g, (match) => formatMap[match] || match);
+  });
+
   return {
     dir: {
       input: "src",

@@ -3,7 +3,7 @@ title: In favor of the small
 date: 2024-03-18
 ---
 
-Since the internet went mainstream in the 90s, information has been readily available for everyone. But can it be trusted? What makes a reliable source? At school, we seem to get taught 'the bigger the better'. Big news sites are generally considered trustworthy, while small and relatively unknown sites, like personal blogs or forums, are off-limits. However, in my experience, small, specialized blogs are typically better sources than those big news outlets.
+Since the internet went mainstream in the 90s, information has been readily available for everyone. But can it be trusted? What makes a reliable source? At school, we seem to get taught 'the bigger the better'. Big news sites are generally considered trustworthy, while small and relatively unknown sites, like personal blogs[^1] or forums, are off-limits. However, in my experience, small, specialized blogs are typically better sources than those big news outlets.
 
 For one, random people online usually aren't writing to please an advertiser, publisher or particular audience--they're writing because they're passionate about the subject. This makes a huge difference, as there is no financial incentive, no money at stake, no undisclosed incentives, no monetary gain. They don't need to clickbait their writing; there's no reason to maximize views. A blogger that isn't financially dependent on their blog has no goal to track you or sell ads. They don't *need anything* from their readers.
 
@@ -28,13 +28,4 @@ But what if we instead embrace the internet and the voices it gives to ordinary 
 
 So, I think we should be more kind towards stuff written by people. It's not scary; it's just different.
 
-<details>
-  <summary>Clarification</summary>
-  <p>
-    The blogs I talk about here are not the commercial BuzzFeed kind of
-    blogs, but rather the things you'd find on the
-    <a href="//indieweb.org">IndieWeb</a> or
-    <a href="//neustadt.fr/essays/the-small-web/">Small</a>
-    <a href="//www.marginalia.nu/marginalia-search/about/">Web</a>.
-  </p>
-</details>
+[^1]: The blogs I talk about here are not the commercial BuzzFeed kind of blogs, but rather the things you'd find on the [IndieWeb](//indieweb.org) or [Small](//neustadt.fr/essays/the-small-web/) [Web](//www.marginalia.nu/marginalia-search/about/).

@@ -1,5 +1,5 @@
 ---
-title: HotFox: RSS superpowers for Firefox
+title: 'HotFox: RSS superpowers for Firefox'
 date: 2024-03-20
 ---
 
@@ -34,10 +34,8 @@ It's available in the Mozilla Add-ons store, if you'd like to try it:
   Download
 </a>
 
-<br />
-
-<details>
-  <summary>FAQ</summary>
+<aside class="box">
+  <h2>FAQ</h2>
 
   <dl>
     <dt>Why the name?</dt>
@@ -86,4 +84,4 @@ It's available in the Mozilla Add-ons store, if you'd like to try it:
       >.
     </dd>
   </dl>
-</details>
+</aside>

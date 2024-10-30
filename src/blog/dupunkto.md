@@ -20,19 +20,14 @@ It's also possible to run complimentary services in FreeBSD jails, like:
 
 I'm very excited about it. I'm looking forward to seeing what we're gonna do with it further.
 
-<details>
-  <summary>Future plans</summary>
+<aside class="box">
+  <h2 class="h3">Future plans</h2>
 
   <ul>
     <li>A handwritten classic Minecraft server.</li>
-    <li>
-      Gopher and Gemini hosting, using <code>public_gem</code> and
-      <code>public_gopher</code> respectively.
-    </li>
-    <li>
-      A VSCode server, similar to <a href="//vscode.dev">vscode.dev</a>.
-    </li>
+    <li>Gopher and Gemini hosting, using <code>public_gem</code> and <code>public_gopher</code> respectively.</li>
+    <li>A VSCode server, similar to <a href="//vscode.dev">vscode.dev</a>.</li>
     <li>A Matrix homeserver with Whatsapp bridging.</li>
     <li>A Mastodon or Lemmy instance?</li>
   </ul>
-</details>
+</aside>

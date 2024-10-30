@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<article class="h-entry">
+  <hgroup>
+    <h1 class="p-title">{{ title }}</h1>
+    <p>
+      <time class="dt-published" datetime="{{ date | date("%Y-%m-%d") }}">
+        {{ date | date("%b %d, %Y") }}
+      </time>
+    </p>
+  </hgroup>
+
+  <div class="e-content">
+    {{ content | safe }}
+  </div>
+
+  <footer>
+    <p class="reply-by-email"><a class="button" href="/contact?subject=RE: {{ title }}">Reply by email</a></p>
+    <p class="please-copy">Made with ♡ in the Netherlands. <a href="//copyheart.org">Copying is an act of love.</a> Please copy.</p>
+  </footer>
+</article>

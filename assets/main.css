@@ -38,15 +38,36 @@ main > h1:first-of-type {
   margin-top: 0;
 }
 
-footer {
+body > footer {
   margin: 2em;
   margin-bottom: 1em;
+  
+  & > p {
+    text-align: center;
+    margin: 3em 0;
+  }
+}
+
+body > footer small {
+  display: block;
+  opacity: 0.8;
   max-width: 600px;
   font-size: 0.8em;
-  opacity: 0.8;
 
-  &::before { content: "—" }
-  small { font-size: 1em }
+  &::before {
+    content: "—"
+  }
+
+  p { 
+    position: relative;
+    margin: 0.6em 0;
+  }
+
+  svg {
+    position: absolute;
+    top: 0.3em;
+    left: -1.3em;
+  }
 }
 
 .grid, .books {
@@ -114,4 +135,41 @@ footer {
   .grid, .books { width: 125% }
   .grid { grid-template-columns: repeat(4, 1fr) }
   .books { grid-template-columns: repeat(6, 1fr) }
+}
+
+/* Reusable components */
+
+.button {
+  background-color: #f43f5e;
+  text-decoration: none;
+  padding:.5em 1em;
+  color: #ffffff
+}
+
+.box {
+  background: #f1f5f9;
+  padding: 2em;
+  margin: 0.75em 0;
+
+  & > :first-child { margin-top: 0 }
+  & > :last-child { margin-bottom: 0 }
+}
+
+/* Blog posts */
+
+article {
+  max-width: 777px;
+  margin-left: 3em;
+
+  .reply-by-email {
+    margin-top: 4em;
+    margin-bottom: 2em;
+    text-align: center;
+  }
+
+  .please-copy {
+    font-size: 0.9em;
+    opacity: 0.8;
+    text-align: center;
+  }
 }

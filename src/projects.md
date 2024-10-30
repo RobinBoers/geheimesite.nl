@@ -6,19 +6,15 @@ title: Projects
 
 <h1>{{title}}</h1>
 
-## Open-source
-
 I build web-based applications and games in Elixir and PHP, using a little too much JavaScript. Everything I build is open-sourced on [Gitz](//git.dupunkto.org).
 
 Here's some projects I'm especially proud of:
 
-- [Gitz](//git.dupunkto.org/~dupunkto/gitz) &nbsp; Awesome Git frontend written in PHP.
+- [Signo](//git.dupunkto.org/~axcelott/signo)&nbsp; Experimental compiler for a Lisp-inspired language, written in Elixir.
 
-- [Signo](//git.dupunkto.org/~axcelott/signo) &nbsp; Experimental compiler for a Lisp-inspired language, written in Elixir.
+- [Untitled](//git.dupunkto.org/~dupunkto/pubb)&nbsp; Explores ways to blend websites, social media and collaboration on the Web, by implementing an easy-to-use website engine powered by various open standards.
 
-- [Untitled](//git.dupunkto.org/~dupunkto/pubb) &nbsp; Explores ways to blend websites, social media and collaboration on the Web, by implementing an easy-to-use website engine powered by various open standards.
-
-- [Oblikvo](//git.dupunkto.org/~dupunkto/oblikvo) &nbsp; Browser-based 3D first-person shooter with old school graphics and multiplayer support.
+- [Oblikvo](//git.dupunkto.org/~dupunkto/oblikvo)&nbsp; Browser-based 3D first-person shooter with old school graphics and multiplayer support.
 
 {% hr %}
 

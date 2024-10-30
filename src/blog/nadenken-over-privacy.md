@@ -18,7 +18,7 @@ Mijn wachtwoorden staan als GPG-versleutelde bestanden in een andere Git repo in
 
 Mijn email gaat primair via twee emailadressen op deze domeinnaam -- geheimesite.nl. Daardoor kan ik makkelijk naar een andere provider switchen, zonder dat ik een nieuw emailadres aan al mijn contacten moet doorgeven.
 
-Het is niet per se dat ik Google, Microsoft en Mozilla niet vertrouw. Het punt is dat ik nu zelf bepaal welke informatie ik openbaar maak en wie er toegang tot heeft. Daarnaast ben ik ook zelf volledig in controle over de data: ik kan het verplaatsen naar een andere plek (want alles is met [open standaarden](/post/belang-van-open-standaarden) opgeslagen) en bepalen wanneer het verwijderd wordt (en dan bedoel ik dus ook 100% verwijderd). En als nu mijn data gelekt wordt is het in ieder geval mijn eigen schuld.
+Het is niet per se dat ik Google, Microsoft en Mozilla niet vertrouw. Het punt is dat ik nu zelf bepaal welke informatie ik openbaar maak en wie er toegang tot heeft. Daarnaast ben ik ook zelf volledig in controle over de data: ik kan het verplaatsen naar een andere plek (want alles is met [open standaarden](/blog/belang-van-open-standaarden) opgeslagen) en bepalen wanneer het verwijderd wordt (en dan bedoel ik dus ook 100% verwijderd). En als nu mijn data gelekt wordt is het in ieder geval mijn eigen schuld.
 
 Ik krijg van leeftijdsgenoten vaak te horen dat ze het gek vinden dat ik zo privacybewust ben. Ze vragen dan waarom ik "zo bang ben dat mijn data gestolen wordt". Ik denk dat het op drie dingen aankomt:
 

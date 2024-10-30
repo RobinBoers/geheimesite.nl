@@ -3,7 +3,7 @@ title: The Web is the everything protocol
 date: 2024-05-27
 ---
 
-I love building websites; I also [hate the Web.](/love-hate)
+I love building websites; I also [hate the Web.](/blog/love-hate)
 
 I like the concept of the Web: interlinked documents with optional embedded media. Just pages of text with images and videos here and there. Think books but with interactive elements. The Web was meant to be that: a great document reader.
 
@@ -56,7 +56,7 @@ My problem with the Web is that it's trying to be two very different things--and
 
 - An <abbr title="Software Development Toolkit">SDK</abbr>, a platform for developing and shipping applications. Javascript is an absolutely [horrible](//jsfuck.com) [language](//old.reddit.com/r/AskProgramming/comments/lwc3gj/why_a_lot_of_software_engineers_say_javascript_is/). For many advanced applications, the JS bundle is so big--looking at you, Google Earth, that the poor Chromebooks at school straight up crash; the only way to bring them back to life is a hard reboot. Furthermore, [not everyone can run Javascript](//kryogenix.org/code/browser/everyonehasjs.html). So far for compatibility.
 
-- A good document reader--don't tell me you think [this nightmare fuel](/love-hate) is decent.
+- A good document reader--don't tell me you think [this nightmare fuel](/blog/love-hate) is decent.
 
 The Web tries to be everything. It's a shopping centre, a workplace, a cafe, a chatroom, a game engine. I just want it to be a good document reader.
 

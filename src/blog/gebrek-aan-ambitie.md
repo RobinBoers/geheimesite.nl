@@ -2,6 +2,7 @@
 title: Gebrek aan ambitie?
 date: 2022-07-05
 language: nl
+favorite: true
 ---
 
 Aan het begin van dit schooljaar had ik een kennismakingsgesprek met mijn mentor. Als voorbereiding had ik twee vragenlijsten moeten invullen. Een van de vragen daarin was welke cijfers ik verwachtte op mijn kerstrapport. Ik denk dat ik redelijke schattingen had gedaan, maar mijn mentor vond dat ik niet genoeg ambitie had. Ik en mijn ouders probeerden hem duidelijk te maken dat ambitie niet te meten is met schoolcijfers en dat ik me ook buiten school nog wilde ontwikkelen. Dat ging er bij hem niet echt in.

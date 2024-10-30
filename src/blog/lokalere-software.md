@@ -4,7 +4,7 @@ date: 2023-03-19
 language: nl
 ---
 
-Ik heb eerder al meerdere keren geschreven over [social media](/social-media-wat-moeten-we-er-mee-aan), [het internet](red-het-internet-bouw-je-eigen-website) en het [belang van open standaarden](/belang-van-open-standaarden). Toch wil ik het er nog één keer over hebben.
+Ik heb eerder al meerdere keren geschreven over [social media](/blog/social-media-wat-moeten-we-er-mee-aan), [het internet](red-het-internet-bouw-je-eigen-website) en het [belang van open standaarden](/blog/belang-van-open-standaarden). Toch wil ik het er nog één keer over hebben.
 
 Internetbedrijven hebben gewoonweg teveel macht. Er zijn wel goede alternatieven: denk aan Linux als alternatief voor Windows of macOS. Er zijn talloze voorbeelden van open-source software die net zo goed, al dan niet beter, is ten opzichte van propriatiery software.
 

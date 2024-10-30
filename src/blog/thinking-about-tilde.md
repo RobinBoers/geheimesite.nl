@@ -1,7 +1,6 @@
 ---
 title: Thinking about running a tilde/pubnix
 date: 2023-10-23
-language: en
 ---
 
 I'm thinking about running my own pubnix/tilde. It would be invite-only and have a bunch of cool things:

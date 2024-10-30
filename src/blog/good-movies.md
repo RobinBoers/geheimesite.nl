@@ -1,6 +1,7 @@
 ---
 title: Movies and Limited Series
 date: 2024-02-07
+favorite: true
 ---
 
 So lately I've been watching a lot of Netflix.
@@ -34,16 +35,4 @@ I really enjoyed the miniseries in particular; it allows the filmmaker to tell a
 
 A movie feels short when you're used to a series. But that's part of the appeal I think. A movie doesn't try to suck you in, like a series does. It just tells a story.
 
-<details>
-  <summary>Context</summary>
-  <p>
-    I wrote this a while back (somewhere fall last year), but I forgot
-    to publish it. I found the draft yesterday.
-  </p>
-
-  <p>
-    Also, a lot of movies listed above share one common theme: they're
-    all semi-related to the reproductive system; I'm a teenager, after
-    all ;)
-  </p>
-</details>
+<small>I wrote this a while back (somewhere fall last year), but I forgot to publish it. I found the draft yesterday. Also, a lot of movies listed above share one common theme: they're all semi-related to the reproductive system; I'm a teenager, after all ;)</small>

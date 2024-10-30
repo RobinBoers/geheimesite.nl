@@ -2,6 +2,7 @@
 title: NFT? No fun, thanks.
 date: 2023-01-08
 language: nl
+favorite: true
 ---
 
 Ik hoor de laatste tijd veel mensen over NFTs, crypto, dapps[^1] en web3. Maar waar gaat het nou precies over, en waarom is het juist *niet* de oplossing? Dat ga ik kort proberen uit te leggen. Hou er rekening mee dat dit de mening is van een vijftienjarige die niet gespecialiseerd is in crypto. Neem het dus met een korreltje zout.

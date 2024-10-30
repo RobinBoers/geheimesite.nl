@@ -1,7 +1,6 @@
 ---
 title: My own Search Engine..?
 date: 2023-11-17
-language: en
 ---
 
 Is it just me, or have search results gotten [really](//dkb.blog/p/google-search-is-dying) [shitty](//thejollyteapot.com/2022/02/16/google-search-isn-t-very-good-and-yet-still-the-best-around)? When I search for something, the only *fucking* results that I get are AI generated SEO bullshit. And I'm done with it.

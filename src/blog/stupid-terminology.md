@@ -1,6 +1,7 @@
 ---
 title: 'Stop saying "users" and "content"'
 date: 2024-01-15
+favorite: true
 ---
 
 Terminology like *users* and *content* is demeaning and hurtful.

@@ -1,7 +1,7 @@
 ---
 title: Waarom altijd meer?
 date: 2023-04-26
-language: nl
+favorite: true
 ---
 
 Afgelopen jaar zat ik in de derde en moest ik mijn profielkeuze maken. Op het vwo werkt het zo dat je tot de vierde klas *alle* vakken krijgt, en daarna een profiel kiest met vakken waarin je examen gaat doen.

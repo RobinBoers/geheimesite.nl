@@ -5,7 +5,7 @@ date: 2024-05-31
 
 In his post [<cite>On compositional window management</cite>](//bandukwala.me/on-compositional-window-management/) Alexander Bandukwala explores ways in which window managers could be improved. I can't help but draw parallels to modern web browsers. Applications reimplement the window managers due to the limited feature set. Websites reimplement the web browser in the same way.
 
-[I complained](/web-sdk) in the past, that I want the browser to be <em>just a document reader</em>. But let's face it; it's not. It's really just an SDK. But even for an SDK, it's pretty bad.
+[I complained](/blog/web-sdk) in the past, that I want the browser to be <em>just a document reader</em>. But let's face it; it's not. It's really just an SDK. But even for an SDK, it's pretty bad.
 
 Websites keep reimplementing the browser using JS, because the browser *sucks*. Despite all their fancy advertising and redesigns, browser haven't really evolved for the last decade. Yea, they've implemented a bunch more ridiculous Javascript APIs, but what real added value do they provide to the end-user?
 
@@ -19,7 +19,7 @@ Here's some things I'd want in my browser:
 
 - You know how links you've already visited turn purple (unless the website overrides it). What if we would indicate the target location of the link in a similar way? Links to other pages on the same site would stay as-is, but outgoing links would get some kind of extra indication. Also, it would be nice to know the page size of the target page upfront, especially on metered connections.
 
-- Also [bringing back RSS discovery and subscriptions](/hotfox) *properly* would be pretty nice!
+- Also [bringing back RSS discovery and subscriptions](/blog/hotfox) *properly* would be pretty nice!
 
 - Having publishing built into the browser would truly democratize the Web. Instead of the convoluted form-based UIs we could have a simple HTML editor builtin that could publish using [HTTP PUT](//developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT) if the target server supports it.
 

@@ -22,6 +22,6 @@ Conclusie? Het was zeker een leerzame ervaring. Ik weet niet of ik het per se zo
 
 Maar wat vinden jullie van deze challenge? Zouden jullie het zelf ook willen proberen of is dat niks voor jou? Laat een reactie achter! Ik vind het hardstikke leuk om over dit soort dingen te chatten :)
 
-[^1]: Misschien denk je nu: hoe zit het met Snapchat, Instagram, Facebook, TikTok, Twitter en al die andere troep? Die stonden toch al niet op mn telefoon. [Ik heb namelijk nogal een hekel aan social media](/social-media-wat-moeten-we-er-mee-aan).
+[^1]: Misschien denk je nu: hoe zit het met Snapchat, Instagram, Facebook, TikTok, Twitter en al die andere troep? Die stonden toch al niet op mn telefoon. [Ik heb namelijk nogal een hekel aan social media](/blog/social-media-wat-moeten-we-er-mee-aan).
 
 [^2]: Ik moet wel toevoegen dat ik mijn telefoon wel één keer heb gebruikt om 2FA aan te zetten voor mijn werk omdat ik anders niet meer in mijn account kon, maar daarvoor heb ik alleen de authenticator app geopend en mijn telefoon daarna gelijk uitgezet.

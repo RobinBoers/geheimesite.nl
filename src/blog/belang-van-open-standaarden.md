@@ -2,6 +2,7 @@
 title: Het belang van open standaarden
 date: 2022-03-08
 language: nl
+favorite: true
 ---
 
 Als je vroeger iets online wilde zetten had je alleen simpele HTML webpages. Je uploadde ze dan naar je eigen website of blog. Je was op je favoriete blogs geabonneerd via RSS en chatten ging via IRC. Dat zijn open standaarden voor communiceren, die door iedereen ondersteund worden.

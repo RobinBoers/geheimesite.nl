@@ -14,7 +14,7 @@ You're using the internet wrong. That's quite a statement, isn't it?
   Web? The anwser? Browse it; follow links; surf around.
 -->
 
-The power of the Web is its hyperlinked nature. It's a *web*, not just a repository. Yet we're increasingly *searching* everything on monolithic search engines like Google. That's bad. For one, it limits you to a very small portion of the Web--and it's not [the best part either](/love-hate).
+The power of the Web is its hyperlinked nature. It's a *web*, not just a repository. Yet we're increasingly *searching* everything on monolithic search engines like Google. That's bad. For one, it limits you to a very small portion of the Web--and it's not [the best part either](/blog/love-hate).
 
 But also: our brain works by association:
 

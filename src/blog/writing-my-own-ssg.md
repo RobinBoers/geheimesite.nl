@@ -1,7 +1,7 @@
 ---
 title: Writing my own SSG
 date: 2023-10-16
-language: en
+favorite: true
 ---
 
 A few days ago, I discovered the Gemini protocol. I heard about it a while back already, but I didn't pay that much attention and failed to notice it.

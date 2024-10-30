@@ -9,7 +9,7 @@ favicon: 🐣
     <a href="/">Start</a>
     <a href="/projects">Projects</a>
     <a href="/books">Books</a>
-    <a href="//blog.geheimesite.nl">Blog</a>
+    <a href="/blog">Blog</a>
     <!--<a href="//school.geheimesite.nl">School</a>-->
     <a href="//git.dupunkto.org">Gitz</a>
   </nav>
@@ -20,33 +20,35 @@ favicon: 🐣
 </main>
 
 <footer>
-  <p>
-    <small>
-    ♡ {{ year }}. <a href="//copyheart.org">Copying is an act of love.</a> Love is not subject to law. Please copy and share. All wrongs deserved.
-    </small>
-  </p>
+  <small>
+    <p class="cc0">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14">
+        <title>Creative Commons</title>
+        <path d="M11.983 0c-3.292 0-6.19 1.217-8.428 3.485C1.25 5.819 0 8.844 0 12c0 3.189 1.217 6.148 3.522 8.45C5.827 22.75 8.822 24 11.983 24c3.16 0 6.222-1.25 8.593-3.583C22.815 18.214 24 15.287 24 12c0-3.255-1.186-6.214-3.458-8.483C18.238 1.217 15.275 0 11.983 0zm.033 2.17c2.7 0 5.103 1.02 6.98 2.893 1.843 1.841 2.83 4.274 2.83 6.937 0 2.696-.954 5.063-2.798 6.872-1.943 1.906-4.444 2.926-7.012 2.926-2.601 0-5.038-1.019-6.914-2.893-1.877-1.875-2.93-4.34-2.93-6.905 0-2.597 1.053-5.063 2.93-6.97 1.844-1.874 4.214-2.86 6.914-2.86zM8.68 8.278C6.723 8.278 5.165 9.66 5.165 12c0 2.38 1.465 3.722 3.581 3.722 1.358 0 2.516-.744 3.155-1.874l-1.491-.758c-.333.798-.839 1.037-1.478 1.037-1.105 0-1.61-.917-1.61-2.126 0-1.21.426-2.127 1.61-2.127.32 0 .96.173 1.332.97l1.597-.838c-.68-1.236-1.837-1.728-3.181-1.728zm6.932 0c-1.957 0-3.514 1.382-3.514 3.722 0 2.38 1.464 3.722 3.58 3.722 1.359 0 2.516-.744 3.155-1.874l-1.49-.758c-.333.798-.84 1.037-1.478 1.037-1.105 0-1.611-.917-1.611-2.126 0-1.21.426-2.127 1.61-2.127.32 0 .96.173 1.332.97l1.597-.838c-.68-1.236-1.837-1.728-3.181-1.728z" fill="currentColor"></path>
+      </svg>
 
-  <p>
-    <small>
       All original content on this website is freely available in the public domain in accordance with the 
       <a href="//creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal license</a>. Download, copy, remix all allowed.
-    </small>
-  </p>
+    </p>
 
-  <p>
-    Built using Eleventy v{{ buildInfo.generatorVersion }}.
-    Last deployed at <time datetime="{{ buildInfo.buildDate.iso }}">{{ buildInfo.buildDate.human }}</time> from Maassluis, the Netherlands.
-    <a href="//github.com/RobinBoers/geheimesite.nl/commit/{{ buildInfo.commitHash }}">See changes in <code>{{ buildInfo.commitHash }}</code></a>.
-  </p>
+    <p class="github">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14">
+        <title>GitHub</title>
+        <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" fill="currentColor"></path>
+      </svg>
 
-  <p>
-    Source code for this site is licensed AGPLv3. <a href="https://github.com/RobinBoers/geheimesite.nl/blob/main/{{ page.inputPath }}">Edit this page on GitHub</a>.
-  </p>
+      Source code for this site is licensed AGPLv3. <a href="https://github.com/RobinBoers/geheimesite.nl/blob/main/{{ page.inputPath }}">Edit this page on GitHub</a>.
+    </p>
+
+    <p class="eleventy">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="16">
+        <path fill="currentColor" d="M18 0h92v128H18z"/>
+        <path d="M55.3 36.3h.4c1.1 0 1.5.9 1.5 2.3v41.8c0 1.8-.4 3-1.6 3l-4.8-.1c-1.2 0-1.6-1-1.6-3V45.5l-2.1.5c-1 0-1.5-.8-1.5-2.2v-3c0-1.2.4-2 1.4-2.2l8.3-2.2zm16 36.1l.1 3 .6 1.3.6.6.8.1h2.2c1 0 1.7.8 1.7 2v1.9c0 1.2-.6 2-1.8 2h-3.2l-2.3-.1c-.7-.2-1.4-.5-2.2-1a5.7 5.7 0 01-2-1.9c-.4-.8-.8-1.9-1-3.2-.4-1.4-.5-3-.5-4.8v-16h-1.5c-1.1 0-1.6-1-1.6-2.4v-1.7c0-1.4.5-2.3 1.6-2.3h1.5v-.1l.6-12.3c0-1.5.5-2.5 1.6-2.5h3.1c1.2 0 1.6 1 1.6 2.5v12.3h3.6c1.1 0 1.6 1 1.6 2.4V54c0 1.4-.5 2.3-1.6 2.3h-3.6v16.2zm9.4 15.7c0-2 .3-3.2 1.5-3.2.2 0 .4 0 1.4.4l1.1.3.2-.1.4-.7c.3-.6.4-1.6.4-3l-.6-3.3L79 52.7v-.9c0-1.2.3-2 1.2-2H84c.5 0 1 .3 1.3.6.3.4.5.9.6 1.6l3.4 18 2.6-17.8c.1-.8.3-1.3.6-1.7.3-.4.8-.6 1.3-.6h2.6c1 0 1.4.8 1.4 2l-.1.8L92 82.2c-.5 2.5-1 4.4-1.5 5.7a6.6 6.6 0 01-2 3c-.9.6-1.9.9-3.1.9h-.3c-2 0-3.3-.6-4.1-1.7-.3-.4-.4-1-.4-2zM31.3 38.8l8.2-2.1h.5c1 0 1.4.8 1.4 2.2v41.9c0 1.8-.4 2.9-1.6 2.9h-4.7c-1.2 0-1.6-1.1-1.6-3v-35l-2 .6c-1.2 0-1.6-.9-1.6-2.2v-3c0-1.2.4-2 1.4-2.3z" fill="white"/>
+      </svg>
+      
+      Built using Eleventy v{{ buildInfo.generatorVersion }}.
+      Last deployed at <time datetime="{{ buildInfo.buildDate.iso }}">{{ buildInfo.buildDate.human }}</time> from Maassluis, the Netherlands.
+      <a href="//github.com/RobinBoers/geheimesite.nl/commit/{{ buildInfo.commitHash }}">See changes in <code>{{ buildInfo.commitHash }}</code></a>.
+    </p>
+  </small>
 </footer>
-
-<script>
-    let pageWeight = document.body.innerHTML.length / 1000;
-    document.querySelector(
-        ".page-size"
-    ).innerText = `${pageWeight.toFixed(1)} kB`;
-</script>

@@ -1,5 +1,5 @@
 ---
-title: @mentions
+title: '@mentions'
 date: 2024-04-09
 rss-only: true
 ---

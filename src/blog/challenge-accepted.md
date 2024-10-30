@@ -1,6 +1,7 @@
 ---
 title: Challenge accepted
 date: 2024-04-23
+favorite: true
 ---
 
 A while back, I read [<cite>Let's make the indie web easier</cite>](//gilest.org/indie-easy.html), and it really resonated with me.

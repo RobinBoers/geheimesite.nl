@@ -2,6 +2,7 @@
 title: Red het internet, bouw je eigen website.
 date: 2022-05-30
 language: nl
+favorite: true
 ---
 
 [Het internet is stuk](//waag.org/nl/hetinternetisstuk). Scams, advertenties, fake news, misinformatie, verslaving, privacy schending, hatespeech, echo chambers, rascisme en discriminatie. Hoe zijn we hier terecht gekomen? Zoals ik en mijn vriend Kevin altijd bij bijna al ons geschiedenishuiswerk invullen: *geld macht politiek*.
@@ -46,8 +47,8 @@ Dit soort initiatieven zorgen ervoor dat het internet een betere plek wordt. In 
 
 Het probleem dat ik vooral heb met de huidige staat van het internet is dat het een totale rotzooi is, maar voor veel van ons is het wel een groot deel van onze identiteit. Er is een gebrek aan regulering. Internetbedrijven worden niet voldoende verantwoordelijk gesteld voor de schade die zij aanrichten aan onze samenleving. Ik heb al eerder posts geschreven over dit onderwerp:
 
-- [Het belang van open standaarden](/post/belang-van-open-standaarden/)
-- [Social media, wat moeten we er mee aan?](/2021/12/social-media-wat-moeten-we-er-mee-aan.html)
+- [Het belang van open standaarden](/blog/belang-van-open-standaarden/)
+- [Social media, wat moeten we er mee aan?](/blog/social-media-wat-moeten-we-er-mee-aan)
 
 Maar er is ook iets wat wij als consumenten kunnen doen. Zeg nee tegen deze platformen. Red het internet en bouw je eigen website.
 
