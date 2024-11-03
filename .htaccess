@@ -60,4 +60,4 @@ Redirect 301 /webdesign /projects
 # Allow redirects from / for blog posts.
 RewriteCond %{DOCUMENT_ROOT}/$1.html !-f
 RewriteCond %{DOCUMENT_ROOT}/blog/$1.html -f
-RewriteRule ^(.+)$ /blog/$1.html [L]
+RewriteRule ^(.+)$ /blog/$1.html [R=301,L]
