@@ -215,3 +215,8 @@ textarea {
 table, thead, tbody, tr, td, th {
   border-color:light-dark(#ccc,#444)
 }
+
+/* Eleventy icon coloring */
+.eleventy svg path[fill="white"] {
+  fill: light-dark(white, black);
+}
