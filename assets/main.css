@@ -70,7 +70,7 @@ body > footer small {
   }
 }
 
-.grid, .books {
+.grid, .books, .music {
   display: grid;
   padding: 0;
   gap: 0.5em;
@@ -97,7 +97,7 @@ body > footer small {
   }
 }
 
-.books {
+.books, .music {
   margin-top: 0;
   row-gap: 1.5em;
 
@@ -117,24 +117,40 @@ body > footer small {
   img { aspect-ratio: unset }
 }
 
+.music {
+  row-gap: 5em;
+  li { position:  relative }
+
+  .medium {
+    opacity: 1;
+    background: #e11d48;
+    color: white;
+    padding: 0.2em;
+    position: absolute;
+    z-index: 99999;
+    bottom: 0.75em;
+    right: 0.5em;
+  }
+}
+
 @media (min-width: 600px) {
-  .books { grid-template-columns: repeat(2, 1fr) }
+  .books, .music { grid-template-columns: repeat(2, 1fr) }
 }
 
 @media (min-width: 800px) {
   .grid { grid-template-columns: repeat(2, 1fr) }
-  .books { grid-template-columns: repeat(3, 1fr) }
+  .books, .music { grid-template-columns: repeat(3, 1fr) }
 }
 
 @media (min-width: 1200px) {
   .grid { grid-template-columns: repeat(3, 1fr) }
-  .books { grid-template-columns: repeat(4, 1fr) }
+  .books, .music { grid-template-columns: repeat(4, 1fr) }
 }
 
 @media (min-width: 1480px) {
-  .grid, .books { width: 125% }
+  .grid, .books, .music { width: 125% }
   .grid { grid-template-columns: repeat(4, 1fr) }
-  .books { grid-template-columns: repeat(6, 1fr) }
+  .books, .music { grid-template-columns: repeat(6, 1fr) }
 }
 
 /* Reusable components */
@@ -162,6 +178,16 @@ button,
   margin-bottom: 0.8em;
   &:hover { background: light-dark(#ffe4e6, #be123c) }
   &:active { background: light-dark(#fecdd3, #9f1239) }
+}
+
+.shy-button {
+  background: light-dark(#eee, #242424);
+  text-decoration: none;
+  padding:.5em 1em;
+  color: currentColor;
+  border: none;
+  &:hover { background: light-dark(#f3f3f3, #323232) }
+  &:active { background: #be123c; color: white; }
 }
 
 .box {
