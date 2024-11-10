@@ -25,7 +25,7 @@ export default function (config) {
   config.addGlobalData("years", range(2018, currentYear).reverse());
 
   // Menu items :D
-  config.addGlobalData("main_menu", ["index", "projects", "books", "blog", "more"]);
+  config.addGlobalData("main_menu", ["", "projects", "books", "blog", "more"]);
   config.addGlobalData("more_menu", ["music", "follow", "resume", "colophon", "privacy"]);
 
   // Setup asset pipeline + dev optimizations
