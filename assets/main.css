@@ -14,6 +14,7 @@ body {
 }
 
 nav {
+  position: relative;
   display: flex;
   gap: 1.7em;
   margin: 1em;
@@ -23,6 +24,27 @@ nav {
     font-size: 1.3em;
     text-transform: lowercase;
     color: currentColor;
+
+    svg {
+      fill: currentColor;
+      width: 0.75em;
+      height: 0.75em;
+      margin-left: 0.2em;
+      vertical-align: middle;
+    }
+  }
+
+  aside.active {
+    position: absolute;
+    right: -2.5rem;
+    top: 2.4em;
+    z-index: 50;
+    height: max-content;
+    background-color: light-dark(#eee, #242424);
+    padding: 1em;
+    padding-top: 0.5em;
+    display: flex;
+    flex-direction: column;
   }
 }
 

@@ -4,8 +4,6 @@ title: More
 
 {% container %}
   <ul>
-    <li><a href="//git.dupunkto.org">Gitz</a></li>
-    <li><a href="//school.geheimesite.nl">School</a></li>
     {% for path in more_menu %}
       {% for page in collections.all %}
         {% if page.fileSlug == path %}
