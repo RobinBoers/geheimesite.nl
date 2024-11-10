@@ -1,10 +1,11 @@
 ---
-title: Hey, I'm Robin!!
+title: Start
+subtitle: Hey, I'm Robin!!
 ---
 
 {% container %}
   <noscript class="header">
-    <h1>{{ title }}</h1>
+    <h1>{{ subtitle }}</h1>
   </noscript>
 
   <script>
@@ -19,7 +20,7 @@ title: Hey, I'm Robin!!
       window.setTimeout(() => type(element, text.slice(1)), 20);
     }
 
-    type(heading, "{{ title }}");
+    type(heading, "{{ subtitle }}");
   </script>
 
   I'm a teenage developer. I write pretty decent software.
