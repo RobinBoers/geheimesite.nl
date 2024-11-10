@@ -24,6 +24,10 @@ export default function (config) {
   config.addGlobalData("year", currentYear);
   config.addGlobalData("years", range(2018, currentYear).reverse());
 
+  // Menu items :D
+  config.addGlobalData("main_menu", ["index", "projects", "books", "blog", "more"]);
+  config.addGlobalData("more_menu", ["music", "follow", "resume", "colophon", "privacy"]);
+
   // Setup asset pipeline + dev optimizations
   config.addPassthroughCopy({ "assets": "/", "src/*.txt": "/", ".htaccess": "/.htaccess" });
   config.setServerPassthroughCopyBehavior("passthrough");

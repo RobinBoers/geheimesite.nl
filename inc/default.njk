@@ -6,11 +6,13 @@ favicon: 🐣
 
 <header>
   <nav>
-    <a href="/">Start</a>
-    <a href="/projects">Projects</a>
-    <a href="/books">Books</a>
-    <a href="/blog">Blog</a>
-    <a href="/more">More</a>
+    {% for path in main_menu %}
+      {% for page in collections.all %}
+        {% if page.fileSlug == path %}
+          <a href="{{ page.url }}">{{ page.data.title }}</a>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
   </nav>
 </header>
 

@@ -3,18 +3,15 @@ title: More
 ---
 
 {% container %}
-  <h1>{{ title }}</h1>
-
-  {% set main_menu = ["/", "/projects", "/books", "/blog/index.html", "/more"] %}
-  {% set exclude = ["/invisible-prisons", "/nepnieuws", "/stemrecht", "/morality", "/cryptobros", "/stability", "/buttons"] %}
-
   <ul>
     <li><a href="//git.dupunkto.org">Gitz</a></li>
     <li><a href="//school.geheimesite.nl">School</a></li>
-    {% for page in collections.all %}
-      {% if page.url not in main_menu and page.url not in exclude and page not in collections.blog and page.data.title %}
-        <li><a href="{{ page.url }}">{{ page.data.title | default(page.fileSlug) }}</a></li>
-      {% endif %}
+    {% for path in more_menu %}
+      {% for page in collections.all %}
+        {% if page.fileSlug == path %}
+          <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+        {% endif %}
+      {% endfor %}
     {% endfor %}
   </ul>
 {% endcontainer %}
