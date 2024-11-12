@@ -3,6 +3,8 @@ title: Generative AI as writing tool
 date: 2024-11-12
 ---
 
+_This post is a revised version of [<cite>The role of generative AI in writing</cite>](/blog/gpt) from January._
+
 A little more than two years ago, ChatGPT was officially launched. With it, the general public finally got access to OpenAI's brand new GPT-3 model that had been in development for the preceding years. The technology underpinning the model is GPT, a kind of neural network trained on textual patterns and capable of reproducing them with high accuracy. Basically, your iPhone's keyboard autocomplete on steroids. What followed was a cycle in which many LLMs were trained and refined in rapid succession by the giants from Silicon Valley.
 
 At the time of writing, GPT-4o is the latest and greatest model available, and the website is particularly popular among students, who utilize it for writing assignments in high school and college. As a tool. Or, realistically, letting it generate the entire essay for them.
