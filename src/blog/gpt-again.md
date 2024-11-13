@@ -38,8 +38,8 @@ With every upcoming technology, there is a period where society readjusts to its
 
 Therefore, I propose we teach AI literacy in high school and college. Teach students about the risks and benefits of using generative models as a writing tool. Not a cheat code. Not a search engine. A writing tool.
 
-Handing in work not written by you is plagiarism. However, I think using language models as a tool for checking grammar, paraphrasing sentences, reordering paragraphs and unblocking you creatively is nothing but beneficial in developing your writing skills.
+Handing in work not written by you is plagiarism. You still have to write yourself. However, using an LLM for checking grammar, paraphrasing sentences, reordering paragraphs, finding the right words and unblocking you creatively is not cheating. For some people, language is a huge barrier to getting their ideas down on paper. If a tool can help them do that more effectively, the use of that tool should be encouraged, not banned. In short, you do the thinking, and the computer helps you with the stylistics. It's not unlike other tools we're already using, such as spellcheck, dictionaries, translators and the thesaurus.
 
-In conclusion, ChatGPT and similar models are not a threat to writing. Instead, they are merely new tools that can--if utilized correctly--further improve our writing. Use them wisely.
+ChatGPT and similar models are not a threat to writing. Instead, they are merely new tools that can--if utilized correctly--further improve our writing. Use them wisely.
 
 <small>*this post was written by me, but edited and <a href="//languagetool.org">checked for grammar mistakes</a> using AI.</small>
