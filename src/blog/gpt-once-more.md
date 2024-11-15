@@ -1,5 +1,5 @@
 ---
-title: 
+title: Disconnect in the Education System
 date: 2024-11-13
 ---
 
