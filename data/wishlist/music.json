@@ -1,27 +1,11 @@
 [
   {
-    "title": "Fine Line",
-    "artist": "Harry Styles",
-    "medium": "LP",
-    "cover": "fineline.jpg",
-    "url": "https://open.spotify.com/album/7xV2TzoaVc0ycW7fwBwAml",
-    "buyUrl": "https://www.bol.com/nl/nl/p/fine-line/9200000123876222/"
-  },
-  {
     "title": "Moon Music",
     "artist": "Coldplay",
     "medium": "LP",
     "cover": "coldplay-moonmusic.jpg",
     "url": "https://open.spotify.com/album/5SGtrmYbIo0Dsg4kJ4qjM6",
     "buyUrl": "https://www.bol.com/nl/nl/p/coldplay-moon-music/9300000182162545/"
-  },
-  {
-    "title": "Midnight Memories (Ultimate Edition)",
-    "artist": "One Direction",
-    "medium": "CD",
-    "cover": "1d-midnightmemories.jpg",
-    "url": "https://open.spotify.com/album/7p1fX8aUySrBdx4WSYspOu",
-    "buyUrl": "https://www.bol.com/nl/nl/p/one-direction-midnight-memories-ultimate-edition/9200000053248449/"
   },
   {
     "title": "Five Seconds Flat",
