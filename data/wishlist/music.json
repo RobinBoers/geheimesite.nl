@@ -24,38 +24,6 @@
     "buyUrl": "https://www.bol.com/nl/nl/p/5-seconds-of-summer-youngblood/9200000092629751/"
   },
   {
-    "title": "i used to think i could fly",
-    "artist": "Tate Mcrae",
-    "medium": "CD",
-    "cover": "tate-fly.jpg",
-    "url": "https://open.spotify.com/album/5fhTetHew6Eph6HfQ9O5gJ",
-    "buyUrl": "https://www.bol.com/nl/nl/p/i-used-to-think-i-could-fly/9300000093875451/"
-  },
-  {
-    "title": "I've Tried Everything But Theraphy",
-    "artist": "Teddy Swims",
-    "medium": "CD",
-    "cover": "theraphy.jpg",
-    "url": "https://open.spotify.com/album/3egFmnuKrjoMAlqCfdw7KH",
-    "buyUrl": "https://www.bol.com/nl/nl/p/teddy-swims-i-ve-tried-everything-but-therapy/9300000160218304/"
-  },
-  {
-    "title": "I'll Call You When I'm Home",
-    "artist": "Berre",
-    "medium": "CD",
-    "cover": "berre-home.jpg",
-    "url": "https://open.spotify.com/album/2ICkFYDtOYuiOC41VAy7qi",
-    "buyUrl": "https://www.bol.com/nl/nl/p/berre-i-ll-call-you-when-i-m-home/9300000185085601/"
-  },
-  {
-    "title": "Three Cheers For Sweet Revenge",
-    "artist": "My Chemical Romance",
-    "medium": "CD/LP",
-    "cover": "threecheers.jpg",
-    "url": "https://open.spotify.com/album/3DuiGV3J09SUhvp8gqNx8h",
-    "buyUrl": "https://www.bol.com/nl/nl/p/three-cheers-for-sweet-revenge/1000004003117985/"
-  },
-  {
     "title": "The Black Parade",
     "artist": "My Chemical Romance",
     "medium": "CD/LP",
@@ -78,6 +46,14 @@
     "cover": "beginnings.jpg",
     "url": "https://open.spotify.com/album/51Uj40nCUuHggkIUEMywOr",
     "buyUrl": "https://www.bol.com/nl/nl/p/beginnings/9200000116820593/"
+  },
+  {
+    "title": "5 Seconds Of Summer",
+    "artist": "5 Seconds Of Summer",
+    "medium": "CD/LP",
+    "cover": "5sos.jpg",
+    "url": "https://open.spotify.com/album/6GKIr03B2yvdP0TkWiGJVV",
+    "buyUrl": "https://www.bol.com/nl/nl/p/5-seconds-of-summer-5-seconds-of-summer/9300000185734814/"
   },
   {
     "title": "evermore",
@@ -112,6 +88,30 @@
     "buyUrl": "https://www.bol.com/nl/nl/p/queen-bohemian-rhapsody/9200000098411918/"
   },
   {
+    "title": "i used to think i could fly",
+    "artist": "Tate Mcrae",
+    "medium": "CD",
+    "cover": "tate-fly.jpg",
+    "url": "https://open.spotify.com/album/5fhTetHew6Eph6HfQ9O5gJ",
+    "buyUrl": "https://www.bol.com/nl/nl/p/i-used-to-think-i-could-fly/9300000093875451/"
+  },
+  {
+    "title": "I've Tried Everything But Theraphy",
+    "artist": "Teddy Swims",
+    "medium": "CD",
+    "cover": "theraphy.jpg",
+    "url": "https://open.spotify.com/album/3egFmnuKrjoMAlqCfdw7KH",
+    "buyUrl": "https://www.bol.com/nl/nl/p/teddy-swims-i-ve-tried-everything-but-therapy/9300000160218304/"
+  },
+  {
+    "title": "I'll Call You When I'm Home",
+    "artist": "Berre",
+    "medium": "CD",
+    "cover": "berre-home.jpg",
+    "url": "https://open.spotify.com/album/2ICkFYDtOYuiOC41VAy7qi",
+    "buyUrl": "https://www.bol.com/nl/nl/p/berre-i-ll-call-you-when-i-m-home/9300000185085601/"
+  },
+  {
     "title": "AM",
     "artist": "Artic Monkeys",
     "medium": "CD",
@@ -126,14 +126,6 @@
     "cover": "favoriteworstnightmare.jpg",
     "url": "https://open.spotify.com/album/1XkGORuUX2QGOEIL4EbJKm",
     "buyUrl": "https://www.bol.com/nl/nl/p/favourite-worst-nightmare/9300000095712838/"
-  },
-  {
-    "title": "5 Seconds Of Summer",
-    "artist": "5 Seconds Of Summer",
-    "medium": "CD/LP",
-    "cover": "5sos.jpg",
-    "url": "https://open.spotify.com/album/6GKIr03B2yvdP0TkWiGJVV",
-    "buyUrl": "https://www.bol.com/nl/nl/p/5-seconds-of-summer-5-seconds-of-summer/9300000185734814/"
   },
   {
     "title": "No Sound Without Silence",
