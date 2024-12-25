@@ -140,7 +140,8 @@ body > footer small {
 }
 
 .music {
-  row-gap: 3em;
+  row-gap: 3.5em;
+  margin-bottom: 4.5em;
   li { position:  relative }
 
   .medium {
