@@ -11,7 +11,7 @@ This is my CD collection. And also my wishlist for new music.
 {% endcontainer %}
 
 <ul class="music">
-  {%- for album in wishlist.music -%}
+  {%- for album in music.wishlist -%}
     <li>
       <h3 class="title">{{ album.title }}</h3>
       <span class="author">{{ album.artist }}</span>
@@ -24,11 +24,30 @@ This is my CD collection. And also my wishlist for new music.
   {%- endfor -%}
 </ul>
 
+{% hr %}
+
+{% container %}
+<h2>Shelves</h2>
+{% endcontainer %}
+
+<ul class="music">
+  {%- for album in music.shelves -%}
+    <li>
+      <h3 class="title">{{ album.title }}</h3>
+      <span class="author">{{ album.artist }}</span>
+      <span class="medium">{{ album.medium }}</span>
+      <a href="{{ album.url }}" target="_blank">
+        <img src="https://cdn.geheimesite.nl/images/music/{{ album.cover }}" alt="">
+      </a>
+    </li>
+  {%- endfor -%}
+</ul>
+
 <!--
 To download all covers in one go:
-cat data/wishlist/music.json | jq -r '.[] | "\(.cover) \(.url)"' | while read cover url; do 
+cat data/music/shelves.json | jq -r '.[] | "\(.cover) \(.url)"' | while read cover url; do 
   cover_url=$(curl -s "$url" | sed -n 's/.*<meta property="og:image" content="\([^"]*\)".*/\1/p');
   curl -s -o "/tmp/$cover" "$cover_url";
-  scp "/tmp/$cover" s11:domains/cdn.geheimesite.nl/public_html/images/music/
+  scp "/tmp/$cover" nov:/volume1/www/cdn.geheimesite.nl/images/music/
 done
 -->
