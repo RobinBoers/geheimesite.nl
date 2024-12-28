@@ -56,6 +56,13 @@
     "url": "https://open.spotify.com/album/1gMxiQQSg5zeu4htBosASY"
   },
   {
+    "title": "5 Seconds Of Summer",
+    "artist": "5 Seconds Of Summer",
+    "medium": "CD/LP",
+    "cover": "5sos.jpg",
+    "url": "https://open.spotify.com/album/6GKIr03B2yvdP0TkWiGJVV"
+  },
+  {
     "title": "TTPD",
     "artist": "Taylor Swift",
     "medium": "CD",
@@ -208,6 +215,13 @@
     "medium": "CD/LP",
     "cover": "threecheers.jpg",
     "url": "https://open.spotify.com/album/3DuiGV3J09SUhvp8gqNx8h"
+  },
+  {
+    "title": "The Black Parade",
+    "artist": "My Chemical Romance",
+    "medium": "CD/LP",
+    "cover": "theblackparade.jpg",
+    "url": "https://open.spotify.com/album/0FZK97MXMm5mUQ8mtudjuK"
   },
   {
     "title": "Cigarettes After Sex",
@@ -397,5 +411,12 @@
     "medium": "CD",
     "cover": "ronde-ten.jpg",
     "url": "https://open.spotify.com/album/3XsUZ5vWPSyUktmGIkglVe"
+  },
+  {
+    "title": "The Script",
+    "artist": "The Script",
+    "medium": "CD",
+    "cover": "script.jpg",
+    "url": "https://open.spotify.com/album/7Lv2e6qweacdWjqrQy7UNo"
   }
 ]
