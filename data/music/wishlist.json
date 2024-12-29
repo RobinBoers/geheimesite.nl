@@ -48,30 +48,6 @@
     "buyUrl": "https://www.bol.com/nl/nl/p/taylor-swift-evermore/9300000019940992/"
   },
   {
-    "title": "Love Sux",
-    "artist": "Avril Lavigne",
-    "medium": "CD/LP",
-    "cover": "lovesux.jpg",
-    "url": "https://open.spotify.com/album/5pkQpJAHxy9BzwA7E1UWxF",
-    "buyUrl": "https://www.bol.com/nl/nl/p/love-sux/9300000074426538/"
-  },
-  {
-    "title": "Head Above Water",
-    "artist": "Avril Lavigne",
-    "medium": "CD/LP",
-    "cover": "headabovewater.jpg",
-    "url": "https://open.spotify.com/album/3FrkD0TTaXBuW19vuEhDGz",
-    "buyUrl": "https://www.bol.com/nl/nl/p/head-above-water/9200000103644019/"
-  },
-  {
-    "title": "Bohemian Rhapsody (Original Soundtrack)",
-    "artist": "Queen",
-    "medium": "CD",
-    "cover": "queen.jpg",
-    "url": "https://open.spotify.com/album/6i6folBtxKV28WX3msQ4FE",
-    "buyUrl": "https://www.bol.com/nl/nl/p/queen-bohemian-rhapsody/9200000098411918/"
-  },
-  {
     "title": "i used to think i could fly",
     "artist": "Tate Mcrae",
     "medium": "CD",
@@ -94,29 +70,5 @@
     "cover": "berre-home.jpg",
     "url": "https://open.spotify.com/album/2ICkFYDtOYuiOC41VAy7qi",
     "buyUrl": "https://www.bol.com/nl/nl/p/berre-i-ll-call-you-when-i-m-home/9300000185085601/"
-  },
-  {
-    "title": "AM",
-    "artist": "Artic Monkeys",
-    "medium": "CD",
-    "cover": "am.jpg",
-    "url": "https://open.spotify.com/album/78bpIziExqiI9qztvNFlQu",
-    "buyUrl": "https://www.bol.com/nl/nl/p/arctic-monkeys-am/9300000095712853/"
-  },
-  {
-    "title": "Favourite Worst Nightmare",
-    "artist": "Artic Monkeys",
-    "medium": "CD",
-    "cover": "favoriteworstnightmare.jpg",
-    "url": "https://open.spotify.com/album/1XkGORuUX2QGOEIL4EbJKm",
-    "buyUrl": "https://www.bol.com/nl/nl/p/favourite-worst-nightmare/9300000095712838/"
-  },
-  {
-    "title": "No Sound Without Silence",
-    "artist": "The Script",
-    "medium": "CD",
-    "cover": "nosoundwithoutsilence.jpg",
-    "url": "https://open.spotify.com/album/6yd9yk8nFcHalXzy7mgaDx",
-    "buyUrl": "https://www.bol.com/nl/nl/p/no-sound-without-silence/9200000030879080/"
   }
 ]
