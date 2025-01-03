@@ -20,7 +20,7 @@ Here's some projects I'm especially proud of:
 
 ## Webdesign
 
-I build website for people from time to time. Here’s a few of them. All of the people were happy. I think.
+I build websites for people from time to time. Here’s a few of them. All of the people were happy. I think.
 
 {% endcontainer %}
 

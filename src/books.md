@@ -8,7 +8,7 @@ title: Books
   This is my little library. The bookshelves below contain all books I've read in the
   last couple of years. Most of them anyway.
 
-  The data on this page is from the physical bookshelfs in my room, as well as the digital records of our local library. Unfortunately the library records only go back as far as 2018, so this page is far from complete.
+  The data on this page is sourced from the physical bookshelfs in my room, as well as the digital records of our local library. Unfortunately the library records only go back as far as 2018, so this page is far from complete.
 {% endcontainer %}
 
 {% for year in years %}
