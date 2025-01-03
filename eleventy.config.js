@@ -26,7 +26,7 @@ export default function (config) {
 
   // Menu items :D
   config.addGlobalData("main_menu", ["", "projects", "books", "blog", "more"]);
-  config.addGlobalData("more_menu", ["music", "follow", "resume", "colophon", "privacy"]);
+  config.addGlobalData("more_menu", ["follow", "resume", "colophon", "privacy"]);
 
   // Setup asset pipeline + dev optimizations
   config.addPassthroughCopy({ "assets": "/", "src/*.txt": "/", ".htaccess": "/.htaccess" });
