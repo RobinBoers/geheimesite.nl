@@ -2,7 +2,6 @@
 
 SRC=src
 DIST=dist
-REMOTE=s11
 DOMAIN=geheimesite.nl
 
 BUILD="bun -b run eleventy"
@@ -19,7 +18,9 @@ serve() {
 
 deploy() {
   if [ -d $DIST ]; then
-    $DEPLOY $DIST/ $REMOTE:domains/$DOMAIN/public_html
+    $DEPLOY $DIST/ s11:domains/$DOMAIN/public_html
+    $DEPLOY $DIST/ nov:/volume1/www/$DOMAIN
+    $DEPLOY $DIST/ nov:/volume1/www/november.geheimesite.nl
   else
     err "'$DIST' does not exist."
   fi
