@@ -43,7 +43,7 @@ head: >
 
   {% assign posts = collections.blog | sort: 'date' | reverse %}
 
-  <h2 style="font-size: 1.1em">Selected pieces</h2>
+  <h2 style="font-size: 1.1em">Pinned essays</h2>
 
   <ul style="list-style: none; padding: 0;">
     <li lang="en"><a href="/invisible-prisons" hreflang="en">Invisible Prisons: a short story</a></li>
