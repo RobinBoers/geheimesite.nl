@@ -38,7 +38,7 @@ export default function (config) {
   config.setServerPassthroughCopyBehavior("passthrough");
 
   // My pretty URLs are configured in Apache
-  // config.addGlobalData("permalink", () => ({ page }) => `${page.filePathStem}.${page.outputFileExtension}`);
+  config.addGlobalData("permalink", () => ({ page }) => `${page.filePathStem}.${page.outputFileExtension}`);
   config.addUrlTransform((page) => {
     if (page.url.endsWith(".html")) return page.url.slice(0, -1 * ".html".length);
   });
@@ -188,6 +188,10 @@ export default function (config) {
 
   const lightningCSSPlugin = {
     outputFileExtension: "css",
+    useLayouts: false,
+    compileOptions: {
+      permalink: () => (data) => `${data.page.filePathStem}.css`,
+    },
     compile: async function (inputContent, inputPath) {
       // Skip files starting with an underscore.
       let parsedPath = path.parse(inputPath);
@@ -204,11 +208,6 @@ export default function (config) {
   // Process CSS files like templates & skip default layout.
   config.addTemplateFormats("css");
   config.addExtension("css", lightningCSSPlugin);
-  config.addCollection("css", async (collectionApi) => {
-    return collectionApi.getFilteredByGlob("src/*.css").map((stylesheet) => {
-      stylesheet.data.layout = null; return stylesheet;
-    });
-  });
 
   return {
     dir: {
