@@ -129,7 +129,7 @@ export default function (config) {
         const parser = extension.replace(/^./, "");
         return prettier.format(content, { parser });
 
-      default: 
+      default:
         return content;
     }
   });
@@ -141,26 +141,26 @@ export default function (config) {
 
   // Add compile-time dependency on @imported
   // files to enable --incremental rebuilds.
-  const calculateDependencies = function(directory, contents) {
+  const calculateDependencies = function (directory, contents) {
     if (!contents.includes("@import")) return [];
 
     const fileList = [];
     let match;
 
     while ((match = IMPORT_RULE_REGEX.exec(contents))) {
-      if(/^https?:\/\//.test(match[1])) continue;
+      if (/^https?:\/\//.test(match[1])) continue;
       else fileList.push(directory + "/" + path);
     }
 
-    return fileList;  
-  }
+    return fileList;
+  };
 
   // Inline remote HTTP(s) resources via @import,
   // instead of crashing with ENOENT errors.
   const remoteResolver = {
     resolve(specifier, from) {
       if (/^https?:\/\//.test(specifier)) return specifier;
-      else return path.resolve(path.dirname(from), specifier);          
+      else return path.resolve(path.dirname(from), specifier);
     },
     async read(filePath) {
       if (/^https?:\/\//.test(filePath)) {
@@ -170,10 +170,10 @@ export default function (config) {
         const file = Bun.file(filePath);
         return await file.text();
       }
-    }   
-  }
+    },
+  };
 
-  const bundleStylesheet = async function(filename) {
+  const bundleStylesheet = async function (filename) {
     let { code } = await bundleAsync({
       filename,
       minify: true,
@@ -184,7 +184,7 @@ export default function (config) {
     });
 
     return code;
-  }
+  };
 
   const lightningCSSPlugin = {
     outputFileExtension: "css",
@@ -198,7 +198,7 @@ export default function (config) {
       this.addDependencies(inputPath, dependencies);
 
       return async () => await bundleStylesheet(inputPath);
-    }
+    },
   };
 
   // Process CSS files like templates & skip default layout.
