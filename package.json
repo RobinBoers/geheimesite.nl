@@ -8,9 +8,15 @@
   "license": "AGPL-3.0-only",
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-fetch": "^4.0.1",
     "@11ty/eleventy-img": "^5.0.0",
     "@11ty/eleventy-plugin-rss": "^2.0.2",
-    "@11ty/eleventy-fetch": "^4.0.1",
+    "browserslist": "^4.24.3",
+    "lightningcss": "^1.28.2",
     "prettier": "^3.3.3"
-  }
+  },
+  "browserslist": [
+    "defaults and fully supports es6-module",
+    "maintained node versions"
+  ]
 }
