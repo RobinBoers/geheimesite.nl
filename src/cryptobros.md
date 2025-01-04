@@ -605,7 +605,7 @@ de subcultuur is.
 ## Bronnenlijst
 
 Bogan, V. (N.D.). <cite>Greater Fools Theory: What is it?</cite> Hartford Funds.
-Geraadpleegd van: <https://bogan.dyson.cornell.edu/doc/Hartford/Bogan-9_GreaterFools.pdf>
+Geraadpleegd van: <https://bogan.dyson.cornell.edu/doc/Hartford/Bogan-9_GreaterFools.pdf> ([archived](https://web.archive.org/web/20240718141133/https://bogan.dyson.cornell.edu/doc/Hartford/Bogan-9_GreaterFools.pdf))
 
 Olson, D. (2022). <cite>The Line Goes Up</cite>. Geraadpleegd van:
 <https://youtube.com/watch?v=YQ_xWvX1n9g>
@@ -617,7 +617,7 @@ Cambridge University (2022). <cite>Cambridge Bitcoin Electricity Consumption Ind
 Cambridge Centre for Alternative Finance. Geraadpleegd van:
 <https://ccaf.io/cbnsi/cbeci>
 
-Milieu Centraal (2022). <cite>Wat is je CO2-voetafdruk?</cite>. Geraadpleegd van:
+Milieu Centraal (2022). <cite>Wat is je CO2-voetafdruk?</cite> Geraadpleegd van:
 <https://milieucentraal.nl/klimaat-en-aarde/klimaatverandering/wat-is-je-co2-voetafdruk/>
 
 Digiconomist (2022). <cite>Bitcoin Energy Consumption Index</cite>. Geraadpleegd van:
