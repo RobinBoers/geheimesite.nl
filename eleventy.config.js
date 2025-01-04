@@ -136,71 +136,78 @@ export default function (config) {
 
   // Pre-process CSS using Lightning for
   // minimazation and backwards-compatibility.
+  const TARGETS = browserslistToTargets(browserslist(PACKAGE.browserslists));
   const IMPORT_RULE_REGEX = /@import\s+(?:url\()?['"]?([^'"\);]+)['"]?\)?.*;/g;
 
-  // Process CSS files like templates & skip default layout.
-  config.addTemplateFormats("css");
-  config.addCollection("css", async (collectionApi) => {
-    return collectionApi.getFilteredByGlob("src/*.css").map((stylesheet) => {
-      stylesheet.data.layout = null; return stylesheet;
-    });
-  });
+  // Add compile-time dependency on @imported
+  // files to enable --incremental rebuilds.
+  const calculateDependencies = function(directory, contents) {
+    if (!contents.includes("@import")) return [];
 
-  config.addExtension("css", {
+    const fileList = [];
+    let match;
+
+    while ((match = IMPORT_RULE_REGEX.exec(contents))) {
+      if(/^https?:\/\//.test(match[1])) continue;
+      else fileList.push(directory + "/" + path);
+    }
+
+    return fileList;  
+  }
+
+  // Inline remote HTTP(s) resources via @import,
+  // instead of crashing with ENOENT errors.
+  const remoteResolver = {
+    resolve(specifier, from) {
+      if (/^https?:\/\//.test(specifier)) return specifier;
+      else return path.resolve(path.dirname(from), specifier);          
+    },
+    async read(filePath) {
+      if (/^https?:\/\//.test(filePath)) {
+        const response = await fetch(filePath);
+        return response.text();
+      } else {
+        const file = Bun.file(filePath);
+        return await file.text();
+      }
+    }   
+  }
+
+  const bundleStylesheet = async function(filename) {
+    let { code } = await bundleAsync({
+      filename,
+      minify: true,
+      sourceMap: false,
+      targets: TARGETS,
+      resolver: remoteResolver,
+      drafts: { nesting: true },
+    });
+
+    return code;
+  }
+
+  const lightningCSSPlugin = {
     outputFileExtension: "css",
     compile: async function (inputContent, inputPath) {
       // Skip files starting with an underscore.
       let parsedPath = path.parse(inputPath);
       if (parsedPath.name.startsWith("_")) return;
 
-      // Add compile-time dependency on @imported
-      // files to enable --incremental rebuilds.
-      if (inputContent.includes("@import")) {
-        let match;
-        const fileList = [];
+      // Calculate compile-time dependencies.
+      const dependencies = calculateDependencies(parsedPath.dir, inputContent);
+      this.addDependencies(inputPath, dependencies);
 
-        while ((match = IMPORT_RULE_REGEX.exec(inputContent))) {
-          if(/^https?:\/\//.test(match[1])) continue;
-          else fileList.push(parsedPath.dir + "/" + path);
-        }
-
-        if (fileList != []) {
-          this.addDependencies(inputPath, fileList);
-        }
-      }
-
-      const list = browserslist(PACKAGE.browserslists);
-      const targets = browserslistToTargets(list);
-
-      const resolver = {
-        resolve(specifier, from) {
-          if (/^https?:\/\//.test(specifier)) return specifier;
-          else return path.resolve(path.dirname(from), specifier);          
-        },
-        async read(filePath) {
-          if (/^https?:\/\//.test(filePath)) {
-            const response = await fetch(filePath);
-            return response.text();
-          } else {
-            const file = Bun.file(filePath);
-            return await file.text();
-          }
-        }   
-      }
-
-      return async () => {
-        let { code } = await bundleAsync({
-          filename: inputPath,
-          minify: true,
-          sourceMap: false,
-          targets,
-          resolver,
-          drafts: { nesting: true },
-        });
-
-        return code;
-      };
+      return async () => await bundleStylesheet(inputPath);
     }
+  };
+
+  // Process CSS files like templates & skip default layout.
+  config.addTemplateFormats("css");
+  config.addExtension("css", lightningCSSPlugin);
+  config.addCollection("css", async (collectionApi) => {
+    return collectionApi.getFilteredByGlob("src/*.css").map((stylesheet) => {
+      stylesheet.data.layout = null; return stylesheet;
+    });
   });
 
   return {
