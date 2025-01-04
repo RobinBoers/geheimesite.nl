@@ -59,11 +59,11 @@ head: >
   {% for post in posts -%}
     {%- unless post.data.rssonly -%}
       <li class="h-entry {% if post.data.favorite %}favorite{% endif %}">
-        <a class="u-url" href="{{ post.url }}">
+        <a class="u-url" href="{{ post.url }}" hreflang="{{ post.data.language }}">
           <b>
             <time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %d, %Y" }}</time>:
           </b>
-          <span class="p-title">{{ post.data.title }}</span>
+          <span class="p-title" lang="{{ post.data.language }}">{{ post.data.title }}</span>
         </a>
       </li>
     {%- endunless -%}
