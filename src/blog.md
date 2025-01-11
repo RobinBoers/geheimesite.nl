@@ -4,9 +4,13 @@ permalink: "/blog/index.html"
 head: >
   <style>
     .h-feed {
-      margin-left: 3em;
       padding: 0;
       list-style: none;
+    }
+
+    @media (min-width: 650px) {
+      /* When updating, don't forget the rule in main.css too */
+      .h-feed { margin-left: 3em }
     }
 
     .h-entry a {

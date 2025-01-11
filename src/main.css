@@ -238,7 +238,6 @@ button,
 
 article {
   max-width: 777px;
-  margin-left: 3em;
 
   hgroup h1 {
     line-height: 1.2;
@@ -263,6 +262,11 @@ article {
     opacity: 0.8;
     text-align: center;
   }
+}
+
+@media (min-width: 650px) {
+  /* When updating, don't forget the rule in blog.md too */
+  .article { margin-left: 3em }
 }
 
 /* Forms */
