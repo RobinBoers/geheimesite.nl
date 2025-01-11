@@ -1,5 +1,9 @@
 @import url("https://cdn.geheimesite.nl/pinkz.css");
 
+html {
+  font-size: clamp(0.8em, 3vw, 1.2em);
+}
+
 body {
   max-width: 1000px;
   padding: 10px;
