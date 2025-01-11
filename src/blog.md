@@ -8,7 +8,7 @@ head: >
       list-style: none;
     }
 
-    @media (min-width: 650px) {
+    @media (min-width: 900px) {
       /* When updating, don't forget the rule in main.css too */
       .h-feed { margin-left: 3em }
     }

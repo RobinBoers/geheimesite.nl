@@ -264,7 +264,7 @@ article {
   }
 }
 
-@media (min-width: 650px) {
+@media (min-width: 900px) {
   /* When updating, don't forget the rule in blog.md too */
   .article { margin-left: 3em }
 }
