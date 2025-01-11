@@ -56,6 +56,13 @@ main {
   padding: 2em;
 }
 
+@media (max-width: 500px) {
+  main {
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+}
+
 header, footer {
   a { color: currentColor }
 }
