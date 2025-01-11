@@ -20,7 +20,7 @@ body {
 nav {
   position: relative;
   display: flex;
-  gap: 1.7em;
+  gap: clamp(0.4em, 3vw, 1.7em);
   margin: 1em;
   justify-content: flex-end;
   
@@ -28,6 +28,7 @@ nav {
     font-size: 1.3em;
     text-transform: lowercase;
     color: currentColor;
+    white-space: nowrap;
 
     svg {
       fill: currentColor;
