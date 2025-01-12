@@ -12,19 +12,22 @@ title: Books
 {% endcontainer %}
 
 {% for year in years %}
-  {% container %}
-    {% hr %}
-    <h2>{{ year }}</h2>
-  {% endcontainer %}
-  <ul class="books">
-    {%- for book in books[year] -%}
-      <li>
-        <h3 class="title">{{ book.title }}</h3>
-        <span class="author">{{ book.author }}</span>
-        <a href="{{ book.url }}">
-          <img src="https://cdn.geheimesite.nl/images/books/{{ book.cover }}" alt="">
-        </a>
-      </li>
-    {%- endfor -%}
-  </ul>
+  {%- if books[year] -%}
+    {% container %}
+      {% hr %}
+      <h2>{{ year }}</h2>
+    {% endcontainer %}
+
+    <ul class="books">
+      {%- for book in books[year] -%}
+        <li>
+          <h3 class="title">{{ book.title }}</h3>
+          <span class="author">{{ book.author }}</span>
+          <a href="{{ book.url }}">
+            <img src="https://cdn.geheimesite.nl/images/books/{{ book.cover }}" alt="">
+          </a>
+        </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
 {% endfor %}
