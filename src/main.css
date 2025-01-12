@@ -104,6 +104,13 @@ body > footer small {
   }
 }
 
+.placeholder {
+  font-size: 0.8em;
+  opacity: 0.8;
+  text-align: center;
+  font-style: italic;
+}
+
 .grid, .books, .music {
   display: grid;
   padding: 0;
