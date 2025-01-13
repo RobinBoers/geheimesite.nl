@@ -45,7 +45,7 @@ This is my CD collection. And also my wishlist for new music.
 
 <!--
 To download all covers in one go:
-cat data/music/shelves.json | jq -r '.[] | "\(.cover) \(.url)"' | while read cover url; do 
+cat data/music/wishlist.json | jq -r '.[] | "\(.cover) \(.url)"' | while read cover url; do 
   cover_url=$(curl -s "$url" | sed -n 's/.*<meta property="og:image" content="\([^"]*\)".*/\1/p');
   curl -s -o "/tmp/$cover" "$cover_url";
   scp "/tmp/$cover" nov:/volume1/www/cdn.geheimesite.nl/images/music/
