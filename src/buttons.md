@@ -1,5 +1,5 @@
 ---
-title: Button Hell of Doom
+title: Buttons
 head: >
   <style>
     .container {
