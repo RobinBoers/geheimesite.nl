@@ -1,6 +1,9 @@
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
+import markdownItFootnote from "markdown-it-footnote";
+import markdownItAnchor from "markdown-it-anchor";
+
 import browserslist from "browserslist";
 import { bundleAsync, browserslistToTargets } from "lightningcss";
 
@@ -78,6 +81,11 @@ export default function (config) {
   // Smartypants!!
   // Turned off, because it's mega inconsistent on where the stuff is smartified.
   //config.amendLibrary("md", (md) => md.set({ typographer: true }));
+
+  // Footnotes and heading anchors
+  config.amendLibrary("md", (md) =>
+    md.use(markdownItAnchor).use(markdownItFootnote)
+  );
 
   // Custom filters
   config.addFilter("date", (date, format = "%Y-%m-%d") => {
