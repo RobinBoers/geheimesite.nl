@@ -276,6 +276,18 @@ article {
   .article { margin-left: 3em }
 }
 
+/* Footnotes */
+
+.footnotes-sep {
+  display: none;
+}
+
+.footnotes {
+  margin-top: 6em;
+  font-size: 0.8em;
+  opacity: 0.8;
+}
+
 /* Forms */
 
 textarea {
