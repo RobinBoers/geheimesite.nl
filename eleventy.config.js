@@ -34,7 +34,7 @@ export default function (config) {
 
   // Menu items :D
   config.addGlobalData("main_menu", ["", "projects", "books", "blog", "more"]);
-  config.addGlobalData("more_menu", ["follow", "resume", "colophon", "privacy"]);
+  config.addGlobalData("more_menu", ["follow", "resume", "colophon", "privacy", "buttons"]);
 
   // Setup asset pipeline + dev optimizations
   config.addPassthroughCopy({ "src/*.txt": "/", ".htaccess": "/.htaccess" });
