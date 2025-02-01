@@ -7,6 +7,7 @@ RewriteRule contact mailto:axcelott@roblog.nl [R=301,L,QSA]
 Redirect 301 /rss https://dupunkto.org/rss
 Redirect 301 /now https://obliviously.eu/now
 Redirect 301 /blogroll https://obliviously.eu/blogroll
+Redirect 301 /iconic https://dupunkto.org/tools/iconic
 
 # These now have their own domain
 Redirect 301 /netmap https://nm.geheimesite.nl
