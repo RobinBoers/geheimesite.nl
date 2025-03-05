@@ -1,4 +1,4 @@
-[
+[ 
   {
     "title": "How Long Do You Think It's Gonna Last?",
     "artist": "Big Red Machine",
@@ -464,5 +464,12 @@
     "medium": "CD",
     "cover": "script.jpg",
     "url": "https://open.spotify.com/album/7Lv2e6qweacdWjqrQy7UNo"
+  },
+  {
+    "title": "Little Astronaut",
+    "artist": "Moonloops",
+    "medium": "LP",
+    "cover": "moonloops-lil-astronaut.jpg",
+    "url": "https://open.spotify.com/album/0zzegLKJsDpDaTUJ7YjGke"
   }
 ]
