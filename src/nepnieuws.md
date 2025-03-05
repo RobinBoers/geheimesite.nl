@@ -240,13 +240,13 @@ Meer, E. (2021, 30 juni). <cite>Nepnieuws op het internet.</cite> Geraadpleegd o
 
 Ohlheiser, A. (2016, 18 november). <cite>This is how Facebook’s fake-news writers make money</cite>. Geraadpleegd op 27 mei 2023, van <https://www.washingtonpost.com/news/the-intersect/wp/2016/11/18/this-is-how-the-internets-fake-news-writers-make-money/>
 
-Packet, S., & Clarysse, M. (2018, 30 juni). <cite>Fake news, een stevige boterham. Hapklaar voor de les Nederlands?</cite> Geraadpleegd op 27 mei 2023, van <https://www.scriptieprijs.be/sites/default/files/thesis/2018-10/FINAL%20BAP.pdf>
+Packet, S., & Clarysse, M. (2018, 30 juni). <cite>Fake news, een stevige boterham. Hapklaar voor de les Nederlands?</cite> Geraadpleegd op 27 mei 2023, van <https://scriptiebank.be/scriptie/2018/fake-news-een-stevige-boterham-hapklaar-voor-de-les-nederlands> ([archived](https://web.archive.org/web/20240331095506/https://www.scriptieprijs.be/sites/default/files/thesis/2018-10/FINAL%20BAP.pdf))
 
 Pennycook, G., & Rand, D. (2021). <cite>The Psychology of Fake News. Trends in Cognitive Sciences, 25</cite>(5). 388-402.
 
 Shearer, E., & Matsa, KE. (2018). <cite>News Use Across Social Media Platforms 2018.</cite> (Pew Research Center, Washington, D.C.). Geraardpleegd van <https://www.pewresearch.org/journalism/wp-content/uploads/sites/8/2018/09/PJ_2018.09.10_social-media-news_FINAL.pdf>
 
-Sitskoorn, M. (z.d). <cite>Waarom Geloven We Nepnieuws?</cite> Geraadpleegd op 28 May 2023, van <https://www.isdatechtzo.nl/waarom-geloven-we-nepnieuws/jouw-brein-en-nepnieuws/hoe-werkt-het-bij-onszelf/>
+Sitskoorn, M. (z.d). <cite>Waarom geloven we nepnieuws?</cite> Geraadpleegd op 28 May 2023, van <https://www.isdatechtzo.nl/waarom-geloven-we-nepnieuws/jouw-brein-en-nepnieuws/hoe-werkt-het-bij-onszelf/>
 
 T. (2022, 30 March). <cite>Waarom geloven mensen steeds vaker fake news en misinformatie? Deze 5 psychologische biases verklaren het.</cite> Geraadpleegd op 28 May 2023, van <https://www.unravelbehavior.com/blog/waarom-geloven-mensen-steeds-vaker-fake-news-en-misinformatie-deze-5-psychologische-biases-verklaren-het>
 
