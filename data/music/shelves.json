@@ -7,6 +7,22 @@
     "url": "https://open.spotify.com/album/3YbMxdapL6mvSQjosFkc0T"
   },
   {
+    "title": "Harry Styles",
+    "artist": "Harry Styles",
+    "medium": "LP",
+    "cover": "harrystyles.jpg",
+    "url": "https://open.spotify.com/album/1FZKIm3JVDCxTchXDo5jOV?si=VGtAzF7cQJO6ra5DGS8oDg",
+    "buyUrl": "https://www.bol.com/nl/nl/p/harry-styles/9200000077123070/"
+  },
+  {
+    "title": "Five Seconds Flat",
+    "artist": "Lizzy McAlpine",
+    "medium": "LP",
+    "cover": "lize-fivesecondsflat.jpg",
+    "url": "https://open.spotify.com/album/68L5xVV9wydotfDXEik7eD",
+    "buyUrl": "https://www.bol.com/nl/nl/p/five-seconds-flat/9300000076774842/"
+  },
+  {
     "title": "Fine Line",
     "artist": "Harry Styles",
     "medium": "LP",
@@ -15,7 +31,7 @@
   },
   {
     "title": "Walls",
-    "artist": "Louis Tomilson",
+    "artist": "Louis Tomlinson",
     "medium": "LP",
     "cover": "louis-walls.jpg",
     "url": "https://open.spotify.com/album/4F4wlAmPyUVCyISxlePFL9",
@@ -223,6 +239,13 @@
     "artist": "5 Seconds Of Summer",
     "medium": "CD",
     "cover": "livesos.jpg",
+    "url": "https://open.spotify.com/album/2HO2oCe6AM8rGKbiCBEEAZ"
+  },
+  {
+    "title": "LIVE",
+    "artist": "Louis Tomlinson",
+    "medium": "CD",
+    "cover": "louis-live.jpg",
     "url": "https://open.spotify.com/album/2HO2oCe6AM8rGKbiCBEEAZ"
   },
   {
