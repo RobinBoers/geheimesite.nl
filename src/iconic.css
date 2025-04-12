@@ -122,13 +122,15 @@ td i { font-style: normal }
 
 /* Quirky tables */
 
-.tabular, .phonetics {
+.tabular, .phonetics, .words {
   margin-inline-start: 0;
   width: 100%;
 }
 
 .tabular td,
-.tabular th {
+.tabular th,
+.words td,
+.words th {
   border: 1px solid currentColor;
   padding: calc(0.1 * var(--space)) calc(0.2 * var(--space));
 }
@@ -143,6 +145,10 @@ td i { font-style: normal }
 
 .pronouns tr:last-child td {
   padding-top: 0.6em;
+}
+
+.words td {
+  width: 33.33%;
 }
 
 /* Figures */

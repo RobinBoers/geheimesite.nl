@@ -806,6 +806,4597 @@ Siddharthan, A. (2006). Syntactic simplification and text cohesion. <i>Research 
 
 Jaeger, T. F., & Tily, H. (2010). On language 'utility': processing complexity and communicative efficiency. <i>Wiley Interdisciplinary Reviews Cognitive Science, 2</i>(3), 323--335. <https://doi.org/10.1002/wcs.126>
 
+## Appendix 1: Word list
+
+### Keywords
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Hello</td>
+      <td>Hallo</td>
+      <td>hλ, hΣ, ɥo</td>
+    </tr>
+    <tr>
+      <td>World</td>
+      <td>Wereld</td>
+      <td>ωθd</td>
+    </tr>
+    <tr>
+      <td>Bye</td>
+      <td>Doei</td>
+      <td>bΣ, xσ</td>
+    </tr>
+    <tr>
+      <td>Hello (formal)</td>
+      <td>Hallo (formeel), goedendag</td>
+      <td>bɔnsɔʟ</td>
+    </tr>
+    <tr>
+      <td>Bye (formal)</td>
+      <td>Doei (formeel)</td>
+      <td>bɔnmэr</td>
+    </tr>
+    <tr>
+      <td>And</td>
+      <td>En</td>
+      <td>эn</td>
+    </tr>
+    <tr>
+      <td>Or</td>
+      <td>Of</td>
+      <td>ɔf</td>
+    </tr>
+    <tr>
+      <td>The</td>
+      <td>De, het</td>
+      <td>de</td>
+    </tr>
+    <tr>
+      <td>A/an</td>
+      <td>Een</td>
+      <td>en</td>
+    </tr>
+    <tr>
+      <td>Yes</td>
+      <td>Ja</td>
+      <td>ɥæ</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>Wel</td>
+      <td>ɥe</td>
+    </tr>
+    <tr>
+      <td>No</td>
+      <td>Nee</td>
+      <td>no</td>
+    </tr>
+    <tr>
+      <td>Not, none</td>
+      <td>Niet, geen</td>
+      <td>ne</td>
+    </tr>
+    <tr>
+      <td>With</td>
+      <td>Met</td>
+      <td>ɑn</td>
+    </tr>
+    <tr>
+      <td>Without</td>
+      <td>Zonder</td>
+      <td>nɑ</td>
+    </tr>
+    <tr>
+      <td>Good</td>
+      <td>Goed</td>
+      <td>bɔn</td>
+    </tr>
+    <tr>
+      <td>Bad</td>
+      <td>Slecht</td>
+      <td>ωɔm</td>
+    </tr>
+    <tr>
+      <td>Life</td>
+      <td>Leven</td>
+      <td>vyvɑ</td>
+    </tr>
+    <tr>
+      <td>Death</td>
+      <td>Dood</td>
+      <td>dod</td>
+    </tr>
+    <tr>
+      <td>Love</td>
+      <td>Liefde</td>
+      <td>luv</td>
+    </tr>
+    <tr>
+      <td>Hate</td>
+      <td>Haat</td>
+      <td>hλt</td>
+    </tr>
+    <tr>
+      <td>Light</td>
+      <td>Licht</td>
+      <td>usɔʟ</td>
+    </tr>
+    <tr>
+      <td>Free</td>
+      <td>Vrij</td>
+      <td>otσ</td>
+    </tr>
+    <tr>
+      <td>God</td>
+      <td>God</td>
+      <td>gɔt</td>
+    </tr>
+    <tr>
+      <td>Devil</td>
+      <td>Duivel</td>
+      <td>duveʟ</td>
+    </tr>
+    <tr>
+      <td>Thing</td>
+      <td>Ding</td>
+      <td>ɑfэro</td>
+    </tr>
+    <tr>
+      <td>Human, person</td>
+      <td>Mens, persoon</td>
+      <td>Σmʌn</td>
+    </tr>
+    <tr>
+      <td>Woman, girl</td>
+      <td>Vrouw, meisje</td>
+      <td>Σmɑ</td>
+    </tr>
+    <tr>
+      <td>Man, boy</td>
+      <td>Man, jongen</td>
+      <td>Σmy</td>
+    </tr>
+    <tr>
+      <td>Self</td>
+      <td>Zelf</td>
+      <td>sэv</td>
+    </tr>
+    <tr>
+      <td>Sentience/self-awareness</td>
+      <td>Zelfbewustzijn</td>
+      <td>sentɑʟo</td>
+    </tr>
+    <tr>
+      <td>Conscience</td>
+      <td>Geweten</td>
+      <td>bonæro</td>
+    </tr>
+    <tr>
+      <td>Intrusive thoughts</td>
+      <td>Opdringerige gedachten</td>
+      <td>ωomæro</td>
+    </tr>
+    <tr>
+      <td>Much/many</td>
+      <td>Veel</td>
+      <td>din</td>
+    </tr>
+    <tr>
+      <td>Few</td>
+      <td>Weinig</td>
+      <td>fin</td>
+    </tr>
+    <tr>
+      <td>More</td>
+      <td>Meer</td>
+      <td>dindin</td>
+    </tr>
+    <tr>
+      <td>Less</td>
+      <td>Minder</td>
+      <td>finfin</td>
+    </tr>
+    <tr>
+      <td>Everything</td>
+      <td>Alles</td>
+      <td>ʌʟ</td>
+    </tr>
+    <tr>
+      <td>Nothing</td>
+      <td>Niks, niets</td>
+      <td>niʟ</td>
+    </tr>
+    <tr>
+      <td>Everyone</td>
+      <td>Iedereen</td>
+      <td>ʌʟmʌn</td>
+    </tr>
+    <tr>
+      <td>Nobody</td>
+      <td>Niemand</td>
+      <td>niʟmʌn</td>
+    </tr>
+    <tr>
+      <td>Always, forever</td>
+      <td>Altijd</td>
+      <td>ʌʟdΣm</td>
+    </tr>
+    <tr>
+      <td>Often, usually</td>
+      <td>Vaak</td>
+      <td>dindΣm</td>
+    </tr>
+    <tr>
+      <td>Sometimes</td>
+      <td>Soms</td>
+      <td>findΣm</td>
+    </tr>
+    <tr>
+      <td>Never</td>
+      <td>Nooit</td>
+      <td>niʟdΣm</td>
+    </tr>
+    <tr>
+      <td>Exactly</td>
+      <td>Precies</td>
+      <td>dinɑ</td>
+    </tr>
+    <tr>
+      <td>Almost</td>
+      <td>Bijna</td>
+      <td>finɑ</td>
+    </tr>
+    <tr>
+      <td>But, however</td>
+      <td>Maar</td>
+      <td>ɥэt</td>
+    </tr>
+    <tr>
+      <td>Also, furthermore, moreover</td>
+      <td>Ook, daarnaast</td>
+      <td>ʌʟso</td>
+    </tr>
+    <tr>
+      <td>Because, as</td>
+      <td>Omdat</td>
+      <td>kʌs</td>
+    </tr>
+    <tr>
+      <td>Therefore</td>
+      <td>Daarom, dus</td>
+      <td>dʌs</td>
+    </tr>
+    <tr>
+      <td>If</td>
+      <td>Als</td>
+      <td>if</td>
+    </tr>
+    <tr>
+      <td>Whether</td>
+      <td>Of</td>
+      <td>ȿu</td>
+    </tr>
+    <tr>
+      <td>Than</td>
+      <td>Dan</td>
+      <td>dʌn</td>
+    </tr>
+    <tr>
+      <td>This</td>
+      <td>Dit, deze</td>
+      <td>dλs</td>
+    </tr>
+    <tr>
+      <td>That</td>
+      <td>Die, dat</td>
+      <td>dʌt</td>
+    </tr>
+    <tr>
+      <td>Here</td>
+      <td>Hier</td>
+      <td>ɑsy</td>
+    </tr>
+    <tr>
+      <td>There</td>
+      <td>Daar</td>
+      <td>ɑsɑ</td>
+    </tr>
+    <tr>
+      <td>Next</td>
+      <td>Volgende</td>
+      <td>tɔm</td>
+    </tr>
+    <tr>
+      <td>Previous</td>
+      <td>Vorige</td>
+      <td>ɥэn</td>
+    </tr>
+    <tr>
+      <td>Begin</td>
+      <td>Begin</td>
+      <td>kɔmo</td>
+    </tr>
+    <tr>
+      <td>Mid</td>
+      <td>Mid</td>
+      <td>mid</td>
+    </tr>
+    <tr>
+      <td>End</td>
+      <td>Eind</td>
+      <td>эnde</td>
+    </tr>
+    <tr>
+      <td>Like</td>
+      <td>Zoals</td>
+      <td>ʟyko</td>
+    </tr>
+    <tr>
+      <td>Complete, full, finished, saturated</td>
+      <td>Compleet, volledig, 'af', verzadigd</td>
+      <td>ʌpo</td>
+    </tr>
+    <tr>
+      <td>Norm, rule</td>
+      <td>Norm, regel</td>
+      <td>nɔrmu</td>
+    </tr>
+    <tr>
+      <td>Value (moral)</td>
+      <td>Waarde (moreel)</td>
+      <td>vɑʟu</td>
+    </tr>
+    <tr>
+      <td>Value (capital)</td>
+      <td>Waarde (kapitaal)</td>
+      <td>fundλ</td>
+    </tr>
+    <tr>
+      <td>Normal, usual</td>
+      <td>Normaal, gewoonlijk</td>
+      <td>nɔrmuto</td>
+    </tr>
+    <tr>
+      <td>Abnormal, unusual</td>
+      <td>Abnormaal, ongewoonlijk</td>
+      <td colspan="1" rowspan="2">nenɔrmuto</td>
+    </tr>
+    <tr>
+      <td>Extraordinary</td>
+      <td>Bijzonder</td>
+    </tr>
+    <tr>
+      <td>Same</td>
+      <td>Zelfde</td>
+      <td>sɑmo</td>
+    </tr>
+    <tr>
+      <td>Different, other</td>
+      <td>Anders</td>
+      <td>nesɑmo</td>
+    </tr>
+    <tr>
+      <td>Known, familiar</td>
+      <td>Bekend</td>
+      <td>fʌmʟɑ</td>
+    </tr>
+    <tr>
+      <td>Unknown, strange</td>
+      <td>Onbekend, vreemd</td>
+      <td>nefʌmʟɑ</td>
+    </tr>
+    <tr>
+      <td>Enjoyable</td>
+      <td>Lekker</td>
+      <td>ɥem</td>
+    </tr>
+    <tr>
+      <td>Unpleasant</td>
+      <td>Vies</td>
+      <td>eω</td>
+    </tr>
+    <tr>
+      <td>Fast</td>
+      <td>Snel</td>
+      <td>ɥyt</td>
+    </tr>
+    <tr>
+      <td>Slow</td>
+      <td>Langzaam</td>
+      <td>neɥyt</td>
+    </tr>
+    <tr>
+      <td>Cool</td>
+      <td>Cool</td>
+      <td>Σsy</td>
+    </tr>
+    <tr>
+      <td>Beauty, beautiful</td>
+      <td>Mooi</td>
+      <td>bo</td>
+    </tr>
+    <tr>
+      <td>Ugly</td>
+      <td>Lelijk</td>
+      <td>fugo</td>
+    </tr>
+    <tr>
+      <td>Fancy</td>
+      <td>Fancy</td>
+      <td>fænȿy</td>
+    </tr>
+    <tr>
+      <td>Clean</td>
+      <td>Schoon</td>
+      <td>ȿebo</td>
+    </tr>
+    <tr>
+      <td>Dirty</td>
+      <td>Vies, smerig</td>
+      <td>ȿefugo</td>
+    </tr>
+    <tr>
+      <td>Important</td>
+      <td>Belangrijk</td>
+      <td>impo</td>
+    </tr>
+    <tr>
+      <td>Irrelevant</td>
+      <td>Onbelangrijk</td>
+      <td>neimpo</td>
+    </tr>
+    <tr>
+      <td>Big, tall</td>
+      <td>Groot, lang</td>
+      <td>ωɔp</td>
+    </tr>
+    <tr>
+      <td>Small</td>
+      <td>Klein</td>
+      <td>ʟiʟ</td>
+    </tr>
+    <tr>
+      <td>Young, new</td>
+      <td>Jong, nieuw</td>
+      <td>ɥuno</td>
+    </tr>
+    <tr>
+      <td>Old</td>
+      <td>Oud</td>
+      <td>odu</td>
+    </tr>
+    <tr>
+      <td>Alone</td>
+      <td>Alleen</td>
+      <td>ʟono</td>
+    </tr>
+    <tr>
+      <td>Together</td>
+      <td>Samen</td>
+      <td>эnsɑmo</td>
+    </tr>
+    <tr>
+      <td>Pain</td>
+      <td>Pijn</td>
+      <td>pλn</td>
+    </tr>
+    <tr>
+      <td>Pleasure</td>
+      <td>Lust</td>
+      <td>lusɑ</td>
+    </tr>
+    <tr>
+      <td>Magic</td>
+      <td>Magie</td>
+      <td>mэxik</td>
+    </tr>
+    <tr>
+      <td>Meaning</td>
+      <td>Betekenis</td>
+      <td>signyfo</td>
+    </tr>
+    <tr>
+      <td>Steady, consistent</td>
+      <td>Consistent</td>
+      <td>kɔnsэkɑ</td>
+    </tr>
+  </tbody>
+</table>
+
+### General
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Name</td>
+      <td>Naam</td>
+      <td>nɔm</td>
+    </tr>
+    <tr>
+      <td>Home</td>
+      <td>Thuis</td>
+      <td>hom</td>
+    </tr>
+    <tr>
+      <td>Work</td>
+      <td>Werk</td>
+      <td>ωσko</td>
+    </tr>
+    <tr>
+      <td>City</td>
+      <td>Stad</td>
+      <td>stэte</td>
+    </tr>
+    <tr>
+      <td>Building, house</td>
+      <td>Gebouw, woning</td>
+      <td>bσωɑ</td>
+    </tr>
+    <tr>
+      <td>Country</td>
+      <td>Land</td>
+      <td>lʌnde</td>
+    </tr>
+    <tr>
+      <td>Voyage</td>
+      <td>Reis</td>
+      <td>voɥɑ</td>
+    </tr>
+    <tr>
+      <td>Fact</td>
+      <td>Feit</td>
+      <td>fэkto</td>
+    </tr>
+    <tr>
+      <td>Opinion</td>
+      <td>Mening</td>
+      <td>mλnuno</td>
+    </tr>
+    <tr>
+      <td>Deep</td>
+      <td>Diep(gang)</td>
+      <td>dypfo</td>
+    </tr>
+    <tr>
+      <td>Joke</td>
+      <td>Grap</td>
+      <td>ɥuko</td>
+    </tr>
+    <tr>
+      <td>Joking</td>
+      <td>Grappend</td>
+      <td>ɥukono</td>
+    </tr>
+    <tr>
+      <td>Serious</td>
+      <td>Serieus</td>
+      <td>sirλus</td>
+    </tr>
+    <tr>
+      <td>Quote</td>
+      <td>Citaat</td>
+      <td>sytɑto</td>
+    </tr>
+    <tr>
+      <td>Reference</td>
+      <td>Referentie</td>
+      <td>refэro</td>
+    </tr>
+    <tr>
+      <td>Free</td>
+      <td>Gratis</td>
+      <td>fyby</td>
+    </tr>
+    <tr>
+      <td>Profit</td>
+      <td>Winst</td>
+      <td>fyt</td>
+    </tr>
+    <tr>
+      <td>Cheap</td>
+      <td>Goedkoop</td>
+      <td>xypu</td>
+    </tr>
+    <tr>
+      <td>Problem</td>
+      <td>Probleem</td>
+      <td>pэkɑ</td>
+    </tr>
+    <tr>
+      <td>Music</td>
+      <td>Muziek</td>
+      <td>musyk</td>
+    </tr>
+    <tr>
+      <td>Song</td>
+      <td>Nummer, liedje</td>
+      <td>kʌnto</td>
+    </tr>
+    <tr>
+      <td>Piano</td>
+      <td>Piano</td>
+      <td>pɑno</td>
+    </tr>
+    <tr>
+      <td>Guitar</td>
+      <td>Gitaar</td>
+      <td>gytɑr</td>
+    </tr>
+    <tr>
+      <td>Artist</td>
+      <td>Artiest</td>
+      <td>ɑrtyk</td>
+    </tr>
+    <tr>
+      <td>Bag</td>
+      <td>Tas</td>
+      <td>sʌko</td>
+    </tr>
+    <tr>
+      <td>Ball</td>
+      <td>Bal</td>
+      <td>bʌʟ</td>
+    </tr>
+    <tr>
+      <td>Hobby</td>
+      <td>Hobby</td>
+      <td>hɔby</td>
+    </tr>
+    <tr>
+      <td>Sport</td>
+      <td>Sport</td>
+      <td>эspɔrtɑ</td>
+    </tr>
+    <tr>
+      <td>Bed</td>
+      <td>Bed</td>
+      <td>bэd</td>
+    </tr>
+    <tr>
+      <td>Room</td>
+      <td>Kamer</td>
+      <td>rθm</td>
+    </tr>
+    <tr>
+      <td>Garden</td>
+      <td>Tuin</td>
+      <td>kurɑ</td>
+    </tr>
+    <tr>
+      <td>Glasses</td>
+      <td>Bril</td>
+      <td>oku-vytro</td>
+    </tr>
+    <tr>
+      <td>Door/port</td>
+      <td>Deur, poort</td>
+      <td>pɔrtu</td>
+    </tr>
+    <tr>
+      <td>Wall</td>
+      <td>Muur</td>
+      <td>ωɔl</td>
+    </tr>
+    <tr>
+      <td>Window</td>
+      <td>Raam</td>
+      <td>ωindoω</td>
+    </tr>
+    <tr>
+      <td>Corner</td>
+      <td>Hoek</td>
+      <td>hθk</td>
+    </tr>
+    <tr>
+      <td>Hole</td>
+      <td>Gat</td>
+      <td>ȿʌt</td>
+    </tr>
+    <tr>
+      <td>Book</td>
+      <td>Boek</td>
+      <td>lybre</td>
+    </tr>
+    <tr>
+      <td>Notebook</td>
+      <td>Schrift</td>
+      <td>ryt-lybre</td>
+    </tr>
+    <tr>
+      <td>Pen</td>
+      <td>Pen</td>
+      <td>lydo</td>
+    </tr>
+    <tr>
+      <td>Vehicle</td>
+      <td>Voertuig</td>
+      <td>tokɑ</td>
+    </tr>
+    <tr>
+      <td>Car</td>
+      <td>Auto</td>
+      <td>motokɑ</td>
+    </tr>
+    <tr>
+      <td>Train</td>
+      <td>Trein</td>
+      <td>tλn</td>
+    </tr>
+    <tr>
+      <td>Bike</td>
+      <td>Fiets</td>
+      <td>bΣk</td>
+    </tr>
+    <tr>
+      <td>Plane</td>
+      <td>Vliegtuig</td>
+      <td>æro-tokɑ</td>
+    </tr>
+    <tr>
+      <td>Chair</td>
+      <td>Stoel</td>
+      <td>sэgθ</td>
+    </tr>
+    <tr>
+      <td>Table</td>
+      <td>Tafel</td>
+      <td>tɑblu</td>
+    </tr>
+    <tr>
+      <td>Desk</td>
+      <td>Bureau</td>
+      <td>ωσk-tɑbʟu</td>
+    </tr>
+    <tr>
+      <td>Bank</td>
+      <td>Bank</td>
+      <td>bʌnku</td>
+    </tr>
+    <tr>
+      <td>Cushion, pillow</td>
+      <td>Kussen</td>
+      <td>pilθω</td>
+    </tr>
+    <tr>
+      <td>Basket</td>
+      <td>Mand</td>
+      <td>mɑnde</td>
+    </tr>
+    <tr>
+      <td>Bowl</td>
+      <td>Kom</td>
+      <td>boωʟe</td>
+    </tr>
+    <tr>
+      <td>Shelf</td>
+      <td>Plank</td>
+      <td>ȿævo</td>
+    </tr>
+    <tr>
+      <td>Closet, cupboard, case</td>
+      <td>Kast</td>
+      <td>ȿævos</td>
+    </tr>
+    <tr>
+      <td>School</td>
+      <td>School</td>
+      <td>ekɔl</td>
+    </tr>
+    <tr>
+      <td>Class</td>
+      <td>Klas</td>
+      <td>kɑlʌs</td>
+    </tr>
+    <tr>
+      <td>Classroom</td>
+      <td>Lokaal</td>
+      <td>kɑlʌs-rθm</td>
+    </tr>
+    <tr>
+      <td>Open</td>
+      <td>Open</td>
+      <td>open</td>
+    </tr>
+    <tr>
+      <td>Closed</td>
+      <td>Dicht, gesloten</td>
+      <td>syto</td>
+    </tr>
+    <tr>
+      <td>Reaction</td>
+      <td>Reactie</td>
+      <td>rλʌktɑ</td>
+    </tr>
+    <tr>
+      <td>Allergy</td>
+      <td>Allergie</td>
+      <td>ωɔmrλʌktɑ</td>
+    </tr>
+    <tr>
+      <td>Sick</td>
+      <td>Ziek</td>
+      <td>syk</td>
+    </tr>
+    <tr>
+      <td>Disease</td>
+      <td>Ziekte</td>
+      <td>kʌdsyk</td>
+    </tr>
+    <tr>
+      <td>Healthy</td>
+      <td>Gezond</td>
+      <td>sʌntλ</td>
+    </tr>
+    <tr>
+      <td>Health</td>
+      <td>Gezondheid</td>
+      <td>kʌdsʌntλ</td>
+    </tr>
+    <tr>
+      <td>Store</td>
+      <td>Winkel</td>
+      <td>ȿɔp</td>
+    </tr>
+    <tr>
+      <td>Supermarket</td>
+      <td>Supermarkt</td>
+      <td>ωɔp-ȿɔp</td>
+    </tr>
+    <tr>
+      <td>Photograph/picture</td>
+      <td>Foto</td>
+      <td>foto</td>
+    </tr>
+    <tr>
+      <td>Movie/video</td>
+      <td>Beeld/video</td>
+      <td>vydo</td>
+    </tr>
+    <tr>
+      <td>Sound</td>
+      <td>Geluid</td>
+      <td>fono</td>
+    </tr>
+    <tr>
+      <td>Smell</td>
+      <td>Geur</td>
+      <td>odɔr</td>
+    </tr>
+    <tr>
+      <td>Trans- (across, spanning)</td>
+      <td>Trans- (over)</td>
+      <td>tʌn</td>
+    </tr>
+    <tr>
+      <td>Cis- (within)</td>
+      <td>Cis- (binnen)</td>
+      <td>sis</td>
+    </tr>
+    <tr>
+      <td>Tele- (over distance)</td>
+      <td>Tele- (op afstand)</td>
+      <td>tλʟe</td>
+    </tr>
+    <tr>
+      <td>Television</td>
+      <td>Televisie</td>
+      <td>tλʟe-vydo</td>
+    </tr>
+    <tr>
+      <td>Telephone</td>
+      <td>Telefoon</td>
+      <td>tλʟe-fono</td>
+    </tr>
+    <tr>
+      <td>Radio</td>
+      <td>Radio</td>
+      <td>tλʟe-musyk</td>
+    </tr>
+    <tr>
+      <td>Camera</td>
+      <td>Camera</td>
+      <td>xymy</td>
+    </tr>
+    <tr>
+      <td>Screen</td>
+      <td>Scherm</td>
+      <td>ȿin-vytro</td>
+    </tr>
+    <tr>
+      <td>Machine</td>
+      <td>Machine</td>
+      <td>mɑxine</td>
+    </tr>
+    <tr>
+      <td>Computer</td>
+      <td>Computer</td>
+      <td>kʌʟkuʟɑ</td>
+    </tr>
+    <tr>
+      <td>Tool</td>
+      <td>Gereedschap</td>
+      <td>tulo</td>
+    </tr>
+    <tr>
+      <td>Screw</td>
+      <td>Schroef</td>
+      <td>rum</td>
+    </tr>
+    <tr>
+      <td>Pan</td>
+      <td>Pan</td>
+      <td>pɔt</td>
+    </tr>
+    <tr>
+      <td>Party</td>
+      <td>Feest</td>
+      <td>fэd</td>
+    </tr>
+    <tr>
+      <td>Pool, bath</td>
+      <td>Zwembad</td>
+      <td>ɑkωɑ-ȿʌt</td>
+    </tr>
+    <tr>
+      <td>Present</td>
+      <td>Cadeau</td>
+      <td>kɑdo</td>
+    </tr>
+    <tr>
+      <td>Treasure</td>
+      <td>Schat</td>
+      <td>ȿɑsoxu</td>
+    </tr>
+    <tr>
+      <td>Row</td>
+      <td>Rij</td>
+      <td>roω</td>
+    </tr>
+    <tr>
+      <td>Power</td>
+      <td>Kracht</td>
+      <td>pσer</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>Jarig</td>
+      <td>ɥipy</td>
+    </tr>
+  </tbody>
+</table>
+
+### Common expressions
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>How are you (doing)?</td>
+      <td>Hoe gaat het?</td>
+      <td>dɑ ʌred kɑ?</td>
+    </tr>
+    <tr>
+      <td>Sorry</td>
+      <td>Sorry</td>
+      <td>sɔry</td>
+    </tr>
+    <tr>
+      <td>Thank you</td>
+      <td>Dankjewel</td>
+      <td>xʌno</td>
+    </tr>
+    <tr>
+      <td>You're welcome</td>
+      <td>Alsjeblieft (gevend)</td>
+      <td colspan="1" rowspan="2">nepэkɑ</td>
+    </tr>
+    <tr>
+      <td>Of course</td>
+      <td>Natuurlijk</td>
+    </tr>
+    <tr>
+      <td>Please</td>
+      <td>Alsjeblieft (vragend)</td>
+      <td>ωys</td>
+    </tr>
+    <tr>
+      <td>(For) example</td>
+      <td>(Bij)voorbeeld</td>
+      <td>эksΣmu</td>
+    </tr>
+    <tr>
+      <td>Bless you</td>
+      <td>Gezondheid</td>
+      <td>bɔnsʌntλ</td>
+    </tr>
+    <tr>
+      <td>Enjoy your meal</td>
+      <td>Eet smakelijk</td>
+      <td>bɔnэskɑ</td>
+    </tr>
+    <tr>
+      <td>Good job!</td>
+      <td>Goed gedaan!</td>
+      <td>bɔntθno</td>
+    </tr>
+  </tbody>
+</table>
+
+### Interrogative
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>What</td>
+      <td>Wat</td>
+      <td>ku</td>
+    </tr>
+    <tr>
+      <td>Where</td>
+      <td>Waar</td>
+      <td>kσ</td>
+    </tr>
+    <tr>
+      <td>Why</td>
+      <td>Waarom</td>
+      <td>ko</td>
+    </tr>
+    <tr>
+      <td>How</td>
+      <td>Hoe</td>
+      <td>kɑ</td>
+    </tr>
+    <tr>
+      <td>When</td>
+      <td>Wanneer</td>
+      <td>kΣ</td>
+    </tr>
+    <tr>
+      <td>Which (pronoun)</td>
+      <td>Welke (vnw)</td>
+      <td>kλ</td>
+    </tr>
+    <tr>
+      <td>Who (subject)</td>
+      <td>Wie (onderwerp)</td>
+      <td>ky</td>
+    </tr>
+  </tbody>
+</table>
+
+### Interjections
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Well</td>
+      <td>Nou</td>
+      <td>nθ</td>
+    </tr>
+    <tr>
+      <td>Oops</td>
+      <td>Oeps</td>
+      <td>ωθpes</td>
+    </tr>
+    <tr>
+      <td>Unfortunately</td>
+      <td>Helaas</td>
+      <td>ȿΣdes</td>
+    </tr>
+    <tr>
+      <td>In fact</td>
+      <td>Eigenlijk</td>
+      <td>ɑfэkto</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>Oei</td>
+      <td>θɥ</td>
+    </tr>
+  </tbody>
+</table>
+
+### Localities
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Up</td>
+      <td>-</td>
+      <td>up</td>
+    </tr>
+    <tr>
+      <td>Down</td>
+      <td>-</td>
+      <td>dσω</td>
+    </tr>
+    <tr>
+      <td>Left</td>
+      <td>Links</td>
+      <td>ʟэv</td>
+    </tr>
+    <tr>
+      <td>Right</td>
+      <td>Rechts</td>
+      <td>rΣt</td>
+    </tr>
+    <tr>
+      <td>Above</td>
+      <td>Boven</td>
+      <td>bovder</td>
+    </tr>
+    <tr>
+      <td>Underneath</td>
+      <td>Onder</td>
+      <td>under</td>
+    </tr>
+    <tr>
+      <td>In front</td>
+      <td>Voor</td>
+      <td>vɔrder</td>
+    </tr>
+    <tr>
+      <td>Behind</td>
+      <td>Achter</td>
+      <td>hinder</td>
+    </tr>
+    <tr>
+      <td>Next to</td>
+      <td>Naast</td>
+      <td>nэsder</td>
+    </tr>
+    <tr>
+      <td>(In) between</td>
+      <td>Tussen</td>
+      <td>ωisder</td>
+    </tr>
+    <tr>
+      <td>In(side)</td>
+      <td>In/binnen</td>
+      <td>inder</td>
+    </tr>
+    <tr>
+      <td>Out(side)</td>
+      <td>Uit/buiten</td>
+      <td>Σder</td>
+    </tr>
+    <tr>
+      <td>Atop</td>
+      <td>Op (rakend boven)</td>
+      <td>bovtσȿ</td>
+    </tr>
+    <tr>
+      <td>Against</td>
+      <td>Tegen (naast rakend)</td>
+      <td>nэstσȿ</td>
+    </tr>
+    <tr>
+      <td>Through(out)</td>
+      <td>Door(heen)</td>
+      <td>vydɔr</td>
+    </tr>
+    <tr>
+      <td>Into</td>
+      <td>In (bew.)</td>
+      <td>vyinder</td>
+    </tr>
+    <tr>
+      <td>Out of</td>
+      <td>Uit (bew.)</td>
+      <td>vyΣder</td>
+    </tr>
+    <tr>
+      <td>Over</td>
+      <td>Overheen (bew.)</td>
+      <td>vybovder</td>
+    </tr>
+    <tr>
+      <td>From</td>
+      <td>Van(af), van(uit)</td>
+      <td>vyɑsy</td>
+    </tr>
+    <tr>
+      <td>To</td>
+      <td>Naar(toe)</td>
+      <td>vyɑsɑ</td>
+    </tr>
+    <tr>
+      <td>Up (mov.)</td>
+      <td>Omhoog</td>
+      <td>vyup</td>
+    </tr>
+    <tr>
+      <td>Down (mov.)</td>
+      <td>Omlaag, naar beneden</td>
+      <td>vydσω</td>
+    </tr>
+  </tbody>
+</table>
+
+### Prepositions
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>From (time)</td>
+      <td>Van(af) (tijd)</td>
+      <td>dΣmy</td>
+    </tr>
+    <tr>
+      <td>To (time), until</td>
+      <td>Tot (tijd)</td>
+      <td>dΣmɑ</td>
+    </tr>
+    <tr>
+      <td>About</td>
+      <td>Over</td>
+      <td>uber</td>
+    </tr>
+    <tr>
+      <td>Between</td>
+      <td>Tussen</td>
+      <td>tikse</td>
+    </tr>
+    <tr>
+      <td>(One) of</td>
+      <td>(Een) van</td>
+      <td>us</td>
+    </tr>
+    <tr>
+      <td>For (reason)</td>
+      <td>Voor (reden)</td>
+      <td>fʌsɑ</td>
+    </tr>
+    <tr>
+      <td>Both</td>
+      <td>Beide, allebei</td>
+      <td>buder</td>
+    </tr>
+  </tbody>
+</table>
+
+### Cardinal directions
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>North</td>
+      <td>Noord</td>
+      <td>nɔren</td>
+    </tr>
+    <tr>
+      <td>East</td>
+      <td>Oost</td>
+      <td>Σsde</td>
+    </tr>
+    <tr>
+      <td>South</td>
+      <td>Zuid</td>
+      <td>sude</td>
+    </tr>
+    <tr>
+      <td>West</td>
+      <td>West</td>
+      <td>ωэsde</td>
+    </tr>
+  </tbody>
+</table>
+
+### Numbers
+
+<table class="words">
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>niʟ</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>θn</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>by</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>xy</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>dэkɑ</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>py</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>эsɑ</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>sid</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>ɔkdɑ</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>nik</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>dys</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>bydin</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>xydin</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>dэdin</td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td>pydin</td>
+    </tr>
+    <tr>
+      <td>60</td>
+      <td>эsdin</td>
+    </tr>
+    <tr>
+      <td>70</td>
+      <td>sidin</td>
+    </tr>
+    <tr>
+      <td>80</td>
+      <td>ɔkdin</td>
+    </tr>
+    <tr>
+      <td>90</td>
+      <td>ninin</td>
+    </tr>
+    <tr>
+      <td>100</td>
+      <td>cэt</td>
+    </tr>
+    <tr>
+      <td>1000</td>
+      <td>kin</td>
+    </tr>
+    <tr>
+      <td>1.000.000</td>
+      <td>miʟ</td>
+    </tr>
+    <tr>
+      <td>1.000.000.000</td>
+      <td>gig</td>
+    </tr>
+    <tr>
+      <td>Infinity</td>
+      <td>ʌʟdin</td>
+    </tr>
+  </tbody>
+</table>
+
+### Ordinal numbers
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>-st, -nd, -rd</td>
+      <td>-ste</td>
+      <td>эd-</td>
+    </tr>
+    <tr>
+      <td>First</td>
+      <td>Eerste</td>
+      <td>эdθn</td>
+    </tr>
+    <tr>
+      <td>Second</td>
+      <td>Tweede</td>
+      <td>эdby</td>
+    </tr>
+    <tr>
+      <td>Third</td>
+      <td>Derde</td>
+      <td>эdxy</td>
+    </tr>
+    <tr>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td>Last</td>
+      <td>Laatste</td>
+      <td>эdʟʌs</td>
+    </tr>
+    <tr>
+      <td>Random ('a')</td>
+      <td>Willekeurig ('een')</td>
+      <td>эdrʌn</td>
+    </tr>
+  </tbody>
+</table>
+
+For constructions like 'two thirds', we utilize the word 'pэr', which means something akin 'one over'. So in our language 'two thirds' would be 'by pэrxy'.
+
+### Mathematics
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>To count</td>
+      <td>Tellen</td>
+      <td>kʌʟ-</td>
+    </tr>
+    <tr>
+      <td>Plus / to add</td>
+      <td>Plus / optellen</td>
+      <td>pɔs-</td>
+    </tr>
+    <tr>
+      <td>Minus / to subtract</td>
+      <td>Min / aftrekken</td>
+      <td>seb-</td>
+    </tr>
+    <tr>
+      <td>Times / to multiply</td>
+      <td>Keer / vermenigvuldigen</td>
+      <td>tΣm-</td>
+    </tr>
+    <tr>
+      <td>Over / to divide</td>
+      <td>Over / delen</td>
+      <td>dλv-</td>
+    </tr>
+    <tr>
+      <td>To equal</td>
+      <td>Is gelijk aan</td>
+      <td>eku-</td>
+    </tr>
+    <tr>
+      <td>Positive</td>
+      <td>Positief</td>
+      <td>pɔso</td>
+    </tr>
+    <tr>
+      <td>Negative</td>
+      <td>Negatief</td>
+      <td>sebo</td>
+    </tr>
+  </tbody>
+</table>
+
+### Language
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Language</td>
+      <td>Taal</td>
+      <td>ʟʌnge</td>
+    </tr>
+    <tr>
+      <td>Alphabet</td>
+      <td>Alfabet</td>
+      <td>ʌʟfabэt</td>
+    </tr>
+    <tr>
+      <td>Letter</td>
+      <td>Letter</td>
+      <td>ʟэter</td>
+    </tr>
+    <tr>
+      <td>Sentence</td>
+      <td>Zin</td>
+      <td>sine</td>
+    </tr>
+    <tr>
+      <td>Text</td>
+      <td>Tekst</td>
+      <td>tэku</td>
+    </tr>
+    <tr>
+      <td>Word</td>
+      <td>Woord</td>
+      <td>ωɔrde</td>
+    </tr>
+    <tr>
+      <td>Question</td>
+      <td>Vraag</td>
+      <td>fʌrɑ</td>
+    </tr>
+    <tr>
+      <td>Answer</td>
+      <td>Antwoord</td>
+      <td>pʌrɑ</td>
+    </tr>
+    <tr>
+      <td>Letter</td>
+      <td>Brief</td>
+      <td>ȿɔt</td>
+    </tr>
+    <tr>
+      <td>Story, history</td>
+      <td>Verhaal, geschiedenis</td>
+      <td>histɔru</td>
+    </tr>
+    <tr>
+      <td>Translation</td>
+      <td>Vertaling</td>
+      <td>tʌn-ʟʌnge</td>
+    </tr>
+    <tr>
+      <td>Conversation</td>
+      <td>Gesprek</td>
+      <td>kɔnverɑ</td>
+    </tr>
+    <tr>
+      <td>Discussion</td>
+      <td>Discussie</td>
+      <td>diskesɑ</td>
+    </tr>
+  </tbody>
+</table>
+
+### Time
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Time</td>
+      <td>Tijd</td>
+      <td>dΣm</td>
+    </tr>
+    <tr>
+      <td>Millenium</td>
+      <td>Millenium</td>
+      <td>kinɥir</td>
+    </tr>
+    <tr>
+      <td>Century</td>
+      <td>Eeuw</td>
+      <td>cэtɥir</td>
+    </tr>
+    <tr>
+      <td>Decade</td>
+      <td>Decennium</td>
+      <td>dysɥir</td>
+    </tr>
+    <tr>
+      <td>Year</td>
+      <td>Jaar</td>
+      <td>ɥir</td>
+    </tr>
+    <tr>
+      <td>Quarter (of a year)</td>
+      <td>Kwartaal</td>
+      <td>xyʟθn</td>
+    </tr>
+    <tr>
+      <td>Month</td>
+      <td>Maand</td>
+      <td>ʟθn</td>
+    </tr>
+    <tr>
+      <td>Week</td>
+      <td>Week</td>
+      <td>ωik</td>
+    </tr>
+    <tr>
+      <td>Day</td>
+      <td>Dag</td>
+      <td>sɔʟ</td>
+    </tr>
+    <tr>
+      <td>Night</td>
+      <td>Nacht</td>
+      <td>mэr</td>
+    </tr>
+    <tr>
+      <td>Hour</td>
+      <td>Uur</td>
+      <td>σr</td>
+    </tr>
+    <tr>
+      <td>Minute</td>
+      <td>Minuut</td>
+      <td>minut</td>
+    </tr>
+    <tr>
+      <td>Second</td>
+      <td>Seconde</td>
+      <td>sэk</td>
+    </tr>
+    <tr>
+      <td>Clock</td>
+      <td>Klok</td>
+      <td>ʟɔko</td>
+    </tr>
+    <tr>
+      <td>Present</td>
+      <td>Heden</td>
+      <td>nσ</td>
+    </tr>
+    <tr>
+      <td>Past</td>
+      <td>Verleden</td>
+      <td>tσω</td>
+    </tr>
+    <tr>
+      <td>Future</td>
+      <td>Toekomst</td>
+      <td>futσ</td>
+    </tr>
+    <tr>
+      <td>Morning</td>
+      <td>Ochtend</td>
+      <td>kɔmosɔʟ</td>
+    </tr>
+    <tr>
+      <td>Afternoon</td>
+      <td>Middag</td>
+      <td>midsɔʟ</td>
+    </tr>
+    <tr>
+      <td>Evening</td>
+      <td>Avond</td>
+      <td>omэr (abbr. of kɔmomэr)</td>
+    </tr>
+    <tr>
+      <td>Midnight</td>
+      <td>Middernacht</td>
+      <td>midmэr</td>
+    </tr>
+    <tr>
+      <td>At day</td>
+      <td>Overdag</td>
+      <td>ɑsɔʟ</td>
+    </tr>
+    <tr>
+      <td>At night</td>
+      <td>'s nachts</td>
+      <td>ɑmэr</td>
+    </tr>
+    <tr>
+      <td>Now</td>
+      <td>Nu</td>
+      <td>ɑnσ</td>
+    </tr>
+    <tr>
+      <td>Then (past), earlier, ago</td>
+      <td>Toen, eerder, geleden</td>
+      <td>ɑtσω</td>
+    </tr>
+    <tr>
+      <td>Then (future), later, soon</td>
+      <td>Dan, later, binnekort</td>
+      <td>ɑfutσ</td>
+    </tr>
+    <tr>
+      <td>Before</td>
+      <td>Voordat</td>
+      <td>ɑkɔmo</td>
+    </tr>
+    <tr>
+      <td>During, while</td>
+      <td>Gedurende, tijdens, terwijl</td>
+      <td>ɑmid</td>
+    </tr>
+    <tr>
+      <td>After</td>
+      <td>Nadat</td>
+      <td>ɑnde</td>
+    </tr>
+    <tr>
+      <td>Today</td>
+      <td>Vandaag</td>
+      <td>dλssɔʟ</td>
+    </tr>
+    <tr>
+      <td>Yesterday</td>
+      <td>Gisteren</td>
+      <td>tɔmsɔʟ</td>
+    </tr>
+    <tr>
+      <td>Tomorrow</td>
+      <td>Morgen</td>
+      <td>ɥэnsɔʟ</td>
+    </tr>
+    <tr>
+      <td>Weekend</td>
+      <td>Weekend</td>
+      <td>ωikэnde</td>
+    </tr>
+    <tr>
+      <td>Birthday</td>
+      <td>Verjaardag</td>
+      <td>ɥipy-sɔʟ</td>
+    </tr>
+    <tr>
+      <td>Again</td>
+      <td>Opnieuw</td>
+      <td>rλ</td>
+    </tr>
+    <tr>
+      <td>Still</td>
+      <td>Nog steeds</td>
+      <td colspan="1" rowspan="2">ɑturo</td>
+    </tr>
+    <tr>
+      <td>Anymore</td>
+      <td>Niet meer</td>
+    </tr>
+  </tbody>
+</table>
+
+### Seasons
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Spring</td>
+      <td>Lente</td>
+      <td>xin</td>
+    </tr>
+    <tr>
+      <td>Summer</td>
+      <td>Zommer</td>
+      <td>sɔmɑ</td>
+    </tr>
+    <tr>
+      <td>Autumn</td>
+      <td>Herfst</td>
+      <td>ʌdem</td>
+    </tr>
+    <tr>
+      <td>Winter</td>
+      <td>Winter</td>
+      <td>ωindɑ</td>
+    </tr>
+  </tbody>
+</table>
+
+### Months of the year
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>March</td>
+      <td>Maart</td>
+      <td>rλnuɑry</td>
+    </tr>
+    <tr>
+      <td>April</td>
+      <td>April</td>
+      <td>pʌperɑry</td>
+    </tr>
+    <tr>
+      <td>May</td>
+      <td>Mei</td>
+      <td>mɑɥoɑry</td>
+    </tr>
+    <tr>
+      <td>June</td>
+      <td>Juni</td>
+      <td>ʟysuɑry</td>
+    </tr>
+    <tr>
+      <td>July</td>
+      <td>Juli</td>
+      <td>hʌrmuɑry</td>
+    </tr>
+    <tr>
+      <td>August</td>
+      <td>Augustus</td>
+      <td>rɔbuɑry</td>
+    </tr>
+    <tr>
+      <td>September</td>
+      <td>September</td>
+      <td>sidɑry</td>
+    </tr>
+    <tr>
+      <td>October</td>
+      <td>Oktober</td>
+      <td>okduɑry</td>
+    </tr>
+    <tr>
+      <td>November</td>
+      <td>November</td>
+      <td>ninuɑry</td>
+    </tr>
+    <tr>
+      <td>December</td>
+      <td>December</td>
+      <td>oduɑry</td>
+    </tr>
+    <tr>
+      <td>January</td>
+      <td>Januari</td>
+      <td>ɥunoɑry</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>Februari</td>
+      <td>oωuɑry</td>
+    </tr>
+  </tbody>
+</table>
+
+### Days of the week
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Wednesday</td>
+      <td>Woensdag</td>
+      <td>sɔʟθn</td>
+    </tr>
+    <tr>
+      <td>Thursday</td>
+      <td>Donderdag</td>
+      <td>sɔʟby</td>
+    </tr>
+    <tr>
+      <td>Friday</td>
+      <td>Vrijdag</td>
+      <td>sɔʟxy</td>
+    </tr>
+    <tr>
+      <td>Saturday</td>
+      <td>Zaterdag</td>
+      <td>sɔʟdэkɑ</td>
+    </tr>
+    <tr>
+      <td>Sunday</td>
+      <td>Zondag</td>
+      <td>sɔʟpy</td>
+    </tr>
+    <tr>
+      <td>Monday</td>
+      <td>Maandag</td>
+      <td>sɔʟэsɑ</td>
+    </tr>
+    <tr>
+      <td>Tuesday</td>
+      <td>Dinsdag</td>
+      <td>sɔʟsid</td>
+    </tr>
+  </tbody>
+</table>
+
+<small>(While we were at it, we also once and for all resolved whether the week starts on Monday or Sunday--in our language it starts on Wednesday, take it or leave it.)</small>
+
+### Emotions
+
+<table class="words">
+  <tbody>
+    <tr>
+      <td colspan="1" rowspan="4">Angry</td>
+      <td>Angry</td>
+      <td>ɑrɑgo</td>
+    </tr>
+    <tr>
+      <td>Annoyed</td>
+      <td>yrɑto</td>
+    </tr>
+    <tr>
+      <td>Frustrated</td>
+      <td>rusɑto</td>
+    </tr>
+    <tr>
+      <td>Jealous</td>
+      <td>ɥɑʟono</td>
+    </tr>
+    <tr>
+      <td colspan="1" rowspan="4">Sad</td>
+      <td>Saddened</td>
+      <td colspan="1" rowspan="2">deprэso / mэh</td>
+    </tr>
+    <tr>
+      <td>Depressed</td>
+    </tr>
+    <tr>
+      <td>Stressed</td>
+      <td>sэtvo</td>
+    </tr>
+    <tr>
+      <td>Alone / lonely</td>
+      <td>ʟono</td>
+    </tr>
+    <tr>
+      <td colspan="1" rowspan="4">Fear</td>
+      <td>Fear(ful)</td>
+      <td>sɑkɑro</td>
+    </tr>
+    <tr>
+      <td>Insecure</td>
+      <td>nesэkuro</td>
+    </tr>
+    <tr>
+      <td>Anxious</td>
+      <td>ʌxono</td>
+    </tr>
+    <tr>
+      <td>Shy</td>
+      <td>ȿΣ</td>
+    </tr>
+    <tr>
+      <td colspan="1" rowspan="6">Joy</td>
+      <td>Happy</td>
+      <td>bΣto</td>
+    </tr>
+    <tr>
+      <td>In love</td>
+      <td>ʟuvo</td>
+    </tr>
+    <tr>
+      <td>Excited</td>
+      <td>eksyto</td>
+    </tr>
+    <tr>
+      <td>Confident</td>
+      <td>sэkuro</td>
+    </tr>
+    <tr>
+      <td>Blissfully unaware, illusioned</td>
+      <td>ʟusyno</td>
+    </tr>
+    <tr>
+      <td>Calm</td>
+      <td>kʌʟmo</td>
+    </tr>
+    <tr>
+      <td colspan="1" rowspan="3">Disgust</td>
+      <td>Disgusted</td>
+      <td>disgusto</td>
+    </tr>
+    <tr>
+      <td>Embarrassed</td>
+      <td>embɑrʌso</td>
+    </tr>
+    <tr>
+      <td>Sarcastic</td>
+      <td>sʌrkʌso</td>
+    </tr>
+    <tr>
+      <td colspan="1" rowspan="4">Surprise</td>
+      <td>Surprised</td>
+      <td>sepryso</td>
+    </tr>
+    <tr>
+      <td>In awe</td>
+      <td>ʌωo</td>
+    </tr>
+    <tr>
+      <td>Disillusioned</td>
+      <td>neʟusyno</td>
+    </tr>
+    <tr>
+      <td>Curious</td>
+      <td>kuro</td>
+    </tr>
+    <tr>
+      <td colspan="1" rowspan="4">'Bad'</td>
+      <td>Bored</td>
+      <td>bɔro</td>
+    </tr>
+    <tr>
+      <td>Tired</td>
+      <td>tΣro</td>
+    </tr>
+    <tr>
+      <td>Indifferent</td>
+      <td>nekæro</td>
+    </tr>
+    <tr>
+      <td>Delusional</td>
+      <td>deʟuʟo</td>
+    </tr>
+  </tbody>
+</table>
+
+### Senses
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Vision/sight</td>
+      <td>Zicht</td>
+      <td>vysɑ</td>
+    </tr>
+    <tr>
+      <td>Hearing</td>
+      <td>Gehoor</td>
+      <td>hɔrɑ</td>
+    </tr>
+    <tr>
+      <td>Smell</td>
+      <td>Reuk</td>
+      <td>rukɑ</td>
+    </tr>
+    <tr>
+      <td>Taste</td>
+      <td>Smaak</td>
+      <td>tэsɑ</td>
+    </tr>
+    <tr>
+      <td>Touch</td>
+      <td>Tast</td>
+      <td>tσȿɑ</td>
+    </tr>
+  </tbody>
+</table>
+
+### Colors
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Color</td>
+      <td>Kleur</td>
+      <td>kɔʟɔr</td>
+    </tr>
+    <tr>
+      <td>White</td>
+      <td>Wit</td>
+      <td>ʟide</td>
+    </tr>
+    <tr>
+      <td>Black</td>
+      <td>Zwart</td>
+      <td>omʌȿ</td>
+    </tr>
+    <tr>
+      <td>Grey</td>
+      <td>Grijs</td>
+      <td>ʟidʌȿ</td>
+    </tr>
+    <tr>
+      <td>Light</td>
+      <td>Licht</td>
+      <td>sɔʟɑ</td>
+    </tr>
+    <tr>
+      <td>Dark</td>
+      <td>Donker</td>
+      <td>mэrɑ</td>
+    </tr>
+    <tr>
+      <td>Red</td>
+      <td>Rood</td>
+      <td>rɔȿ</td>
+    </tr>
+    <tr>
+      <td>Yellow</td>
+      <td>Geel</td>
+      <td>ɥэʟoω</td>
+    </tr>
+    <tr>
+      <td>Blue</td>
+      <td>Blauw</td>
+      <td>ʟθω</td>
+    </tr>
+    <tr>
+      <td>Oranje</td>
+      <td>Orange</td>
+      <td>orɑn</td>
+    </tr>
+    <tr>
+      <td>Green</td>
+      <td>Groen</td>
+      <td>rθn</td>
+    </tr>
+    <tr>
+      <td>Purple</td>
+      <td>Paars</td>
+      <td>pэrɑ</td>
+    </tr>
+    <tr>
+      <td>Pink</td>
+      <td>Roze</td>
+      <td>nэnɑ</td>
+    </tr>
+    <tr>
+      <td>Shiny</td>
+      <td>Glimmend</td>
+      <td>ȿin</td>
+    </tr>
+  </tbody>
+</table>
+
+It is possible to derive colors by combining them. Here is a non-exhaustive list
+of examples:
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Turquoise</td>
+      <td>Turkoois</td>
+      <td>ʟθω-rθn</td>
+    </tr>
+    <tr>
+      <td>Light blue</td>
+      <td>Lichtblauω</td>
+      <td>sɔʟɑ-ʟθω</td>
+    </tr>
+    <tr>
+      <td>Brown (aka dark orange)</td>
+      <td>Bruin (aka donkeroranje)</td>
+      <td>mэrɑ-orɑn</td>
+    </tr>
+    <tr>
+      <td>Gold</td>
+      <td>Goud</td>
+      <td>ȿin-ɥэʟoω</td>
+    </tr>
+    <tr>
+      <td>Silver</td>
+      <td>Zilver</td>
+      <td>ȿin-ʟidʌȿ</td>
+    </tr>
+    <tr>
+      <td>Bronze</td>
+      <td>Brons</td>
+      <td>ȿin-orɑn</td>
+    </tr>
+  </tbody>
+</table>
+
+(These are compounds, hence the hyphen :)
+
+### Family
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Family</td>
+      <td>Familie</td>
+      <td>fʌmʟy</td>
+    </tr>
+    <tr>
+      <td>Brother</td>
+      <td>Broer</td>
+      <td>nybo</td>
+    </tr>
+    <tr>
+      <td>Sister</td>
+      <td>Zus</td>
+      <td>sis</td>
+    </tr>
+    <tr>
+      <td>Sibling</td>
+      <td>-</td>
+      <td>sinyno</td>
+    </tr>
+    <tr>
+      <td>Mother, mom</td>
+      <td>Moeder, mama</td>
+      <td>ʌmɑ</td>
+    </tr>
+    <tr>
+      <td>Father, dad</td>
+      <td>Vader, papa</td>
+      <td>ɑdɑ</td>
+    </tr>
+    <tr>
+      <td>Parent</td>
+      <td>Ouder</td>
+      <td>udэrɑ</td>
+    </tr>
+    <tr>
+      <td>Grandma</td>
+      <td>Oma</td>
+      <td>omɑ</td>
+    </tr>
+    <tr>
+      <td>Grandpa</td>
+      <td>Opa</td>
+      <td>odɑ</td>
+    </tr>
+    <tr>
+      <td>Grandparent</td>
+      <td>Grootouder</td>
+      <td>odudэrɑ</td>
+    </tr>
+    <tr>
+      <td>Daughter</td>
+      <td>Dochter</td>
+      <td>dotɑ</td>
+    </tr>
+    <tr>
+      <td>Son</td>
+      <td>Zoon</td>
+      <td>sono</td>
+    </tr>
+    <tr>
+      <td>Child</td>
+      <td>Kind</td>
+      <td>sydo</td>
+    </tr>
+    <tr>
+      <td>Wife</td>
+      <td>Vrouw</td>
+      <td>mun Σmɑ</td>
+    </tr>
+    <tr>
+      <td>Husband</td>
+      <td>Man</td>
+      <td>mun Σmy</td>
+    </tr>
+    <tr>
+      <td>Fiance</td>
+      <td>Verloofde</td>
+      <td colspan="1" rowspan="4">xiku</td>
+    </tr>
+    <tr>
+      <td>Partner</td>
+      <td>Partner</td>
+    </tr>
+    <tr>
+      <td>Girlfriend</td>
+      <td>Vriendinnetje</td>
+    </tr>
+    <tr>
+      <td>Boyfriend</td>
+      <td>Vriendje</td>
+    </tr>
+    <tr>
+      <td>Far-</td>
+      <td>Achter-</td>
+      <td>hin-</td>
+    </tr>
+    <tr>
+      <td>Step-</td>
+      <td>Stief-</td>
+      <td>tyf-</td>
+    </tr>
+    <tr>
+      <td>Aunt</td>
+      <td>Tante</td>
+      <td>hin-ʌmɑ</td>
+    </tr>
+    <tr>
+      <td>Uncle</td>
+      <td>Oom</td>
+      <td>hin-ɑdɑ</td>
+    </tr>
+    <tr>
+      <td>(gender neutral)</td>
+      <td>(genderneutraal)</td>
+      <td>hin-uderɑ</td>
+    </tr>
+    <tr>
+      <td>Niece</td>
+      <td>Nicht</td>
+      <td>hin-sis</td>
+    </tr>
+    <tr>
+      <td>Nephew</td>
+      <td>Neef</td>
+      <td>hin-nybo</td>
+    </tr>
+    <tr>
+      <td>Cousin</td>
+      <td>(genderneutraal)</td>
+      <td>hin-sinyno</td>
+    </tr>
+  </tbody>
+</table>
+
+Note about in-laws (schoon- in Dutch): they are utterly confusing. Just say
+what you mean. 'My girlfriend's parents' is so much clearer
+than 'parents in-law' or whatever. Also, what the actual f*ck does
+'zwager' mean?? Same goes for step- etc.
+
+### People
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Baby</td>
+      <td>Baby</td>
+      <td>ʟiʟ-kido</td>
+    </tr>
+    <tr>
+      <td>Child</td>
+      <td>Kind</td>
+      <td>kido</td>
+    </tr>
+    <tr>
+      <td>Teenager</td>
+      <td>Tiener</td>
+      <td>dyno</td>
+    </tr>
+    <tr>
+      <td>Adult</td>
+      <td>Volwassene</td>
+      <td>ɑdo</td>
+    </tr>
+    <tr>
+      <td>Friend</td>
+      <td>Vriend(in)</td>
+      <td>ɑmy</td>
+    </tr>
+    <tr>
+      <td>Enemy</td>
+      <td>Vijand</td>
+      <td>σnomy</td>
+    </tr>
+    <tr>
+      <td>Attacker, abuser</td>
+      <td>Aanvaller, misbruiker</td>
+      <td>σωer</td>
+    </tr>
+    <tr>
+      <td>Victim</td>
+      <td>Slachtoffer</td>
+      <td>σωy</td>
+    </tr>
+    <tr>
+      <td>Witness</td>
+      <td>Toeschouwer</td>
+      <td>vyser</td>
+    </tr>
+    <tr>
+      <td>Defender, protector</td>
+      <td>Verdediger</td>
+      <td>potэker</td>
+    </tr>
+    <tr>
+      <td>Player</td>
+      <td>Speler</td>
+      <td>toɥer</td>
+    </tr>
+    <tr>
+      <td>Fan</td>
+      <td>Fan</td>
+      <td>fæn</td>
+    </tr>
+    <tr>
+      <td>Crowd</td>
+      <td>Menigte</td>
+      <td>Σmʌndin</td>
+    </tr>
+    <tr>
+      <td>Team</td>
+      <td>Team</td>
+      <td>toɥers</td>
+    </tr>
+    <tr>
+      <td>Teammate</td>
+      <td>Teamgenoot</td>
+      <td>toɥ-ɑmy</td>
+    </tr>
+    <tr>
+      <td>President</td>
+      <td>President/premiër</td>
+      <td>impo-bɔser</td>
+    </tr>
+    <tr>
+      <td>Teacher</td>
+      <td>Docent/leraar</td>
+      <td>tyxer</td>
+    </tr>
+    <tr>
+      <td>Student</td>
+      <td>Student</td>
+      <td>tyxy</td>
+    </tr>
+    <tr>
+      <td>Pupil</td>
+      <td>Leerling</td>
+      <td>ʟλrer</td>
+    </tr>
+    <tr>
+      <td>Classmate</td>
+      <td>Klasgenoot</td>
+      <td>kɑlʌs-ɑmy</td>
+    </tr>
+    <tr>
+      <td>Lawyer</td>
+      <td>Advocaat</td>
+      <td>ʟʌω-potэker</td>
+    </tr>
+    <tr>
+      <td>Patient</td>
+      <td>Patient</td>
+      <td>rλsʌnty</td>
+    </tr>
+    <tr>
+      <td>Waiter, server</td>
+      <td>Ober, serveerder</td>
+      <td>эskɑ-giver</td>
+    </tr>
+    <tr>
+      <td>Priest, preacher</td>
+      <td>Priester, dominee, predikant</td>
+      <td colspan="1" rowspan="2">ɥohʌner</td>
+    </tr>
+    <tr>
+      <td>Philosopher</td>
+      <td>Filosoof</td>
+    </tr>
+    <tr>
+      <td>Police (officer)</td>
+      <td>Politie(agent)</td>
+      <td>poʟyser</td>
+    </tr>
+    <tr>
+      <td>Firefighter</td>
+      <td>Brandweerman</td>
+      <td>fΣrσωer</td>
+    </tr>
+    <tr>
+      <td>Doctor</td>
+      <td>Dokter</td>
+      <td>mэdiker</td>
+    </tr>
+    <tr>
+      <td>Artist</td>
+      <td>Artiest</td>
+      <td>mλker</td>
+    </tr>
+    <tr>
+      <td>Employer</td>
+      <td>Werkgever</td>
+      <td>ωσk-giver</td>
+    </tr>
+    <tr>
+      <td>Employee</td>
+      <td>Werknemer</td>
+      <td>ωσk-givee, ωσk-nλmer</td>
+    </tr>
+    <tr>
+      <td>Employee</td>
+      <td>Medewerker</td>
+      <td>ωσker</td>
+    </tr>
+    <tr>
+      <td>Boss</td>
+      <td>Baas</td>
+      <td>bɔser</td>
+    </tr>
+    <tr>
+      <td>Peasant</td>
+      <td>Onderdaan, boerenpummel</td>
+      <td>bɔsy</td>
+    </tr>
+    <tr>
+      <td>Vampire</td>
+      <td>Vampier</td>
+      <td>væmpir</td>
+    </tr>
+    <tr>
+      <td>Reporter</td>
+      <td>Verslaggever</td>
+      <td colspan="1" rowspan="2">rypoter</td>
+    </tr>
+    <tr>
+      <td>Journalist</td>
+      <td>Journalist</td>
+    </tr>
+    <tr>
+      <td>Poet</td>
+      <td>Dichter</td>
+      <td>poet</td>
+    </tr>
+  </tbody>
+</table>
+
+### Body
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Body</td>
+      <td>Lichaam</td>
+      <td>bɔdy</td>
+    </tr>
+    <tr>
+      <td>Head</td>
+      <td>Hoofd</td>
+      <td>hæd</td>
+    </tr>
+    <tr>
+      <td>Brain/mind</td>
+      <td>Brein</td>
+      <td>mΣnde</td>
+    </tr>
+    <tr>
+      <td>Face</td>
+      <td>Gezicht</td>
+      <td>fλsu</td>
+    </tr>
+    <tr>
+      <td>Neck</td>
+      <td>Nek</td>
+      <td>nэk</td>
+    </tr>
+    <tr>
+      <td>Beard</td>
+      <td>Baard</td>
+      <td>bærdo</td>
+    </tr>
+    <tr>
+      <td>Stomach</td>
+      <td>Buik</td>
+      <td>buk</td>
+    </tr>
+    <tr>
+      <td>Arm</td>
+      <td>Arm</td>
+      <td>ʌrme</td>
+    </tr>
+    <tr>
+      <td>Shoulder</td>
+      <td>Schouder</td>
+      <td>ȿɔʟdɑ</td>
+    </tr>
+    <tr>
+      <td>Leg</td>
+      <td>Been</td>
+      <td>bλne</td>
+    </tr>
+    <tr>
+      <td>Knee</td>
+      <td>Knie</td>
+      <td>ny</td>
+    </tr>
+    <tr>
+      <td>Eye</td>
+      <td>Oog</td>
+      <td>oku</td>
+    </tr>
+    <tr>
+      <td>Tear</td>
+      <td>Traan</td>
+      <td>kyrɑkωɑ</td>
+    </tr>
+    <tr>
+      <td>Mouth</td>
+      <td>Mond</td>
+      <td>ɔro</td>
+    </tr>
+    <tr>
+      <td>Lip</td>
+      <td>Lip</td>
+      <td>ʟip</td>
+    </tr>
+    <tr>
+      <td>Tongue</td>
+      <td>Tong</td>
+      <td>tɔnge</td>
+    </tr>
+    <tr>
+      <td>Nose</td>
+      <td>Neus</td>
+      <td>nλs</td>
+    </tr>
+    <tr>
+      <td>Ear</td>
+      <td>Oor</td>
+      <td>σro</td>
+    </tr>
+    <tr>
+      <td>Hair</td>
+      <td>Haar</td>
+      <td>ωig</td>
+    </tr>
+    <tr>
+      <td>Hand</td>
+      <td>Hand</td>
+      <td>hʌnde</td>
+    </tr>
+    <tr>
+      <td>Foot</td>
+      <td>Voet</td>
+      <td>fθte</td>
+    </tr>
+    <tr>
+      <td>Finger</td>
+      <td>Vinger</td>
+      <td>finge</td>
+    </tr>
+    <tr>
+      <td>Toe</td>
+      <td>Teen</td>
+      <td>tθne</td>
+    </tr>
+    <tr>
+      <td>Nail</td>
+      <td>Nagel</td>
+      <td>nλgeʟ</td>
+    </tr>
+    <tr>
+      <td>Tooth</td>
+      <td>Tand</td>
+      <td>dэn</td>
+    </tr>
+    <tr>
+      <td>Heart</td>
+      <td>Hart</td>
+      <td>kʌrdu</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>Bloed</td>
+      <td>vʌsku</td>
+    </tr>
+    <tr>
+      <td>Sweat</td>
+      <td>Zweet</td>
+      <td>sʌωɑku</td>
+    </tr>
+    <tr>
+      <td>Bone</td>
+      <td>Bot</td>
+      <td>bone</td>
+    </tr>
+    <tr>
+      <td>Muscle</td>
+      <td>Spier</td>
+      <td>mesku</td>
+    </tr>
+    <tr>
+      <td>Voice</td>
+      <td>Stem</td>
+      <td>vokɑ</td>
+    </tr>
+    <tr>
+      <td>Skin</td>
+      <td>Huid</td>
+      <td>pэʟis</td>
+    </tr>
+    <tr>
+      <td>Wing</td>
+      <td>Vleugel</td>
+      <td>fugэʟ</td>
+    </tr>
+  </tbody>
+</table>
+
+### Materials
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Wood</td>
+      <td>Hout</td>
+      <td>ωot</td>
+    </tr>
+    <tr>
+      <td>Paper</td>
+      <td>Papier</td>
+      <td>pɑpyres</td>
+    </tr>
+    <tr>
+      <td>Glass</td>
+      <td>Glas</td>
+      <td>vytro</td>
+    </tr>
+    <tr>
+      <td>Earth</td>
+      <td>Aarde</td>
+      <td>эrde</td>
+    </tr>
+    <tr>
+      <td>Lead</td>
+      <td>Lood</td>
+      <td>ʟэd</td>
+    </tr>
+  </tbody>
+</table>
+
+### Animals
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Animal</td>
+      <td>Dier</td>
+      <td>tyr</td>
+    </tr>
+    <tr>
+      <td>Pig</td>
+      <td>Varken</td>
+      <td>nɔr</td>
+    </tr>
+    <tr>
+      <td>Cow</td>
+      <td>Koe</td>
+      <td>mθ</td>
+    </tr>
+    <tr>
+      <td>Horse</td>
+      <td>Paard</td>
+      <td>ɔs</td>
+    </tr>
+    <tr>
+      <td>Cat</td>
+      <td>Kat</td>
+      <td>mσ</td>
+    </tr>
+    <tr>
+      <td>Dog</td>
+      <td>Hond</td>
+      <td>ωθf</td>
+    </tr>
+    <tr>
+      <td>Donkey</td>
+      <td>Ezel</td>
+      <td>dɔnkλ</td>
+    </tr>
+    <tr>
+      <td>Chicken</td>
+      <td>Kip</td>
+      <td colspan="1" rowspan="2">tɔk</td>
+    </tr>
+    <tr>
+      <td>Rooster</td>
+      <td>Haan</td>
+    </tr>
+    <tr>
+      <td>Giraffe</td>
+      <td>Giraffe</td>
+      <td>rʌfλ</td>
+    </tr>
+    <tr>
+      <td>Elephant</td>
+      <td>Olifant</td>
+      <td>ɔʟy</td>
+    </tr>
+    <tr>
+      <td>Lion</td>
+      <td>Leeuw</td>
+      <td>ʟyɔn</td>
+    </tr>
+    <tr>
+      <td>Tiger</td>
+      <td>Tijger</td>
+      <td>tΣger</td>
+    </tr>
+    <tr>
+      <td>Hippo</td>
+      <td>Nijlpaard</td>
+      <td>hipo</td>
+    </tr>
+    <tr>
+      <td>Fish</td>
+      <td>Vis</td>
+      <td>obʟib</td>
+    </tr>
+    <tr>
+      <td>Shark</td>
+      <td>Haai</td>
+      <td>ȿɑk</td>
+    </tr>
+    <tr>
+      <td>Duck</td>
+      <td>Eend</td>
+      <td>duken</td>
+    </tr>
+    <tr>
+      <td>Fly</td>
+      <td>Vlieg</td>
+      <td>fʟugy</td>
+    </tr>
+    <tr>
+      <td>Frog</td>
+      <td>Kikker</td>
+      <td>fɔger</td>
+    </tr>
+    <tr>
+      <td>Mouse</td>
+      <td>Muis</td>
+      <td>mus</td>
+    </tr>
+    <tr>
+      <td>Monkey</td>
+      <td>Aap</td>
+      <td>mɔnkλ</td>
+    </tr>
+    <tr>
+      <td>Bird</td>
+      <td>Vogel</td>
+      <td>birden</td>
+    </tr>
+    <tr>
+      <td>Cockroach</td>
+      <td>Kakkerlak</td>
+      <td>kukɑrɑxɑ</td>
+    </tr>
+  </tbody>
+</table>
+
+### Clothing
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Clothes, clothing</td>
+      <td>Kleding(stuk)</td>
+      <td colspan="1" rowspan="2">vэstθ</td>
+    </tr>
+    <tr>
+      <td>Dress, robe</td>
+      <td>Jurk</td>
+    </tr>
+    <tr>
+      <td>Suit</td>
+      <td>Pak</td>
+      <td>fænȿy-vэstθ</td>
+    </tr>
+    <tr>
+      <td>Shirt</td>
+      <td>Shirt</td>
+      <td>sэtɑ</td>
+    </tr>
+    <tr>
+      <td>Jeans/pants</td>
+      <td>Broek</td>
+      <td>xɑmy</td>
+    </tr>
+    <tr>
+      <td>Shoe</td>
+      <td>Schoen</td>
+      <td>bθt</td>
+    </tr>
+    <tr>
+      <td>Sock</td>
+      <td>Sok</td>
+      <td>sɔk</td>
+    </tr>
+    <tr>
+      <td>Coat, jacket</td>
+      <td>Jas</td>
+      <td>ɥɑs</td>
+    </tr>
+    <tr>
+      <td>Underwear</td>
+      <td>Ondergoed</td>
+      <td>under-vэstθ</td>
+    </tr>
+    <tr>
+      <td>Sweater, hoody</td>
+      <td>Trui</td>
+      <td>hθdy</td>
+    </tr>
+    <tr>
+      <td>Outfit</td>
+      <td>Outfit</td>
+      <td>xɑmysэtɑ</td>
+    </tr>
+  </tbody>
+</table>
+
+### Vegetables
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Vegetable</td>
+      <td>Groente (enkelv.)</td>
+      <td>rθnes</td>
+    </tr>
+    <tr>
+      <td>Potato</td>
+      <td>Aardappel</td>
+      <td>potʌto</td>
+    </tr>
+    <tr>
+      <td>Tomato</td>
+      <td>Tomaat</td>
+      <td>tomʌto</td>
+    </tr>
+    <tr>
+      <td>Broccoli</td>
+      <td>Broccoli</td>
+      <td>rθn-bɔkɔʟy</td>
+    </tr>
+    <tr>
+      <td>Cauliflower</td>
+      <td>Bloemkool</td>
+      <td>ʟidʌȿ-bɔkɔʟy</td>
+    </tr>
+    <tr>
+      <td>Carrot</td>
+      <td>Wortel</td>
+      <td>kɑrɔt</td>
+    </tr>
+    <tr>
+      <td>karctan</td>
+      <td>Boon</td>
+      <td>kэbyn</td>
+    </tr>
+    <tr>
+      <td>Corn</td>
+      <td>Mais</td>
+      <td>mΣȿy</td>
+    </tr>
+    <tr>
+      <td>Eggplant</td>
+      <td>Aubergine</td>
+      <td colspan="1" rowspan="2">Σgpyʌntɑ</td>
+    </tr>
+    <tr>
+      <td>Courgette</td>
+      <td>Courgette</td>
+    </tr>
+    <tr>
+      <td>Cucumber</td>
+      <td>Komkommer</td>
+      <td>kθmkθmer</td>
+    </tr>
+    <tr>
+      <td>Garlic</td>
+      <td>Knoflook</td>
+      <td>gɑʟik</td>
+    </tr>
+    <tr>
+      <td>Advocado</td>
+      <td>Advocado</td>
+      <td>ʌdvokɑdo</td>
+    </tr>
+  </tbody>
+</table>
+
+### Fruits
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Fruit</td>
+      <td>Fruit (enkelv.)</td>
+      <td>rɔȿes</td>
+    </tr>
+    <tr>
+      <td>Apple</td>
+      <td>Appel</td>
+      <td>æpeʟ</td>
+    </tr>
+    <tr>
+      <td>Banana</td>
+      <td>Banaan</td>
+      <td>bɑnɑnɑ</td>
+    </tr>
+    <tr>
+      <td>Pear</td>
+      <td>Peer</td>
+      <td>pir</td>
+    </tr>
+    <tr>
+      <td>Grape</td>
+      <td>Druif</td>
+      <td>duf</td>
+    </tr>
+    <tr>
+      <td>Berry</td>
+      <td>Bes</td>
+      <td>bэr</td>
+    </tr>
+    <tr>
+      <td>Strawberry</td>
+      <td>Aardbei</td>
+      <td>rɔȿ-bэr</td>
+    </tr>
+    <tr>
+      <td>Blueberry</td>
+      <td>Bosbes</td>
+      <td>pэrɑ-bэr</td>
+    </tr>
+    <tr>
+      <td>Mandarine</td>
+      <td>Mandarijn</td>
+      <td colspan="1" rowspan="2">orɑn-bэr</td>
+    </tr>
+    <tr>
+      <td>Orange</td>
+      <td>Sinaasappel</td>
+    </tr>
+    <tr>
+      <td>Lemon</td>
+      <td>Citroen</td>
+      <td>ɥэʟow-bэr</td>
+    </tr>
+    <tr>
+      <td>Lime</td>
+      <td>Limoen</td>
+      <td>rθn-bэr</td>
+    </tr>
+    <tr>
+      <td>Pineapple</td>
+      <td>Ananas</td>
+      <td>ʌnɑnʌs</td>
+    </tr>
+  </tbody>
+</table>
+
+### Drinks
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Drink</td>
+      <td>Drinken (enkelv.)</td>
+      <td>dinke</td>
+    </tr>
+    <tr>
+      <td>Water</td>
+      <td>Water</td>
+      <td>ɑkωɑ</td>
+    </tr>
+    <tr>
+      <td>Milk</td>
+      <td>Melk</td>
+      <td>ʟʌkto</td>
+    </tr>
+    <tr>
+      <td>Coffee</td>
+      <td>Koffie</td>
+      <td>kɔfλ</td>
+    </tr>
+    <tr>
+      <td>Tea</td>
+      <td>Thee</td>
+      <td>ty</td>
+    </tr>
+    <tr>
+      <td>Soda</td>
+      <td>Frisdrank</td>
+      <td>sukrλ-dinke</td>
+    </tr>
+    <tr>
+      <td>Hot chocolate</td>
+      <td>Chocolademelk</td>
+      <td>xokoʟɑ-ʟʌkto</td>
+    </tr>
+    <tr>
+      <td>(Alcoholic) drink</td>
+      <td>(Alcoholhoudende) drank</td>
+      <td>ɑʟko-dinke</td>
+    </tr>
+    <tr>
+      <td>Cocktail</td>
+      <td>Cocktail</td>
+      <td>ɑʟko-ȿɑpɥe</td>
+    </tr>
+    <tr>
+      <td>Juice</td>
+      <td>Sap</td>
+      <td>ȿɑpɥe</td>
+    </tr>
+  </tbody>
+</table>
+
+### Tastes
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sweet</td>
+      <td>Zoet</td>
+      <td>suto</td>
+    </tr>
+    <tr>
+      <td>Salty</td>
+      <td>Zout</td>
+      <td>sσto</td>
+    </tr>
+    <tr>
+      <td>Sour</td>
+      <td>Zuur</td>
+      <td>sσro</td>
+    </tr>
+    <tr>
+      <td>Bitter</td>
+      <td>Bitter</td>
+      <td>bitɑ</td>
+    </tr>
+    <tr>
+      <td>Spicy</td>
+      <td>Heet/pittig</td>
+      <td>hæt</td>
+    </tr>
+  </tbody>
+</table>
+
+### Cutlery
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Knife</td>
+      <td>Mes</td>
+      <td>poker</td>
+    </tr>
+    <tr>
+      <td>Fork</td>
+      <td>Vork</td>
+      <td>fɔk</td>
+    </tr>
+    <tr>
+      <td>Spoon</td>
+      <td>Lepel</td>
+      <td>espun</td>
+    </tr>
+    <tr>
+      <td>Plate</td>
+      <td>Bord</td>
+      <td>pɑto</td>
+    </tr>
+    <tr>
+      <td>Cup</td>
+      <td>Beker</td>
+      <td>kɔpy</td>
+    </tr>
+    <tr>
+      <td>Bottle</td>
+      <td>Fles</td>
+      <td>budeʟ</td>
+    </tr>
+  </tbody>
+</table>
+
+### Miscellaneous food
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Food</td>
+      <td>Eten</td>
+      <td>эskɑ</td>
+    </tr>
+    <tr>
+      <td>Candy</td>
+      <td>Snoep (enkelv.)</td>
+      <td>kænty</td>
+    </tr>
+    <tr>
+      <td>Meat</td>
+      <td>Vlees</td>
+      <td>vyɑnde</td>
+    </tr>
+    <tr>
+      <td>Breakfast</td>
+      <td>Ontbijt</td>
+      <td>kɔmo-эskɑ</td>
+    </tr>
+    <tr>
+      <td>Lunch</td>
+      <td>Lunch</td>
+      <td>mid-эskɑ</td>
+    </tr>
+    <tr>
+      <td>Dinner</td>
+      <td>Avondeten</td>
+      <td>omэskɑ (contr. of omэr+eskɑ)</td>
+    </tr>
+    <tr>
+      <td>Dish</td>
+      <td>Gerecht/maaltijd</td>
+      <td>эskɑko</td>
+    </tr>
+    <tr>
+      <td>Rice</td>
+      <td>Rijst</td>
+      <td>rΣs</td>
+    </tr>
+    <tr>
+      <td>Soup</td>
+      <td>Soep</td>
+      <td>sθp</td>
+    </tr>
+    <tr>
+      <td>Salad</td>
+      <td>Salade</td>
+      <td>sʌʟɑdem</td>
+    </tr>
+    <tr>
+      <td>Bread</td>
+      <td>Brood</td>
+      <td>pæn</td>
+    </tr>
+    <tr>
+      <td>Sugar</td>
+      <td>Suiker</td>
+      <td>sukrλ</td>
+    </tr>
+    <tr>
+      <td>Salt</td>
+      <td>Zout</td>
+      <td>sэʟ</td>
+    </tr>
+    <tr>
+      <td>Pepper</td>
+      <td>Peper</td>
+      <td>pэpэr</td>
+    </tr>
+    <tr>
+      <td>Cheese</td>
+      <td>Kaas</td>
+      <td>fɔrmɑgy</td>
+    </tr>
+    <tr>
+      <td>Egg</td>
+      <td>Ei</td>
+      <td>Σg</td>
+    </tr>
+    <tr>
+      <td>Cookie</td>
+      <td>Koekje</td>
+      <td>bisky</td>
+    </tr>
+    <tr>
+      <td>Pancakes</td>
+      <td>Pannekoeken</td>
+      <td>pʌnkλky</td>
+    </tr>
+    <tr>
+      <td>Chocolate</td>
+      <td>Chocolade</td>
+      <td>xokoʟɑ</td>
+    </tr>
+    <tr>
+      <td>Icecream</td>
+      <td>IJs</td>
+      <td>sukrэm</td>
+    </tr>
+    <tr>
+      <td>Waffle</td>
+      <td>Wafel</td>
+      <td>rɔbin</td>
+    </tr>
+    <tr>
+      <td>Donut</td>
+      <td>Donut</td>
+      <td>donet</td>
+    </tr>
+    <tr>
+      <td>Cake</td>
+      <td>Taart, cake</td>
+      <td>kλky</td>
+    </tr>
+    <tr>
+      <td>Fries</td>
+      <td>Patat, friet</td>
+      <td>pʌtʌt</td>
+    </tr>
+    <tr>
+      <td>Burger</td>
+      <td>Burger</td>
+      <td>burber</td>
+    </tr>
+  </tbody>
+</table>
+
+### Nature
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nature</td>
+      <td>Natuur</td>
+      <td>nɑtu</td>
+    </tr>
+    <tr>
+      <td>World</td>
+      <td>Wereld</td>
+      <td colspan="1" rowspan="2">ωθd</td>
+    </tr>
+    <tr>
+      <td>Earth</td>
+      <td>Aarde</td>
+    </tr>
+    <tr>
+      <td>Tree</td>
+      <td>Boom</td>
+      <td>bom</td>
+    </tr>
+    <tr>
+      <td>Forest</td>
+      <td>Bos</td>
+      <td>bomdin</td>
+    </tr>
+    <tr>
+      <td>Root</td>
+      <td>Wortel</td>
+      <td>rθt</td>
+    </tr>
+    <tr>
+      <td>Sun</td>
+      <td>Zon</td>
+      <td>sɔʟ</td>
+    </tr>
+    <tr>
+      <td>Moon</td>
+      <td>Maan</td>
+      <td>ʟθn</td>
+    </tr>
+    <tr>
+      <td>Wet</td>
+      <td>Nat</td>
+      <td>nλɥo</td>
+    </tr>
+    <tr>
+      <td>Dry</td>
+      <td>Droog</td>
+      <td>rλɥo</td>
+    </tr>
+    <tr>
+      <td>Sky</td>
+      <td>Lucht</td>
+      <td colspan="1" rowspan="2">æro</td>
+    </tr>
+    <tr>
+      <td>Air</td>
+      <td>Lucht</td>
+    </tr>
+    <tr>
+      <td>Wind</td>
+      <td>Wind</td>
+      <td>vэntu</td>
+    </tr>
+    <tr>
+      <td>Fire</td>
+      <td>Vuur</td>
+      <td>fΣr</td>
+    </tr>
+    <tr>
+      <td>Plant</td>
+      <td>Plant</td>
+      <td>pyʌntɑ</td>
+    </tr>
+    <tr>
+      <td>Flower</td>
+      <td>Bloem</td>
+      <td>fyʟɔrɑ</td>
+    </tr>
+    <tr>
+      <td>Grass</td>
+      <td>Gras</td>
+      <td>gyrɑsɑ</td>
+    </tr>
+    <tr>
+      <td>Sand</td>
+      <td>Zand</td>
+      <td>sæn</td>
+    </tr>
+    <tr>
+      <td>Dirt</td>
+      <td>Aarde/grond</td>
+      <td>humus</td>
+    </tr>
+    <tr>
+      <td>Water</td>
+      <td>Water</td>
+      <td>ɑkωɑ</td>
+    </tr>
+    <tr>
+      <td>Desert</td>
+      <td>Woestijn</td>
+      <td>sændin</td>
+    </tr>
+    <tr>
+      <td>Beach</td>
+      <td>Strand</td>
+      <td>sænɑkωɑ</td>
+    </tr>
+    <tr>
+      <td>Sea</td>
+      <td>Zee</td>
+      <td colspan="1" rowspan="4">(= body of water) ɑkωɑdin</td>
+    </tr>
+    <tr>
+      <td>Ocean</td>
+      <td>Oceaan</td>
+    </tr>
+    <tr>
+      <td>Lake</td>
+      <td>Meer</td>
+    </tr>
+    <tr>
+      <td>River</td>
+      <td>Rivier</td>
+    </tr>
+    <tr>
+      <td>Rain</td>
+      <td>Regen</td>
+      <td>ɑkωɑdσω</td>
+    </tr>
+    <tr>
+      <td>Wave</td>
+      <td>Golf</td>
+      <td>ωλve</td>
+    </tr>
+    <tr>
+      <td>Ice</td>
+      <td>IJs</td>
+      <td>Σs</td>
+    </tr>
+    <tr>
+      <td>Heat/warmth</td>
+      <td>Warm</td>
+      <td>ωɑm</td>
+    </tr>
+    <tr>
+      <td>Cold</td>
+      <td>Koud</td>
+      <td>neωɑm</td>
+    </tr>
+    <tr>
+      <td>Hill</td>
+      <td>Heuvel</td>
+      <td>ʟiʟ-mσtэn</td>
+    </tr>
+    <tr>
+      <td>Mountain</td>
+      <td>Berg</td>
+      <td>mσtэn</td>
+    </tr>
+    <tr>
+      <td>Valley</td>
+      <td>Vallei</td>
+      <td>væʟis</td>
+    </tr>
+    <tr>
+      <td>Star</td>
+      <td>Ster</td>
+      <td>ʟiʟ-sɔʟ</td>
+    </tr>
+    <tr>
+      <td>Snow</td>
+      <td>Sneeuw</td>
+      <td>эsno</td>
+    </tr>
+  </tbody>
+</table>
+
+### Society
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Religion</td>
+      <td>Religie</td>
+      <td>beʟyfɑ</td>
+    </tr>
+    <tr>
+      <td>Afterlife</td>
+      <td>Hiernamaals</td>
+      <td>ɑnde-dod</td>
+    </tr>
+    <tr>
+      <td>Medicine</td>
+      <td>Medicijn</td>
+      <td>medixin</td>
+    </tr>
+    <tr>
+      <td>Drug</td>
+      <td>Drug</td>
+      <td>эdrɔgɑ</td>
+    </tr>
+    <tr>
+      <td>Money</td>
+      <td>Geld</td>
+      <td>mɔny</td>
+    </tr>
+    <tr>
+      <td>Currency</td>
+      <td>Munteenheid</td>
+      <td>kerэnsy</td>
+    </tr>
+    <tr>
+      <td>Bill</td>
+      <td>Rekening</td>
+      <td>biʟ</td>
+    </tr>
+    <tr>
+      <td>Price</td>
+      <td>Prijs</td>
+      <td>kɔstэ</td>
+    </tr>
+    <tr>
+      <td>Contract</td>
+      <td>Contract</td>
+      <td>kontʌktus</td>
+    </tr>
+    <tr>
+      <td>Marriage</td>
+      <td>Huwelijk</td>
+      <td colspan="1" rowspan="2">hΣrɑt</td>
+    </tr>
+    <tr>
+      <td>Wedding</td>
+      <td>Bruiloft</td>
+    </tr>
+    <tr>
+      <td>Relationship</td>
+      <td>Relatie</td>
+      <td>kɔnэkto</td>
+    </tr>
+    <tr>
+      <td>Ethnicity</td>
+      <td>Etniciteit</td>
+      <td>эtnike</td>
+    </tr>
+    <tr>
+      <td>Sex</td>
+      <td>Seks</td>
+      <td>seksa</td>
+    </tr>
+    <tr>
+      <td>Gender</td>
+      <td>Gender</td>
+      <td>xэndэr</td>
+    </tr>
+    <tr>
+      <td>Murder</td>
+      <td>Moord</td>
+      <td>homosyde</td>
+    </tr>
+    <tr>
+      <td>Crime</td>
+      <td>Misdaad</td>
+      <td>fθɥ</td>
+    </tr>
+    <tr>
+      <td>Prison</td>
+      <td>Gevangenis</td>
+      <td>fθɥ-bσωɑ</td>
+    </tr>
+    <tr>
+      <td>Gun</td>
+      <td>Geweer</td>
+      <td>pistɔʟ</td>
+    </tr>
+    <tr>
+      <td>News</td>
+      <td>Nieuws</td>
+      <td>ɥunos, rypot</td>
+    </tr>
+    <tr>
+      <td>Technology</td>
+      <td>Technologie</td>
+      <td>tekno</td>
+    </tr>
+    <tr>
+      <td>Energy</td>
+      <td>Energie</td>
+      <td>эnэrxy</td>
+    </tr>
+    <tr>
+      <td>War</td>
+      <td>Oorlog</td>
+      <td>ωʌr</td>
+    </tr>
+    <tr>
+      <td>Peace</td>
+      <td>Vrede</td>
+      <td>pys</td>
+    </tr>
+    <tr>
+      <td>Military</td>
+      <td>Militair</td>
+      <td>miʟytэr</td>
+    </tr>
+    <tr>
+      <td>Game</td>
+      <td>Spel</td>
+      <td>ludo</td>
+    </tr>
+    <tr>
+      <td>Ball</td>
+      <td>Bal</td>
+      <td>bʌʟ</td>
+    </tr>
+    <tr>
+      <td>Science</td>
+      <td>Wetenschap</td>
+      <td>syэnse</td>
+    </tr>
+    <tr>
+      <td>Sign</td>
+      <td>Bord</td>
+      <td>signe</td>
+    </tr>
+    <tr>
+      <td>Magazine</td>
+      <td>Tijdschrift</td>
+      <td>mɑgɑsyn</td>
+    </tr>
+    <tr>
+      <td>Election</td>
+      <td>Verkiezing</td>
+      <td>impo-ȿɑsyra</td>
+    </tr>
+    <tr>
+      <td>Race</td>
+      <td>Race</td>
+      <td>rλs</td>
+    </tr>
+    <tr>
+      <td>Law</td>
+      <td>Wet</td>
+      <td>ʟʌω</td>
+    </tr>
+  </tbody>
+</table>
+
+### Verbs
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>To be</td>
+      <td>Zijn</td>
+      <td>ʌr-</td>
+    </tr>
+    <tr>
+      <td>To have</td>
+      <td>Hebben</td>
+      <td>hэb-</td>
+    </tr>
+    <tr>
+      <td>To become</td>
+      <td>Worden</td>
+      <td>(= to be in the future, so ʌrɔ...)</td>
+    </tr>
+    <tr>
+      <td>To be allowed to</td>
+      <td>Mogen</td>
+      <td>pθv-</td>
+    </tr>
+    <tr>
+      <td>To be able / can</td>
+      <td>Kunnen</td>
+      <td>kэn-</td>
+    </tr>
+    <tr>
+      <td>To have to</td>
+      <td>Moeten</td>
+      <td>mus-</td>
+    </tr>
+    <tr>
+      <td>Should</td>
+      <td>Zouden moeten</td>
+      <td>ȿθd-</td>
+    </tr>
+    <tr>
+      <td>Will / shall / to be going to</td>
+      <td>Zullen</td>
+      <td>ȿʌʟ-</td>
+    </tr>
+    <tr>
+      <td>To want</td>
+      <td>Willen</td>
+      <td>ωɔʟ-</td>
+    </tr>
+    <tr>
+      <td>To show</td>
+      <td>Laten zien</td>
+      <td>ȿoω-</td>
+    </tr>
+    <tr>
+      <td>To make, to create, to construct</td>
+      <td>Maken</td>
+      <td>mλk-</td>
+    </tr>
+    <tr>
+      <td>To do</td>
+      <td>Doen</td>
+      <td>tθn-</td>
+    </tr>
+    <tr>
+      <td>To use</td>
+      <td>Gebruiken</td>
+      <td>ɥθs-</td>
+    </tr>
+    <tr>
+      <td>To happen</td>
+      <td>Gebeuren</td>
+      <td>hэp-</td>
+    </tr>
+    <tr>
+      <td>To move</td>
+      <td>Bewegen</td>
+      <td>vyd-</td>
+    </tr>
+    <tr>
+      <td>To travel</td>
+      <td>Reizen</td>
+      <td>voɥɑv-</td>
+    </tr>
+    <tr>
+      <td>To wait</td>
+      <td>Wachten</td>
+      <td>ωλd-</td>
+    </tr>
+    <tr>
+      <td>To resemble</td>
+      <td>Lijken (op)</td>
+      <td>ʟyk-</td>
+    </tr>
+    <tr>
+      <td>To work</td>
+      <td>Werken</td>
+      <td>ωσk-</td>
+    </tr>
+    <tr>
+      <td>To like/love</td>
+      <td>Leuk vinden, houden van</td>
+      <td>ʟuv-</td>
+    </tr>
+    <tr>
+      <td>To joke</td>
+      <td>Grappen maken</td>
+      <td>ɥuk-</td>
+    </tr>
+    <tr>
+      <td>To care</td>
+      <td>Geven om, belangrijk vinden</td>
+      <td>kær-</td>
+    </tr>
+    <tr>
+      <td>To think</td>
+      <td>Denken, vinden</td>
+      <td>pэn-</td>
+    </tr>
+    <tr>
+      <td>To find</td>
+      <td>Vinden</td>
+      <td>find-</td>
+    </tr>
+    <tr>
+      <td>To lose</td>
+      <td>Verliezen</td>
+      <td>ʟθs-</td>
+    </tr>
+    <tr>
+      <td>To rediscover</td>
+      <td>Terugvinden</td>
+      <td>rλfind-, rλdiskɔv-</td>
+    </tr>
+    <tr>
+      <td>To see/watch</td>
+      <td>Zien, kijken</td>
+      <td>vys-</td>
+    </tr>
+    <tr>
+      <td>To hear</td>
+      <td>Horen</td>
+      <td>hɔr-</td>
+    </tr>
+    <tr>
+      <td>To smell</td>
+      <td>Ruiken</td>
+      <td>ruk-</td>
+    </tr>
+    <tr>
+      <td>To taste</td>
+      <td>Proeven</td>
+      <td>tэs-</td>
+    </tr>
+    <tr>
+      <td>To touch</td>
+      <td>Aanraken/betasten</td>
+      <td>tσȿ-</td>
+    </tr>
+    <tr>
+      <td>To say/talk</td>
+      <td>Zeggen/praten</td>
+      <td>sæd-</td>
+    </tr>
+    <tr>
+      <td>To promise</td>
+      <td>Beloven</td>
+      <td>poremys-</td>
+    </tr>
+    <tr>
+      <td>To listen</td>
+      <td>Luisteren</td>
+      <td>ʟisen-</td>
+    </tr>
+    <tr>
+      <td>To feel</td>
+      <td>Voelen</td>
+      <td>sэns-</td>
+    </tr>
+    <tr>
+      <td>To come</td>
+      <td>Komen</td>
+      <td>kɔm-</td>
+    </tr>
+    <tr>
+      <td>To go (somewhere)</td>
+      <td>(Heen) gaan</td>
+      <td>gλh-</td>
+    </tr>
+    <tr>
+      <td>To stay</td>
+      <td>Blijven</td>
+      <td>эstλh-</td>
+    </tr>
+    <tr>
+      <td>To walk</td>
+      <td>Lopen</td>
+      <td>ʟσf-</td>
+    </tr>
+    <tr>
+      <td>To run</td>
+      <td>Rennen</td>
+      <td>ɥytʟσf-</td>
+    </tr>
+    <tr>
+      <td>To take</td>
+      <td>Nemen</td>
+      <td>nλm-</td>
+    </tr>
+    <tr>
+      <td>To bring</td>
+      <td>Brengen</td>
+      <td>tэk-</td>
+    </tr>
+    <tr>
+      <td>To thank</td>
+      <td>(Be)danken</td>
+      <td>xʌn-</td>
+    </tr>
+    <tr>
+      <td>To understand</td>
+      <td>Snappen</td>
+      <td>ɔmpʌnd-</td>
+    </tr>
+    <tr>
+      <td>To begin/start</td>
+      <td>Beginnen</td>
+      <td>kɔm-</td>
+    </tr>
+    <tr>
+      <td>To end</td>
+      <td>Eindigen/stoppen</td>
+      <td>эnd-</td>
+    </tr>
+    <tr>
+      <td>To know</td>
+      <td>Weten</td>
+      <td>ωis-</td>
+    </tr>
+    <tr>
+      <td>To change</td>
+      <td>Veranderen</td>
+      <td>ȿʌns-</td>
+    </tr>
+    <tr>
+      <td>To live (in general)</td>
+      <td>Leven</td>
+      <td>vyv-</td>
+    </tr>
+    <tr>
+      <td>To live (in a house)</td>
+      <td>Wonen</td>
+      <td>hɑbyt-</td>
+    </tr>
+    <tr>
+      <td>To sleep</td>
+      <td>Slapen</td>
+      <td>næp-</td>
+    </tr>
+    <tr>
+      <td>To ask</td>
+      <td>Vragen</td>
+      <td>fʌr-</td>
+    </tr>
+    <tr>
+      <td>To answer</td>
+      <td>(Be)antwoorden</td>
+      <td>pʌr-</td>
+    </tr>
+    <tr>
+      <td>To act</td>
+      <td>Handelen</td>
+      <td>ʌkt-</td>
+    </tr>
+    <tr>
+      <td>To react</td>
+      <td>Reageren</td>
+      <td>rλʌkt-</td>
+    </tr>
+    <tr>
+      <td>To give/bring (to)</td>
+      <td>Geven/brengen (aan)</td>
+      <td>giv-</td>
+    </tr>
+    <tr>
+      <td>To receive</td>
+      <td>Krijgen</td>
+      <td>gэt-</td>
+    </tr>
+    <tr>
+      <td>To get/fetch/summon</td>
+      <td>Ophalen/(op)eisen</td>
+      <td>ɑkymon-</td>
+    </tr>
+    <tr>
+      <td>To put</td>
+      <td>Plaatsen/neerleggen</td>
+      <td>ʟug-</td>
+    </tr>
+    <tr>
+      <td>To choose</td>
+      <td>(Uit)kiezen</td>
+      <td>ȿɑsyr-</td>
+    </tr>
+    <tr>
+      <td>To look (for)</td>
+      <td>Zoeken</td>
+      <td>suk-</td>
+    </tr>
+    <tr>
+      <td>To open</td>
+      <td>Openen</td>
+      <td>open-</td>
+    </tr>
+    <tr>
+      <td>To believe</td>
+      <td>Geloven</td>
+      <td>beʟyf-</td>
+    </tr>
+    <tr>
+      <td>To finish/complete</td>
+      <td>Afmaken</td>
+      <td>ʌp-</td>
+    </tr>
+    <tr>
+      <td>To aggravate</td>
+      <td>Boos maken</td>
+      <td>ɑrɑg-</td>
+    </tr>
+    <tr>
+      <td>To annoy</td>
+      <td>Irriteren</td>
+      <td>yrɑt-</td>
+    </tr>
+    <tr>
+      <td>To frustrate</td>
+      <td>Frustreren</td>
+      <td>rusɑt-</td>
+    </tr>
+    <tr>
+      <td>To make jealous</td>
+      <td>Jaloers maken</td>
+      <td>jɑʟon-</td>
+    </tr>
+    <tr>
+      <td>To depress</td>
+      <td>Depressiveren</td>
+      <td>deprэs-</td>
+    </tr>
+    <tr>
+      <td>To stress</td>
+      <td>Stressen</td>
+      <td>sэtv-</td>
+    </tr>
+    <tr>
+      <td>To isolate</td>
+      <td>Isoleren</td>
+      <td>ʟon-</td>
+    </tr>
+    <tr>
+      <td>To scare</td>
+      <td>Bang maken/laten schrikken</td>
+      <td>sɑkɑr-</td>
+    </tr>
+    <tr>
+      <td>To make anxious</td>
+      <td>Ongerust maken</td>
+      <td>ʌxon-</td>
+    </tr>
+    <tr>
+      <td>To make happy</td>
+      <td>Blij maken</td>
+      <td>bΣt-</td>
+    </tr>
+    <tr>
+      <td>To excite</td>
+      <td>Enthousiast</td>
+      <td>eksyt-</td>
+    </tr>
+    <tr>
+      <td>To calm</td>
+      <td>Kalmeren</td>
+      <td>kʌʟm-</td>
+    </tr>
+    <tr>
+      <td>To validate</td>
+      <td>Valideren</td>
+      <td>sэkur-</td>
+    </tr>
+    <tr>
+      <td>To disgust</td>
+      <td>Tot walging brengen</td>
+      <td>disgust-</td>
+    </tr>
+    <tr>
+      <td>To embarrass</td>
+      <td>In verlegenheid brengen</td>
+      <td>embɑrʌs-</td>
+    </tr>
+    <tr>
+      <td>To surprise</td>
+      <td>Verrassen</td>
+      <td>seprys-</td>
+    </tr>
+    <tr>
+      <td>To admire</td>
+      <td>Bewonderen</td>
+      <td>ʌw-</td>
+    </tr>
+    <tr>
+      <td>To make curious</td>
+      <td>Belangstelling opwekken</td>
+      <td>kur-</td>
+    </tr>
+    <tr>
+      <td>To shield</td>
+      <td>Afschermen/beschermen</td>
+      <td>ʟusyn-</td>
+    </tr>
+    <tr>
+      <td>To bore</td>
+      <td>Vervelen</td>
+      <td>bɔr-</td>
+    </tr>
+    <tr>
+      <td>To tire</td>
+      <td>Moe maken</td>
+      <td>tΣr-</td>
+    </tr>
+    <tr>
+      <td>To deceive (yourself)</td>
+      <td>(Jezelf) om de tuin leiden</td>
+      <td>deʟuʟ-</td>
+    </tr>
+    <tr>
+      <td>To deceive (someone else)</td>
+      <td>(Een ander) om de tuin leiden</td>
+      <td colspan="1" rowspan="2">gæsʟΣt-</td>
+    </tr>
+    <tr>
+      <td>To gaslight</td>
+      <td>Gaslighten</td>
+    </tr>
+    <tr>
+      <td>To bleed</td>
+      <td>Bloeden</td>
+      <td>vʌsk-</td>
+    </tr>
+    <tr>
+      <td>To sweat</td>
+      <td>Zweten</td>
+      <td>sʌωɑk-</td>
+    </tr>
+    <tr>
+      <td>To eat</td>
+      <td>Eten</td>
+      <td>эs-</td>
+    </tr>
+    <tr>
+      <td>To cook</td>
+      <td>Koken</td>
+      <td>эskɑk-</td>
+    </tr>
+    <tr>
+      <td>To drink</td>
+      <td>Drinken</td>
+      <td>dink-</td>
+    </tr>
+    <tr>
+      <td>To sit</td>
+      <td>Zitten</td>
+      <td colspan="1" rowspan="3">
+        (= to be somewhere, so use ʌr- instead)
+      </td>
+    </tr>
+    <tr>
+      <td>To stand</td>
+      <td>Staan</td>
+    </tr>
+    <tr>
+      <td>To lay</td>
+      <td>Liggen</td>
+    </tr>
+    <tr>
+      <td>To hug</td>
+      <td>Knuffel</td>
+      <td>heg-</td>
+    </tr>
+    <tr>
+      <td>To light, to turn on</td>
+      <td>Aansteken, aanzetten</td>
+      <td>ʟΣt-</td>
+    </tr>
+    <tr>
+      <td>To force</td>
+      <td>Dwingen</td>
+      <td>fɔrx-</td>
+    </tr>
+    <tr>
+      <td>To drive</td>
+      <td>(Auto) rijden</td>
+      <td>mov-</td>
+    </tr>
+    <tr>
+      <td>To cycle</td>
+      <td>Fietsen</td>
+      <td>sΣkɔʟ-</td>
+    </tr>
+    <tr>
+      <td>To build</td>
+      <td>Bouwen</td>
+      <td>bσω-</td>
+    </tr>
+    <tr>
+      <td>To exercise</td>
+      <td>Sporten</td>
+      <td>эspɔrt-</td>
+    </tr>
+    <tr>
+      <td>To meet</td>
+      <td>Ontmoeten</td>
+      <td>vθs-</td>
+    </tr>
+    <tr>
+      <td>To write</td>
+      <td>Schrijven</td>
+      <td>ryt-</td>
+    </tr>
+    <tr>
+      <td>To read</td>
+      <td>Lezen</td>
+      <td>ʟys-</td>
+    </tr>
+    <tr>
+      <td>To attack/hurt</td>
+      <td>Pijn doen</td>
+      <td>σω-</td>
+    </tr>
+    <tr>
+      <td>To defend</td>
+      <td>Verdedigen</td>
+      <td>potэk-</td>
+    </tr>
+    <tr>
+      <td>To play</td>
+      <td>Spelen</td>
+      <td>toɥ-</td>
+    </tr>
+    <tr>
+      <td>To learn</td>
+      <td colspan="1" rowspan="2">Leren</td>
+      <td>ʟλr-</td>
+    </tr>
+    <tr>
+      <td>To teach</td>
+      <td>tyx-</td>
+    </tr>
+    <tr>
+      <td>To preach</td>
+      <td>Prediken</td>
+      <td colspan="1" rowspan="2">ɥohʌn-</td>
+    </tr>
+    <tr>
+      <td>To philosophize</td>
+      <td>Filosoferen</td>
+    </tr>
+    <tr>
+      <td>To heal</td>
+      <td>Helen/genezen</td>
+      <td>mэdik-</td>
+    </tr>
+    <tr>
+      <td>To police</td>
+      <td>-</td>
+      <td>poʟys-</td>
+    </tr>
+    <tr>
+      <td>To fight fire</td>
+      <td>-</td>
+      <td>fΣrσω-</td>
+    </tr>
+    <tr>
+      <td>To boss (around)</td>
+      <td>De baas spelen</td>
+      <td>bɔs-</td>
+    </tr>
+    <tr>
+      <td>To report</td>
+      <td>Verslag geven</td>
+      <td>rypot-</td>
+    </tr>
+    <tr>
+      <td>To fail</td>
+      <td>mislukken</td>
+      <td>fλʟ-</td>
+    </tr>
+    <tr>
+      <td>To spread, to scatter</td>
+      <td>Verspreiden</td>
+      <td>sɑkɑt-</td>
+    </tr>
+    <tr>
+      <td>To break</td>
+      <td>Kapot maken</td>
+      <td>bɔrok-</td>
+    </tr>
+    <tr>
+      <td>To wear</td>
+      <td>Dragen</td>
+      <td>ωær-</td>
+    </tr>
+    <tr>
+      <td>To invite</td>
+      <td>Uitnodigen</td>
+      <td>invyt-</td>
+    </tr>
+    <tr>
+      <td>To face</td>
+      <td>-</td>
+      <td>fλs-</td>
+    </tr>
+    <tr>
+      <td>To knit</td>
+      <td>Breien</td>
+      <td>niten-</td>
+    </tr>
+    <tr>
+      <td>To sew</td>
+      <td>Naaien</td>
+      <td>ȿuω-</td>
+    </tr>
+    <tr>
+      <td>To converse</td>
+      <td>Praten</td>
+      <td>kɔnver-</td>
+    </tr>
+    <tr>
+      <td>To discuss (argumentative)</td>
+      <td>Discussieren</td>
+      <td>diskes-</td>
+    </tr>
+    <tr>
+      <td>To join (together)</td>
+      <td>Samenvoegen</td>
+      <td>ɥon-</td>
+    </tr>
+    <tr>
+      <td>To fuck</td>
+      <td>Geslachtsgemeenschap bedrijven</td>
+      <td>seks-</td>
+    </tr>
+    <tr>
+      <td>To cry</td>
+      <td>Huilen</td>
+      <td>kyr-</td>
+    </tr>
+    <tr>
+      <td>To dry</td>
+      <td>(Af)drogen</td>
+      <td>rλɥ-</td>
+    </tr>
+    <tr>
+      <td>To wet</td>
+      <td>Natmaken</td>
+      <td>nλɥ-</td>
+    </tr>
+    <tr>
+      <td>To stab</td>
+      <td>Steken</td>
+      <td>pok-</td>
+    </tr>
+    <tr>
+      <td>To screw</td>
+      <td>Schroeven</td>
+      <td>rumb-</td>
+    </tr>
+    <tr>
+      <td>To explore</td>
+      <td>Ontdekken (zoeken)</td>
+      <td>enkɔv-</td>
+    </tr>
+    <tr>
+      <td>To discover</td>
+      <td>Ontdekken (vinden)</td>
+      <td>diskɔv-</td>
+    </tr>
+    <tr>
+      <td>To chew</td>
+      <td>Kauwen</td>
+      <td>xer-</td>
+    </tr>
+    <tr>
+      <td>To shine</td>
+      <td>Stralen</td>
+      <td>ȿin-</td>
+    </tr>
+    <tr>
+      <td>To fly</td>
+      <td>Vliegen</td>
+      <td>fʟugeʟ-</td>
+    </tr>
+    <tr>
+      <td>To connect</td>
+      <td>Verbinden</td>
+      <td>konэkt-</td>
+    </tr>
+  </tbody>
+</table>
+
+### Curse words
+
+<table class="words">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Dutch</th>
+      <th>Σkɔnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Fuck</td>
+      <td>Fuck</td>
+      <td>fʌk, fuk</td>
+    </tr>
+    <tr>
+      <td>Bitch</td>
+      <td>Bitch</td>
+      <td>bix</td>
+    </tr>
+  </tbody>
+</table>
+
 ## Appendix 2: Translations
 
 ### 'Het allermooiste cadeau'
