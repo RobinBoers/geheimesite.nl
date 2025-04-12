@@ -5,10 +5,29 @@ layout: blank
 language: en
 ---
 
-<hgroup>
-  <h1>{{ title }}</h1>
-  <p>Eoin Wignand, Robin Boers en Lize Boers</p>
-</hgroup>
+<img src="https://cdn.geheimesite.nl/images/iconic/cover.svg" alt="" class="cover">
+
+<header>
+    <hgroup>
+        <h1>{{ title }}</h1>
+        <p>Eoin Wignand, Robin Boers en Lize Boers</p>
+    </hgroup>
+    <p class="left">
+        2024-2025<br><br>
+        Lyceum Schravenlant<br>
+        <a href="//lyceumschravenlant.nl">lyceumschravenlant.nl</a><br>
+        Hugo de Grootstraat 4<br>
+        3119 HA&nbsp;&nbsp;Schiedam
+    </p>
+    <p class="right">
+        Engels<br>
+        Darienne Harms<br><br>
+        Eoin Wignand (6A1)<br>
+        Robin Boers (6A2)<br>
+        Lize Boers (5H2)<br>
+    </p>
+    <p class="clearfix"></p>
+</header>
 
 ## Introduction
 

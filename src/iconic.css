@@ -31,14 +31,28 @@ body {
 
 /* Header */
 
-hgroup {
+.cover {
+  position: absolute;
+  width: 100vw;
+  height: 300px;
+  object-fit: cover;
+  object-position: center -23vw;
+  top: 0;
+  left: 0;
+}
+
+header {
+  margin-top: 200px;
   font-family: sans-serif;
 }
 
 hgroup h1 {
   font-size: 3em;
   line-height: 1.3;
-  margin-bottom: 9px;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 10;
+  color: white;
 }
 
 hgroup p {
@@ -46,7 +60,18 @@ hgroup p {
   font-size: 1.5em;
   font-weight: 400;
   margin-top: 0;
+  font-style: italic;
 }
+
+header > p {
+  font-size: 0.9em;
+  margin-top: 5em;
+}
+
+.left { float: left }
+.right { float: right }
+.clearfix { clear: both }
+.right { text-align: right }
 
 /* Typography */
 
