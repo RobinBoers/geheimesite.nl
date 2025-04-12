@@ -1,88 +1,8 @@
 ---
 title: "Σkɔnik: Syntax & Sorcery"
-stylesheet: /thesis.css
+stylesheet: /iconic.css
 layout: blank
 language: en
-head: >
-    <style>
-        :root {
-            --space: 3em;
-        }
-
-        blockquote, table:not(.tabular) {
-            margin-inline-start: var(--space);
-        }
-
-        blockquote span {
-            background: #d9d9d9;
-            color: black;
-            position: relative;
-        }
-
-        blockquote span::before {
-            background: Canvas;
-            color: CanvasText;
-            position: absolute;
-            top: 1.5em;
-        }
-
-        blockquote:has(span) {
-            width: max-content;
-            padding-bottom: 1em;
-        }
-
-        .agent::before { content: "(agent)" }
-        .patient::before { content: "(patient)" }
-        .benefactive::before { content: "(benefactive)" }
-        .instrument::before { content: "(instrument)" }
-        .locative::before { content: "(locative)" }
-
-        table tr {
-            border: none;
-        }
-
-        table td {
-            vertical-align: top;
-        }
-
-        table:not(.tabular) {
-            width: fit-content;
-        }
-
-        table:not(.tabular) td,
-        table:not(.tabular) th {
-            border: none;
-            padding: 0;
-            padding-right: calc(1.5 * var(--space));
-        }
-
-        .tabular td,
-        .tabular th {
-            border: 1px solid currentColor;
-            padding: calc(0.2 * var(--space));
-        }
-
-        td em {
-            opacity: 0.8;
-        }
-
-        table.phonetics {
-            margin-inline-start: 0;
-            width: 100%;
-        }
-
-        .phonetics thead tr:nth-child(2) {
-            font-size: 0.8em;
-        }
-
-        .phonetics thead tr:nth-child(2) th {
-            padding-bottom: 0.6em;
-        }
-
-        .pronouns tr:last-child td {
-            padding-top: 0.6em;
-        }
-    </style>
 ---
 
 <hgroup>
@@ -137,19 +57,19 @@ The **lexicon** or **vocabulary** is composed of all words that appear in a lang
 Content words can be further divided into categories:
 
 A **homonym** refers to a word that has multiple, distinct meanings.
-    (bark, from trees; bark, the sound a dog makes)
+<span class="dfn">(bark, from trees; bark, the sound a dog makes)</span>
 
 A **synonym** refers to distinct words with a shared meaning; the reverse of a homonym.
-    (small, little, tiny as a specifiers of size)
+<span class="dfn">(small, little, tiny as a specifiers of size)</span>
 
 An **antonym** refers to two words with obverse meanings.
-    (light--dark, up--down, hot--cold)
+<span class="dfn">(light--dark, up--down, hot--cold)</span>
 
 A **hyponym** refers to a word which is a subcategory of another word.
-    (chair is hyponymic with furniture; vodka is hyponymic with beverage)
+<span class="dfn">(chair is hyponymic with furniture; vodka is hyponymic with beverage)</span>
 
 A **hypernym** refers to a word that is a supercategory of another word; the reverse of a hyponym.
-    (furniture is hypernymic with chair; beverage is hypernymic with vodka)
+<span class="dfn">(furniture is hypernymic with chair; beverage is hypernymic with vodka)</span>
 
 In morphology, words are called **lexemes**, which are composed of **morphemes** (Don et. al, 2023). According to Don et al. (2023), morphemes are the "smallest identifiable meaningful units" (p. 182) of language. Words are formed by varying linguistic processes; mainly derivation and inflection.
 
@@ -218,9 +138,11 @@ A **predicate** is a phrase that says something ('predicates') about the subject
 
 The predicate cannot exist without the subject; thus, some phrases have a dependency on other phrases, called **arguments**. The amount of arguments they depend on is called their **valency**. For example, 'to give' calls for two arguments:
 
-> 'Bob gives a book'  
-> 'Bob gives'         (ungrammatical-- what does Bob give?)  
-> 'Gives a book'      (ungrammatical-- who gives a book?)
+<table class="example">
+<tr><td>'Bob gives a book'</td></tr>
+<tr><td>'Bob gives'</td><td>(ungrammatical-- what does Bob give?)</td></tr>
+<tr><td>'Gives a book'</td><td>(ungrammatical-- who gives a book?)</td></tr>
+</table>
 
 Some predicates are **avalent**: they do not require the presence of a subject or other arguments (Don et al., 2023). However, in languages such as English and Dutch, a subject is still required to make the sentence grammatical (Don et al., 2023):
 
@@ -252,7 +174,9 @@ The predicate and its arguments describe the essence of a sentence, while adjunc
 
 The valency of the predicate determines how many of the semantic roles are required to be fulfilled in order to make the sentence grammatical. The sentence below illustrates all of the semantic roles above:
 
-> <span class="agent">The artist</span> painted <span class="patient">a beautiful landscape</span> for <span class="benefactive">the community</span> with <span class="instrument">spray paint</span> on <span class="locative">the brick wall</span>.
+<blockquote class="roles">
+<p><span class="agent">The artist</span> painted <span class="patient">a beautiful landscape</span> for <span class="benefactive">the community</span> with <span class="instrument">spray paint</span> on <span class="locative">the brick wall</span>.</p>
+</blockquote>
 
 In the example, 'to paint' has a valency of two, so only *the artist* and *a beautiful landscape* are strictly necessary in order for the sentence to be grammatical.
 
@@ -420,7 +344,7 @@ The heavy use of ambiguity in Toki Pona is interesting, but not something we wou
 
 **Actors and stakeholders** in the design process would be us as language designers, people learning the language, and people who might be interested in teaching the language.
 
-**Requirements**:
+#### Requirements
 
 - Phonetic: a single phoneme corresponds to a single grapheme and vice versa.
 - No irregular verbs, and a single way to conjugate all verbs.
@@ -521,14 +445,14 @@ In Appendix 1 we provide a complete word list with English and Dutch translation
 
 We are using a consistent list of derivational affixes in order to further extend the vocabulary. Suffixes are used for changing a verb into a noun, in accordance with the rules below. All other derivational affixes will be prefixes, in an attempt to limit the complexity of the language.
 
-| noun               | suffix | in English              |
-| -------------------|--------|-------------------------|
-| verb → action      | -a     | -ion, -ment, -al, -ance |
-| verb → agent       | -er    | -er                     |
-| verb → patient     | -y     | -ee                     |
-| verb → benefactive | -yp    | *non-existent*          |
-| verb → past part.  | -o     | -ed                     |
-| verb → cont. part. | -ono   | -ing                    |
+| noun                | suffix | in English              |
+| --------------------|--------|-------------------------|
+| verb -> action      | -a     | -ion, -ment, -al, -ance |
+| verb -> agent       | -er    | -er                     |
+| verb -> patient     | -y     | -ee                     |
+| verb -> benefactive | -yp    | *non-existent*          |
+| verb -> past part.  | -o     | -ed                     |
+| verb -> cont. part. | -ono   | -ing                    |
 
 The following table contains prefixes that change the meaning of words, but not the word category. Consider this list to be non-exhaustive, as it might be further extended with additional derivational prefixes  in later publications.
 
@@ -581,9 +505,9 @@ The preposition 'эt' is used for generic localities, where you would usually ut
 
 In total, our language contains three types of pronouns:
 
-**Subjective/objective pronouns**, as seen in the first column of the table below.
-**Possessive pronouns**, which are formed by appending -n to the respective subjectives.
-**Self-reflexive pronouns**, which are formed by appending -sэv to the respective subjectives.
+- **Subjective/objective pronouns**, as seen in the first column of the table below.
+- **Possessive pronouns**, which are formed by appending -n to the respective subjectives.
+- **Self-reflexive pronouns**, which are formed by appending -sэv to the respective subjectives.
 
 Our verbs are conjugated by applying the suffix in the right most column to the end of the verb. The vowel utilized in the chosen suffix indicates the tense of the verb, where 'e' indicates the present, 'ʌ' the past, and 'ɔ' the future. To conjugate a past participle or adjective, append -o instead.
 
@@ -701,7 +625,7 @@ For equalities, we utilize the preposition 'eku', which translates to 'as … as
 > <small>(big) (equals) (that) (building)</small>  
 > 'as big as that building'
 
-#### Tone indicators
+### Tone indicators
 
 Tone indicators contextualise a sentence by indicating the (emotional under)tone of the sentence, or indicating references (such as inside jokes) or quotes. They are typically placed at the very end of the sentence.
 

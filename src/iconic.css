@@ -1,0 +1,148 @@
+@import url("https://cdn.geheimesite.nl/reset.css");
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+:root { --space: 3em }
+
+/* Font & page sizing */
+
+html {
+  font-family: serif;
+  font-size: 1rem;
+  line-height: 1.45;
+
+  /* In this particular document, with this particular font,
+     I'm not a huge fan of the anti-aliasing. */
+  -webkit-font-smoothing: auto;
+}
+
+body {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  padding: 1em;
+  max-width: 680px;
+  margin: 10px auto;
+}
+
+@media (min-width: 800px) {
+  body {
+    margin-left: 10%;
+  }
+}
+
+/* Header */
+
+hgroup {
+  font-family: sans-serif;
+}
+
+hgroup h1 {
+  font-size: 3em;
+  line-height: 1.3;
+  margin-bottom: 9px;
+}
+
+hgroup p {
+  opacity: 0.7;
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+/* Typography */
+
+h2 {
+  margin-top: 3em;
+  font-size: 2.1em;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.4em;
+}
+
+h4 {
+  font-size: 1.2em;
+  margin-bottom: 0.2em;
+}
+
+p, table {
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+blockquote, table {
+  margin-inline-start: var(--space);
+}
+
+/* Tables */
+
+table { width: fit-content }
+table tr { border: none }
+
+table td,
+table th {
+  border: none;
+  padding: 0;
+  padding-right: calc(1.5 * var(--space));
+  vertical-align: top;
+}
+
+/* Some table-specific typography */
+td em, td i { opacity: 0.8 }
+td i { font-style: normal }
+
+/* Quirky tables */
+
+.tabular, .phonetics {
+  margin-inline-start: 0;
+  width: 100%;
+}
+
+.tabular td,
+.tabular th {
+  border: 1px solid currentColor;
+  padding: calc(0.1 * var(--space)) calc(0.2 * var(--space));
+}
+
+.phonetics thead tr:nth-child(2) {
+  font-size: 0.8em;
+}
+
+.phonetics thead tr:nth-child(2) th {
+  padding-bottom: 0.6em;
+}
+
+.pronouns tr:last-child td {
+  padding-top: 0.6em;
+}
+
+/* Atoms */
+
+.dfn {
+  display: block;
+  margin-inline-start: 1em;
+}
+
+.roles {
+  width: max-content;
+  padding-bottom: 1em;
+}
+
+.roles span {
+  background: #d9d9d9;
+  color: black;
+  position: relative;
+}
+
+.roles span::before {
+  background: Canvas;
+  color: CanvasText;
+  position: absolute;
+  top: 1.5em;
+}
+
+.agent::before { content: "(agent)" }
+.patient::before { content: "(patient)" }
+.benefactive::before { content: "(benefactive)" }
+.instrument::before { content: "(instrument)" }
+.locative::before { content: "(locative)" }
