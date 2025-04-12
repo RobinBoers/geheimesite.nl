@@ -511,7 +511,7 @@ Our language features a decently extensive derivational system with a fair varie
 
 ### Constructing the vocabulary
 
-English is our ancestral language, similar how many words in contemporary Euroasian languages derive from classic Latin. We decided on English as opposed to Dutch because English is the field of research this paper is applicable to. For laying the groundwork of the vocabulary, we utilized frequency lists from English and Dutch respectively. 
+English is our ancestral language, similar how many words in contemporary Euroasian languages derive from classic Latin. We decided on English as opposed to Dutch because English is the field of research this paper is applicable to. For laying the groundwork of the vocabulary, we utilized frequency lists from English and Dutch respectively.
 
 Additionally, we made sure to include categories explicitly mentioned in the CEF. We also incorporated words people feel are missing  in their own language, according to the survey (see results in Appendix 3).
 

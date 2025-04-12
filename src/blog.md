@@ -50,6 +50,7 @@ head: >
   <h2 style="font-size: 1.1em">Pinned essays</h2>
 
   <ul style="list-style: none; padding: 0;">
+    <li lang="en"><a href="/iconic" hreflang="en">Σkɔnik: Syntax & Sorcery</a></li>
     <li lang="en"><a href="/invisible-prisons" hreflang="en">Invisible Prisons: a short story</a></li>
     <li lang="nl"><a href="/stemrecht" hreflang="nl">Stemrecht voor jongeren</a></li>
     <li lang="nl"><a href="/nepnieuws" hreflang="nl">Hoe werkt nepnieuws en wat kan er tegen gedaan worden?</a></li>
