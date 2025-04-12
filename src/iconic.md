@@ -5556,3 +5556,23 @@ P: <span class="source">Well, that is a surprise. You do know parties!</span> n�
 
 ![Welke talen spreek je vloeiend?](https://cdn.geheimesite.nl/images/iconic/survey0.png)
 ![Ben je meertalig opgevoed?](https://cdn.geheimesite.nl/images/iconic/survey1.png)
+
+## Honourable mentions
+
+Saj: A Conlang with Two Dimensions of Time. <https://youtu.be/DDwf0dorgN8>
+
+The Są̂qʌk Language. <https://satyrs.eu/saqvk>
+
+The Conlanger's Library. <https://library.conlang.org>
+
+I make languages (and you can too). <https://media.ccc.de/v/26c3-3520-en-conlanging_101>
+
+Conlanging 101. <https://conlang.org/cl101.pdf>
+
+The Language Construction Kit. <https://www.zompist.com/kit.html>
+
+Omniglot. <https://omniglot.com>
+
+<span class="important">But most important of all, we have hereby scientifically proven that cats are better than dogs. You’re welcome.</span>
+
+![Honden of katten?](https://cdn.geheimesite.nl/images/iconic/survey2.png)
