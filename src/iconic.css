@@ -116,6 +116,14 @@ td i { font-style: normal }
   padding-top: 0.6em;
 }
 
+/* Figures */
+
+figcaption {
+  font-size: 0.8em;
+  text-align: center;
+  margin-top: 1em;
+}
+
 /* Atoms */
 
 .dfn {
