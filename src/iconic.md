@@ -102,7 +102,7 @@ In morphology, words are called **lexemes**, which are composed of **morphemes**
 
 **Inflection**, on the other hand, changes the structure of a word to fit a grammatical construction (Don et al., 2023). For example, here are some inflections of the word "to eat":
 
-> I _eat_, he _eats_, we are _eating_, they have _eaten_.
+> I *eat*, he *eats*, we are *eating*, they have *eaten*.
 
 Generally speaking, derivation creates novel words, while inflection changes the shape of existing words. Inflection is required to make sentences grammatically correct, but adds little meaning. Furthermore, derivation may change the categories of words (noun -> verb -> adjective etc.), but inflection cannot (Belfakir, 2020).
 
@@ -125,13 +125,13 @@ Another way of forming words is **compounding**, where two or more existing word
 
 English has three types of compounds: open (living room, high school), hyphenated (well-being, mind-blowing), and closed (bedroom, highway, cheesecake). In other languages, such as German and Dutch, this distinction is not made (Don et al., 2023).
 
-Typically, compounds are hyponymic with their nucleuses (Bauer, 2008): _bedroom_ is a subcategory of _room_. However, sometimes the nucleus of the compound is unrelated to the meaning of the compound itself. These kinds of compounds are called exocentric, opposed to endocentric (Don et al., 2023). Examples from English would include cutthroat, pickpocket, breakfast, and scarecrow.
+Typically, compounds are hyponymic with their nucleuses (Bauer, 2008): *bedroom* is a subcategory of *room*. However, sometimes the nucleus of the compound is unrelated to the meaning of the compound itself. These kinds of compounds are called exocentric, opposed to endocentric (Don et al., 2023). Examples from English would include cutthroat, pickpocket, breakfast, and scarecrow.
 
 There's two distinct types of plural:
 
 **Additive plural** indicates that there is more than one of something. It is characterized by its referential homogeneity, that is, every member of the group 'dogs' is of type 'dog' (Overstreet & Yule, 2023). Essentially all Western-European languages feature additive (or 'regular') plural.
 
-**Associative plural**, on the other hand, refers to (human) groups featuring referential heterogeneity; every member of the group is a unique individual. In addition, these individuals are all in some way related to each other, or a prominent member of the group (Overstreet & Yule, 2023). Hence, '_associative_' plural. Constructions like these have been reported to be widespread in the languages of Africa, Asia, Australia, and the Pacific (Daniel & Moravcsik, 2013).
+**Associative plural**, on the other hand, refers to (human) groups featuring referential heterogeneity; every member of the group is a unique individual. In addition, these individuals are all in some way related to each other, or a prominent member of the group (Overstreet & Yule, 2023). Hence, '*associative*' plural. Constructions like these have been reported to be widespread in the languages of Africa, Asia, Australia, and the Pacific (Daniel & Moravcsik, 2013).
 
 Based on their morphology, we can categorize languages into three distinct categories:
 
@@ -149,7 +149,7 @@ The meaning of words can differ based on the social-cultural setting. The **deno
 
 > 'very nice people'
 
-In the phrase above, _people_ is the nucleus and _very nice_ the adjunct. Phrases can be nested; in the previous example, the adjunct itself is a phrase as well, where nice is the nucleus and very the adjunct ('nice people' is grammatical but 'very people' is not).
+In the phrase above, *people* is the nucleus and *very nice* the adjunct. Phrases can be nested; in the previous example, the adjunct itself is a phrase as well, where nice is the nucleus and very the adjunct ('nice people' is grammatical but 'very people' is not).
 
 A **predicate** is a phrase that says something ('predicates') about the subject of the sentence. In the following example, the cat is the subject, and is at home the predicate.
 
@@ -177,11 +177,11 @@ In these cases, the subject is not a real agent, but rather a sort of placeholde
 <tr><td>'Lize is half zeven'</td><td>'Coco is half past six'</td></tr>
 </table>
 
-Phrases that are not required by the predicate are called **adjuncts** (Don et al., 2023). In the following example, to _Alice_ functions as the adjunct:
+Phrases that are not required by the predicate are called **adjuncts** (Don et al., 2023). In the following example, to *Alice* functions as the adjunct:
 
 > 'Bob gives a book to Alice'
 
-Sometimes, a sentence is **self-reflective**. An example would be: 'the man washes himself'. The predicate 'to wash' is bivalent, but in the example there is just a single participant; _the man_ both executes and undergoes the action. In these cases, a reflective pronoun ('himself') is used.
+Sometimes, a sentence is **self-reflective**. An example would be: 'the man washes himself'. The predicate 'to wash' is bivalent, but in the example there is just a single participant; *the man* both executes and undergoes the action. In these cases, a reflective pronoun ('himself') is used.
 
 The predicate and its arguments describe the essence of a sentence, while adjuncts further specify or describe the situation. Within sentences, phrases can take on a variety of **semantic roles** (Mora Gutiérrez, 2001):
 
@@ -197,14 +197,14 @@ The valency of the predicate determines how many of the semantic roles are requi
 <p><span class="agent">The artist</span> painted <span class="patient">a beautiful landscape</span> for <span class="benefactive">the community</span> with <span class="instrument">spray paint</span> on <span class="locative">the brick wall</span>.</p>
 </blockquote>
 
-In the example, 'to paint' has a valency of two, so only _the artist_ and _a beautiful landscape_ are strictly necessary in order for the sentence to be grammatical.
+In the example, 'to paint' has a valency of two, so only *the artist* and *a beautiful landscape* are strictly necessary in order for the sentence to be grammatical.
 
 Consider the following two sentences:
 
 > Hannibal Lecter murdered two detectives.  
 > Two detectives were murdered by Hannibal Lecter.
 
-Semantically, the sentences are equivalent. In both sentences, _Hannibal Lecter_ is the agent, and _two detectives_ the patient. However, the **grammatical roles** fulfilled by the phrases differ. The grammatical roles mainly decide the perspective the situation is described from (Don et al., 2023). In the first sentence _Hannibal Lecter_ is the subject, whilst in the second sentence _two detectives_ is.
+Semantically, the sentences are equivalent. In both sentences, *Hannibal Lecter* is the agent, and *two detectives* the patient. However, the **grammatical roles** fulfilled by the phrases differ. The grammatical roles mainly decide the perspective the situation is described from (Don et al., 2023). In the first sentence *Hannibal Lecter* is the subject, whilst in the second sentence *two detectives* is.
 
 For active sentences, the semantic roles map to grammatical roles roughly like this (Don et al., 2023):
 
@@ -383,7 +383,7 @@ The heavy use of ambiguity in Toki Pona is interesting, but not something we wou
 The first step in creating our language was pinning the phonology down. In this stage, we tried to answer the questions:
 
 - What sounds will our language include?
-- What will the _sprachgefuhl_ be like?
+- What will the *sprachgefuhl* be like?
 
 We based our phonology on those of English, with some influences from Dutch, as those are the languages we speak and thus are most familiar with. Most of the decisions we made in this phase were either improvements for pronunciation and general 'speakability' of the language, as well as personal stylistic choices.
 
@@ -469,7 +469,7 @@ We are using a consistent list of derivational affixes in order to further exten
 | verb -> action      | -a     | -ion, -ment, -al, -ance |
 | verb -> agent       | -er    | -er                     |
 | verb -> patient     | -y     | -ee                     |
-| verb -> benefactive | -yp    | _non-existent_          |
+| verb -> benefactive | -yp    | *non-existent*          |
 | verb -> past part.  | -o     | -ed                     |
 | verb -> cont. part. | -ono   | -ing                    |
 
@@ -482,13 +482,13 @@ The following table contains prefixes that change the meaning of words, but not 
 | with            | an-        | -ful                     |
 | state/condition | kʌd-       | -ness, -y                |
 | similarity      | ko-        | -like                    |
-| manner          | _no affix_ | -ly, -ily                |
-| moment          | a-         | _non-existent_           |
+| manner          | *no affix* | -ly, -ily                |
+| moment          | a-         | *non-existent*           |
 | repetition      | rλ-        | re-                      |
 
 #### Compounds
 
-Compounds are formed by putting multiple existing words together to form a new word. In our language, all compounds are hyphenated, and follow the structure of _adjunct-nucleus_, where the adjunct is a specifier for the nucleus. In virtually all cases, the compound is hyponymic with its nucleus.
+Compounds are formed by putting multiple existing words together to form a new word. In our language, all compounds are hyphenated, and follow the structure of *adjunct-nucleus*, where the adjunct is a specifier for the nucleus. In virtually all cases, the compound is hyponymic with its nucleus.
 
 #### Pluralisation
 
@@ -616,7 +616,7 @@ Adjectives are put after the noun they are further specifying. The order in whic
 
 #### Negations
 
-Negations and affirmations, like 'not', '_wel_', 'often', 'never', 'always' are, in our language, seen as "adjectives" that modify the meaning of a verb, and thus follow the same rules that apply for adjectives too. They are placed right behind the verb.
+Negations and affirmations, like 'not', '*wel*', 'often', 'never', 'always' are, in our language, seen as "adjectives" that modify the meaning of a verb, and thus follow the same rules that apply for adjectives too. They are placed right behind the verb.
 
 #### Degrees of comparison
 
@@ -660,14 +660,14 @@ Tone indicators contextualise a sentence by indicating the (emotional under)tone
 
 These can also be inverted by prepending them with an n-. They are used as follows:
 
-> Oh, great, another meeting. I just _love_ them _so much_ [sʌr.]  
+> Oh, great, another meeting. I just *love* them *so much* [sʌr.]  
 > No, seriously, we need to finish this today [nɥuk.]  
 > If we do not change anything now, we have a real problem [sir.]  
 > I really do appreciate your help, thank you [nsʌr.]  
 > Ik heb daar geen actieve herinnering aan [ref.]  
 > Misschien is hij op zoek naar een functie elders [ref.]  
 > "God does not play dice" -- "Stop telling God what to do" [syt.]  
-> Yeah, sure, I'm just _thrilled_ to be stuck here all day [sʌr.]  
+> Yeah, sure, I'm just *thrilled* to be stuck here all day [sʌr.]  
 > This reminds me of that time you tried to bake cookies and nearly burned the house down [nɥuk.]
 
 Tone indicators are exclusively used in writing, and are not meant to be pronounced explicitly (but can be used by a reader to infer intonation).
@@ -814,7 +814,7 @@ Jaeger, T. F., & Tily, H. (2010). On language 'utility': processing complexity a
     <i>Het was een bijzondere dag en Ming wilde zijn beste vriend Tibbe een cadeau geven. Maar wat moest het worden? Een etensbak had hij al. Hij had al een mand en een kauwspeeltje. Hij had alles al. Ming piekerde zich suf. Wat geef je aan iemand die alles al heeft? Niets! Wat is er beter dan niets? Maar waar vind je niets in een wereld vol met iets? Ming hoorde Frank vaak zeggen dat er niets op tv was. Maar voor zover hij het kon bekijken was er altijd wel iets op tv. Ming hoorde Suzie en haar vriendinnen zeggen dat ze niets te doen hadden. Maar voor zover hij het kon bekijken was iedereen altijd wel iets aan het doen.</i> [...truncated]
 </blockquote>
 
-ʌreʟ en sɔʟ nenɔrmuto эn Ming wɔʟeʟ ɥy giveʟ en kado vɔr ʟλn amy bɔnbɔnbɔn nɔmo Tibbe. da ȿasyreʟ? hэbeʟ en eskɑ-boʟe. hэbeʟ en mɑnde эn en xerɑ-ludo. hэbeʟ ʌʟ. Ming pэneʟ din. dɑ gived ku vɔr en Σmʌn hэbo ʌʟ. niʟ! dɑ ʌreʟ ku bɔnbɔn dʌn niʟ? dɑ kσ findeʟ niʟ inder en wθd ʌpo ɑfэros? Ming hɔreʟ ɥy Frank sædeʟ ɥy ʌreʟ niʟ inder de tλʟe-vydo. ɥэt, vyseʟ ʌʟdΣm ɑfэros inder de tλʟe-vydo. Ming hɔreʟ ɥy Suzie эn ʟλn ɑmys sædeʟ hэbeʟ niʟ ɥy tθneʟ. ɥэt, ʌʟmʌn tθneʟ ʌʟdΣm ɑfэros.
+ʌreʟ en sɔʟ nenɔrmuto эn *Ming* wɔʟeʟ ɥy giveʟ en kado vɔr ʟλn amy bɔnbɔnbɔn nɔmo *Tibbe*. da ȿasyreʟ? hэbeʟ en eskɑ-boʟe. hэbeʟ en mɑnde эn en xerɑ-ludo. hэbeʟ ʌʟ. *Ming* pэneʟ din. dɑ gived ku vɔr en Σmʌn hэbo ʌʟ. niʟ! dɑ ʌreʟ ku bɔnbɔn dʌn niʟ? dɑ kσ findeʟ niʟ inder en wθd ʌpo ɑfэros? *Ming* hɔreʟ ɥy *Frank* sædeʟ ɥy ʌreʟ niʟ inder de tλʟe-vydo. ɥэt, vyseʟ ʌʟdΣm ɑfэros inder de tλʟe-vydo. *Ming* hɔreʟ ɥy *Suzie* эn ʟλn ɑmys sædeʟ hэbeʟ niʟ ɥy tθneʟ. ɥэt, ʌʟmʌn tθneʟ ʌʟdΣm ɑfэros.
 
 ### 'Charlie and the Chocolate Factory'
 
@@ -822,15 +822,142 @@ Jaeger, T. F., & Tily, H. (2010). On language 'utility': processing complexity a
     <i>These two very old people are the father and mother of Mr Bucket. Their names are Grandpa Joe and Grandma Josephine. And these two very old people are the father and mother of Mrs Bucket. Their names are Grandpa George and Grandma Georgina. This is Mr Bucket. This is Mrs Bucket. Mr and Mrs Bucket have a small boy whose name is Charlie Bucket. This is Charlie. How d'you do? And how d'you do? And how d'you again? He is pleased to meet you. The whole of this family – the six grown-ups (count them) and little Charlie Bucket – live together in a small wooden house on the edge of a great town.</i> [...truncated]
 </blockquote>
 
-dλses Σmʌnes din odu ʌrev de ɑdɑ эn de ʌmɑ vɔn Σmy Bucket. vΣn nɔmes ʌrev odɑ Joe эn omɑ Josephine. эn dλses Σmʌnes din odu ʌrev de ɑdɑ эn de ʌmɑ vɔn Σmɑ Bucket. vΣn nɔmes ʌrev odɑ George эn omɑ Georgina. dλs ʌreʟ Σmy Bucket. dλs ʌreʟ Σmɑ Bucket. Σmy эn Σmɑ hэbev en Σmy ʟiʟ nɔmo Charlie Bucket. dλs ʌreʟ Charlie. dɑ ʌrem kɑ? эn, dɑ ʌrem kɑ? эn rλ, dɑ ʌrem kɑ? ʌred bΣto ɥy vθsem dy. de fʌmʟy ʌpo – de эsɑ ɑdos (xɑ kʌʟe vΣ) эn de Charlie Bucket ʟiʟ – hɑbytev эnsɑmo inder en bσwɑ wot ʟiʟ nэstσȿ en stэte wɔp.
+dλses Σmʌnes din odu ʌrev de ɑdɑ эn de ʌmɑ vɔn Σmy *Bucket*. vΣn nɔmes ʌrev odɑ *Joe* эn omɑ *Josephine*. эn dλses Σmʌnes din odu ʌrev de ɑdɑ эn de ʌmɑ vɔn Σmɑ *Bucket*. vΣn nɔmes ʌrev odɑ *George* эn omɑ *Georgina*. dλs ʌreʟ Σmy *Bucket*. dλs ʌreʟ Σmɑ *Bucket*. Σmy эn Σmɑ hэbev en Σmy ʟiʟ nɔmo *Charlie Bucket*. dλs ʌreʟ *Charlie*. dɑ ʌrem kɑ? эn, dɑ ʌrem kɑ? эn rλ, dɑ ʌrem kɑ? ʌred bΣto ɥy vθsem dy. de fʌmʟy ʌpo – de эsɑ ɑdos (xɑ kʌʟe vΣ) эn de *Charlie Bucket* ʟiʟ – hɑbytev эnsɑmo inder en bσwɑ wot ʟiʟ nэstσȿ en stэte wɔp.
 
-### 'The Chronicles of Narnia: The Magician’s Nephew'
+### 'With the last flicker'
+
+<span class="source">One quiet afternoon, I was pulled from the shelf where dozens like me were arranged in neat rows.</span>  
+en kʌʟmo midsɔʟ, ʌrʌm ȿɑsyro vyɑsy de ȿævo. ɑsɑ din ʟyko mu ʌrʌv inder rowes bo.  
+<small>(a) (calm) (afternoon), (was-I) (chosen) (from-mov.) (the) (shelf). (there) (much) (resembling) (me) (was-them) (in) (rows) (beautiful).</small>
+
+<span class="source">I traveled in the cart throughout the whole store and at the end, placed in a small paper bag.</span>  
+voɥɑvem inder de tokɑ vydɔr de ȿɔp ʌpo эn эt эnde, ʌrɔm ʟugo inder en sʌko ʟiʟ pɑpyres.  
+<small>(travel-I) (in-loc.) (the) (vehicle) (trough-mov.) (the) (store) (complete) (and) (loc.) (end), (be-I-fut.) (placed) (in) (a) (bag) (small) (paper).</small>
+
+<span class="source">I was brought home to a room that would soon be my entire world.</span>
+ʌrʌm nλmo vyɑsɑ hom vyɑsɑ en rθm. dλs rθm ʌrɔʟ mun wθd ʌpo.  
+<small>(was-I) (taken) (there-mov) (home) (there-mov) (a) (room). (this) (room) (be-he-fut.)(my) (complete) (world).</small>
+
+<span class="source">They screwed me into my socket and my warm glow came to life.</span>  
+rumbev mu vyinder mun ȿʌt эn mun ȿin-usɔʟ wɑm kɔmʌʟ ɥy vyveʟ.
+<small>(screw-they) (me) (in-mov.) (my) (hole) (and) (my) (shiny-light) (warm) (began-he) (nested sentence) (live-he).</small>
+
+<span class="source">My light filled the room, this room full of potential.</span>  
+mun usɔʟ ʌpeʟ de rθm, dλs rθm ʌpo an futσ bɔn.  
+<small>(my) (light) (fill-he) (the) (room), (this) (room) (full) (with) (future) (good).</small>
+
+<span class="source">The bookshelves were filled, a dozen papers were spread out on the desk, on the couch the cushions were just slightly off center and in the corner a big, comfortable chair was positioned to face the window.</span>  
+de lybre-ȿævos ʌrʌv ʌpo, pɑpyres din ʌrʌv sɑkɑto bovtσȿ de wσk-tɑbʟu. bovtσȿ de bʌnku, de pilθwes ʌrʌv nemid ʟiʟ. inder de hθk en sэgθ wɔp bɔn ʌrʌʟ fλso de window.  
+<small>(the) (bookshelves) (were-they) (full), (papers) (many) (were-they) (spread) (atop) (the) (work-table). (atop) (the) (couch), (the) (cushions) (were-they) (not-mid) (small). (in-loc.) (the (corner) (a) (chair) (big) (good) (was-it) (face) (the) (window).</small>
+
+<span class="source">This room belonged to a cheerful family.</span>  
+dλs rθm ʌrʌʟ vɔn en fʌmʟy bΣto.  
+<small>(this) (room) (was-it) (of) (a) (family) (happy).</small>
+
+<span class="source">The father was a poet and he loved to write during his free time, and the mother enjoyed all sorts of hobbies. </span>  
+de ɑdɑ ʌrʌʟ en poet эn ʟuvʌʟ ɥy rytʌl ɑmid ʟλn dΣm otσ. de ʌmɑ ʟuvʌʟ hɔbys din.  
+<small>(the)(father)(was-he) (a) (poet) (and)(loved-he)(nes.sent.)(write-he) (during) (his) (time) (own). (the) (mother) (loved-she) (hobbies) (many).</small>
+
+<span class="source">I watched as the children came into the room, asking countless questions with a curious look on their faces. </span>  
+vysʌm kΣ de kidos kɔmʌv inder de rθm ɥy fʌrʌv din ɑmid ɥy vysʌv ɑn fλsus fʌrono.  
+<small>(saw-I) (when) (the) (children) (came-they) (in-loc.) (the) (room) (nest. sent.) (asked-they) (much) (during) (nes.sent)(watched-they)(with)(faces) (questioning).</small>
+
+<span class="source">The family loved me, used me, to read their books and papers or play board games beneath me.</span>  
+de fʌmʟy ʟuvʌv mu, ʟysʌv vΣn lybres эn pɑpyres ɔf toɥʌv ludos under mu.  
+<small>(the) (family) (loved-they) (me), (read-they) (their) (books) (and) (papers) (or) (played-they)(games) (underneath) (me).</small>
+
+<span class="source">The mother used to knit and sew while talking with her friends until late in the evening, discussing life and asking themselves deliberate questions. </span>  
+de ʌmɑ nitenʌʟ эn ȿuωʌʟ ɑmid ɥy sædʌv ɑn ʟλn ɑmys dΣmɑ omэr эnde, diskesʌv vyvɑ эn fʌrʌv vΣsэv fʌrɑ bɔn.  
+<small>(the) (mother) (knitted-she) (and) (sewed-she) (during) (nes. sent.) (talked-they) (with)(her)(friends) (until) (evening) (end), (discussed-they) (life) (and) (ask-they)(themselves) (questions)(good).</small>
+
+<span class="source">The conversations were deep and they were engaging their minds to the fullest. Back then, I wasn't just lighting up a room, I was lighting up their minds.</span>  
+de kɔnverɑs ʌrʌv dypfo эn ʌrʌv pэno din. ɑtσw, ʟΣtʌm ne en rθm, ʟΣtʌm vΣn mΣndes.  
+<small>(the)(conversations)(were-they)(deep) (and)(were-they)(think) (much). (Then), (light-I) (not) (a) (room), (light-I) (their) (minds).</small>
+
+<span class="source">I used to watch the father scribble in his notebooks, pondering about the meaning of life.</span>  
+vysʌm de ɑdɑ ɥy rytʌʟ inder ʟλn ryt-lybres, pэnʌʟ uber de signyfo vɔn vyvɑ.  
+<small>(watched-I) (the)(father)(nes. sent.)(write-he)(in) (his) (notebooks), (think-he) (about) (the) (meaning) (of) (life).</small>
+
+<span class="source">I would watch the children be so eager to read and explore, and bombard their parents with endless questions.</span>  
+vysʌm de kidos ɥy eksytev ɥy ʟysev эn enkɔvev. vΣ fʌrʌv vΣn udэrɑs fʌrɑs din.  
+<small>(watch-I)(the)(children)(nes. sent.)(excite-they)(nes. sent.)(read-they)(and)(explore-they). (they)(ask-they)(their)(parents)(questions)(many).</small>
+
+<span class="source">But slowly, things started to change.</span>  
+ɥэt neɥyt, ɑfэros kɔmʌv ɥy ȿʌnsʌv.  
+<small>(but) (slow), (things) (begin) (nes. sent.) (change-they).</small>
+
+<span class="source">It is not my light that glows over them, but rather a different light, a steady blue glow illuminating their faces.</span>  
+ʌreʟ ne mun ȿin-usɔʟ ɥy ȿineʟ vybovder vΣ, ɥэt atσw en usɔʟ nesamo, en ȿin-usɔʟ kɔnsэkɑ ʟθw ȿineʟ inder vΣn fλsus.  
+<small>(is-it) (not) (my) (shiny-light)(nes.sent.)(shine-he) (over) (them), (but) (rather) (a) (light) (different), (a) (shiny-light) (steady) (blue) (shine-he) (in) (their) (faces).</small>
+
+<span class="source">It started with the children spending less and less time asking questions, and more time on their screens. </span>  
+kɔmeʟ ɑn ɥy de kidos fʌrev finfinfinfin fʌrɑ, эn dindin dΣm inder vΣn ȿin-vytros.  
+<small>(start-it) (with) (nes.sent.) (the) (children) (ask-they) (less and less, lesserest) (questions), (and) (more) (time) (in) (their) (screens).</small>
+
+<span class="source">The father stopped surrounding himself with a bunch of papers and books, and now brought his laptop with him to the room instead.</span>  
+de ɑdɑ эndʌʟ ɥy ʌreʟ wisder pɑpyres эn lybres din, эn ɑnσ tэkeʟ ʟyn kʌʟkuʟɑ vyɑsɑ de rθm ɑn ʟy.  
+<small>(the) (father) (stopped-he)(nes.sent)(is-he)(between) (papers) (and) (books) (many), (and)(now) (take-he) (his ) (computer) (to-loc.) (the) (room)(with)(him).</small>
+
+<span class="source">Finally, the mother now spent more time typing on her little glass instrument than talking with her friends. </span>  
+ɑnde, de ʌmɑ ɑnσ ɥθseʟ ʟyn ȿin-vytro dindin dʌn ɥy sædeʟ ɑn ʟyn ɑmys.  
+<small>(final), (the)(mother) (now) (use-she) (her) (screen) (more) (than) (nes.sent.) (speak-she)(with)(her) (friends).</small>
+
+<span class="source">As this went on, I noticed the father had stopped writing, the mother stopped sewing and knitting and the children stopped questioning. </span>  
+ɑmid dλs, vysʌm de ɑdɑ эndʌʟ ɥy ryteʟ, de ʌmɑ эndʌʟ ɥy ȿuωeʟ эn niteneʟ эn de kidos эndʌv fʌrono.  
+<small>(during) (this), (saw-I) (the) (father (stopped-he)(nes.sent)(write-he), (the) (mother) (stopped-she)(nes.sent.)(sew-she)(and)(knit-she)(and)(the)(children) (stopped-they)(questioning).</small>
+
+<span class="source">They also seem to have lost their sense of critical thinking. They were still the same family, but something had shifted.</span>  
+ʟθsev ʌʟso vΣn pэna-pσer. эstλhev de fʌmʟy sɑmo, ɥэt ɑfэros ȿʌnsʌʟ.  
+<small>(lose-they) (also) (their) (think-power). (stay-they) (the) (family) (same), (but) (things) (changed-it).</small>
+
+<span class="source">I’m getting old. I’m not sure how long I’ll remain glowing. </span>  
+ʌrɔm odu. wisem ne kɑ dΣm din ɥy эstλhem ɥy ȿinem.  
+<small>(become-I) (old). (know-I) (not) (how) (time) (much) (nes.sent.) (stay-I) (nes.sent.) (shine-I).</small>
+
+<span class="source">I’m not even sure if it matters anymore. The light I’m able to deliver isn’t wanted anymore.</span>  
+wisem ne ɥy ʌreʟ ɑturo impo. de usɔʟ givem ɥy wɔʟo ɑturo.  
+<small>(know-I) (not) (nes.sent) (is-it) (anymore) (important). (the) (light) (give-I) (nes.sent.) (wanted) (anymore).</small>
+
+### 'The Chronicles of Narnia: The Magician's Nephew'
 
 <blockquote class="source">
-    <i>This is a story about something that happened long ago when your grandfather was a child. It is a very important story because it shows how all the comings and goings between our own world and the land of Narnia first began. In those days Mr. Sherlock Holmes was still living in Baker Street and the Bastables were looking for treasure in the Lewisham Road. In those days, if you were a boy you had to wear a stiff Eton collar every day, and schools were usually nastier than now. But meals were nicer; and as for sweets, I won’t tell you how cheap and good they were, because it would only make your mouth water in vain. And in those days there lived in London a girl called Polly Plummer. She lived in one of a long row of houses which were all joined together. One morning she was out in the back garden when a boy scrambled up from the garden next door and put his face over the wall. Polly was very surprised because up till now there had never been any children in that house, but only Mr. Ketterley and Miss Ketterley, a brother and sister, old bachelor and old maid, living together. So she looked up, full of curiosity. The face of the strange boy was very grubby. It could hardly have been grubbier if he had first rubbed his hands in the earth, and then had a good cry, and then dried his face with his hands. As a matter of fact, this was very nearly what he had been doing.</i> [...truncated]
+    <i>This is a story about something that happened long ago when your grandfather was a child. It is a very important story because it shows how all the comings and goings between our own world and the land of Narnia first began. In those days Mr. Sherlock Holmes was still living in Baker Street and the Bastables were looking for treasure in the Lewisham Road. In those days, if you were a boy you had to wear a stiff Eton collar every day, and schools were usually nastier than now. But meals were nicer; and as for sweets, I won't tell you how cheap and good they were, because it would only make your mouth water in vain. And in those days there lived in London a girl called Polly Plummer. She lived in one of a long row of houses which were all joined together. One morning she was out in the back garden when a boy scrambled up from the garden next door and put his face over the wall. Polly was very surprised because up till now there had never been any children in that house, but only Mr. Ketterley and Miss Ketterley, a brother and sister, old bachelor and old maid, living together. So she looked up, full of curiosity. The face of the strange boy was very grubby. It could hardly have been grubbier if he had first rubbed his hands in the earth, and then had a good cry, and then dried his face with his hands. As a matter of fact, this was very nearly what he had been doing.</i> [...truncated]
 </blockquote>
 
-dλs ʌreʟ en histɔru uber en ɑfэro ɥy hэpeʟ ɔm ɑtσw din. ɑtσw, dyn odɑ ʌreʟ en kido. ʌreʟ en histɔru impo kʌs ɥy ȿoweʟ ɥy hэpɑs ʌʟ tikse wyn wθd эn de ʟʌnde vɔn Narnia kɔmev эdθn. ɔm dʌts sɔʟes, Σmy Sherlock Holmes hɑbytʌʟ ɑturo эt Baker Street эn de Bastables sukʌm ȿɑsoxu эt de Lewisham Road. ɔm dʌtes sɔʟes, if ʌrʌd en Σmy ʟiʟ, musɔd ɥy wæred en vestθ nevydo ɔm sɔʟ ʌʟ эn ekɔʟes ʌrʌv dindΣm womwom dʌn ɑnσ. ɥэt, eskɑkos ʌrʌv bonbon; эt kæntys, sædem ne ɥy kæntys ʌrʌv kɑ xypuxypu эt kɑ ɥemɥem. kʌs ȿʌʟev ɥy nλɥev dyn ɔro. эn ɔm dʌts sɔʟes, en Σmɑ ʟiʟ nɔmo Polly Plummer hɑbyteʟ эt London. hɑbyteʟ inder en эdrʌn us en row ʌro bσwo ɥono эnsɑmo. ɔm эdrʌn kɔmosɔʟ, ʌrʌʟ inder de hinder-kurɑ kΣ ɥy en Σmy ʟiʟ vyɑsy de nэsder-kurɑ vyseʟ vybovder de wɔʟ. Polly ʌrʌʟ sepryso din kʌs ɥy dΣmɑ nσ, kidos ʌrʌv niʟdΣm inder dʌt bowɑ. ʟono, Σmy Ketterley эn Σmɑ Ketterley, en nybo эn en sis, en Σmy эn en Σmɑ, hɑbytɑv эnsɑmo. dʌs, Polly vysɑʟ vyup ɑn kʌdkuro. The fλs vɔn de nefʌmʟɑ Σmy ʌrʌʟ ȿefugo. kэneʟ ne ȿefugoȿefugo eku ɥy de Σmy tσȿeʟ de эrde mэt ʟyn hʌndes, kyreʟ, эn rλɥeʟ ʟyn fλsu mэt ʟyn hʌndes. afэkto, dʌt ʌrʌʟ finɑ ku hэpo.
+dλs ʌreʟ en histɔru uber en ɑfэro ɥy hэpeʟ ɔm ɑtσw din. ɑtσw, dyn odɑ ʌreʟ en kido. ʌreʟ en histɔru impo kʌs ɥy ȿoweʟ ɥy hэpɑs ʌʟ tikse wyn wθd эn de ʟʌnde vɔn *Narnia* kɔmev эdθn. ɔm dʌts sɔʟes, Σmy *Sherlock Holmes* hɑbytʌʟ ɑturo эt *Baker Street* эn de *Bastables* sukʌm ȿɑsoxu эt de *Lewisham Road*. ɔm dʌtes sɔʟes, if ʌrʌd en Σmy ʟiʟ, musɔd ɥy wæred en vestθ nevydo ɔm sɔʟ ʌʟ эn ekɔʟes ʌrʌv dindΣm womwom dʌn ɑnσ. ɥэt, eskɑkos ʌrʌv bonbon; эt kæntys, sædem ne ɥy kæntys ʌrʌv kɑ xypuxypu эt kɑ ɥemɥem. kʌs ȿʌʟev ɥy nλɥev dyn ɔro. эn ɔm dʌts sɔʟes, en Σmɑ ʟiʟ nɔmo *Polly Plummer* hɑbyteʟ эt London. hɑbyteʟ inder en эdrʌn us en row ʌro bσwo ɥono эnsɑmo. ɔm эdrʌn kɔmosɔʟ, ʌrʌʟ inder de hinder-kurɑ kΣ ɥy en Σmy ʟiʟ vyɑsy de nэsder-kurɑ vyseʟ vybovder de wɔʟ. *Polly* ʌrʌʟ sepryso din kʌs ɥy dΣmɑ nσ, kidos ʌrʌv niʟdΣm inder dʌt bowɑ. ʟono, Σmy *Ketterley* эn Σmɑ *Ketterley*, en nybo эn en sis, en Σmy эn en Σmɑ, hɑbytɑv эnsɑmo. dʌs, *Polly* vysɑʟ vyup ɑn kʌdkuro. The fλs vɔn de nefʌmʟɑ Σmy ʌrʌʟ ȿefugo. kэneʟ ne ȿefugoȿefugo eku ɥy de Σmy tσȿeʟ de эrde mэt ʟyn hʌndes, kyreʟ, эn rλɥeʟ ʟyn fλsu mэt ʟyn hʌndes. afэkto, dʌt ʌrʌʟ finɑ ku hэpo.
+
+### 'Elephant & Piggie: I Am Invited to a Party!'
+
+P: <span class="source">Gerald!</span> Gerald!  
+P: <span class="source">Look! Look!</span> xɑ vyse! xɑ vyse!  
+P: <span class="source">I am invited to a party!</span> ʌrem invyto vyɑsɑ en fэd.  
+E: <span class="source">Cool.</span> Σsy.  
+P: <span class="source">It is cool.</span> ʌreʟ Σsy.  
+P: <span class="source">Will you go with me? I have never been to a party.</span> dɑ gλhɔd ɑn mu? gλhɔm niʟdΣm vyɑsɑ en fэd.  
+E: <span class="source">I will go with you. I know parties.</span> gλhɔm ɑn dy. wisem fэdes.  
+E & P: <span class="source">PARTY! PARTY! PARTY! PARTY!</span> fэd! fэd! fэd! fэd!  
+E: <span class="source">Wait! What if it is a fancy party? We must be ready.</span> xɑ wλde! dɑ ku if ʌreʟ en fэd fænȿy? musep ɥy ʌrep ʌpo.  
+P: <span class="source">Really?</span> dɑ?  
+E: <span class="source">I know parties.</span> wisem fэdes.  
+P: <span class="source">He knows parties.</span> wiseʟ fэdes.  
+P: <span class="source">Is this fancy?</span> dɑ dλs ʌreʟ fænȿy?  
+E: <span class="source">Very fancy.</span> din fænȿy.  
+E & P: <span class="source">PARTY! PARTY! PARTY! PARTY!</span> fэd! fэd! fэd! fэd!  
+E: <span class="source">Wait! What if it is a pool party?</span> xɑ wλde! dɑ ku if ʌreʟ en fэd ɑkwɑ-ȿʌt?  
+P: <span class="source">A fancy pool party?</span> dɑ en fэd fænȿy ɑkwɑ-ȿʌt?  
+E: <span class="source">WE MUST BE READY!!!</span> musep ɥy ʌrep ʌpo!  
+E: <span class="source">I know parties.</span> wisem fэdes.  
+P: <span class="source">He knows parties.</span> wiseʟ fэdes.  
+P: <span class="source">How is this?</span> dɑ kɑ dλs ʌreʟ?  
+E: <span class="source">We will make a splash.</span> mλkɔp en эspeʟæȿ.  
+E & P: <span class="source">PARTY! PARTY! PARTY! PARTY!</span> fэd! fэd! fэd! fэd!  
+E: <span class="source">Wait! What if it is a costume party?</span> xɑ wλde! dɑ ku if ʌreʟ en fэd vestθ?  
+P: <span class="source">A fancy pool costume party?</span> dɑ en fэd fænȿy ɑkwɑ-ȿʌt vestθ?  
+E: <span class="source">WE MUST BE READY!!!</span> musep ɥy ʌrep ʌpo!!!  
+P: <span class="source">He had better know parties...</span> wiseʟ bonbon fэdes...  
+P: <span class="source">Now can we go to the party?</span> ɔm ɑnσw gλhep vyɑsɑ de fэd?  
+E: <span class="source">Yes. Now we are ready.</span> ɥæ, ɔm ɑnσw ʌrep ʌpo.  
+P: <span class="source">Well, that is a surprise. You do know parties!</span> nθ, dλs ʌreʟ en seprys. wised fэdes!  
 
 ## Appendix 3: Results from the survey
 

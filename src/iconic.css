@@ -188,3 +188,6 @@ figcaption {
   margin-inline-start: 0;
   color: #8e7cc3;
 }
+
+span.source::before { content: "(" }
+span.source::after { content: ")" }
