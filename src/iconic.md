@@ -47,6 +47,8 @@ Lastly, in the third chapter we will share our findings and discuss potential ne
 
 We hope you have as much fun reading this as we had writing it.
 
+(Find the slides for our final presentation [here](https://ftp.dupunkto.org/~axcelott/iconic.pdf).)
+
 ## Chapter 1: Theoretical background
 
 ### Linguistic concepts and theories
