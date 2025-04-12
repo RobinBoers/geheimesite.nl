@@ -61,7 +61,7 @@ For example: the /p/ phoneme can be both [p] (in "spit") and [pʰ] (in "pit"), w
 
 For our purposes, the exact definition of these terms and differences between the subfields does not matter all that much. However, a term that is important is the **phonetic inventory** of a language. The phonetic inventory describes all possible sounds that occur in a language (Emrys et al., 2009). Together, they form the **phonaesthetics** (sometimes referred to as sprachgefühl) of a language: the general vibe that a language conveys (Emrys et al., 2009).
 
-**Orthography** studies the wide variety of ways we write languages down. The smallest unit of writing (a single symbol), is called a **grapheme**  (Emyrs et al., 2009). The simplest writing system is the **alphabet**, wherein every grapheme corresponds to a single phoneme (Emrys et al., 2009).
+**Orthography** studies the wide variety of ways we write languages down. The smallest unit of writing (a single symbol), is called a **grapheme** (Emyrs et al., 2009). The simplest writing system is the **alphabet**, wherein every grapheme corresponds to a single phoneme (Emrys et al., 2009).
 
 Western alphabets are all derivatives of the Latin or Roman alphabet. A **romanisation** is therefore a mapping of phonemes to graphemes where you assign a letter from the Latin alphabet to every phoneme in the phonetic inventory of your language (Emyrs et al., 2009). This is by far the simplest way to write down any arbitrary language, and is thus often used by linguists for reasoning about languages.
 
@@ -102,7 +102,7 @@ In morphology, words are called **lexemes**, which are composed of **morphemes**
 
 **Inflection**, on the other hand, changes the structure of a word to fit a grammatical construction (Don et al., 2023). For example, here are some inflections of the word "to eat":
 
-> I *eat*, he *eats*, we are *eating*, they have *eaten*.
+> I _eat_, he _eats_, we are _eating_, they have _eaten_.
 
 Generally speaking, derivation creates novel words, while inflection changes the shape of existing words. Inflection is required to make sentences grammatically correct, but adds little meaning. Furthermore, derivation may change the categories of words (noun -> verb -> adjective etc.), but inflection cannot (Belfakir, 2020).
 
@@ -125,13 +125,13 @@ Another way of forming words is **compounding**, where two or more existing word
 
 English has three types of compounds: open (living room, high school), hyphenated (well-being, mind-blowing), and closed (bedroom, highway, cheesecake). In other languages, such as German and Dutch, this distinction is not made (Don et al., 2023).
 
-Typically, compounds are hyponymic with their nucleuses (Bauer, 2008): *bedroom* is a subcategory of *room*. However, sometimes the nucleus of the compound is unrelated to the meaning of the compound itself. These kinds of compounds are called exocentric, opposed to endocentric (Don et al., 2023). Examples from English would include cutthroat, pickpocket, breakfast, and scarecrow.
+Typically, compounds are hyponymic with their nucleuses (Bauer, 2008): _bedroom_ is a subcategory of _room_. However, sometimes the nucleus of the compound is unrelated to the meaning of the compound itself. These kinds of compounds are called exocentric, opposed to endocentric (Don et al., 2023). Examples from English would include cutthroat, pickpocket, breakfast, and scarecrow.
 
 There's two distinct types of plural:
 
 **Additive plural** indicates that there is more than one of something. It is characterized by its referential homogeneity, that is, every member of the group 'dogs' is of type 'dog' (Overstreet & Yule, 2023). Essentially all Western-European languages feature additive (or 'regular') plural.
 
-**Associative plural**, on the other hand, refers to (human) groups featuring referential heterogeneity; every member of the group is a unique individual. In addition, these individuals are all in some way related to each other, or a prominent member of the group (Overstreet & Yule, 2023). Hence, '*associative*' plural. Constructions like these have been reported to be widespread in the languages of Africa, Asia, Australia, and the Pacific (Daniel & Moravcsik, 2013).
+**Associative plural**, on the other hand, refers to (human) groups featuring referential heterogeneity; every member of the group is a unique individual. In addition, these individuals are all in some way related to each other, or a prominent member of the group (Overstreet & Yule, 2023). Hence, '_associative_' plural. Constructions like these have been reported to be widespread in the languages of Africa, Asia, Australia, and the Pacific (Daniel & Moravcsik, 2013).
 
 Based on their morphology, we can categorize languages into three distinct categories:
 
@@ -149,7 +149,7 @@ The meaning of words can differ based on the social-cultural setting. The **deno
 
 > 'very nice people'
 
-In the phrase above, *people* is the nucleus and *very nice* the adjunct. Phrases can be nested; in the previous example, the adjunct itself is a phrase as well, where nice is the nucleus and very the adjunct ('nice people' is grammatical but 'very people' is not).
+In the phrase above, _people_ is the nucleus and _very nice_ the adjunct. Phrases can be nested; in the previous example, the adjunct itself is a phrase as well, where nice is the nucleus and very the adjunct ('nice people' is grammatical but 'very people' is not).
 
 A **predicate** is a phrase that says something ('predicates') about the subject of the sentence. In the following example, the cat is the subject, and is at home the predicate.
 
@@ -177,11 +177,11 @@ In these cases, the subject is not a real agent, but rather a sort of placeholde
 <tr><td>'Lize is half zeven'</td><td>'Coco is half past six'</td></tr>
 </table>
 
-Phrases that are not required by the predicate are called **adjuncts** (Don et al., 2023). In the following example, to *Alice* functions as the adjunct:
+Phrases that are not required by the predicate are called **adjuncts** (Don et al., 2023). In the following example, to _Alice_ functions as the adjunct:
 
 > 'Bob gives a book to Alice'
 
-Sometimes, a sentence is **self-reflective**. An example would be: 'the man washes himself'. The predicate 'to wash' is bivalent, but in the example there is just a single participant; *the man* both executes and undergoes the action. In these cases, a reflective pronoun ('himself') is used.
+Sometimes, a sentence is **self-reflective**. An example would be: 'the man washes himself'. The predicate 'to wash' is bivalent, but in the example there is just a single participant; _the man_ both executes and undergoes the action. In these cases, a reflective pronoun ('himself') is used.
 
 The predicate and its arguments describe the essence of a sentence, while adjuncts further specify or describe the situation. Within sentences, phrases can take on a variety of **semantic roles** (Mora Gutiérrez, 2001):
 
@@ -197,14 +197,14 @@ The valency of the predicate determines how many of the semantic roles are requi
 <p><span class="agent">The artist</span> painted <span class="patient">a beautiful landscape</span> for <span class="benefactive">the community</span> with <span class="instrument">spray paint</span> on <span class="locative">the brick wall</span>.</p>
 </blockquote>
 
-In the example, 'to paint' has a valency of two, so only *the artist* and *a beautiful landscape* are strictly necessary in order for the sentence to be grammatical.
+In the example, 'to paint' has a valency of two, so only _the artist_ and _a beautiful landscape_ are strictly necessary in order for the sentence to be grammatical.
 
 Consider the following two sentences:
 
 > Hannibal Lecter murdered two detectives.  
 > Two detectives were murdered by Hannibal Lecter.
 
-Semantically, the sentences are equivalent. In both sentences, *Hannibal Lecter* is the agent, and *two detectives* the patient. However, the **grammatical roles** fulfilled by the phrases differ. The grammatical roles mainly decide the perspective the situation is described from (Don et al., 2023). In the first sentence *Hannibal Lecter* is the subject, whilst in the second sentence *two detectives* is.
+Semantically, the sentences are equivalent. In both sentences, _Hannibal Lecter_ is the agent, and _two detectives_ the patient. However, the **grammatical roles** fulfilled by the phrases differ. The grammatical roles mainly decide the perspective the situation is described from (Don et al., 2023). In the first sentence _Hannibal Lecter_ is the subject, whilst in the second sentence _two detectives_ is.
 
 For active sentences, the semantic roles map to grammatical roles roughly like this (Don et al., 2023):
 
@@ -252,7 +252,7 @@ For our research, we studied the following conlangs in order to possibly learn f
 
 One of the design features of Esperanto is simplicity in its linguistics. It has a simple phonological system, with a highly regular stress pattern. Therefore, it has an easy pronunciation. Esperanto's spelling is completely phonetic, with one grapheme per phoneme (Li, 2003). It also has a consistent morphology, which makes it attractive for new learners, because it reduces the number of words needed to understand and produce a new text (Gledhill, 1998). Its word order is unfixed, although SVO occurs the most often (Parkvall, 2010).
 
-Esperanto is primarily based on European languages, like Russian, French, Spanish, German and English. Like many European languages, it also has a large number of colour terms, distinguishes between 'he' and 'she', it lacks an associative plural and it has a comparative particle 'ol'. Another profoundly European feature is the use of a relative pronoun in a sentence; 'the boy who waved turned out to be Robin.' Esperanto uses 'kiu' (Parkvall, 2010).  
+Esperanto is primarily based on European languages, like Russian, French, Spanish, German and English. Like many European languages, it also has a large number of colour terms, distinguishes between 'he' and 'she', it lacks an associative plural and it has a comparative particle 'ol'. Another profoundly European feature is the use of a relative pronoun in a sentence; 'the boy who waved turned out to be Robin.' Esperanto uses 'kiu' (Parkvall, 2010).
 
 If you are already familiar with European languages, learning Esperanto can be easier. From our own experiences, we know that while learning Esperanto you are able to recognise a considerable amount of words, which profoundly speeds up the learning process.
 
@@ -383,7 +383,7 @@ The heavy use of ambiguity in Toki Pona is interesting, but not something we wou
 The first step in creating our language was pinning the phonology down. In this stage, we tried to answer the questions:
 
 - What sounds will our language include?
-- What will the *sprachgefuhl* be like?
+- What will the _sprachgefuhl_ be like?
 
 We based our phonology on those of English, with some influences from Dutch, as those are the languages we speak and thus are most familiar with. Most of the decisions we made in this phase were either improvements for pronunciation and general 'speakability' of the language, as well as personal stylistic choices.
 
@@ -393,7 +393,7 @@ Stylistic choices:
 - We scrapped the 'sharp' [β] from Dutch; only kept the 'round' [ʋ] from English.
 - We scrapped the [ʐ] from 'gara**g**e' and the [χ] from '**g**rote teen'; only kept the [g] from '**g**ay'.
 
-During the development of the language, we have not found a case where we have needed to utilise phonetic rules in order to ensure pronounceability, but cases may of course arise if the language were  ever really spoken.
+During the development of the language, we have not found a case where we have needed to utilise phonetic rules in order to ensure pronounceability, but cases may of course arise if the language were ever really spoken.
 
 <table class="phonetics">
     <thead>
@@ -456,7 +456,7 @@ Our language features a decently extensive derivational system with a fair varie
 
 English is our ancestral language, similar how many words in contemporary Euroasian languages derive from classic Latin. We decided on English as opposed to Dutch because English is the field of research this paper is applicable to. For laying the groundwork of the vocabulary, we utilized frequency lists from English and Dutch respectively.
 
-Additionally, we made sure to include categories explicitly mentioned in the CEF. We also incorporated words people feel are missing  in their own language, according to the survey (see results in Appendix 3).
+Additionally, we made sure to include categories explicitly mentioned in the CEF. We also incorporated words people feel are missing in their own language, according to the survey (see results in Appendix 3).
 
 In Appendix 1 we provide a complete word list with English and Dutch translations of a variety of categories consisting of the most commonly used words and phrases in both Dutch and English respectively.
 
@@ -465,30 +465,30 @@ In Appendix 1 we provide a complete word list with English and Dutch translation
 We are using a consistent list of derivational affixes in order to further extend the vocabulary. Suffixes are used for changing a verb into a noun, in accordance with the rules below. All other derivational affixes will be prefixes, in an attempt to limit the complexity of the language.
 
 | noun                | suffix | in English              |
-| --------------------|--------|-------------------------|
+| ------------------- | ------ | ----------------------- |
 | verb -> action      | -a     | -ion, -ment, -al, -ance |
 | verb -> agent       | -er    | -er                     |
 | verb -> patient     | -y     | -ee                     |
-| verb -> benefactive | -yp    | *non-existent*          |
+| verb -> benefactive | -yp    | _non-existent_          |
 | verb -> past part.  | -o     | -ed                     |
 | verb -> cont. part. | -ono   | -ing                    |
 
-The following table contains prefixes that change the meaning of words, but not the word category. Consider this list to be non-exhaustive, as it might be further extended with additional derivational prefixes  in later publications.
+The following table contains prefixes that change the meaning of words, but not the word category. Consider this list to be non-exhaustive, as it might be further extended with additional derivational prefixes in later publications.
 
 | effect          | prefix     | in English               |
-|-----------------|------------| -------------------------|
+| --------------- | ---------- | ------------------------ |
 | negation        | ne-        | im-, in-, de-, anti-, a- |
 | without         | na-        | -less                    |
 | with            | an-        | -ful                     |
 | state/condition | kʌd-       | -ness, -y                |
 | similarity      | ko-        | -like                    |
-| manner          | *no affix* | -ly, -ily                |
-| moment          | a-         | *non-existent*           |
+| manner          | _no affix_ | -ly, -ily                |
+| moment          | a-         | _non-existent_           |
 | repetition      | rλ-        | re-                      |
 
 #### Compounds
 
-Compounds are formed by putting multiple existing words together to form a new word. In our language, all compounds are hyphenated, and follow the structure of *adjunct-nucleus*, where the adjunct is a specifier for the nucleus. In virtually all cases, the compound is hyponymic with its nucleus.
+Compounds are formed by putting multiple existing words together to form a new word. In our language, all compounds are hyphenated, and follow the structure of _adjunct-nucleus_, where the adjunct is a specifier for the nucleus. In virtually all cases, the compound is hyponymic with its nucleus.
 
 #### Pluralisation
 
@@ -510,13 +510,13 @@ Our language does not support forming diminutives by appending suffixes, like Du
 
 Our sentences follow a semi-unfixed word order. The basis of the sentence is structured according to SVO, where the subject can optionally be dropped when implied by the verb conjugation (more on that later). Any additional phrases can be placed at any point in the sentence, but must be preceded by a grammatical 'glue' word, to indicate its grammatical role.
 
-| grammatical role      | keyword |
-|-----------------------|---------|
-| benefactive           | vɔr     |
-| instrument            | mэt     |
-| locative              | эt      |
-| time                  | ɔm      |
-| nested sentence       | ɥy      |
+| grammatical role | keyword |
+| ---------------- | ------- |
+| benefactive      | vɔr     |
+| instrument       | mэt     |
+| locative         | эt      |
+| time             | ɔm      |
+| nested sentence  | ɥy      |
 
 The preposition 'эt' is used for generic localities, where you would usually utilize 'at' in English. If necessary, the locale can be further specified by replacing this preposition with one of the words from the 'Localities' table from Appendix 1. The same applies for the preposition 'ɔm' as well, which can optionally be replaced with the prepositions 'dΣmɑ' and 'dΣmy'.
 
@@ -616,7 +616,7 @@ Adjectives are put after the noun they are further specifying. The order in whic
 
 #### Negations
 
-Negations and affirmations, like 'not', '*wel*', 'often', 'never', 'always' are, in our language, seen as "adjectives" that modify the meaning of a verb, and thus follow the same rules that apply for adjectives too. They are placed right behind the verb.
+Negations and affirmations, like 'not', '_wel_', 'often', 'never', 'always' are, in our language, seen as "adjectives" that modify the meaning of a verb, and thus follow the same rules that apply for adjectives too. They are placed right behind the verb.
 
 #### Degrees of comparison
 
@@ -660,14 +660,14 @@ Tone indicators contextualise a sentence by indicating the (emotional under)tone
 
 These can also be inverted by prepending them with an n-. They are used as follows:
 
-> Oh, great, another meeting. I just *love* them *so much* [sʌr.]  
+> Oh, great, another meeting. I just _love_ them _so much_ [sʌr.]  
 > No, seriously, we need to finish this today [nɥuk.]  
 > If we do not change anything now, we have a real problem [sir.]  
 > I really do appreciate your help, thank you [nsʌr.]  
 > Ik heb daar geen actieve herinnering aan [ref.]  
 > Misschien is hij op zoek naar een functie elders [ref.]  
 > "God does not play dice" -- "Stop telling God what to do" [syt.]  
-> Yeah, sure, I'm just *thrilled* to be stuck here all day [sʌr.]  
+> Yeah, sure, I'm just _thrilled_ to be stuck here all day [sʌr.]  
 > This reminds me of that time you tried to bake cookies and nearly burned the house down [nɥuk.]
 
 Tone indicators are exclusively used in writing, and are not meant to be pronounced explicitly (but can be used by a reader to infer intonation).
@@ -727,7 +727,7 @@ As for our future plans, we noticed that our language is wonderfully concise. On
 
 In conclusion, we created a fully usable language, learned a lot about linguistics & language theory, and had a lot of fun doing it.
 
-You might, after reading all this, be wondering what the name of our language is. It is called Σkɔnik  (pronounced 'iconic'), which might already have been apparent from the title of this document. It doesn't translate to anything; it does not mean anything either. It just sounds cool.
+You might, after reading all this, be wondering what the name of our language is. It is called Σkɔnik (pronounced 'iconic'), which might already have been apparent from the title of this document. It doesn't translate to anything; it does not mean anything either. It just sounds cool.
 
 ### Discussion
 
@@ -805,3 +805,34 @@ Schreyer, C. (2021). Constructed languages. <i>Annual Review of Anthropology, 50
 Siddharthan, A. (2006). Syntactic simplification and text cohesion. <i>Research on Language and Computation, 4</i>(1), 77--109. <https://doi.org/10.1007/s11168-006-9011-1>
 
 Jaeger, T. F., & Tily, H. (2010). On language 'utility': processing complexity and communicative efficiency. <i>Wiley Interdisciplinary Reviews Cognitive Science, 2</i>(3), 323--335. <https://doi.org/10.1002/wcs.126>
+
+## Appendix 2: Translations
+
+### 'Het allermooiste cadeau'
+
+<blockquote class="source">
+    <i>Het was een bijzondere dag en Ming wilde zijn beste vriend Tibbe een cadeau geven. Maar wat moest het worden? Een etensbak had hij al. Hij had al een mand en een kauwspeeltje. Hij had alles al. Ming piekerde zich suf. Wat geef je aan iemand die alles al heeft? Niets! Wat is er beter dan niets? Maar waar vind je niets in een wereld vol met iets? Ming hoorde Frank vaak zeggen dat er niets op tv was. Maar voor zover hij het kon bekijken was er altijd wel iets op tv. Ming hoorde Suzie en haar vriendinnen zeggen dat ze niets te doen hadden. Maar voor zover hij het kon bekijken was iedereen altijd wel iets aan het doen.</i> [...truncated]
+</blockquote>
+
+ʌreʟ en sɔʟ nenɔrmuto эn Ming wɔʟeʟ ɥy giveʟ en kado vɔr ʟλn amy bɔnbɔnbɔn nɔmo Tibbe. da ȿasyreʟ? hэbeʟ en eskɑ-boʟe. hэbeʟ en mɑnde эn en xerɑ-ludo. hэbeʟ ʌʟ. Ming pэneʟ din. dɑ gived ku vɔr en Σmʌn hэbo ʌʟ. niʟ! dɑ ʌreʟ ku bɔnbɔn dʌn niʟ? dɑ kσ findeʟ niʟ inder en wθd ʌpo ɑfэros? Ming hɔreʟ ɥy Frank sædeʟ ɥy ʌreʟ niʟ inder de tλʟe-vydo. ɥэt, vyseʟ ʌʟdΣm ɑfэros inder de tλʟe-vydo. Ming hɔreʟ ɥy Suzie эn ʟλn ɑmys sædeʟ hэbeʟ niʟ ɥy tθneʟ. ɥэt, ʌʟmʌn tθneʟ ʌʟdΣm ɑfэros.
+
+### 'Charlie and the Chocolate Factory'
+
+<blockquote class="source">
+    <i>These two very old people are the father and mother of Mr Bucket. Their names are Grandpa Joe and Grandma Josephine. And these two very old people are the father and mother of Mrs Bucket. Their names are Grandpa George and Grandma Georgina. This is Mr Bucket. This is Mrs Bucket. Mr and Mrs Bucket have a small boy whose name is Charlie Bucket. This is Charlie. How d'you do? And how d'you do? And how d'you again? He is pleased to meet you. The whole of this family – the six grown-ups (count them) and little Charlie Bucket – live together in a small wooden house on the edge of a great town.</i> [...truncated]
+</blockquote>
+
+dλses Σmʌnes din odu ʌrev de ɑdɑ эn de ʌmɑ vɔn Σmy Bucket. vΣn nɔmes ʌrev odɑ Joe эn omɑ Josephine. эn dλses Σmʌnes din odu ʌrev de ɑdɑ эn de ʌmɑ vɔn Σmɑ Bucket. vΣn nɔmes ʌrev odɑ George эn omɑ Georgina. dλs ʌreʟ Σmy Bucket. dλs ʌreʟ Σmɑ Bucket. Σmy эn Σmɑ hэbev en Σmy ʟiʟ nɔmo Charlie Bucket. dλs ʌreʟ Charlie. dɑ ʌrem kɑ? эn, dɑ ʌrem kɑ? эn rλ, dɑ ʌrem kɑ? ʌred bΣto ɥy vθsem dy. de fʌmʟy ʌpo – de эsɑ ɑdos (xɑ kʌʟe vΣ) эn de Charlie Bucket ʟiʟ – hɑbytev эnsɑmo inder en bσwɑ wot ʟiʟ nэstσȿ en stэte wɔp.
+
+### 'The Chronicles of Narnia: The Magician’s Nephew'
+
+<blockquote class="source">
+    <i>This is a story about something that happened long ago when your grandfather was a child. It is a very important story because it shows how all the comings and goings between our own world and the land of Narnia first began. In those days Mr. Sherlock Holmes was still living in Baker Street and the Bastables were looking for treasure in the Lewisham Road. In those days, if you were a boy you had to wear a stiff Eton collar every day, and schools were usually nastier than now. But meals were nicer; and as for sweets, I won’t tell you how cheap and good they were, because it would only make your mouth water in vain. And in those days there lived in London a girl called Polly Plummer. She lived in one of a long row of houses which were all joined together. One morning she was out in the back garden when a boy scrambled up from the garden next door and put his face over the wall. Polly was very surprised because up till now there had never been any children in that house, but only Mr. Ketterley and Miss Ketterley, a brother and sister, old bachelor and old maid, living together. So she looked up, full of curiosity. The face of the strange boy was very grubby. It could hardly have been grubbier if he had first rubbed his hands in the earth, and then had a good cry, and then dried his face with his hands. As a matter of fact, this was very nearly what he had been doing.</i> [...truncated]
+</blockquote>
+
+dλs ʌreʟ en histɔru uber en ɑfэro ɥy hэpeʟ ɔm ɑtσw din. ɑtσw, dyn odɑ ʌreʟ en kido. ʌreʟ en histɔru impo kʌs ɥy ȿoweʟ ɥy hэpɑs ʌʟ tikse wyn wθd эn de ʟʌnde vɔn Narnia kɔmev эdθn. ɔm dʌts sɔʟes, Σmy Sherlock Holmes hɑbytʌʟ ɑturo эt Baker Street эn de Bastables sukʌm ȿɑsoxu эt de Lewisham Road. ɔm dʌtes sɔʟes, if ʌrʌd en Σmy ʟiʟ, musɔd ɥy wæred en vestθ nevydo ɔm sɔʟ ʌʟ эn ekɔʟes ʌrʌv dindΣm womwom dʌn ɑnσ. ɥэt, eskɑkos ʌrʌv bonbon; эt kæntys, sædem ne ɥy kæntys ʌrʌv kɑ xypuxypu эt kɑ ɥemɥem. kʌs ȿʌʟev ɥy nλɥev dyn ɔro. эn ɔm dʌts sɔʟes, en Σmɑ ʟiʟ nɔmo Polly Plummer hɑbyteʟ эt London. hɑbyteʟ inder en эdrʌn us en row ʌro bσwo ɥono эnsɑmo. ɔm эdrʌn kɔmosɔʟ, ʌrʌʟ inder de hinder-kurɑ kΣ ɥy en Σmy ʟiʟ vyɑsy de nэsder-kurɑ vyseʟ vybovder de wɔʟ. Polly ʌrʌʟ sepryso din kʌs ɥy dΣmɑ nσ, kidos ʌrʌv niʟdΣm inder dʌt bowɑ. ʟono, Σmy Ketterley эn Σmɑ Ketterley, en nybo эn en sis, en Σmy эn en Σmɑ, hɑbytɑv эnsɑmo. dʌs, Polly vysɑʟ vyup ɑn kʌdkuro. The fλs vɔn de nefʌmʟɑ Σmy ʌrʌʟ ȿefugo. kэneʟ ne ȿefugoȿefugo eku ɥy de Σmy tσȿeʟ de эrde mэt ʟyn hʌndes, kyreʟ, эn rλɥeʟ ʟyn fλsu mэt ʟyn hʌndes. afэkto, dʌt ʌrʌʟ finɑ ku hэpo.
+
+## Appendix 3: Results from the survey
+
+![Welke talen spreek je vloeiend?](https://cdn.geheimesite.nl/images/iconic/survey0.png)
+![Ben je meertalig opgevoed?](https://cdn.geheimesite.nl/images/iconic/survey1.png)

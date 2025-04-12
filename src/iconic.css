@@ -183,3 +183,8 @@ figcaption {
 .benefactive::before { content: "(benefactive)" }
 .instrument::before { content: "(instrument)" }
 .locative::before { content: "(locative)" }
+
+.source {
+  margin-inline-start: 0;
+  color: #8e7cc3;
+}
