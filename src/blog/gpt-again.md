@@ -1,9 +1,13 @@
 ---
 title: Generative AI as a writing tool
 date: 2024-11-12
+rssonly: true
 ---
 
-*This post is a revised version of [<cite>The role of generative AI in writing</cite>](/blog/gpt) from January.*
+<section class="box">
+<p>This post is a revised version of <a href="/blog/gpt"><cite>The role of generative AI in writing</cite></a>. However, since writing it, <a href="/blog/ai-education">I might have kinda maybe sortof changed my mind</a>.</p>
+<p>Ehh, people change :shrug:</p>
+</section>
 
 A little more than two years ago, ChatGPT was officially launched. With it, the general public finally got access to OpenAI's brand new GPT-3 model that had been in development for the preceding years. The technology underpinning the model is GPT, a kind of neural network trained on textual patterns and capable of reproducing them with high accuracy. Basically, your iPhone's keyboard autocomplete on steroids. What followed was a cycle in which many LLMs were trained and refined in rapid succession by the giants from Silicon Valley.
 
@@ -38,7 +42,7 @@ With every upcoming technology, there is a period where society readjusts to its
 
 Therefore, I propose we teach AI literacy in high school and college. Teach students about the risks and benefits of using generative models as a writing tool. Not a cheat code. Not a search engine. A writing tool.
 
-Handing in work not written by you is plagiarism. You still have to write yourself. However, using an LLM for checking grammar, paraphrasing sentences, reordering paragraphs, finding the right words and unblocking you creatively is not cheating. For some people, language is a huge barrier to getting their ideas down on paper. If a tool can help them do that more effectively, the use of that tool should be encouraged, not banned. In short, you do the thinking, and the computer helps you with the stylistics. It's not unlike other tools we're already using, such as spellcheck, dictionaries, translators and the thesaurus.
+Handing in work not written by you is plagiarism. You still have to write yourself. However, using an LLM for checking grammar, paraphrasing sentences, reordering paragraphs, finding the right words and unblocking you creatively is not cheating. For some people, language is a huge barrier to getting their ideas down on paper. If a tool can help them do that more effectively, the use of that tool should be encouraged, not banned. In short, you do the thinking, and the computer helps you with the stylistics. It's not unlike other tools we're already using, such as spellcheck, dictionaries, calculators, translators and the thesaurus.
 
 ChatGPT and similar models are not a threat to writing. Instead, they are merely new tools that can--if utilized correctly--further improve our writing. Use them wisely.
 
