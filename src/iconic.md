@@ -5508,8 +5508,8 @@ de ɑdɑ эndʌʟ ɥy ʌreʟ wisder pɑpyres эn lybres din, эn ɑnσ tэkeʟ �
 <small>(become-I) (old). (know-I) (not) (how) (time) (much) (nes.sent.) (stay-I) (nes.sent.) (shine-I).</small>
 
 <span class="source">I’m not even sure if it matters anymore. The light I’m able to deliver isn’t wanted anymore.</span>  
-wisem ne ɥy ʌreʟ ɑturo impo. de usɔʟ givem ɥy wɔʟo ɑturo.  
-<small>(know-I) (not) (nes.sent) (is-it) (anymore) (important). (the) (light) (give-I) (nes.sent.) (wanted) (anymore).</small>
+wisem ne ɥy ʌreʟ ɑturo impo. mun usɔʟ wɔʟev ne ɑturo.  
+<small>(know-I) (not) (nes.sent) (is-it) (anymore) (important). (my) (light) (want-they) (not) (anymore).</small>
 
 ### 'The Chronicles of Narnia: The Magician's Nephew'
 
