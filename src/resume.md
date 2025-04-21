@@ -61,6 +61,11 @@ title: Resumé
         <td>Qdentity</td>
         <td>2021-Current</td>
       </tr>
+      <tr>
+        <td>Sysadmin & lead developer</td>
+        <td>Maakotheek</td>
+        <td>2024-Current</td>
+      </tr>
     </tbody>
   </table>
 
