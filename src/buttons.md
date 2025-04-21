@@ -10,6 +10,14 @@ head: >
       width: 88px;
       height: 31px;
     }
+
+    .seperator {
+      margin-top: -20px;
+    }
+
+    .seperator + p img {
+      height: 15px;
+    }
   </style>
 ---
 
@@ -75,6 +83,8 @@ head: >
 ![Button](https://cdn.geheimesite.nl/images/buttons/reddit.gif)
 ![Button](https://cdn.geheimesite.nl/images/buttons/fuckai.png)
 [![Button](https://cdn.geheimesite.nl/images/buttons/indieseek.png)](//indieseek.xyz)
+
+<p class="seperator"></p>
 
 ![Button](https://cdn.geheimesite.nl/images/buttons/small/cc0.png)
 ![Button](https://cdn.geheimesite.nl/images/buttons/small/indieweb.webp)
