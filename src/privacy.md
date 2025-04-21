@@ -9,7 +9,7 @@ This site **does not** track you or store your personal information in any way. 
 
 ## Google fonts
 
-I stopped using Google fonts when I discovered they were tracking my visitors. If you use Google fonts served from Google they can see your IP address and will save it. My web fonts are now self-hosted.
+I stopped using Google fonts when I discovered [they were tracking my visitors](//brycewray.com/posts/2020/08/google-fonts-privacy/). If you use Google fonts served from Google they log request data, including your IP address. My web fonts are now self-hosted.
 
 ## YouTube embeds
 
