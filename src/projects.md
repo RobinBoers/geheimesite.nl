@@ -16,11 +16,13 @@ Here's some projects I'm especially proud of:
 
 - [Oblikvo](//git.dupunkto.org/~dupunkto/oblikvo)&nbsp; Browser-based 3D first-person shooter with old school graphics and multiplayer support.
 
+- [Vik](//git.dupunkto.org/~axcelott/vik)&nbsp; What if GitHub gists, AWS Lambdas and Elixir Plugs had a baby? (WIP; public instance available at [vik.dupunkto.org](//vik.dupunkto.org))
+
 {% hr %}
 
 ## Webdesign
 
-I build websites for people from time to time. Here’s a few of them. All of the people were happy. I think.
+I build websites for people as an independent web developer from time to time. Here’s a few of them. All of the people were happy. (I think.)
 
 {% endcontainer %}
 

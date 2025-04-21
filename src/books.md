@@ -9,6 +9,8 @@ title: Books
   last couple of years. Most of them anyway.
 
   The data on this page is sourced from the physical bookshelfs in my room, as well as the digital records of our local library. Unfortunately the library records only go back as far as 2018, so this page is far from complete.
+
+  (You might notice I'm not reading much lately. Blame social media.)
 {% endcontainer %}
 
 {% for year in years %}
