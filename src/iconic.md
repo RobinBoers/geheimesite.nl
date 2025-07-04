@@ -919,7 +919,7 @@ Jaeger, T. F., & Tily, H. (2010). On language 'utility': processing complexity a
     <tr>
       <td>Love</td>
       <td>Liefde</td>
-      <td>luv</td>
+      <td>ʟuv</td>
     </tr>
     <tr>
       <td>Hate</td>
@@ -4766,9 +4766,19 @@ than 'parents in-law' or whatever. Also, what the actual f*ck does
       <td>ωσk-</td>
     </tr>
     <tr>
-      <td>To like/love</td>
-      <td>Leuk vinden, houden van</td>
+      <td>To like</td>
+      <td>Leuk vinden</td>
+      <td>ʟΣk-</td>
+    </tr>
+    <tr>
+      <td>To love</td>
+      <td>Houden van</td>
       <td>ʟuv-</td>
+    </tr>
+    <tr>
+      <td>To miss</td>
+      <td>Missen</td>
+      <td>mys-</td>
     </tr>
     <tr>
       <td>To joke</td>
