@@ -251,7 +251,7 @@ article {
 
   .rss-only,
   .box {
-    background: #f1f5f9;
+    background: light-dark(#f1f5f9, #0e121b);
     padding: 0.75em;
     width: 100%;
     margin: 2em 0;
