@@ -88,6 +88,13 @@
     "url": "https://open.spotify.com/album/1gMxiQQSg5zeu4htBosASY"
   },
   {
+    "title": "Youngblood",
+    "artist": "5 Seconds of Summer",
+    "medium": "LP",
+    "cover": "youngblood1.jpg",
+    "url": "https://open.spotify.com/album/2D0Hi3Jj6RFnpWDcSa0Otu"
+  },
+  {
     "title": "5 Seconds Of Summer",
     "artist": "5 Seconds Of Summer",
     "medium": "LP",
@@ -310,6 +317,13 @@
     "medium": "CD",
     "cover": "slipperywhenwet.jpg",
     "url": "https://open.spotify.com/album/0kBfgEilUFCMIQY5IOjG4t"
+  },
+  {
+    "title": "LOOM",
+    "artist": "Imagine Dragons",
+    "medium": "LP",
+    "cover": "loom-blue.jpg",
+    "url": "https://open.spotify.com/album/7EPrkhjTBrwAV8yAKCmY0Y"
   },
   {
     "title": "Mercury (Acts 1 & 2)",
