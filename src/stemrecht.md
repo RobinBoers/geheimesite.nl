@@ -10,14 +10,12 @@ language: nl
   <p>Door Robin Boers en Sean Ham, 5A2</p>
 </hgroup>
 
-<h2 id="inleiding">Inleiding</h2>
+Jongeren hebben geen kiesrecht. Dat is best scheef, want alle andere
+bevolkingsgroepen hebben wel kiesrecht. Het is apart dat jongeren niet
+zelf mogen meedenken over beleid dat over hen en hun toekomst gemaakt
+wordt.
 
-<i>
-  Jongeren hebben geen kiesrecht. Dat is best scheef, want alle andere
-  bevolkingsgroepen hebben wel kiesrecht. Het is apart dat jongeren niet
-  zelf mogen meedenken over beleid dat over hen en hun toekomst gemaakt
-  wordt.
-</i>
+<h2 id="inleiding">Inleiding</h2>
 
 <h3 id="probleemstelling">Waarom, en voor wie, is dit een probleem?</h3>
 
@@ -157,7 +155,7 @@ verkiezingsprogramma zetten. Ik denk dat we hieruit kunnen opmaken dat
 deze partijen ofwel onverschillig, ofwel tegen zijn.
 
 <h2 id="eigen-mening">
-  <strong>Eigen mening:</strong> jongeren zouden kiesrecht moeten krijgen
+  Eigen mening: jongeren zouden kiesrecht moeten krijgen
 </h2>
 
 Dus, waarom hebben jongeren nog steeds geen kiesrecht? Het primaire
@@ -224,12 +222,7 @@ stemrecht zouden krijgen zou de stem van volwassenen minder zwaar wegen.
 Dit geldt al helemaal omdat de totale groep stemmers groter zal worden;
 daardoor telt een individuele stem minder mee.
 
-<h2 id="waarden-en-normen">Waarden en normen</h2>
-
-<h3 id="waarden">Waarden</h3>
-
-Voorbeelden van waarden die relatie hebben met de kwestie van kiesrecht
-voor jongeren zouden vrijheid, gelijkheid en representatie kunnen zijn.
+<h2 id="waarden-en-normen">Normen en waarden</h2>
 
 <h3 id="vrijheid">Vrijheid</h3>
 

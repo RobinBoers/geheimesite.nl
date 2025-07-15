@@ -119,34 +119,32 @@ head: >
   <p>Geschreven door Robin en Sean</p>
 </hgroup>
 
-In dit verslag nemen we een kijkje nemen in de wereld van cryptobros:
-mensen die cryptocurrencies zoals Bitcoin of Ethereum fantastisch vinden,
-denken dat de blockchain helemaal de toekomst is--ze zijn namelijk
-het bankenstelsel aan het revolutioneren!--en dit vaak op een vrij,
+In dit verslag duiken we in de wereld van cryptobros: Bitcoin en Ethereum
+enthousiasten die geloven dat de blockchain helemaal de toekomst is--ze zijn
+namelijk het bankstelsel aan het revolutioneren!--en dit vaak op een vrij,
 uhm.. agressieve manier uiten. Van die irritante ooms die op feestjes
 proclaimen dat Dogecoin echt hélémaal The Thing&trade; is. Of van die
 mensen die op YouTube tips geven om snel snel rijk te worden--geen
-financieel advies! Het is ook een statussymbool. Want hoewel jij en ik
+financieel advies! Het is een statussymbool. Want hoewel jij en ik
 deze sukkels volledig voor gek verklaren, of tenminste zuinigjes
-aankijken, zien cryptobros het bezitten van crypto-assets als het God zijn
+aankijken, zien cryptobros het bezitten van crypto-assets als God zijn
 van eigen universum. Have Fun Staying Poor!
 
-We vonden deze subcultuur interessant om een aantal redenen. Ten eerste
-zijn NFTs en blockchains een tijd lang heel erg in het nieuws geweest. Er
-ontstond, schijnbaar uit het niets, een gigantische hypebubbel rondom het
-kopen van zogenoemde NFTs.
+We vonden deze subcultuur interessant om een aantal redenen. Als eerste
+zijn NFTs en blockchains een tijd lang heel erg in het nieuws geweest.
+Er ontstond, schijnbaar uit het niets, een gigantische hype rondom
+het kopen van zogenoemde NFTs. Het is boeiend om te kijken hoe en
+waarom deze bubbel ontstaan is, en waarom we nu eigenlijk niets meer horen
+over die "revolutionaire" blockchain.
 
-Het is boeiend om te kijken hoe en waarom deze bubbel ontstaan is, en
-waarom we nu eigenlijk niets meer horen over die "revolutionaire"
-blockchain. Daarnaast zijn de dynamieken van de cryptocommunity razend
-interessant. Hoe kunnen mensen zo stellig geloven in iets dat zo duidelijk
-shit is. Proberen ze iedereen te gaslighten (zo ja, dan falen ze nogal),
-of geloven ze daadwerkelijk in de belofte dat crypto The Next Big
-Thing&trade; is?
+Daarnaast zijn de dynamieken van de cryptocommunity razend interessant.
+Hoe kunnen mensen zo stellig geloven in iets dat zo duidelijk een scam is?
+Proberen ze iedereen te gaslighten (zo ja, dan falen ze wel behoorlijk), of
+geloven ze daadwerkelijk in de belofte dat crypto The Next Big Thing&trade; is?
 
-Wat ook noteworthy is, is dat je veel parallellen kan trekken tussen de
-NFT-bubbel en de gigantische hype die momenteel op zogenoemde AI berust
-(ik zou het zelf "toegepaste functiebenadering" noemen; dan klinkt het
+Wat ook benoemingswaardig is, zijn de vele parallellen die getrokken kunnen
+worden tussen de NFT-bubbel en de gigantische hype die momenteel op zogenoemde
+AI berust (al zou ik het zelf "toegepaste functiebenadering" noemen; dan klinkt het
 ineens een stuk minder futuristisch). Om dat volledig te behandelen is
 waarschijnlijk een beetje out-of-scope voor deze al-veel-te-lange
 praktische opdracht, maar is zeker een reden dat we deze subcultuur hebben
@@ -154,9 +152,10 @@ gekozen.
 
 We hopen dat je veel plezier beleeft aan het lezen van deze essay. Crypto
 kan nogal een ingewikkeld onderwerp zijn, maar we hebben geprobeerd alles
-zo duidelijk mogelijk uit te leggen. Veel plezier!
+zo duidelijk mogelijk uit te leggen. Zo niet, dan toch.
+Nogmaals, veel (lees)plezier!
 
-(We hebben ook een talk gegeven over dit onderwerp. De
+(We hebben ook een presentatie gegeven over dit onderwerp. De
 [slides zijn hier te vinden](cryptobros.pdf).)
 
 ## Stereotypes
@@ -172,24 +171,24 @@ zo duidelijk mogelijk uit te leggen. Veel plezier!
   bestaande financiële systeem. Nobel idee, uitvoering iets minder.
 
 - **Bourgeoise**: dit is de zojuist genoemde bovenlaag van
-  ons bestaande financiële systeem, bestaand uit mensen die filthy rich
-  zijn. Bankdirecteuren, hedgefondsen, CEOs, venture-capitalists: the
+  ons bestaande financiële systeem, bestaand uit mensen die stinkend rijk
+  zijn. Bankdirecteuren, investeringsfondsen, CEOs, venture-capitalists: the
   whole deal. Ze zagen een shiny nieuwe technologie en een kans om nóg
   meer geld te verzamelen door andere af te zetten, en grepen hem
   volledig. Zij zijn, zoals altijd, de enige échte winnaars in het verhaal.
 
 - **Naïvelingen**: dit zijn mensen die in crypto investeren
   met het "get rich quick" motief. Het zijn mensen die reageren op zo'n
-  YouTube reclame waarin een één of andere gluiperd je een cursus
-  probeert aan te smeren, waarmee je "tot 10.000 euro per maand maakt!",
-  niet doorhebbend dat die gluiperd die 10.000 euro verdiend met het
-  verkopen van cursussen aan sukkels zoals jij. Vaak zijn ze pas later
-  ingestapt in het hele cryptoverhaal. Sommigen zijn misschien
-  daadwerkelijk rijk geworden, maar ze moeten zich vooral niet de
-  illusie maken dat dit een gevolg is van hun eigen intelligentie of
-  voorspellend vermogen; het is louter en alleen puur geluk. In de
-  meeste gevallen verliest deze groep juist veel geld--ze zíjn de
-  [Greater Fool](//en.wikipedia.org/wiki/Greater_fool_theory) in de scam.
+  YouTube reclame waarin een gluiperd je een cursus probeert aan te smeren,
+  waarmee je "tot 10.000 euro per maand maakt!", niet doorhebbend dat
+  die gluiperd die 10.000 euro verdient met het verkopen van cursussen
+  aan sukkels zoals jij. Vaak zijn ze pas later ingestapt in het hele
+  cryptoverhaal. Sommigen zijn misschien daadwerkelijk rijk geworden,
+  maar ze moeten zich vooral niet de illusie maken dat dit een gevolg is
+  van hun eigen intelligentie of voorspellend vermogen; het is louter en
+  alleen puur geluk. In de meeste gevallen verliest deze groep juist veel
+  geld--ze zíjn de [Greater Fool](//en.wikipedia.org/wiki/Greater_fool_theory)
+  in de scam.
 
 ## De introductie van Bitcoin
 
