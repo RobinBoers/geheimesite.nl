@@ -6,7 +6,7 @@ title: Resumé
   <h1>Robin Boers</h1>
 
   <p>
-    <strong>Elixir Developer & webdesigner</strong><br>
+    <strong>Full-stack developer & webdesigner</strong><br>
     <a href="/contact">hello@geheimesite.nl</a>
   </p>
 
@@ -14,7 +14,7 @@ title: Resumé
 
   <p>
     I'm pretty good at building websites. I know HTML/CSS, obviously. I'm
-    also fluent in Elixir and JavaScript, amd I know a little PHP and Python
+    also fluent in Elixir and JavaScript, and I know a little PHP and Python
     too. I generally prefer high-level functional programming languages
     without mutable references.
   </p>
@@ -22,19 +22,19 @@ title: Resumé
   <p>
     I'm comfortable on the UNIX commandline and with Git version control. I
     also have experience with various flavours of SQL (mainly PostgresSQL at
-    work and MySQL for hobby projects) and a few styling frameworks, of
+    work and MySQL/SQLite for hobby projects) and a few styling frameworks, of
     which I liked TailwindCSS the best. I know a little Docker, but trust
     me, you don't want me to deploy production-critical software without
     supervision.
   </p>
 
   <p>
-    Overall, while I do have my own preferences and opinions, I'm capable of
-    picking up any technology and going with it.
+    I learn very quickly. I am capable of picking up and working with virtually
+    any technology if needed.
   </p>
 
   <p>
-    And yes, I can work with WordPress, but I'd rather use a
+    And yes, I <em>can</em> work with WordPress, but I'd rather use a
     <a href="//en.wikipedia.org/wiki/Static_site_generator">
       Static Site Generator.
     </a>
@@ -57,7 +57,7 @@ title: Resumé
         <td>2023-Current</td>
       </tr>
       <tr>
-        <td>Junior Developer</td>
+        <td>Full-stack developer</td>
         <td>Qdentity</td>
         <td>2021-Current</td>
       </tr>
@@ -70,15 +70,16 @@ title: Resumé
   </table>
 
   <p>
-    At Qdentity, I worked with Elixir, Phoenix LiveView and TailwindCSS and
-    I built <a href="//sharefox.eu">Sharefox</a> along with some other
-    internal APIs. Later, I also worked extensively on major parts and/or
-    features of their CMS.
+    At <a href="//qdentity.nl">Qdentity</a>, I worked with Elixir, Phoenix LiveView
+    and TailwindCSS and I built <a href="//sharefox.eu">Sharefox</a> along with a
+    range of other internal APIs and tools. I also worked extensively on major parts
+    and/or features of their CMS, BI suite, and streaming platform, and worked
+    on various frontend projects for clients.
   </p>
 
   <p>
-    I also built <a href="webdesign.html">websites</a> as independent
-    webdesigner for various people throughout the years.
+    I also built <a href="/webdesign">websites</a> as independent webdesigner for
+    various people throughout the years.
   </p>
 
   <h2>Certifications</h2>
@@ -88,54 +89,55 @@ title: Resumé
       <tr>
         <th>School</th>
         <th>Program</th>
+        <th>Grade</th>
         <th>Duration</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>Lyceum Schravenlant</td>
-        <td>VWO/Atheneum</td>
+        <td>Atheneum (VWO)</td>
+        <td>Cum laude</td>
         <td>2019-2025</td>
       </tr>
     </tbody>
   </table>
 
-  <p style="margin-top: 0.2em">
-    <small>Yup, that's not a lot, I know :)</small>
-  </p>
-
   <p>
-    I'm still in consideration about what study I will do after high school.
-    Feel free to email me if you have suggestions.
+    After summer, I will be starting my studies in Educational Sciences at
+    Utrecht University.
   </p>
 
   <h2>Languages</h2>
 
   <p>
     I speak both Dutch, which is my native language, as well as English,
-    which I learned through online interactions and a lot of Netflix (and I
-    also got courses at school of course ;)
+    which I learned primarily through online interactions. For what is is
+    worth, I finished my high school course with a 9, and got a 10 for both
+    the final writing assignment and my PWS.
   </p>
 
   <p>
-    My English is fairly decent in terms of grammar and general fluency,
-    however, I find my vocabulary to be disappointingly narrow, as it is
-    primarily computer-focused. So basically, I can talk for hours about
-    anything related to UNIX, networking, cryptography, mathmatics, or
-    related subjects, but I'll struggle to formulate even a single sentence
-    if you ask me about my holiday.
+    My spoken English is fairly decent in terms of general fluency (although
+    I have a slight Dutch accent), however, I find my vocabulary to be
+    disappointingly narrow, as it is primarily computer-focused. So basically,
+    I can talk for hours about anything related to UNIX, networking, cryptography,
+    mathmatics, or related subjects, but I'll struggle to formulate even a single
+    sentence if you ask me about my holiday. (Good thing then, that I get paid for
+    the computer stuff and not for talking about my holiday ;)
   </p>
 
-  <h2>Projects & Interests</h2>
+  <h2>Interests</h2>
 
   <ul>
-    <li>Free software</li>
-    <li>Alternatives to the Web</li>
-    <li>Protocols</li>
+    <li>Education & psychology</li>
+    <li>Writing (creative & academic)</li>
+    <li>Free software (as in freedom)</li>
     <li>Functional programming</li>
+    <li>Design & typography</li>
+    <li>Open protocols</li>
     <li>*NIX systems</li>
-    <li>Webdesign & UI design</li>
-    <li>Documentation</li>
-    <li>Writing</li>
+    <li>Containerization & networking</li>
+    <li>Good documentation</li>
   </ul>
 </article>
