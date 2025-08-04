@@ -11,6 +11,8 @@
     
     <title>{{ title }} &mdash; geheimesite.nl</title>
 
+    <meta name="description" content="Thoughts and opinions of a teenager from the Netherlands.">
+
     <link rel="canonical" href="{{ canonical }}{{ page.url }}">
     <link rel="license" href="//creativecommons.org/publicdomain/zero/1.0/">
     <link rel="webmention" href="//api.geheimesite.nl/webmentions" />
@@ -22,6 +24,7 @@
     <link rel="alternate" href="/feed.json" type="application/feed+json" title="{{ blog.title }} (JSON)">
 
     {% if stylesheet %}
+      <link rel="preconnect" href="{{ stylesheet | safe }}">
       <link rel="stylesheet" href="{{ stylesheet | safe }}" type="text/css">
     {% endif %}
 
