@@ -6,7 +6,6 @@ DOMAIN=geheimesite.nl
 
 BUILD="bun -b run eleventy"
 FORMAT="prettier --ignore-path .prettierignore"
-DEPLOY="$DEPLOY --exclude canvas.json --exclude js0.23 --exclude r"
 
 build() {
   $BUILD
@@ -18,9 +17,7 @@ serve() {
 
 deploy() {
   if [ -d $DIST ]; then
-    $DEPLOY $DIST/ s11:domains/$DOMAIN/public_html
-    $DEPLOY $DIST/ nov:/volume1/www/$DOMAIN
-    $DEPLOY $DIST/ nov:/volume1/www/november.geheimesite.nl
+    lift deploy
   else
     err "'$DIST' does not exist."
   fi
