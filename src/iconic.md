@@ -536,9 +536,9 @@ Our language is pro-drop. That means, that in sentences where the (subjective) p
 
 <table class="pronouns">
 <tr><th>1st person</th><td>mu</td><td>-em</td></tr>
-<tr><th>2nd person</th><td>dy</td><td>-ed</td></tr>
-<tr><th>3rd person</th><td>ʟλ</td><td>-eʟ</td></tr>
-<tr><th>Group 1st (in)</th><td>wy</td><td>-ep</td></tr>
+<tr><th>2nd person</th><td>dy</td><td>-es</td></tr>
+<tr><th>3rd person</th><td>ʟλ</td><td>-ed</td></tr>
+<tr><th>Group 1st (in)</th><td>wy</td><td>-en</td></tr>
 <tr><th>Group 2nd (out)</th><td>jθ</td><td>-ek</td></tr>
 <tr><th>Group 3rd</th><td>vΣ</td><td>-ev</td></tr>
 <tr><td></td>
@@ -564,13 +564,13 @@ In imperative sentences, verbs are left unconjugated. Thus, instead of appending
 
 In cases where sentences are nested (subordinate clauses, modal verbs etc.), we utilize the word 'ɥy,' which indicates that the following phrase will in fact be a nested sentence. A few examples:
 
-> wisem ɥy kэneʟ ne ɥy ʟσfeʟ.  
+> wisem ɥy kэned ne ɥy ʟσfed.  
 > <small>(know-I) (nested sentence) (can-he) (not) (nested sentence) (walk-he)</small>  
 > 'I know that he can not walk.'
 
 <!-- Here because otherwise the stupid Markdown will join the examples together -->
 
-> poremyseʟ ɥy gλheʟ ɑsɑ.  
+> poremysed ɥy gλhed ɑsɑ.  
 > <small>(promise-he) (nested sentence) (go-he) (there)</small>  
 > 'He promised to go there.'
 
@@ -578,7 +578,7 @@ Since nested sentences can include grammatical 'glue' words, the nested sentence
 
 Nested sentences can also include further nested sentences, again utilizing the 'ɥy' word, given they are the last phrase of the nested clause. However, this makes for longer, more complex sentences and is therefore discouraged.
 
-> pθveʟ ɥy sædeʟ ɥy ʟuveʟ de kɔʟɔr nэna.  
+> pθved ɥy sæded ɥy ʟuved de kɔʟɔr nэna.  
 > <small>(allowed-he) (nested sentence) (say-he) (nested sentence) (love-he) (the) (color) (pink)</small>  
 > 'He is allowed to say that he likes the color pink.'
 
@@ -592,7 +592,7 @@ For direct speech, we utilize rules similar to those from English and Dutch, pla
 For indirect speech, we reuse the existing grammar already present for nested sentences:
 
 > Robin says that he likes the color pink.  
-> sæded Robin ɥy ʟuveʟ de kɔʟɔr nэna.
+> sæded Robin ɥy ʟuved de kɔʟɔr nэna.
 
 #### Possessives
 
@@ -1796,7 +1796,7 @@ Jaeger, T. F., & Tily, H. (2010). On language 'utility': processing complexity a
     <tr>
       <td>How are you (doing)?</td>
       <td>Hoe gaat het?</td>
-      <td>dɑ ʌred kɑ?</td>
+      <td>dɑ ʌres kɑ?</td>
     </tr>
     <tr>
       <td>Sorry</td>
@@ -5417,7 +5417,7 @@ than 'parents in-law' or whatever. Also, what the actual f*ck does
     <i>Het was een bijzondere dag en Ming wilde zijn beste vriend Tibbe een cadeau geven. Maar wat moest het worden? Een etensbak had hij al. Hij had al een mand en een kauwspeeltje. Hij had alles al. Ming piekerde zich suf. Wat geef je aan iemand die alles al heeft? Niets! Wat is er beter dan niets? Maar waar vind je niets in een wereld vol met iets? Ming hoorde Frank vaak zeggen dat er niets op tv was. Maar voor zover hij het kon bekijken was er altijd wel iets op tv. Ming hoorde Suzie en haar vriendinnen zeggen dat ze niets te doen hadden. Maar voor zover hij het kon bekijken was iedereen altijd wel iets aan het doen.</i> [...truncated]
 </blockquote>
 
-ʌreʟ en sɔʟ nenɔrmuto эn *Ming* wɔʟeʟ ɥy giveʟ en kado vɔr ʟλn amy bɔnbɔnbɔn nɔmo *Tibbe*. da ȿasyreʟ? hэbeʟ en eskɑ-boʟe. hэbeʟ en mɑnde эn en xerɑ-ludo. hэbeʟ ʌʟ. *Ming* pэneʟ din. dɑ gived ku vɔr en Σmʌn hэbo ʌʟ. niʟ! dɑ ʌreʟ ku bɔnbɔn dʌn niʟ? dɑ kσ findeʟ niʟ inder en wθd ʌpo ɑfэros? *Ming* hɔreʟ ɥy *Frank* sædeʟ ɥy ʌreʟ niʟ inder de tλʟe-vydo. ɥэt, vyseʟ ʌʟdΣm ɑfэros inder de tλʟe-vydo. *Ming* hɔreʟ ɥy *Suzie* эn ʟλn ɑmys sædeʟ hэbeʟ niʟ ɥy tθneʟ. ɥэt, ʌʟmʌn tθneʟ ʌʟdΣm ɑfэros.
+ʌred en sɔʟ nenɔrmuto эn *Ming* wɔʟed ɥy gived en kado vɔr ʟλn amy bɔnbɔnbɔn nɔmo *Tibbe*. da ȿasyreʟ? hэbed en eskɑ-boʟe. hэbed en mɑnde эn en xerɑ-ludo. hэbed ʌʟ. *Ming* pэned din. dɑ gives ku vɔr en Σmʌn hэbo ʌʟ. niʟ! dɑ ʌred ku bɔnbɔn dʌn niʟ? dɑ kσ finded niʟ inder en wθd ʌpo ɑfэros? *Ming* hɔred ɥy *Frank* sæded ɥy ʌred niʟ inder de tλʟe-vydo. ɥэt, vysed ʌʟdΣm ɑfэros inder de tλʟe-vydo. *Ming* hɔred ɥy *Suzie* эn ʟλn ɑmys sæded hэbed niʟ ɥy tθneʟ. ɥэt, ʌʟmʌn tθned ʌʟdΣm ɑfэros.
 
 ### 'Charlie and the Chocolate Factory'
 
@@ -5425,7 +5425,7 @@ than 'parents in-law' or whatever. Also, what the actual f*ck does
     <i>These two very old people are the father and mother of Mr Bucket. Their names are Grandpa Joe and Grandma Josephine. And these two very old people are the father and mother of Mrs Bucket. Their names are Grandpa George and Grandma Georgina. This is Mr Bucket. This is Mrs Bucket. Mr and Mrs Bucket have a small boy whose name is Charlie Bucket. This is Charlie. How d'you do? And how d'you do? And how d'you again? He is pleased to meet you. The whole of this family – the six grown-ups (count them) and little Charlie Bucket – live together in a small wooden house on the edge of a great town.</i> [...truncated]
 </blockquote>
 
-dλses Σmʌnes din odu ʌrev de ɑdɑ эn de ʌmɑ vɔn Σmy *Bucket*. vΣn nɔmes ʌrev odɑ *Joe* эn omɑ *Josephine*. эn dλses Σmʌnes din odu ʌrev de ɑdɑ эn de ʌmɑ vɔn Σmɑ *Bucket*. vΣn nɔmes ʌrev odɑ *George* эn omɑ *Georgina*. dλs ʌreʟ Σmy *Bucket*. dλs ʌreʟ Σmɑ *Bucket*. Σmy эn Σmɑ hэbev en Σmy ʟiʟ nɔmo *Charlie Bucket*. dλs ʌreʟ *Charlie*. dɑ ʌrem kɑ? эn, dɑ ʌrem kɑ? эn rλ, dɑ ʌrem kɑ? ʌred bΣto ɥy vθsem dy. de fʌmʟy ʌpo – de эsɑ ɑdos (xɑ kʌʟe vΣ) эn de *Charlie Bucket* ʟiʟ – hɑbytev эnsɑmo inder en bσwɑ wot ʟiʟ nэstσȿ en stэte wɔp.
+dλses Σmʌnes din odu ʌrev de ɑdɑ эn de ʌmɑ vɔn Σmy *Bucket*. vΣn nɔmes ʌrev odɑ *Joe* эn omɑ *Josephine*. эn dλses Σmʌnes din odu ʌrev de ɑdɑ эn de ʌmɑ vɔn Σmɑ *Bucket*. vΣn nɔmes ʌrev odɑ *George* эn omɑ *Georgina*. dλs ʌred Σmy *Bucket*. dλs ʌred Σmɑ *Bucket*. Σmy эn Σmɑ hэbev en Σmy ʟiʟ nɔmo *Charlie Bucket*. dλs ʌred *Charlie*. dɑ ʌrem kɑ? эn, dɑ ʌrem kɑ? эn rλ, dɑ ʌrem kɑ? ʌred bΣto ɥy vθsem dy. de fʌmʟy ʌpo – de эsɑ ɑdos (xɑ kʌʟe vΣ) эn de *Charlie Bucket* ʟiʟ – hɑbytev эnsɑmo inder en bσwɑ wot ʟiʟ nэstσȿ en stэte wɔp.
 
 ### 'With the last flicker'
 
@@ -5442,23 +5442,23 @@ voɥɑvem inder de tokɑ vydɔr de ȿɔp ʌpo эn эt эnde, ʌrɔm ʟugo inder 
 <small>(was-I) (taken) (there-mov) (home) (there-mov) (a) (room). (this) (room) (be-he-fut.)(my) (complete) (world).</small>
 
 <span class="source">They screwed me into my socket and my warm glow came to life.</span>  
-rumbev mu vyinder mun ȿʌt эn mun ȿin-usɔʟ wɑm kɔmʌʟ ɥy vyveʟ.
+rumbev mu vyinder mun ȿʌt эn mun ȿin-usɔʟ wɑm kɔmʌd ɥy vyveʟ.
 <small>(screw-they) (me) (in-mov.) (my) (hole) (and) (my) (shiny-light) (warm) (began-he) (nested sentence) (live-he).</small>
 
 <span class="source">My light filled the room, this room full of potential.</span>  
-mun usɔʟ ʌpeʟ de rθm, dλs rθm ʌpo an futσ bɔn.  
+mun usɔʟ ʌped de rθm, dλs rθm ʌpo an futσ bɔn.  
 <small>(my) (light) (fill-he) (the) (room), (this) (room) (full) (with) (future) (good).</small>
 
 <span class="source">The bookshelves were filled, a dozen papers were spread out on the desk, on the couch the cushions were just slightly off center and in the corner a big, comfortable chair was positioned to face the window.</span>  
-de lybre-ȿævos ʌrʌv ʌpo, pɑpyres din ʌrʌv sɑkɑto bovtσȿ de wσk-tɑbʟu. bovtσȿ de bʌnku, de pilθwes ʌrʌv nemid ʟiʟ. inder de hθk en sэgθ wɔp bɔn ʌrʌʟ fλso de window.  
+de lybre-ȿævos ʌrʌv ʌpo, pɑpyres din ʌrʌv sɑkɑto bovtσȿ de wσk-tɑbʟu. bovtσȿ de bʌnku, de pilθwes ʌrʌv nemid ʟiʟ. inder de hθk en sэgθ wɔp bɔn ʌrʌd fλso de window.  
 <small>(the) (bookshelves) (were-they) (full), (papers) (many) (were-they) (spread) (atop) (the) (work-table). (atop) (the) (couch), (the) (cushions) (were-they) (not-mid) (small). (in-loc.) (the (corner) (a) (chair) (big) (good) (was-it) (face) (the) (window).</small>
 
 <span class="source">This room belonged to a cheerful family.</span>  
-dλs rθm ʌrʌʟ vɔn en fʌmʟy bΣto.  
+dλs rθm ʌrʌd vɔn en fʌmʟy bΣto.  
 <small>(this) (room) (was-it) (of) (a) (family) (happy).</small>
 
 <span class="source">The father was a poet and he loved to write during his free time, and the mother enjoyed all sorts of hobbies. </span>  
-de ɑdɑ ʌrʌʟ en poet эn ʟuvʌʟ ɥy rytʌl ɑmid ʟλn dΣm otσ. de ʌmɑ ʟuvʌʟ hɔbys din.  
+de ɑdɑ ʌrʌd en poet эn ʟuvʌd ɥy rytʌl ɑmid ʟλn dΣm otσ. de ʌmɑ ʟuvʌd hɔbys din.  
 <small>(the)(father)(was-he) (a) (poet) (and)(loved-he)(nes.sent.)(write-he) (during) (his) (time) (own). (the) (mother) (loved-she) (hobbies) (many).</small>
 
 <span class="source">I watched as the children came into the room, asking countless questions with a curious look on their faces. </span>  
@@ -5470,7 +5470,7 @@ de fʌmʟy ʟuvʌv mu, ʟysʌv vΣn lybres эn pɑpyres ɔf toɥʌv ludos under 
 <small>(the) (family) (loved-they) (me), (read-they) (their) (books) (and) (papers) (or) (played-they)(games) (underneath) (me).</small>
 
 <span class="source">The mother used to knit and sew while talking with her friends until late in the evening, discussing life and asking themselves deliberate questions. </span>  
-de ʌmɑ nitenʌʟ эn ȿuωʌʟ ɑmid ɥy sædʌv ɑn ʟλn ɑmys dΣmɑ omэr эnde, diskesʌv vyvɑ эn fʌrʌv vΣsэv fʌrɑ bɔn.  
+de ʌmɑ nitenʌd эn ȿuωʌd ɑmid ɥy sædʌv ɑn ʟλn ɑmys dΣmɑ omэr эnde, diskesʌv vyvɑ эn fʌrʌv vΣsэv fʌrɑ bɔn.  
 <small>(the) (mother) (knitted-she) (and) (sewed-she) (during) (nes. sent.) (talked-they) (with)(her)(friends) (until) (evening) (end), (discussed-they) (life) (and) (ask-they)(themselves) (questions)(good).</small>
 
 <span class="source">The conversations were deep and they were engaging their minds to the fullest. Back then, I wasn't just lighting up a room, I was lighting up their minds.</span>  
@@ -5478,7 +5478,7 @@ de kɔnverɑs ʌrʌv dypfo эn ʌrʌv pэno din. ɑtσw, ʟΣtʌm ne en rθm, ʟ
 <small>(the)(conversations)(were-they)(deep) (and)(were-they)(think) (much). (Then), (light-I) (not) (a) (room), (light-I) (their) (minds).</small>
 
 <span class="source">I used to watch the father scribble in his notebooks, pondering about the meaning of life.</span>  
-vysʌm de ɑdɑ ɥy rytʌʟ inder ʟλn ryt-lybres, pэnʌʟ uber de signyfo vɔn vyvɑ.  
+vysʌm de ɑdɑ ɥy rytʌd inder ʟλn ryt-lybres, pэnʌd uber de signyfo vɔn vyvɑ.  
 <small>(watched-I) (the)(father)(nes. sent.)(write-he)(in) (his) (notebooks), (think-he) (about) (the) (meaning) (of) (life).</small>
 
 <span class="source">I would watch the children be so eager to read and explore, and bombard their parents with endless questions.</span>  
@@ -5490,23 +5490,23 @@ vysʌm de kidos ɥy eksytev ɥy ʟysev эn enkɔvev. vΣ fʌrʌv vΣn udэrɑs f
 <small>(but) (slow), (things) (begin) (nes. sent.) (change-they).</small>
 
 <span class="source">It is not my light that glows over them, but rather a different light, a steady blue glow illuminating their faces.</span>  
-ʌreʟ ne mun ȿin-usɔʟ ɥy ȿineʟ vybovder vΣ, ɥэt atσw en usɔʟ nesamo, en ȿin-usɔʟ kɔnsэkɑ ʟθw ȿineʟ inder vΣn fλsus.  
+ʌred ne mun ȿin-usɔʟ ɥy ȿined vybovder vΣ, ɥэt atσw en usɔʟ nesamo, en ȿin-usɔʟ kɔnsэkɑ ʟθw ȿined inder vΣn fλsus.  
 <small>(is-it) (not) (my) (shiny-light)(nes.sent.)(shine-he) (over) (them), (but) (rather) (a) (light) (different), (a) (shiny-light) (steady) (blue) (shine-he) (in) (their) (faces).</small>
 
 <span class="source">It started with the children spending less and less time asking questions, and more time on their screens. </span>  
-kɔmeʟ ɑn ɥy de kidos fʌrev finfinfinfin fʌrɑ, эn dindin dΣm inder vΣn ȿin-vytros.  
+kɔmed ɑn ɥy de kidos fʌrev finfinfinfin fʌrɑ, эn dindin dΣm inder vΣn ȿin-vytros.  
 <small>(start-it) (with) (nes.sent.) (the) (children) (ask-they) (less and less, lesserest) (questions), (and) (more) (time) (in) (their) (screens).</small>
 
 <span class="source">The father stopped surrounding himself with a bunch of papers and books, and now brought his laptop with him to the room instead.</span>  
-de ɑdɑ эndʌʟ ɥy ʌreʟ wisder pɑpyres эn lybres din, эn ɑnσ tэkeʟ ʟyn kʌʟkuʟɑ vyɑsɑ de rθm ɑn ʟy.  
+de ɑdɑ эndʌd ɥy ʌred wisder pɑpyres эn lybres din, эn ɑnσ tэked ʟyn kʌʟkuʟɑ vyɑsɑ de rθm ɑn ʟy.  
 <small>(the) (father) (stopped-he)(nes.sent)(is-he)(between) (papers) (and) (books) (many), (and)(now) (take-he) (his ) (computer) (to-loc.) (the) (room)(with)(him).</small>
 
 <span class="source">Finally, the mother now spent more time typing on her little glass instrument than talking with her friends. </span>  
-ɑnde, de ʌmɑ ɑnσ ɥθseʟ ʟyn ȿin-vytro dindin dʌn ɥy sædeʟ ɑn ʟyn ɑmys.  
+ɑnde, de ʌmɑ ɑnσ ɥθsed ʟyn ȿin-vytro dindin dʌn ɥy sæded ɑn ʟyn ɑmys.  
 <small>(final), (the)(mother) (now) (use-she) (her) (screen) (more) (than) (nes.sent.) (speak-she)(with)(her) (friends).</small>
 
 <span class="source">As this went on, I noticed the father had stopped writing, the mother stopped sewing and knitting and the children stopped questioning. </span>  
-ɑmid dλs, vysʌm de ɑdɑ эndʌʟ ɥy ryteʟ, de ʌmɑ эndʌʟ ɥy ȿuωeʟ эn niteneʟ эn de kidos эndʌv fʌrono.  
+ɑmid dλs, vysʌm de ɑdɑ эndʌd ɥy ryteʟ, de ʌmɑ эndʌd ɥy ȿuωed эn nitened эn de kidos эndʌv fʌrono.  
 <small>(during) (this), (saw-I) (the) (father (stopped-he)(nes.sent)(write-he), (the) (mother) (stopped-she)(nes.sent.)(sew-she)(and)(knit-she)(and)(the)(children) (stopped-they)(questioning).</small>
 
 <span class="source">They also seem to have lost their sense of critical thinking. They were still the same family, but something had shifted.</span>  
@@ -5518,7 +5518,7 @@ de ɑdɑ эndʌʟ ɥy ʌreʟ wisder pɑpyres эn lybres din, эn ɑnσ tэkeʟ �
 <small>(become-I) (old). (know-I) (not) (how) (time) (much) (nes.sent.) (stay-I) (nes.sent.) (shine-I).</small>
 
 <span class="source">I’m not even sure if it matters anymore. The light I’m able to deliver isn’t wanted anymore.</span>  
-wisem ne ɥy ʌreʟ ɑturo impo. mun usɔʟ wɔʟev ne ɑturo.  
+wisem ne ɥy ʌred ɑturo impo. mun usɔʟ wɔʟev ne ɑturo.  
 <small>(know-I) (not) (nes.sent) (is-it) (anymore) (important). (my) (light) (want-they) (not) (anymore).</small>
 
 ### 'The Chronicles of Narnia: The Magician's Nephew'
@@ -5527,7 +5527,7 @@ wisem ne ɥy ʌreʟ ɑturo impo. mun usɔʟ wɔʟev ne ɑturo.
     <i>This is a story about something that happened long ago when your grandfather was a child. It is a very important story because it shows how all the comings and goings between our own world and the land of Narnia first began. In those days Mr. Sherlock Holmes was still living in Baker Street and the Bastables were looking for treasure in the Lewisham Road. In those days, if you were a boy you had to wear a stiff Eton collar every day, and schools were usually nastier than now. But meals were nicer; and as for sweets, I won't tell you how cheap and good they were, because it would only make your mouth water in vain. And in those days there lived in London a girl called Polly Plummer. She lived in one of a long row of houses which were all joined together. One morning she was out in the back garden when a boy scrambled up from the garden next door and put his face over the wall. Polly was very surprised because up till now there had never been any children in that house, but only Mr. Ketterley and Miss Ketterley, a brother and sister, old bachelor and old maid, living together. So she looked up, full of curiosity. The face of the strange boy was very grubby. It could hardly have been grubbier if he had first rubbed his hands in the earth, and then had a good cry, and then dried his face with his hands. As a matter of fact, this was very nearly what he had been doing.</i> [...truncated]
 </blockquote>
 
-dλs ʌreʟ en histɔru uber en ɑfэro ɥy hэpeʟ ɔm ɑtσw din. ɑtσw, dyn odɑ ʌreʟ en kido. ʌreʟ en histɔru impo kʌs ɥy ȿoweʟ ɥy hэpɑs ʌʟ tikse wyn wθd эn de ʟʌnde vɔn *Narnia* kɔmev эdθn. ɔm dʌts sɔʟes, Σmy *Sherlock Holmes* hɑbytʌʟ ɑturo эt *Baker Street* эn de *Bastables* sukʌm ȿɑsoxu эt de *Lewisham Road*. ɔm dʌtes sɔʟes, if ʌrʌd en Σmy ʟiʟ, musɔd ɥy wæred en vestθ nevydo ɔm sɔʟ ʌʟ эn ekɔʟes ʌrʌv dindΣm womwom dʌn ɑnσ. ɥэt, eskɑkos ʌrʌv bonbon; эt kæntys, sædem ne ɥy kæntys ʌrʌv kɑ xypuxypu эt kɑ ɥemɥem. kʌs ȿʌʟev ɥy nλɥev dyn ɔro. эn ɔm dʌts sɔʟes, en Σmɑ ʟiʟ nɔmo *Polly Plummer* hɑbyteʟ эt London. hɑbyteʟ inder en эdrʌn us en row ʌro bσwo ɥono эnsɑmo. ɔm эdrʌn kɔmosɔʟ, ʌrʌʟ inder de hinder-kurɑ kΣ ɥy en Σmy ʟiʟ vyɑsy de nэsder-kurɑ vyseʟ vybovder de wɔʟ. *Polly* ʌrʌʟ sepryso din kʌs ɥy dΣmɑ nσ, kidos ʌrʌv niʟdΣm inder dʌt bowɑ. ʟono, Σmy *Ketterley* эn Σmɑ *Ketterley*, en nybo эn en sis, en Σmy эn en Σmɑ, hɑbytɑv эnsɑmo. dʌs, *Polly* vysɑʟ vyup ɑn kʌdkuro. The fλs vɔn de nefʌmʟɑ Σmy ʌrʌʟ ȿefugo. kэneʟ ne ȿefugoȿefugo eku ɥy de Σmy tσȿeʟ de эrde mэt ʟyn hʌndes, kyreʟ, эn rλɥeʟ ʟyn fλsu mэt ʟyn hʌndes. afэkto, dʌt ʌrʌʟ finɑ ku hэpo.
+dλs ʌred en histɔru uber en ɑfэro ɥy hэped ɔm ɑtσw din. ɑtσw, dyn odɑ ʌred en kido. ʌred en histɔru impo kʌs ɥy ȿowed ɥy hэpɑs ʌʟ tikse wyn wθd эn de ʟʌnde vɔn *Narnia* kɔmev эdθn. ɔm dʌts sɔʟes, Σmy *Sherlock Holmes* hɑbytʌd ɑturo эt *Baker Street* эn de *Bastables* sukʌm ȿɑsoxu эt de *Lewisham Road*. ɔm dʌtes sɔʟes, if ʌrʌs en Σmy ʟiʟ, musɔs ɥy wæres en vestθ nevydo ɔm sɔʟ ʌʟ эn ekɔʟes ʌrʌv dindΣm womwom dʌn ɑnσ. ɥэt, eskɑkos ʌrʌv bonbon; эt kæntys, sædem ne ɥy kæntys ʌrʌv kɑ xypuxypu эt kɑ ɥemɥem. kʌs ȿʌʟev ɥy nλɥev dyn ɔro. эn ɔm dʌts sɔʟes, en Σmɑ ʟiʟ nɔmo *Polly Plummer* hɑbyted эt London. hɑbyted inder en эdrʌn us en row ʌro bσwo ɥono эnsɑmo. ɔm эdrʌn kɔmosɔʟ, ʌrʌd inder de hinder-kurɑ kΣ ɥy en Σmy ʟiʟ vyɑsy de nэsder-kurɑ vysed vybovder de wɔʟ. *Polly* ʌrʌd sepryso din kʌs ɥy dΣmɑ nσ, kidos ʌrʌv niʟdΣm inder dʌt bowɑ. ʟono, Σmy *Ketterley* эn Σmɑ *Ketterley*, en nybo эn en sis, en Σmy эn en Σmɑ, hɑbytɑv эnsɑmo. dʌs, *Polly* vysɑʟ vyup ɑn kʌdkuro. The fλs vɔn de nefʌmʟɑ Σmy ʌrʌd ȿefugo. kэned ne ȿefugoȿefugo eku ɥy de Σmy tσȿed de эrde mэt ʟyn hʌndes, kyred, эn rλɥed ʟyn fλsu mэt ʟyn hʌndes. afэkto, dʌt ʌrʌd finɑ ku hэpo.
 
 ### 'Elephant & Piggie: I Am Invited to a Party!'
 
@@ -5535,32 +5535,32 @@ P: <span class="source">Gerald!</span> Gerald!
 P: <span class="source">Look! Look!</span> xɑ vyse! xɑ vyse!  
 P: <span class="source">I am invited to a party!</span> ʌrem invyto vyɑsɑ en fэd.  
 E: <span class="source">Cool.</span> Σsy.  
-P: <span class="source">It is cool.</span> ʌreʟ Σsy.  
-P: <span class="source">Will you go with me? I have never been to a party.</span> dɑ gλhɔd ɑn mu? gλhɔm niʟdΣm vyɑsɑ en fэd.  
+P: <span class="source">It is cool.</span> ʌred Σsy.  
+P: <span class="source">Will you go with me? I have never been to a party.</span> dɑ gλhɔs ɑn mu? gλhɔm niʟdΣm vyɑsɑ en fэd.  
 E: <span class="source">I will go with you. I know parties.</span> gλhɔm ɑn dy. wisem fэdes.  
 E & P: <span class="source">PARTY! PARTY! PARTY! PARTY!</span> fэd! fэd! fэd! fэd!  
-E: <span class="source">Wait! What if it is a fancy party? We must be ready.</span> xɑ wλde! dɑ ku if ʌreʟ en fэd fænȿy? musep ɥy ʌrep ʌpo.  
+E: <span class="source">Wait! What if it is a fancy party? We must be ready.</span> xɑ wλde! dɑ ku if ʌred en fэd fænȿy? musen ɥy ʌren ʌpo.  
 P: <span class="source">Really?</span> dɑ?  
 E: <span class="source">I know parties.</span> wisem fэdes.  
-P: <span class="source">He knows parties.</span> wiseʟ fэdes.  
-P: <span class="source">Is this fancy?</span> dɑ dλs ʌreʟ fænȿy?  
+P: <span class="source">He knows parties.</span> wised fэdes.  
+P: <span class="source">Is this fancy?</span> dɑ dλs ʌred fænȿy?  
 E: <span class="source">Very fancy.</span> din fænȿy.  
 E & P: <span class="source">PARTY! PARTY! PARTY! PARTY!</span> fэd! fэd! fэd! fэd!  
-E: <span class="source">Wait! What if it is a pool party?</span> xɑ wλde! dɑ ku if ʌreʟ en fэd ɑkwɑ-ȿʌt?  
+E: <span class="source">Wait! What if it is a pool party?</span> xɑ wλde! dɑ ku if ʌred en fэd ɑkwɑ-ȿʌt?  
 P: <span class="source">A fancy pool party?</span> dɑ en fэd fænȿy ɑkwɑ-ȿʌt?  
-E: <span class="source">WE MUST BE READY!!!</span> musep ɥy ʌrep ʌpo!  
+E: <span class="source">WE MUST BE READY!!!</span> musen ɥy ʌren ʌpo!  
 E: <span class="source">I know parties.</span> wisem fэdes.  
-P: <span class="source">He knows parties.</span> wiseʟ fэdes.  
-P: <span class="source">How is this?</span> dɑ kɑ dλs ʌreʟ?  
-E: <span class="source">We will make a splash.</span> mλkɔp en эspeʟæȿ.  
+P: <span class="source">He knows parties.</span> wised fэdes.  
+P: <span class="source">How is this?</span> dɑ kɑ dλs ʌred?  
+E: <span class="source">We will make a splash.</span> mλkɔn en эspeʟæȿ.  
 E & P: <span class="source">PARTY! PARTY! PARTY! PARTY!</span> fэd! fэd! fэd! fэd!  
-E: <span class="source">Wait! What if it is a costume party?</span> xɑ wλde! dɑ ku if ʌreʟ en fэd vestθ?  
+E: <span class="source">Wait! What if it is a costume party?</span> xɑ wλde! dɑ ku if ʌred en fэd vestθ?  
 P: <span class="source">A fancy pool costume party?</span> dɑ en fэd fænȿy ɑkwɑ-ȿʌt vestθ?  
-E: <span class="source">WE MUST BE READY!!!</span> musep ɥy ʌrep ʌpo!!!  
-P: <span class="source">He had better know parties...</span> wiseʟ bonbon fэdes...  
-P: <span class="source">Now can we go to the party?</span> ɔm ɑnσw gλhep vyɑsɑ de fэd?  
-E: <span class="source">Yes. Now we are ready.</span> ɥæ, ɔm ɑnσw ʌrep ʌpo.  
-P: <span class="source">Well, that is a surprise. You do know parties!</span> nθ, dλs ʌreʟ en seprys. wised fэdes!  
+E: <span class="source">WE MUST BE READY!!!</span> musen ɥy ʌren ʌpo!!!  
+P: <span class="source">He had better know parties...</span> wised bonbon fэdes...  
+P: <span class="source">Now can we go to the party?</span> ɔm ɑnσw gλhen vyɑsɑ de fэd?  
+E: <span class="source">Yes. Now we are ready.</span> ɥæ, ɔm ɑnσw ʌren ʌpo.  
+P: <span class="source">Well, that is a surprise. You do know parties!</span> nθ, dλs ʌred en seprys. wises fэdes!  
 
 ## Appendix 3: Results from the survey
 
