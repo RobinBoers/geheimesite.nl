@@ -4,7 +4,7 @@ date: 2025-03-19
 ---
 
 <section class="box">
-<p>This is my argumentative essay for the writing assignment in 6VWO. Although I've already written about this topic <a href="/blog/gpt">at</a> <a href="/blog/gpt-again">length</a> on this blog, I wanted to upload this anyway. I'm proud, and I think it also introduces some fresh perspectives.</p>
+<p>This is my argumentative essay for the writing assignment of 6VWO. Although I've already written about this topic <a href="/blog/gpt">at</a> <a href="/blog/gpt-again">length</a> on this blog, I wanted to upload this anyway. I'm proud, and I think it also introduces some fresh perspectives.</p>
 <p>Anyway, enjoy!</p>
 </section>
 

@@ -95,6 +95,12 @@ title: Resumé
     </thead>
     <tbody>
       <tr>
+        <td>Utrecht University</td>
+        <td>Educational Sciences (bachelor)</td>
+        <td></td>
+        <td>2025-2028</td>
+      </tr>
+      <tr>
         <td>Lyceum Schravenlant</td>
         <td>Atheneum (VWO)</td>
         <td>Cum laude</td>
@@ -103,18 +109,13 @@ title: Resumé
     </tbody>
   </table>
 
-  <p>
-    After summer, I will be starting my studies in Educational Sciences at
-    Utrecht University.
-  </p>
-
   <h2>Languages</h2>
 
   <p>
     I speak both Dutch, which is my native language, as well as English,
     which I learned primarily through online interactions. For what is is
     worth, I finished my high school course with a 9, and got a 10 for both
-    the final writing assignment and my PWS.
+    the [final writing assignment](/blog/ai-education) and my [PWS](/iconic).
   </p>
 
   <p>
@@ -123,8 +124,8 @@ title: Resumé
     disappointingly narrow, as it is primarily computer-focused. So basically,
     I can talk for hours about anything related to UNIX, networking, cryptography,
     mathmatics, or related subjects, but I'll struggle to formulate even a single
-    sentence if you ask me about my holiday. (Good thing then, that I get paid for
-    the computer stuff and not for talking about my holiday ;)
+    sentence if you ask me about my holiday. (Good thing then, that I typically get
+    paid for the computer stuff and not for talking about my holiday ;)
   </p>
 
   <h2>Interests</h2>
@@ -138,6 +139,6 @@ title: Resumé
     <li>Open protocols</li>
     <li>*NIX systems</li>
     <li>Containerization & networking</li>
-    <li>Good documentation</li>
+    <li>Researching & documenting software</li>
   </ul>
 </article>
