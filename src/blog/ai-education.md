@@ -1,6 +1,7 @@
 ---
 title: AI in educational contexts
 date: 2025-03-19
+favorite: true
 ---
 
 <section class="box">
