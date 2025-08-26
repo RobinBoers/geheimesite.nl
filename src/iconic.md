@@ -5586,3 +5586,47 @@ Omniglot. <https://omniglot.com>
 <span class="important">But most important of all, we have hereby scientifically proven that cats are better than dogs. You’re welcome.</span>
 
 ![Honden of katten?](https://cdn.geheimesite.nl/images/iconic/survey2.png)
+
+<!-- Progressive enhancement: on supporting browsers, the font sizing of certain letters will be slightly tweaked -->
+
+<script>
+  function wrapCharacter(char, class) {
+    const walker = document.createTreeWalker(
+      document.body, NodeFilter.SHOW_TEXT, null, false);
+
+    const nodes = [];
+    while (walker.nextNode())
+      nodes.push(walker.currentNode);
+
+    for(const node of nodes) {
+      if (node.nodeValue.includes(char)) {
+        const frag = document.createDocumentFragment();
+        for (const ch of node.nodeValue) {
+          if (ch === char) {
+            const span = document.createElement("span");
+            span.className = class;
+            span.textContent = ch;
+            frag.appendChild(span);
+          } else {
+            frag.appendChild(document.createTextNode(ch));
+          }
+        }
+        node.parentNode.replaceChild(frag, node);
+      }
+    }
+  }
+
+  wrapCharacter("Σ", "sigma");
+  wrapCharacter("θ", "theta");
+</script>
+
+<style>
+  .sigma {
+    font-size: 0.65em;
+    font-weight: 500;
+  }
+
+  .theta {
+    font-size: 0.75em;
+  }
+</style>
