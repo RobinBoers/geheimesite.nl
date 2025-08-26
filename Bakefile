@@ -1,18 +1,14 @@
 #!/bin/bash
 
-SRC=src
 DIST=dist
-DOMAIN=geheimesite.nl
-
-BUILD="bun -b run eleventy"
-FORMAT="prettier --ignore-path .prettierignore"
+ELEVENTY="bun -b run eleventy"
 
 build() {
-  $BUILD
+  $ELEVENTY
 }
 
 serve() {
-  $BUILD --serve --port 4000
+  $ELEVENTY --serve --port 4000
 }
 
 deploy() {
