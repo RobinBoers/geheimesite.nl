@@ -204,3 +204,14 @@ span.source::after { content: ")" }
   font-size: 2em;
   margin-top: 4em;
 }
+
+/* Greek letter sizing */
+
+p .sigma {
+  font-size: 0.65em;
+  font-weight: 500;
+}
+
+p .theta {
+  font-size: 0.75em;
+}
