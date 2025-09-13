@@ -5415,7 +5415,7 @@ than 'parents in-law' or whatever. Also, what the actual f*ck does
     <i>Het was een bijzondere dag en Ming wilde zijn beste vriend Tibbe een cadeau geven. Maar wat moest het worden? Een etensbak had hij al. Hij had al een mand en een kauwspeeltje. Hij had alles al. Ming piekerde zich suf. Wat geef je aan iemand die alles al heeft? Niets! Wat is er beter dan niets? Maar waar vind je niets in een wereld vol met iets? Ming hoorde Frank vaak zeggen dat er niets op tv was. Maar voor zover hij het kon bekijken was er altijd wel iets op tv. Ming hoorde Suzie en haar vriendinnen zeggen dat ze niets te doen hadden. Maar voor zover hij het kon bekijken was iedereen altijd wel iets aan het doen.</i> [...truncated]
 </blockquote>
 
-ʌred en sɔʟ nenɔrmuto эn *Ming* wɔʟed ɥy gived en kado vɔr ʟλn amy bɔnbɔnbɔn nɔmo *Tibbe*. da ȿasyreʟ? hэbed en eskɑ-boʟe. hэbed en mɑnde эn en xerɑ-ludo. hэbed ʌʟ. *Ming* pэned din. dɑ gives ku vɔr en Σmʌn hэbo ʌʟ. niʟ! dɑ ʌred ku bɔnbɔn dʌn niʟ? dɑ kσ finded niʟ inder en wθd ʌpo ɑfэros? *Ming* hɔred ɥy *Frank* sæded ɥy ʌred niʟ inder de tλʟe-vydo. ɥэt, vysed ʌʟdΣm ɑfэros inder de tλʟe-vydo. *Ming* hɔred ɥy *Suzie* эn ʟλn ɑmys sæded hэbed niʟ ɥy tθneʟ. ɥэt, ʌʟmʌn tθned ʌʟdΣm ɑfэros.
+ʌred en sɔʟ nenɔrmuto эn *Ming* wɔʟed ɥy gived en kado vɔr ʟλn amy bɔnbɔnbɔn nɔmo *Tibbe*. da ȿasyred? hэbed en eskɑ-boʟe. hэbed en mɑnde эn en xerɑ-ludo. hэbed ʌʟ. *Ming* pэned din. dɑ gives ku vɔr en Σmʌn hэbo ʌʟ. niʟ! dɑ ʌred ku bɔnbɔn dʌn niʟ? dɑ kσ finded niʟ inder en wθd ʌpo ɑfэros? *Ming* hɔred ɥy *Frank* sæded ɥy ʌred niʟ inder de tλʟe-vydo. ɥэt, vysed ʌʟdΣm ɑfэros inder de tλʟe-vydo. *Ming* hɔred ɥy *Suzie* эn ʟλn ɑmys sæded hэbed niʟ ɥy tθneʟ. ɥэt, ʌʟmʌn tθned ʌʟdΣm ɑfэros.
 
 ### 'Charlie and the Chocolate Factory'
 
@@ -5544,16 +5544,16 @@ P: <span class="source">He knows parties.</span> wised fэdes.
 P: <span class="source">Is this fancy?</span> dɑ dλs ʌred fænȿy?  
 E: <span class="source">Very fancy.</span> din fænȿy.  
 E & P: <span class="source">PARTY! PARTY! PARTY! PARTY!</span> fэd! fэd! fэd! fэd!  
-E: <span class="source">Wait! What if it is a pool party?</span> xɑ wλde! dɑ ku if ʌred en fэd ɑkwɑ-ȿʌt?  
-P: <span class="source">A fancy pool party?</span> dɑ en fэd fænȿy ɑkwɑ-ȿʌt?  
+E: <span class="source">Wait! What if it is a pool party?</span> xɑ wλde! dɑ ku if ʌred en ɑkwɑ-ȿʌt-fэd?  
+P: <span class="source">A fancy pool party?</span> dɑ en ɑkwɑ-ȿʌt-fэd fænȿy?  
 E: <span class="source">WE MUST BE READY!!!</span> musen ɥy ʌren ʌpo!  
 E: <span class="source">I know parties.</span> wisem fэdes.  
 P: <span class="source">He knows parties.</span> wised fэdes.  
 P: <span class="source">How is this?</span> dɑ kɑ dλs ʌred?  
 E: <span class="source">We will make a splash.</span> mλkɔn en эspeʟæȿ.  
 E & P: <span class="source">PARTY! PARTY! PARTY! PARTY!</span> fэd! fэd! fэd! fэd!  
-E: <span class="source">Wait! What if it is a costume party?</span> xɑ wλde! dɑ ku if ʌred en fэd vestθ?  
-P: <span class="source">A fancy pool costume party?</span> dɑ en fэd fænȿy ɑkwɑ-ȿʌt vestθ?  
+E: <span class="source">Wait! What if it is a costume party?</span> xɑ wλde! dɑ ku if ʌred en vestθ-fэd?  
+P: <span class="source">A fancy pool costume party?</span> dɑ en ɑkwɑ-ȿʌt-vestθ-fэd fænȿy?  
 E: <span class="source">WE MUST BE READY!!!</span> musen ɥy ʌren ʌpo!!!  
 P: <span class="source">He had better know parties...</span> wised bonbon fэdes...  
 P: <span class="source">Now can we go to the party?</span> ɔm ɑnσw gλhen vyɑsɑ de fэd?  
