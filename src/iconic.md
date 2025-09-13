@@ -270,7 +270,7 @@ The simplicity of these grammar rules make the language easier to learn for newc
 
 When comparing Esperanto and Lojban, the biggest difference is the languages they are based on. While Esperanto is primarily based on European languages and features, Lojban also incorporates Chinese, Hindi and Arabic influences. Lojban's grammar features also accommodates structures from non-European languages. The vowel pairs and the power of the spoken language also corresponds more to Slavic languages. Another difference is the initial purpose. While Esperanto was specifically designed as an auxiliary language for neutral international communication, Lojban was designed instead as a linguistic tool for studying and understanding language (Nicholas, 2003).
 
-**Toki pona** is an engelang, literally translating to 'language good/simple' (Emrys et al., 2009). In contrast to Lojban, Toki Pona makes heavy use of ambiguity. A multitude of words can have multiple meanings, making the language largely context based. Another aspect of this ambiguity is that it can not specify whether a word is singular or plural. Toki Pona only has fourteen letters in its alphabet and just 131 root words. Due to its minimal vocabulary, the language makes use of the combination of words. For example, 'friend' is made of the combination 'good person' ('jan pona') (Pona, 2005).
+**Toki Pona** is an engelang, literally translating to 'language good/simple' (Emrys et al., 2009). In contrast to Lojban, Toki Pona makes heavy use of ambiguity. A multitude of words can have multiple meanings, making the language largely context based. Another aspect of this ambiguity is that it can not specify whether a word is singular or plural. Toki Pona only has fourteen letters in its alphabet and just 131 root words. Due to its minimal vocabulary, the language makes use of the combination of words. For example, 'friend' is made of the combination 'good person' ('jan pona') (Carvalho, 2005).
 
 When comparing Toki Pona and Esperanto, the main difference is the vocabulary. In Esperanto, one needs to learn a large number of words before being able to hold a conversation or read a text, while in Toki Pona, you start with only 131 root words. The vocabulary in Toki Pona is the easy part, the skill of combining these words to create others is the real challenge.
 
@@ -748,15 +748,15 @@ There's a few things we could have done differently:
 
 ## References
 
-Bauer, L. (2008). <i>English Exocentric Compounds</i>. <https://doi.org/10.1007/s11525-008-9122-5>
+Bauer, L. (2008). Exocentric compounds. <i>Morphology, 18</i>(1), 51–74. <https://doi.org/10.1007/s11525-008-9122-5>
 
 Belfakir, L. (2020). <i>Morphology: Derivation vs. Inflection</i>. <https://fldm.usmba.ac.ma/uploads/2020/03/AN423-Belfakir-Intro-2-Lx-8-Morphology-2.pdf>. ([archived](https://ftp.dupunkto.org/~axcelott/belkafir.pdf))
 
-Booij, G. (2005). <i>Compounding and derivation: evidence for Construction Morphology</i>. <https://doi.org/10.1075/cilt.264.08boo>
+Booij, G. (2005). Compounding and derivation: evidence for Construction Morphology. In <i>Amsterdam studies in the theory and history of linguistic science. Series 4, Current issues in linguistic theory</i> (pp. 109–132) <https://doi.org/10.1075/cilt.264.08boo>
 
 Britannica. (1998, July 20). Citation. In <i>Encyclopedia Britannica</i>. Retrieved February 14, 2025, from <https://www.britannica.com/topic/syllabary>
 
-Cambridge Dictionary. (n.d.). Citation. In <i>Cambridge online dictionary</i>. Retrieved February 14, 2025, from <https://dictionary.cambridge.org/dictionary/english/natural-language>
+Cambridge Dictionary. (n.d.). Citation. In <i>Cambridge Dictionary</i>. Retrieved February 14, 2025, from <https://dictionary.cambridge.org/dictionary/english/natural-language>
 
 Cohn, A. & Huffman, M. K. (2014). Interface between phonology and phonetics. <i>Oxford Bibliographies</i>. <https://doi.org/10.1093/obo/9780199772810-0168>
 
@@ -774,13 +774,13 @@ Emrys, S. Fink, A. & Peterson, D. (2009). <i>Conlanging 101</i>. Language Creati
 
 Gibson, E., Futrell, R., Piantadosi, S. T., Dautriche, I., Mahowald, K., Bergen, L., & Levy, R. P. (2019, February 23). <i>How Efficiency Shapes Human Language, TICS 2019</i>. <https://doi.org/10.31234/osf.io/w5m38>
 
-Gledhill, C. (1998). <i>The grammar of Esperanto</i> (pp. 150-pp). Lincom Europa. <https://u-paris.hal.science/hal-01220008/document>
+Gledhill, C. (1998). <i>The Grammar of Esperanto: A Corpus-based Description</i>. München: Lincom Europa. <https://hal.science/hal-01220008>
 
 Goullier, F. (2007). <i>Council of Europe tools for language teaching: Common European Framework of Reference and Portfolios</i>. Les éditions Didier. <https://www.coe.int/en/web/common-european-framework-reference-languages/documents>
 
 Henning, J. (1995). <i>A naming language</i>. <https://fiatlingua.org/wp-content/uploads/2016/10/fl-00003E-00.pdf>. ([archived](https://ftp.dupunkto.org/~axcelott/naming-language.pdf))
 
-Kemp, C., Xu, Y., & Regier, T. (2018, January 14). <i>Semantic typology and efficient communication</i>. <https://escholarship.org/content/qt1126n182/qt1126n182.pdf>
+Kemp, C., Xu, Y., & Regier, T. (2018). Semantic typology and efficient communication. <i>Annual Review of Linguistics, 4</i>(1), 109--128. <https://doi.org/10.1146/annurev-linguistics-011817-045406>
 
 Kisa, S. E. (2003). <i>Oou: the Insane Language (or Friendly Genocide)</i>. Retrieved September 17, 2024, from <https://drive.google.com/file/d/1jLxGsmLDXHxxJJkB1PaAaoDvLHz-tLDY/view>. ([archived](https://ftp.dupunkto.org/~axcelott/Oou%20expanded%20vocabulary.pdf))
 
@@ -798,9 +798,7 @@ Overstreet, M., & Yule, G. (2023). Associative plural marking in English varieti
 
 Oxford Royale. (2020, September 11). <i>Why is English so hard to learn?</i> Oxford Royale Academy. <https://www.oxford-royale.com/articles/learning-english-hard>
 
-Pona, T. (2005). <i>the language of good--the simple way of life</i>. <https://www.academia.edu/download/32488651/toki-pona-lessons.pdf>
-
-Pona, T. (2024). <i>Toki Pona as a Small World Language</i>. <https://tokipona.org/small_world_language.html>
+Carvalho, A. (2005). <i>Toki Pona: the language of good--the simple way of life</i>. <https://academia.edu/download/32488651/toki-pona-lessons.pdf>
 
 Schreyer, C. (2021). Constructed languages. <i>Annual Review of Anthropology, 50</i>(1), 327--344. <https://doi.org/10.1146/annurev-anthro-101819-110152>
 
