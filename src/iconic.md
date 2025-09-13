@@ -55,15 +55,15 @@ We hope you have as much fun reading this as we had writing it.
 
 **Phonology** and **phonetics** are studies about the sounds needed to produce spoken languages. The lines between the fields are blurry. It seems linguists have yet to reach consensus on the exact definition of the terms (Ohala, 1990). Whilst there is a lot of overlap between the fields, generally, the following distinctions can be made:
 
-Phonetics is the study of the physical aspects of speech sounds (Cohn & Huffman, 2014), specifically the production and articulation of sounds. In phonetics, sounds are called **phones** and denoted using square brackets (Emrys et al., 2009) in an approximate alphabet developed by the International Phonetics Association (Delahunty & Garvey, 2010).
+Phonetics is the study of the physical aspects of speech sounds (Cohn & Huffman, 2014), specifically the production and articulation of sounds. In phonetics, sounds are called **phones** and denoted using square brackets (Emyrs et al., 2009) in an approximate alphabet developed by the International Phonetics Association (Delahunty & Garvey, 2010).
 
-Phonology, however, is occupied with abstract sounds as perceived by the brain (Cohn & Huffman, 2014). Here, sounds are called **phonemes** and written down in between slashes (Emrys et al., 2009). The actual pronunciations--phones-- for a phoneme can differ based on the surrounding phonemes in a word.
+Phonology, however, is occupied with abstract sounds as perceived by the brain (Cohn & Huffman, 2014). Here, sounds are called **phonemes** and written down in between slashes (Emyrs et al., 2009). The actual pronunciations--phones-- for a phoneme can differ based on the surrounding phonemes in a word.
 
-For example: the /p/ phoneme can be both [p] (in "spit") and [pʰ] (in "pit"), where the latter is pronounced with a little extra puff of air called aspiration (Emyrs, 2009). Phonological rules dictate how phones correspond to phonemes. Examples would be devoicing--where consonants are weakened at the end of words or following a voiceless sound--, and spirantization--where consonants shift "up" in between vowels (Emrys et al., 2009).
+For example: the /p/ phoneme can be both [p] (in "spit") and [pʰ] (in "pit"), where the latter is pronounced with a little extra puff of air called aspiration (Emyrs, 2009). Phonological rules dictate how phones correspond to phonemes. Examples would be devoicing--where consonants are weakened at the end of words or following a voiceless sound--, and spirantization--where consonants shift "up" in between vowels (Emyrs et al., 2009).
 
-For our purposes, the exact definition of these terms and differences between the subfields does not matter all that much. However, a term that is important is the **phonetic inventory** of a language. The phonetic inventory describes all possible sounds that occur in a language (Emrys et al., 2009). Together, they form the **phonaesthetics** (sometimes referred to as sprachgefühl) of a language: the general vibe that a language conveys (Emrys et al., 2009).
+For our purposes, the exact definition of these terms and differences between the subfields does not matter all that much. However, a term that is important is the **phonetic inventory** of a language. The phonetic inventory describes all possible sounds that occur in a language (Emyrs et al., 2009). Together, they form the **phonaesthetics** (sometimes referred to as sprachgefühl) of a language: the general vibe that a language conveys (Emyrs et al., 2009).
 
-**Orthography** studies the wide variety of ways we write languages down. The smallest unit of writing (a single symbol), is called a **grapheme** (Emyrs et al., 2009). The simplest writing system is the **alphabet**, wherein every grapheme corresponds to a single phoneme (Emrys et al., 2009).
+**Orthography** studies the wide variety of ways we write languages down. The smallest unit of writing (a single symbol), is called a **grapheme** (Emyrs et al., 2009). The simplest writing system is the **alphabet**, wherein every grapheme corresponds to a single phoneme (Emyrs et al., 2009).
 
 Western alphabets are all derivatives of the Latin or Roman alphabet. A **romanisation** is therefore a mapping of phonemes to graphemes where you assign a letter from the Latin alphabet to every phoneme in the phonetic inventory of your language (Emyrs et al., 2009). This is by far the simplest way to write down any arbitrary language, and is thus often used by linguists for reasoning about languages.
 
@@ -242,11 +242,11 @@ According to Emyrs et al. (2009), constructed languages can be categorised into 
 - **Loglangs** are logical languages, aimed at rational reasoning and reduction of ambiguity. The most prominent example is Lojban, a language in which it is impossible to create ambiguity.
 - **Jokelangs** are languages made up for comedic effect. An example would be Oou, which is a language made up solely of punctuation symbols (Kisa, 2003).
 
-**Posteriori** languages are based on an existing language while in contrast, **priori** languages are completely made from scratch. Priori languages are seen as harder to create, because it is difficult to make something completely novel without accidentally including influences of existing languages (Emrys et al., 2009).
+**Posteriori** languages are based on an existing language while in contrast, **priori** languages are completely made from scratch. Priori languages are seen as harder to create, because it is difficult to make something completely novel without accidentally including influences of existing languages (Emyrs et al., 2009).
 
-A **naming language**, where you only need phonology and morphology, is relatively easy to create in comparison to a more extensive language, allowing actual phrases and sentences. In a more extensive language, you need to take syntax into account, as well as a more comprehensive morphology. When you decide to create a fully speakable language, pragmatics and stylistics require more attention and you will need a larger vocabulary (Emrys et al., 2009).
+A **naming language**, where you only need phonology and morphology, is relatively easy to create in comparison to a more extensive language, allowing actual phrases and sentences. In a more extensive language, you need to take syntax into account, as well as a more comprehensive morphology. When you decide to create a fully speakable language, pragmatics and stylistics require more attention and you will need a larger vocabulary (Emyrs et al., 2009).
 
-When creating a language, most conlangers decide on some kind of 'hook', to make their language unique. For example, Logban does not allow ambiguity and Kēlen does not make use of verbs. Ithkuil also has an interesting hook, as it attempts to pack as much information as possible in the smallest space (Emrys et al., 2009).
+When creating a language, most conlangers decide on some kind of 'hook', to make their language unique. For example, Logban does not allow ambiguity and Kēlen does not make use of verbs. Ithkuil also has an interesting hook, as it attempts to pack as much information as possible in the smallest space (Emyrs et al., 2009).
 
 For our research, we studied the following conlangs in order to possibly learn from their decisions and design processes. We will briefly introduce each language and summarise their features below.
 
@@ -270,7 +270,7 @@ The simplicity of these grammar rules make the language easier to learn for newc
 
 When comparing Esperanto and Lojban, the biggest difference is the languages they are based on. While Esperanto is primarily based on European languages and features, Lojban also incorporates Chinese, Hindi and Arabic influences. Lojban's grammar features also accommodates structures from non-European languages. The vowel pairs and the power of the spoken language also corresponds more to Slavic languages. Another difference is the initial purpose. While Esperanto was specifically designed as an auxiliary language for neutral international communication, Lojban was designed instead as a linguistic tool for studying and understanding language (Nicholas, 2003).
 
-**Toki Pona** is an engelang, literally translating to 'language good/simple' (Emrys et al., 2009). In contrast to Lojban, Toki Pona makes heavy use of ambiguity. A multitude of words can have multiple meanings, making the language largely context based. Another aspect of this ambiguity is that it can not specify whether a word is singular or plural. Toki Pona only has fourteen letters in its alphabet and just 131 root words. Due to its minimal vocabulary, the language makes use of the combination of words. For example, 'friend' is made of the combination 'good person' ('jan pona') (Carvalho, 2005).
+**Toki Pona** is an engelang, literally translating to 'language good/simple' (Emyrs et al., 2009). In contrast to Lojban, Toki Pona makes heavy use of ambiguity. A multitude of words can have multiple meanings, making the language largely context based. Another aspect of this ambiguity is that it can not specify whether a word is singular or plural. Toki Pona only has fourteen letters in its alphabet and just 131 root words. Due to its minimal vocabulary, the language makes use of the combination of words. For example, 'friend' is made of the combination 'good person' ('jan pona') (Kisa, 2005).
 
 When comparing Toki Pona and Esperanto, the main difference is the vocabulary. In Esperanto, one needs to learn a large number of words before being able to hold a conversation or read a text, while in Toki Pona, you start with only 131 root words. The vocabulary in Toki Pona is the easy part, the skill of combining these words to create others is the real challenge.
 
@@ -342,7 +342,7 @@ Our main goal is making a language that is complete, consistent, and lowers the 
 
 ### The scope of the language
 
-Before starting on the process of actually constructing our language, we need to decide how extensive and complete we want the language to be. As an example, a naming language is far less complex than a more advanced language meant for full human communication (Emrys et al., 2009).
+Before starting on the process of actually constructing our language, we need to decide how extensive and complete we want the language to be. As an example, a naming language is far less complex than a more advanced language meant for full human communication (Emyrs et al., 2009).
 
 We want our language to be complete enough to write stories in and have moderately complicated conversations. This means we need to create a comprehensive morphology and complete syntax and grammar, rather than constructing only the phonology and orthography.
 
@@ -426,7 +426,7 @@ During the development of the language, we have not found a case where we have n
 
 ### Phonotactic constraints
 
-The way phonemes are combined in syllables largely decides the phonaesthetics of the language, because the way consonants and vowels are arranged can change the sound and perception of the language (Emrys et al., 2009).
+The way phonemes are combined in syllables largely decides the phonaesthetics of the language, because the way consonants and vowels are arranged can change the sound and perception of the language (Emyrs et al., 2009).
 
 Our language's syllables adhere to the (C)V(C) structure. This is fairly common in (constructed) languages. The consonants are both optional, but a single vowel cannot be a syllable. Meaning, 'by', 'yb', and 'byb' are all valid syllables, but 'y' is not. We decided to keep the rules simple, and thus not allow consonant combinations like 'tr…' and '...ng', as they would unnecessarily complicate the phonotactics of the language.
 
@@ -750,29 +750,29 @@ There's a few things we could have done differently:
 
 Bauer, L. (2008). Exocentric compounds. <i>Morphology, 18</i>(1), 51–74. <https://doi.org/10.1007/s11525-008-9122-5>
 
-Belfakir, L. (2020). <i>Morphology: Derivation vs. Inflection</i>. <https://fldm.usmba.ac.ma/uploads/2020/03/AN423-Belfakir-Intro-2-Lx-8-Morphology-2.pdf>. ([archived](https://ftp.dupunkto.org/~axcelott/belkafir.pdf))
+Belfakir, L. (2020). Morphology: Derivation vs. Inflection. <https://fldm.usmba.ac.ma/uploads/2020/03/AN423-Belfakir-Intro-2-Lx-8-Morphology-2.pdf>. ([archived](https://ftp.dupunkto.org/~axcelott/belkafir.pdf))
 
-Booij, G. (2005). Compounding and derivation: evidence for Construction Morphology. In <i>Amsterdam studies in the theory and history of linguistic science. Series 4, Current issues in linguistic theory</i> (pp. 109–132) <https://doi.org/10.1075/cilt.264.08boo>
+Booij, G.E. (2005). Compounding and derivation: Evidence for Construction Morphology. In W.U. Dressler, D. Kastovsky, O.E. Pfeiffer, F. Rainer, F. Gardani, & M.A. Pöchtrager (Eds.), <i>Morphology and its demarcations</i> (pp. 109–-132). John Benjamins. <https://doi.org/10.1075/cilt.264.08boo>
 
-Britannica. (1998, July 20). Citation. In <i>Encyclopedia Britannica</i>. Retrieved February 14, 2025, from <https://www.britannica.com/topic/syllabary>
+Britannica. (1998, July 20). Syllabary. In <i>Encyclopedia Britannica</i>. Retrieved February 14, 2025, from <https://www.britannica.com/topic/syllabary>
 
-Cambridge Dictionary. (n.d.). Citation. In <i>Cambridge Dictionary</i>. Retrieved February 14, 2025, from <https://dictionary.cambridge.org/dictionary/english/natural-language>
+Cambridge Dictionary. (n.d.). Natural language. In <i>Cambridge Dictionary</i>. Retrieved February 14, 2025, from <https://dictionary.cambridge.org/dictionary/english/natural-language>
 
-Cohn, A. & Huffman, M. K. (2014). Interface between phonology and phonetics. <i>Oxford Bibliographies</i>. <https://doi.org/10.1093/obo/9780199772810-0168>
+Cohn, A., & Huffman, M. K. (2014). Interface between phonology and phonetics. <i>Oxford Bibliographies</i>. <https://doi.org/10.1093/obo/9780199772810-0168>
 
-Council of Europe. (2020). <i>Common European Framework of Reference for Languages: Learning, teaching, assessment -- Companion volume</i>. Council of Europe Publishing, Strasbourg. <https://coe.int/lang-cefr>
+Council of Europe. (2020). <i>Common European Framework of Reference for Languages: Learning, teaching, assessment -- Companion volume</i>. Council of Europe Publishing. <https://coe.int/lang-cefr>
 
-Daniel, M., & Moravcsik, E. (2013). The associative plural. In M. Dryer & M. Haspelmath (Eds.), <i>The World Atlas of Language Structures (WALS)</i> (pp. 150-153). Oxford University Press.
+Daniel, M., & Moravcsik, E. (2013). The associative plural. In M. Dryer & M. Haspelmath (Eds.), <i>The world atlas of language structures</i> (pp. 150--153). Oxford University Press.
 
-David C.S. LI (2003). Between English and Esperanto: what does it take to be a world language? <i>International Journal of the Sociology of Language, 2003</i>(164), 33-63. <https://doi.org/10.1515/ijsl.2003.055>
+Li, D.C.S. (2003). Between English and Esperanto: what does it take to be a world language? <i>International Journal of the Sociology of Language, 2003</i>(164), 33--63. <https://doi.org/10.1515/ijsl.2003.055>
 
-Delahunty, G. & Garvey J. (2010). <i>The English Language: From Sound to Sense</i>. <https://doi.org/10.37514/per-b.2010.2331>
+Delahunty, G. P., & Garvey, J. J. (2010). <i>The English Language: From Sound to Sense</i>. The WAC Clearinghouse; Parlor Press. <https://doi.org/10.37514/per-b.2010.2331>
 
-Don, J., Meyer, C. & Rispens, J. (2023). <i>Taal en Taalwetenschap</i>. (3rd ed.). Wiley Blackwell.
+Don, J., Meyer, C., & Rispens, J. (2023). <i>Taal en Taalwetenschap</i>. (3rd ed.). Wiley Blackwell.
 
-Emrys, S. Fink, A. & Peterson, D. (2009). <i>Conlanging 101</i>. Language Creation Society. Retrieved September 8, 2024, from <https://conlang.org/cl101.pdf>. ([archived](https://ftp.dupunkto.org/~axcelott/cl101.pdf))
+Emyrs, S., Fink, A., & Peterson, D. (2009). <i>Conlanging 101</i>. Language Creation Society. Retrieved September 8, 2024, from <https://conlang.org/cl101.pdf>. ([archived](https://ftp.dupunkto.org/~axcelott/cl101.pdf))
 
-Gibson, E., Futrell, R., Piantadosi, S. T., Dautriche, I., Mahowald, K., Bergen, L., & Levy, R. P. (2019, February 23). <i>How Efficiency Shapes Human Language, TICS 2019</i>. <https://doi.org/10.31234/osf.io/w5m38>
+Gibson, E., Futrell, R., Piantadosi, S. P., Dautriche, I., Mahowald, K., Bergen, L., & Levy, R. (2019). How efficiency shapes human language. <i>Trends in Cognitive Sciences, 23</i>(5), 389–407. <https://doi.org/10.1016/j.tics.2019.02.003>
 
 Gledhill, C. (1998). <i>The Grammar of Esperanto: A Corpus-based Description</i>. München: Lincom Europa. <https://hal.science/hal-01220008>
 
@@ -790,7 +790,7 @@ Nicholas, N., & Cowan, J. W. (Eds.). (2003). <i>What Is Lojban?</i> Logical Lang
 
 Niklaus, C., Cetto, M., Freitas, A., & Handschuh, S. (2019). <i>Transforming Complex Sentences into a Semantic Hierarchy</i>. <https://arxiv.org/pdf/1906.01038>
 
-Obendorf, H., & Weinreich, H. (2003). Comparing link marker visualization techniques: changes in reading behavior. <i>Proceedings of the 12th International Conference on World Wide Web</i>, 736--745. Presented at the Budapest, Hungary. <https://doi.org/10.1145/775152.775255>
+Obendorf, H., & Weinreich, H. (2003). Comparing link marker visualization techniques: changes in reading behavior. In <i>Proceedings of the 12th International Conference on World Wide Web</i> (pp. 736–-745). Association for Computing Machinery. <https://doi.org/10.1145/775152.775255>
 
 Ohala, J. (1990). There is no interface between phonology and phonetics. <i>Journal of Phonetics, 18</i>(2), 153--171. <https://doi.org/10.1016/s0095-4470(19)30399-7>
 
@@ -798,7 +798,7 @@ Overstreet, M., & Yule, G. (2023). Associative plural marking in English varieti
 
 Oxford Royale. (2020, September 11). <i>Why is English so hard to learn?</i> Oxford Royale Academy. <https://www.oxford-royale.com/articles/learning-english-hard>
 
-Carvalho, A. (2005). <i>Toki Pona: the language of good--the simple way of life</i>. <https://academia.edu/download/32488651/toki-pona-lessons.pdf>
+Kisa, S. E. (2005). <i>Toki Pona: The language of good--the simple way of life</i>. <https://academia.edu/download/32488651/toki-pona-lessons.pdf>
 
 Schreyer, C. (2021). Constructed languages. <i>Annual Review of Anthropology, 50</i>(1), 327--344. <https://doi.org/10.1146/annurev-anthro-101819-110152>
 
