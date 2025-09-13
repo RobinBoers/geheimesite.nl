@@ -69,7 +69,7 @@ Western alphabets are all derivatives of the Latin or Roman alphabet. A **romani
 
 Romanisations, like for example the Chinese romanisation Pinyin, can also act as a shortcut to write logographic languages down using standardized QWERTY keyboards (Emyrs et al., 2009).
 
-However, alphabets are not the only possible writing system. Other cultures often utilize **syllabaries** or **logographs** for their writing. A syllabary is similar to an alphabet, but in a syllabary a grapheme corresponds to an entire syllable, rather than a single phoneme (Britannica, 1998). A prominent language using a syllabary for its orthography is Japanese. Logographic writing goes even further: a single grapheme corresponds to a whole word or grammatical construction. Examples would include Korean and Chinese.
+However, alphabets are not the only possible writing system. Other cultures often utilize **syllabaries** or **logographs** for their writing. A syllabary is similar to an alphabet, but in a syllabary a grapheme corresponds to an entire syllable, rather than a single phoneme (Encyclopedia Britannica, 1998). A prominent language using a syllabary for its orthography is Japanese. Logographic writing goes even further: a single grapheme corresponds to a whole word or grammatical construction. Examples would include Korean and Chinese.
 
 **Morphology** is the study of words: how they are formed from syllables and how they can be combined to form other words (Emyrs et al., 2009).
 
@@ -752,9 +752,7 @@ Bauer, L. (2008). Exocentric compounds. <i>Morphology, 18</i>(1), 51–74. <http
 
 Belfakir, L. (2020). Morphology: Derivation vs. Inflection. <https://fldm.usmba.ac.ma/uploads/2020/03/AN423-Belfakir-Intro-2-Lx-8-Morphology-2.pdf>. ([archived](https://ftp.dupunkto.org/~axcelott/belkafir.pdf))
 
-Booij, G.E. (2005). Compounding and derivation: Evidence for Construction Morphology. In W.U. Dressler, D. Kastovsky, O.E. Pfeiffer, F. Rainer, F. Gardani, & M.A. Pöchtrager (Eds.), <i>Morphology and its demarcations</i> (pp. 109–-132). John Benjamins. <https://doi.org/10.1075/cilt.264.08boo>
-
-Britannica. (1998, July 20). Syllabary. In <i>Encyclopedia Britannica</i>. Retrieved February 14, 2025, from <https://www.britannica.com/topic/syllabary>
+Booij, G. E. (2005). Compounding and derivation: Evidence for Construction Morphology. In W.U. Dressler, D. Kastovsky, O.E. Pfeiffer, F. Rainer, F. Gardani, & M.A. Pöchtrager (Eds.), <i>Morphology and its demarcations</i> (pp. 109-132). John Benjamins. <https://doi.org/10.1075/cilt.264.08boo>
 
 Cambridge Dictionary. (n.d.). Natural language. In <i>Cambridge Dictionary</i>. Retrieved February 14, 2025, from <https://dictionary.cambridge.org/dictionary/english/natural-language>
 
@@ -762,49 +760,51 @@ Cohn, A., & Huffman, M. K. (2014). Interface between phonology and phonetics. <i
 
 Council of Europe. (2020). <i>Common European Framework of Reference for Languages: Learning, teaching, assessment -- Companion volume</i>. Council of Europe Publishing. <https://coe.int/lang-cefr>
 
-Daniel, M., & Moravcsik, E. (2013). The associative plural. In M. Dryer & M. Haspelmath (Eds.), <i>The world atlas of language structures</i> (pp. 150--153). Oxford University Press.
+Daniel, M., & Moravcsik, E. (2013). The associative plural. In M. S. Dryer & M. Haspelmath (Eds.), <i>The world atlas of language structures</i> (pp. 150-153). Oxford University Press.
 
-Li, D.C.S. (2003). Between English and Esperanto: what does it take to be a world language? <i>International Journal of the Sociology of Language, 2003</i>(164), 33--63. <https://doi.org/10.1515/ijsl.2003.055>
+Li, D.C.S. (2003). Between English and Esperanto: what does it take to be a world language? <i>International Journal of the Sociology of Language, 2003</i>(164), 33-63. <https://doi.org/10.1515/ijsl.2003.055>
 
 Delahunty, G. P., & Garvey, J. J. (2010). <i>The English Language: From Sound to Sense</i>. The WAC Clearinghouse; Parlor Press. <https://doi.org/10.37514/per-b.2010.2331>
 
-Don, J., Meyer, C., & Rispens, J. (2023). <i>Taal en Taalwetenschap</i>. (3rd ed.). Wiley Blackwell.
+Don, J., Meyer, C., & Rispens, J. (2023). <i>Taal en Taalwetenschap</i>. (3rd ed.). Wiley Blackwell. ISBN: 978-1-119-75395-7.
 
 Emyrs, S., Fink, A., & Peterson, D. (2009). <i>Conlanging 101</i>. Language Creation Society. Retrieved September 8, 2024, from <https://conlang.org/cl101.pdf>. ([archived](https://ftp.dupunkto.org/~axcelott/cl101.pdf))
 
+Encyclopedia Britannica. (1998, July 20). Syllabary. In <i>Encyclopedia Britannica</i>. Retrieved February 14, 2025, from <https://britannica.com/topic/syllabary>
+
 Gibson, E., Futrell, R., Piantadosi, S. P., Dautriche, I., Mahowald, K., Bergen, L., & Levy, R. (2019). How efficiency shapes human language. <i>Trends in Cognitive Sciences, 23</i>(5), 389–407. <https://doi.org/10.1016/j.tics.2019.02.003>
 
-Gledhill, C. (1998). <i>The Grammar of Esperanto: A Corpus-based Description</i>. München: Lincom Europa. <https://hal.science/hal-01220008>
+Gledhill, C. (1998). <i>The Grammar of Esperanto: A Corpus-based Description</i>. Lincom Europa. <https://hal.science/hal-01220008>
 
-Goullier, F. (2007). <i>Council of Europe tools for language teaching: Common European Framework of Reference and Portfolios</i>. Les éditions Didier. <https://www.coe.int/en/web/common-european-framework-reference-languages/documents>
+Goullier, F. (2007). <i>Council of Europe tools for language teaching: Common European Framework of Reference and Portfolios</i>. Didier. <https://coe.int/en/web/common-european-framework-reference-languages/documents>
 
 Henning, J. (1995). <i>A naming language</i>. <https://fiatlingua.org/wp-content/uploads/2016/10/fl-00003E-00.pdf>. ([archived](https://ftp.dupunkto.org/~axcelott/naming-language.pdf))
 
-Kemp, C., Xu, Y., & Regier, T. (2018). Semantic typology and efficient communication. <i>Annual Review of Linguistics, 4</i>(1), 109--128. <https://doi.org/10.1146/annurev-linguistics-011817-045406>
+Jaeger, T. F., & Tily, H. (2010). On language 'utility': processing complexity and communicative efficiency. <i>Wiley Interdisciplinary Reviews: Cognitive Science, 2</i>(3), 323-335. <https://doi.org/10.1002/wcs.126>
 
-Kisa, S. E. (2003). <i>Oou: the Insane Language (or Friendly Genocide)</i>. Retrieved September 17, 2024, from <https://drive.google.com/file/d/1jLxGsmLDXHxxJJkB1PaAaoDvLHz-tLDY/view>. ([archived](https://ftp.dupunkto.org/~axcelott/Oou%20expanded%20vocabulary.pdf))
+Kemp, C., Xu, Y., & Regier, T. (2018). Semantic typology and efficient communication. <i>Annual Review of Linguistics, 4</i>(1), 109-128. <https://doi.org/10.1146/annurev-linguistics-011817-045406>
 
-Mora Gutiérrez, J. P. (2001). Directed motion in English and Spanish. <i>Estudios De Lingüística Del Español, 11</i>. <http://elies.rediris.es/elies11/cap5111.htm>
+Kisa, S. E. (2003). <i>Oou: The insane language (or friendly genocide)</i>. Retrieved September 17, 2024, from <https://drive.google.com/file/d/1jLxGsmLDXHxxJJkB1PaAaoDvLHz-tLDY/view>. ([archived](https://ftp.dupunkto.org/~axcelott/Oou%20expanded%20vocabulary.pdf))
 
-Nicholas, N., & Cowan, J. W. (Eds.). (2003). <i>What Is Lojban?</i> Logical Language Group. <https://www.lojban.org/static/publications/level0/lojbanLevel0.paperback.pdf>
+Kisa, S. E. (2005). <i>Toki Pona: The language of good--the simple way of life</i>. Tawhid. ISBN:  978-0978292300.
 
-Niklaus, C., Cetto, M., Freitas, A., & Handschuh, S. (2019). <i>Transforming Complex Sentences into a Semantic Hierarchy</i>. <https://arxiv.org/pdf/1906.01038>
+Mora Gutiérrez, J. P. (2001). Directed motion in English and Spanish. <i>Estudios de Lingüística del Español, 11</i>. ISSN: 1139-8736. <http://elies.rediris.es/elies11/cap5111.htm> ([archived](https://web.archive.org/web/20250913211429/http://elies.rediris.es/elies11/cap5111.htm))
+
+Nicholas, N., & Cowan, J. W. (Eds.). (2003). <i>What Is Lojban?</i> Logical Language Group. <https://lojban.org/static/publications/level0/lojbanLevel0.paperback.pdf>
+
+Niklaus, C., Cetto, M., Freitas, A., & Handschuh, S. (2019). Transforming complex sentences into a semantic hierarchy. <i>Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics</i>, 3415–3427. <https://doi.org/10.18653/v1/P19-1333>
 
 Obendorf, H., & Weinreich, H. (2003). Comparing link marker visualization techniques: changes in reading behavior. In <i>Proceedings of the 12th International Conference on World Wide Web</i> (pp. 736–-745). Association for Computing Machinery. <https://doi.org/10.1145/775152.775255>
 
-Ohala, J. (1990). There is no interface between phonology and phonetics. <i>Journal of Phonetics, 18</i>(2), 153--171. <https://doi.org/10.1016/s0095-4470(19)30399-7>
+Ohala, J. (1990). There is no interface between phonology and phonetics. <i>Journal of Phonetics, 18</i>(2), 153-171. <https://doi.org/10.1016/s0095-4470(19)30399-7>
 
-Overstreet, M., & Yule, G. (2023). Associative plural marking in English varieties. <i>English Today, 40</i>(2), 122--126. <https://doi.org/10.1017/s0266078423000354>
+Overstreet, M., & Yule, G. (2023). Associative plural marking in English varieties. <i>English Today, 40</i>(2), 122-126. <https://doi.org/10.1017/s0266078423000354>
 
-Oxford Royale. (2020, September 11). <i>Why is English so hard to learn?</i> Oxford Royale Academy. <https://www.oxford-royale.com/articles/learning-english-hard>
+Oxford Royale. (2020, September 11). <i>Why is English so hard to learn?</i> Oxford Royale Academy. <https://oxford-royale.com/articles/learning-english-hard> ([archived](https://web.archive.org/web/20250913211935/https://www.oxford-royale.com/articles/learning-english-hard))
 
-Kisa, S. E. (2005). <i>Toki Pona: The language of good--the simple way of life</i>. <https://academia.edu/download/32488651/toki-pona-lessons.pdf>
+Schreyer, C. (2021). Constructed languages. <i>Annual Review of Anthropology, 50</i>(1), 327-344. <https://doi.org/10.1146/annurev-anthro-101819-110152>
 
-Schreyer, C. (2021). Constructed languages. <i>Annual Review of Anthropology, 50</i>(1), 327--344. <https://doi.org/10.1146/annurev-anthro-101819-110152>
-
-Siddharthan, A. (2006). Syntactic simplification and text cohesion. <i>Research on Language and Computation, 4</i>(1), 77--109. <https://doi.org/10.1007/s11168-006-9011-1>
-
-Jaeger, T. F., & Tily, H. (2010). On language 'utility': processing complexity and communicative efficiency. <i>Wiley Interdisciplinary Reviews Cognitive Science, 2</i>(3), 323--335. <https://doi.org/10.1002/wcs.126>
+Siddharthan, A. (2006). Syntactic simplification and text cohesion. <i>Research on Language and Computation, 4</i>(1), 77-109. <https://doi.org/10.1007/s11168-006-9011-1>
 
 ## Appendix 1: Word list
 
@@ -5577,7 +5577,7 @@ I make languages (and you can too). <https://media.ccc.de/v/26c3-3520-en-conlang
 
 Conlanging 101. <https://conlang.org/cl101.pdf>
 
-The Language Construction Kit. <https://www.zompist.com/kit.html>
+The Language Construction Kit. <https://zompist.com/kit.html>
 
 Omniglot. <https://omniglot.com>
 
