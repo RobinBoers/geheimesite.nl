@@ -92,7 +92,7 @@ A **hyponym** refers to a word which is a subcategory of another word.
 A **hypernym** refers to a word that is a supercategory of another word; the reverse of a hyponym.
 <span class="dfn">(furniture is hypernymic with chair; beverage is hypernymic with vodka)</span>
 
-In morphology, words are called **lexemes**, which are composed of **morphemes** (Don et. al, 2023). According to Don et al. (2023), morphemes are the "smallest identifiable meaningful units" (p. 182) of language. Words are formed by varying linguistic processes; mainly derivation and inflection.
+In morphology, words are called **lexemes**, which are composed of **morphemes** (Don et al., 2023). According to Don et al. (2023), morphemes are the "smallest identifiable meaningful units" (p. 182) of language. Words are formed by varying linguistic processes; mainly derivation and inflection.
 
 **Derivation** extends the vocabulary of a language by deriving new content words from existing ones, often using affixes (Don et al., 2023). For example:
 
