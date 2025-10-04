@@ -12,7 +12,7 @@ head: >
   <p>(If you already know RSS, <a href="/index.xml">here's my feed</a>.)</p>
 </hgroup>
 
-I don’t like social media. Actually, [I kinda hate it to be honest](/blog/social-media-wat-moeten-we-er-mee-aan). Don't be sad tho! Instead, I have a few [RSS](/rss) feeds.
+This page used to remark my hate for social media, but as might be apparant from the existance of my Instagram and Snapchat accounts, I have shifted in this position a little. However, point still stands: the easiest way to follow this blog is via [RSS](/rss).
 
 TL;DR RSS is an ancient internet protocol for syndicating creative work to audiences. Copy-pasting the link to this website into your reader should work. If not, you can try these links:
 
