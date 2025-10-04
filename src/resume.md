@@ -115,7 +115,8 @@ title: Resumé
     I speak both Dutch, which is my native language, as well as English,
     which I learned primarily through online interactions. For what is is
     worth, I finished my high school course with a 9, and got a 10 for both
-    the [final writing assignment](/blog/ai-education) and my [PWS](/iconic).
+    the <a href="/blog/ai-education">final writing assignment</a> and my
+    <a href="/iconic">PWS</a> (in which we developed a constructed language).
   </p>
 
   <p>
