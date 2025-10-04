@@ -124,26 +124,26 @@ enthousiasten die geloven dat de blockchain helemaal de toekomst is--ze zijn
 namelijk het bankstelsel aan het revolutioneren!--en dit vaak op een vrij,
 uhm.. agressieve manier uiten. Van die irritante ooms die op feestjes
 proclaimen dat Dogecoin echt hélémaal The Thing&trade; is. Of van die
-mensen die op YouTube tips geven om snel snel rijk te worden--geen
+mensen die op YouTube tips geven om snel snel rijk te worden--maar geen
 financieel advies! Het is een statussymbool. Want hoewel jij en ik
 deze sukkels volledig voor gek verklaren, of tenminste zuinigjes
 aankijken, zien cryptobros het bezitten van crypto-assets als God zijn
 van eigen universum. Have Fun Staying Poor!
 
 We vonden deze subcultuur interessant om een aantal redenen. Als eerste
-zijn NFTs en blockchains een tijd lang heel erg in het nieuws geweest.
-Er ontstond, schijnbaar uit het niets, een gigantische hype rondom
-het kopen van zogenoemde NFTs. Het is boeiend om te kijken hoe en
-waarom deze bubbel ontstaan is, en waarom we nu eigenlijk niets meer horen
+zijn cryptocurrencies en blockchains een tijd lang heel erg prominent in
+het nieuws geweest. Er ontstond, schijnbaar uit het niets, een gigantische
+hype rondom het kopen van zogenoemde NFTs. Het is boeiend om te kijken hoe
+en waarom deze bubbel ontstaan is, en waarom we nu eigenlijk niets meer horen
 over die "revolutionaire" blockchain.
 
 Daarnaast zijn de dynamieken van de cryptocommunity razend interessant.
-Hoe kunnen mensen zo stellig geloven in iets dat zo duidelijk een scam is?
+Hoe kunnen mensen zo stellig geloven in iets dat zo overduidelijk een scam is?
 Proberen ze iedereen te gaslighten (zo ja, dan falen ze wel behoorlijk), of
 geloven ze daadwerkelijk in de belofte dat crypto The Next Big Thing&trade; is?
 
 Wat ook benoemingswaardig is, zijn de vele parallellen die getrokken kunnen
-worden tussen de NFT-bubbel en de gigantische hype die momenteel op zogenoemde
+worden tussen de NFT-bubbel en de enorme hype die momenteel op zogenoemde
 AI berust (al zou ik het zelf "toegepaste functiebenadering" noemen; dan klinkt het
 ineens een stuk minder futuristisch). Om dat volledig te behandelen is
 waarschijnlijk een beetje out-of-scope voor deze al-veel-te-lange
