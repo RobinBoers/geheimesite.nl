@@ -95,16 +95,16 @@ title: Resumé
     </thead>
     <tbody>
       <tr>
-        <td>Utrecht University</td>
-        <td>Educational Sciences (bachelor)</td>
-        <td></td>
-        <td>2025-2028</td>
-      </tr>
-      <tr>
         <td>Lyceum Schravenlant</td>
         <td>Atheneum (VWO)</td>
         <td>Cum laude</td>
         <td>2019-2025</td>
+      </tr>
+      <tr>
+        <td>Utrecht University</td>
+        <td>Educational Sciences (bachelor)</td>
+        <td></td>
+        <td>2025-2028</td>
       </tr>
     </tbody>
   </table>
