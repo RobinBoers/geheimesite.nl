@@ -12,7 +12,7 @@ Here's some projects I'm especially proud of:
 
 - [Signo](//git.dupunkto.org/~axcelott/signo)&nbsp; Experimental compiler for a Lisp-inspired language, written in Elixir.
 
-- [Untitled](//git.dupunkto.org/~dupunkto/untitled)&nbsp; Explores ways to blend websites, social media and collaboration on the Web, by implementing an easy-to-use website engine powered by various open standards.
+- [Scatterpubb](//git.dupunkto.org/~dupunkto/untitled)&nbsp; Explores ways to blend websites, social media and collaboration on the Web, by implementing an easy-to-use website engine powered by various open standards.
 
 - [Oblikvo](//git.dupunkto.org/~dupunkto/oblikvo)&nbsp; Browser-based 3D first-person shooter with old school graphics and multiplayer support.
 
