@@ -26,7 +26,7 @@ This site uses [Invidious](//invidious.io) for YouTube embeds. They do not store
     Unfortunately, this requires JavaScript.
   </noscript>
 
-  <label>Enter your personal information: <textarea></textarea></label>
+  <label>Enter your personal information: <textarea style="resize: none"></textarea></label>
   <button class="store">Store</button>
   <button class="download">Download</button>
 </section>
