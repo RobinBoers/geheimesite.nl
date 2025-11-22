@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {#include head.html}
+    <title>Writing my own SSG</title>
+    {#set DATE="2023-10-16"}
+  </head>
+  <body>
+    {#include nav.html}
+
+    <main>
+      <article>
+        <h1>Writing my own SSG</h1>
+
+        <p>
+          A few days ago, I discovered the Gemini protocol. I heard about it a
+          while back already, but I didn't pay that much attention and failed
+          to notice it.
+        </p>
+
+        <p>
+          So, naturally, I was REALLY excited about this cool new toy. I
+          downloaded about four different clients/browsers to see which one I
+          liked the best (it turned out to be
+          <a href="//gmi.skyjake.fi/lagrange/">Lagrange</a>), and immediately
+          thought about porting my website to it. Small problem however: my
+          site is built using <a href="//gohugo.io">Hugo</a>.
+        </p>
+
+        <p>
+          And I <em>love</em> Hugo. It's fast. It's easy. It's powerful. It's
+          fast. Did I mention that it's fast? However, Hugo is also really
+          centered around HTML files. And to make matters worse, my site is
+          really complicated. It interacts with multiple things on
+          <code>api.geheimesite.nl</code>, renders RSS feeds, downloads images,
+          does fancy resource things.
+        </p>
+
+        <p>
+          In short, porting it over was gonna be <em>really hard</em>. So,
+          instead of breaking my brain over porting my primary website, I took
+          a look at my blog. Just like my website, my blog is built using Hugo.
+          Because I do really like Hugo a lot. So, after a quick bit of
+          Googling, I found out that I could
+          <a href="//sylvaindurand.org/gemini-and-hugo/"
+            >add an output to Hugo</a
+          >. But what would be the fun of that, eh?
+        </p>
+
+        <p>
+          And to be honest, I've been wanting to build another blog for a while
+          now. Actually, I already bought a domain for it 4 months back.
+          Initially, I built it like a text-based system. I wrote a little PHP
+          script that handled the HTTP <code>PUT</code> verb, which meant I
+          could do cool things like this:
+        </p>
+
+        <pre><code>curl http://example.com/essay.txt --upload-file essay.txt -u robin:password</code></pre>
+
+        <p>
+          All files would be served as <code>text/plain</code>, and hyperlinks
+          would be added on separate lines, where you could easily copy and
+          paste them. Sounds familiar, right?
+        </p>
+
+        <p>
+          I also got very hyped when I found
+          <a href="//notebook.wesleyac.com">Wesley's notebook</a> a while back.
+          It's such a simple, sleek and beautiful website. And the cool thing
+          is that he completely wrote the thing using POSIX-complaint shell
+          scripts, with almost no dependencies. In addition to one of the
+          prettiest designs I've seen in a while, it also has a bunch of cool
+          features:
+        </p>
+
+        <ul>
+          <li>Deep linking</li>
+          <li>Very cool 404 page</li>
+          <li>Images are automatically compressed</li>
+          <li>Builtin <code>git</code> history with links to diffs</li>
+        </ul>
+
+        <p>
+          So, of course, I decided to create a new blog. And not just that, I
+          wanted to build my own static site generator, just like Wesley did.
+          So, I spent my weekend cooking up this little project.
+        </p>
+
+        <p>
+          How does one build a SSG, you might ask? Well, it's actually fairly
+          simple, because a lot of the building blocks are already out there.
+          For my project, I chose the
+          <a href="//shopify.github.io/liquid/">Liquid templating language</a>.
+          Luckily, there's already an amazing Javascript library for using
+          Liquid out there, called <a href="//liquidjs.com">LiquidJS</a>. The
+          same goes for
+          <a href="https://www.npmjs.com/package/js-yaml">YAML parsing</a> and
+          Markdown (using
+          <a href="//github.com/audiodude/gemdown">gemdown</a> and
+          <a href="//marked.js.org">marked</a> respectively).
+        </p>
+
+        <p>
+          Consequently, after glueing together a bunch of libraries that other
+          people wrote, I ended up with something like this:
+        </p>
+
+        <pre><code>// This code snippet is greatly simplied,
+// but the general flow is like this.
+
+let globalVariables = readGlobalConfigFile();
+
+let contentFiles =
+  getAllFilesWithExtension(".txt").map(mergeFrontmatterWithGlobalVariables);
+
+for (const output in directoriesIn("templates")) {
+  let template = parseDefaultTemplateFor(output);
+  let pages = [];
+
+  for(file in files.filter((f) =&gt; !isIndex(f))) {
+    let destPath = generateDestinationPath(file, path.extname(template.path));
+    let parsedMarkdown = parseMarkdown(template, getContent(file));
+    let variables = { url: destPath, content_rendered: parsedMarkdown, ...variables };
+
+    pages.append(variables);
+
+    let finalContent = renderTemplate(template, variables);
+    writeToFile(finalContent, output, destPath);
+  }
+
+  for(file in files.filter((f) =&gt; !isIndex(f))) {
+    let destPath = generateDestinationPath(file, path.extname(template.path));
+    let parsedMarkdown = parseMarkdown(template, getContent(file));
+    let variables = { url: destPath, content_rendered: parsedMarkdown, pages: pages, ...variables };
+
+    let finalContent = renderTemplate(template, variables);
+    writeToFile(finalContent, output, destPath);
+  }
+
+  copyOverStaticFiles(output);
+}</code></pre>
+
+        <p>Yup. It's that simple.</p>
+
+        <p>
+          I settled on calling it <code>chop</code>, because I hoped it would
+          be semi-fast (in dutch "chop chop" is a way to tell someone to speed
+          things up).
+        </p>
+
+        <p>The initial version has these features:</p>
+
+        <ul>
+          <li>A global config file</li>
+          <li>Front Matter</li>
+          <li>Liquid templates</li>
+          <li>Static files</li>
+          <li>Multiple outputs (HTML, gemtext, RSS etc.)</li>
+          <li>Smartypants punctuation</li>
+          <li>Automatic image compression</li>
+          <li>
+            Render content as liquid templates (which allows you to use
+            variables and partials in content)
+          </li>
+          <li>Prefixing relative URLs (in content).</li>
+        </ul>
+
+        <p>But I'm planning to add quite a bit more:</p>
+
+        <ul>
+          <li>Syntax highlighting</li>
+          <li>Automatic hashes in filenames for CSS</li>
+          <li>Integration with <code>git</code> (for file history)</li>
+        </ul>
+
+        <p>
+          I'm not building this to be extendible or modular. Instead, this
+          should stay a relatively simple script that just does what <em>I</em>
+          want it to do. If <em>you</em> want to build something else, go for
+          it!
+        </p>
+
+        <p>
+          So yea. Writing <code>chop</code> was quite fun, and I'm definitely
+          happy with the end result!
+        </p>
+
+        <p>
+          <a href="//git.dupunkto.org/~axcelott/chop">Source code</a>
+        </p>
+
+        <footer>{#include reply.html}</footer>
+      </article>
+    </main>
+
+    <footer>{#include footer.html}</footer>
+  </body>
+</html>

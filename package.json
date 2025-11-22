@@ -1,24 +1,19 @@
 {
   "name": "geheimesite.nl",
-  "version": "1.0.0",
-  "description": "My personal website. It looks pretty decent. I hope :)",
-  "type": "module",
-  "main": "index.js",
-  "author": "Robin Boers",
-  "license": "AGPL-3.0-only",
-  "devDependencies": {
-    "@11ty/eleventy": "^3.0.0",
-    "@11ty/eleventy-fetch": "^4.0.1",
-    "@11ty/eleventy-img": "^5.0.0",
-    "@11ty/eleventy-plugin-rss": "^2.0.2",
-    "markdown-it-footnote": "^4.0.0",
-    "markdown-it-anchor": "^9.2.0",
-    "browserslist": "^4.24.3",
-    "lightningcss": "^1.28.2",
-    "prettier": "^3.3.3"
+  "description": "My personal website",
+  "version": "22.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git.dupunkto.org/sites/geheimesite.nl"
   },
-  "browserslist": [
-    "defaults and fully supports es6-module",
-    "maintained node versions"
-  ]
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "accessibility-checker": "^4.0.9",
+    "lightningcss-cli": "^1.30.2",
+    "prettier": "^3.6.2",
+    "smartypants": "git+https://git.dupunkto.org/~forks/smartypants.js.git",
+    "stylelint": "^16.26.0",
+    "stylelint-config-standard": "^39.0.1",
+    "vnu": "git+https://git.dupunkto.org/~forks/vnu.git"
+  }
 }

@@ -1,24 +1,104 @@
-#!/bin/bash
+#!/bin/bash 
 
-DIST=dist
-ELEVENTY="bun -b run eleventy"
+source config/constants.env
+
+SRC=src; DIST=dist
+DEPS="inc/* config/* bin/* refs/*"
+PATH="$(pwd)/bin:$PATH"
+
+FORMAT="prettier --ignore-path .prettierignore"
+VALIDATE="vnu --exit-zero-always --filterfile .vnuignore"
+PP="tpp -r $SRC -s inc -h config/shortcodes.h -h config/tags.h"
+SASS="lightningcss --minify --targets '>= 0.01%'"
+
+setup() {
+  p:step "Installing dependencies"; bun i >/dev/null && p:done
+  p:step "Downloading APA sources"; curl -s -o refs/apa.csl https://www.zotero.org/styles/apa && p:done
+}
 
 build() {
-  $ELEVENTY
-}
+  export ROOT="$(pwd)"
 
-serve() {
-  $ELEVENTY --serve --port 4000
-}
-
-deploy() {
-  if [ -d $DIST ]; then
-    lift deploy
-  else
-    err "'$DIST' does not exist."
+  if [ $TARGET = "build" ]; then
+    export RECIPE_COMPACT=1 # nicer terminal output (strictly optional)
   fi
+
+  # TODO(robin): not use only `tpp`, also use `smartypants` and `prettier`.
+  p:step "Compiling HTML";      recipe $DIST/%.html $SRC/%.html $DEPS : $PP @in -o @out
+  # p:step "Compiling feeds";     recipe $DIST/%.xml $SRC/%.xml $DEPS : $PP @in -o @out
+  p:step "Transpiling CSS";     recipe $DIST/%.css $SRC/%.css : $SASS @in -o @out
+  p:step "Copying over text";   recipe $DIST/%.txt $SRC/%.txt : install @in @out
+}
+
+serve() {  
+  RECIPE_SILENT=1 build # Perform a full build first
+
+  export $(compgen -v)
+  export -f $(compgen -A function)
+
+  spawn "waiter --dev $DIST" watch
+}
+
+watch() {
+  export RECIPE_SILENT=1 # only print commands when being executed
+  fswatch $SRC $DEPS | while read; do build; done
+}
+
+format() {
+  $FORMAT --write $SRC
+
+  # Uppercase the DOCTYPE declaration
+  fd -e html -x sed -i '' 's/<!doctype html>/<!DOCTYPE html>/g' {} \; $SRC
 }
 
 clean() {
-  rm -rf $DIST
+  rm -rf $DIST results
+  git restore-mtime >/dev/null 2>&1
+}
+
+check() {
+  p:step "Running formatter"
+  $FORMAT --check $DIST --log-level warn && p:great
+
+  p:step "Running validators"
+  $VALIDATE --skip-non-html $DIST && p:great
+  
+  p:step "Running stylelint"
+  stylelint "$SRC/**/*.css" && p:great
+
+  p:step "\nRunning achecker"; printf "\n"
+  achecker $DIST && p:great
+
+  # BLOCKED: htmltest doesn't yet support pretty URLs like I have,
+  # see https://github.com/wjdp/htmltest/issues/183
+
+  # echo
+  # p:step "Running htmltest"
+  # htmltest && p:great
+}
+
+# Helper functions for nice terminal output
+
+p:step() {
+  if [ -z "${RECIPE_SILENT:-}" ]; then
+    printf "$1... "
+  fi
+}
+
+p:great() {
+  p:good "no issues"
+}
+
+p:done() {
+  p:good "done"
+}
+
+p:good() {
+  case "${NO_COLOR:-}" in
+    ""|0)
+      GREEN="\033[1;32m"
+      CLEAR="\033[0m"
+  esac
+
+  printf "${GREEN:-}$1${CLEAR:-}\n"
 }

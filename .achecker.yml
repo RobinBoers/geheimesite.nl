@@ -1,0 +1,4 @@
+failLevels:
+  - violation
+outputFormat:
+  - html

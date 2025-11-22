@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {#include head.html}
+    <title>Privacy</title>
+
+    <style>
+      textarea {
+        box-sizing: border-box;
+      }
+      .buttons {
+        margin-top: 0;
+        display: flex;
+        gap: 0.2em;
+      }
+      .store {
+        margin-right: auto;
+      }
+    </style>
+  </head>
+  <body>
+    {#include nav.html}
+
+    <main>
+      <h1>Privacy</h1>
+
+      <p>
+        This site <strong>does not</strong> track you or store your personal information in any way. I do not use cookies and won't save your information, but third parties might.
+      </p>
+
+      <section class="box">
+        <p>
+          <strong>However</strong>, if you <em>really insist</em>, I can store your personal information for you!
+        </p>
+
+        <noscript>
+          Unfortunately, this requires JavaScript.
+        </noscript>
+
+        <label>Enter your personal information: <textarea style="resize: none"></textarea></label>
+
+        <p class="buttons">
+          <button class="store">Store</button>
+          <button class="download">Download</button>
+          <button class="delete">Delete</button>
+        </p>
+      </section>
+    </main>
+
+    <script>
+      const storeInformation = (e) => {
+        let merged;
+
+        const existing = localStorage.getItem("info");
+        const appended = document.querySelector("textarea").value;
+
+        if(existing) merged = [existing, appended].join("\n");
+        else merged = appended;
+
+        localStorage.setItem("info", merged);
+
+        document.querySelector("textarea").value = "";
+        flashButton(e.target, "Stored!");
+        maybeShowDownloadButton();
+      }
+
+      const flashButton = (button, text) => {
+        const old = button.innerText;
+        button.innerText = text;
+        window.setTimeout(() => button.innerText = old, 700);
+      }
+
+      const downloadInformation = () => {
+        const stored = localStorage.getItem("info");
+
+        if(stored) createDownloadableBlob("personal-information.txt", stored);
+        else alert("Your personal information was empty. Either we lost it or you broke my website. Or both");
+      };
+
+      const deleteInformation = () => {
+        localStorage.removeItem("info");
+        maybeShowDownloadButton();
+      };
+
+      const createDownloadableBlob = (filename, data) => {
+        var link = document.createElement('a');
+        link.href = "data:text/plain;charset=utf-8," + encodeURIComponent(data);
+        link.download = filename;
+        link.click();
+      };
+
+      const maybeShowDownloadButton = () => {
+        if(localStorage.getItem("info")) {
+          document.querySelector(".download").style.display = "inline";
+          document.querySelector(".delete").style.display = "inline";
+        } else {
+          document.querySelector(".download").style.display = "none";
+          document.querySelector(".delete").style.display = "none";
+        }
+      };
+
+      document.querySelector(".store").addEventListener("click", storeInformation);
+      document.querySelector(".download").addEventListener("click", downloadInformation);
+      document.querySelector(".delete").addEventListener("click", deleteInformation);
+
+      maybeShowDownloadButton();
+    </script>
+
+    <footer>
+      {#include footer.html}
+    </footer>
+  </body>
+</html>

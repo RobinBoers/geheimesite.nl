@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<feed xmlns='http://www.w3.org/2005/Atom'>
+  <title>$(echo $TITLE | escape.sh)</title>
+  <subtitle>$(echo $BIO | escape.sh)</subtitle>
+  <id>https://${HOST}/</id>
+  <link href='https://${HOST}/' />
+  <author>
+    <name>${AUTHOR}</name>
+    <email>${EMAIL}</email>
+  </author>
+  <rights>${RIGHTS}</rights>
+  <link href='https://${HOST}/${PATH_INFO}' rel='self' type='application/rss+xml' />
+  $(feed.sh -tatom blog.json)
+</feed>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    {#include head.html}
+    <title>Somtoday verbeteren met CSS</title>
+    {#set DATE="2022-03-25"}
+  </head>
+  <body>
+    {#include nav.html}
+
+    <main>
+      <article>
+        <h1>Somtoday verbeteren met CSS</h1>
+
+        <p>
+          Kennen jullie Somtoday? Voor de mensen die het niet kennen: het is een
+          leerlingvolgsysteem voor het voortgezet onderwijs. En het is toevallig
+          ook wat mijn school, het Lyceum Schravenlant, gebruikt.
+        </p>
+
+        <p>
+          Som is noice. Je kan er je cijfers, huiswerk en leermiddelen zien.
+          Maar ik zie ook een aantal verbeterpuntjes. Somtoday heeft voor de
+          docenten een uitgebreid dashboard waarin ze het huiswerk kunnen
+          inplannen, cijfers kunnen invoeren, absenties kunnen bijhouden etc.
+        </p>
+
+        <figure>
+          <img
+            src="https://cdn.geheimesite.nl/images/blog/somtoday-docent.png"
+            alt="" />
+          <figcaption>
+            Somtoday Docent: een mooie moderne Angular app
+          </figcaption>
+        </figure>
+
+        <p>
+          Maar leerlingen en ouders zien deze website uit het jaar 1900. Oke,
+          dat is misschien een beetje overdreven, maar het doet me wel serieus
+          denken aan websites uit 2000.
+        </p>
+
+        <figure>
+          <img
+            src="https://cdn.geheimesite.nl/images/blog/somtoday-leerling.png"
+            alt="" />
+          <figcaption>
+            Somtoday voor leerlingen en ouders: een site die eruitziet alsof hij
+            uit een tijdmachine komt
+          </figcaption>
+        </figure>
+
+        <p>
+          Er zijn heel veel dingen die me irriteren aan dit ontwerp. Om er een
+          paar te noemen:
+        </p>
+
+        <ul>
+          <li>De kleuren zijn verschrikkelijk</li>
+          <li>De font-size is niet ideaal</li>
+          <li>Mijn lelijke hoofd staat bovenaan</li>
+          <li>
+            Er is permanent een badge met het nummer 3 bij de berichtenbox, ook
+            al het ik al mijn berichten gelezen
+          </li>
+        </ul>
+
+        <p>
+          Zoals mijn lezers waarschijnlijk weten ben ik een webdesign freak die
+          weet hoe CSS werkt. Dus heb ik een userstyle geschreven die je kan
+          installeren om het leerling/ouderpaneel iets beter te maken. Het is
+          gebaseerd op de look van Somtoday Docent, en ziet er zo uit:
+        </p>
+
+        <figure>
+          <img
+            src="https://cdn.geheimesite.nl/images/blog/somtoday-verbeterd.png"
+            alt="" />
+          <figcaption>
+            Verbeterde versie van Somtoday voor leerlingen en ouders
+          </figcaption>
+        </figure>
+
+        <p>
+          Als je wil kan je mijn userstyle
+          <a
+            href="//gist.github.com/RobinBoers/c95ea8c4181bcfcd9957bf730effecbb"
+            >op mijn GitHub account</a
+          >
+          vinden.
+        </p>
+
+        <p>
+          Userstyles kan je installeren met
+          <a href="//addons.mozilla.org/en-US/firefox/addon/styl-us/"
+            >Stylus</a
+          >. Je kan in de extension mijn CSS code plakken en als het goed is zou
+          dan je Somtoday er veel beter uit moeten zien :)
+        </p>
+
+        <p>
+          <strong
+            >Ik hoop stiekem heel erg dat een medewerker van Somtoday dit
+            toevallig leest. Zo ja, zou je me in contact willen brengen met de
+            designers / ontwikkelaars van Som? Mijn emailadres is staat op de
+            homepage :)</strong
+          >
+        </p>
+
+        <footer>{#include reply.html}</footer>
+      </article>
+    </main>
+
+    <footer>{#include footer.html}</footer>
+  </body>
+</html>

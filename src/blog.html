@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {#include head.html}
+    <title>lil notes</title>
+  </head>
+  <body>
+    {#include nav.html}
+
+    <main>
+      <h1>lil notes</h1>
+
+      $(feed.sh -thtml blog.json)
+    </main>
+
+    <footer>
+      {#include footer.html}
+    </footer>
+  </body>
+</html>

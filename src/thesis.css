@@ -13,7 +13,7 @@ body {
   margin: 10px auto;
 }
 
-@media (min-width: 800px) {
+@media (width >= 800px) {
   body {
     margin-left: 10%;
   }

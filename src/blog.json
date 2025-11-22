@@ -1,0 +1,177 @@
+{
+  "ai-education": {
+    "title": "AI in educational contexts",
+    "date": "2025-03-19"
+  },
+  "gpt-once-more": {
+    "title": "Disconnect in the Education System",
+    "date": "2024-11-13"
+  },
+  "gpt-again": {
+    "title": "Generative AI as a writing tool",
+    "date": "2024-11-12",
+    "rssonly": true
+  },
+  "dream-browser": {
+    "title": "The Next Stage of the Web Browser",
+    "date": "2024-05-31"
+  },
+  "surf-dont-search": {
+    "title": "Surf, don't search",
+    "date": "2024-05-29"
+  },
+  "web-sdk": {
+    "title": "The Web is the everything protocol",
+    "date": "2024-05-27"
+  },
+  "rss-club": {
+    "title": "The RSS Club",
+    "date": "2024-05-26",
+    "rssonly": true
+  },
+  "love-hate": {
+    "title": "love, hate",
+    "date": "2024-05-26"
+  },
+  "darlings": {
+    "title": "Darlings",
+    "date": "2024-05-25"
+  },
+  "challenge-accepted": {
+    "title": "Challenge accepted",
+    "date": "2024-04-23",
+    "favorite": true
+  },
+  "mentions": {
+    "title": "@mentions",
+    "date": "2024-04-09",
+    "rssonly": true
+  },
+  "predictive-policing": {
+    "title": "Predictive policing",
+    "date": "2024-03-30"
+  },
+  "rules": {
+    "title": "Rules",
+    "date": "2024-03-21"
+  },
+  "hotfox": {
+    "title": "HotFox: RSS superpowers for Firefox",
+    "date": "2024-03-20"
+  },
+  "sources": {
+    "title": "In favor of the small",
+    "date": "2024-03-18"
+  },
+  "defaults": {
+    "title": "Good Defaults",
+    "date": "2024-03-15"
+  },
+  "dupunkto": {
+    "title": "Introducing {du}punkto",
+    "date": "2024-02-18"
+  },
+  "good-movies": {
+    "title": "Movies and Limited Series",
+    "date": "2024-02-07",
+    "favorite": true
+  },
+  "gpt": {
+    "title": "The role of generative AI in writing",
+    "date": "2024-01-23",
+    "favorite": true
+  },
+  "stupid-terminology": {
+    "title": "Stop saying \"users\" and \"content\"",
+    "date": "2024-01-15",
+    "favorite": true
+  },
+  "symptom-relief": {
+    "title": "Banning phones is not solving anything",
+    "date": "2024-01-14"
+  },
+  "phones-banned": {
+    "title": "Thoughts on the mobile phone ban",
+    "date": "2024-01-08"
+  },
+  "search-engine": {
+    "title": "My own Search Engine..?",
+    "date": "2023-11-17"
+  },
+  "the-beginning": {
+    "title": "The Beginning",
+    "date": "2023-11-09"
+  },
+  "thinking-about-tilde": {
+    "title": "Thinking about running a tilde/pubnix",
+    "date": "2023-10-23"
+  },
+  "writing-my-own-ssg": {
+    "title": "Writing my own SSG",
+    "date": "2023-10-16",
+    "favorite": true
+  },
+  "introduction": {
+    "title": "Introduction",
+    "date": "2023-10-15"
+  },
+  "waarom-altijd-meer": {
+    "title": "Waarom altijd meer?",
+    "date": "2023-04-26",
+    "favorite": true
+  },
+  "lokalere-software": {
+    "title": "Hoe kunnen we software lokaler maken?",
+    "date": "2023-03-19",
+    "language": "nl"
+  },
+  "nadenken-over-privacy": {
+    "title": "Nadenken over privacy",
+    "date": "2023-02-07",
+    "language": "nl"
+  },
+  "nft-no-fun-thanks": {
+    "title": "NFT? No fun, thanks.",
+    "date": "2023-01-08",
+    "language": "nl",
+    "favorite": true
+  },
+  "gebrek-aan-ambitie": {
+    "title": "Gebrek aan ambitie?",
+    "date": "2022-07-05",
+    "language": "nl",
+    "favorite": true
+  },
+  "red-het-internet-bouw-je-eigen-website": {
+    "title": "Red het internet, bouw je eigen website.",
+    "date": "2022-05-30",
+    "language": "nl",
+    "favorite": true
+  },
+  "somtoday-ziet-er-niet-uit-maar-we-kunnen-het-oplossen-met-css": {
+    "title": "Somtoday verbeteren met CSS",
+    "date": "2022-03-25",
+    "language": "nl"
+  },
+  "belang-van-open-standaarden": {
+    "title": "Het belang van open standaarden",
+    "date": "2022-03-08",
+    "language": "nl",
+    "favorite": true
+  },
+  "een-maand-zonder-telefoon": {
+    "title": "Een maand zonder telefoon.",
+    "date": "2022-03-04",
+    "language": "nl"
+  },
+  "social-media-wat-moeten-we-er-mee-aan": {
+    "title": "Social media, wat moeten we er mee aan?",
+    "date": "2021-12-05",
+    "language": "nl"
+  },
+  "monocultuur-op-de-browsermarkt": {
+    "title": "Google, Chromium en een monocultuur op de browsermarkt",
+    "date": "2021-12-05",
+    "language": "nl"
+  }
+}

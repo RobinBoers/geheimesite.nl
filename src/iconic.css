@@ -23,7 +23,7 @@ body {
   margin: 10px auto;
 }
 
-@media (min-width: 800px) {
+@media (width >= 800px) {
   body {
     margin-left: 10%;
   }
@@ -69,13 +69,16 @@ header > p {
 }
 
 header a {
-  color: currentColor;
+  color: currentcolor;
+}
+
+.right {
+  float: right;
+  text-align: right;
 }
 
 .left { float: left }
-.right { float: right }
 .clearfix { clear: both }
-.right { text-align: right }
 
 /* Typography */
 
@@ -131,7 +134,7 @@ td i { font-style: normal }
 .tabular th,
 .words td,
 .words th {
-  border: 1px solid currentColor;
+  border: 1px solid currentcolor;
   padding: calc(0.1 * var(--space)) calc(0.2 * var(--space));
 }
 
