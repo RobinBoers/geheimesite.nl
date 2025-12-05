@@ -10,5 +10,5 @@
   </author>
   <rights>${RIGHTS}</rights>
   <link href='https://${HOST}/${PATH_INFO}' rel='self' type='application/rss+xml' />
-  $(feed.sh -tatom blog.json)
+  $(feed.sh -tatom)
 </feed>

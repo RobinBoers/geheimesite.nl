@@ -8,6 +8,6 @@
     <webMaster>${EMAIL} (${AUTHOR})</webMaster>
     <copyright>$(echo $RIGHTS | escape.sh)</copyright>
     <atom:link href='https://${HOST}/${PATH_INFO}' rel='self' type='application/rss+xml' />
-    $(feed.sh -trss blog.json)
+    $(feed.sh -trss)
   </channel>
 </rss>

@@ -1,13 +1,12 @@
 #!/usr/bin/env bash
-# Generates RSS/Atom & microformats feeds.
+# Generates RSS/Atom & microformats feeds from index.tsv.
 
 set -euo pipefail
 
 required pup
-required jq
 
 usage() {
-  echo "Usage: $(basename $0) <OPTS> <JSON>"
+  echo "Usage: $(basename $0) <OPTS> <TSV>"
   echo
   echo "OPTIONS"
   echo "  -trss       Generate RSS feed."
@@ -17,7 +16,6 @@ usage() {
   echo
   echo "ENVIRONMENT"
   echo "  HOST        The domain the feed is hosted on; defaults to 'localhost'."
-  echo "  LANGUAGE    The language of posts in the feed."
 
   exit 0
 }
@@ -39,99 +37,75 @@ case "${1:-}" in
     err "invalid option."
 esac
 
-JSON=$(cat "${2:-blog.json}")
+TSV="${2:-index.tsv}"
 
 generate_rss() {
-  echo "<lastBuildDate>$(date -j -f %Y-%m-%d $(last_updated) +"%a, %d %b %Y") 12:00:00 +0100</lastBuildDate>"
+  local first=true
 
-  list_posts | while read -r slug; do
-    generate_rss_entry $slug
-  done
-}
+  list_posts | while IFS=$'\t' read -r path title date _ _ _; do
+    if $first; then
+      first=false
+      echo "<lastBuildDate>$(date -j -f %Y-%m-%d $date +"%a, %d %b %Y") 12:00:00 +0100</lastBuildDate>"
+    fi
 
-generate_rss_entry() {
-  local c=$(cat blog/$1.html)
-  local title=$(echo $JSON | jq -r --arg slug $1 '.[$slug].title')
-  local date=$(echo $JSON | jq -r --arg slug $1 '.[$slug].date' | to_epoch)
-  local canonical=https://$HOST/blog/$1
-
-  # For the content, we assume it is placed in a semantically
-  # <article> element. According to the spec, it should contain the heading.
-  # In all my HTML, that's an H1. According to the RSS spec, the <description>
-  # *shouldn't* contain an title, so this `sed` command removes it.
-  local content=$(sed -n '/<article>/,/<\/article>/p' blog/$1.html | tr -d '\n' | sed 's/<h1>.*<\/h1>//')
+    local canonical="https://$HOST${path%.md}"
 
 cat <<EOF
 <item>
-  <title>$(echo $title | escape.sh)</title>
+  <title>$(echo "$title" | xml_escape)</title>
   <link>$canonical</link>
-  <pubDate>$(date -r $date +"%d %b %Y") 12:00:00 +0100</pubDate>
+  <pubDate>$(date -j -f %Y-%m-%d $date +"%d %b %Y") 12:00:00 +0100</pubDate>
   <guid isPermaLink="true">$canonical</guid>
   <description>
     <![CDATA[
-    $content
+      $(sed '1,/^---$/d; 1,/^---$/d' "./$path" | smu)
     ]]>
   </description>
 </item>
 EOF
-}
-
-generate_atom() {
-  echo "<updated>$(date -j -f %Y-%m-%d $(last_updated) +%Y-%m-%d)T12:00:00+01:00</updated>"
-
-  list_posts | while read -r slug; do
-    generate_atom_entry $slug
   done
 }
 
-generate_atom_entry() {
-  local c=$(cat blog/$1.html)
-  local title=$(echo $JSON | jq -r --arg slug $1 '.[$slug].title')
-  local published=$(echo $JSON | jq -r --arg slug $1 '.[$slug].date' | to_epoch)
-  local modified=$(stat -f %m blog/$1.html)
-  local canonical=https://$HOST/blog/$1
+generate_atom() {
+  local first=true
 
-  # For the content, we assume it is placed in a semantically
-  # <article> element. According to the spec, it should contain the heading.
-  # In all my HTML, that's an H1. According to the Atom spec, the <description>
-  # *shouldn't* contain an title, so this `sed` command removes it.
-  local content=$(sed -n '/<article>/,/<\/article>/p' blog/$1.html | tr -d '\n' | sed 's/<h1>.*<\/h1>//')
+  list_posts | while IFS=$'\t' read -r path title date _ _ _; do
+    if $first; then
+      first=false
+      echo "<updated>$(date -j -f %Y-%m-%d $date +%Y-%m-%d)T12:00:00+01:00</updated>"
+    fi
+
+    local canonical="https://$HOST${path%.md}"
+    local published=$(date -j -f %Y-%m-%d $date +%s)
+    local modified=$(stat -f %m "./$path")
 
 cat <<EOF
 <entry>
-  <title>$(echo $title | escape.sh)</title>
+  <title>$(echo "$title" | xml_escape)</title>
   <link href="$canonical" />
   <published>$(date -r $published +%Y-%m-%d)T12:00:00+01:00</published>
   <updated>$(date -r $modified +%Y-%m-%d)T12:00:00+01:00</updated>
   <id>$canonical</id>
   <content type="html">
     <![CDATA[
-    $content
+      $(sed '1,/^---$/d; 1,/^---$/d' "./$path" | smu)
     ]]>
   </content>
 </entry>
 EOF
+  done
 }
 
 generate_html() {
   echo '<ul class="h-feed">'
 
-  list_posts | while read -r slug; do
-    generate_html_entry $slug
-  done
-
-  echo '</ul>'
-}
-
-generate_html_entry() {
-  IFS=$'\t' read -r title date favorite language < <(echo $JSON | jq -r --arg slug $1 '.[$slug] | "\(.title)\t\(.date)\t\(.favorite // false)\t\(.language // "en")"')
-
-  local class="h-entry"
-  [ $favorite == true ] && class="h-entry favorite"
+  list_posts | while IFS=$'\t' read -r path title date favorite language _; do
+    local class="h-entry"
+    [ "$favorite" == "true" ] && class="h-entry favorite"
 
 cat <<EOF
 <li class="$class">
-  <a class="u-url" href="/blog/$1" hreflang="$language">
+  <a class="u-url" href="${path%.md}" hreflang="$language">
     <b>
       <time class="dt-published" datetime="$date">$(date -j -f %Y-%m-%d $date +"%b %d, %Y")</time>:
     </b>
@@ -139,24 +113,23 @@ cat <<EOF
   </a>
 </li>
 EOF
+  done
+
+  echo '</ul>'
 }
 
 # Helpers
 
 list_posts() {
-  if [ $format == html ]; then
-    echo $JSON | jq -r 'to_entries | sort_by(.value.date) | reverse | .[] | select(.value.rssonly != true) | .key'
+  if [ "$format" == "html" ]; then
+    awk -F'\t' '$6 != "true"' "$TSV"
   else
-    echo $JSON | jq -r 'to_entries | sort_by(.value.date) | reverse | .[].key'
-  fi
+    cat "$TSV"
+  fi | sort -t$'\t' -k3 -r
 }
 
-last_updated() {
-  echo $JSON | jq -r 'to_entries | sort_by(.value.date) | reverse | .[0].value.date'
-}
-
-to_epoch() {
-  read date; date -j -f %Y-%m-%d $date +%s
+xml_escape() {
+  sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'\''/\&apos;/g'
 }
 
 case $format in

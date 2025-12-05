@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="${LANGUAGE}">
+  <head>
+    {#include head.html}
+    <title>${TITLE}</title>
+  </head>
+  <body>
+    {#include nav.html}
+
+    <main>
+      <article>
+        <h1>${TITLE}</h1>
+
+        ${CONTENT}
+
+        <footer>
+          <p>
+            Posted on
+            <a href="//${HOST}/${PATH_INFO%.html}">
+              <time datetime="${DATE}">$(date -j -f "%Y-%m-%d" $DATE +'%b %d, %Y')</time>
+            </a>
+          </p>
+
+          <p class="reply-by-email">
+            <a href="/contact">Reply by email</a>
+          </p>
+        </footer>
+      </article>
+    </main>
+
+    <footer>
+      {#include footer.html}
+    </footer>
+  </body>
+</html>

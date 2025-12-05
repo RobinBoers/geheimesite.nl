@@ -2,14 +2,14 @@
 
 source config/constants.env
 
-SRC=src; DIST=dist
-DEPS="inc/* config/* bin/* refs/*"
-PATH="$(pwd)/bin:$PATH"
+export SRC=src; DIST=dist
+export DEPS="inc/* config/* bin/* refs/*"
+export PATH="$(pwd)/bin:$PATH"
 
-FORMAT="prettier --ignore-path .prettierignore"
-VALIDATE="vnu --exit-zero-always --filterfile .vnuignore"
-PP="tpp -r $SRC -s inc -h config/shortcodes.h -h config/tags.h"
-SASS="lightningcss --minify --targets '>= 0.01%'"
+export FORMAT="prettier --ignore-path .prettierignore"
+export VALIDATE="vnu --exit-zero-always --filterfile .vnuignore"
+export PP="tpp -w $SRC -r $DIST -s inc -h config/shortcodes.h -h config/tags.h"
+export SASS="lightningcss --minify --targets '>= 0.01%'"
 
 setup() {
   p:step "Installing dependencies"; bun i >/dev/null && p:done
@@ -23,9 +23,9 @@ build() {
     export RECIPE_COMPACT=1 # nicer terminal output (strictly optional)
   fi
 
-  # TODO(robin): not use only `tpp`, also use `smartypants` and `prettier`.
-  p:step "Compiling HTML";      recipe $DIST/%.html $SRC/%.html $DEPS : $PP @in -o @out
-  # p:step "Compiling feeds";     recipe $DIST/%.xml $SRC/%.xml $DEPS : $PP @in -o @out
+  p:step "Compiling blog";      recipe $DIST/%.html $SRC/%.md $DEPS : entry.sh @in @out
+  p:step "Compiling pages";     recipe $DIST/%.html $SRC/%.html $DEPS : $PP @in -o @out
+  p:step "Compiling feeds";     recipe $DIST/%.xml $SRC/%.xml $SRC/index.tsv : $PP @in -o @out
   p:step "Transpiling CSS";     recipe $DIST/%.css $SRC/%.css : $SASS @in -o @out
   p:step "Copying over text";   recipe $DIST/%.txt $SRC/%.txt : install @in @out
 }
@@ -52,7 +52,7 @@ format() {
 }
 
 clean() {
-  rm -rf $DIST results
+  rm -rf $DIST results $SRC/index.tsv
   git restore-mtime >/dev/null 2>&1
 }
 
