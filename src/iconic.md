@@ -1,15 +1,13 @@
 ---
 title: "Σkɔnik: Syntax & Sorcery"
-stylesheet: /iconic.css
-layout: blank
-language: en
+stylesheet: iconic.css
 ---
 
 <img src="https://cdn.geheimesite.nl/images/iconic/cover.svg" alt="" class="cover">
 
 <header>
     <hgroup>
-        <h1>{{ title }}</h1>
+        <h1>Σkɔnik: Syntax & Sorcery</h1>
         <p>Eoin Wignand, Robin Boers en Lize Boers</p>
     </hgroup>
     <p class="left">
@@ -587,12 +585,12 @@ Nested sentences can also include further nested sentences, again utilizing the 
 For direct speech, we utilize rules similar to those from English and Dutch, placing the literal sentence in quotation marks. The writer is free to choose whatever quotation marks they prefer, but are encouraged to stay consistent within their writing.
 
 > Robin says: "I like the color pink."  
-> sæded Robin "ʟuvem de kɔʟɔr nэna."
+> Robin sæded "ʟuvem de kɔʟɔr nэna."
 
 For indirect speech, we reuse the existing grammar already present for nested sentences:
 
 > Robin says that he likes the color pink.  
-> sæded Robin ɥy ʟuved de kɔʟɔr nэna.
+> Robin sæded ɥy ʟuved de kɔʟɔr nэna.
 
 #### Possessives
 
@@ -721,7 +719,7 @@ Furthermore, we specified we wanted the language to be usable for A1 level commu
 
 Therefore, we must conclude that we have created a complete, usable language. As noted in the previous chapter, Appendix 2 contains translations of excerpts from multiple (short) stories.
 
-Overall, the process of making this language was surprisingly easy. We did lots of work upfront during the theoretical research, which made executing the language quite straightforward. Furthermore, deciding on the fundamental structure of the language was pretty simple as well, as we could make these decisions together easily. The most challenging part was creating the vocabulary, because of the sheer volume of necessary words (big!) Maintaining morphological consistency was a challenge too, as was deciding on certain syntactic structures; we insufficiently researched these topics beforehand.
+Overall, the process of making this language was surprisingly easy. We did lots of work upfront during the theoretical research, which made the development phase quite straightforward. Furthermore, deciding on the fundamental structure of the language was pretty simple as well, as we could make these decisions together easily. The most challenging part was creating the vocabulary, because of the sheer volume of necessary words (big!) Maintaining morphological consistency was a challenge too, as was deciding on certain syntactic structures; we insufficiently researched these topics beforehand.
 
 We still personally struggle with the pronunciation of our own language. For that reason, we've also built a tool that can perfectly pronounce our language, which is possible because the phonology is entirely phonetic. The tool is <a href="//dupunkto.org/tools/pronounce">available on our website</a>.
 

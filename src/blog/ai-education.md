@@ -21,12 +21,4 @@ In conclusion, language models underpinning chatbots like ChatGPT are based on t
 
 #### Reference list
 
-Bender, E. M., Gebru, T. McMillan-Major, A. & Shmitchell, S. (2021). On the dangers of stochastic parrots: Can language models be to big? In <i>Proceedings of the 2021 ACM conference on fairness, accountability, and transparency</i> (pp. 610-623). <https://doi.org/10.1145/3442188.3445922>
-
-Hesselink, I. (2024, April 15). <i>Nearly four in ten students use ChatGPT often</i>. DUB. <https://dub.uu.nl/en/news/nearly-four-ten-students-use-chatgpt-often>
-
-Klimova, B. F. (2021). The importance of writing. <i>Paripex-Indian Journal of Research, 2</i>(1), 9-11. <https://doi.org/10.15373/22501991/JAN2013/4>
-
-Schulman, J., Zoph, B., Kim, C., Hilton, J., Menick, J., Weng, J., ... Hesse, C. (2022, November 20).<i>Introducing ChatGPT</i>. OpenAI. <https://openai.com/index/chatgpt>
-
-Sidoti, O., Park, E. & Gottfried, J. (2025, January 21). <i>About a quarter of U.S. teens have used ChatGPT for schoolwork -- double the share in 2023</i>. Pew Research Center. <https://www.pewresearch.org/short-reads/2025/01/15/about-a-quarter-of-us-teens-have-used-chatgpt-for-schoolwork-double-the-share-in-2023/>
+$(cite ai-education.bib)

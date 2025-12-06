@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     {#include head.html}
-    <title>lil notes</title>
+    <title>${TITLE}</title>
 
     <style>
       .h-feed {
@@ -43,7 +43,13 @@
     {#include nav.html}
 
     <main>
-      <h1>${TITLE}</h1>
+      <hgroup>
+        <span>
+          <h1>${TITLE}</h1>
+          <a class="subscribe-button" href="/rss">Subscribe</a>
+        </span>
+        <p>${BIO}</p>
+      </hgroup>
 
       $(feed.sh -thtml -ftable)
     </main>

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Generates RSS/Atom & microformats feeds from index.tsv.
+# Generates RSS/Atom & microformats feeds from an index.
 
 set -euo pipefail
 
@@ -23,33 +23,15 @@ usage() {
 
 while [[ "${1:-}" == -* ]]; do
   case "$1" in
-    -h|--help)
-      usage
-      ;;
-    -trss)
-      format=rss
-      ;;
-    -tatom)
-      format=atom
-      ;;
-    -tjson)
-      format=json
-      ;;
-    -thtml)
-      format=html
-      ;;
-    -flist)
-      type=list
-      ;;
-    -ftable)
-      type=table
-      ;;
-    -r*)
-      relative="${1#-r}"
-      ;;
-    *)
-      err "invalid option: $1"
-      ;;
+    -h|--help) usage ;;
+    -trss) format=rss ;;
+    -tatom) format=atom ;;
+    -tjson) format=json ;;
+    -thtml) format=html ;;
+    -flist) type=list ;;
+    -ftable) type=table ;;
+    -r*) relative="${1#-r}" ;;
+    *) err "invalid option: $1" ;;
   esac
   shift
 done

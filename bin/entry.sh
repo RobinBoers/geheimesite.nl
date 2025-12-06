@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Renders a blogpost and writes to index.tsv
+# Converts blogposts to HTML and indexes them.
 
 set -euo pipefail
 
