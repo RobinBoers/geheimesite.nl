@@ -5,7 +5,7 @@ set -euo pipefail
 
 case ${1:-} in
   -h|--help)
-    echo "Usage: $(basename $0) <INPUT> <OUTPUT>"
+    echo "Usage: $(basename $0) <INPUT> <OUTPUT> <TSV>"
     echo
     exit
     ;;
@@ -14,14 +14,13 @@ esac
 IFS=$'\t' read -r TITLE DATE FAVORITE LANGUAGE RSSONLY < <(frontmatter.sh "$1" title date favorite=false language=en rssonly=false)
 
 export TITLE DATE FAVORITE LANGUAGE RSSONLY
-export CONTENT=$(sed '1,/^---$/d; 1,/^---$/d' "$1" | smu)
+export CONTENT=$(sed '1,/^---$/d; 1,/^---$/d' "$1" | $MD)
 
 $PP inc/entry.html -o $2
 
-touch src/index.tsv
+rm -f /tmp/index.tsv
+touch src/${3:-index.tsv} /tmp/index.tsv
 
-KEY="${1#src}"
-
-{ grep -v "^$KEY	" src/index.tsv || true
-  printf '%s\t%s\t%s\t%s\t%s\t%s\n' "$KEY" "$TITLE" "$DATE" "$FAVORITE" "$LANGUAGE" "$RSSONLY"
-} > /tmp/index.tsv && mv /tmp/index.tsv src/index.tsv
+{ grep -v "^$1	" src/${3:-index.tsv} || true
+  printf '%s\t%s\t%s\t%s\t%s\t%s\n' "$1" "$TITLE" "$DATE" "$FAVORITE" "$LANGUAGE" "$RSSONLY"
+} > /tmp/index.tsv && mv /tmp/index.tsv src/${3:-index.tsv}

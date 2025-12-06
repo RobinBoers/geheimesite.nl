@@ -1,26 +1,17 @@
 @import url("https://cdn.geheimesite.nl/punkt.css");
 
+:root {
+  --font-sans: Inter, -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  --font-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+}
+
 body {
   background: Canvas;
   max-width: 650px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    avenir next,
-    avenir,
-    segoe ui,
-    helvetica neue,
-    Adwaita Sans,
-    Cantarell,
-    Ubuntu,
-    roboto,
-    noto,
-    helvetica,
-    arial,
-    sans-serif;
+  font-family: var(--font-sans);
   font-size: clamp(0.9rem, 2vw, 1rem);
   box-shadow: 0 25px 50px -12px rgb(0 0 0/0.25);
   margin: 10px;
@@ -161,7 +152,6 @@ body > footer small + blockquote {
 }
 
 .box {
-  margin-left: 0.5em;
   /* background: light-dark(#ededed, #00000033); */
   background: #ededed;
   opacity: 0.8;
@@ -173,7 +163,7 @@ p.box {
   padding: 0.5em;
 }
 
-section.box {
+section.box, aside.box {
   padding: 1em;
 }
 
@@ -183,4 +173,21 @@ section.box {
 
 .box > :last-child {
   margin-bottom: 0;
+}
+
+/* Let's make sure all's aligned */
+hr, .hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+sub, sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
 }

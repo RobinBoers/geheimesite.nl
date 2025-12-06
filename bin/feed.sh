@@ -6,40 +6,86 @@ set -euo pipefail
 required pup
 
 usage() {
-  echo "Usage: $(basename $0) <OPTS> <TSV>"
+  echo "Usage: $(basename $0) <OPTS> <TSV> [OUT]"
   echo
   echo "OPTIONS"
+  echo "  -r<PATH>    Relativate URLs."
   echo "  -trss       Generate RSS feed."
   echo "  -tatom      Generate Atom feed."
   echo "  -thtml      Generates HTML index."
   echo "  -h, --help  Show this help."
   echo
-  echo "ENVIRONMENT"
-  echo "  HOST        The domain the feed is hosted on; defaults to 'localhost'."
-
-  exit 0
+  echo "If no output file is specified, default to stdout."
+  echo
+  exit
 }
 
-case "${1:-}" in
-  ""|-h|--help)
-    usage
-    ;;
-  -trss)
-    format=rss
-    ;;
-  -tatom)
-    format=atom
-    ;;
-  -thtml)
-    format=html
-    ;;
-  *)
-    err "invalid option."
-esac
+while [[ "${1:-}" == -* ]]; do
+  case "$1" in
+    -h|--help)
+      usage
+      ;;
+    -trss)
+      format=rss
+      ;;
+    -tatom)
+      format=atom
+      ;;
+    -thtml)
+      format=html
+      ;;
+    -flist)
+      type=list
+      ;;
+    -ftable)
+      type=table
+      ;;
+    -r*)
+      relative="${1#-r}"
+      ;;
+    *)
+      err "invalid option: $1"
+      ;;
+  esac
+  shift
+done
 
-TSV="${2:-index.tsv}"
+if [ -z "${format:-}" ]; then
+  err "missing output format"
+fi
+
+TSV="${1:-index.tsv}"
+OUT="${2:-}"
+
+if [ -n "$OUT" ]; then
+  PATH_INFO="$OUT"
+  [ -n "${relative:-}" ] && PATH_INFO="${OUT#$relative}"
+  [[ "$PATH_INFO" != /* ]] && PATH_INFO="/$PATH_INFO"
+fi
 
 generate_rss() {
+  echo '<?xml version="1.0" encoding="utf-8" standalone="yes"?>'
+  echo "<rss version='2.0' xmlns:atom='http://www.w3.org/2005/Atom'>"
+  echo "<channel>" 
+
+  echo "<title>$(echo "$TITLE" | xml_escape)</title>"
+  echo "<description>$(echo "$BIO" | xml_escape)</description>"
+  echo "<link>https://${HOST}/</link>"
+
+  if [ -n "${LANGUAGE:-}" ]; then
+    echo "<language>${LANGUAGE}</language>"
+  fi
+
+  if [ -n "${AUTHOR:-}" -a -n "${EMAIL:-}" ]; then
+    echo "<webMaster>${EMAIL} (${AUTHOR})</webMaster>"
+  fi
+
+  if [ -n "${RIGHTS:-}" ]; then
+    echo "<copyright>$(echo "$RIGHTS" | xml_escape)</copyright>"
+  fi
+
+  echo "<atom:link href='https://${HOST}${PATH_INFO:-/rss.xml}' rel='self' type='application/rss+xml' />"
+
   local first=true
 
   list_posts | while IFS=$'\t' read -r path title date _ _ _; do
@@ -58,15 +104,39 @@ cat <<EOF
   <guid isPermaLink="true">$canonical</guid>
   <description>
     <![CDATA[
-      $(sed '1,/^---$/d; 1,/^---$/d' "./$path" | smu)
+      $(sed '1,/^---$/d; 1,/^---$/d' "./$path" | $MD)
     ]]>
   </description>
 </item>
 EOF
   done
+
+  echo "</channel>"
+  echo "</rss>"
 }
 
 generate_atom() {
+  echo '<?xml version="1.0" encoding="utf-8" standalone="yes"?>'
+  echo "<feed xmlns='http://www.w3.org/2005/Atom'>"
+
+  echo "<title>$(echo "$TITLE" | xml_escape)</title>"
+  echo "<subtitle>$(echo "$BIO" | xml_escape)</subtitle>"
+  echo "<id>https://${HOST}/</id>"
+  echo "<link href='https://${HOST}/' />"
+  
+  if [ -n "${AUTHOR:-}" -a -n "${EMAIL:-}" ]; then
+    echo "<author>"
+    echo "<name>${AUTHOR}</name>"
+    echo "<email>${EMAIL}</email>"
+    echo "</author>"
+  fi
+
+  if [ -n "${RIGHTS:-}" ]; then
+    echo "<rights>${RIGHTS}</rights>"
+  fi
+
+  echo "<link href='https://${HOST}${PATH_INFO:-/atom.xml}' rel='self' type='application/rss+xml' />"
+
   local first=true
 
   list_posts | while IFS=$'\t' read -r path title date _ _ _; do
@@ -88,15 +158,24 @@ cat <<EOF
   <id>$canonical</id>
   <content type="html">
     <![CDATA[
-      $(sed '1,/^---$/d; 1,/^---$/d' "./$path" | smu)
+      $(sed '1,/^---$/d; 1,/^---$/d' "./$path" | $MD)
     ]]>
   </content>
 </entry>
 EOF
   done
+
+  echo "</feed>"
 }
 
 generate_html() {
+  case "${type:-list}" in
+    list) generate_html_list ;;
+    table) generate_html_table ;;
+  esac
+}
+
+generate_html_list() {
   echo '<ul class="h-feed">'
 
   list_posts | while IFS=$'\t' read -r path title date favorite language _; do
@@ -118,6 +197,40 @@ EOF
   echo '</ul>'
 }
 
+generate_html_table() {
+  echo '<table class="h-feed">'
+  echo '<thead>'
+  echo '<tr>'
+  echo '<th class="p-name">Post<span hidden>s</span></th>'
+  echo '<th>Published</th>'
+  echo '</tr>'
+  echo '</thead>'
+  echo '<tbody>'
+
+  list_posts | while IFS=$'\t' read -r path title date favorite language _; do
+    local class="h-entry"
+    [ "$favorite" == "true" ] && class="h-entry favorite"
+
+cat <<EOF
+<tr class="$class">
+  <td class="p-title" lang="$language">
+    <a class="u-url" href="${path%.md}" hreflang="$language">
+      $title
+    </a>
+  </td>
+  <td>
+    <time class="dt-published" datetime="$date">
+      $(date -j -f %Y-%m-%d $date +"%b %d, %Y")
+    </time>
+  </td>
+</tr>
+EOF
+  done
+
+  echo '</tbody>'
+  echo '</table>'
+}
+
 # Helpers
 
 list_posts() {
@@ -132,8 +245,17 @@ xml_escape() {
   sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'\''/\&apos;/g'
 }
 
-case $format in
-  rss) generate_rss ;;
-  atom) generate_atom ;;
-  html) generate_html ;;
-esac
+generate() {
+  case $format in
+    rss) generate_rss ;;
+    atom) generate_atom ;;
+    html) generate_html ;;
+    table) generate_table ;;
+  esac
+}
+
+if [ -n "$OUT" ]; then
+  generate > "$OUT"
+else
+  generate
+fi

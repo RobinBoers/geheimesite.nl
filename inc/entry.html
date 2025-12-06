@@ -3,26 +3,47 @@
   <head>
     {#include head.html}
     <title>${TITLE}</title>
+    <style>
+      .h-entry > hgroup time {
+        opacity: .6;
+      }
+
+      .h-entry > footer .reply-by-email {
+        text-align: center;
+        margin-top: 4em;
+        margin-bottom: 0;
+      }
+
+      .h-entry > footer .reply-by-email a {
+        color: #ffffff;
+        background: #f43f5e;
+        border: none;
+        padding: .5em 1em;
+        text-decoration: none;
+      }
+    </style>
   </head>
   <body>
     {#include nav.html}
 
     <main>
-      <article>
-        <h1>${TITLE}</h1>
+      <article class="h-entry">
+        <hgroup>
+          <h1 class="p-name">${TITLE}</h1>
+          <p>
+            <time class="dt-published" datetime="${DATE}">
+              $(date -j -f "%Y-%m-%d" $DATE +'%b %d, %Y')
+            </time>
+          </p>
+        </hgroup>
 
-        ${CONTENT}
+        <div class="p-summary e-content">
+          ${CONTENT}
+        </div>
 
         <footer>
-          <p>
-            Posted on
-            <a href="//${HOST}/${PATH_INFO%.html}">
-              <time datetime="${DATE}">$(date -j -f "%Y-%m-%d" $DATE +'%b %d, %Y')</time>
-            </a>
-          </p>
-
           <p class="reply-by-email">
-            <a href="/contact">Reply by email</a>
+            <a href="/contact" class="">Reply by email</a>
           </p>
         </footer>
       </article>

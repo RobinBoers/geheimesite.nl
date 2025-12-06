@@ -3,14 +3,49 @@
   <head>
     {#include head.html}
     <title>lil notes</title>
+
+    <style>
+      .h-feed {
+        padding: 0;
+        list-style: none;
+      }
+
+      @media (min-width: 900px) {
+        /* When updating, don't forget the rule in main.css too */
+        .h-feed {
+          margin-left: 1.25em;
+        }
+      }
+
+      .h-entry a {
+        line-height: 1.8;
+        text-decoration-color:;
+      }
+
+      .favorite {
+        position: relative;
+
+        &::before {
+          content: "★";
+          position: absolute;
+          left: -1.5em;
+        }
+      }
+
+      hgroup > span {
+        display: flex;
+        gap: 1em;
+        align-items: flex-end;
+      }
+    </style>
   </head>
   <body>
     {#include nav.html}
 
     <main>
-      <h1>lil notes</h1>
+      <h1>${TITLE}</h1>
 
-      $(feed.sh -thtml)
+      $(feed.sh -thtml -ftable)
     </main>
 
     <footer>
