@@ -12,6 +12,7 @@ usage() {
   echo "  -r<PATH>    Relativate URLs."
   echo "  -trss       Generate RSS feed."
   echo "  -tatom      Generate Atom feed."
+  echo "  -tjson      Generate JSON feed."
   echo "  -thtml      Generates HTML index."
   echo "  -h, --help  Show this help."
   echo
@@ -30,6 +31,9 @@ while [[ "${1:-}" == -* ]]; do
       ;;
     -tatom)
       format=atom
+      ;;
+    -tjson)
+      format=json
       ;;
     -thtml)
       format=html
@@ -245,10 +249,60 @@ xml_escape() {
   sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'\''/\&apos;/g'
 }
 
+generate_json() {
+  local items="[]"
+
+  list_posts | while IFS=$'\t' read -r path title date _ _ _; do
+    local canonical="https://$HOST${path%.md}"
+    local published=$(date -j -f %Y-%m-%d $date +%s)
+    local modified=$(stat -f %m "./$path")
+    local content=$(sed '1,/^---$/d; 1,/^---$/d' "./$path" | $MD)
+
+    items=$(jq -n \
+      --argjson items "$items" \
+      --arg id "$canonical" \
+      --arg url "$canonical" \
+      --arg title "$title" \
+      --arg content "$content" \
+      --arg published "$(date -r $published +%Y-%m-%d)T12:00:00+01:00" \
+      --arg modified "$(date -r $modified +%Y-%m-%d)T12:00:00+01:00" \
+      '$items + [{
+        id: $id,
+        url: $url,
+        title: $title,
+        content_html: $content,
+        date_published: $published,
+        date_modified: $modified
+      }]')
+  done
+
+  jq -n \
+    --arg version "https://jsonfeed.org/version/1.1" \
+    --arg title "$TITLE" \
+    --arg home "https://${HOST}/" \
+    --arg feed "https://${HOST}${PATH_INFO:-/feed.json}" \
+    --arg bio "${BIO:-}" \
+    --arg author "${AUTHOR:-}" \
+    --arg email "${EMAIL:-}" \
+    --arg lang "${LANGUAGE:-}" \
+    --argjson items "$items" \
+    '{
+      version: $version,
+      title: $title,
+      home_page_url: $home,
+      feed_url: $feed
+    } +
+    (if $bio != "" then {description: $bio} else {} end) +
+    (if $author != "" then {authors: [{name: $author} + (if $email != "" then {url: ("mailto:" + $email)} else {} end)]} else {} end) +
+    (if $lang != "" then {language: $lang} else {} end) +
+    {items: $items}'
+}
+
 generate() {
   case $format in
     rss) generate_rss ;;
     atom) generate_atom ;;
+    json) generate_json ;;
     html) generate_html ;;
     table) generate_table ;;
   esac

@@ -28,8 +28,9 @@ build() {
   p:step "Compiling blog";        recipe $DIST/blog/%.html $SRC/blog/%.md $DEPS : entry.sh @in @out
   p:step "Compiling pages";       recipe $DIST/%.html $SRC/%.html $DEPS : $PP @in -o @out
   p:step "Compiling articles";    recipe $DIST/%.html $SRC/%.md $DEPS : article.sh @in @out
+  p:step "Compiling RSS feed";    recipe $DIST/index.xml $SRC/index.tsv : feed.sh -trss -r$DIST @in @out
   p:step "Compiling atom feed";   recipe $DIST/atom.xml $SRC/index.tsv : feed.sh -tatom -r$DIST @in @out
-  p:step "Compiling RSS feed";    recipe $DIST/index.xml $SRC/index.tsv : feed.sh -trss -r$DIST @in @out 
+  p:step "Compiling JSON feed";   recipe $DIST/feed.json $SRC/index.tsv : feed.sh -tjson -r$DIST @in @out 
   p:step "Transpiling CSS";       recipe $DIST/%.css $SRC/%.css : $SASS @in -o @out
   p:step "Copying over text";     recipe $DIST/%.txt $SRC/%.txt : install @in @out
 }
