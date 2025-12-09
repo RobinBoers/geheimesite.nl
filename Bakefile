@@ -24,7 +24,10 @@ build() {
     export RECIPE_COMPACT=1 # nicer terminal output (strictly optional)
   fi
 
-  p:step "Scanning for changes";  recipe $SRC/index.tsv $SRC/blog/*.md : quiet rm -r $DIST/blog
+  if [ -e $SRC/index.tsv ]; then
+    p:step "Scanning for changes";  recipe $SRC/index.tsv $SRC/blog/*.md : quiet rm -r $DIST/blog
+  fi
+
   p:step "Compiling blog";        recipe $DIST/blog/%.html $SRC/blog/%.md $DEPS : entry.sh @in @out
   p:step "Compiling pages";       recipe $DIST/%.html $SRC/%.html $DEPS : $PP @in -o @out
   p:step "Compiling articles";    recipe $DIST/%.html $SRC/%.md $DEPS : article.sh @in @out
