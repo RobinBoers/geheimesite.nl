@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <.head title="The Archives" {assigns} />
+
+    <style>
+      ul {
+        margin-top: 2em;
+      }
+      details > summary {
+        list-style: none;
+      }
+      summary::-webkit-details-marker,
+      summary::marker {
+        display: none;
+      }
+      summary::after {
+        content: " ⏴";
+      }
+      details[open] summary:after {
+        content: " ⏷";
+      }
+      summary a,
+      li > a:first-child {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <.nav {assigns} />
+
+    <main>
+      <.embed name="classic.html" />
+    </main>
+
+    <footer>
+      <.footer />
+    </footer>
+  </body>
+</html>

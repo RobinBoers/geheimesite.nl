@@ -1,0 +1,101 @@
+/* 
+  shared forms styling for punkt & tools
+  also hacked together by @axcelott-- AGPLv3.
+*/
+
+textarea, input, select, button, a.button {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+textarea,
+input[type="url"],
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+}
+
+label:not(:has(:is(input[type="checkbox"], input[type="radio"]))) {
+  font-weight: bold;
+}
+
+button,
+input[type="submit"],
+input[type="button"],
+a.button {
+  background: black;
+  color: white;
+  border: none;
+  font-size: 0.8em;
+  line-height: 1.5;
+  padding: 0.5em 1em;
+  text-transform: lowercase;
+  text-decoration: none;
+  cursor: default;
+
+  /* Hack: center vertically in <a> elements */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+a.button:hover {
+  opacity: 0.8;
+}
+
+input[type="url"],
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 0.2em 0.4em;
+  font-size: 1em;
+}
+
+textarea, input, select, iframe {
+  border: 1px solid light-dark(#dedede, #3d3d3d);
+  outline: none;
+}
+
+input:focus,
+textarea:focus {
+  border-color: light-dark(#bbb, #777);
+}
+
+input:user-invalid {
+  border-color: red;
+}
+
+/* <select> is just special like that ¯\_(ツ)\_/¯ */
+select {
+  padding: 6px;
+}
+
+input[type="file"] {
+  display: block;
+  border: none;
+  padding: 110px 1em;
+  background: light-dark(#f1f1f1, #2b2b33);
+  border: 2px dashed currentColor;
+  border-color: inherit;
+  border-radius: 7px;
+  text-align: center;
+  width: 100%;
+  height: 250px;
+  transition: filter 75ms;
+}
+
+textarea {
+  padding: 7px;
+  resize: vertical;
+}

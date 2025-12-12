@@ -1,0 +1,116 @@
+/*
+  my css reset
+  lovingly constructed by @axcelott-- AGPLv3
+*/
+
+:root {
+  color-scheme: light dark;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100vh;
+  scrollbar-gutter: stable;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+/* Proper sizing of media elements.
+  (Partially stolen from @csswizardry on X) */
+img {
+  vertical-align: middle;
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+  shape-margin: 0.75em;
+  user-select: none;
+}
+
+img, picture, video, audio, canvas, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Fix weird scaling of <h1> in <section> */
+h1 { font-size: 1.8em }
+
+/* Fix sizing of monospace fonts */
+code { font-size: 0.8em }
+
+/* Text balancing on headings */
+h1, h2, h3, h4 {
+  text-wrap: balance;
+}
+
+/* Improved wrapping on paragraphs too */
+p {
+  text-wrap: pretty;
+}
+
+/* Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* Fix overflow on <pre> */
+pre {
+  max-width: 100%;
+  width: 100%;
+  overflow-x: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Improved alignment in <hgroup> */
+hgroup h1 {
+  margin-bottom: 0;
+}
+
+hgroup p {
+  margin-top: 0;
+}
+
+hgroup {
+  margin-bottom: 1em;
+}
+
+/* Make tables look decent */
+table {
+  border-collapse: collapse;
+  max-width: 100%;
+  width: 100%;
+}
+
+td,
+th {
+  padding: 0.2em;
+  text-align: left;
+}
+
+tr {
+  border-bottom: 1px solid;
+  border-color: inherit;
+}
+
+/* Proper fonts on form elements */
+input, button,
+textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+  scroll-margin-block: 5ex;
+}

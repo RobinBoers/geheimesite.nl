@@ -1,0 +1,104 @@
+/* 
+  pinkz--standard css for *.geheimesite.nl
+  also hacked together by @axcelott-- AGPLv3.
+*/
+
+@import url("reset.css");
+
+:root {
+  --font-sans: Inter, -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;;
+  --font-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  color-scheme: light;
+  font-family: var(--font-sans);
+  font-size: 1.2rem;
+  line-height: 1.5;
+  min-height: 100%;
+  background: light-dark(#fdfdfe, #090a0b);
+  color: light-dark(#1e293b, #fdfdfe);
+  border-left: 8px solid  light-dark(#020617, #131618);
+  border-top: 12px solid #f43f5e;
+  border-right: 9px solid #f43f5e;
+}
+
+a {
+  color: currentColor;
+  &:hover {opacity: 0.8}
+}
+
+.container {  
+  max-width: 670px;
+}
+
+@media (min-width: 900px) {
+  .container { margin-left: 3em }
+}
+
+h1, .h1 {
+  font-size: 2.05263158em;
+  line-height: 1.48717949em;
+  margin-top: 0.74358974em;
+  margin-bottom: 0.74358974em;
+}
+h2, .h2 {
+  font-size: 1.63157895em;
+  line-height: 1.87096774em;
+  margin-top: 0.93548387em;
+  margin-bottom: 0.93548387em;
+}
+h3, .h3 {
+  font-size: 1.26315789em;
+  line-height: 2.41666666em;
+  margin-top: 1.20833333em;
+  margin-bottom: 0;
+}
+h4, .h4 {
+  font-size: 1em;
+  line-height: 1.52631579em;
+  margin-top: 1.52631579em;
+  margin-bottom: 0;
+}
+h5, .h5 {
+  font-size: 1em;
+  line-height: 1.52631579em;
+  margin-top: 1.52631579em;
+  margin-bottom: 0;
+}
+p, ul, ol, pre, table, blockquote {
+  margin-top: 0;
+  margin-bottom: 1.52631579em;
+}
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Let's make sure all's aligned */
+hr, .hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+sub, sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}

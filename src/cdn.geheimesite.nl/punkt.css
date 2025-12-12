@@ -1,0 +1,107 @@
+/* 
+  punkt--standard css for *.dupunkto.org
+  (and parts of the *.geheimesite.nl webspace)
+
+  hacked together by @axcelott-- AGPLv3.
+*/
+
+@import url("reset.css");
+@import url("forms.css");
+
+body {
+  font-family: serif;
+  font-size: clamp(0.9rem, 2vw, 1.2rem);
+  line-height: 1.5;
+}
+
+* {
+  border-color: light-dark(#ccc, #444);
+  text-decoration-color: light-dark(#aaa, #888);
+}
+
+a {
+  color: currentcolor;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  text-decoration: none !important;
+}
+
+h2 {
+  border-bottom: 1px solid;
+  border-color: inherit;
+  padding-bottom: 5px;
+}
+
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+
+h4 + p,
+h5 + p,
+h6 + p {
+  margin-top: 0;
+}
+
+/* Improved blockquotes, figures and captions */
+blockquote {
+  font-style: italic;
+  border-left: 2px solid;
+  padding-left: 1.2em;
+  margin: auto 0;
+  border-color: inherit;
+}
+
+figure img {
+  border: 1px solid;
+  border-color: inherit;
+}
+
+figcaption,
+table caption,
+blockquote {
+  color: light-dark(#666, #999);
+}
+
+/* Code blocks */
+pre:has(code:not([class="language-mermaid"])) {
+  background: black;
+  color: white;
+  padding: 0.5em;
+  border-radius: 8px;
+}
+
+/* Nice <kbd> styling */
+kbd {
+  border: 1px solid gray;
+  background: white;
+  border-radius: 6px;
+  padding: 2px 6px;
+  font-family: sans-serif;
+  color: #111121;
+}
+
+/* Lists and other inline snippets */
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: 1em;
+}
+
+ins {
+  text-decoration: none;
+  font-weight: 600;
+}

@@ -1,0 +1,225 @@
+/*
+  iconic--css for my pws
+  hacked together by @axcelott-- AGPLv3.
+*/
+
+@import url("reset.css");
+@import url('//fonts.bunny.net/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+:root { --space: 3em }
+
+/* Font & page sizing */
+
+html {
+  font-family: serif;
+  font-size: 1rem;
+  line-height: 1.45;
+
+  /* In this particular document, with this particular font,
+     I'm not a huge fan of the anti-aliasing. */
+  -webkit-font-smoothing: auto;
+}
+
+body {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  padding: 1em;
+  max-width: 680px;
+  margin: 10px auto;
+}
+
+@media (width >= 800px) {
+  body {
+    margin-left: 10%;
+  }
+}
+
+/* Header */
+
+.cover {
+  position: absolute;
+  width: 100vw;
+  height: 300px;
+  object-fit: cover;
+  object-position: center -23vw;
+  top: 0;
+  left: 0;
+}
+
+header {
+  margin-top: 200px;
+  font-family: sans-serif;
+}
+
+hgroup h1 {
+  font-size: 3em;
+  line-height: 1.3;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 10;
+  color: white;
+}
+
+hgroup p {
+  opacity: 0.7;
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-top: 0;
+  font-style: italic;
+}
+
+header > p {
+  font-size: 0.9em;
+  margin-top: 5em;
+}
+
+header a {
+  color: currentcolor;
+}
+
+.right {
+  float: right;
+  text-align: right;
+}
+
+.left { float: left }
+.clearfix { clear: both }
+
+/* Typography */
+
+h2 {
+  margin-top: 3em;
+  font-size: 2.1em;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.4em;
+}
+
+h4 {
+  font-size: 1.2em;
+  margin-bottom: 0.2em;
+}
+
+p, table {
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+blockquote, table {
+  margin-inline-start: var(--space);
+}
+
+/* Tables */
+
+table { width: fit-content }
+table tr { border: none }
+
+table td,
+table th {
+  border: none;
+  padding: 0;
+  padding-right: calc(1.5 * var(--space));
+  vertical-align: top;
+}
+
+/* Some table-specific typography */
+td em, td i { opacity: 0.8 }
+td i { font-style: normal }
+
+/* Quirky tables */
+
+.tabular, .phonetics, .words {
+  margin-inline-start: 0;
+  width: 100%;
+}
+
+.tabular td,
+.tabular th,
+.words td,
+.words th {
+  border: 1px solid currentcolor;
+  padding: calc(0.1 * var(--space)) calc(0.2 * var(--space));
+}
+
+.phonetics thead tr:nth-child(2) {
+  font-size: 0.8em;
+}
+
+.phonetics thead tr:nth-child(2) th {
+  padding-bottom: 0.6em;
+}
+
+.pronouns tr:last-child td {
+  padding-top: 0.6em;
+}
+
+.words td {
+  width: 33.33%;
+}
+
+/* Figures */
+
+figcaption {
+  font-size: 0.8em;
+  text-align: center;
+  margin-top: 1em;
+}
+
+/* Atoms */
+
+.dfn {
+  display: block;
+  margin-inline-start: 1em;
+}
+
+.roles {
+  width: max-content;
+  padding-bottom: 1em;
+}
+
+.roles span {
+  background: #d9d9d9;
+  color: black;
+  position: relative;
+}
+
+.roles span::before {
+  background: Canvas;
+  color: CanvasText;
+  position: absolute;
+  top: 1.5em;
+}
+
+.agent::before { content: "(agent)" }
+.patient::before { content: "(patient)" }
+.benefactive::before { content: "(benefactive)" }
+.instrument::before { content: "(instrument)" }
+.locative::before { content: "(locative)" }
+
+.source {
+  margin-inline-start: 0;
+  color: #8e7cc3;
+}
+
+span.source::before { content: "(" }
+span.source::after { content: ")" }
+
+.important {
+  display: block;
+  font-family: sans-serif;
+  font-size: 2em;
+  margin-top: 4em;
+}
+
+/* Greek letter sizing */
+
+p .sigma {
+  font-size: 0.65em;
+  font-weight: 500;
+}
+
+p .theta {
+  font-size: 0.75em;
+}

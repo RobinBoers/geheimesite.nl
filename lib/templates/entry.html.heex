@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang={@language}>
+  <head>
+    <.head {assigns} />
+    <style>
+      .h-entry > hgroup time {
+        opacity: .6;
+      }
+
+      .h-entry > footer .reply-by-email {
+        text-align: center;
+        margin-top: 4em;
+        margin-bottom: 0;
+      }
+
+      .h-entry > footer .reply-by-email a {
+        color: #ffffff;
+        background: #f43f5e;
+        border: none;
+        padding: .5em 1em;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <.nav {assigns} />
+
+    <main>
+      <article class="h-entry">
+        <hgroup>
+          <h1 class="p-name">{@title}</h1>
+          <p>
+            <time class="dt-published" datetime={Date.to_iso8601(@date)}>
+              {Calendar.strftime(@date, "%b %d, %Y")}
+            </time>
+          </p>
+        </hgroup>
+
+        <div class="p-summary e-content">
+          {@inner_content}
+        </div>
+
+        <footer>
+          <p class="reply-by-email">
+            <a href={"/contact?subject=RE: #{@title}"}>Reply by email</a>
+          </p>
+        </footer>
+      </article>
+    </main>
+
+    <footer>
+      <.footer />
+    </footer>
+  </body>
+</html>

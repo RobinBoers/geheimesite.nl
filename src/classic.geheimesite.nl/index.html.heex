@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <.head title="The Archives" root {assigns} />
+
+    <style>
+      body {
+        max-width: 750px;
+        padding: 7px;
+        margin: 4em auto;
+        min-height: fit-content;
+      }
+
+      details > summary {
+        list-style: none;
+      }
+      summary::-webkit-details-marker,
+      summary::marker {
+        display: none;
+      }
+      summary::after {
+        content: " ⏴";
+      }
+      details[open] summary:after {
+        content: " ⏷";
+      }
+      summary a,
+      li > a:first-child {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <.embed name="classic.html" />
+  </body>
+</html>

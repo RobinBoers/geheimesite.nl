@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <.head {assigns} />
+
+    <style>
+      .h-feed {
+        padding: 0;
+        list-style: none;
+      }
+
+      @media (min-width: 900px) {
+        /* When updating, don't forget the rule in main.css too */
+        .h-feed {
+          margin-left: 1.25em;
+        }
+      }
+
+      .h-entry a {
+        line-height: 1.8;
+        text-decoration-color:;
+      }
+
+      .favorite {
+        position: relative;
+
+        &::before {
+          content: "★";
+          position: absolute;
+          left: -1.5em;
+        }
+      }
+
+      hgroup > span {
+        display: flex;
+        gap: 1em;
+        align-items: flex-end;
+      }
+    </style>
+  </head>
+  <body>
+    <.nav {assigns} />
+
+    <main>
+      <hgroup>
+        <span>
+          <h1>{Application.fetch_env!(:vygotsky, :blog, :title)}</h1>
+          <a class="subscribe-button" href="/rss">Subscribe</a>
+        </span>
+        <p>{Application.fetch_env!(:vygotsky, :blog, :bio)}</p>
+      </hgroup>
+
+      <%!-- <.feed format="table" /> --%>
+    </main>
+
+    <footer>
+      <.footer />
+    </footer>
+  </body>
+</html>
