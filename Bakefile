@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+SRC=src
+DIST=dist
+
+build() {
+  mix compile
+}
+
+setup() {
+  mix deps.get
+  mix deps.compile
+}
+
+format() {
+  mix format
+}
+
+clean() {
+  mix clean
+  rm -rf $DIST
+}
