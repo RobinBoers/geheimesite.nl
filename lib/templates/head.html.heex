@@ -1,5 +1,5 @@
 <.meta />
 
-<link rel="canonical" href={"//#{@host}#{unless @root, do: String.replace(@path_info, ".html", "")}"} />
+<link rel="canonical" href={"//#{@host}#{unless assigns[:root], do: Path.rootname(@path, ".html.heex")}"} />
 <link rel="license" href="//creativecommons.org/publicdomain/zero/1.0/" />
-<link rel="stylesheet" href="/#{@stylesheet}" type="text/css" />
+<link rel="stylesheet" href={Map.get(assigns, :stylesheet, "/main.css")} type="text/css" />

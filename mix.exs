@@ -1,4 +1,4 @@
-defmodule Vygotsky.Mix do
+defmodule Vygotsky.MixProject do
   use Mix.Project
 
   def project do

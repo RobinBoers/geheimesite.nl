@@ -115,9 +115,7 @@
       <h2 id="about">About me</h2>
 
       <p>
-        Hi, I'm <span class="p-name">Robin</span> (<span class="p-pronouns"
-          >he/him</span
-        >), also known as <i class="p-nickname">axcelott</i> online. I'm a 18yo
+        Hi, I'm <span class="p-name">Robin</span> (<span class="p-pronouns">he/him</span>), also known as <i class="p-nickname">axcelott</i> online. I'm a 18yo
         teenager from <span class="p-locality">Maassluis</span> in the
         <span class="p-country-name">Netherlands</span>. As everyone says these
         days, this is my little corner of the vast internet.
@@ -127,16 +125,11 @@
         I currently work as as
         <span class="p-job-title">Full-stack developer</span> at
         <span class="p-org h-card">
-          <a class="p-name u-url" href="//qdentity.nl" hreflang="nl"
-            >Qdentity</a
-          >
+          <a class="p-name u-url" href="//qdentity.nl" hreflang="nl">Qdentity</a>
         </span>
         and as <span class="p-job-title">Sysadmin & lead developer</span> at
         <span class="p-org h-card">
-          <a class="p-name u-url" href="//maakotheek.nl" hreflang="nl"
-            >Maakotheek</a
-          ></span
-        >. I'm studying Educational Sciences at Utrecht University.
+          <a class="p-name u-url" href="//maakotheek.nl" hreflang="nl">Maakotheek</a></span>. I'm studying Educational Sciences at Utrecht University.
       </p>
 
       <p>
@@ -248,7 +241,7 @@
 
         <h3>work, art</h3>
 
-        <ul>
+        <ul phx-no-curly-interpolation>
           <.la href="//git.dupunkto.org">Code</.la>
           <.la href="/projects">Projects</.la>
           <.la href="//dupunkto.org">{du}punkto</.la>
@@ -284,7 +277,7 @@
           <.icon name="gh.svg" />
 
           Source code for this site is licensed AGPLv3.
-          <a href="https://github.com/RobinBoers/geheimesite.nl/blob/trunk/src/index.html">Edit this page on GitHub</a>.
+          <a href={"#{config!(:repo)}/blob/trunk/src/#{@host}/#{@path}.heex"}>Edit this page on GitHub</a>.
         </p>
 
         <p class="elixir">
@@ -293,8 +286,7 @@
           Built using Vygotsky {Application.spec(:vygotsky, :vsn)}. Last deployed at
           <time datetime={DateTime.to_iso8601(@now)}>{Calendar.strftime(@now, "%b %d, %Y")}</time> from
           Maassluis, the Netherlands.
-          <a href="//github.com/RobinBoers/geheimesite.nl/commit/$(git rev-parse HEAD)">
-            See changes in <code>{Vygotsky.sh("git rev-parse --short HEAD")}</code></a>.
+          <a href={"#{config!(:repo)}/commit/#{sh!("git rev-parse HEAD")}"}>See changes in <code>{sh!("git rev-parse --short HEAD")}</code></a>.
         </p>
       </small>
 

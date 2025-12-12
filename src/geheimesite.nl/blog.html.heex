@@ -44,10 +44,10 @@
     <main>
       <hgroup>
         <span>
-          <h1>{Application.fetch_env!(:vygotsky, :blog, :title)}</h1>
+          <h1>{config!(:blog, :title)}</h1>
           <a class="subscribe-button" href="/rss">Subscribe</a>
         </span>
-        <p>{Application.fetch_env!(:vygotsky, :blog, :bio)}</p>
+        <p>{config!(:blog, :description)}</p>
       </hgroup>
 
       <%!-- <.feed format="table" /> --%>
