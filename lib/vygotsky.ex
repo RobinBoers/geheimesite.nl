@@ -19,6 +19,8 @@ defmodule Vygotsky do
 
         File.mkdir_p!(@dist)
 
+        IO.puts("==> Compiling #{@host}")
+
         @everything __DIR__ <> "/**/*" 
         @hash :erlang.md5(Path.wildcard(@everything))
 
