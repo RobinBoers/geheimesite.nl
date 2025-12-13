@@ -23,6 +23,13 @@ defmodule VEEx do
     ]
   ]
 
+  @doc false
+  defmacro context do
+    quote do
+      %{host: @host, now: DateTime.utc_now(), language: config!(:language)}
+    end
+  end
+
   @doc """
   Renders a template from disk.
 
@@ -72,15 +79,19 @@ defmodule VEEx do
         )
 
       path = "/" <> Path.relative_to(unquote(path), __DIR__)
-      defaults = %{host: @host, path: path, now: DateTime.utc_now(), language: config!(:language)}
-      assigns =  Map.merge(defaults, frontmatter)
+
+      assigns = 
+        unquote(__MODULE__).context()
+        |> Map.put(:path, path)
+        |> Map.merge(frontmatter)
+
       {rendered, _} = Code.eval_quoted(quoted, [assigns: assigns], __ENV__)
       content = Phoenix.HTML.Safe.to_iodata(rendered)
 
       if layout = unquote(opts)[:layout] do
         unquote(__MODULE__).render_layout!(layout, content, assigns)
       else
-        content
+        unquote(__MODULE__).replace_shortcodes(content)
       end
     end
   end
@@ -102,11 +113,14 @@ defmodule VEEx do
   """
   defmacro render_layout!(layout, content, assigns) do
     quote do
-      defaults = %{host: @host, now: DateTime.utc_now(), language: config!(:language)}
-      assigns = defaults |> Map.merge(unquote(assigns)) |> Map.put(:inner_content, raw(unquote(content)))
-      rendered = apply(Vygotsky, unquote(layout), [assigns])
+      assigns =
+        unquote(__MODULE__).context()
+        |> Map.merge(unquote(assigns))
+        |> Map.put(:inner_content, raw(unquote(content)))
 
-      Phoenix.HTML.Safe.to_iodata(rendered)
+      apply(Vygotsky, unquote(layout), [assigns])
+      |> Phoenix.HTML.Safe.to_iodata()
+      |> unquote(__MODULE__).replace_shortcodes()
     end
   end
 
@@ -135,5 +149,19 @@ defmodule VEEx do
       "<pre" <> _ = part -> part
       part -> HtmlEntities.decode(part)
     end)
+  end
+
+  @doc false
+  def replace_shortcodes(content) when is_list(content) do
+    content |> IO.iodata_to_binary() |> replace_shortcodes()
+  end
+
+  @shortcodes Vygotsky.config!(:shortcodes)
+
+  @doc false
+  def replace_shortcodes(content) when is_binary(content) do
+    for {find, replace} <- @shortcodes, reduce: content do
+      content -> String.replace(content, find, replace)
+    end
   end
 end

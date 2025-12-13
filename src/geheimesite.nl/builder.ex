@@ -16,6 +16,11 @@ defmodule Personal do
     File.write!(@dest, VEEx.render_template!(path, layout: :article))
   end
 
+  for path <- glob("*.txt") do
+    @external_resource path
+    File.cp!(path, Path.join(@dist, output(path)))
+  end
+
   @dist |> Path.join("blog") |> File.mkdir_p!()
 
   for entry <- Blog.list_posts() do
