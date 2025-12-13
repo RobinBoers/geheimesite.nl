@@ -9,14 +9,14 @@ Kennen jullie Somtoday? Voor de mensen die het niet kennen: het is een leerlingv
 Som is noice. Je kan er je cijfers, huiswerk en leermiddelen zien. Maar ik zie ook een aantal verbeterpuntjes. Somtoday heeft voor de docenten een uitgebreid dashboard waarin ze het huiswerk kunnen inplannen, cijfers kunnen invoeren, absenties kunnen bijhouden etc.
 
 <figure>
-  <img src="https://cdn.geheimesite.nl/images/blog/somtoday-docent.png" alt="">
+  <img src="//cdn.geheimesite.nl/images/blog/somtoday-docent.png" alt="">
   <figcaption>Somtoday Docent: een mooie moderne Angular app</figcaption>
 </figure>
 
 Maar leerlingen en ouders zien deze website uit het jaar 1900. Oke, dat is misschien een beetje overdreven, maar het doet me wel serieus denken aan websites uit 2000.
 
 <figure>
-  <img src="https://cdn.geheimesite.nl/images/blog/somtoday-leerling.png" alt="">
+  <img src="//cdn.geheimesite.nl/images/blog/somtoday-leerling.png" alt="">
   <figcaption>Somtoday voor leerlingen en ouders: een site die eruitziet alsof hij uit een tijdmachine komt</figcaption>
 </figure>
 
@@ -30,7 +30,7 @@ Er zijn heel veel dingen die me irriteren aan dit ontwerp. Om er een paar te noe
 Zoals mijn lezers waarschijnlijk weten ben ik een webdesign freak die weet hoe CSS werkt. Dus heb ik een userstyle geschreven die je kan installeren om het leerling/ouderpaneel iets beter te maken. Het is gebaseerd op de look van Somtoday Docent, en ziet er zo uit:
 
 <figure>
-  <img src="https://cdn.geheimesite.nl/images/blog/somtoday-verbeterd.png" alt="">
+  <img src="//cdn.geheimesite.nl/images/blog/somtoday-verbeterd.png" alt="">
   <figcaption>Verbeterde versie van Somtoday voor leerlingen en ouders</figcaption>
 </figure>
 

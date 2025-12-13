@@ -33,7 +33,7 @@ Als je dingen naar je eigen site post is dit probleem er niet. Met een eigen dom
 
 Hoe vaak ben je niet op een website gekomen die ongeveer zo in elkaar zat: logo en menu bovenin, grote slogan en dan een felgekleurde knop waar ze willen dat je op klikt.
 
-![Voorbeelden van deze layout. Het is overused.](https://cdn.geheimesite.nl/images/blog/basic-cta-webdesign-examples.jpg)
+![Voorbeelden van deze layout. Het is overused.](//cdn.geheimesite.nl/images/blog/basic-cta-webdesign-examples.jpg)
 
 Dit is weer een symptoom van het willen geld verdienen met het internet. En ook bedrijven met betaalde producten hebben vaak dit soort pages. Het doel is om jou zo snel mogelijk op de gekleurde knop te laten klikken voor je weer wegklikt naar een andere site — en het werkt.
 

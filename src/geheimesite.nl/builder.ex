@@ -21,6 +21,10 @@ defmodule Personal do
     File.cp!(path, Path.join(@dist, output(path)))
   end
 
+  for build <- CDN.stylesheets() do
+    File.cp!(build, Path.join([@dist, output(build)]))
+  end
+
   @dist |> Path.join("blog") |> File.mkdir_p!()
 
   for entry <- Blog.list_posts() do
