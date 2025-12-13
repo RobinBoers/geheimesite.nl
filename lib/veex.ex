@@ -6,35 +6,58 @@ defmodule VEEx do
 
   import Phoenix.HTML
 
+  @opts [
+    extension: [
+      strikethrough: true,
+      tagfilter: true,
+      table: true,
+      tasklist: true,
+      footnotes: true,
+      shortcodes: true
+    ],
+    parse: [
+      relaxed_tasklist_matching: true
+    ],
+    render: [
+      unsafe_: true
+    ]
+  ]
+
+  @doc """
+  Renders a template from disk.
+
+  - `.html.heex` is parsed as HTML.
+  - `.md.heex` is parsed as Markdown.
+
+  ## Options
+
+  - `:layout`, renders the template within the given
+    layout (see `Vygotsky`), using `render_layout!/3`.
+
+  - `:braces`, if `false`, wraps the entire template with
+    the `phx-no-curly-interpolation` attribute.
+
+  """
   defmacro render_template!(path, opts) do
     quote do
       source = File.read!(unquote(path))
 
-      mdex_opts = [
-        extension: [
-          strikethrough: true,
-          tagfilter: true,
-          table: true,
-          tasklist: true,
-          footnotes: true,
-          shortcodes: true
-        ],
-        parse: [
-          relaxed_tasklist_matching: true
-        ],
-        render: [
-          unsafe_: true
-        ]
-      ]
-
-      {frontmatter, source} = unquote(__MODULE__).parse(source)
+      {frontmatter, source} =
+        unquote(__MODULE__).parse_frontmatter(source)
 
       source =
-        if String.ends_with?(unquote(path), ".md.heex") do
+        if String.contains?(unquote(path), ".md") do
           source
-          |> MDEx.to_html!(mdex_opts)
-          |> unquote(__MODULE__).unescape()
+          |> MDEx.to_html!(unquote(@opts))
+          |> unquote(__MODULE__).unescape_markdown()
           |> IO.iodata_to_binary()
+        else
+          source
+        end
+
+      source =
+        if unquote(opts)[:braces] == false do
+          "<div phx-no-curly-interpolation>#{source}</div>"
         else
           source
         end
@@ -55,24 +78,49 @@ defmodule VEEx do
       content = Phoenix.HTML.Safe.to_iodata(rendered)
 
       if layout = unquote(opts)[:layout] do
-        assigns
-        |> Map.put(:inner_content, raw(content))
-        |> layout.()
-        |> Phoenix.HTML.Safe.to_iodata()
+        unquote(__MODULE__).render_layout!(layout, content, assigns)
       else
         content
       end
     end
   end
 
+  @doc """
+  Same as `render_template!/1`, but with defaults.
+  """
   defmacro render_template!(path) do
     quote do
       unquote(__MODULE__).render_template!(unquote(path), [])
     end
   end
 
+  @doc """
+  Renders a layout.
+
+  A layout is a component function in `Vygotsky`, typically
+  from the `layouts` directory, taking an `inner_content` assign.
+  """
+  defmacro render_layout!(layout, content, assigns) do
+    quote do
+      defaults = %{host: @host, now: DateTime.utc_now(), language: config!(:language)}
+      assigns = defaults |> Map.merge(unquote(assigns)) |> Map.put(:inner_content, raw(unquote(content)))
+      rendered = apply(Vygotsky, unquote(layout), [assigns])
+
+      Phoenix.HTML.Safe.to_iodata(rendered)
+    end
+  end
+
+  @doc """
+  Same as `render_layout!/3`, but with defaults.
+  """
+  defmacro render_layout!(layout, content) do
+    quote do
+      unquote(__MODULE__).render_layout!(unquote(layout), unquote(content), %{})
+    end
+  end
+
   @doc false
-  def parse(content) do
+  def parse_frontmatter(content) do
     case Regex.run(~r/^---\n(.*?)\n---\n(.*)$/s, content) do
       [_, yaml, rest] -> {YAML.parse!(yaml), rest}
       _ -> {%{}, content}
@@ -80,7 +128,7 @@ defmodule VEEx do
   end
 
   @doc false
-  def unescape(content) do
+  def unescape_markdown(content) do
     ~r/(<pre.*?<\/pre>)/s
     |> Regex.split(content, include_captures: true)
     |> Enum.map_join(fn

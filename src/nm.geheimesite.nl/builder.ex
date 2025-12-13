@@ -5,9 +5,7 @@ defmodule Netmap do
   for path <- glob("*.html.heex") do
     @external_resource path
 
-    @rendered VEEx.render_template!(path)
-    @dest Path.join(@dist, Path.basename(path, ".heex"))
-
-    File.write!(@dest, @rendered)
+    @dest Path.join(@dist, output(path))
+    File.write!(@dest, VEEx.render_template!(path))
   end
 end

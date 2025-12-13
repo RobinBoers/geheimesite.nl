@@ -5,18 +5,21 @@ defmodule Personal do
   for path <- glob("*.html.heex") do
     @external_resource path
 
-    @rendered VEEx.render_template!(path)
-    @dest Path.join(@dist, Path.basename(path, ".heex"))
-
-    File.write!(@dest, @rendered)
+    @dest Path.join(@dist, output(path))
+    File.write!(@dest, VEEx.render_template!(path))
   end
 
   for path <- glob("*.md.heex") do
     @external_resource path
 
-    @markdown VEEx.render_template!(path, layout: &article/1)
-    @dest Path.join(@dist, Path.basename(path, ".md.heex") <> ".html")
+    @dest Path.join(@dist, output(path))
+    File.write!(@dest, VEEx.render_template!(path, layout: :article))
+  end
 
-    File.write!(@dest, @markdown)
+  @dist |> Path.join("blog") |> File.mkdir_p!()
+
+  for entry <- Blog.list_posts() do
+    @dest Path.join([@dist, entry.path])
+    File.write!(@dest, VEEx.render_layout!(:entry, entry.content, entry))
   end
 end

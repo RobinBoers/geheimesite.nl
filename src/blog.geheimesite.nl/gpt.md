@@ -45,9 +45,8 @@ ChatGPT and similar models are not a threat to writing. Instead, they are merely
     </li>
     <li>
       While not really related to this topic, the
-      <a href="//thesephist.com/posts/latent/"
-        >post I quoted from Linus</a
-      >
+      <a href="//thesephist.com/posts/latent/">
+        post I quoted from Linus</a>
       is great and you should definitely read it!
     </li>
   </ul>

@@ -50,7 +50,28 @@
         <p>{config!(:blog, :description)}</p>
       </hgroup>
 
-      <%!-- <.feed format="table" /> --%>
+      <table class="h-feed">
+        <thead>
+          <tr>
+            <th class="p-name">Post<span hidden="">s</span></th>
+            <th>Published</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr :for={entry <- Blog.list_posts()} :if={not entry.rss_only} class="h-entry">
+            <td class="p-title">
+              <a class="u-url" href={canonical(entry.path)}>
+                {entry.title}
+              </a>
+            </td>
+            <td>
+              <time class="dt-published" datetime={Date.to_iso8601(entry.date)}>
+                {Calendar.strftime(entry.date, "%b %d, %Y")}
+              </time>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </main>
 
     <footer>

@@ -5,8 +5,8 @@ favorite: true
 ---
 
 <section class="box">
-<p>This is my argumentative essay for the writing assignment of 6VWO. Although I've already written about this topic <a href="/blog/gpt">at</a> <a href="/blog/gpt-again">length</a> on this blog, I wanted to upload this anyway. I'm proud, and I think it also introduces some fresh perspectives.</p>
-<p>Anyway, enjoy!</p>
+  <p>This is my argumentative essay for the writing assignment of 6VWO. Although I've already written about this topic <a href="/blog/gpt">at</a> <a href="/blog/gpt-again">length</a> on this blog, I wanted to upload this anyway. I'm proud, and I think it also introduces some fresh perspectives.</p>
+  <p>Anyway, enjoy!</p>
 </section>
 
 A little more than two years ago, ChatGPT was released to the general public (Schulman et al., 2022). Since then, the chatbot has skyrocketed in popularity, being particularly popular among students. In the U.S., 26% of teens aged 13 to 17 use it for their schoolwork, as reported by Sidoti et al. (2025). Furthermore, according to a survey conducted among the students and personnel of Utrecht University, 80% of students have tried the chatbot at least once, with 31% of students reporting they use it several times a week (Hesselink, 2024). The introduction and rapid growth of this new technology raises questions regarding its ethics and use in educational contexts. The use of generative AI in high school should be banned entirely, as it is unreliable, untrustworthy and forms a severe threat for the development of cognitive abilities.
@@ -21,4 +21,4 @@ In conclusion, language models underpinning chatbots like ChatGPT are based on t
 
 #### Reference list
 
-$(cite ai-education.bib)
+<.cite refs="ai-education.bib" />

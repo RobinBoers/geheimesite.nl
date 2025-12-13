@@ -18,7 +18,7 @@ defmodule Vygotsky do
         import Vygotsky.CoreComponents
 
         @host __DIR__ |> Path.split() |> List.last()
-        @dist Path.join(File.cwd!(), "dist/#{@host}")
+        @dist Path.join([File.cwd!(), "dist", @host])
 
         File.mkdir_p!(@dist)
 
@@ -37,6 +37,7 @@ defmodule Vygotsky do
   use Phoenix.Component
   import Phoenix.HTML
 
+  embed_templates "layouts/*"
   embed_templates "templates/*"
 
   @icons Application.app_dir(:vygotsky, "priv/icons/*.svg")
@@ -121,5 +122,39 @@ defmodule Vygotsky do
       |> Path.join()
       |> Path.wildcard()
     end
+  end
+
+  def canonical(path) do
+    path
+    |> output(basename: false)
+    |> ensure_prefix("/")
+    |> strip_suffix(".html")
+  end
+
+  def output(path, opts \\ []) do
+    rootname =
+      cond do
+        String.ends_with?(path, ".heex") -> path |> Path.rootname(".heex") |> output()
+        String.ends_with?(path, ".md") -> Path.rootname(path, ".md") <> ".html"
+        String.ends_with?(path, ".html") -> path
+      end
+
+    if Keyword.get(opts, :basename, true) do
+      Path.basename(rootname)
+    else
+      rootname
+    end
+  end
+
+  defp ensure_prefix(str, prefix) do
+    if String.starts_with?(str, prefix) do
+      str
+    else
+      prefix <> str
+    end
+  end
+
+  defp strip_suffix(str, suffix) do
+    String.replace_suffix(str, suffix, "")
   end
 end

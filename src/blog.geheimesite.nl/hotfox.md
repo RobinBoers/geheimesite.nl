@@ -36,52 +36,37 @@ It's available in the Mozilla Add-ons store, if you'd like to try it:
 
 <aside class="box">
   <h2>FAQ</h2>
-
   <dl>
     <dt>Why the name?</dt>
     <dd>
       Fire is hot; idk it just sounded cool. There's not really a
       reason.
     </dd>
-
     <dt>
       Why build a new extension when
-      <a href="//addons.mozilla.org/en-US/firefox/addon/rsspreview/">
-        it</a
-      >
-      <a href="//addons.mozilla.org/en-US/firefox/addon/awesome-rss/">
-        already</a
-      >
-      <a href="//addons.mozilla.org/en-US/firefox/addon/want-my-rss/">
-        exists</a
-      >?
+      <a href="//addons.mozilla.org/en-US/firefox/addon/rsspreview/">it</a>
+      <a href="//addons.mozilla.org/en-US/firefox/addon/awesome-rss/">already</a>
+      <a href="//addons.mozilla.org/en-US/firefox/addon/want-my-rss/">exists</a>?
     </dt>
     <dd>
       Because this seemed like a fun project to learn something about
       developing browser extensions.
     </dd>
-
     <dt>Will there be a Chrome version?</dt>
     <dd>
       No. I don't use Chrome myself;
-      <a
-        href="/monocultuur-op-de-browsermarkt">
-        I don't like Google's attitude</a
-      >.<br />
+      <a href="/monocultuur-op-de-browsermarkt">
+        I don't like Google's attitude</a>.<br />
       But kudos to them--they
-      <a
-        href="//www.ghacks.net/2022/08/22/google-chrome-is-getting-an-rss-feed-reader-on-desktop/">
+      <a href="//www.ghacks.net/2022/08/22/google-chrome-is-getting-an-rss-feed-reader-on-desktop/">
         got it built in.
       </a>
     </dd>
-
     <dt>Where can I get it?</dt>
     <dd>
       On the
-      <a
-        href="//addons.mozilla.org/en-US/firefox/addon/hotfox-for-rss/">
-        Mozilla Add-ons store</a
-      >.
+      <a href="//addons.mozilla.org/en-US/firefox/addon/hotfox-for-rss/">
+        Mozilla Add-ons store</a>.
     </dd>
   </dl>
 </aside>
