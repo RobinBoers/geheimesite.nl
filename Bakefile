@@ -10,6 +10,7 @@ build() {
 setup() {
   mix deps.get
   mix deps.compile
+  bun install
 }
 
 format() {

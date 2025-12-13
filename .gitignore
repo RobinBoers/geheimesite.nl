@@ -1,4 +1,5 @@
-_*
+node_modules
 dist
-refs/*.csl
+_deps
+_build
 erl_crash.dump
