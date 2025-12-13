@@ -23,7 +23,9 @@ defmodule Vygotsky.MixProject do
 
   defp deps do
     [
-      {:earmark, "~> 1.4"},
+      {:mdex, "~> 0.10.0"},
+      {:html_entities, "~> 0.5.2"},
+      {:yaml_elixir, "~> 2.12"},
       {:phoenix_live_view, "~> 1.1"}
     ]
   end

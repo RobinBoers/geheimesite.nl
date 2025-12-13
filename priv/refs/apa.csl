@@ -1688,7 +1688,7 @@
       <else-if variable="URL">
         <group delimiter=" ">
           <choose>
-            <if variable="issued status" match="none">
+            <if variable="accessed">
               <group delimiter=" ">
                 <text term="retrieved" text-case="capitalize-first"/>
                 <date variable="accessed" form="text" suffix=","/>
@@ -1698,6 +1698,23 @@
           </choose>
           <text variable="URL"/>
         </group>
+      </else-if>
+    </choose>
+  </macro>
+  <macro name="archived">
+    <choose>
+      <if variable="note">
+        <text variable="note" prefix="(ARCHIVED:" suffix=")"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="isbn-issn">
+    <choose>
+      <if variable="ISBN">
+        <text variable="ISBN" prefix="ISBN: "/>
+      </if>
+      <else-if variable="ISSN">
+        <text variable="ISSN" prefix="ISSN: "/>
       </else-if>
     </choose>
   </macro>
@@ -2122,8 +2139,10 @@
               <text macro="container"/>
               <text macro="event"/>
               <text macro="publisher"/>
+              <text macro="isbn-issn"/>
             </group>
             <text macro="access"/>
+            <text macro="archived"/>
             <text macro="publication-history"/>
           </group>
         </else>

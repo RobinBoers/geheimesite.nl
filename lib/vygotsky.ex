@@ -8,11 +8,11 @@ defmodule Vygotsky do
       quote do
         use Phoenix.Component
 
-        require HEEx
+        require VEEx
         require BibTeX
 
         import Vygotsky
-        import Components
+        import Vygotsky.CoreComponents
 
         @host __DIR__ |> Path.split() |> List.last()
         @dist Path.join(File.cwd!(), "dist/#{@host}")
@@ -109,6 +109,14 @@ defmodule Vygotsky do
     case System.cmd(cmd, args) do
       {output, 0} -> output
       {error, _} -> raise "#{cmd}: #{error}"
+    end
+  end
+
+  defmacro glob(path) do
+    quote do
+      [__DIR__, unquote(path)]
+      |> Path.join()
+      |> Path.wildcard()
     end
   end
 end

@@ -28,10 +28,11 @@ defmodule BibTeX do
     |> use_paragraphs_start()
     |> use_paragraphs_end()
     |> replace_italics()
+    |> replace_archived()
   end
 
   defp remove_container_start(html) do
-    Regex.replace(~r/<div[^>]*id="refs"[^>]*>.*?<\/div>/s, html, "")
+    Regex.replace(~r/<div[^>]*id="refs"[^>]*>/, html, "")
   end
 
   defp remove_list_role(html) do
@@ -54,5 +55,11 @@ defmodule BibTeX do
     html
     |> String.replace("<em>", "<i>")
     |> String.replace("</em>", "</i>")
+  end
+
+  defp replace_archived(html) do
+    Regex.replace(~r/\(ARCHIVED:([^)]+)\)/, html, fn _, url ->
+      ~s|(<a href="#{url}">archived</a>)|
+    end)
   end
 end

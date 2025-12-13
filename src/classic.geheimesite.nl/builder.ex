@@ -2,12 +2,10 @@ defmodule Classic do
   @moduledoc false
   use Vygotsky.Builder
 
-  @glob __DIR__ <> "/*.html.heex"
-
-  for path <- Path.wildcard(@glob) do
+  for path <- glob("*.html.heex") do
     @external_resource path
 
-    @rendered HEEx.render_template!(path, %{host: @host})
+    @rendered VEEx.render_template!(path)
     @dest Path.join(@dist, Path.basename(path, ".heex"))
 
     File.write!(@dest, @rendered)

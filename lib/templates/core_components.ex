@@ -1,4 +1,4 @@
-defmodule Components do
+defmodule Vygotsky.CoreComponents do
   @moduledoc false
   use Phoenix.Component
 
