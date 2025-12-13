@@ -91,7 +91,9 @@ defmodule VEEx do
       if layout = unquote(opts)[:layout] do
         unquote(__MODULE__).render_layout!(layout, content, assigns)
       else
-        unquote(__MODULE__).replace_shortcodes(content)
+        content
+        |> unquote(__MODULE__).replace_shortcodes()
+        |> unquote(__MODULE__).canonicalize_urls()
       end
     end
   end
@@ -121,6 +123,7 @@ defmodule VEEx do
       apply(Vygotsky, unquote(layout), [assigns])
       |> Phoenix.HTML.Safe.to_iodata()
       |> unquote(__MODULE__).replace_shortcodes()
+      |> unquote(__MODULE__).canonicalize_urls()
     end
   end
 
@@ -163,5 +166,15 @@ defmodule VEEx do
     for {find, replace} <- @shortcodes, reduce: content do
       content -> String.replace(content, find, replace)
     end
+  end
+
+  @doc false
+  def canonicalize_urls(content) when is_list(content) do
+    content |> IO.iodata_to_binary() |> canonicalize_urls()
+  end
+
+  @doc false
+  def canonicalize_urls(content) when is_binary(content) do
+    String.replace(content, "=\"//", "=\"https://")
   end
 end
