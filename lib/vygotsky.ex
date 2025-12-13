@@ -1,6 +1,9 @@
 defmodule Vygotsky do
   @moduledoc false
 
+  @version Mix.Project.config()[:version]
+  def version, do: @version
+
   defmodule Builder do
     @moduledoc false
 
@@ -107,7 +110,7 @@ defmodule Vygotsky do
 
   def sh!(cmd, args) do
     case System.cmd(cmd, args) do
-      {output, 0} -> output
+      {output, 0} -> String.trim(output)
       {error, _} -> raise "#{cmd}: #{error}"
     end
   end
