@@ -22,4 +22,7 @@ defmodule Blog do
 
   @posts Enum.sort_by(posts, & &1.date, {:desc, Date})
   def list_posts, do: @posts
+
+  @last_modified @posts |> hd() |> Map.get(:date)
+  def last_modified, do: @last_modified
 end

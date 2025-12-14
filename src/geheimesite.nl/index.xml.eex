@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://<%= @host %>/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title><%= XML.escape(config!(:blog, :title)) %></title>
+    <description><%= XML.escape(config!(:blog, :description)) %></description>
+    <link>https://<%= @host %>/</link>
+    <atom:link href="https://<%= @host %><%= canonical(@path) %>" rel="self" type="application/rss+xml" />
+    <webMaster><%= config!(:author, :email) %> (<%= config!(:author, :name) %>)</webMaster>
+    <copyright><%= XML.escape(config!(:blog, :rights)) %></copyright>
+    <language><%= config!(:language) %></language>
+    <%= for entry <- Blog.list_posts() do %><item>
+      <title><%= XML.escape(entry.title) %></title>
+      <link>https://<%= @host %><%= canonical(entry.path) %></link>
+      <description><%= XML.escape(entry.content) %></description>
+      <pubDate><%= Calendar.strftime(entry.date, "%a, %d %b %Y") %> at 00:00:00</pubDate>
+      <dc:creator><%= config!(:author, :name) %></dc:creator>
+      <guid>https://<%= @host %><%= canonical(entry.path) %></guid>
+    </item>
+<% end %>  </channel>
+</rss>

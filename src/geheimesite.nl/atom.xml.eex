@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="<%= config!(:language) %>">
+  <title><%= XML.escape(config!(:blog, :title)) %></title>
+  <subtitle><%= XML.escape(config!(:blog, :description)) %></subtitle>
+  <link href="https://<%= @host %>/" />
+  <link href="https://<%= @host %><%= canonical(@path) %>" rel="self" type="application/atom+xml" />
+  <updated><%= Blog.last_modified() |> Date.to_iso8601() %></updated>
+  <id>https://<%= @host %>/</id>
+  <author>
+    <name><%= config!(:author, :name) %></name>
+    <name><%= config!(:author, :email) %></name>
+  </author>
+  <%= for entry <- Blog.list_posts() do %><entry>
+    <title><%= XML.escape(entry.title) %></title>
+    <link href="https://<%= @host %><%= canonical(entry.path) %>" />
+    <updated><%= Date.to_iso8601(entry.date) %>T00:00:00Z</updated>
+    <id>https://<%= @host %><%= canonical(entry.path) %></id>
+    <content type="html"><%= XML.escape(entry.content) %></content>
+  </entry>
+<% end %></feed>

@@ -2,7 +2,7 @@ defmodule Personal do
   @moduledoc false
   use Vygotsky.Builder
 
-  for path <- glob("*.html.heex") do
+  for path <- glob("*.{html,xml}.{heex,eex}") do
     @external_resource path
 
     @dest Path.join(@dist, output(path))

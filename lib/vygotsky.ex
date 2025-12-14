@@ -134,9 +134,10 @@ defmodule Vygotsky do
   def output(path, opts \\ []) do
     rootname =
       cond do
+        String.ends_with?(path, ".eex") -> path |> Path.rootname(".eex") |> output()
         String.ends_with?(path, ".heex") -> path |> Path.rootname(".heex") |> output()
         String.ends_with?(path, ".md") -> Path.rootname(path, ".md") <> ".html"
-        Enum.any?(~w(html txt css), &String.ends_with?(path, ".#{&1}")) -> path
+        Enum.any?(~w(html xml txt css), &String.ends_with?(path, ".#{&1}")) -> path
       end
 
     if Keyword.get(opts, :basename, true) do

@@ -70,13 +70,21 @@ defmodule VEEx do
         end
 
       quoted =
-        EEx.compile_string(source,
-          engine: Phoenix.LiveView.TagEngine,
-          file: unquote(path),
-          source: source,
-          tag_handler: Phoenix.LiveView.HTMLEngine,
-          caller: __ENV__
-        )
+        if String.contains?(unquote(path), ".xml") do
+          EEx.compile_string(source,
+            engine: EEx.SmartEngine,
+            file: unquote(path),
+            line: 1
+          )
+        else
+          EEx.compile_string(source,
+            engine: Phoenix.LiveView.TagEngine,
+            file: unquote(path),
+            source: source,
+            tag_handler: Phoenix.LiveView.HTMLEngine,
+            caller: __ENV__
+          )
+        end
 
       path = "/" <> Path.relative_to(unquote(path), __DIR__)
 
@@ -86,7 +94,11 @@ defmodule VEEx do
         |> Map.merge(frontmatter)
 
       {rendered, _} = Code.eval_quoted(quoted, [assigns: assigns], __ENV__)
-      content = Phoenix.HTML.Safe.to_iodata(rendered)
+
+      content =
+        with %Phoenix.LiveView.Rendered{} <- rendered do
+          Phoenix.HTML.Safe.to_iodata(rendered)
+        end
 
       if layout = unquote(opts)[:layout] do
         unquote(__MODULE__).render_layout!(layout, content, assigns)
