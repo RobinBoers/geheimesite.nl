@@ -2,15 +2,29 @@
 
 SRC=src
 DIST=dist
+HOST=geheimesite.nl
+
+export FORMAT="prettier --ignore-path .prettierignore"
+export VALIDATE="vnu --exit-zero-always --filterfile .vnuignore"
+
+setup() {
+  p:step "Fetching dependencies"; mix deps.get >/dev/null && p:done
+  p:step "Compiling dependencies"; mix deps.compile >/dev/null && p:done
+  p:step "Preparing Bun runtime"; bun i >/dev/null && p:done
+}
 
 build() {
   mix compile
 }
 
-setup() {
-  mix deps.get
-  mix deps.compile
-  bun install
+watch() {
+  fswatch src lib priv | while read; do build; done
+}
+
+serve() {
+  build # Perform a full build first
+  export -f $(compgen -A function)
+  spawn "waiter --dev $DIST/$HOST" watch
 }
 
 format() {
@@ -19,5 +33,53 @@ format() {
 
 clean() {
   mix clean
-  rm -rf $DIST
+  rm -rf $DIST results
+  git restore-mtime >/dev/null 2>&1
+}
+
+check() {
+  p:step "Running formatter"
+  $FORMAT --check $DIST --log-level warn && p:great
+
+  p:step "Running validators"
+  $VALIDATE --skip-non-html $DIST && p:great
+  
+  p:step "Running stylelint"
+  stylelint "$SRC/**/*.css" && p:great
+
+  p:step "\nRunning achecker"; printf "\n"
+  achecker $DIST && p:great
+
+  # BLOCKED: htmltest doesn't yet support pretty URLs like I have,
+  # see https://github.com/wjdp/htmltest/issues/183
+
+  # echo
+  # p:step "Running htmltest"
+  # htmltest && p:great
+}
+
+# Helper functions for nice terminal output
+
+p:step() {
+  if [ -z "${RECIPE_SILENT:-}" ]; then
+    printf "$1... "
+  fi
+}
+
+p:great() {
+  p:good "no issues"
+}
+
+p:done() {
+  p:good "done"
+}
+
+p:good() {
+  case "${NO_COLOR:-}" in
+    ""|0)
+      GREEN="\033[1;32m"
+      CLEAR="\033[0m"
+  esac
+
+  printf "${GREEN:-}$1${CLEAR:-}\n"
 }
