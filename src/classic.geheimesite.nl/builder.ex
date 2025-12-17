@@ -6,6 +6,6 @@ defmodule Classic do
     @external_resource path
 
     @dest Path.join(@dist, output(path))
-    File.write!(@dest, VEEx.render_template!(path))
+    outdated?(@dest, path) && File.write!(@dest, VEEx.render_template!(path))
   end
 end

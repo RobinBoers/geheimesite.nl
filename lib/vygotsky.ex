@@ -24,11 +24,11 @@ defmodule Vygotsky do
 
         IO.puts("==> Compiling #{@host}")
 
-        @everything __DIR__ <> "/**/*" 
-        @hash :erlang.md5(Path.wildcard(@everything))
+        @everything __DIR__ <> "/**/*"
+        @count length(Path.wildcard(@everything))
 
         def __mix_recompile__? do
-          :erlang.md5(Path.wildcard(@everything)) != @hash
+          length(Path.wildcard(@everything)) != @count
         end
       end
     end
@@ -84,10 +84,10 @@ defmodule Vygotsky do
   # recompiled if there are new files in `icons` or `shared`.
 
   @priv Application.app_dir(:vygotsky, "priv/**/*")
-  @hash :erlang.md5(Path.wildcard(@priv))
+  @count length(Path.wildcard(@priv))
 
   def __mix_recompile__? do
-    :erlang.md5(Path.wildcard(@priv)) != @hash
+    length(Path.wildcard(@priv)) != @count
   end
 
   # The rest of this file consists of various helpers that can

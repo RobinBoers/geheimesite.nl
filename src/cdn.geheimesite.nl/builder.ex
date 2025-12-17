@@ -7,7 +7,7 @@ defmodule CDN do
       @external_resource path
 
       @dest Path.join(@dist, Path.basename(path))
-      sh!(["postcss", path, "-o", @dest])
+      outdated?(@dest, path) && sh!(["postcss", path, "-o", @dest])
 
       @dest
     end)

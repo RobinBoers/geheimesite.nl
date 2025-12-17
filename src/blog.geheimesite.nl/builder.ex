@@ -9,6 +9,7 @@ defmodule Blog do
       {frontmatter, _} = path |> File.read!() |> VEEx.parse_frontmatter()
 
       %{
+        source: path,
         slug: Path.basename(path, ".md"),
         path: "/blog/#{output(path)}",
         title: Map.fetch!(frontmatter, :title),
