@@ -18,11 +18,12 @@ defmodule Vygotsky.MixProject do
   end
 
   def application do
-    [extra_applications: [:logger]]
+    [extra_applications: [:req, :logger]]
   end
 
   defp deps do
     [
+      {:req, "~> 0.5.16"},
       {:mdex, "~> 0.10.0"},
       {:html_entities, "~> 0.5.2"},
       {:yaml_elixir, "~> 2.12"},

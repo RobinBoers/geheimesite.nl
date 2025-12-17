@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <.head title="Blogroll" {assigns} />
+  </head>
+  <body>
+    <.nav {assigns} />
+
+    <main>
+      <h1>Blogroll</h1>
+
+      <p>
+        This page contains a bunch of links to things I liked reading or watching. Feel free to look around, and if you have a suggestion for something interesting to read or watch, don’t hesitate to drop me an email. You can find my contact details on the homepage. 
+      </p>
+
+      <p>
+        There's also an OPML file containing the RSS feeds that I'm subscribed too:
+      </p>
+
+      <p style="font-size: 0.9em; margin-bottom: 2.5em">
+        <a class="button" style="display: inline" href="/feeds.opml" download>Download</a>
+        <small style="margin-left: 0.5em">(Last updated 2024-08)</small>
+      </p>
+
+      <%=
+        # This is a very bad idea. But so is this enture project.
+        Application.ensure_all_started(:req)
+        
+        "https://api.geheimesite.nl/page?name=blogroll"
+        |> Req.get!()
+        |> then(fn %Req.Response{body: c} -> c end)
+        |> MDEx.to_html!()
+        |> Phoenix.HTML.raw()
+      %>
+    </main>
+
+    <footer>
+      <.footer />
+    </footer>
+  </body>
+</html>

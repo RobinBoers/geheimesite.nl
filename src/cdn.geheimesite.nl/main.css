@@ -96,3 +96,9 @@ section.box, aside.box {
 .box > :last-child {
   margin-bottom: 0;
 }
+
+hr {
+  opacity: 0.15;
+  width: 80%;
+  margin: 2em auto;
+}
