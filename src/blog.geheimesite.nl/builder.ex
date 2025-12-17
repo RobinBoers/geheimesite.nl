@@ -15,7 +15,7 @@ defmodule Blog do
         date: Map.fetch!(frontmatter, :date),
         content: VEEx.render_template!(path, braces: false),
         favorite: Map.get(frontmatter, :favorite, false),
-        rss_only: Map.get(frontmatter, :rss_only, false),
+        rssonly: Map.get(frontmatter, :rssonly, false),
         language: Map.get(frontmatter, :language, "en")
       }
     end

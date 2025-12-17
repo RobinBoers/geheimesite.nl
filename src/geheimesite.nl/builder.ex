@@ -6,29 +6,32 @@ defmodule Personal do
     @external_resource path
 
     @dest Path.join(@dist, output(path))
-    File.write!(@dest, VEEx.render_template!(path))
+    outdated?(@dest, path) && File.write!(@dest, VEEx.render_template!(path))
   end
 
   for path <- glob("*.md.heex") do
     @external_resource path
 
     @dest Path.join(@dist, output(path))
-    File.write!(@dest, VEEx.render_template!(path, layout: :article))
+    outdated?(@dest, path) && File.write!(@dest, VEEx.render_template!(path, layout: :article))
   end
 
   for path <- glob("*.txt") do
     @external_resource path
-    File.cp!(path, Path.join(@dist, output(path)))
+
+    @dest Path.join(@dist, output(path))
+    outdated?(@dest, path) && File.cp!(path, @dest)
   end
 
   for build <- CDN.stylesheets() do
-    File.cp!(build, Path.join([@dist, output(build)]))
+    @dest Path.join(@dist, output(build))
+    outdated?(@dest, build) && File.cp!(build, @dest)
   end
 
   @dist |> Path.join("blog") |> File.mkdir_p!()
 
   for entry <- Blog.list_posts() do
-    @dest Path.join([@dist, entry.path])
+    @dest Path.join(@dist, entry.path)
     File.write!(@dest, VEEx.render_layout!(:entry, entry.content, entry))
   end
 end

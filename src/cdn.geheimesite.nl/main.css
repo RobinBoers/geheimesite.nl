@@ -5,111 +5,29 @@
 
 @import url("punkt.css");
 
-:root {
-  --font-sans: Inter, -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
-  --font-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
-}
-
 body {
-  background: Canvas;
-  max-width: 650px;
+  max-width: 800px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  font-family: var(--font-sans);
-  font-size: clamp(0.9rem, 2vw, 1rem);
-  box-shadow: 0 25px 50px -12px rgb(0 0 0/0.25);
-  margin: 10px;
-  border-radius: 7px;
-  padding: 1em;
-  min-height: min-content;
+  padding: 7px;
 }
 
-a {
-  color: currentcolor;
-}
-
-a:hover {
-  opacity: 0.8;
-}
-
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a {
-  text-decoration: none !important;
-}
-
-h2 {
-  border-bottom: 1px solid;
-  border-color: inherit;
-  padding-bottom: 5px;
-}
-
-h4,
-h5,
-h6 {
-  margin-bottom: 0;
-}
-
-h4 + p,
-h5 + p,
-h6 + p {
-  margin-top: 0;
-}
-
-@media (prefers-color-scheme: light) {
-  * {
-    border-color: #ccc !important;
-    text-decoration-color: #aaa !important;
-  }
-
-  html {
-    background:
-      linear-gradient(to right, magenta, orangered),
-      linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
-    background-blend-mode: darken;
-  }
-}
-@media (prefers-color-scheme: dark) {
-  * {
-    border-color: #444 !important;
-    text-decoration-color: #888 !important;
-  }
-
-  html {
-    background:
-      linear-gradient(to right, lightskyblue, magenta),
-      linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
-    background-blend-mode: darken;
-  }
-}
-
-@media (min-width: 700px) {
+@media (width >= 1000px) {
   body {
-    padding: 4em;
-    box-sizing: content-box;
+    margin-left: 12.5%;
+    margin-right: auto;
+    margin-top: 2em;
   }
-}
-
-body > header nav {
-  margin-top: -1em;
 }
 
 body > header nav a {
   text-decoration: none;
-  text-decoration-color: currentcolor;
   font-size: 0.8em;
 }
 
 body > footer {
-  margin-top: 2em;
+  margin: 2em 0;
   opacity: 0.8;
   font-size: 0.9em;
-  text-align: center;
-  margin-bottom: -1em;
 }
 
 body > footer > p {
@@ -157,8 +75,7 @@ body > footer small + blockquote {
 }
 
 .box {
-  /* background: light-dark(#ededed, #00000033); */
-  background: #ededed;
+  background: light-dark(#ededed, #00000033);
   opacity: 0.8;
   margin-bottom: 0.2em;
 }
@@ -178,21 +95,4 @@ section.box, aside.box {
 
 .box > :last-child {
   margin-bottom: 0;
-}
-
-/* Let's make sure all's aligned */
-hr, .hr {
-  border: 1px solid;
-  margin: -1px 0;
-}
-sub, sup {
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-sup {
-  top: -0.5em;
-}
-sub {
-  bottom: -0.25em;
 }

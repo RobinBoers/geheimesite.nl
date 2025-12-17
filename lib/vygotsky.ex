@@ -147,6 +147,15 @@ defmodule Vygotsky do
     end
   end
 
+  def outdated?(dest, src) do
+    with {:ok, dest} <- File.stat(dest),
+         {:ok, src} <- File.stat(src) do
+      src.mtime > dest.mtime
+    else
+      _ -> true
+    end
+  end
+
   defp ensure_prefix(str, prefix) do
     if String.starts_with?(str, prefix) do
       str
