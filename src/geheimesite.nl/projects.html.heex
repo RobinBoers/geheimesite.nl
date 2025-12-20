@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <.head title="Projects" {assigns} />
+
+    <style>
+      .grid {
+        gap: 0.5em;
+        margin-top: 3.05263em;
+        margin-bottom: 1.52632em;
+        padding: 0;
+        display: grid;
+      }
+      .grid li {
+        list-style: none;
+      }
+      .grid a {
+        text-decoration: none;
+      }
+      .grid a:hover {
+        opacity: 1;
+      }
+      .grid h3 {
+        margin: 0;
+        font-size: 0.875em;
+        line-height: 1.25em;
+      }
+      .grid img:hover {
+        filter: brightness(0.9);
+      }
+      .grid img {
+        aspect-ratio: 16/9;
+        object-fit: cover;
+        width: 100%;
+        margin: 0.5em 0;
+      }
+      @media (width>=800px) {
+        .grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      @media (width>=1200px) {
+        .grid {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+      @media (width>=1480px) {
+        .grid {
+          width: 125%;
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <.nav {assigns} />
+
+    <main>
+      <h1>Projects</h1>
+
+      <p>
+        I build web-based applications and games in Elixir and PHP, using a little too much JavaScript. Everything I build is open-sourced on <a href="//git.dupunkto.org">Gitz</a>, an awesome Git frontend I wrote in PHP.
+      </p>
+
+      <p>
+        Here's some projects I'm especially proud of:
+      </p>
+
+      <ul>
+        <li>
+          <p>
+            <a href="//git.dupunkto.org/~axcelott/signo">Signo</a>&nbsp;
+            Experimental compiler for a Lisp-inspired language, written in
+            Elixir.
+          </p>
+        </li>
+        <li>
+          <p>
+            <a href="//git.dupunkto.org/~dupunkto/untitled">Scatterpubb</a>&nbsp;
+            Explores ways to blend websites, social media and collaboration on
+            the Web, by implementing an easy-to-use website engine powered by
+            various open standards.
+          </p>
+        </li>
+        <li>
+          <p>
+            <a href="//git.dupunkto.org/~dupunkto/oblikvo">Oblikvo</a>&nbsp;
+            Browser-based 3D first-person shooter with old school graphics and
+            multiplayer support.
+          </p>
+        </li>
+        <li>
+          <p>
+            <a href="//git.dupunkto.org/~axcelott/vik">Vik</a>&nbsp;
+            What if GitHub gists, AWS Lambdas and Elixir Plugs had a baby?<br>
+            (WIP; public instance available at
+            <a href="//vik.dupunkto.org">vik.dupunkto.org</a>)
+          </p>
+        </li>
+      </ul>
+
+      <h2 style="margin-top: 2em">Webdesign</h2>
+
+      <p>
+        I build websites for people as an independent web developer from time to time. Here's a few of them. All of the people were happy. (I think.)
+      </p>
+
+      <ul class="grid">
+        <li>
+          <h3>HVM Old's Cool</h3>
+          <a href="//hvm-oldscool.nl">
+            <img src="https://cdn.geheimesite.nl/images/websites/hvm-oldscool.png" alt="">
+          </a>
+        </li>
+
+        <li>
+          <h3>De Groentemeester</h3>
+          <a href="//degroentemeester.nl">
+            <img src="https://cdn.geheimesite.nl/images/websites/degroentemeester.png" alt="">
+          </a>
+        </li>
+
+        <li>
+          <h3>Sterrenkruid</h3>
+          <a href="//jokessterrenkruid.blogspot.com">
+            <img src="https://cdn.geheimesite.nl/images/websites/sterrenkruid.png" alt="">
+          </a>
+        </li>
+
+        <li>
+          <h3>Streekproeverij Weij</h3>
+          <a href="//weijstreekproeverij.nl">
+            <img src="https://cdn.geheimesite.nl/images/websites/streekproeverij-weij.png" alt="">
+          </a>
+        </li>
+
+        <li>
+          <h3>Power Radio 010</h3>
+          <a href="//powerradio010.nl">
+            <img src="https://cdn.geheimesite.nl/images/websites/powerradio010.png" alt="">
+          </a>
+        </li>
+
+        <li>
+          <h3>Dagboek van een Grootmoeder</h3>
+          <a href="//grootmoedersdagboek.blogspot.com">
+            <img src="https://cdn.geheimesite.nl/images/websites/grootmoedersdagboek.png" alt="">
+          </a>
+        </li>
+
+        <li>
+          <h3>Sharefox</h3>
+          <a href="//sharefox.eu">
+            <img src="https://cdn.geheimesite.nl/images/websites/sharefox.png" alt="">
+          </a>
+        </li>
+      </ul>
+    </main>
+
+    <footer>
+      <.footer />
+    </footer>
+  </body>
+</html>
