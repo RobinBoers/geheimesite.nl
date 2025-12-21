@@ -97,4 +97,4 @@ I'm not building this to be extendible or modular. Instead, this should stay a r
 
 So yea. Writing `chop` was quite fun, and I'm definitely happy with the end result!
 
-[Source code](//git.dupunkto.org/~axcelott/chop)
+<a class="button" href="//git.dupunkto.org/~axcelott/chop">Soure code</a>

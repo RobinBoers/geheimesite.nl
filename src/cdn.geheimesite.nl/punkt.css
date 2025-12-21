@@ -76,10 +76,10 @@ blockquote {
 
 /* Code blocks */
 pre:has(code:not([class="language-mermaid"])) {
-  background: black;
-  color: white;
-  padding: 0.5em;
-  border-radius: 8px;
+  background: #cbcbcb;
+  color: #434343;
+  padding: 0.1em 0.5em;
+  border-radius: 0;
 }
 
 /* Nice <kbd> styling */

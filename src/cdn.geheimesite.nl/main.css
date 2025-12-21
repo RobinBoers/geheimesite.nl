@@ -70,7 +70,7 @@ body > footer small + blockquote {
   margin-top: 2em;
 }
 
-:is(footer blockquote, article) a[href^="https://"]::after {
+:is(footer blockquote, article) a[href^="https://"]:not(.button)::after {
   content: " ↗";
 }
 
@@ -113,4 +113,22 @@ section.box, aside.box {
 
 body:has(.h-entry) > footer {
   text-align: center;
+}
+
+h2.refs, h2.h3 {
+  border-bottom: 0;
+  font-size: 1.1em;
+  padding-bottom: 0;
+}
+
+.footnotes {
+  margin-top: 2em;
+  padding-top: 2em;
+  border-top: 1px solid #00000033;
+  font-size: .9em;
+  opacity: .7;
+}
+
+.footnote-backref {
+  font-size: .7em;
 }

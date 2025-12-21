@@ -20,7 +20,7 @@ Oke, dat is misschien wat overdreven, maar je begrijpt het punt. Als we één be
 
 Dus, wat kan jij hieraan doen? Niet heel veel. Je zou van browser kunnen switchen, naar bijvoorbeeld Firefox. Uiteindelijk is het net als het klimaat. Als je niet in een van de grote organisaties die erover gaan zit kan je er niet heel veel aan doen, behalve je eigen kleine steentje bijdragen en andere bewust maken van het probleem.  
 
-## Bronnen
+<h2 class="refs">Bronnen</h2>
 
 - [Google isn’t the company that we should have handed the Web over to](//arstechnica.com/gadgets/2018/12/the-web-now-belongs-to-google-and-that-should-worry-us-all/)
 - [Intent to Remove: Cross origin subframe JS Dialogs](//groups.google.com/a/chromium.org/g/blink-dev/c/hTOXiBj3D6A/m/PVc8zwKTAwAJ?pli=1)

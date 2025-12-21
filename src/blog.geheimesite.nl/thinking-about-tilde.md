@@ -36,6 +36,6 @@ So, I was thinking:
 
 Any pointers on how to setup something like this? How would I handle backups? (I know I can just backup all files in every member's home directory, but how would I handle something more complicated, like the matrix accounts?). How would I make something like this secure?
 
-Edit: I found this blogpost that helps a bit, but it doesn't tell me how to do permissions, limiting home directory size and bandwidth. I guess I won't really need those (because this is gonna be *really* small scale), but I like the idea that someone can't just accidentally use up all bandwidth with a wrong command.
-
-- [Setting up your own tilde club (UNIX)](//www.edwinwenink.xyz/posts/47-tilde_server)
+<section class="box">
+  <p><b>Edit</b>: I found <a href="https://edwinwenink.xyz/posts/47-tilde_server">a similar article by Edwin Wenink</a> that helps a lot, but it doesn’t tell me how to do permissions, limiting home directory size and bandwidth. I guess I won’t really need those (because this is gonna be <em>really</em> small scale), but I like the idea that someone can’t just accidentally use up all bandwidth with a wrong command.</p>
+</section>

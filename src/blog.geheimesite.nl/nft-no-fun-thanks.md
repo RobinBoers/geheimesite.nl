@@ -5,7 +5,7 @@ language: nl
 favorite: true
 ---
 
-Ik hoor de laatste tijd veel mensen over NFTs, crypto, dapps[^1] en web3. Maar waar gaat het nou precies over, en waarom is het juist *niet* de oplossing? Dat ga ik kort proberen uit te leggen. Hou er rekening mee dat dit de mening is van een vijftienjarige die niet gespecialiseerd is in crypto. Neem het dus met een korreltje zout.
+Ik hoor de laatste tijd veel mensen over NFTs, crypto, <abbr title="decentralized apps">dapps</abbr> en web3. Maar waar gaat het nou precies over, en waarom is het juist *niet* de oplossing? Dat ga ik kort proberen uit te leggen. Hou er rekening mee dat dit de mening is van een vijftienjarige die niet gespecialiseerd is in crypto. Neem het dus met een korreltje zout.
 
 Dus om te beginnen, wat is crypto? Crypto is een afkorting voor cryptography, een technologie om data te ver- en ontsleutelen. Het beveiligt bijvoorbeeld al het webverkeer over HTTPS en zorgt ervoor dat je veilig via het internet kan betalen. Waar het begrip de laatste tijd echter veel voor wordt gebruikt is als afkorting voor cryptocurrencies.
 
@@ -31,38 +31,27 @@ Al met al introduceert crypto meer problemen dan het oplost. Het is geen functio
 
 En dan de olifant in de kamer: crypto gebruikt echt *fucking veel* energie. Bitcoin alleen gebruikte in 2021 al [meer dan 100 TWh](//ccaf.io/cbeci/index) aan energie. Dat is meer dan het jaarlijkse energieverbruik *40 miljoen* (gemiddelde) gezinnen.  
 
-Als je een jaar lang je auto niet aanraakt kan je zo'n 2.4 ton[^2] CO<sub>2</sub> besparen. Als je vervolgens 5 bitcoin transacties maakt heb je dat volledig ongedaan gemaakt. Ter vergelijking: één bitcoin transactie verbruikt even veel energie als ongeveer een miljoen VISA transacties en 80.000 uur YouTube kijken[^3].
+Als je een jaar lang je auto niet aanraakt kan je zo'n 2.4 ton[^1] CO<sub>2</sub> besparen. Als je vervolgens 5 bitcoin transacties maakt heb je dat volledig ongedaan gemaakt. Ter vergelijking: één bitcoin transactie verbruikt even veel energie als ongeveer een [miljoen VISA transacties en 80.000 uur YouTube kijken](//digiconomist.net/bitcoin-energy-consumption).
 
 En dan hebben we het dus nog niet eens gehad over NFTs. Oh boy, here we go.
 
-Om te beginnen: wat is een NFT eigenlijk? NFT staat voor non-fungible token. Het is vergelijkbaar met een crypto coin, maar het belangrijke verschil is dat een crypto coin[^4] uitwisselbaar is met elke andere coin, en een NFT niet. Dit is waar non-fungible (niet-uitwisselbaar) voor staat.
+Om te beginnen: wat is een NFT eigenlijk? NFT staat voor non-fungible token. Het is vergelijkbaar met een crypto coin, maar het belangrijke verschil is dat een crypto coin[^2] uitwisselbaar is met elke andere coin, en een NFT niet. Dit is waar non-fungible (niet-uitwisselbaar) voor staat.
 
 Maar als je een NFT koopt, wat koop je dan precies? Dat is dus niet helemaal duidelijk. Juridisch gezien koop je alleen bragging-rights over het digitale kunstwerk dat aan de NFT gekoppeld zit. Je koopt geen copyright of intellectueel eigendom. Ook iedereen kan een NFT maken en er is geen enkele manier om te checken of degene die een NFT heeft gemaakt ook de originele maker van het kunstwerk is. Hierdoor komt het binnen de cryptomarkt veel voor dat mensen NFTs verkopen van kunstwerken die ze niet zelf gemaakt hebben. Wat koop je dan? Bragging-rights over het "ownen" van een kunstwerk dat ook nog eens gestolen is van de originele maker. Het enige wat je dus hebt is bewijs dat je het kon betalen: status.
 
 Daarbij komt dat de meeste NFTs niet eens het kunstwerk zelf bevatten, enkel een link ernaartoe. Die link is net zo vatbaar voor [link rot](//en.wikipedia.org/wiki/Link_rot) als alle andere URLs. Heb je straks een NFT gekocht en gaat de server van de verkoper offline, zit je met een NFT die een dead link bevat.
 
-Ook kan iedereen die link bezoeken en een kopie van je asset maken (want om het plaatje weer te geven moet je computer het eerst downloaden, dat is namelijk hoe het internet werkt). Misschien denk je nu: maar Robin, dat lijkt toch op hoe normale kunst ook werkt? Je kan ook een kopie van de Mona Lisa kopen die door een imitatie schilder gemaakt is en het verschil bijna niet zien. Je betaalt geld voor het origineel, voor de ambacht die daar in zit[^5].
+Ook kan iedereen die link bezoeken en een kopie van je asset maken (want om het plaatje weer te geven moet je computer het eerst downloaden, dat is namelijk hoe het internet werkt). Misschien denk je nu: maar Robin, dat lijkt toch op hoe normale kunst ook werkt? Je kan ook een kopie van de Mona Lisa kopen die door een imitatie schilder gemaakt is en het verschil bijna niet zien. Je betaalt geld voor het origineel, voor de ambacht die daar in zit.
 
-Hier valt de vergelijking dan wel gelijk uit elkaar. Een kopie van een digitaal kunstwerk is namelijk 100% hetzelfde als het origineel. Het lijkt er niet alleen op, het is exact hetzelfde kunstwerk. Je zou ook 2 verschillende NFTs van hetzelfde plaatje kunnen maken[^6]. Het plaatje dat de NFT representeert is niet uniek, alleen de NFT zelf. Je koopt eigenlijk alleen het bewijs dat je er geld aan besteed hebt, niet het plaatje[^7] zelf. Dus wat koop je nou eigenlijk? Precies, status.
+Hier valt de vergelijking dan wel gelijk uit elkaar. Een kopie van een digitaal kunstwerk is namelijk 100% hetzelfde als het origineel. Het lijkt er niet alleen op, het is exact hetzelfde kunstwerk. Je zou ook [2 verschillende NFTs van hetzelfde plaatje kunnen maken](//stackoverflow.com/questions/68816228/multiple-nfts-from-the-same-source). Het plaatje dat de NFT representeert is niet uniek, alleen de NFT zelf. Je koopt eigenlijk alleen het bewijs dat je er geld aan besteed hebt, niet het plaatje zelf. Dus wat koop je nou eigenlijk? Precies, status.
 
 Gewoon de JPG kopen zou exact hetzelfde effect hebben als het kopen van een NFT. Je kan de factuur/afschrijving op je bankrekening laten zien om te bewijzen dat je echt het kunstwerk hebt gekocht, als je dat zo graag wil. Je betaalt geld aan de kunstenaar en krijgt een link naar het plaatje dat je dan kan downloaden. TADA: je hebt een makkelijk te kopieëren plaatje (net als bij NFTs) en je kan bewijzen dat het (veel) geld waard is met je rekening afschriften. Het probleem: je kan het moeilijk doorverkopen.
 
-En dat is dus exact het probleem voor veel mensen. NFTs zijn een digitale kunstmarkt geworden waarbij met duizenden euro's gesmeten wordt voor "kunst"[^8]. In de kunstwereld heb je ook kunstwerken die heel makkelijk te maken zijn, heel veel op elkaar lijken en er niet uitzien waar mensen alsnog heel veel geld voor over hebben (lees: abstracte kunst), net als bij NFTs. En ik denk dat er met de kunstwereld zelf ook best veel mis is. Het verschil is denk ik dat daar minder mensen gescamd worden vanwege een te complex systeem en we er niet ons klimaat mee om zeep helpen.
+En dat is dus exact het probleem voor veel mensen. NFTs zijn een digitale kunstmarkt geworden waarbij met duizenden euro's gesmeten wordt voor ["kunst"](//opensea.io/assets). In de kunstwereld heb je ook kunstwerken die heel makkelijk te maken zijn, heel veel op elkaar lijken en er niet uitzien waar mensen alsnog heel veel geld voor over hebben (lees: abstracte kunst), net als bij NFTs. En ik denk dat er met de kunstwereld zelf ook best veel mis is. Het verschil is denk ik dat daar minder mensen gescamd worden vanwege een te complex systeem en we er niet ons klimaat mee om zeep helpen.
 
 Dus als mensen aan mij vragen hoe dat nou zit met die crypto en NFTs of zelfs voorstellen er in te investeren zeg ik: NFT? No fun, thanks!
 
-[^1]: decentralised apps
+[^1]: Hierbij ga ik ervan uit dat je ca. [10.600km/jaar](//milieucentraal.nl/klimaat-en-aarde/klimaatverandering/wat-is-je-co2-voetafdruk/) rijdt en 1kg CO<sub>2</sub> [gelijkstaat tot 4.5km rijden](//corekees.com/news/hoeveel-is-een-kilo-co2/).
 
-[^2]: Hierbij ga ik ervan uit dat je ca. 10.600km/jaar rijdt (bron: [www.milieucentraal.nl](//www.milieucentraal.nl/klimaat-en-aarde/klimaatverandering/wat-is-je-co2-voetafdruk/) en 1kg CO<sub>2</sub> gelijkstaat tot 4.5km rijden (bron: [corekees.nl](//corekees.com/news/hoeveel-is-een-kilo-co2/)).
+[^2]: Er is een belangrijk verschil tussen coins en tokens: een coin representeert geld op de blockchain. Elke coin is uitwisselbaar voor een andere (fungible). Een coin heeft een bepaalde waarde, en dat is alles wat de coin doet. Het belangrijke verschil met een token (lees: NFT) is dat een token gebruik maakt van een smart contract. Een smart contract is een stukje code dat bij elke transactie wordt uitgevoerd, maar in de praktijk bevat het meestal alleen een URL naar een bestand. De token representeert dus niet een bepaalde waarde, maar een stukje data (lees: een bestand).
 
-[^3]: Bron: [digiconomist.net](//digiconomist.net/bitcoin-energy-consumption). Sowieso wel interessant om te lezen.
-
-[^4]: Er is een belangrijk verschil tussen coins en tokens: een coin representeert geld op de blockchain. Elke coin is uitwisselbaar voor een andere (fungible). Een coin heeft een bepaalde waarde, en dat is alles wat de coin doet. Het belangrijke verschil met een token (lees: NFT) is dat een token gebruik maakt van een smart contract. Een smart contract is een stukje code dat bij elke transactie wordt uitgevoerd, maar in de praktijk bevat het meestal alleen een URL naar een bestand. De token representeert dus niet een bepaalde waarde, maar een stukje data (lees: een bestand).
-
-[^5]: En om eerlijk te zijn, ik zou daar ook het geld niet voor over hebben. Ik zou kunst puur en alleen kopen omdat ik het mooi vond of omdat ik vond dat de artiest het verdient.
-
-[^6]: Bronnen: [StackOverflow](//stackoverflow.com/questions/68816228/multiple-nfts-from-the-same-source) en [NFT Plazas](//nftplazas.com/learn-about-nfts/multiple-nfts-for-one-piece-of-digital-art/). [Hier is nog een voorbeeld](//cdn.geheimesite.nl/images/blog/omniswtf.png): een collectie genaamd *omnis.wtf*. 5000x hetzelfde plaatje dat voor ca. 0.3ETH (= €355) per stuk verkocht wordt. Dan koop je inderdaad iets heel "unieks".
-
-[^7]: Als ik het over *plaatje*, *asset* of *bestand* heb bedoel ik hetzelfde: hetgene waar de link in de NFT naar toe verwijst.
-
-[^8]: [Noem dit maar eens kunst](//opensea.io/assets).

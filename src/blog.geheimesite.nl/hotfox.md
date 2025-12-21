@@ -33,6 +33,11 @@ It's available in the Mozilla Add-ons store, if you'd like to try it:
   href="//addons.mozilla.org/en-US/firefox/addon/hotfox-for-rss/">
   Download
 </a>
+<a
+  class="button"
+  href="//git.dupunkto.org/~axcelott/hotfox">
+  Source code
+</a>
 
 <aside class="box">
   <h2>FAQ</h2>

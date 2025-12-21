@@ -5,9 +5,12 @@ defmodule CDN do
   @stylesheets (
     for path <- glob("*.css") do
       @external_resource path
+      @dest Path.join(@dist, output(path))
 
-      @dest Path.join(@dist, Path.basename(path))
-      outdated?(@dest, path) && sh!(["postcss", path, "-o", @dest])
+      if outdated?(@dest, path) do
+        IO.puts("Building #{Path.basename(path)}")
+        sh!(["postcss", path, "-o", @dest])
+      end
 
       @dest
     end)
