@@ -14,11 +14,8 @@
       }
 
       .h-entry > footer .reply-by-email a {
-        color: #ffffff;
-        background: #f43f5e;
-        border: none;
-        padding: .5em 1em;
-        text-decoration: none;
+        display: inline;
+        font-size: 1.1em;
       }
 
       body > footer {
@@ -46,7 +43,7 @@
 
         <footer>
           <p class="reply-by-email">
-            <a href={"/contact?subject=RE: #{@title}"}>Reply by email</a>
+            <a class="button" href={"/contact?subject=RE: #{@title}"}>Reply by email</a>
           </p>
         </footer>
       </article>
