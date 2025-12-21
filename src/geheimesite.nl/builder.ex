@@ -7,7 +7,10 @@ defmodule Personal do
     @dest Path.join(@dist, output(path))
 
     # The blog index depends on Blog.list_posts, so should always regenerate.
-    if outdated?(@dest, path) or Path.basename(path) == "blog.html.heex" do
+    # And blogroll should be regenerated if not fetched for more than a day.
+    if outdated?(@dest, path) or
+         Path.basename(path) == "blog.html.heex" or
+         (Path.basename(path) == "blogroll.html.heex" and outdated_by?(@dest, days: 1)) do
       File.write!(@dest, VEEx.render_template!(path))
     end
   end
