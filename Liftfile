@@ -4,7 +4,7 @@ services:
 - name: geheimesite.nl
   src: dist/geheimesite.nl
   exclude:
-  - r/place
+  - r
 - name: cdn.geheimesite.nl
   src: dist/cdn.geheimesite.nl
   exclude:
