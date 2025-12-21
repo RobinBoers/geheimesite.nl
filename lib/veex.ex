@@ -70,7 +70,7 @@ defmodule VEEx do
         end
 
       quoted =
-        if String.contains?(unquote(path), ".xml") do
+        if Enum.any?(~w(.xml .json), &String.contains?(unquote(path), &1)) do
           EEx.compile_string(source,
             engine: EEx.SmartEngine,
             file: unquote(path),
@@ -103,10 +103,14 @@ defmodule VEEx do
       if layout = unquote(opts)[:layout] do
         unquote(__MODULE__).render_layout!(layout, content, assigns)
       else
-        content
-        |> unquote(__MODULE__).educate_quotes()
-        |> unquote(__MODULE__).replace_shortcodes()
-        |> unquote(__MODULE__).canonicalize_urls()
+        if String.contains?(unquote(path), ".json") do
+          content
+        else
+          content
+          |> unquote(__MODULE__).educate_quotes()
+          |> unquote(__MODULE__).replace_shortcodes()
+          |> unquote(__MODULE__).canonicalize_urls()
+        end
       end
     end
   end

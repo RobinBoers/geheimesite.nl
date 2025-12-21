@@ -1,0 +1,24 @@
+<%= JSON.encode!(%{
+  version: "https://jsonfeed.org/version/1.1",
+  title: config!(:blog, :title),
+  description: config!(:blog, :description),
+  home_page_url: "https://#{@host}/",
+  feed_url: "https://#{@host}#{canonical(@path)}",
+  language: config!(:language),
+  authors: [
+    %{
+      name: config!(:author, :name),
+      url: "mailto:#{config!(:author, :email)}",
+      avatar: "https://#{@host}/me.jpeg"
+    }
+  ],
+  items: Enum.map(Blog.list_posts(), fn entry ->
+    %{
+      id: "https://#{@host}#{canonical(entry.path)}",
+      url: "https://#{@host}#{canonical(entry.path)}",
+      title: entry.title,
+      content_html: entry.content,
+      date_published: "#{Date.to_iso8601(entry.date)}T00:00:00Z"
+    }
+  end)
+}) %>

@@ -12,7 +12,7 @@ defmodule Personal do
     end
   end
 
-  for path <- glob("*.xml.eex") do
+  for path <- glob("*.{xml,json}.eex") do
     @external_resource path
     @dest Path.join(@dist, output(path))
 
