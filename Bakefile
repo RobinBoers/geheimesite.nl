@@ -14,7 +14,7 @@ setup() {
 }
 
 build() {
-  mix compile
+  mix compile "$@"
 }
 
 watch() {
@@ -24,7 +24,7 @@ watch() {
 serve() {
   build # Perform a full build first
   export -f $(compgen -A function)
-  spawn "waiter --dev $DIST/$HOST" watch
+  spawn "waiter --dev $DIST/${1:-$HOST}" watch
 }
 
 format() {
