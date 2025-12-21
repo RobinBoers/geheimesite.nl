@@ -13,5 +13,8 @@ services:
   - ghme.css
 - name: classic.geheimesite.nl
   src: dist/classic.geheimesite.nl
+  exclude:
+  - v
+  - robots.txt
 - name: nm.geheimesite.nl
   src: dist/nm.geheimesite.nl
