@@ -6,44 +6,60 @@ defmodule Personal do
     @external_resource path
     @dest Path.join(@dist, output(path))
 
-    # blog.html.heex depends on Blog.list_posts, always regenerate
-    if String.ends_with?(path, "blog.html.heex") do
+    # The blog index depends on Blog.list_posts, so should always regenerate.
+    if outdated?(@dest, path) or Path.basename(path) == "blog.html.heex" do
       File.write!(@dest, VEEx.render_template!(path))
-    else
-      outdated?(@dest, path) && File.write!(@dest, VEEx.render_template!(path))
     end
   end
 
   for path <- glob("*.xml.eex") do
     @external_resource path
-
     @dest Path.join(@dist, output(path))
+
+    # Same goes for the blog feeds.
     File.write!(@dest, VEEx.render_template!(path))
   end
 
+  # Rebuild this module if one of these templates change.
+  @entry_layout Application.app_dir(:vygotsky, "lib/layouts/entry.html.heex")
+  @article_layout Application.app_dir(:vygotsky, "lib/layouts/article.html.heex")
+
+  @external_resource @entry_layout
+  @external_resource @article_layout
+
   for path <- glob("*.md.heex") do
     @external_resource path
-
     @dest Path.join(@dist, output(path))
-    outdated?(@dest, path) && File.write!(@dest, VEEx.render_template!(path, layout: :article))
+
+    if outdated?(@dest, path) or outdated?(@dest, @article_layout) do
+      File.write!(@dest, VEEx.render_template!(path, layout: :article))
+    end
   end
 
   for path <- glob("*.txt") do
     @external_resource path
-
     @dest Path.join(@dist, output(path))
-    outdated?(@dest, path) && File.cp!(path, @dest)
+
+    if outdated?(@dest, path) do
+      File.cp!(path, @dest)
+    end
   end
 
   for build <- CDN.stylesheets() do
     @dest Path.join(@dist, output(build))
-    outdated?(@dest, build) && File.cp!(build, @dest)
+
+    if outdated?(@dest, build) do
+      File.cp!(build, @dest)
+    end
   end
 
   @dist |> Path.join("blog") |> File.mkdir_p!()
 
   for entry <- Blog.list_posts() do
     @dest Path.join(@dist, entry.path)
-    outdated?(@dest, entry.source) && File.write!(@dest, VEEx.render_layout!(:entry, entry.content, entry))
+
+    if outdated?(@dest, entry.source) or outdated?(@dest, @entry_layout) do
+      File.write!(@dest, VEEx.render_layout!(:entry, entry.content, entry))
+    end
   end
 end
