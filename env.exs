@@ -2,6 +2,7 @@ import Config
 
 config :vygotsky, language: "en"
 config :vygotsky, repo: "https://github.com/RobinBoers/geheimesite.nl"
+config :vygotsky, primary: ["geheimesite.nl", "roblog.nl", "scatterbrain.nl"]
 
 config :vygotsky, :blog,
   title: "Robin's Blog",
