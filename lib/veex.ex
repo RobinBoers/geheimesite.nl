@@ -104,6 +104,7 @@ defmodule VEEx do
         unquote(__MODULE__).render_layout!(layout, content, assigns)
       else
         content
+        |> unquote(__MODULE__).educate_quotes()
         |> unquote(__MODULE__).replace_shortcodes()
         |> unquote(__MODULE__).canonicalize_urls()
       end
@@ -134,6 +135,7 @@ defmodule VEEx do
 
       apply(Vygotsky, unquote(layout), [assigns])
       |> Phoenix.HTML.Safe.to_iodata()
+      |> unquote(__MODULE__).educate_quotes()
       |> unquote(__MODULE__).replace_shortcodes()
       |> unquote(__MODULE__).canonicalize_urls()
     end
@@ -188,5 +190,15 @@ defmodule VEEx do
   @doc false
   def canonicalize_urls(content) when is_binary(content) do
     String.replace(content, "=\"//", "=\"https://")
+  end
+
+  @doc false
+  def educate_quotes(content) when is_list(content) do
+    content |> IO.iodata_to_binary() |> educate_quotes()
+  end
+
+  @doc false
+  def educate_quotes(content) when is_binary(content) do
+    Smartypants.convert(content)
   end
 end
