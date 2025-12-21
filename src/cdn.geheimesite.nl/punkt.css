@@ -105,3 +105,9 @@ ins {
   text-decoration: none;
   font-weight: 600;
 }
+
+hr {
+  opacity: 0.15;
+  width: 80%;
+  margin: 2em auto;
+}
