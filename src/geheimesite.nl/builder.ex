@@ -36,13 +36,29 @@ defmodule Personal do
     end
   end
 
-  for path <- glob("*.txt") do
+  for path <- glob("*.txt"), Path.basename(path) != "robots.txt" do
     @external_resource path
     @dest Path.join(@dist, output(path))
 
     if outdated?(@dest, path) do
       File.cp!(path, @dest)
     end
+  end
+
+  @robots file("robots.txt")
+  @external_resource @robots
+
+  message =
+    @robots
+    |> File.read!()
+    |> String.split("\n")
+    |> Enum.map(&"# #{&1}")
+    |> Enum.join("\n")
+
+  @dest Path.join(@dist, "robots.txt")
+
+  if outdated_by?(@dest, days: 1) do
+    File.write!(@dest, message <> "\n\n" <> DarkVisitors.agents())
   end
 
   for build <- CDN.stylesheets() do

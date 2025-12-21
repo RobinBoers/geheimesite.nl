@@ -124,6 +124,12 @@ defmodule Vygotsky do
     end
   end
 
+  defmacro file(path) do
+    quote do
+      Path.join(__DIR__, unquote(path))
+    end
+  end
+
   def canonical(path) do
     path
     |> output(basename: false)
@@ -153,6 +159,19 @@ defmodule Vygotsky do
       src.mtime > dest.mtime
     else
       _ -> true
+    end
+  end
+
+  def outdated_by?(path, days: days) do
+    case File.stat(path) do
+      {:ok, stat} ->
+        mtime = :calendar.datetime_to_gregorian_seconds(stat.mtime)
+        now = :calendar.datetime_to_gregorian_seconds(:calendar.universal_time())
+
+        now - mtime > days * 86400
+
+      {:error, _} ->
+        true
     end
   end
 
