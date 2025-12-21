@@ -1,0 +1,40 @@
+<%
+pages =
+  for path <- Path.wildcard(Path.join(__DIR__, "*.html.{heex,eex}")),
+      basename = Path.basename(path),
+      basename not in ~w(atom.xml.eex index.xml.eex),
+      do: %{
+        path: "/" <> output(path),
+        source: path,
+        lastmod: Git.lastmod(path),
+        changefreq: Git.changefreq(path)
+      }
+
+md_pages =
+  for path <- Path.wildcard(Path.join(__DIR__, "*.md.heex")),
+      do: %{
+        path: "/" <> output(path),
+        source: path,
+        lastmod: Git.lastmod(path),
+        changefreq: Git.changefreq(path)
+      }
+
+blog_posts =
+  for entry <- Blog.list_posts(),
+      entry.rssonly == false,
+      do: %{
+        path: entry.path,
+        source: entry.source,
+        lastmod: Git.lastmod(entry.source),
+        changefreq: Git.changefreq(entry.source)
+      }
+
+all_pages = (pages ++ md_pages ++ blog_posts) |> Enum.sort_by(& &1.path)
+%><?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<%= for page <- all_pages do %>  <url>
+    <loc>https://<%= @host %><%= canonical(page.path) %></loc>
+    <lastmod><%= page.lastmod %></lastmod>
+    <changefreq><%= page.changefreq %></changefreq>
+  </url>
+<% end %></urlset>
