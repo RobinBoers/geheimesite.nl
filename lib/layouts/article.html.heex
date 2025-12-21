@@ -2,6 +2,12 @@
 <html lang={@language}>
   <head>
     <.head {assigns} />
+
+    <link
+      :if={assigns[:fonts]}
+      href={"https://fonts.bunny.net/css2?family=#{@fonts |> Enum.map(&String.replace(&1, " ", "+")) |> Enum.join("&family=")}&display=swap"}
+      rel="stylesheet"
+    />
   </head>
   <body>
     {@inner_content}

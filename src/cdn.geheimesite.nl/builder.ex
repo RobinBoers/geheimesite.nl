@@ -8,8 +8,7 @@ defmodule CDN do
       @dest Path.join(@dist, output(path))
 
       if outdated?(@dest, path) do
-        IO.puts("Building #{Path.basename(path)}")
-        sh!(["postcss", path, "-o", @dest])
+        sh!(["lightningcss", "--minify", "--bundle", "--targets", "defaults", path, "-o", @dest])
       end
 
       @dest

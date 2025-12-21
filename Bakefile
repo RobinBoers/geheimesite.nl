@@ -10,14 +10,18 @@ export VALIDATE="vnu --exit-zero-always --filterfile .vnuignore"
 setup() {
   p:step "Fetching dependencies"; mix deps.get >/dev/null && p:done
   p:step "Compiling dependencies"; mix deps.compile >/dev/null && p:done
-  p:step "Preparing Bun runtime"; bun i >/dev/null && p:done
 }
 
 build() {
+  required lightningcss
+  required pandoc
+
   mix compile "$@"
 }
 
 watch() {
+  required fswatch
+
   fswatch src lib priv | while read; do build; done
 }
 
