@@ -42,7 +42,7 @@ a.button {
   cursor: default;
 
   /* Hack: center vertically in <a> elements */
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
 }
