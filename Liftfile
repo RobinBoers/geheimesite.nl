@@ -1,0 +1,17 @@
+type: static
+host: nov
+services:
+- name: geheimesite.nl
+  src: dist/geheimesite.nl
+  exclude:
+  - r/place
+- name: cdn.geheimesite.nl
+  src: dist/cdn.geheimesite.nl
+  exclude:
+  - images
+  - fonts
+  - ghme.css
+- name: classic.geheimesite.nl
+  src: dist/classic.geheimesite.nl
+- name: nm.geheimesite.nl
+  src: dist/nm.geheimesite.nl
