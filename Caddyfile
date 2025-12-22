@@ -3,6 +3,8 @@
 	#acme_ca https://acme.zerossl.com/v2/DV90
 }
 
+import /var/www/html/*/Caddyfile
+
 (logging) {
 	log {
 		format json
@@ -79,8 +81,6 @@
 }
 
 (static) {
-	import /var/www/html/{host}/Caddy*
-
 	@index {
 		path_regexp index ^(.*)/index\.html$
 	}
