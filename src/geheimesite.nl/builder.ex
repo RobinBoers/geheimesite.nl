@@ -2,6 +2,15 @@ defmodule Personal do
   @moduledoc false
   use Vygotsky.Builder
 
+  @caddyfile file("Caddyfile")
+  @external_resource @caddyfile
+
+  @dest Path.join(@dist, "Caddyfile")
+
+  if outdated?(@dest, @caddyfile) do
+    File.cp!(@caddyfile, @dest)
+  end
+
   for path <- glob("*.html.{heex,eex}") do
     @external_resource path
     @dest Path.join(@dist, output(path))

@@ -1,0 +1,47 @@
+# Actually, use my Obliviously pf instead.
+# (this is the canonical URL tho, hence the temporary redirect)
+redir /me.jpeg https://obliviously.eu/uploads/48e6a52868e7d0bcae77aa5b853ed807.jpg temporary
+
+# Moved to CDN
+# (these are the canonical URLs tho, hence the temporary redirects)
+redir /base.css https://cdn.geheimesite.nl/punkt.css temporary
+redir /logo2.png https://cdn.geheimesite.nl/images/logo2.png temporary
+redir /button.jpeg https://cdn.geheimesite.nl/images/button.jpeg temporary
+
+# Moved to FTP
+# (these are again the canonical URLs, hence the temporary redirects)
+redir /conlangs.pdf https://ftp.dupunkto.org/~axcelott/conlangs.pdf temporary
+redir /cryptobros.pdf https://ftp.dupunkto.org/~axcelott/cryptobros.pdf temporary
+
+# Cool URLs don't change
+redir /index-en.xml /index.xml permanent
+redir /index-nl.xml /index.xml permanent
+redir /random.jpeg /me.jpeg permanent
+
+handle /images/* {
+  redir /images/button.png /button.jpeg permanent
+  redir /images/me.jpeg /me.jpeg permanent
+  redir /images/profile.JPG /me.jpeg permanent
+  redir https://cdn.geheimesite.nl{uri} permanent
+}
+
+# Old language-based URLs
+redir /en/about /about permanent
+redir /en/colophon /colophon permanent
+redir /en/privacy /privacy permanent
+redir /en/follow /follow permanent
+
+# Redirect Dutch -> English
+redir /over-mij /about permanent
+redir /colofon /colophon permanent
+redir /volg-me /follow permanent
+
+# I am an idiot and keep moving things around
+redir /about / temporary
+redir /webdesign /projects temporary
+redir /follow /rss temporary
+
+@legacy_posts {
+  file /blog{path}.html
+}
+redir @legacy_posts /blog{uri} permanent

@@ -1,0 +1,342 @@
+{
+	email webmaster@dupunkto.org
+	#acme_ca https://acme.zerossl.com/v2/DV90
+}
+
+(logging) {
+	log {
+		format json
+		output file /var/log/access.log {
+			roll_disabled
+		}
+	}
+}
+
+(txts) {
+	redir /.well-known/robots.txt /robots.txt temporary
+	redir /.well-known/security.txt /security.txt temporary
+
+	@robots {
+		path /robots.txt
+	}
+
+	file_server @robots {
+		root /var/www/html/geheimesite.nl
+	}
+
+	@security {
+		path /security.txt
+	}
+
+	file_server @security {
+		root /var/www/html/geheimesite.nl
+	}
+}
+
+(security) {
+	header {
+		-Server
+		Referrer-Policy "no-referrer"
+		X-Content-Type-Options "nosniff"
+		X-Frame-Options "deny"
+		Cross-Origin-Opener-Policy "same-origin"
+
+		# HSTS: Enable automatic HTTPS redirects for a year
+		Strict-Transport-Security "max-age=31536000"
+
+		# Allow other sites to get content
+		# See https://ncase.me/nutshell/#CORSForWebDevs
+		Access-Control-Allow-Origin "*"
+	}
+}
+
+(caching) {
+	encode zstd gzip
+
+	@static {
+		file
+		path *.jpg *.jpeg *.png *.gif *.webp *.ico *.svg *.woff *.woff2
+	}
+	handle @static {
+		header Cache-Control "max-age=31536000, immutable"
+	}
+
+	@assets {
+		file
+		path *.js *.css
+	}
+	handle @assets {
+		header Cache-Control "max-age=604800, stale-while-revalidate"
+	}
+
+	@content {
+		file
+		path *.html *.pdf *.txt
+	}
+	handle @content {
+		header Cache-Control "max-age=129600"
+	}
+}
+
+(static) {
+	import /var/www/html/{host}/Caddy*
+
+	@index {
+		path_regexp index ^(.*)/index\.html$
+	}
+	redir @index {scheme}://{host}{re.index.1}/ 301
+
+	@html {
+		path_regexp html ^(.*)\.html$
+	}
+	redir @html {scheme}://{host}{re.html.1} 301
+
+	root * /var/www/html
+
+	@dir {
+		file {host}{path}/index.html
+		# not file {host}{path}.html
+		not path */
+	}
+	redir @dir {uri}/ 301
+
+	try_files {host}{path} {host}{path}/index.html {host}{path}.html
+	file_server
+}
+
+# Remove www. from domain names
+www.roblog.nl,
+www.scatterbrain.nl,
+www.geheimesite.nl,
+www.dupunkto.org {
+	redir https://{labels.1}.{labels.0}{uri}
+}
+
+# This is a shorthand.
+scttr.eu, www.scttr.eu {
+	redir https://scatterbrain.nl{uri}
+}
+
+roblog.nl,
+scatterbrain.nl,
+geheimesite.nl {
+	# Quite effective spam protection
+	redir /contact mailto:axcelott@roblog.nl?{query} permanent
+
+	import logging
+	import txts
+	import security
+	import caching
+	import static
+}
+
+# The CDN is running via Bunny, so Bunny is
+# managing SSL rather than Caddy.
+http://cdn.geheimesite.nl {
+	import caching
+	import static
+}
+
+dupunkto.org,
+wiki.dupunkto.org,
+docs.dupunkto.org,
+nm.geheimesite.nl,
+classic.geheimesite.nl,
+blog.geheimesite.nl,
+nindo.geheimesite.nl,
+# I need the Cydia repo on legacy versions of iOS on
+# which modern TLS/SSL is a pain to set up.
+http://cydia.geheimesite.nl {
+	import logging
+	import txts
+	import security
+	import caching
+	import static
+}
+
+ftp.dupunkto.org {
+	import logging
+	import txts
+	import security
+
+	root * /var/www/html/ftp.dupunkto.org
+	file_server {
+		browse /var/www/html/simple.tpl
+	}
+}
+
+# Services
+
+rss.dupunkto.org {
+	import logging
+	import txts
+	import security
+  reverse_proxy miniflux:8080
+}
+
+inv.dupunkto.org {
+	import logging
+	import txts
+	import security
+  reverse_proxy invidious:3000
+}
+
+mpv.dupunkto.org {
+	import logging
+	import txts
+	import security
+  reverse_proxy host.docker.internal:8096
+}
+
+vik.dupunkto.org {
+	import logging
+	import txts
+	import security
+	
+	handle_path /api/* {
+		redir https://api.dupunkto.org{uri}
+	}
+
+	reverse_proxy vik:4000
+}
+
+fog.scatterbrain.nl {
+	import logging
+	import txts
+	import security
+	
+	handle_path /api/* {
+		redir https://api.geheimesite.nl{uri}
+	}
+
+	reverse_proxy fog:4000
+}
+
+nym.dupunkto.org {
+	import logging
+	import txts
+	import security
+	reverse_proxy nym:80
+}
+
+scry.dupunkto.org {
+	import logging
+	import txts
+	import security
+	reverse_proxy scry:4000
+}
+
+cipher.dupunkto.org {
+	import logging
+	import txts
+	import security
+	reverse_proxy cipher:4000
+}
+
+git.dupunkto.org {
+	import logging
+	import txts
+	import security
+  reverse_proxy gitz:80
+}
+
+api.dupunkto.org {
+	import logging
+	import txts
+	import security
+	rewrite * /api/{path}
+	reverse_proxy vik:4000
+}
+
+api.geheimesite.nl {
+	import logging
+	import txts
+  import security
+
+	@static path /*.js /resources/*
+
+	route {
+		handle @static {
+			root * /var/www/html/api.geheimesite.nl
+			try_files {path} {path}.json {path}.opml
+			file_server
+		}
+
+		handle {
+			rewrite * /api{path}
+			reverse_proxy fog:4000
+		}
+	}
+}
+
+# Miscellaneous
+
+atlas.gijs6.nl,
+compass.gijs6.nl {
+	import logging
+	reverse_proxy atlas:80
+}
+
+uptime.gijs6.nl {
+	import security
+	reverse_proxy uptime:3001
+}
+
+inbox.gijs6.nl,
+inbox.geheimesite.nl {
+	import logging
+	import txts
+	import security
+
+	rewrite / /send/{host}
+	reverse_proxy cipher:4000
+}
+
+# Websites implemented in Vik.
+
+ikwilvanmijnleraaraf.nl {
+	import logging
+	import txts
+	import security
+
+	rewrite * /api/ikwilvanmijnleraaraf.nl?{query}&p={path}
+	reverse_proxy vik:4000
+}
+
+ikwilvanmijnleerlingaf.nl {
+	import logging
+	import txts
+	import security
+
+	rewrite * /api/ikwilvanmijnleerlingaf.nl?{query}&p={path}
+	reverse_proxy vik:4000
+}
+
+# Cool URLs don't change
+
+november.geheimesite.nl {
+	redir https://geheimesite.nl{uri}
+}
+
+demo.geheimesite.nl,
+docs.geheimesite.nl {
+	redir https://pages.geheimesite.nl{uri}
+}
+
+mpv.geheimesite.nl {
+	redir https://mpv.dupunkto.org{uri}
+}
+
+reader.geheimesite.nl,
+reader.gijs6.nl {
+	redir https://rss.dupunkto.org{uri}
+}
+
+# Fall-trough
+
+http:// {
+	@everything {
+			path /*
+	}
+	redir @everything https://nm.geheimesite.nl?from=http://{host}{uri} 302
+}
