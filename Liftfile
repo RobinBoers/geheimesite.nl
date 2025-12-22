@@ -1,6 +1,9 @@
 type: static
 host: nov
 services:
+- name: router
+  src: Caddyfile
+  target: Caddyfile
 - name: geheimesite.nl
   src: dist/geheimesite.nl
   exclude:
