@@ -1,11 +1,15 @@
-redir /2021/12/google-chromium-en-een-monocultuur-op https://geheimesite.nl/blog/monocultuur-op-de-browsermarkt
-redir /2021/12/social-media-wat-moeten-we-er-mee-aan https://geheimesite.nl/blog/social-media-wat-moeten-we-er-mee-aan
-redir /2022/03/een-maand-zonder-telefoon https://geheimesite.nl/blog/een-maand-zonder-telefoon
-redir /post/belang-van-open-standaarden/ https://geheimesite.nl/blog/belang-van-open-standaarden
-redir /post/somtoday-ziet-er-niet-uit-maar-we-kunnen-het-oplossen-met-css/ https://geheimesite.nl/blog/somtoday-ziet-er-niet-uit-maar-we-kunnen-het-oplossen-met-css
-redir /post/red-het-internet-bouw-je-eigen-website/ https://geheimesite.nl/blog/red-het-internet-bouw-je-eigen-website
-redir /post/gebrek-aan-ambitie/ https://geheimesite.nl/blog/gebrek-aan-ambitie
-redir /post/nft-no-fun-thanks/ https://geheimesite.nl/blog/nft-no-fun-thanks
-redir /post/nadenken-over-privacy/ https://geheimesite.nl/blog/nadenken-over-privacy
-redir /post/lokalere-software/ https://geheimesite.nl/blog/lokalere-software
-redir /post/waarom-altijd-meer/ https://geheimesite.nl/blog/waarom-altijd-meer
+@blog host blog.geheimesite.nl
+
+handle @blog {
+	redir /2021/12/google-chromium-en-een-monocultuur-op https://geheimesite.nl/blog/monocultuur-op-de-browsermarkt
+	redir /2021/12/social-media-wat-moeten-we-er-mee-aan https://geheimesite.nl/blog/social-media-wat-moeten-we-er-mee-aan
+	redir /2022/03/een-maand-zonder-telefoon https://geheimesite.nl/blog/een-maand-zonder-telefoon
+	redir /post/belang-van-open-standaarden/ https://geheimesite.nl/blog/belang-van-open-standaarden
+	redir /post/somtoday-ziet-er-niet-uit-maar-we-kunnen-het-oplossen-met-css/ https://geheimesite.nl/blog/somtoday-ziet-er-niet-uit-maar-we-kunnen-het-oplossen-met-css
+	redir /post/red-het-internet-bouw-je-eigen-website/ https://geheimesite.nl/blog/red-het-internet-bouw-je-eigen-website
+	redir /post/gebrek-aan-ambitie/ https://geheimesite.nl/blog/gebrek-aan-ambitie
+	redir /post/nft-no-fun-thanks/ https://geheimesite.nl/blog/nft-no-fun-thanks
+	redir /post/nadenken-over-privacy/ https://geheimesite.nl/blog/nadenken-over-privacy
+	redir /post/lokalere-software/ https://geheimesite.nl/blog/lokalere-software
+	redir /post/waarom-altijd-meer/ https://geheimesite.nl/blog/waarom-altijd-meer
+}

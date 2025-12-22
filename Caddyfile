@@ -3,8 +3,6 @@
 	#acme_ca https://acme.zerossl.com/v2/DV90
 }
 
-import /var/www/html/*/Caddyfile
-
 (logging) {
 	log {
 		format json
@@ -105,6 +103,7 @@ import /var/www/html/*/Caddyfile
 }
 
 # Remove www. from domain names
+www.scttr.eu,
 www.roblog.nl,
 www.scatterbrain.nl,
 www.geheimesite.nl,
@@ -112,22 +111,10 @@ www.dupunkto.org {
 	redir https://{labels.1}.{labels.0}{uri}
 }
 
-# This is a shorthand.
-scttr.eu, www.scttr.eu {
-	redir https://scatterbrain.nl{uri}
-}
-
+scttr.eu,
 roblog.nl,
-scatterbrain.nl,
-geheimesite.nl {
-	# Quite effective spam protection
-	redir /contact mailto:axcelott@roblog.nl?{query} permanent
-
-	import logging
-	import txts
-	import security
-	import caching
-	import static
+scatterbrain.nl {
+	redir https://geheimesite.nl{uri}
 }
 
 # The CDN is running via Bunny, so Bunny is
@@ -137,6 +124,7 @@ http://cdn.geheimesite.nl {
 	import static
 }
 
+geheimesite.nl,
 dupunkto.org,
 wiki.dupunkto.org,
 docs.dupunkto.org,
@@ -147,6 +135,8 @@ nindo.geheimesite.nl,
 # I need the Cydia repo on legacy versions of iOS on
 # which modern TLS/SSL is a pain to set up.
 http://cydia.geheimesite.nl {
+	import /var/www/html/*/Caddyfile
+
 	import logging
 	import txts
 	import security
