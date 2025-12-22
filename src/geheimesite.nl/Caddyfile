@@ -50,7 +50,7 @@ handle @geheimesite {
   redir /follow /rss temporary
 
   @legacy_posts {
-    file /blog{path}.html
+    file {host}/blog{path}.html
   }
   redir @legacy_posts /blog{uri} permanent
 }
