@@ -205,6 +205,9 @@ figcaption {
 span.source::before { content: "(" }
 span.source::after { content: ")" }
 
+q.source::before { content: '"' }
+q.source::after { content: '"' }
+
 .important {
   display: block;
   font-family: sans-serif;
@@ -214,11 +217,11 @@ span.source::after { content: ")" }
 
 /* Greek letter sizing */
 
-p .sigma {
+.sigma {
   font-size: 0.65em;
   font-weight: 500;
 }
 
-p .theta {
+.theta {
   font-size: 0.75em;
 }
