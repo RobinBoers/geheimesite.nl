@@ -56,7 +56,6 @@ h6 + p {
 
 /* Improved blockquotes, figures and captions */
 blockquote {
-  font-style: italic;
   border-left: 2px solid;
   padding-left: 1.2em;
   margin: auto 0;
