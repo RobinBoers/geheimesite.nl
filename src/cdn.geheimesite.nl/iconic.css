@@ -225,3 +225,12 @@ q.source::after { content: '"' }
 .theta {
   font-size: 0.75em;
 }
+
+/* Fix for title and tables */
+header .sigma {
+  font-size: unset;
+  font-weight: unset;
+}
+th .sigma {
+  font-weight: unset;
+}
