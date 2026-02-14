@@ -2,15 +2,6 @@ defmodule Blog do
   @moduledoc false
   use Vygotsky.Builder
 
-  @caddyfile file("Caddyfile")
-  @external_resource @caddyfile
-
-  @dest Path.join(@dist, "Caddyfile")
-
-  if outdated?(@dest, @caddyfile) do
-    File.cp!(@caddyfile, @dest)
-  end
-
   posts =
     for path <- glob("*.md") do
       @external_resource path
