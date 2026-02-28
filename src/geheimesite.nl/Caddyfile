@@ -1,8 +1,8 @@
-@geheimesite {
-  host roblog.nl scatterbrain.nl geheimesite.nl
+@personal {
+  host roblog.nl scatterbrain.nl geheimesite.nl robin.is.enorm.moe
 }
 
-handle @geheimesite {
+handle @personal {
   # Quite effective spam protection
   redir /contact mailto:axcelott@roblog.nl?{query} permanent
 
