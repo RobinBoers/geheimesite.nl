@@ -1,72 +1,74 @@
-@personal {
-  host roblog.nl scatterbrain.nl geheimesite.nl robin.is.enorm.moe
-}
-
-handle @personal {
-  # Quite effective spam protection
-  redir /contact mailto:axcelott@roblog.nl?{query} permanent
-
-  # Actually, use my Obliviously pf instead.
-  # (this is the canonical URL tho, hence the temporary redirect)
-  redir /me.jpeg https://obliviously.eu/uploads/48e6a52868e7d0bcae77aa5b853ed807.jpg temporary
-
-  # Moved to CDN
-  # (these are the canonical URLs tho, hence the temporary redirects)
-  redir /base.css https://cdn.geheimesite.nl/punkt.css temporary
-  redir /logo2.png https://cdn.geheimesite.nl/images/logo2.png temporary
-  redir /button.jpeg https://cdn.geheimesite.nl/images/button.jpeg temporary
-
-  # Moved to FTP
-  # (these are again the canonical URLs, hence the temporary redirects)
-  redir /conlangs.pdf https://ftp.dupunkto.org/~axcelott/conlangs.pdf temporary
-  redir /cryptobros.pdf https://ftp.dupunkto.org/~axcelott/cryptobros.pdf temporary
-
-  # Cool URLs don't change
-  redir /index-en.xml /index.xml permanent
-  redir /index-nl.xml /index.xml permanent
-  redir /random.jpeg /me.jpeg permanent
-
-  handle /images/* {
-    redir /images/button.png /button.jpeg permanent
-    redir /images/me.jpeg /me.jpeg permanent
-    redir /images/profile.JPG /me.jpeg permanent
-    redir https://cdn.geheimesite.nl{uri} permanent
+handle {
+  @personal {
+    host roblog.nl scatterbrain.nl geheimesite.nl robin.is.enorm.moe
   }
 
-  # Old language-based URLs
-  redir /en/about /about permanent
-  redir /en/colophon /colophon permanent
-  redir /en/privacy /privacy permanent
-  redir /en/follow /follow permanent
+  handle @personal {
+    # Quite effective spam protection
+    redir /contact mailto:axcelott@roblog.nl?{query} permanent
 
-  # Redirect Dutch -> English
-  redir /over-mij /about permanent
-  redir /colofon /colophon permanent
-  redir /volg-me /follow permanent
+    # Actually, use my Obliviously pf instead.
+    # (this is the canonical URL tho, hence the temporary redirect)
+    redir /me.jpeg https://obliviously.eu/uploads/48e6a52868e7d0bcae77aa5b853ed807.jpg temporary
 
-  # I am an idiot and keep moving things around
-  redir /about / temporary
-  redir /webdesign /projects temporary
-  redir /follow /rss temporary
+    # Moved to CDN
+    # (these are the canonical URLs tho, hence the temporary redirects)
+    redir /base.css https://cdn.geheimesite.nl/punkt.css temporary
+    redir /logo2.png https://cdn.geheimesite.nl/images/logo2.png temporary
+    redir /button.jpeg https://cdn.geheimesite.nl/images/button.jpeg temporary
 
-  @legacy_posts {
-    file {host}/blog{path}.html
+    # Moved to FTP
+    # (these are again the canonical URLs, hence the temporary redirects)
+    redir /conlangs.pdf https://ftp.dupunkto.org/~axcelott/conlangs.pdf temporary
+    redir /cryptobros.pdf https://ftp.dupunkto.org/~axcelott/cryptobros.pdf temporary
+
+    # Cool URLs don't change
+    redir /index-en.xml /index.xml permanent
+    redir /index-nl.xml /index.xml permanent
+    redir /random.jpeg /me.jpeg permanent
+
+    handle /images/* {
+      redir /images/button.png /button.jpeg permanent
+      redir /images/me.jpeg /me.jpeg permanent
+      redir /images/profile.JPG /me.jpeg permanent
+      redir https://cdn.geheimesite.nl{uri} permanent
+    }
+
+    # Old language-based URLs
+    redir /en/about /about permanent
+    redir /en/colophon /colophon permanent
+    redir /en/privacy /privacy permanent
+    redir /en/follow /follow permanent
+
+    # Redirect Dutch -> English
+    redir /over-mij /about permanent
+    redir /colofon /colophon permanent
+    redir /volg-me /follow permanent
+
+    # I am an idiot and keep moving things around
+    redir /about / temporary
+    redir /webdesign /projects temporary
+    redir /follow /rss temporary
+
+    @legacy_posts {
+      file {host}/blog{path}.html
+    }
+    redir @legacy_posts /blog{uri} permanent
   }
-  redir @legacy_posts /blog{uri} permanent
-}
 
-@blog host blog.geheimesite.nl
+  @blog host blog.geheimesite.nl
 
-handle @blog {
-	redir /2021/12/google-chromium-en-een-monocultuur-op https://geheimesite.nl/blog/monocultuur-op-de-browsermarkt
-	redir /2021/12/social-media-wat-moeten-we-er-mee-aan https://geheimesite.nl/blog/social-media-wat-moeten-we-er-mee-aan
-	redir /2022/03/een-maand-zonder-telefoon https://geheimesite.nl/blog/een-maand-zonder-telefoon
-	redir /post/belang-van-open-standaarden/ https://geheimesite.nl/blog/belang-van-open-standaarden
-	redir /post/somtoday-ziet-er-niet-uit-maar-we-kunnen-het-oplossen-met-css/ https://geheimesite.nl/blog/somtoday-ziet-er-niet-uit-maar-we-kunnen-het-oplossen-met-css
-	redir /post/red-het-internet-bouw-je-eigen-website/ https://geheimesite.nl/blog/red-het-internet-bouw-je-eigen-website
-	redir /post/gebrek-aan-ambitie/ https://geheimesite.nl/blog/gebrek-aan-ambitie
-	redir /post/nft-no-fun-thanks/ https://geheimesite.nl/blog/nft-no-fun-thanks
-	redir /post/nadenken-over-privacy/ https://geheimesite.nl/blog/nadenken-over-privacy
-	redir /post/lokalere-software/ https://geheimesite.nl/blog/lokalere-software
-	redir /post/waarom-altijd-meer/ https://geheimesite.nl/blog/waarom-altijd-meer
+  handle @blog {
+    redir /2021/12/google-chromium-en-een-monocultuur-op https://geheimesite.nl/blog/monocultuur-op-de-browsermarkt
+    redir /2021/12/social-media-wat-moeten-we-er-mee-aan https://geheimesite.nl/blog/social-media-wat-moeten-we-er-mee-aan
+    redir /2022/03/een-maand-zonder-telefoon https://geheimesite.nl/blog/een-maand-zonder-telefoon
+    redir /post/belang-van-open-standaarden/ https://geheimesite.nl/blog/belang-van-open-standaarden
+    redir /post/somtoday-ziet-er-niet-uit-maar-we-kunnen-het-oplossen-met-css/ https://geheimesite.nl/blog/somtoday-ziet-er-niet-uit-maar-we-kunnen-het-oplossen-met-css
+    redir /post/red-het-internet-bouw-je-eigen-website/ https://geheimesite.nl/blog/red-het-internet-bouw-je-eigen-website
+    redir /post/gebrek-aan-ambitie/ https://geheimesite.nl/blog/gebrek-aan-ambitie
+    redir /post/nft-no-fun-thanks/ https://geheimesite.nl/blog/nft-no-fun-thanks
+    redir /post/nadenken-over-privacy/ https://geheimesite.nl/blog/nadenken-over-privacy
+    redir /post/lokalere-software/ https://geheimesite.nl/blog/lokalere-software
+    redir /post/waarom-altijd-meer/ https://geheimesite.nl/blog/waarom-altijd-meer
+  }
 }
