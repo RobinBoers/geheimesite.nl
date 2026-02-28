@@ -4,12 +4,12 @@
 }
 
 (logging) {
-	log {
-		format json
-		output file /var/log/access.log {
-			roll_disabled
-		}
-	}
+#	log {
+#		format json
+#		output file /var/log/access.log {
+#			roll_disabled
+#		}
+#	}
 }
 
 (txts) {
@@ -66,7 +66,7 @@
 		path *.js *.css
 	}
 	handle @assets {
-		header Cache-Control "max-age=604800, stale-while-revalidate"
+		header Cache-Control "max-age=604800, stale-while-revalidate=86400"
 	}
 
 	@content {
@@ -79,30 +79,43 @@
 }
 
 (static) {
-	@index {
+	@strip_index {
 		path_regexp index ^(.*)/index\.html$
 	}
-	redir @index {scheme}://{host}{re.index.1}/ 301
+	redir @strip_index {scheme}://{host}{re.index.1}/ 301
 
-	@html {
+	@strip_html {
 		path_regexp html ^(.*)\.html$
 	}
-	redir @html {scheme}://{host}{re.html.1} 301
+	redir @strip_html {scheme}://{host}{re.html.1} 301
+
+	@strip_php {
+		path_regexp php ^(.*)\.php$
+	}
+	redir @strip_php {scheme}://{host}{re.php.1} 301
 
 	root * /var/www/html
 
-	@dir {
+	@enter_dir_html {
 		file {host}{path}/index.html
 		# not file {host}{path}.html
 		not path */
 	}
-	redir @dir {uri}/ 301
+	redir @enter_dir_html {uri}/ 301
 
-	try_files {host}{path} {host}{path}/index.html {host}{path}.html
+	@enter_dir_php {
+		file {host}{path}/index.php
+		# not file {host}{path}.html
+		not path */
+	}
+	redir @enter_dir_php {uri}/ 301
+
+	try_files {host}{path} {host}{path}/index.html {host}{path}/index.php {host}{path}.html {host}{path}.php
 	file_server
 }
 
 # Remove www. from domain names
+www.enorm.moe,
 www.scttr.eu,
 www.roblog.nl,
 www.scatterbrain.nl,
@@ -111,9 +124,15 @@ www.dupunkto.org {
 	redir https://{labels.1}.{labels.0}{uri}
 }
 
-scttr.eu,
-roblog.nl,
-scatterbrain.nl {
+enorm.moe {
+	redir https://dupunkto.org
+}
+
+scttr.eu {
+	redir https://scatterbrain.nl{uri}
+}
+
+roblog.nl {
 	redir https://geheimesite.nl{uri}
 }
 
@@ -125,6 +144,7 @@ http://cdn.geheimesite.nl {
 }
 
 geheimesite.nl,
+scatterbain.nl,
 dupunkto.org,
 wiki.dupunkto.org,
 docs.dupunkto.org,
@@ -132,9 +152,11 @@ nm.geheimesite.nl,
 classic.geheimesite.nl,
 blog.geheimesite.nl,
 nindo.geheimesite.nl,
+keys.geheimesite.nl,
 # I need the Cydia repo on legacy versions of iOS on
 # which modern TLS/SSL is a pain to set up.
-http://cydia.geheimesite.nl {
+http://cydia.geheimesite.nl,
+robin.is.enorm.moe {
 	import /var/www/html/*/Caddyfile
 
 	import logging
