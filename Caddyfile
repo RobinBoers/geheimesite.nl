@@ -98,14 +98,12 @@
 
 	@enter_dir_html {
 		file {host}{path}/index.html
-		# not file {host}{path}.html
 		not path */
 	}
 	redir @enter_dir_html {uri}/ 301
 
 	@enter_dir_php {
 		file {host}{path}/index.php
-		# not file {host}{path}.html
 		not path */
 	}
 	redir @enter_dir_php {uri}/ 301
@@ -144,7 +142,7 @@ http://cdn.geheimesite.nl {
 }
 
 geheimesite.nl,
-scatterbain.nl,
+scatterbrain.nl,
 dupunkto.org,
 wiki.dupunkto.org,
 docs.dupunkto.org,
