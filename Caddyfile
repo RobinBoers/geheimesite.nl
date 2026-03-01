@@ -127,11 +127,7 @@ enorm.moe {
 }
 
 scttr.eu {
-	redir https://scatterbrain.nl{uri}
-}
-
-roblog.nl {
-	redir https://geheimesite.nl{uri}
+	redir https://scatterbrain.nl
 }
 
 # The CDN is running via Bunny, so Bunny is
@@ -151,6 +147,7 @@ classic.geheimesite.nl,
 blog.geheimesite.nl,
 nindo.geheimesite.nl,
 keys.geheimesite.nl,
+cydia.geheimesite.nl,
 # I need the Cydia repo on legacy versions of iOS on
 # which modern TLS/SSL is a pain to set up.
 http://cydia.geheimesite.nl,
@@ -323,6 +320,10 @@ ikwilvanmijnleerlingaf.nl {
 }
 
 # Cool URLs don't change
+
+roblog.nl {
+	redir https://geheimesite.nl{uri}
+}
 
 november.geheimesite.nl {
 	redir https://geheimesite.nl{uri}
