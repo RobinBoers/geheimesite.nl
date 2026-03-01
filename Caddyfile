@@ -130,6 +130,10 @@ scttr.eu {
 	redir https://scatterbrain.nl
 }
 
+schravenland.nl {
+	redir https://lyceumschravenland.nl
+}
+
 # The CDN is running via Bunny, so Bunny is
 # managing SSL rather than Caddy.
 http://cdn.geheimesite.nl {
@@ -151,6 +155,7 @@ cydia.geheimesite.nl,
 # I need the Cydia repo on legacy versions of iOS on
 # which modern TLS/SSL is a pain to set up.
 http://cydia.geheimesite.nl,
+lyceumschravenland.nl,
 robin.is.enorm.moe {
 	import /var/www/html/*/Caddyfile
 
