@@ -3,7 +3,7 @@
   also hacked together by @axcelott-- AGPLv3.
 */
 
-textarea, input, select, button, a.button {
+textarea, input, select, button, a.button, .buttons a {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
