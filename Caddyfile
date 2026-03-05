@@ -256,8 +256,21 @@ api.dupunkto.org {
 	import logging
 	import txts
 	import security
-	rewrite * /api/{path}
-	reverse_proxy vik:4000
+
+	@static path /
+
+	route {
+		handle @static {
+			root * /var/www/html/api.geheimesite.nl
+			try_files {path} {path}.json {path}.opml
+			file_server
+		}
+
+		handle {
+			rewrite * /api{path}
+			reverse_proxy vik:4000
+		}
+	}
 }
 
 api.geheimesite.nl {
@@ -265,7 +278,7 @@ api.geheimesite.nl {
 	import txts
   import security
 
-	@static path /*.js /resources/*
+	@static path / /*.js /resources/*
 
 	route {
 		handle @static {
