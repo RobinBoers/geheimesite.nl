@@ -12,6 +12,8 @@ services:
   src: dist/cdn.geheimesite.nl
   exclude:
   - images
+  - videos
+  - recordings
   - fonts
   - ghme.css
 - name: classic.geheimesite.nl
