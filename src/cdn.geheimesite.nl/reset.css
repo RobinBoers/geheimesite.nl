@@ -116,6 +116,6 @@ textarea:not([rows]) {
 }
 
 /* Phoenix apps insert this div into layouts */
-.phx-connected {
+[data-phx-main] {
   display: contents;
 }
