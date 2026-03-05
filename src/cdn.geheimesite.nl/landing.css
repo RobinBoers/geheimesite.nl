@@ -5,6 +5,8 @@
   also hacked together by @axcelott-- AGPLv3.
 */
 
+@import url("punkt.css");
+
 body {
   max-width: 600px;
   display: flex;
