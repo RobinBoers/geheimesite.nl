@@ -9,6 +9,7 @@
 
 body {
   max-width: 600px;
+  text-align: center;
   display: flex;
   margin-top: 3em;
   margin-bottom: 1em;
