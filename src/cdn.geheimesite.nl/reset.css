@@ -114,3 +114,8 @@ textarea:not([rows]) {
 :target {
   scroll-margin-block: 5ex;
 }
+
+/* Phoenix apps insert this div into layouts */
+.phx-connected {
+  display: contents;
+}
