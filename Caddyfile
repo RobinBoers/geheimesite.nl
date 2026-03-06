@@ -33,6 +33,19 @@
 	}
 }
 
+(landing) {
+	@landing {
+		path /
+		expression `{query} == ""`
+	}
+
+	handle @landing {
+		root * /var/www/html
+		rewrite {host}/index.html
+		file_server
+	}
+}
+
 (security) {
 	header {
 		-Server
@@ -183,6 +196,7 @@ rss.dupunkto.org {
 	import logging
 	import txts
 	import security
+	import landing
   reverse_proxy miniflux:8080
 }
 
@@ -190,6 +204,7 @@ inv.dupunkto.org {
 	import logging
 	import txts
 	import security
+	import landing
   reverse_proxy invidious:3000
 }
 
@@ -197,6 +212,7 @@ mpv.dupunkto.org {
 	import logging
 	import txts
 	import security
+	import landing
   reverse_proxy host.docker.internal:8096
 }
 
@@ -256,15 +272,9 @@ api.dupunkto.org {
 	import logging
 	import txts
 	import security
-
-	@static path /
-
+	
 	route {
-		handle @static {
-			root * /var/www/html/api.geheimesite.nl
-			try_files {path} {path}.json {path}.opml
-			file_server
-		}
+		import landing		
 
 		handle {
 			rewrite * /api{path}
@@ -278,9 +288,11 @@ api.geheimesite.nl {
 	import txts
   import security
 
-	@static path / /*.js /resources/*
+	@static path /*.js /resources/*
 
 	route {
+		import landing
+
 		handle @static {
 			root * /var/www/html/api.geheimesite.nl
 			try_files {path} {path}.json {path}.opml
@@ -350,15 +362,6 @@ november.geheimesite.nl {
 demo.geheimesite.nl,
 docs.geheimesite.nl {
 	redir https://pages.geheimesite.nl{uri}
-}
-
-mpv.geheimesite.nl {
-	redir https://mpv.dupunkto.org{uri}
-}
-
-reader.geheimesite.nl,
-reader.gijs6.nl {
-	redir https://rss.dupunkto.org{uri}
 }
 
 # Fall-trough
