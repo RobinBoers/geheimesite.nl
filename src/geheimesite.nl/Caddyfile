@@ -50,6 +50,10 @@ handle {
     redir /webdesign /projects temporary
     redir /follow /rss temporary
 
+    handle /r/place* {
+      reverse_proxy rplace:80
+    }
+
     @legacy_posts {
       file {host}/blog{path}.html
     }

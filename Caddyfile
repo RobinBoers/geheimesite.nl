@@ -170,13 +170,15 @@ cydia.geheimesite.nl,
 http://cydia.geheimesite.nl,
 lyceumschravenland.nl,
 robin.is.enorm.moe {
-	import /var/www/html/*/Caddyfile
+	route {
+		import /var/www/html/*/Caddyfile
 
-	import logging
-	import txts
-	import security
-	import caching
-	import static
+		import logging
+		import txts
+		import security
+		import caching
+		import static
+	}
 }
 
 ftp.dupunkto.org {
