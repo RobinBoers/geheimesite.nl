@@ -1,0 +1,5 @@
+@cdn host cdn.geheimesite.nl
+
+handle @cdn {
+	redir /typography.css /fonts.css
+}

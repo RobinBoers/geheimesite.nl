@@ -7,9 +7,10 @@
 
 @import url("reset.css");
 @import url("forms.css");
+@import url("fonts.css");
 
 body {
-  font-family: serif;
+  font-family: "EB Garamond", serif;
   font-size: clamp(0.9rem, 2vw, 1.2rem);
   line-height: 1.5;
 }

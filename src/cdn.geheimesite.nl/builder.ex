@@ -2,6 +2,15 @@ defmodule CDN do
   @moduledoc false
   use Vygotsky.Builder
 
+  @caddyfile file("Caddyfile")
+  @external_resource @caddyfile
+
+  @dest Path.join(@dist, "Caddyfile")
+
+  if outdated?(@dest, @caddyfile) do
+    File.cp!(@caddyfile, @dest)
+  end
+
   @stylesheets (
     for path <- glob("*.css") do
       @external_resource path
