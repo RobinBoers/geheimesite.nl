@@ -8,6 +8,15 @@ export FORMAT="prettier --ignore-path .prettierignore"
 export VALIDATE="vnu --exit-zero-always --filterfile .vnuignore"
 
 setup() {
+  required elixir
+  required lightningcss
+  required pandoc
+  required fswatch
+  required prettier
+  required stylelint
+  required achecker
+  required vnu
+
   p:step "Fetching dependencies"; mix deps.get >/dev/null && p:done
   p:step "Compiling dependencies"; mix deps.compile >/dev/null && p:done
 }
