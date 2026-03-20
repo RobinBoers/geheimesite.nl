@@ -8,6 +8,7 @@ services:
   src: dist/geheimesite.nl
   exclude:
   - r
+  - js0.23
 - name: cdn.geheimesite.nl
   src: dist/cdn.geheimesite.nl
   exclude:
