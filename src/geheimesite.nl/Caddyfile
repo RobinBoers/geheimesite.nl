@@ -54,6 +54,11 @@ handle {
       reverse_proxy rplace:80
     }
 
+    handle /js0.23* {
+      header -X-Frame-Options
+      header -Content-Security-Policy
+    }
+
     @legacy_posts {
       file {host}/blog{path}.html
     }
