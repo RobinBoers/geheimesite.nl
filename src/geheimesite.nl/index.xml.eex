@@ -10,13 +10,15 @@
     <webMaster><%= config!(:author, :email) %> (<%= config!(:author, :name) %>)</webMaster>
     <copyright><%= XML.escape(config!(:blog, :rights)) %></copyright>
     <language><%= config!(:language) %></language>
-    <%= for entry <- Blog.list_posts() do %><item>
-      <title><%= XML.escape(entry.title) %></title>
-      <link>https://<%= @host %><%= canonical(entry.path) %></link>
-      <description><%= XML.escape(entry.content) %></description>
-      <pubDate><%= Calendar.strftime(entry.date, "%a, %d %b %Y") %> at 00:00:00</pubDate>
-      <dc:creator><%= config!(:author, :name) %></dc:creator>
-      <guid>https://<%= @host %><%= canonical(entry.path) %></guid>
-    </item>
-<% end %>  </channel>
+    <%= for entry <- Blog.list_posts() do %>
+      <item>
+        <title><%= XML.escape(entry.title) %></title>
+        <link>https://<%= @host %><%= canonical(entry.path) %></link>
+        <description><%= XML.escape(entry.content) %></description>
+        <pubDate><%= Calendar.strftime(entry.date, "%a, %d %b %Y") %> 00:00:00 +0000</pubDate>
+        <dc:creator><%= config!(:author, :name) %></dc:creator>
+        <guid>https://<%= @host %><%= canonical(entry.path) %></guid>
+      </item>
+    <% end %>
+  </channel>
 </rss>
