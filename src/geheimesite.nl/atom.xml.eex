@@ -4,11 +4,11 @@
   <subtitle><%= XML.escape(config!(:blog, :description)) %></subtitle>
   <link href="https://<%= @host %>/" />
   <link href="https://<%= @host %><%= canonical(@path) %>" rel="self" type="application/atom+xml" />
-  <updated><%= Blog.last_modified() |> Date.to_iso8601() %></updated>
+  <updated><%= Blog.last_modified() |> Date.to_iso8601() %>T00:00:00Z</updated>
   <id>https://<%= @host %>/</id>
   <author>
     <name><%= config!(:author, :name) %></name>
-    <name><%= config!(:author, :email) %></name>
+    <email><%= config!(:author, :email) %></email>
   </author>
   <%= for entry <- Blog.list_posts() do %><entry>
     <title><%= XML.escape(entry.title) %></title>
