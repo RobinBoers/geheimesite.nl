@@ -103,7 +103,7 @@ defmodule VEEx do
       if layout = unquote(opts)[:layout] do
         unquote(__MODULE__).render_layout!(layout, content, assigns)
       else
-        if String.contains?(unquote(path), ".json") do
+        if Enum.any?(~w(.json .xml), &String.contains?(unquote(path), &1)) do
           content
         else
           content
