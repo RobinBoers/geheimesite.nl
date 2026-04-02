@@ -17,7 +17,7 @@
       id: "https://#{@host}#{canonical(entry.path)}",
       url: "https://#{@host}#{canonical(entry.path)}",
       title: entry.title,
-      content_html: entry.content,
+      content_html: XML.absolutize(entry.content, "https://#{@host}#{canonical(entry.path)}"),
       date_published: "#{Date.to_iso8601(entry.date)}T00:00:00Z"
     }
   end)

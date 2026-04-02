@@ -14,7 +14,7 @@
       <item>
         <title><%= XML.escape(entry.title) %></title>
         <link>https://<%= @host %><%= canonical(entry.path) %></link>
-        <description><%= XML.escape(entry.content) %></description>
+        <description><%= XML.escape(XML.absolutize(entry.content, "https://#{@host}#{canonical(entry.path)}")) %></description>
         <pubDate><%= Calendar.strftime(entry.date, "%a, %d %b %Y") %> 00:00:00 +0000</pubDate>
         <dc:creator><%= config!(:author, :name) %></dc:creator>
         <guid>https://<%= @host %><%= canonical(entry.path) %></guid>

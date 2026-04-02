@@ -15,6 +15,6 @@
     <link href="https://<%= @host %><%= canonical(entry.path) %>" />
     <updated><%= Date.to_iso8601(entry.date) %>T00:00:00Z</updated>
     <id>https://<%= @host %><%= canonical(entry.path) %></id>
-    <content type="html"><%= XML.escape(entry.content) %></content>
+    <content type="html"><%= XML.escape(XML.absolutize(entry.content, "https://#{@host}#{canonical(entry.path)}")) %></content>
   </entry>
 <% end %></feed>
