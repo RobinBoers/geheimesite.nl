@@ -95,7 +95,8 @@ tr {
 
 /* Dashboard */
 
-body > header {
+body > header,
+body > [data-phx-main] > header {
   text-transform: lowercase;
   background: black;
   color: white;
@@ -105,7 +106,8 @@ body > header {
   align-items: center;
 }
 
-body > header h1 {
+body > header h1,
+body > [data-phx-main] > header h1 {
   margin: 0;
   font-size: 1em;
 }
