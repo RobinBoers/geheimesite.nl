@@ -208,7 +208,7 @@ inv.dupunkto.org {
 	import txts
 	import security
 	import landing
-  reverse_proxy invidious:3000
+  # reverse_proxy invidious:3000
 }
 
 mpv.dupunkto.org {
