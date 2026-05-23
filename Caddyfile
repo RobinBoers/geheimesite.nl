@@ -339,7 +339,7 @@ ikwilvanmijnleraaraf.nl {
 	import txts
 	import security
 
-	rewrite * /api/ikwilvanmijnleraaraf.nl?{query}&p={path}
+	rewrite * /api/ikwilvanmijnleraaraf.nl?{query}&_path={path}
 	reverse_proxy vik:4000
 }
 
@@ -348,7 +348,7 @@ ikwilvanmijnleerlingaf.nl {
 	import txts
 	import security
 
-	rewrite * /api/ikwilvanmijnleerlingaf.nl?{query}&p={path}
+	rewrite * /api/ikwilvanmijnleerlingaf.nl?{query}&_path={path}
 	reverse_proxy vik:4000
 }
 
