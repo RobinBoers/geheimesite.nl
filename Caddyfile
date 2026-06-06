@@ -367,6 +367,14 @@ docs.geheimesite.nl {
 	redir https://pages.geheimesite.nl{uri}
 }
 
+# Uptime
+
+nov.mesh.dupunkto.org {
+	import txts
+	import security
+	reverse_proxy mesh:4000
+}
+
 # Fall-trough
 
 http:// {
