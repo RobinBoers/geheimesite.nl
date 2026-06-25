@@ -28,6 +28,10 @@
         border: none;
         padding: 0;
       }
+      
+      .p-family-name::after {
+        content: ".";
+      }
 
       body {
         padding: 7px;
@@ -104,16 +108,18 @@
       }
     </style>
   </head>
-  <body>
+  <body class="h-card">
     <p class="jump"><a href="#menu">Menu 🞃</a></p>
 
-    <main class="h-card">
+    <main>
       <p>
         <b class="p-name">
           <span class="p-given-name">Robin</span>
-          <span class="p-family-name">Boers</span>.
+          <span class="p-family-name">Boers</span>
         </b>
-        I'm a teenage developer. I write pretty decent software.
+        <span class="p-note">
+          I'm a teenage developer. I write pretty decent software.
+        </span>
       </p>
 
       <p>
@@ -240,11 +246,11 @@
         <h3>writing</h3>
 
         <ul>
-          <.la href="/blog">Blog</.la>
-          <.la href="/now">Now</.la>
+          <.la href="/blog" class="u-url">Blog</.la>
+          <.la href="/now" class="u-url">Now</.la>
           <.la href="/blogroll">Blogroll</.la>
-          <.la href="//school.geheimesite.nl">School</.la>
-          <.la href="//uni.geheimesite.nl">University</.la>
+          <.la href="//school.geheimesite.nl" class="u-url">School</.la>
+          <.la href="//uni.geheimesite.nl" class="u-url">University</.la>
           <.la href="/rss">Subscribe</.la>
         </ul>
 
@@ -254,7 +260,8 @@
           <.la href="//git.dupunkto.org">Code</.la>
           <.la href="/projects">Projects</.la>
           <.la href="/resume">Resumé</.la>
-          <.la href="//dupunkto.org">:du:punkto</.la>
+          <.la href="//dupunkto.org" class="u-url">:du:punkto</.la>
+          <.la href="//11networks.nl" class="u-url">11networks</.la>
           <.la href="/r/place">r/place</.la>
           <.la href="/buttons">88 by 31</.la>
           <.la href="/js0.23">js0.23</.la>
