@@ -46,6 +46,16 @@
 	}
 }
 
+(nym) {
+  rewrite * /proxy?{query}
+  reverse_proxy nym:80 {
+    header_up X-Forwarded-Host {host}
+    header_up X-Forwarded-Proto {scheme}
+    header_up X-Forwarded-To {args[0]}
+    header_up X-Forwarded-Path {http.request.orig_uri.path}
+  }
+}
+
 (security) {
 	header {
 		-Server
@@ -201,7 +211,7 @@ rss.dupunkto.org {
 	import txts
 	import security
 	import landing
-  reverse_proxy miniflux:8080
+	import nym miniflux:8080
 }
 
 inv.dupunkto.org {
@@ -245,6 +255,9 @@ fog.scatterbrain.nl {
 }
 
 nym.dupunkto.org {
+	@forbidden path /proxy /users.json
+  rewrite @forbidden /
+
 	import logging
 	import txts
 	import security
