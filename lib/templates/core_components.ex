@@ -16,6 +16,7 @@ defmodule Vygotsky.CoreComponents do
   end
 
   attr :href, :string, required: true
+  attr :class, :string, default: nil
   attr :rest, :global
   slot :inner_block, required: true
 
@@ -24,7 +25,7 @@ defmodule Vygotsky.CoreComponents do
   """
   def la(assigns) do
     ~H"""
-    <li {@rest}><a href={@href}>{render_slot(@inner_block)}</a></li>
+    <li {@rest}><a href={@href} class={@class}>{render_slot(@inner_block)}</a></li>
     """
   end
 
