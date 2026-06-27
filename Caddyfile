@@ -176,7 +176,7 @@ classic.geheimesite.nl,
 blog.geheimesite.nl,
 nindo.geheimesite.nl,
 keys.geheimesite.nl,
-repo.dupunkto.org
+repo.dupunkto.org,
 cydia.geheimesite.nl,
 # I need these APT repos on legacy versions of iOS and
 # Linux, on which modern TLS/SSL is a pain to set up.
