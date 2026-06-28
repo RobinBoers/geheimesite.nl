@@ -80,8 +80,39 @@ defmodule Vygotsky do
     end
   end
 
+  defmacro register_dependencies!(path) do
+    quote do
+      source = File.read!(unquote(path))
+      pattern = ~r/<\.embed\b[^>]*\bname="([^"]+)"/
+
+      dependencies =
+        pattern
+        |> Regex.scan(source)
+        |> Enum.map(fn [_, name] -> name end)
+        |> Enum.map(&shared_path/1)
+
+      for path <- dependencies do
+        Module.put_attribute(__MODULE__, :external_resource, path)
+      end
+
+      dependencies
+    end
+  end
+
+  def icon_path(path) do
+    Application.app_dir(:vygotsky, "priv/icons/#{path}")
+  end
+
+  def shared_path(path) do
+    Application.app_dir(:vygotsky, "priv/shared/#{path}")
+  end
+
+  def ref_path(path) do
+    Application.app_dir(:vygotsky, "priv/refs/#{path}")
+  end
+
   # This black-magic fuckery ensures the current module is
-  # recompiled if there are new files in `icons` or `shared`.
+  # recompiled if there are new files in `icons` or `refs`.
 
   @priv Application.app_dir(:vygotsky, "priv/**/*")
   @count length(Path.wildcard(@priv))

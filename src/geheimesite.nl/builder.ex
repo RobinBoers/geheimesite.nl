@@ -8,9 +8,12 @@ defmodule Personal do
     @external_resource path
     @dest target(path)
 
+    embeds = register_dependencies!(path)
+
     # The blog index depends on Blog.list_posts, so should always regenerate.
     # And blogroll should be regenerated if not fetched for more than a day.
     if outdated?(@dest, path) or
+         Enum.any?(embeds, &outdated?(@dest, &1)) or
          Path.basename(path) == "blog.html.heex" or
          (Path.basename(path) == "blogroll.html.heex" and outdated_by?(@dest, days: 1)) do
       File.write!(@dest, VEEx.render_template!(path))
