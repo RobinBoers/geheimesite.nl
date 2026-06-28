@@ -159,6 +159,7 @@ schravenland.nl {
 
 # The CDN is running via Bunny, so Bunny is
 # managing SSL rather than Caddy.
+http://cdn.dupunkto.org,
 http://cdn.geheimesite.nl {
 	import caching
 	import static
