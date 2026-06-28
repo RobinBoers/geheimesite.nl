@@ -124,9 +124,51 @@ defmodule Vygotsky do
     end
   end
 
-  defmacro file(path) do
+  defmacro source(path) do
     quote do
       Path.join(__DIR__, unquote(path))
+    end
+  end
+
+  defmacro target(path, opts \\ []) do
+    quote do
+      if Keyword.get(unquote(opts), :relative, false) do
+        "/" <> output(unquote(path), unquote(opts))
+      else
+        Path.join(@dist, output(unquote(path), unquote(opts)))
+      end
+    end
+  end
+
+  defmacro copy_through(path) do
+    quote do
+      @copy source(unquote(path))
+      @dest target(unquote(path))
+
+      @external_resource @copy
+
+      if outdated?(@dest, @copy) do
+        File.cp!(@copy, @dest)
+      end
+    end
+  end
+
+  def output(path, opts \\ []) do
+    path = path |> List.wrap() |> Path.join() |> String.downcase()
+
+    rootname =
+      cond do
+        String.ends_with?(path, "caddyfile") -> path
+        String.ends_with?(path, ".eex") -> path |> Path.rootname(".eex") |> output()
+        String.ends_with?(path, ".heex") -> path |> Path.rootname(".heex") |> output()
+        String.ends_with?(path, ".md") -> Path.rootname(path, ".md") <> ".html"
+        Enum.any?(~w(html xml json txt js css), &String.ends_with?(path, ".#{&1}")) -> path
+      end
+
+    if Keyword.get(opts, :basename, true) do
+      Path.basename(rootname)
+    else
+      rootname
     end
   end
 
@@ -135,22 +177,6 @@ defmodule Vygotsky do
     |> output(basename: false)
     |> ensure_prefix("/")
     |> strip_suffix(".html")
-  end
-
-  def output(path, opts \\ []) do
-    rootname =
-      cond do
-        String.ends_with?(path, ".eex") -> path |> Path.rootname(".eex") |> output()
-        String.ends_with?(path, ".heex") -> path |> Path.rootname(".heex") |> output()
-        String.ends_with?(path, ".md") -> Path.rootname(path, ".md") <> ".html"
-        Enum.any?(~w(html xml json txt css), &String.ends_with?(path, ".#{&1}")) -> path
-      end
-
-    if Keyword.get(opts, :basename, true) do
-      Path.basename(rootname)
-    else
-      rootname
-    end
   end
 
   def outdated?(dest, src) do

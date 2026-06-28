@@ -13,11 +13,11 @@
     <%= for entry <- Blog.list_posts() do %>
       <item>
         <title><%= XML.escape(entry.title) %></title>
-        <link>https://<%= @host %><%= canonical(entry.path) %></link>
-        <description><%= XML.escape(XML.absolutize(entry.content, "https://#{@host}#{canonical(entry.path)}")) %></description>
+        <link>https://<%= @host %><%= entry.canonical %></link>
+        <description><%= XML.escape(XML.absolutize(entry.content, "https://#{@host}#{entry.canonical}")) %></description>
         <pubDate><%= Calendar.strftime(entry.date, "%a, %d %b %Y") %> 00:00:00 +0000</pubDate>
         <dc:creator><%= config!(:author, :name) %></dc:creator>
-        <guid>https://<%= @host %><%= canonical(entry.path) %></guid>
+        <guid>https://<%= @host %><%= entry.canonical %></guid>
       </item>
     <% end %>
   </channel>

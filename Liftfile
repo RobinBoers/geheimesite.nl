@@ -17,6 +17,10 @@ services:
   - recordings
   - fonts
   - ghme.css
+- name: api.geheimesite.nl
+  src: dist/api.geheimesite.nl
+  exclude:
+  - resources
 - name: classic.geheimesite.nl
   src: dist/classic.geheimesite.nl
   exclude:

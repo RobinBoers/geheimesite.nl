@@ -2,18 +2,11 @@ defmodule Personal do
   @moduledoc false
   use Vygotsky.Builder
 
-  @caddyfile file("Caddyfile")
-  @external_resource @caddyfile
-
-  @dest Path.join(@dist, "Caddyfile")
-
-  if outdated?(@dest, @caddyfile) do
-    File.cp!(@caddyfile, @dest)
-  end
+  copy_through "Caddyfile"
 
   for path <- glob("*.html.{heex,eex}") do
     @external_resource path
-    @dest Path.join(@dist, output(path))
+    @dest target(path)
 
     # The blog index depends on Blog.list_posts, so should always regenerate.
     # And blogroll should be regenerated if not fetched for more than a day.
@@ -26,7 +19,7 @@ defmodule Personal do
 
   for path <- glob("*.{xml,json}.eex") do
     @external_resource path
-    @dest Path.join(@dist, output(path))
+    @dest target(path)
 
     # Same goes for the blog feeds.
     File.write!(@dest, VEEx.render_template!(path))
@@ -41,7 +34,7 @@ defmodule Personal do
 
   for path <- glob("*.md.heex") do
     @external_resource path
-    @dest Path.join(@dist, output(path))
+    @dest target(path)
 
     if outdated?(@dest, path) or outdated?(@dest, @article_layout) do
       File.write!(@dest, VEEx.render_template!(path, layout: :article))
@@ -50,14 +43,15 @@ defmodule Personal do
 
   for path <- glob("*.txt"), Path.basename(path) != "robots.txt" do
     @external_resource path
-    @dest Path.join(@dist, output(path))
+    @dest target(path)
 
     if outdated?(@dest, path) do
       File.cp!(path, @dest)
     end
   end
 
-  @robots file("robots.txt")
+  @robots source("robots.txt")
+  @dest target("robots.txt")
   @external_resource @robots
 
   message =
@@ -67,24 +61,24 @@ defmodule Personal do
     |> Enum.map(&"# #{&1}")
     |> Enum.join("\n")
 
-  @dest Path.join(@dist, "robots.txt")
-
   if outdated_by?(@dest, days: 1) do
     File.write!(@dest, message <> "\n\n" <> DarkVisitors.agents())
   end
 
-  for build <- CDN.stylesheets() do
-    @dest Path.join(@dist, output(build))
+  for {path, build} <- CDN.stylesheets() do
+    @external_resource path
+    @dest target(build)
 
     if outdated?(@dest, build) do
       File.cp!(build, @dest)
     end
   end
 
-  @dist |> Path.join("blog") |> File.mkdir_p!()
+  [@dist, "blog"] |> Path.join() |> File.mkdir_p!()
 
   for entry <- Blog.list_posts() do
-    @dest Path.join(@dist, entry.path)
+    @external_resource entry.source
+    @dest entry.target
 
     if outdated?(@dest, entry.source) or outdated?(@dest, @entry_layout) do
       File.write!(@dest, VEEx.render_layout!(:entry, entry.content, entry))

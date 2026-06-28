@@ -1,6 +1,6 @@
 <.meta />
 
-<link rel="canonical" href={"//#{@host}#{unless assigns[:root], do: canonical(@path)}"} />
+<link rel="canonical" href={"//#{@host}#{unless assigns[:root], do: assigns[:canonical] || canonical(@path)}"} />
 <link rel="license" href="//creativecommons.org/publicdomain/zero/1.0/" />
 <link rel="stylesheet" href={Enum.join([
   if @host not in config!(:primary) do "//cdn.geheimesite.nl" end,

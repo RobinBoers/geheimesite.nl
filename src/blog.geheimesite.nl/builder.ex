@@ -10,8 +10,10 @@ defmodule Blog do
 
       %{
         source: path,
+        path: Path.join("blog", path),
+        target: target(["blog", path]),
+        canonical: canonical(["blog", path]),
         slug: Path.basename(path, ".md"),
-        path: "/blog/#{output(path)}",
         title: Map.fetch!(frontmatter, :title),
         date: Map.fetch!(frontmatter, :date),
         content: VEEx.render_template!(path, braces: false),
