@@ -3,9 +3,7 @@ defmodule Blog do
   use Vygotsky.Builder
 
   posts =
-    for path <- glob("*.md") do
-      @external_resource path
-
+    async path <- glob("*.md") do
       {frontmatter, _} = path |> File.read!() |> VEEx.parse_frontmatter()
 
       %{

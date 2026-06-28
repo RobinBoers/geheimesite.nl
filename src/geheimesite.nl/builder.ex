@@ -4,28 +4,28 @@ defmodule Personal do
 
   copy_through "Caddyfile"
 
-  for path <- glob("*.html.{heex,eex}") do
-    @external_resource path
-    @dest target(path)
+  pages =
+    for path <- glob("*.html.{heex,eex}") do
+      @external_resource path
+      {path, register_dependencies!(path)}
+    end
 
-    embeds = register_dependencies!(path)
+  async {path, embeds} <- pages, load: [Blog] do
+    dest = target(path)
 
     # The blog index depends on Blog.list_posts, so should always regenerate.
     # And blogroll should be regenerated if not fetched for more than a day.
-    if outdated?(@dest, path) or
-         Enum.any?(embeds, &outdated?(@dest, &1)) or
+    if outdated?(dest, path) or
+         Enum.any?(embeds, &outdated?(dest, &1)) or
          Path.basename(path) == "blog.html.heex" or
-         (Path.basename(path) == "blogroll.html.heex" and outdated_by?(@dest, days: 1)) do
-      File.write!(@dest, VEEx.render_template!(path))
+         (Path.basename(path) == "blogroll.html.heex" and outdated_by?(dest, days: 1)) do
+      File.write!(dest, VEEx.render_template!(path))
     end
   end
 
-  for path <- glob("*.{xml,json}.eex") do
-    @external_resource path
-    @dest target(path)
-
-    # Same goes for the blog feeds.
-    File.write!(@dest, VEEx.render_template!(path))
+  # Same goes for the blog feeds.
+  async path <- glob("*.{xml,json}.eex"), load: [Blog, Git] do
+    File.write!(target(path), VEEx.render_template!(path))
   end
 
   # Rebuild this module if one of these templates change.
@@ -35,12 +35,11 @@ defmodule Personal do
   @external_resource @entry_layout
   @external_resource @article_layout
 
-  for path <- glob("*.md.heex") do
-    @external_resource path
-    @dest target(path)
+  async path <- glob("*.md.heex") do
+    dest = target(path)
 
-    if outdated?(@dest, path) or outdated?(@dest, @article_layout) do
-      File.write!(@dest, VEEx.render_template!(path, layout: :article))
+    if outdated?(dest, path) or outdated?(dest, @article_layout) do
+      File.write!(dest, VEEx.render_template!(path, layout: :article))
     end
   end
 
@@ -79,12 +78,11 @@ defmodule Personal do
 
   [@dist, "blog"] |> Path.join() |> File.mkdir_p!()
 
-  for entry <- Blog.list_posts() do
-    @external_resource entry.source
-    @dest target(entry.path, basename: false)
+  async entry <- Blog.list_posts(), resource: entry.source do
+    dest = target(entry.path, basename: false)
 
-    if outdated?(@dest, entry.source) or outdated?(@dest, @entry_layout) do
-      File.write!(@dest, VEEx.render_layout!(:entry, entry.content, entry))
+    if outdated?(dest, entry.source) or outdated?(dest, @entry_layout) do
+      File.write!(dest, VEEx.render_layout!(:entry, entry.content, entry))
     end
   end
 end

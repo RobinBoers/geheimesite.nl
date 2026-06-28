@@ -121,6 +121,15 @@ defmodule Vygotsky do
     length(Path.wildcard(@priv)) != @count
   end
 
+  # During a compilations, freshly-compiled modules live in the compiler's
+  # memory and aren't visible to other processes. This forces critical rendering
+  # modules to get loaded before a tasks tries to use them.
+  @runtime_modules [XML, YAML, Smartypants, BibTeX, VEEx, Vygotsky, Vygotsky.CoreComponents]
+
+  def __ensure_runtime__(extra \\ []) do
+    Enum.each(@runtime_modules ++ extra, &Code.ensure_compiled!/1)
+  end
+
   # The rest of this file consists of various helpers that can
   # be used in both templates and builders.
 
@@ -168,6 +177,70 @@ defmodule Vygotsky do
       else
         Path.join(@dist, output(unquote(path), unquote(opts)))
       end
+    end
+  end
+
+  @doc """
+  A parallel comprehension. Like `for`, but each iteration runs in
+  its own task across all schedulers.
+
+  Source files (binary items) are registered as `@external_resource`
+  automatically; pass `resource:` when the path lives in a field of
+  the item. Pass `into:` to collect results into a map (as with `for`).
+
+  Pass `load:` with any modules the body reaches that are compiled in
+  this same run (e.g. a template embedding `Blog.list_posts/0`) — they
+  live only in the compiler's memory and must be loaded before the task
+  can see them.
+
+      async path <- glob("*.md.heex") do
+        File.write!(target(path), render_template!(path))
+      end
+
+      async path <- glob("*.{xml,json}.eex"), load: [Blog] do
+        File.write!(target(path), render_template!(path))
+      end
+
+      async entry <- Blog.list_posts(), resource: entry.source do
+        File.write!(target(entry.path), render_layout!(:entry, entry.content, entry))
+      end
+
+      async path <- glob("*.css"), into: %{} do
+        {path, build(path)}
+      end
+
+  Module attributes cannot be written inside the body (it runs in a
+  spawned task); register dependencies in a sequential pass beforehand.
+  """
+  defmacro async({:<-, _, _} = gen, do: body), do: build_async(gen, [], body)
+  defmacro async({:<-, _, _} = gen, opts, do: body), do: build_async(gen, opts, body)
+
+  defp build_async({:<-, _, [pattern, source]}, opts, body) do
+    register =
+      case Keyword.get(opts, :resource) do
+        nil -> quote(do: for(item <- src, is_binary(item), do: @external_resource(item)))
+        res -> quote(do: for(unquote(pattern) <- src, do: @external_resource(unquote(res))))
+      end
+
+    collect =
+      case Keyword.get(opts, :into) do
+        nil -> quote(do: Enum.map(stream, fn {:ok, r} -> r end))
+        into -> quote(do: Enum.into(stream, unquote(into), fn {:ok, r} -> r end))
+      end
+
+    quote do
+      src = unquote(source)
+      unquote(register)
+
+      Vygotsky.__ensure_runtime__(unquote(Keyword.get(opts, :load, [])))
+
+      stream =
+        Task.async_stream(src, fn unquote(pattern) -> unquote(body) end,
+          ordered: false,
+          timeout: :infinity
+        )
+
+      unquote(collect)
     end
   end
 
