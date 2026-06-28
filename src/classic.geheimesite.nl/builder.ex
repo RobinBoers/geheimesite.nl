@@ -6,7 +6,9 @@ defmodule Classic do
     @external_resource path
     @dest target(path)
 
-    if outdated?(@dest, path) do
+    [embed] = register_dependencies!(path)
+
+    if outdated?(@dest, path) or outdated?(@dest, embed) do
       File.write!(@dest, VEEx.render_template!(path))
     end
   end
