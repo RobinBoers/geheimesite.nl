@@ -154,11 +154,11 @@ defmodule Vygotsky do
   end
 
   def output(path, opts \\ []) do
-    path = path |> List.wrap() |> Path.join() |> String.downcase()
+    path = path |> List.wrap() |> Path.join()
 
     rootname =
       cond do
-        String.ends_with?(path, "caddyfile") -> path
+        String.ends_with?(path, "Caddyfile") -> path
         String.ends_with?(path, ".eex") -> path |> Path.rootname(".eex") |> output()
         String.ends_with?(path, ".heex") -> path |> Path.rootname(".heex") |> output()
         String.ends_with?(path, ".md") -> Path.rootname(path, ".md") <> ".html"
