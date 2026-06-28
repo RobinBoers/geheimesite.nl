@@ -65,7 +65,7 @@
         <tbody>
           <tr :for={entry <- Blog.list_posts()} :if={!entry.rssonly} class="h-entry">
             <td class="p-title">
-              <a class={["u-url", entry.favorite && "favorite"]} href={entry.canonical}>
+              <a class={["u-url", entry.favorite && "favorite"]} href={canonical(entry.path)}>
                 {entry.title}
               </a>
             </td>

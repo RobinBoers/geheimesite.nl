@@ -10,9 +10,7 @@ defmodule Blog do
 
       %{
         source: path,
-        path: Path.join("blog", path),
-        target: target(["blog", path]),
-        canonical: canonical(["blog", path]),
+        path: Path.join("/blog", Path.basename(path)),
         slug: Path.basename(path, ".md"),
         title: Map.fetch!(frontmatter, :title),
         date: Map.fetch!(frontmatter, :date),

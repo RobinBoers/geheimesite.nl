@@ -12,9 +12,9 @@
   </author>
   <%= for entry <- Blog.list_posts() do %><entry>
     <title><%= XML.escape(entry.title) %></title>
-    <link href="https://<%= @host %><%= entry.canonical %>" />
+    <link href="https://<%= @host %><%= canonical(entry.path) %>" />
     <updated><%= Date.to_iso8601(entry.date) %>T00:00:00Z</updated>
-    <id>https://<%= @host %><%= entry.canonical %></id>
-    <content type="html"><%= XML.escape(XML.absolutize(entry.content, "https://#{@host}#{entry.canonical}")) %></content>
+    <id>https://<%= @host %><%= canonical(entry.path) %></id>
+    <content type="html"><%= XML.escape(XML.absolutize(entry.content, "https://#{@host}#{canonical(entry.path)}")) %></content>
   </entry>
 <% end %></feed>

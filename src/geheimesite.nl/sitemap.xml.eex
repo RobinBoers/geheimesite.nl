@@ -5,7 +5,7 @@ templates =
       basename not in ~w(atom.xml.eex index.xml.eex) do
     %{
       source: path,
-      target: target(path, relative: true),
+      path: path,
       lastmod: Git.lastmod(path),
       changefreq: Git.changefreq(path)
     }
@@ -15,7 +15,7 @@ pages =
   for path <- glob("*.md.heex") do
     %{
       source: path,
-      target: target(path, relative: true),
+      path: path,
       lastmod: Git.lastmod(path),
       changefreq: Git.changefreq(path)
     }
@@ -26,19 +26,18 @@ posts =
       entry.rssonly == false do
     %{
       source: entry.source,
-      target: entry.target,
-      canonical: entry.canonical,
+      path: entry.path,
       lastmod: Git.lastmod(entry.source),
       changefreq: Git.changefreq(entry.source)
     }
   end
 
-all_pages = Enum.sort_by(templates ++ pages ++ posts, &(&1.target))
+all_pages = Enum.sort_by(templates ++ pages ++ posts, &(&1.path))
 
 %><?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <%= for page <- all_pages do %>  <url>
-    <loc>https://<%= @host %><%= Map.get(page, :canonical, canonical(page.target)) %></loc>
+    <loc>https://<%= @host %><%= canonical(page.path) %></loc>
     <lastmod><%= page.lastmod %></lastmod>
     <changefreq><%= page.changefreq %></changefreq>
   </url>

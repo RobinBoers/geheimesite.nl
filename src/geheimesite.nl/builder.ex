@@ -78,7 +78,7 @@ defmodule Personal do
 
   for entry <- Blog.list_posts() do
     @external_resource entry.source
-    @dest entry.target
+    @dest target(entry.path, basename: false)
 
     if outdated?(@dest, entry.source) or outdated?(@dest, @entry_layout) do
       File.write!(@dest, VEEx.render_layout!(:entry, entry.content, entry))
