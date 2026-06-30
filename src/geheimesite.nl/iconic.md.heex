@@ -5643,6 +5643,27 @@ Omniglot. <https://omniglot.com>
     }
   }
 
+  function replaceCharacter(searchChar, replacement) {
+    const walker = document.createTreeWalker(
+      document.body,
+      NodeFilter.SHOW_TEXT,
+      null,
+      false
+    );
+
+    const nodes = [];
+    while (walker.nextNode()) {
+      nodes.push(walker.currentNode);
+    }
+
+    for (const node of nodes) {
+      if (node.nodeValue.includes(searchChar)) {
+        node.nodeValue = node.nodeValue.split(searchChar).join(replacement);
+      }
+    }
+  }
+
   wrapCharacter("Σ", "sigma");
   wrapCharacter("θ", "theta");
+  replaceCharacter("ţ", "x");
 </script>
