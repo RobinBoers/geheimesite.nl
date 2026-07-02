@@ -78,7 +78,7 @@
 
 	@static {
 		file
-		path *.jpg *.jpeg *.png *.gif *.webp *.ico *.svg *.woff *.woff2
+		path *.jpg *.jpeg *.png *.gif *.webp *.ico *.svg *.woff *.woff2 *.onnx
 	}
 	handle @static {
 		header Cache-Control "max-age=31536000, immutable"
