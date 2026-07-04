@@ -288,6 +288,13 @@ git.dupunkto.org {
   reverse_proxy gitz:80
 }
 
+issues.dupunkto.org {
+	import logging
+	import txts
+	import security
+  reverse_proxy bugz:80
+}
+
 api.dupunkto.org {
 	import logging
 	import txts
