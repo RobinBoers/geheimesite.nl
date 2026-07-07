@@ -3,6 +3,7 @@ defmodule Personal do
   use Vygotsky.Builder
 
   copy_through "Caddyfile"
+  copy_through "favicon.ico"
 
   pages =
     for path <- glob("*.html.{heex,eex}") do

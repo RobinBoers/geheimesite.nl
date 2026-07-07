@@ -12,6 +12,24 @@
 #	}
 }
 
+(favicon) {
+	@favicon_dupunkto {
+		path /favicon.ico
+		host dupunkto.org *.dupunkto.org
+	}
+	file_server @favicon_dupunkto {
+		root /var/www/html/dupunkto.org
+	}
+
+	@favicon_geheimesite {
+		path /favicon.ico
+		host geheimesite.nl *.geheimesite.nl
+	}
+	file_server @favicon_geheimesite {
+		root /var/www/html/geheimesite.nl
+	}
+}
+
 (txts) {
 	redir /.well-known/robots.txt /robots.txt temporary
 	redir /.well-known/security.txt /security.txt temporary
@@ -190,6 +208,7 @@ robin.is.enorm.moe {
 
 		import logging
 		import txts
+		import favicon
 		import security
 		import caching
 		import static
