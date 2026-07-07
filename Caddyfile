@@ -218,6 +218,7 @@ robin.is.enorm.moe {
 ftp.dupunkto.org {
 	import logging
 	import txts
+	import favicon
 	import security
 
 	root * /var/www/html/ftp.dupunkto.org
@@ -231,6 +232,7 @@ ftp.dupunkto.org {
 rss.dupunkto.org {
 	import logging
 	import txts
+	import favicon
 	import security
 	import landing
 	import nym miniflux:8080
@@ -239,6 +241,7 @@ rss.dupunkto.org {
 inv.dupunkto.org {
 	import logging
 	import txts
+	import favicon
 	import security
 	import landing
   # reverse_proxy invidious:3000
@@ -255,6 +258,7 @@ mpv.dupunkto.org {
 vik.dupunkto.org {
 	import logging
 	import txts
+	import favicon
 	import security
 	
 	handle_path /api/* {
@@ -267,6 +271,7 @@ vik.dupunkto.org {
 fog.scatterbrain.nl {
 	import logging
 	import txts
+	import favicon
 	import security
 	
 	handle_path /api/* {
@@ -282,6 +287,7 @@ nym.dupunkto.org {
 
 	import logging
 	import txts
+	import favicon
 	import security
 	reverse_proxy nym:80
 }
@@ -289,6 +295,7 @@ nym.dupunkto.org {
 scry.dupunkto.org {
 	import logging
 	import txts
+	import favicon
 	import security
 	reverse_proxy scry:4000
 }
@@ -296,6 +303,7 @@ scry.dupunkto.org {
 cipher.dupunkto.org {
 	import logging
 	import txts
+	import favicon
 	import security
 	reverse_proxy cipher:4000
 }
@@ -303,6 +311,7 @@ cipher.dupunkto.org {
 git.dupunkto.org {
 	import logging
 	import txts
+	import favicon
 	import security
   reverse_proxy gitz:80
 }
@@ -310,6 +319,7 @@ git.dupunkto.org {
 bugs.dupunkto.org {
 	import logging
 	import txts
+	import favicon
 	import security
   reverse_proxy bugz:80
 }
@@ -317,6 +327,7 @@ bugs.dupunkto.org {
 api.dupunkto.org {
 	import logging
 	import txts
+	import favicon
 	import security
 	
 	route {
@@ -332,6 +343,7 @@ api.dupunkto.org {
 api.geheimesite.nl {
 	import logging
 	import txts
+	import favicon
   import security
 
 	@static path /*.js /resources/*
@@ -369,6 +381,7 @@ inbox.gijs6.nl,
 inbox.geheimesite.nl {
 	import logging
 	import txts
+	import favicon
 	import security
 
 	rewrite / /send/{host}
