@@ -216,122 +216,166 @@ robin.is.enorm.moe {
 }
 
 ftp.dupunkto.org {
-	import logging
-	import txts
-	import favicon
-	import security
+	route {
+		import logging
+		import txts
+		import favicon
+		import security
 
-	root * /var/www/html/ftp.dupunkto.org
-	file_server {
-		browse /var/www/html/simple.tpl
+		root * /var/www/html/ftp.dupunkto.org
+		handle {
+			file_server {
+				browse /var/www/html/simple.tpl
+			}
+		}
 	}
 }
 
 # Services
 
 rss.dupunkto.org {
-	import logging
-	import txts
-	import favicon
-	import security
-	import landing
-	import nym miniflux:8080
+	route {
+		import logging
+		import txts
+		import favicon
+		import security
+		import landing
+		import nym miniflux:8080
+	}
 }
 
 inv.dupunkto.org {
-	import logging
-	import txts
-	import favicon
-	import security
-	import landing
-  # reverse_proxy invidious:3000
+	route {
+		import logging
+		import txts
+		import favicon
+		import security
+		import landing
+		handle {
+			# reverse_proxy invidious:3000
+		}
+	}
 }
 
 mpv.dupunkto.org {
-	import logging
-	import txts
-	import security
-	import landing
-  reverse_proxy host.docker.internal:8096
+	route {
+		import logging
+		import txts
+		import favicon
+		import security
+		import landing
+		handle {
+			reverse_proxy host.docker.internal:8096
+		}
+	}
 }
 
 vik.dupunkto.org {
-	import logging
-	import txts
-	import favicon
-	import security
-	
-	handle_path /api/* {
-		redir https://api.dupunkto.org{uri}
-	}
+	route {
+		import logging
+		import txts
+		import favicon
+		import security
 
-	reverse_proxy vik:4000
+		handle_path /api/* {
+			redir https://api.dupunkto.org{uri}
+		}
+
+		handle {
+			reverse_proxy vik:4000
+		}
+	}
 }
 
 fog.scatterbrain.nl {
-	import logging
-	import txts
-	import favicon
-	import security
-	
-	handle_path /api/* {
-		redir https://api.geheimesite.nl{uri}
-	}
+	route {
+		import logging
+		import txts
+		import favicon
+		import security
 
-	reverse_proxy fog:4000
+		handle_path /api/* {
+			redir https://api.geheimesite.nl{uri}
+		}
+
+		handle {
+			reverse_proxy fog:4000
+		}
+	}
 }
 
 nym.dupunkto.org {
-	@forbidden path /proxy /users.json
-  rewrite @forbidden /
+	route {
+		import logging
+		import txts
+		import favicon
+		import security
 
-	import logging
-	import txts
-	import favicon
-	import security
-	reverse_proxy nym:80
+		@forbidden path /proxy /users.json
+		rewrite @forbidden /
+
+		handle {
+			reverse_proxy nym:80
+		}
+	}
 }
 
 scry.dupunkto.org {
-	import logging
-	import txts
-	import favicon
-	import security
-	reverse_proxy scry:4000
+	route {
+		import logging
+		import txts
+		import favicon
+		import security
+		handle {
+			reverse_proxy scry:4000
+		}
+	}
 }
 
 cipher.dupunkto.org {
-	import logging
-	import txts
-	import favicon
-	import security
-	reverse_proxy cipher:4000
+	route {
+		import logging
+		import txts
+		import favicon
+		import security
+		handle {
+			reverse_proxy cipher:4000
+		}
+	}
 }
 
 git.dupunkto.org {
-	import logging
-	import txts
-	import favicon
-	import security
-  reverse_proxy gitz:80
+	route {
+		import logging
+		import txts
+		import favicon
+		import security
+		handle {
+			reverse_proxy gitz:80
+		}
+	}
 }
 
 bugs.dupunkto.org {
-	import logging
-	import txts
-	import favicon
-	import security
-  reverse_proxy bugz:80
+	route {
+		import logging
+		import txts
+		import favicon
+		import security
+		handle {
+			reverse_proxy bugz:80
+		}
+	}
 }
 
 api.dupunkto.org {
-	import logging
-	import txts
-	import favicon
-	import security
-	
 	route {
-		import landing		
+		import logging
+		import txts
+		import favicon
+		import security
+
+		import landing
 
 		handle {
 			rewrite * /api{path}
@@ -341,14 +385,14 @@ api.dupunkto.org {
 }
 
 api.geheimesite.nl {
-	import logging
-	import txts
-	import favicon
-  import security
-
-	@static path /*.js /resources/*
-
 	route {
+		import logging
+		import txts
+		import favicon
+		import security
+
+		@static path /*.js /resources/*
+
 		import landing
 
 		handle @static {
@@ -379,13 +423,17 @@ uptime.gijs6.nl {
 
 inbox.gijs6.nl,
 inbox.geheimesite.nl {
-	import logging
-	import txts
-	import favicon
-	import security
+	route {
+		import logging
+		import txts
+		import favicon
+		import security
 
-	rewrite / /send/{host}
-	reverse_proxy cipher:4000
+		rewrite / /send/{host}
+		handle {
+			reverse_proxy cipher:4000
+		}
+	}
 }
 
 # Websites implemented in Vik.
@@ -426,9 +474,14 @@ docs.geheimesite.nl {
 # Uptime
 
 nov.mesh.dupunkto.org {
-	import txts
-	import security
-	reverse_proxy mesh:4000
+	route {
+		import txts
+		import favicon
+		import security
+		handle {
+			reverse_proxy mesh:4000
+		}
+	}
 }
 
 # Fall-trough
