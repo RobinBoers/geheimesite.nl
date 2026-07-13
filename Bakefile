@@ -71,6 +71,20 @@ check() {
   # htmltest && p:great
 }
 
+purge() {
+  required curl
+  required pass
+
+  ZONE=3135921
+  TOKEN=$(pass show tokens/bunny)
+
+  p:step "Purging CDN cache"
+  curl -fsS -o /dev/null -X POST \
+    "https://api.bunny.net/pullzone/$ZONE/purgeCache" \
+    -H "AccessKey: $TOKEN" \
+    -H "Content-Type: application/json" && p:done
+}
+
 # Helper functions for nice terminal output
 
 p:step() {
