@@ -16,6 +16,7 @@ services:
   - videos
   - recordings
   - fonts
+  - icons
   - ghme.css
 - name: api.geheimesite.nl
   src: dist/api.geheimesite.nl
