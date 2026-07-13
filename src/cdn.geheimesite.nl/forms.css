@@ -24,7 +24,7 @@ select {
   width: 100%;
 }
 
-label:not(:has(:is(input[type="checkbox"], input[type="radio"]))) {
+label:not(:has(:is(input[type="checkbox"], input[type="radio"]))), fieldset legend {
   font-weight: bold;
 }
 
