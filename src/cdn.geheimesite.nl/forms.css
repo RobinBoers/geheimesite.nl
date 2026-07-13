@@ -17,6 +17,7 @@ form {
 textarea,
 input[type="url"],
 input[type="search"],
+input[type="number"],
 input[type="text"],
 input[type="email"],
 input[type="password"],
@@ -57,6 +58,7 @@ a.button:hover {
 
 input[type="url"],
 input[type="search"],
+input[type="number"],
 input[type="text"],
 input[type="email"],
 input[type="password"] {
