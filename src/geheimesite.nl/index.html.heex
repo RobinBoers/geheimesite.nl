@@ -16,7 +16,7 @@
 
     <!-- Elsewhere on the Web: -->
     <link rel="me" href="//dupunkto.org/~axcelott" />
-    <link rel="me" href="//git.dupunkto.org/axcelott" />
+    <link rel="me" href="//git.dupunkto.org/~axcelott" />
     <link rel="me" href="//github.com/RobinBoers" />
     <link rel="me" href="//codeberg.org/RobinBoers" />
     <link rel="me" href="//linkedin.com/in/robin-boers" />
@@ -28,6 +28,7 @@
       h2 {
         border: none;
         padding: 0;
+        font-size: 1.1em;
       }
       
       .p-family-name::after {
@@ -114,63 +115,45 @@
 
     <main>
       <p>
-        <b class="p-name">
-          <span class="p-given-name">Robin</span>
-          <span class="p-family-name">Boers</span>
-        </b>
-        <span class="p-note">
-          I'm a developer. I write pretty decent software.
-        </span>
+        hii, i'm <span class="p-name"><span class="p-given-name">Robin</span> <span class="p-family-name" hidden>Boers</span></span> (<span class="p-pronouns">he/him</span>). <span class="p-note">i write code and break things.</span>
       </p>
 
+      <p>I'm (already) <%= @now.year - 2007 - if({@now.month, @now.day} < {1, 13}, do: 1, else: 0) %>yo. I study Educational Sciences at Utrecht University, and live in <span class="p-locality">Maassluis</span>, the
+        <span class="p-country-name">Netherlands</span>.</p>
+
       <p>
-        <a class="u-email" href="/contact">contact</a> :dot:
-        <a href="/stability">website stability note</a>
+        this website is running from november, a cute black box in the corner of my bedroom. <a href="/stability">website stability note</a>
       </p>
 
-      <h2 id="about">About me</h2>
+      <p>I love programming, reading, writing and biking.</p>
 
+      <!--
       <p>
-        Hi, I'm <span class="p-name">Robin</span> (<span class="p-pronouns">he/him</span>), also known as <i class="p-nickname">axcelott</i> online. I'm a 19yo
-        teenager from <span class="p-locality">Maassluis</span> in the
-        <span class="p-country-name">Netherlands</span>. As everyone says these
-        days, this is my little corner of the vast internet.
-      </p>
-
-      <p>
-        I currently work as as
-        <span class="p-job-title">Full-stack developer</span> at
-        <span class="p-org h-card">
-          <a class="p-name u-url" href="//qdentity.nl" hreflang="nl">Qdentity</a>
-        </span>
-        and as <span class="p-job-title">Sysadmin & lead developer</span> at
-        <span class="p-org h-card">
-          <a class="p-name u-url" href="//maakotheek.nl" hreflang="nl">Maakotheek</a></span>. I'm studying Educational Sciences at Utrecht University.
-      </p>
-
-      <p>
-        Some random facts about me: I have a cat called Coco (who apparently has
-        an instagram profile:
-        <a href="//instagram.com/coconootje23">@coconootje23</a>, go follow
-        him!). My guilty pleasure is definitely Ben&Jerrys. I enjoy playing Minecraft.
-        I'm very clumsy; I tend to
-        <a href="//manuelmoreale.com/the-beauty-of-broken-things">break</a>
-        things.
-      </p>
-
-      <p>
-        <a class="u-photo" href="random.jpeg">Here's a random picture</a> I decided I liked :)
-      </p>
-
-      <h2 id="writing">Writing</h2>
-
-      <p>
-        I somewhat regularly post <em>things</em> on
+        i somewhat regularly post <em>things</em> on
         <a href="/blog">my blog</a>. ('Somewhat regularly' meaning:
         around once a year, if I feel like it.)
+      </p>-->
+
+      <p>
+        I co-founded <a href="//dupunkto.org">:du:punkto</a>. We write software and publish
+        it in the public domain.
       </p>
 
-      <p>Here's a little selection:</p>
+      <p>I'm also a frontend designer and developer working at
+        <span class="p-org h-card">
+          <a class="p-name u-url" href="//qdentity.nl" hreflang="nl">Qdentity</a>
+        </span> and <span class="p-org h-card"><a class="p-name u-url" href="//maakotheek.nl" hreflang="nl">Maakotheek</a></span>.</p>
+
+      <p>You can hire me at my own webdesign studio, <a href="//11networks.nl">11networks</a>.
+      </p>
+
+      <p>
+        i'm a cat person. love you <a href="//instagram.com/coconootje23">Coco</a>.
+      </p>
+      
+
+      <!--
+      <h2 id="writing">Writing</h2>
 
       <ul>
         <li>
@@ -184,30 +167,8 @@
             <.ta href="/cryptobros" lang="nl">In de ban van de Bitcoin</.ta>, a deep-dive into the subculture surrounding cryptobros.
           </p>
         </li>
-        <li>
-          <p>
-            <.ta href="/blog/0x10c" lang="nl">0x10<sup>c</sup></.ta>, where I explore ideas related to interactive end-user programming as a game. 
-          </p>
-        </li>
-        <li>
-          <p>
-            <.ta href="/blog/ai-education" lang="nl">AI in educational contexts</.ta>, an essay about the ways we could but shoudn't use AI tooling in the context of high schools.
-          </p>
-        </li>
       </ul>
-
-      <p>
-        I also
-        <a
-          href="//linkedin.com/posts/somtoday_hoe-leuk-robin-boers-schreef-een-artikel-activity-6934511671432380416-TAed/">
-          got invited to Somtoday HQ
-        </a>
-        once, after I wrote a blogpost
-        <a
-          href="/blog/somtoday-ziet-er-niet-uit-maar-we-kunnen-het-oplossen-met-css">
-          calling their UI ugly.
-        </a>
-      </p>
+      -->
 
       <!--
       <h2 id="speaking">Speaking</h2>
@@ -231,13 +192,18 @@
       <h2 id="contact">Contact</h2>
 
       <p>
-        You can reach me via email. I love a good conversation, so don't
-        hesitate to shoot me an email, I'll always reply.
+        feel free to reach out! i'll reply on most socials. if you know
+        my username you'll be able to find me. You can also contact me
+        <a href="//linkedin.com/in/robin-boers">on LinkedIn</a>. and
+        of course via <a class="u-email" href="/contact">good old electronic mailing</a>:
       </p>
 
-      <pre><code>printf "%s@%s.%s\n" axcelott roblog nl</code></pre>
+      <pre><code>printf "%s@%s.%s\n" axcelott dupunkto org</code></pre>
 
-      <p>Cheers!</p>
+      <p>i won't make any promises regarding response time. be patient,
+      i'll eventually reply.. <small>&nbsp;&nbsp;&nbsp;&nbsp;occasional reminders are ok!</small></p>
+
+      <p>:)</p>
     </main>
 
     <nav id="menu">
