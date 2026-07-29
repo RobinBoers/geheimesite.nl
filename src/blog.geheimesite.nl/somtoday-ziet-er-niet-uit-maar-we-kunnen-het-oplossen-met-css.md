@@ -38,4 +38,10 @@ Als je wil kan je mijn userstyle [op mijn GitHub account](//gist.github.com/Robi
 
 Userstyles kan je installeren met [Stylus](//addons.mozilla.org/en-US/firefox/addon/styl-us/). Je kan in de extension mijn CSS code plakken en als het goed is zou dan je Somtoday er veel beter uit moeten zien :)
 
-**Ik hoop stiekem heel erg dat een medewerker van Somtoday dit toevallig leest. Zo ja, zou je me in contact willen brengen met de designers / ontwikkelaars van Som? Mijn emailadres is staat op de homepage :)**
+PS: Ik hoop stiekem heel erg dat een medewerker van Somtoday dit toevallig leest. Zo ja, zou je me in contact willen brengen met de designers / ontwikkelaars van Som? Mijn emailadres is staat op de homepage :)
+
+<section class="box">
+  <p>
+    Ik ben <a href="//linkedin.com/posts/somtoday_hoe-leuk-robin-boers-schreef-een-artikel-activity-6934511671432380416-TAed/">uitgenodigd op het hoofdkantoor</a> om verbeterpunten te bespreken. Super bedankt, Somtoday, voor dit kijkje achter de schermen en de leerzame ervaring!
+  </p>
+</section>
