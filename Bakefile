@@ -37,7 +37,7 @@ watch() {
 serve() {
   build # Perform a full build first
   export -f $(compgen -A function)
-  spawn "waiter --dev $DIST/${1:-$HOST}" watch
+  spawn "waiter -a 0.0.0.0 -p 4000 --dev $DIST/${1:-$HOST}" watch
 }
 
 format() {
