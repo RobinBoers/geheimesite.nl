@@ -47,6 +47,7 @@ handle {
 
     # I am an idiot and keep moving things around
     redir /about / temporary
+    redir /now / temporary
     redir /webdesign /projects temporary
     redir /follow /rss temporary
 

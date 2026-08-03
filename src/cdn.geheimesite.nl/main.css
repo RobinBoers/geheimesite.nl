@@ -6,17 +6,11 @@
 @import url("punkt.css");
 
 body {
-  max-width: 800px;
+  max-width: 850px;
   margin: 0 auto;
-  padding: 7px;
-}
-
-@media (width >= 1000px) {
-  body {
-    margin-left: 12.5%;
-    margin-right: auto;
-    margin-top: 2em;
-  }
+  padding: 10px;
+  font-size: clamp(1.1rem, 2.75vw, 1.3rem);
+  line-height: 1.6;
 }
 
 a:where([href]) {
@@ -24,19 +18,32 @@ a:where([href]) {
   text-decoration-color: light-dark(#f995a6, #e9637a);
 }
 
+body > header nav {
+  margin-bottom: 3em;
+  margin-top: -0.5em;
+  padding: 1em 0;
+  background: #f43f5e;
+  box-shadow: 0 0 0 100vmax #f43f5e;
+  clip-path: inset(0 -100vmax);
+  color: white !important;
+}
+
 body > header nav a {
+  font-size: 1.3em;
+  text-transform: lowercase;
   color: currentColor;
-  text-decoration: none;
-  font-size: 0.8em;
+  text-decoration-color: light-dark(#f995a6, #e9637a);
 }
 
 body > footer {
   margin: 2em 0;
   opacity: 0.8;
   font-size: 0.9em;
+  text-align: center;
 }
 
-body > footer a {
+body > footer a,
+.h-feed .u-url {
   color: currentColor;
   text-decoration-color: light-dark(#aaa, #888);
 }
