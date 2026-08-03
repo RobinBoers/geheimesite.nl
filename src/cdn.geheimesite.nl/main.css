@@ -19,7 +19,13 @@ body {
   }
 }
 
+a {
+  color: #f43f5e;
+  text-decoration-color: #f995a6;
+}
+
 body > header nav a {
+  color: currentColor;
   text-decoration: none;
   font-size: 0.8em;
 }
@@ -35,23 +41,28 @@ body > footer > p {
   margin: 3em 0;
 }
 
-body > footer small {
+body > footer > address {
   opacity: 0.8;
-  max-width: 65ch;
   font-size: 0.9em;
-  display: block;
+  font-style: normal;
+  font-family: sans-serif;
 }
 
-body > footer small:before {
+body > footer > address p {
+  max-width: 65ch;
+}
+
+body > footer > address:before {
   content: "—";
 }
 
-body > footer small p {
+body > footer address p {
   margin: 0.6em 0;
   position: relative;
 }
 
-body > footer small svg {
+body > footer address svg {
+  filter: grayscale();
   position: absolute;
   top: 0.3em;
   left: -1.4em;
@@ -66,7 +77,7 @@ body > footer blockquote {
   margin: 0.3em 0;
 }
 
-body > footer small + blockquote {
+body > footer address + blockquote {
   margin-top: 2em;
 }
 

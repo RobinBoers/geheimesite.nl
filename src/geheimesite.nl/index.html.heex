@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <.head title="Robin (aka axcelott)" root {assigns} />
+    <.head title="Robin was here" root {assigns} />
 
     <!-- IndieWeb compatibility -->
     <link rel="webmention" href="//api.geheimesite.nl/webmentions">
@@ -37,59 +37,32 @@
 
       body {
         padding: 7px;
+        max-width: none;
+        margin: 0;
+        padding: 0;
       }
 
       body > main {
         max-width: 52ch;
+        margin: 0 auto;
+        font-size: 1.6em;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
       }
 
-      @media (min-width: 500px) {
-        /* Only show jump link to bottom of screen on mobile & unstyled */
-        body p.jump {
-          display: none;
-        }
-
-        body {
-          display: grid;
-          grid-template-columns: 20ch 52ch;
-          gap: 2em;
-          margin: initial;
-        }
-
-        body > main {
-          grid-row: 1;
-          grid-column: 2;
-        }
-
-        body > nav {
-          margin-top: -0.1em;
-          grid-row: 1;
-          grid-column: 1;
-          text-align: right;
-        }
-
-        body > main > p:first-child,
-        body > nav h3:first-of-type {
-          margin-top: 40px;
-        }
-
-        body > footer {
-          grid-column: 2;
-        }
-
-        body > nav summary {
-          display: none;
-        }
+      body > main p {
+        margin: 0;
+        max-width: 78%;
       }
 
-      @media (max-width: 500px) {
-        /* Make "Menu" label look like heading */
-        body > nav summary h2 {
-          display: inline;
-        }
-        body > nav summary::marker {
-          font-size: 0;
-        }
+      body > main p:nth-child(even) {
+        align-self: flex-end;
+        text-align: right;
+      }
+
+      body > main > p:first-child {
+        margin-top: 40px;
       }
 
       ul {
@@ -98,34 +71,91 @@
         padding: 0;
       }
 
-      body > nav a {
-        text-transform: lowercase;
-        white-space: nowrap;
+      body > footer {
+        opacity: 1;
+        max-width: 1000px;
+        margin: 0 auto;
+        margin-top: 3em;
+        padding: 1em;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2.5em 4em;
+        background: #f43f5e;
+        box-shadow: 0 0 0 100vmax #f43f5e;
+        clip-path: inset(0 -100vmax);
+        color: white !important;
       }
 
-      body > footer small {
-        font-family: sans-serif;
-        font-size: 0.8em;
-        filter: grayscale();
+      body > footer svg {
+        filter: grayscale() brightness(100);
+      }
+
+      body > footer pre {
+        background: white !important;
+      }
+
+      body > footer a {
+        color: currentColor;
+      }
+
+      body > footer section,
+      body > footer nav {
+        font-size: 1.5em;
+      }
+
+      body > footer section {
+        max-width: 50ch;
+      }
+
+      body > footer > address, 
+      body > footer > blockquote {
+        display: block;
+        width: 100%;
+        flex-grow: 1;
+      }
+
+      body > footer nav h3 {
+        font-size: 1.1em;
+      }
+
+      body > footer nav a {
+        text-transform: lowercase;
+        white-space: nowrap;
+        font-size: 1.3em;
       }
     </style>
   </head>
   <body class="h-card">
-    <p class="jump"><a href="#menu">Menu 🞃</a></p>
-
     <main>
       <p>
-        hii, i'm <span class="p-name"><span class="p-given-name">Robin</span> <span class="p-family-name" hidden>Boers</span></span> (<span class="p-pronouns">he/him</span>). <span class="p-note">i write code and break things.</span>
+        hii, i'm <span class="p-name"><span class="p-given-name">Robin</span> <span class="p-family-name" hidden>Boers</span></span>!!
       </p>
-
-      <p>I'm (already) <%= @now.year - 2007 - if({@now.month, @now.day} < {1, 13}, do: 1, else: 0) %>yo. I study Educational Sciences at Utrecht University, and live in <span class="p-locality">Maassluis</span>, the
-        <span class="p-country-name">Netherlands</span>.</p>
+      
+      <p>
+        <span class="p-note">
+          i <a href="//git.dupunkto.org">write code</a> and <a href="//manuelmoreale.com/thoughts/the-beauty-of-broken-things">break things</a>.
+        </span>
+      </p>
 
       <p>
-        this website is running from november, a cute black box in the corner of my bedroom. <a href="/stability">website stability note</a>
+        i'm (already) <%= @now.year - 2007 - if({@now.month, @now.day} < {1, 13}, do: 1, else: 0) %>yo.
       </p>
 
-      <p>I love programming, reading, writing and biking.</p>
+      <p>
+        I <a href="//uni.geheimesite.nl">study</a> Educational Sciences @ <abbr title="Utrecht University">UU</abbr>, and live in
+        <span class="p-locality">Maassluis</span>, the
+        <span class="p-country-name">Netherlands</span>.
+      </p>
+
+      <p>
+        this website is running from <a href="//nov.dupunkto.org">november</a>, a cute black box in the corner of my bedroom.
+      </p>
+
+      <p>
+        <a href="/stability">website stability note</a>
+      </p>
+
+      <p>I love programming, <a href="/blogroll">reading</a>, <a href="/blog">writing</a> and biking.</p>
 
       <!--
       <p>
@@ -139,102 +169,43 @@
         it in the public domain.
       </p>
 
-      <p>I'm also a frontend designer and developer working at
+      <p>
+        I'm also a frontend designer and developer working at
         <span class="p-org h-card">
           <a class="p-name u-url" href="//qdentity.nl" hreflang="nl">Qdentity</a>
-        </span> and <span class="p-org h-card"><a class="p-name u-url" href="//maakotheek.nl" hreflang="nl">Maakotheek</a></span>.</p>
+        </span> and <span class="p-org h-card"><a class="p-name u-url" href="//maakotheek.nl" hreflang="nl">Maakotheek</a></span>.
+      </p>
 
-      <p>You can hire me at my own webdesign studio, <a href="//11networks.nl">11networks</a>.
+      <p>
+        You can hire me at <a href="//11networks.nl">11networks</a>, my webdesign&nbsp;studio.
       </p>
 
       <p>
         i'm a cat person. love you <a href="//instagram.com/coconootje23">Coco</a>.
       </p>
-      
-
-      <!--
-      <h2 id="writing">Writing</h2>
-
-      <ul>
-        <li>
-          <p>
-            <.ta href="/iconic">Σkɔnik: Syntax & Sorcery</.ta>, a description of a
-            constructed language similar to Esperanto.
-          </p>
-        </li>
-        <li>
-          <p>
-            <.ta href="/cryptobros" lang="nl">In de ban van de Bitcoin</.ta>, a deep-dive into the subculture surrounding cryptobros.
-          </p>
-        </li>
-      </ul>
-      -->
-
-      <!--
-      <h2 id="speaking">Speaking</h2>
-
-      <ul>
-        <li>
-          <cite lang="nl"
-            >Cryptobros: een prachtige en fantastische analyse</cite
-          >
-          (<a href="cryptobros.pdf" hreflang="nl">slides</a>)
-        </li>
-        <li>
-          <cite lang="nl"
-            >Taalbeschouwing: kunstmatige talen en waar ze te vinden</cite
-          >
-          (<a href="conlangs.pdf" hreflang="nl">slides</a>)
-        </li>
-      </ul>
-      -->
-
-      <h2 id="contact">Contact</h2>
-
-      <p>
-        feel free to reach out! i'll reply on most socials. if you know
-        my username you'll be able to find me. You can also contact me
-        <a href="//linkedin.com/in/robin-boers">on LinkedIn</a>. and
-        of course via <a class="u-email" href="/contact">good old electronic mailing</a>:
-      </p>
-
-      <pre><code>printf "%s@%s.%s\n" axcelott dupunkto org</code></pre>
-
-      <p>i won't make any promises regarding response time. be patient,
-      i'll eventually reply.. <small>&nbsp;&nbsp;&nbsp;&nbsp;occasional reminders are ok!</small></p>
 
       <p>:)</p>
     </main>
 
-    <nav id="menu">
-      <details open>
-        <summary><h2>Menu</h2></summary>
+    <footer>
+      <section>
+        <h2 id="contact">contact</h2>
 
-        <h3>writing</h3>
+        <p>
+          feel free to reach out! i'll reply on most socials. if you know
+          my username you'll be able to find me. You can also contact me
+          <a href="//linkedin.com/in/robin-boers">on LinkedIn</a>. and
+          of course via <a class="u-email" href="/contact">good old electronic mailing</a>:
+        </p>
 
-        <ul>
-          <.la href="/blog" class="u-url">Blog</.la>
-          <.la href="/now" class="u-url">Now</.la>
-          <.la href="/blogroll">Blogroll</.la>
-          <.la href="//school.geheimesite.nl">School</.la>
-          <.la href="//uni.geheimesite.nl">University</.la>
-          <.la href="/rss">Subscribe</.la>
-        </ul>
+        <pre><code>printf "%s@%s.%s\n" axcelott dupunkto org</code></pre>
 
-        <h3>work, art</h3>
+        <p>i won't make any promises regarding response time. be patient,
+        i'll eventually reply.. <small>&nbsp;&nbsp;&nbsp;&nbsp;occasional reminders are ok!</small></p>
+      </section>
 
-        <ul phx-no-curly-interpolation>
-          <.la href="//git.dupunkto.org">Code</.la>
-          <.la href="/projects">Projects</.la>
-          <.la href="/resume">Resumé</.la>
-          <.la href="//dupunkto.org" class="u-url">:du:punkto</.la>
-          <.la href="//11networks.nl" class="u-url">11networks</.la>
-          <.la href="/r/place">r/place</.la>
-          <.la href="/buttons">88 by 31</.la>
-          <.la href="/js0.23">js0.23</.la>
-        </ul>
-
-        <h3>meta</h3>
+      <nav>
+        <h2 id="menu">meta</h2>
 
         <ul>
           <.la href="/stability">Stability note</.la>
@@ -244,11 +215,9 @@
           <.la href="/colophon">Colophon</.la>
           <.la href="/privacy">Privacy</.la>
         </ul>
-      </details>
-    </nav>
+      </nav>
 
-    <footer>
-      <small>
+      <address>
         <p class="cc0">
           <.icon name="cc0.svg" />
 
@@ -272,7 +241,7 @@
           Maassluis, the Netherlands.
           <a href={"#{config!(:repo)}/commit/#{sh!("git rev-parse HEAD")}"}>See changes in <code>{sh!("git rev-parse --short HEAD")}</code></a>.
         </p>
-      </small>
+      </address>
 
       <blockquote cite="//youtube.com/watch?v=6avJHaC3C2U">
         <a href="//yewtu.be/watch?v=6avJHaC3C2U" target="_blank">
