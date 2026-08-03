@@ -19,9 +19,9 @@ body {
   }
 }
 
-a {
+a:where([href]) {
   color: #f43f5e;
-  text-decoration-color: #f995a6;
+  text-decoration-color: light-dark(#f995a6, #e9637a);
 }
 
 body > header nav a {
@@ -34,6 +34,11 @@ body > footer {
   margin: 2em 0;
   opacity: 0.8;
   font-size: 0.9em;
+}
+
+body > footer a {
+  color: currentColor;
+  text-decoration-color: light-dark(#aaa, #888);
 }
 
 body > footer > p {
