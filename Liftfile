@@ -4,7 +4,8 @@ services:
 - name: router
   src: Caddyfile
   target: Caddyfile
-  restart: router
+  restart:
+  - router
 - name: geheimesite.nl
   src: dist/geheimesite.nl
   exclude:
