@@ -160,7 +160,7 @@ www.scatterbrain.nl,
 www.geheimesite.nl,
 www.dupunkto.org,
 www.dupunkto.nl,
-www.dupunkto.nl {
+www.dupunkto.com {
 	redir https://{labels.1}.{labels.0}{uri}
 }
 
