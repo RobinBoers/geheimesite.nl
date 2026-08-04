@@ -286,7 +286,7 @@ vik.dupunkto.org {
 	}
 }
 
-fog.scatterbrain.nl {
+fog.geheimesite.nl {
 	route {
 		import logging
 		import txts
