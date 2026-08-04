@@ -155,20 +155,19 @@
 
 # Remove www. from domain names
 www.enorm.moe,
-www.scttr.eu,
 www.roblog.nl,
 www.scatterbrain.nl,
 www.geheimesite.nl,
-www.dupunkto.org {
+www.dupunkto.org,
+www.dupunkto.nl,
+www.dupunkto.nl {
 	redir https://{labels.1}.{labels.0}{uri}
 }
 
-enorm.moe {
+enorm.moe,
+dupunkto.nl,
+dupunkto.com {
 	redir https://dupunkto.org
-}
-
-scttr.eu {
-	redir https://scatterbrain.nl
 }
 
 schravenland.nl {
