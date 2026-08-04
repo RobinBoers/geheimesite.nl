@@ -57,7 +57,7 @@ defmodule Personal do
   @dest target(".well-known/autoconfig/mail/config-v1.1.xml", basename: false)
   @external_resource @autoconfig
 
-  @dest |> Path.dirname() |> dbg() |> File.mkdir_p!()
+  @dest |> Path.dirname() |> File.mkdir_p!()
 
   if outdated?(@dest, @autoconfig) do
     File.cp!(@autoconfig, @dest)
