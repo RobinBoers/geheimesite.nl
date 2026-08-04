@@ -53,7 +53,7 @@ defmodule Personal do
     end
   end
 
-  @autoconfig "autoconfig.xml"
+  @autoconfig source("autoconfig.xml")
   @dest target(".well-known/autoconfig/mail/config-v1.1.xml", basename: false)
   @external_resource @autoconfig
 
