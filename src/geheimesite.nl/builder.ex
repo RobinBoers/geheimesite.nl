@@ -53,6 +53,14 @@ defmodule Personal do
     end
   end
 
+  @autoconfig "autoconfig.toml"
+  @dest target(".well-known/autoconfig/mail/config-v1.1.xml", basename: false)
+  @external_resource @autoconfig
+
+  if outdated?(@dest, @autoconfig) do
+    File.cp!(@autoconfig, @dest)
+  end
+
   @robots source("robots.txt")
   @dest target("robots.txt")
   @external_resource @robots

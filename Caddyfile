@@ -51,6 +51,16 @@
 	}
 }
 
+(autodiscover) {
+	@config {
+		path /.well-known/autoconfig/mail/config-v1.1.xml
+	}
+
+	file_server @config {
+		root /var/www/html/geheimesite.nl
+	}
+}
+
 (landing) {
 	@landing {
 		path /
@@ -207,6 +217,7 @@ robin.is.enorm.moe {
 
 		import logging
 		import txts
+		import autodiscover
 		import favicon
 		import security
 		import caching
