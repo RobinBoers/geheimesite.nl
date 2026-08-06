@@ -170,46 +170,33 @@
     try {
       const cached = JSON.parse(localStorage.getItem(cache_key));
 
-      if (
-        Array.isArray(cached?.domains) &&
-        Date.now() - cached.stored_at < cache_ttl
-      ) {
+      if (Array.isArray(cached?.domains) && Date.now() - cached.stored_at < cache_ttl)
         domains = cached.domains;
-      }
     } catch {}
 
     if (!domains) {
-      const response = await fetch(
-        "https://nm.geheimesite.nl/domains.json"
-      );
-
-      if (!response.ok) {
-        throw new Error(`HTTP ${response.status}`);
-      }
+      const response = await fetch("https://nm.geheimesite.nl/domains.json");
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
       domains = await response.json();
 
       try {
-        localStorage.setItem(
-          cache_key,
-          JSON.stringify({ domains, stored_at: Date.now() })
-        );
+        localStorage.setItem(cache_key, JSON.stringify({ domains, stored_at: Date.now() }));
       } catch {}
     }
 
-    for (const domain of domains) {
+    for(const domain of domains) {
       const link = document.createElement("a");
 
       link.href = `https://${domain}`;
       link.textContent = domain;
 
-      if (domain === location.hostname) {
+      if (domain === location.hostname)
         link.setAttribute("aria-current", "page");
-      }
 
       menu.append(link);
     }
-  } catch (error) {
+  } catch(error) {
     console.error("Could not load domain menu:", error);
 
     const message = document.createElement("span");
