@@ -1,47 +1,16 @@
 (async () => {
   if (document.querySelector("#le-global")) return;
 
-  const body = document.body;
-  const original = getComputedStyle(body);
-
-  const content = document.createElement("div");
-  content.id = "le-content";
-
-  content.style.marginTop = original.marginTop;
-  content.style.marginRight = original.marginRight;
-  content.style.marginBottom = original.marginBottom;
-  content.style.marginLeft = original.marginLeft;
-
-  content.style.paddingTop = original.paddingTop;
-  content.style.paddingRight = original.paddingRight;
-  content.style.paddingBottom = original.paddingBottom;
-  content.style.paddingLeft = original.paddingLeft;
-
-  content.style.width = original.width;
-  content.style.maxWidth = original.maxWidth;
-  content.style.minWidth = original.minWidth;
-  content.style.minHeight = original.minHeight;
-
-  while (body.firstChild) {
-    content.append(body.firstChild);
-  }
-
-  body.style.margin = "0";
-  body.style.padding = "0";
-  body.style.width = "auto";
-  body.style.maxWidth = "none";
-  body.style.minWidth = "0";
-  body.style.minHeight = "0";
-
   const style = document.createElement("style");
 
   style.textContent = `
     #le-global {
       box-sizing: border-box;
-      position: relative;
+      position: absolute;
+      top: 0;
+      right: 2rem;
+      z-index: 100000;
       width: max-content;
-      margin-left: auto;
-      margin-right: 2rem;
       font: 1.4rem serif;
       text-transform: lowercase;
     }
@@ -83,7 +52,6 @@
       position: absolute;
       top: 100%;
       right: 0;
-      z-index: 100000;
       display: flex;
       flex-direction: column;
       min-width: 100%;
@@ -157,10 +125,7 @@
   dropdown.append(summary, menu);
 
   document.head.append(style);
-  body.append(dropdown, content);
-
-  dropdown.style.marginBottom =
-    `-${dropdown.getBoundingClientRect().height}px`;
+  document.body.append(dropdown);
 
   try {
     const cache_key = "le-global-domains";
