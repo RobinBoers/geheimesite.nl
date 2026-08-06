@@ -24,6 +24,8 @@
       width: max-content;
       font: 1.4rem serif;
       text-transform: lowercase;
+      padding: 0;
+      font-weight: normal;
     }
 
     #le-global summary {
@@ -38,6 +40,7 @@
       cursor: pointer;
       list-style: none;
       user-select: none;
+      font-weight: normal;
     }
 
     #le-global summary::-webkit-details-marker {
