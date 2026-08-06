@@ -8,9 +8,12 @@
 body {
   max-width: 850px;
   margin: 0 auto;
-  padding: 10px;
   font-size: clamp(1.1rem, 2.75vw, 1.3rem);
   line-height: 1.6;
+}
+
+main {
+  padding: 10px;
 }
 
 a:where([href]) {
@@ -18,21 +21,35 @@ a:where([href]) {
   text-decoration-color: light-dark(#f995a6, #e9637a);
 }
 
-body > header nav {
-  margin-bottom: 3em;
-  margin-top: -0.5em;
-  padding: 1em 0;
+body > header {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  justify-content: space-between;
   background: #f43f5e;
   box-shadow: 0 0 0 100vmax #f43f5e;
   clip-path: inset(0 -100vmax);
   color: white !important;
+  margin-bottom: 1em;
+}
+
+body > header a {
+  color: currentColor;
+  text-decoration-color: light-dark(#f995a6, #e9637a);
+}
+
+body > header hgroup {
+  margin-bottom: 0.25em;
+}
+
+body > header nav {
+  margin-top: -0.5em;
+  padding: 1em 0;
 }
 
 body > header nav a {
   font-size: 1.3em;
   text-transform: lowercase;
-  color: currentColor;
-  text-decoration-color: light-dark(#f995a6, #e9637a);
 }
 
 body > footer {
@@ -54,7 +71,6 @@ body > footer > p {
 }
 
 body > footer > address {
-  opacity: 0.8;
   font-size: 0.9em;
   font-style: normal;
   font-family: sans-serif;
