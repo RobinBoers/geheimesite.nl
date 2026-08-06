@@ -163,15 +163,39 @@
     `-${dropdown.getBoundingClientRect().height}px`;
 
   try {
-    const response = await fetch(
-      "https://nm.geheimesite.nl/domains.json"
-    );
+    const cache_key = "le-global-domains";
+    const cache_ttl = 10 * 60 * 1000;
+    let domains;
 
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}`);
+    try {
+      const cached = JSON.parse(localStorage.getItem(cache_key));
+
+      if (
+        Array.isArray(cached?.domains) &&
+        Date.now() - cached.stored_at < cache_ttl
+      ) {
+        domains = cached.domains;
+      }
+    } catch {}
+
+    if (!domains) {
+      const response = await fetch(
+        "https://nm.geheimesite.nl/domains.json"
+      );
+
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+
+      domains = await response.json();
+
+      try {
+        localStorage.setItem(
+          cache_key,
+          JSON.stringify({ domains, stored_at: Date.now() })
+        );
+      } catch {}
     }
-
-    const domains = await response.json();
 
     for (const domain of domains) {
       const link = document.createElement("a");
