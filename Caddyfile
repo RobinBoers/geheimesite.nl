@@ -400,13 +400,13 @@ api.geheimesite.nl {
 		import txts
 		import favicon
 		import security
-		import caching
 
 		@files path /*.js /resources/*
 
 		import landing
 
 		handle @files {
+			import caching
 			root * /var/www/html/api.geheimesite.nl
 			try_files {path} {path}.json {path}.opml
 			file_server
