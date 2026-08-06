@@ -44,7 +44,7 @@
         line-height: 1.5;
       }
 
-      body > main {
+      .page-main {
         max-width: 54ch;
         margin: 0 auto;
         padding: 10px;
@@ -54,17 +54,17 @@
         gap: 1em;
       }
 
-      body > main p {
+      .page-main p {
         margin: 0;
         max-width: 78%;
       }
 
-      body > main p:nth-child(even) {
+      .page-main p:nth-child(even) {
         align-self: flex-end;
         text-align: right;
       }
 
-      body > main > p:first-child {
+      .page-main > p:first-child {
         margin-top: 40px;
       }
 
@@ -75,12 +75,12 @@
       }
 
       @media (max-width: 1030px) {
-        body > footer address {
+        .page-footer address {
           margin-left: 1.5em;
         }
       }
 
-      body > footer {
+      .page-footer {
         opacity: 1;
         text-align: left;
         max-width: 1000px;
@@ -96,40 +96,40 @@
         color: white !important;
       }
 
-      body > footer pre {
+      .page-footer pre {
         background: white !important;
       }
 
-      body > footer a {
+      .page-footer a {
         color: currentColor;
         text-decoration-color: #f995a6;
       }
 
-      body > footer section,
-      body > footer nav {
+      .page-footer section,
+      .page-footer nav {
         font-size: 1.5em;
       }
 
-      body > footer section {
+      .page-footer section {
         max-width: 50ch;
       }
 
-      body > footer > address, 
-      body > footer > blockquote {
+      .page-footer > address,
+      .page-footer > blockquote {
         display: block;
         width: 100%;
         flex-grow: 1;
       }
 
-      body > footer address svg {
+      .page-footer address svg {
         filter: grayscale() brightness(100);
       }
 
-      body > footer nav h3 {
+      .page-footer nav h3 {
         font-size: 1.1em;
       }
 
-      body > footer nav a {
+      .page-footer nav a {
         text-transform: lowercase;
         white-space: nowrap;
         font-size: 1.3em;
@@ -137,7 +137,7 @@
     </style>
   </head>
   <body class="h-card">
-    <main>
+    <main class="page-main">
       <p>
         hii, i'm <span class="p-name"><span class="p-given-name">Robin</span> <span class="p-family-name" hidden>Boers</span></span>!!
       </p>
@@ -191,7 +191,7 @@
       <p>:)</p>
     </main>
 
-    <footer>
+    <footer class="page-footer">
       <section>
         <h2 id="contact">contact</h2>
 

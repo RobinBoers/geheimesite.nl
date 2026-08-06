@@ -9,8 +9,6 @@ body {
   max-width: 850px;
   margin: 0 auto;
   padding: 10px;
-  font-size: clamp(1.1rem, 2.75vw, 1.3rem);
-  line-height: 1.6;
 }
 
 a:where([href]) {
@@ -18,62 +16,54 @@ a:where([href]) {
   text-decoration-color: light-dark(#f995a6, #e9637a);
 }
 
-body > header nav {
-  margin-bottom: 3em;
-  margin-top: -0.5em;
-  padding: 1em 0;
-  background: #f43f5e;
-  box-shadow: 0 0 0 100vmax #f43f5e;
-  clip-path: inset(0 -100vmax);
-  color: white !important;
-}
-
-body > header nav a {
-  font-size: 1.3em;
-  text-transform: lowercase;
-  color: currentColor;
-  text-decoration-color: light-dark(#f995a6, #e9637a);
-}
-
-body > footer {
+.page-footer {
   margin: 2em 0;
   opacity: 0.8;
   font-size: 0.9em;
   text-align: center;
 }
 
-body > footer a,
+.page-footer a,
+.page-header a,
 .h-feed .u-url {
   color: currentColor;
   text-decoration-color: light-dark(#aaa, #888);
 }
 
-body > footer > p {
+.page-header {
+  margin-top: 2em;
+}
+
+.page-header a {
+  font-size: 0.9em;
+}
+
+.page-footer > p {
   text-align: center;
   margin: 3em 0;
 }
 
-body > footer > address {
+.page-footer > address {
   opacity: 0.8;
   font-size: 0.9em;
   font-style: normal;
   font-family: sans-serif;
 }
 
-body > footer > address p {
+.page-footer > address p {
   max-width: 65ch;
 }
 
-body > footer > address:before {
+.page-footer > address:before {
   content: "—";
 }
 
-body > footer address p {
+.page-footer address p {
   margin: 0.6em 0;
   position: relative;
 }
 
-body > footer address svg {
+.page-footer address svg {
   filter: grayscale();
   position: absolute;
   top: 0.3em;
@@ -82,14 +72,14 @@ body > footer address svg {
   height: 1em;
 }
 
-body > footer blockquote {
+.page-footer blockquote {
   color: currentcolor;
   padding: 0;
   border: none;
   margin: 0.3em 0;
 }
 
-body > footer address + blockquote {
+.page-footer address + blockquote {
   margin-top: 2em;
 }
 
