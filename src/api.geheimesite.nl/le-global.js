@@ -70,7 +70,7 @@
       flex-direction: column;
       min-width: 100%;
       padding: 0.5em 0;
-      background: #f0f0f0;
+      background: light-dark(#ededed, #00000033);;
       border-radius: 15px;
       margin-top: 0.5em;
     }
