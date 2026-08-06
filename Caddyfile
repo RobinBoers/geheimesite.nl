@@ -396,18 +396,17 @@ api.dupunkto.org {
 
 api.geheimesite.nl {
 	route {
-		import /var/www/html/*/Caddyfile
-
 		import logging
 		import txts
 		import favicon
 		import security
+		import caching
 
-		@static path /*.js /resources/*
+		@files path /*.js /resources/*
 
 		import landing
 
-		handle @static {
+		handle @files {
 			root * /var/www/html/api.geheimesite.nl
 			try_files {path} {path}.json {path}.opml
 			file_server
