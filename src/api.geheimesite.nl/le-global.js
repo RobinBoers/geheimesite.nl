@@ -1,4 +1,15 @@
 (async () => {
+  const body = document.body || await new Promise(resolve => {
+    const observer = new MutationObserver(() => {
+      if (!document.body) return;
+
+      observer.disconnect();
+      resolve(document.body);
+    });
+
+    observer.observe(document.documentElement, { childList: true });
+  });
+
   if (document.querySelector("#le-global")) return;
 
   const style = document.createElement("style");
@@ -125,7 +136,7 @@
   dropdown.append(summary, menu);
 
   document.head.append(style);
-  document.body.append(dropdown);
+  body.append(dropdown);
 
   try {
     const cache_key = "le-global-domains";

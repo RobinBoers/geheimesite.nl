@@ -5,7 +5,7 @@
 <link rel="stylesheet" href={Enum.join([
   if @host not in config!(:primary) do "//cdn.geheimesite.nl" end,
   Map.get(assigns, :stylesheet, "/main.css")])} type="text/css" />
-<script type="module" src="//api.geheimesite.nl/le-global.js"></script>
+<script src="//api.geheimesite.nl/le-global.js"></script>
 
 <title>{@title}</title>
 
