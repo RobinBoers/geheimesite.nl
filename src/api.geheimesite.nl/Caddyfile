@@ -1,0 +1,6 @@
+@le-global {
+	host api.geheimesite.nl
+	path /le-global.js
+}
+
+header @le-global Cache-Control "max-age=86400"

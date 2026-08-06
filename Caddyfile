@@ -396,6 +396,8 @@ api.dupunkto.org {
 
 api.geheimesite.nl {
 	route {
+		import /var/www/html/*/Caddyfile
+
 		import logging
 		import txts
 		import favicon
