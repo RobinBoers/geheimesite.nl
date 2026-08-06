@@ -20,7 +20,7 @@ config :vygotsky, shortcodes: %{
   ":go:" => "→",
   ":times:" => "×",
   ":dot:" => "·",
-  ":love:" => "❤︎",
+  ":love:" => "♡",
   ":fire:" => "🔥",
   ":sparkles:" => "✨",
   ":launch:" => "🚀",

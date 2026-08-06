@@ -87,7 +87,6 @@
         margin: 0 auto;
         margin-top: 3em;
         padding: 1em;
-        padding-top: 0;
         display: flex;
         flex-wrap: wrap;
         gap: 2.5em 4em;
@@ -101,31 +100,9 @@
         background: white !important;
       }
 
-      body > footer > section a,
-      body > footer > nav:not(:first-child) a {
+      body > footer a {
         color: currentColor;
         text-decoration-color: #f995a6;
-      }
-
-      body > footer nav:first-child {
-        position: relative;
-        color: CanvasText;
-        width: 100%;
-        background: white;
-        box-shadow: 0 0 0 100vmax white;
-        clip-path: inset(0 -100vmax);
-        z-index: 2;
-        margin-bottom: -1.5em;
-        padding-bottom: 0.75em;
-      }
-
-      body > footer nav:first-child h2 {
-        display: none;
-      }
-
-      body > footer nav:first-child ul {
-        display: flex;
-        gap: 1.5em;
       }
 
       body > footer section,
@@ -215,16 +192,6 @@
     </main>
 
     <footer>
-      <nav>
-        <h2 id="menu">menu</h2>
-
-        <ul>
-          <.la href="/blog">Blog</.la>
-          <.la href="//git.geheimesite.nl">Git</.la>
-          <.la href="//school.geheimesite.nl">School</.la>
-          <.la href="//uni.geheimesite.nl">University</.la>
-        </ul>
-      </nav>
       <section>
         <h2 id="contact">contact</h2>
 
@@ -242,15 +209,15 @@
       </section>
 
       <nav>
-        <h2 id="meta">meta</h2>
+        <h2 id="menu">meta</h2>
 
         <ul>
-          <.la href="/colophon">Colophon</.la>
-          <.la href="/privacy">Privacy</.la>
-          <.la href="/sitemap">Sitemap</.la>
+          <.la href="/stability">Stability note</.la>
+          <.la href="/the-archives">The Archives</.la>
           <.la href="/netmap">Netmap</.la>
           <.la href="//inbox.geheimesite.nl">Inbox</.la>
-          <.la href="/the-archives">The Archives</.la>
+          <.la href="/colophon">Colophon</.la>
+          <.la href="/privacy">Privacy</.la>
         </ul>
       </nav>
 
