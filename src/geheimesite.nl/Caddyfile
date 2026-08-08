@@ -51,6 +51,10 @@ handle {
     redir /webdesign /projects temporary
     redir /follow /rss temporary
 
+    # These are on their own domains now
+    redir /netmap https://nm.geheimesite.nl temporary
+    redir /the-archives https://classic.geheimesite.nl temporary
+
     handle /r/place* {
       reverse_proxy rplace:80
     }
