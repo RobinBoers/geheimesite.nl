@@ -31,8 +31,8 @@
 }
 
 (txts) {
-	redir /.well-known/robots.txt /robots.txt temporary
-	redir /.well-known/security.txt /security.txt temporary
+	redir /.well-known/robots.txt /robots.txt
+	redir /.well-known/security.txt /security.txt
 
 	@robots {
 		path /robots.txt
@@ -182,6 +182,10 @@ dupunkto.com {
 
 schravenland.nl {
 	redir https://lyceumschravenland.nl
+}
+
+git.geheimesite.nl {
+	redir https://git.dupunkto.org temporary
 }
 
 # The CDN is running via Bunny, so Bunny is
