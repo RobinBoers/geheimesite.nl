@@ -11,23 +11,11 @@ body {
   padding: 10px;
 }
 
-a:where([href]) {
-  color: #f43f5e;
-  text-decoration-color: light-dark(#f995a6, #e9637a);
-}
-
 .page-footer {
   margin: 2em 0;
   opacity: 0.8;
   font-size: 0.9em;
   text-align: center;
-}
-
-.page-footer a,
-.page-header a,
-.h-feed .u-url {
-  color: currentColor;
-  text-decoration-color: light-dark(#aaa, #888);
 }
 
 .page-header {
