@@ -175,6 +175,7 @@ www.dupunkto.com {
 }
 
 enorm.moe,
+dupunk.to,
 dupunkto.nl,
 dupunkto.com {
 	redir https://dupunkto.org
