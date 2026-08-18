@@ -175,7 +175,6 @@ www.dupunkto.com {
 }
 
 enorm.moe,
-dupunk.to,
 dupunkto.nl,
 dupunkto.com {
 	redir https://dupunkto.org
@@ -315,6 +314,19 @@ fog.geheimesite.nl {
 
 		handle {
 			reverse_proxy fog:4000
+		}
+	}
+}
+
+dupunk.to,
+hop.dupunkto.org {
+	route {
+		import logging
+		import txts
+		import favicon
+		import security
+		handle {
+			reverse_proxy hop:4000
 		}
 	}
 }
