@@ -254,7 +254,7 @@ if target hop; then
   docker run -dit --name hop \
 	  --net $NET --restart no \
 	  -e "SECRET_KEY_BASE=$KEY_BASE" \
-	  -e "DATABASE_URL=postgres://$DB_USER:$DB_PASS@master-db:5432/hop?sslmode=disable" \
+	  -e "DATABASE_URL=postgresql://$DB_USER:$DB_PASS@master-db:5432/hop?sslmode=disable" \
 	  -e "ADMIN_DOMAIN=hop.dupunkto.org" \
 	  -e "REDIRECT_DOMAIN=dupunk.to" \
 	  ghcr.io/dupunkto/hop
