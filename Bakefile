@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+use elixir
+
 SRC=src
 DIST=dist
 HOST=geheimesite.nl
@@ -38,10 +40,6 @@ serve() {
   build # Perform a full build first
   export -f $(compgen -A function)
   spawn "cheese -p 4000 --dev $DIST/${1:-$HOST}" watch
-}
-
-format() {
-  mix format
 }
 
 clean() {
