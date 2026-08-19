@@ -9,7 +9,6 @@ services:
 - name: bootstrap
   src: bootstrap.sh
   target: /volume1/docker/bootstrap.sh
-  dispatch: all
 - name: geheimesite.nl
   src: dist/geheimesite.nl
   exclude:
