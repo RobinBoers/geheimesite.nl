@@ -257,6 +257,8 @@ if target hop; then
 	  -e "DATABASE_URL=postgresql://$DB_USER:$DB_PASS@master-db:5432/hop?sslmode=disable" \
 	  -e "ADMIN_DOMAIN=hop.dupunkto.org" \
 	  -e "REDIRECT_DOMAIN=dupunk.to" \
+    -e "AUTH_PROVIDER=nym" \
+    -e "AUTH_ENDPOINT=https://nym.dupunkto.org" \
 	  reg.dupunkto.org/dupunkto/hop
 fi
 
