@@ -257,7 +257,7 @@ if target hop; then
 	  -e "DATABASE_URL=postgresql://$DB_USER:$DB_PASS@master-db:5432/hop?sslmode=disable" \
 	  -e "ADMIN_DOMAIN=hop.dupunkto.org" \
 	  -e "REDIRECT_DOMAIN=dupunk.to" \
-	  ghcr.io/dupunkto/hop
+	  reg.dupunkto.org/dupunkto/hop
 fi
 
 if target scry; then
@@ -271,7 +271,7 @@ if target scry; then
     -e "AUTH_PROVIDER=nym" \
     -e "AUTH_ENDPOINT=https://nym.dupunkto.org" \
     -e "SECRET_KEY_BASE=$KEY_BASE" \
-    ghcr.io/dupunkto/scry
+    reg.dupunkto.org/dupunkto/scry
 fi
 
 if target cipher; then
@@ -282,7 +282,7 @@ if target cipher; then
     -e "DATABASE_URL=postgres://$DB_USER:$DB_PASS@master-db/cipher" \
     -e "SECRET_KEY_BASE=$KEY_BASE" \
   	--env-file /volume1/docker/.env \
-    ghcr.io/dupunkto/cipher:latest
+    reg.dupunkto.org/dupunkto/cipher:latest
 fi
 
 if target mesh; then
@@ -295,7 +295,7 @@ if target mesh; then
     -e "WEBHOOK_URL=$DISCORD_MESH_WEBHOOK" \
     -e "NODE=nov.mesh.dupunkto.org" \
     -e "PEERS=dec.mesh.dupunkto.org,feb.mesh.dupunkto.org,jun.mesh.dupunkto.org" \
-    ghcr.io/dupunkto/mesh:latest
+    reg.dupunkto.org/dupunkto/mesh:latest
 fi
 
 if target vik; then
