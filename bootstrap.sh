@@ -242,11 +242,16 @@ if target nym; then
   docker run -dit --name nym \
 	  --net $NET --restart always \
 	  -e "ISSUER=https://nym.dupunkto.org" \
-	  -e "SIGNING_KEY=$NYM_SECRET" \
+	  -e "HMAC_SIGNING_KEY=$NYM_SECRET" \
+    -e "RSA_SIGNING_KEY=/var/www/data/private.pem" \
+    -e "USERS=/var/www/data/users.json" \
+    -e "CLIENTS=/var/www/data/clients.json" \
+    -e "STATE=/var/www/data/state.json" \
 	  -e "PROXY_ENABLE=1" \
 	  -e "PROXY_BYPASS=/v1/*,/accounts/ClientLogin,/reader/api/*" \
 	  -e "ENFORCE_PKCE=0" \
-	  -v /volume1/www/nym.dupunkto.org:/var/www/html \
+	  -v /volume1/www/nym.dupunkto.org:/var/www/html:rw \
+    -v /volume1/docker/nym:/var/www/data:rw \
 	  ghcr.io/dupunkto/php
 fi
 
