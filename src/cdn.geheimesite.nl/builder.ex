@@ -6,10 +6,15 @@ defmodule CDN do
   copy_through "index.html"
 
   stylesheets =
-    async path <- glob("*.css"), into: %{} do
+    for path <- glob("*.css") do
+      {path, register_dependencies!(path)}
+    end
+
+  stylesheets =
+    async {path, dependencies} <- stylesheets, into: %{} do
       dest = target(path)
 
-      if outdated?(dest, path) do
+      if outdated?(dest, path) or Enum.any?(dependencies, &outdated?(dest, &1)) do
         sh!(["lightningcss", "--minify", "--bundle", "--targets", "defaults", path, "-o", dest])
       end
 

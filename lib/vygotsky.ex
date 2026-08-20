@@ -82,20 +82,54 @@ defmodule Vygotsky do
 
   defmacro register_dependencies!(path) do
     quote do
-      source = File.read!(unquote(path))
-      pattern = ~r/<\.embed\b[^>]*\bname="([^"]+)"/
-
-      dependencies =
-        pattern
-        |> Regex.scan(source)
-        |> Enum.map(fn [_, name] -> name end)
-        |> Enum.map(&shared_path/1)
+      dependencies = resolve_dependencies(unquote(path))
 
       for path <- dependencies do
         Module.put_attribute(__MODULE__, :external_resource, path)
       end
 
       dependencies
+    end
+  end
+
+  def resolve_dependencies(path) do
+    path = Path.expand(path)
+    resolve_dependencies([path], MapSet.new([path]), [])
+  end
+
+  defp resolve_dependencies([], _seen, dependencies), do: Enum.reverse(dependencies)
+
+  defp resolve_dependencies([path | rest], seen, dependencies) do
+    discovered =
+      path
+      |> scan_dependencies()
+      |> Enum.map(&Path.expand(&1, Path.dirname(path)))
+      |> Enum.uniq()
+      |> Enum.reject(&MapSet.member?(seen, &1))
+
+    resolve_dependencies(
+      rest ++ discovered,
+      Enum.reduce(discovered, seen, &MapSet.put(&2, &1)),
+      Enum.reverse(discovered, dependencies)
+    )
+  end
+
+  defp scan_dependencies(path) do
+    source = File.read!(path)
+
+    case Path.extname(path) do
+      ".css" ->
+        ~r/@import\s+(?:url\(\s*)?["']([^"']+)["']/
+        |> Regex.scan(source)
+        |> Enum.map(fn [_, dependency] -> dependency end)
+        |> Enum.reject(fn dependency ->
+          URI.parse(dependency).scheme != nil or String.starts_with?(dependency, "/")
+        end)
+
+      extension when extension in [".eex", ".heex", ".html"] ->
+        ~r/<\.embed\b[^>]*\bname="([^"]+)"/
+        |> Regex.scan(source)
+        |> Enum.map(fn [_, name] -> shared_path(name) end)
     end
   end
 
