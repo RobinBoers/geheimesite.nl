@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <.head title={@code} stylesheet="/bsod.css" root {assigns} />
+
+    <%
+      segment = :io_lib.format("~4.16.0B", [:rand.uniform(0x10000) - 1]) |> IO.iodata_to_binary()
+      address = :io_lib.format("~8.16.0B", [:rand.uniform(0x100000000) - 1]) |> IO.iodata_to_binary()
+      offset = :io_lib.format("~8.16.0B", [:rand.uniform(0x100000000) - 1]) |> IO.iodata_to_binary()
+
+      trace = "A fatal exception #{@code} has occurred at #{segment}:#{address} VxD november(11) + #{offset}."
+    %>
+
+    <meta name="description" content={trace} />
+  </head>
+  <body>
+    <hgroup class="header">
+      <h1>november</h1>
+      <p>
+        {trace}
+        {case @code do
+          401 -> "You're not authorized to view this resource. The dogs bite btw."
+          403 -> "Access to this resources could not be granted at this point in time. Sowwy not sowwy."
+          404 -> "The page you are looking for appears to have been eaten by a crocodile. Though luck."
+          405 -> "The given method is not supported. Better luck next time."
+          500 -> "We fucked up. Sorry."
+          502 -> "The backend is not responding. Wake yp, lazy server."
+          _ -> "<a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/#{@code}'>What does this mean?</a>"
+        end}
+      </p>
+    </hgroup>
+
+    <ul>
+      <li>This error was served by <a href="//nov.dupunkto.org">november</a>, the server powering most of <a href="//dupunkto.org">:du:punkto</a> and <a href="//geheimesite.nl">geheimesite.nl</a>.</li>
+      <li>Contact the webmaster at geheimesite.nl/contact if you think this error was served by mistake.</li>
+    </ul>
+  </body>
+</html>

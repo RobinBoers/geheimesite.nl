@@ -30,6 +30,8 @@ services:
   src: dist/api.geheimesite.nl
   exclude:
   - resources
+- name: november.geheimesite.nl
+  src: dist/november.geheimesite.nl
 - name: classic.geheimesite.nl
   src: dist/classic.geheimesite.nl
   exclude:
