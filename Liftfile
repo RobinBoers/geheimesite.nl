@@ -1,5 +1,5 @@
 type: static
-host: nov
+host: nov.dupunk.to
 services:
 - name: router
   src: Caddyfile
