@@ -9,6 +9,9 @@ services:
 - name: bootstrap
   src: bootstrap.sh
   target: /volume1/docker/bootstrap.sh
+- name: priv
+  src: priv/*.tpl
+  target: /volume1/www
 - name: geheimesite.nl
   src: dist/geheimesite.nl
   exclude:
