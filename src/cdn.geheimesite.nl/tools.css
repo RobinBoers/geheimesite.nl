@@ -115,10 +115,10 @@ body > [data-phx-main] > header h1,
 }
 
 main {
-  max-width: 610px;
+  max-width: 620px;
   margin: 0 auto;
   margin-top: 3em;
-  padding: 0 5px;
+  padding: 0 10px;
 }
 
 /* Flash messages */
