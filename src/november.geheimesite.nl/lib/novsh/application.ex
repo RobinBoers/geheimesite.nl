@@ -4,11 +4,7 @@ defmodule Novsh.Application do
 
   @impl true
   def start(_type, _args) do
-    children = [
-      Novsh.Worker
-    ]
-
     opts = [strategy: :one_for_one, name: Novsh.Supervisor]
-    Supervisor.start_link(children, opts)
+    Supervisor.start_link([Novsh.REPL], opts)
   end
 end

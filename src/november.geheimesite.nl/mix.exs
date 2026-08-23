@@ -20,6 +20,7 @@ defmodule Novsh.MixProject do
 
   defp deps do
     [
+      {:signo, "~> 0.0.2"},
       {:popcorn, "~> 0.3.3"}
     ]
   end

@@ -10,3 +10,8 @@ html {
   background: black;
   color: white;
 }
+
+/* I didn't know how else to get rid of the underline, sorry. */
+.xterm-underline-5 {
+  text-decoration: none;
+}

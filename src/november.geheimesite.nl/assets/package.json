@@ -7,7 +7,10 @@
   },
   "dependencies": {
     "@swmansion/popcorn": "^0.3.3",
-    "@xterm/xterm": "^6.0.0"
+    "@xterm/addon-fit": "^0.11.0",
+    "@xterm/addon-ligatures": "^0.10.0",
+    "@xterm/xterm": "^6.0.0",
+    "xterm-readline": "^1.2.2"
   },
   "devDependencies": {
     "esbuild": "^0.25.0"
