@@ -1,0 +1,23 @@
+#!/bin/bash
+
+use elixir
+
+ASSETS="$(pwd)/assets"
+
+setup() {
+	super
+
+	npm install --prefix $ASSETS
+}
+
+build() {
+	super
+
+	mix popcorn.cook
+  npm run build --prefix "$ASSETS"
+}
+
+serve() {
+	spawn "mix popcorn.server" \
+				"npm run watch --prefix "$ASSETS""
+}
