@@ -61,8 +61,7 @@ const months = [
   "december"
 ];
 
-term.write(`
-                       _
+term.write(`                       _
  ___ ___ _ _ ___ _____| |_ ___ ___
 |   | . | | | -_|     | . | -_|  _|
 |_|_|___|\\_/|___|_|_|_|___|___|_|
@@ -72,7 +71,7 @@ ${idx == 10 ? `november!! :3` : `${strikethrough("november")} ${months[idx]}`}
 ${new Date().toUTCString()}
 It has been ${up} days since last reboot.
 
-Greetings, dear traveler. You've reached november, the server powering most of ${link("{du}punkto", "https://dupunkto.org")} and the ${link("geheimesite.nl", "https://geheimesite.nl")} webspaces.
+Greetings, dear traveler. You've reached november, the server powering most of ${link("{du}punkto", "https://dupunkto.org")} and ${link("geheimesite.nl", "https://geheimesite.nl")}.
 
 You can contact the webmaster at geheimesite.nl/contact.
 
@@ -93,7 +92,7 @@ let ln = 1;
 
 while(true) {
   const expression = await rl.read(`sig(${ln})> `);
-  const result = await popcorn.call(expression, { timeoutMs: 10_000 });
+  const result = await popcorn.call(expression + "\n", { timeoutMs: 10_000 });
 
   if(result.ok) ln = result.data;
 }
