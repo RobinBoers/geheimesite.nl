@@ -342,17 +342,29 @@ if target fog; then
 fi
 
 if target router; then
-  docker run -dit --name router \
-    --net $NET --restart no --log-driver none \
-    --add-host=host.docker.internal:host-gateway \
-    -p 443:443/tcp -p 443:443/udp -p 80:80/tcp \
-	  -e GOMAXPROCS=4 \
-	  -v /volume1/www/access.log:/var/log/access.log \
+  # The following IP (192.168.1.13) and MAC address (02:42:c0:a8:01:0f)
+  # are reserved in NETGEAR's DHCP tables. The Docker gateway (172.18.0.1)
+  # is hard-coded because host-gateway might route to the router rather
+  # than the Docker network.
+
+  docker create --name router \
+    --restart no --log-driver none \
+    --net ingress \
+    --ip 192.168.1.13 \
+    --mac-address 02:42:c0:a8:01:0f \
+    --add-host=host.docker.internal:172.18.0.1 \
+    -e GOMAXPROCS=4 \
+    -v /volume1/docker/caddy/data:/data \
+    -v /volume1/docker/caddy/config:/config \
+    -v /volume1/www/access.log:/var/log/access.log \
     -v /volume1/www/Caddyfile:/etc/caddy/Caddyfile:ro \
     -v /volume1/www:/var/www/html:ro \
     --env-file /volume1/docker/.env \
     caddy:latest
 
-  # Install Anubis fork to block AI bots and scrapers
-  # docker exec router caddy add-package github.com/sjtug/cerberus
+  # We manually start the network, rather than using `docker run` directly,
+  # because we cannot connect a running container to a second Docker network.
+
+  docker network connect $NET router
+  docker start router
 fi
