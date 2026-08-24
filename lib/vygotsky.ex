@@ -300,7 +300,7 @@ defmodule Vygotsky do
         String.ends_with?(path, ".eex") -> path |> Path.rootname(".eex") |> output()
         String.ends_with?(path, ".heex") -> path |> Path.rootname(".heex") |> output()
         String.ends_with?(path, ".md") -> Path.rootname(path, ".md") <> ".html"
-        Enum.any?(~w(html xml json txt js css ico), &String.ends_with?(path, ".#{&1}")) -> path
+        Enum.any?(~w(html shtml xml json txt js css ico), &String.ends_with?(path, ".#{&1}")) -> path
       end
 
     if Keyword.get(opts, :basename, true) do
