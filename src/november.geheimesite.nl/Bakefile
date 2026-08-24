@@ -21,3 +21,7 @@ serve() {
 	spawn "mix popcorn.server" \
 				"npm run watch --prefix "$ASSETS""
 }
+
+deploy() {
+	lift deploy
+}

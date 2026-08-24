@@ -1,0 +1,7 @@
+name: nov.dupunkto.org
+type: static
+host: nov.dupunk.to
+src: dist
+target: nov.dupunkto.org
+exclude:
+- "*.shtml"
