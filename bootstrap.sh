@@ -350,6 +350,7 @@ if target router; then
 	  -v /volume1/www/access.log:/var/log/access.log \
     -v /volume1/www/Caddyfile:/etc/caddy/Caddyfile:ro \
     -v /volume1/www:/var/www/html:ro \
+    --env-file /volume1/docker/.env \
     caddy:latest
 
   # Install Anubis fork to block AI bots and scrapers

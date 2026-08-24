@@ -205,6 +205,22 @@ http://cdn.geheimesite.nl {
 	import static
 }
 
+ilysm.fr {
+	import logging
+	import errors
+	import txts
+	import autodiscover
+
+	redir / https://geheimesite.nl temporary
+	respond /ip "{http.request.remote.host}" 200
+	respond /ua "{http.request.header.User-Agent}" 200
+
+	reverse_proxy /geo https://eu-api.ipdata.co {
+    rewrite /{http.request.remote.host}?api-key={$IPDATA_API_KEY}
+    header_up Host eu-api.ipdata.co
+	}
+}
+
 geheimesite.nl,
 scatterbrain.nl,
 dupunkto.org,
