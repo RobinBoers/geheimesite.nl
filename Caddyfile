@@ -204,6 +204,7 @@ git.geheimesite.nl {
 http://cdn.dupunkto.org,
 http://cdn.geheimesite.nl {
 	import caching
+	import security
 	import static
 }
 
