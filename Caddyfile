@@ -99,6 +99,7 @@
 		X-Content-Type-Options "nosniff"
 		X-Frame-Options "deny"
 		Cross-Origin-Opener-Policy "same-origin"
+		Cross-Origin-Embedder-Policy "require-corp"
 
 		# HSTS: Enable automatic HTTPS redirects for a year
 		Strict-Transport-Security "max-age=31536000"
