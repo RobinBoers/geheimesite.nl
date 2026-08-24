@@ -15,7 +15,7 @@
 (errors) {
 	handle_errors {
 		root * /var/www/html/nov.dupunkto.org
-		try_files /{err.status_code}.html /500.html
+		try_files /{err.status_code}.shtml /500.shtml
 		file_server
 	}
 }
