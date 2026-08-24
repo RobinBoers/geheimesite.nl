@@ -32,6 +32,7 @@ services:
   - resources
 - name: november.geheimesite.nl
   src: dist/november.geheimesite.nl
+  delete: false
 - name: classic.geheimesite.nl
   src: dist/classic.geheimesite.nl
   exclude:
