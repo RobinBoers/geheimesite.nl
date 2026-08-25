@@ -574,10 +574,11 @@ roblog.nl {
 	redir https://geheimesite.nl{uri}
 }
 
+pages.geheimesite.nl,
 demo.geheimesite.nl,
 docs.geheimesite.nl {
 	import security
-	redir https://pages.geheimesite.nl{uri}
+	redir https://robinboers.github.io{uri}
 }
 
 # Uptime
