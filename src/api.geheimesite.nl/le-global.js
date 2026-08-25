@@ -26,7 +26,12 @@
       width: 40px;
       height: 40px;
       margin: clamp(7px, 0.5rem, 20px);
+    }
+
+    #le-global svg,
+    #le-global svg path {
       fill: currentColor;
+      stroke: none !important;
     }
   `;
 
