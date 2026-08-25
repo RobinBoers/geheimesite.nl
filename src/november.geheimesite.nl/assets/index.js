@@ -49,6 +49,7 @@ const strikethrough = (text) => `\x1b[9m${text}\x1b[29m`;
 // Terminal helpers
 const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const write = (text) => new Promise((resolve) => term.write(text.replaceAll("\n", "\r\n"), resolve));
+const writeln = (text) => rl.write(text == "\x1b[H\x1b[2J" ? text : text + "\r\n");
 
 const resolve_uptime = async () => {
   try {
@@ -107,8 +108,8 @@ await write("\r\x1b[2K");
 
 const popcorn = await Popcorn.init({
   bundlePaths: ["/wasm/bundle.avm"],
-  onStdout: (str) => rl.write(str + "\r\n"),
-  onStderr: (str) => rl.write(str + "\r\n"),
+  onStdout: writeln,
+  onStderr: writeln,
 });
 
 let ln = 1;

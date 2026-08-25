@@ -3,9 +3,11 @@ defmodule Novsh.REPL do
   use GenServer
 
   alias Signo.Env
-  alias Signo.StdLib
   alias Signo.Logger
   alias Signo.Position
+  alias Signo.StdLib
+
+  @hidden_result :"do not show this result in output"
 
   def start_link(opts) do
     GenServer.start_link(__MODULE__, opts, name: __MODULE__)
@@ -46,10 +48,16 @@ defmodule Novsh.REPL do
       |> Signo.evaluate!(state.env)
 
     Logger.log_expression(value)
+
+    maybe_flush_output(value)
+
     %{state | env: env, ln: state.ln + 1}
   rescue
     exception ->
       Logger.log_error(exception)
       state
   end
+
+  defp maybe_flush_output(%Signo.AST.Atom{value: @hidden_result}), do: IO.puts("")
+  defp maybe_flush_output(_value), do: :ok
 end
