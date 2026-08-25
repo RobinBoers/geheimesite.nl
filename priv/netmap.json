@@ -50,7 +50,7 @@
   },
   {
     "domain": "blog.geheimesite.nl",
-    "description": "Public archive of all content on my old (Blogger) blog; most important posts have later been migrated to my current blog, on this website.",
+    "description": "Public archive of all content on my old (Blogger) blog. Most important posts have later been migrated to my current blog, on <a href=\"//geheimesite.nl/blog\">geheimesite.nl/blog</a>.",
     "status": "archived",
     "pinned": false,
     "datetime": "2022-03-06"
