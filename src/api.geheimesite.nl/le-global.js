@@ -16,14 +16,17 @@
 
   style.textContent = `
     #le-global {
+      color: currentColor;
       position: absolute;
+      top: 0;
+      left: 0;
     }
 
     #le-global svg {
       width: 40px;
       height: 40px;
-      margin: 1em;
-      fill: light-dark(black, white);
+      margin: clamp(7px, 0.5em, 20px);
+      fill: currentColor;
     }
   `;
 
