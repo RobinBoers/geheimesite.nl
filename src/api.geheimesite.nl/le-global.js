@@ -16,177 +16,24 @@
 
   style.textContent = `
     #le-global {
-      box-sizing: border-box;
       position: absolute;
-      top: 0;
-      right: 2rem;
-      z-index: 100000;
-      width: max-content;
-      font: 1.4rem serif;
-      text-transform: lowercase;
-      padding: 0;
-      font-weight: normal;
     }
 
-    #le-global summary {
-      box-sizing: border-box;
-      display: flex;
-      align-items: center;
-      gap: 0.6em;
-      padding: 0.5em 1em;
-      background: black;
-      color: white;
-      border-radius: 0 0 15px 15px;
-      cursor: pointer;
-      list-style: none;
-      user-select: none;
-      font-weight: normal;
-    }
-
-    #le-global summary::-webkit-details-marker {
-      display: none;
-    }
-
-    #le-global summary:after {
-      display: none !important;
-    }
-
-    #le-global summary svg {
-      flex: none;
-      fill: currentColor;
-      transition: transform 150ms ease;
-    }
-
-    #le-global[open] summary svg {
-      transform: rotate(180deg);
-    }
-
-    #le-dropdown {
-      box-sizing: border-box;
-      position: absolute;
-      top: 100%;
-      right: 0;
-      display: flex;
-      flex-direction: column;
-      min-width: 100%;
-      padding: 0.5em 0;
-      background: light-dark(#ededed, #00000033);;
-      border-radius: 15px;
-      margin-top: 0.5em;
-    }
-
-    #le-global a {
-      box-sizing: border-box;
-      color: inherit;
-      font: inherit;
-      text-decoration: none;
-      white-space: nowrap;
-    }
-
-    #le-dropdown a {
-      padding: 0.35em 1em;
-    }
-
-    #le-dropdown a:hover,
-    #le-dropdown a[aria-current="page"] {
-      text-decoration: underline;
-      text-decoration-thickness: 0.1em;
-      text-underline-offset: 4px;
-    }
-
-    #le-dropdown span {
-      padding: 0.35em 1em;
-      white-space: nowrap;
+    #le-global svg {
+      width: 40px;
+      height: 40px;
+      margin: 1em;
+      fill: light-dark(black, white);
     }
   `;
 
-  const dropdown = document.createElement("details");
-  dropdown.id = "le-global";
-
-  const summary = document.createElement("summary");
-
-  const hostname = document.createElement("span");
-  hostname.textContent = location.hostname;
-
-  const icon = document.createElementNS(
-    "http://www.w3.org/2000/svg",
-    "svg"
-  );
-
-  icon.setAttribute("aria-hidden", "true");
-  icon.setAttribute("width", "0.75rem");
-  icon.setAttribute("height", "0.75rem");
-  icon.setAttribute("viewBox", "0 0 20 20");
-
-  const iconPath = document.createElementNS(
-    "http://www.w3.org/2000/svg",
-    "path"
-  );
-
-  iconPath.setAttribute("fill-rule", "evenodd");
-  iconPath.setAttribute(
-    "d",
-    "M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-  );
-  iconPath.setAttribute("clip-rule", "evenodd");
-
-  icon.append(iconPath);
-  summary.append(hostname, icon);
-
-  const menu = document.createElement("div");
-  menu.id = "le-dropdown";
-
-  dropdown.append(summary, menu);
-
   document.head.append(style);
-  body.append(dropdown);
-
-  try {
-    const cache_key = "le-global-domains";
-    const cache_ttl = 10 * 60 * 1000;
-    let domains;
-
-    try {
-      const cached = JSON.parse(localStorage.getItem(cache_key));
-
-      if (Array.isArray(cached?.domains) && Date.now() - cached.stored_at < cache_ttl)
-        domains = cached.domains;
-    } catch {}
-
-    if (!domains) {
-      const response = await fetch("https://nm.geheimesite.nl/domains.json");
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-
-      domains = await response.json();
-
-      try {
-        localStorage.setItem(cache_key, JSON.stringify({ domains, stored_at: Date.now() }));
-      } catch {}
-    }
-
-    for(const domain of domains) {
-      const link = document.createElement("a");
-
-      link.href = `https://${domain}`;
-      link.textContent = domain;
-
-      if (domain === location.hostname)
-        link.setAttribute("aria-current", "page");
-
-      menu.append(link);
-    }
-  } catch(error) {
-    console.error("Could not load domain menu:", error);
-
-    const message = document.createElement("span");
-    message.textContent = "could not load domains";
-
-    menu.append(message);
-  }
-
-  document.addEventListener("click", event => {
-    if (!dropdown.contains(event.target)) {
-      dropdown.open = false;
-    }
-  });
+  body.insertAdjacentHTML("afterbegin", `
+    <a id="le-global" href="https://nm.geheimesite.nl">
+      <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 16 16" shape-rendering="crispEdges">
+        <path d="M8 2h2v1H8zM6 3h2v1H6zM3 4h2v1H3zM9 4h4v1H9zM15 4h1v1h-1zM1 5h5v1H1zM8 5h7v1H8zM1 6h14v1H1zM1 7h6v1H1zM8 7h6v1H8zM2 8h3v1H2z"></path>
+        <path d="M7 2h1v1H7zM8 3h1v1H8zM14 4h1v1h-1zM15 5h1v1h-1z" opacity=".188235"></path>
+      </svg>
+    </a>
+  `);
 })();
