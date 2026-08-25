@@ -89,12 +89,11 @@ ${new Date().toUTCString()}
 write(`
 Greetings, dear traveler. You've reached november, the server powering most of ${link("{du}punkto", "https://dupunkto.org")} and ${link("geheimesite.nl", "https://geheimesite.nl")}.
 
-You can contact the webmaster at geheimesite.nl/contact.
+You can contact the webmaster at ${link("geheimesite.nl/contact", "https://geheimesite.nl/contact")}.
 
-This site provides a terminal interface to poke at the server via a ${link("Signo", "https://git.dupunkto.org/~axcelott/signo")} shell running in WebAssembly with a virtual local filesystem.
+This site provides a terminal interface to poke at the server. It's running a ${link("Signo", "https://git.dupunkto.org/~axcelott/signo")} shell in WebAssembly. There is a in-browser virtual file system available.
 
-Feel free to explore, have fun!
-
+Find documentation at ${link("docs.dupunkto.org/signo", "https://docs.dupunkto.org/signo")}.
 
 `);
 
