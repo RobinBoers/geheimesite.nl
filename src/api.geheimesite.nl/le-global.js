@@ -25,7 +25,7 @@
     #le-global svg {
       width: 40px;
       height: 40px;
-      margin: clamp(7px, 0.5em, 20px);
+      margin: clamp(7px, 0.5rem, 20px);
       fill: currentColor;
     }
   `;
