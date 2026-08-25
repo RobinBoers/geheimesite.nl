@@ -356,6 +356,7 @@ if target router; then
     -e GOMAXPROCS=4 \
     -v /volume1/docker/caddy/data:/data \
     -v /volume1/docker/caddy/config:/config \
+    -v /volume1/docker/uptime.txt:/var/log/uptime \
     -v /volume1/www/access.log:/var/log/access.log \
     -v /volume1/www/Caddyfile:/etc/caddy/Caddyfile:ro \
     -v /volume1/www:/var/www/html:ro \

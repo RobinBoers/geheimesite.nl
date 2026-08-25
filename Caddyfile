@@ -176,6 +176,7 @@
 # Remove www. from domain names
 www.enorm.moe,
 www.roblog.nl,
+www.ilysm.fr,
 www.scatterbrain.nl,
 www.geheimesite.nl,
 www.dupunkto.org,
@@ -215,8 +216,13 @@ ilysm.fr {
 	import autodiscover
 
 	redir / https://geheimesite.nl temporary
+
 	respond /ip "{http.request.remote.host}" 200
 	respond /ua "{http.request.header.User-Agent}" 200
+
+	file_server /uptime {
+		root /var/log
+	}
 
 	reverse_proxy /geo https://eu-api.ipdata.co {
     rewrite /{http.request.remote.host}?api-key={$IPDATA_API_KEY}
