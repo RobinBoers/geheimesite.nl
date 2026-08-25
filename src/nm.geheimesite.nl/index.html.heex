@@ -22,7 +22,7 @@
       }
 
       th:first-child {
-        width: 18%;
+        width: 240px;
       }
 
       .status {
@@ -92,7 +92,7 @@
         <%= for site <- sites do %>
           <tr class={site["status"]}>
             <td>
-              <span class="status" title={site["status"]}></span><a href={"//#{site["domain"]}"}>{site["domain"]}</a>
+              <span class="status" title={site["status"]}></span><%= if site["status"] == "defunct" do %><span>{site["domain"]}</span><% else %><a href={"//#{site["domain"]}"}>{site["domain"]}</a><% end %>
             </td>
             <td>{Phoenix.HTML.raw(site["description"])}</td>
           </tr>
