@@ -258,6 +258,7 @@ http://cydia.geheimesite.nl,
 lyceumschravenland.nl,
 robin.is.enorm.moe {
 	import logging
+	import security
 	import errors
 
 	route {
@@ -266,7 +267,6 @@ robin.is.enorm.moe {
 		import txts
 		import autodiscover
 		import favicon
-		import security
 		import caching
 		import static
 	}
@@ -274,12 +274,12 @@ robin.is.enorm.moe {
 
 ftp.dupunkto.org {
 	import logging
+	import security
 	import errors
 
 	route {
 		import txts
 		import favicon
-		import security
 
 		root * /var/www/html/ftp.dupunkto.org
 		handle {
@@ -294,22 +294,25 @@ ftp.dupunkto.org {
 
 rss.dupunkto.org {
 	import logging
+	import security
 	import errors
 
 	route {
 		import txts
 		import favicon
-		import security
 		import landing
 		import nym miniflux:8080
 	}
 }
 
 inv.dupunkto.org {
+	import logging
+	import security
+	import errors
+
 	route {
 		import txts
 		import favicon
-		import security
 		import landing
 		handle {
 			# reverse_proxy invidious:3000
@@ -319,13 +322,14 @@ inv.dupunkto.org {
 
 mpv.dupunkto.org {
 	import logging
+	import security
 	import errors
 
 	route {
 		import txts
 		import favicon
-		import security
 		import landing
+
 		handle {
 			reverse_proxy host.docker.internal:8096
 		}
@@ -334,12 +338,12 @@ mpv.dupunkto.org {
 
 vik.dupunkto.org {
 	import logging
+	import security
 	import errors
 
 	route {
 		import txts
 		import favicon
-		import security
 
 		handle_path /api/* {
 			redir https://api.dupunkto.org{uri}
@@ -353,12 +357,12 @@ vik.dupunkto.org {
 
 fog.geheimesite.nl {
 	import logging
+	import security
 	import errors
 
 	route {
 		import txts
 		import favicon
-		import security
 
 		handle_path /api/* {
 			redir https://api.geheimesite.nl{uri}
@@ -373,12 +377,12 @@ fog.geheimesite.nl {
 dupunk.to,
 hop.dupunkto.org {
 	import logging
+	import security
 	import errors
 
 	route {
 		import txts
 		import favicon
-		import security
 
 		handle {
 			reverse_proxy hop:4000
@@ -388,12 +392,12 @@ hop.dupunkto.org {
 
 nym.dupunkto.org {
 	import logging
+	import security
 	import errors
 
 	route {
 		import txts
 		import favicon
-		import security
 
 		@forbidden path /proxy /users.json
 		rewrite @forbidden /
@@ -406,12 +410,12 @@ nym.dupunkto.org {
 
 scry.dupunkto.org {
 	import logging
+	import security
 	import errors
 
 	route {
 		import txts
 		import favicon
-		import security
 
 		handle {
 			reverse_proxy scry:4000
@@ -421,12 +425,12 @@ scry.dupunkto.org {
 
 cipher.dupunkto.org {
 	import logging
+	import security
 	import errors
 
 	route {
 		import txts
 		import favicon
-		import security
 
 		handle {
 			reverse_proxy cipher:4000
@@ -436,12 +440,12 @@ cipher.dupunkto.org {
 
 git.dupunkto.org {
 	import logging
+	import security
 	import errors
 
 	route {
 		import txts
 		import favicon
-		import security
 
 		handle {
 			reverse_proxy gitz:80
@@ -451,12 +455,12 @@ git.dupunkto.org {
 
 bugs.dupunkto.org {
 	import logging
+	import security
 	import errors
 
 	route {
 		import txts
 		import favicon
-		import security
 
 		handle {
 			reverse_proxy bugz:80
@@ -466,13 +470,12 @@ bugs.dupunkto.org {
 
 api.dupunkto.org {
 	import logging
+	import security
 	import errors
 
 	route {
 		import txts
 		import favicon
-		import security
-
 		import landing
 
 		handle {
@@ -484,16 +487,15 @@ api.dupunkto.org {
 
 api.geheimesite.nl {
 	import logging
+	import security
 	import errors
 
 	route {
 		import txts
 		import favicon
-		import security
+		import landing
 
 		@files path /*.js /resources/*
-
-		import landing
 
 		handle @files {
 			import caching
@@ -514,27 +516,27 @@ api.geheimesite.nl {
 atlas.gijs6.nl,
 compass.gijs6.nl {
 	import logging
-	import errors
 	import security
+	import errors
 	reverse_proxy atlas:80
 }
 
 uptime.gijs6.nl {
 	import logging
-	import errors
 	import security
+	import errors
 	reverse_proxy uptime:3001
 }
 
 inbox.gijs6.nl,
 inbox.geheimesite.nl {
 	import logging
+	import security
 	import errors
 
 	route {
 		import txts
 		import favicon
-		import security
 
 		rewrite / /send/{host}
 		handle {
@@ -547,9 +549,9 @@ inbox.geheimesite.nl {
 
 ikwilvanmijnleraaraf.nl {
 	import logging
+	import security
 	import errors
 	import txts
-	import security
 
 	rewrite * /api/ikwilvanmijnleraaraf.nl?{query}&_path={path}
 	reverse_proxy vik:4000
@@ -557,9 +559,9 @@ ikwilvanmijnleraaraf.nl {
 
 ikwilvanmijnleerlingaf.nl {
 	import logging
+	import security
 	import errors
 	import txts
-	import security
 
 	rewrite * /api/ikwilvanmijnleerlingaf.nl?{query}&_path={path}
 	reverse_proxy vik:4000
@@ -582,12 +584,13 @@ docs.geheimesite.nl {
 
 nov.mesh.dupunkto.org {
 	import logging
+	import security
 	import errors
 
 	route {
 		import txts
 		import favicon
-		import security
+
 		handle {
 			reverse_proxy mesh:4000
 		}
