@@ -10,7 +10,6 @@
     "@xterm/addon-fit": "^0.11.0",
     "@xterm/addon-ligatures": "^0.10.0",
     "@xterm/xterm": "^6.0.0",
-    "ua-parser-js": "^1.0.41",
     "xterm-readline": "^1.2.2"
   },
   "devDependencies": {

@@ -4,12 +4,9 @@ import "./main.css";
 import { Popcorn } from "@swmansion/popcorn";
 import { Terminal } from "@xterm/xterm";
 import { Readline } from "xterm-readline";
-import { UAParser } from "ua-parser-js";
 
 import { FitAddon } from "@xterm/addon-fit";
 import { LigaturesAddon } from "@xterm/addon-ligatures";
-
-const { browser, os, device } = UAParser();
 
 const month = new Intl.DateTimeFormat("en", { month: "long" }).format().toLowerCase();
 
@@ -74,72 +71,7 @@ const resolve_uptime = async () => {
   }
 }
 
-await write(`
-${navigator.userAgent}
-${new Date().toUTCString()}
 
-`);
-
-const loading = async (name, task) => {
-  await write(`\r\x1b[2KLoading ${name}...`);
-  const result = await task();
-  await wait(30);
-  return result;
-}
-
-const uptime = await loading("https://ilysm.fr/uptime", resolve_uptime);
-
-for(const path of ["/iframe.mjs", "/AtomVM.mjs", "/AtomVM.wasm", "/wasm/bundle.avm"]) {
-  await loading(path, () => fetch(path).then((response) => response.arrayBuffer()));
-}
-
-await write("\r\x1b[2K");
-
-const join = (...parts) => parts.filter(Boolean).join(" ");
-
-const get_gpu = () => {
-  const canvas = document.createElement("canvas");
-  const gl = canvas.getContext("webgl2") || canvas.getContext("webgl");
-
-  if(!gl) return;
-
-  const info = gl.getExtension("WEBGL_debug_renderer_info");
-
-  return info
-    ? `${gl.getParameter(info.UNMASKED_VENDOR_WEBGL)} ${gl.getParameter(info.UNMASKED_RENDERER_WEBGL)}`
-    : gl.getParameter(gl.RENDERER);
-}
-
-const get_pointer = () => {
-  return matchMedia("(hover: hover) and (pointer: fine)").matches ? 'mouse' :
-    matchMedia("(hover: none) and (pointer: fine)").matches ? 'stylus' :
-    matchMedia("(hover: none) and (pointer: coarse)").matches ? 'touch' :
-    matchMedia("(hover: hover) and (pointer: coarse)").matches ? 'controller' :
-    'mouse';
-}
-
-for(const line of `
-  Version: 0.1a-prod
-
-  CPU: ${navigator.hardwareConcurrency} cores
-  GPU: ${get_gpu()}
-  Memory: ${navigator.deviceMemory} GB
-  Network: ${navigator.connection?.type || `±${navigator.connection?.effectiveType}`}
-  Locale: ${navigator.languages.join(", ")}
-  Pointer: ${get_pointer()}
-  Platform: ${join(os.name, os.version)}
-  Browser: ${join(browser.name, browser.major)}
-  Viewport: ${window.matchMedia("(max-width: 767px)").matches ? 'mobile' : 'desktop'}
-  Realm: ${window == window.top ? 'top' : origin == "null" ? 'sandbox' : 'iframe'}
-
-  Booting into remote november(11) session...
-  `.trim().split("\n")) {
-  await write(line.trim() + "\n");
-  await wait(5);
-}
-
-await wait(700);
-term.clear();
 
 await write(`                       _
  ___ ___ _ _ ___ _____| |_ ___ ___
@@ -148,8 +80,13 @@ await write(`                       _
 
 ${month == "november" ? `november!! :3` : `${strikethrough("november")} ${month}`}
 
-${new Date().toUTCString()}${uptime ? `\n${uptime}` : ""}
+${new Date().toUTCString()}
+`);
 
+// const uptime = await resolve_uptime();
+// if(uptime) write(uptime + "\n");
+
+write(`
 Greetings, dear traveler. You've reached november, the server powering most of ${link("{du}punkto", "https://dupunkto.org")} and ${link("geheimesite.nl", "https://geheimesite.nl")}.
 
 You can contact the webmaster at geheimesite.nl/contact.
@@ -160,6 +97,14 @@ Feel free to explore, have fun!
 
 
 `);
+
+for(const path of ["/iframe.mjs", "/AtomVM.mjs", "/AtomVM.wasm", "/wasm/bundle.avm"]) {
+  await write(`\r\x1b[2KLoading ${path}...`);
+  await fetch(path).then((response) => response.arrayBuffer());
+  await wait(10);
+}
+
+await write("\r\x1b[2K");
 
 const popcorn = await Popcorn.init({
   bundlePaths: ["/wasm/bundle.avm"],
