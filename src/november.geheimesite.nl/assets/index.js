@@ -91,7 +91,7 @@ Greetings, dear traveler. You've reached november, the server powering most of $
 
 You can contact the webmaster at ${link("geheimesite.nl/contact", "https://geheimesite.nl/contact")}.
 
-This site provides a terminal interface to poke at the server. It's running a ${link("Signo", "https://git.dupunkto.org/~axcelott/signo")} shell in WebAssembly. There is a in-browser virtual file system available.
+This site provides a terminal interface to poke at the server, running a ${link("Signo", "https://git.dupunkto.org/~axcelott/signo")} shell in WebAssembly.
 
 Find documentation at ${link("docs.dupunkto.org/signo", "https://docs.dupunkto.org/signo")}.
 
