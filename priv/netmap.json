@@ -36,14 +36,14 @@
   },
   {
     "domain": "cdn.geheimesite.nl",
-    "description": "CDN for several personal projects.",
+    "description": "CDN for personal projects.",
     "status": "active",
     "pinned": false,
     "datetime": "2023-06-14"
   },
   {
     "domain": "api.geheimesite.nl",
-    "description": "REST APIs for several personal projects.",
+    "description": "REST APIs for personal projects.",
     "status": "active",
     "pinned": false,
     "datetime": "2022-09-24"
@@ -78,21 +78,21 @@
   },
   {
     "domain": "contacts.geheimesite.nl",
-    "description": "Former self-hosted CardDAV server; replaced by Everything.",
+    "description": "Self-hosted CardDAV server (replaced by Everything).",
     "status": "defunct",
     "pinned": false,
     "datetime": "2024-04-30"
   },
   {
     "domain": "reader.geheimesite.nl",
-    "description": "Former self-hosted RSS reader; replaced by Miniflux.",
+    "description": "Self-hosted RSS reader (replaced by Miniflux).",
     "status": "defunct",
     "pinned": false,
     "datetime": "2024-04-08"
   },
   {
     "domain": "matrix.geheimesite.nl",
-    "description": "Former self-hosted Matrix homeserver; replaced by IRC.",
+    "description": "Self-hosted Matrix homeserver (replaced by IRC).",
     "status": "defunct",
     "pinned": false,
     "datetime": "2023-03-20"
