@@ -7,27 +7,110 @@
 
     <style>
       body {
-        max-width: 750px;
-        padding: 7px;
-        margin: 4em auto;
-        min-height: fit-content;
+        padding: 0 3em;
+        margin-top: 5em;
       }
 
-      li a:first-child {
-        font-weight: bold;
+      h1 {
+        margin-top: 0;
+        font-size: 1.2em;
+      }
+
+      table {
+        table-layout: fixed;
+        margin-top: 1em;
+      }
+
+      th:first-child {
+        width: 18%;
+      }
+
+      .status {
+        display: inline-block;
+        width: 0.8em;
+        height: 0.8em;
+        margin-right: 0.4em;
+        vertical-align: -2px;
+      }
+
+      .active .status {
+        background: #35f505ff;
+      }
+
+      .archived .status {
+        background: #c780ffff;
+      }
+
+      .defunct .status {
+        background: #d5d5d5ff;
+      }
+
+      .defunct {
+        opacity: 0.5;
       }
 
       .box {
-        margin-left: 0.5em;
         padding: 0.5em;
         background: light-dark(#ededed, #00000033);
-        font-style: italic;
         opacity: 0.8;
         margin-bottom: 0.2em;
       }
     </style>
   </head>
   <body>
-    <.embed name="netmap.html" />
+    <h1>geheimesite.nl webspace</h1>
+
+    <p class="box" hidden>
+      <!--
+        This message is made visible if the `from` attribute populated by the
+        catch-all route on the Caddy proxy is non-empty.
+      -->
+      Hey! If you got redirected here, that's probably because the site you were
+      looking for doesn't exist (anymore). Maybe what you're looking for is in the
+      list below?
+    </p>
+
+    <%
+      sites =
+        :vygotsky
+        |> Application.app_dir("priv/netmap.json")
+        |> File.read!()
+        |> Jason.decode!()
+
+      {pinned, chronological} = Enum.split_with(sites, & &1["pinned"])
+      sites = pinned ++ Enum.sort_by(chronological, & &1["datetime"], :desc)
+    %>
+
+    <table>
+      <thead>
+        <tr>
+          <th>domain</th>
+          <th>description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <%= for site <- sites do %>
+          <tr class={site["status"]}>
+            <td>
+              <span class="status" title={site["status"]}></span><a href={"//#{site["domain"]}"}>{site["domain"]}</a>
+            </td>
+            <td>{Phoenix.HTML.raw(site["description"])}</td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+
+    <p>
+      <small>
+        If you are looking for a sitemap,
+        <a href="//geheimesite.nl/sitemap.xml">it's right here</a>.
+      </small>
+    </p>
+
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      if (params.get("from")?.trim())
+        document.querySelector("p.box").style.display = "block";
+    </script>
   </body>
 </html>

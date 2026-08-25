@@ -1,0 +1,107 @@
+[
+  {
+    "domain": "geheimesite.nl",
+    "description": "My personal website.",
+    "status": "active",
+    "pinned": true,
+    "datetime": "2017-09-14"
+  },
+  {
+    "domain": "school.geheimesite.nl",
+    "description": "Study materials for high school.",
+    "status": "active",
+    "pinned": true,
+    "datetime": "2023-06-14"
+  },
+  {
+    "domain": "uni.geheimesite.nl",
+    "description": "Study materials for university.",
+    "status": "active",
+    "pinned": true,
+    "datetime": "2025-09-04"
+  },
+  {
+    "domain": "classic.geheimesite.nl",
+    "description": "A public archive of older versions of this website.",
+    "status": "active",
+    "pinned": false,
+    "datetime": "2023-05-01"
+  },
+  {
+    "domain": "inbox.geheimesite.nl",
+    "description": "<a href=\"//git.dupunkto.org/~dupunkto/cipher\">Cipher</a> inbox for receiving sensitive messages.",
+    "status": "active",
+    "pinned": false,
+    "datetime": "2024-09-07"
+  },
+  {
+    "domain": "cdn.geheimesite.nl",
+    "description": "CDN for several personal projects.",
+    "status": "active",
+    "pinned": false,
+    "datetime": "2023-06-14"
+  },
+  {
+    "domain": "api.geheimesite.nl",
+    "description": "REST APIs for several personal projects.",
+    "status": "active",
+    "pinned": false,
+    "datetime": "2022-09-24"
+  },
+  {
+    "domain": "blog.geheimesite.nl",
+    "description": "Public archive of all content on my old (Blogger) blog; most important posts have later been migrated to my current blog, on this website.",
+    "status": "archived",
+    "pinned": false,
+    "datetime": "2022-03-06"
+  },
+  {
+    "domain": "micro.geheimesite.nl",
+    "description": "Public archive of my short-lived microblog running on my own DIY blogging software called <a href=\"//git.dupunkto.org/~neopub/neopub\">neopub</a>.",
+    "status": "archived",
+    "pinned": false,
+    "datetime": "2022-05-01"
+  },
+  {
+    "domain": "nindo.geheimesite.nl",
+    "description": "Public archive of all <a href=\"//git.dupunkto.org/~nindo/nindo-phx\">Nindo</a> posts published before the platform went offline in January 2021.",
+    "status": "archived",
+    "pinned": false,
+    "datetime": "2022-03-27"
+  },
+  {
+    "domain": "cydia.geheimesite.nl",
+    "description": "Cydia repo hosting popular tweaks for Legacy iOS that cannot be purchased via Cydia anymore.",
+    "status": "active",
+    "pinned": false,
+    "datetime": "2024-12-08"
+  },
+  {
+    "domain": "contacts.geheimesite.nl",
+    "description": "Former self-hosted CardDAV server; replaced by Everything.",
+    "status": "defunct",
+    "pinned": false,
+    "datetime": "2024-04-30"
+  },
+  {
+    "domain": "reader.geheimesite.nl",
+    "description": "Former self-hosted RSS reader; replaced by Miniflux.",
+    "status": "defunct",
+    "pinned": false,
+    "datetime": "2024-04-08"
+  },
+  {
+    "domain": "matrix.geheimesite.nl",
+    "description": "Former self-hosted Matrix homeserver; replaced by IRC.",
+    "status": "defunct",
+    "pinned": false,
+    "datetime": "2023-03-20"
+  },
+  {
+    "domain": "code.geheimesite.nl",
+    "description": "Random collection of PHP files, auto-updaters, prototypes and <em>things</em>.",
+    "status": "defunct",
+    "pinned": false,
+    "datetime": "2020-12-10"
+  }
+]
