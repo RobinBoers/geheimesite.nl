@@ -183,20 +183,24 @@ www.dupunkto.org,
 www.dupunk.to,
 www.dupunkto.nl,
 www.dupunkto.com {
+	import security
 	redir https://{labels.1}.{labels.0}{uri}
 }
 
 enorm.moe,
 dupunkto.nl,
 dupunkto.com {
+	import security
 	redir https://dupunkto.org
 }
 
 schravenland.nl {
+	import security
 	redir https://lyceumschravenland.nl
 }
 
 git.geheimesite.nl {
+	import security
 	redir https://git.dupunkto.org temporary
 }
 
@@ -564,11 +568,13 @@ ikwilvanmijnleerlingaf.nl {
 # Cool URLs don't change
 
 roblog.nl {
+	import security
 	redir https://geheimesite.nl{uri}
 }
 
 demo.geheimesite.nl,
 docs.geheimesite.nl {
+	import security
 	redir https://pages.geheimesite.nl{uri}
 }
 
