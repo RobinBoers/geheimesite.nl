@@ -201,7 +201,7 @@ fi
 
 if target repoz; then
   docker run -dit --name repoz \
-    --net $NET --restart always --log-driver none \
+    --net $NET --restart always \
     -v /volume1/www/git.dupunkto.org:/var/www/html:rw \
     -v /volume1/www/git.geheimesite.nl:/var/www/html/ext:rw \
     -v /volume1/git:/var/git:rw \
@@ -215,7 +215,7 @@ fi
 
 if target gitz; then
   docker run -dit --name gitz \
-    --net $NET --restart always --log-driver none \
+    --net $NET --restart always \
     -v /volume1/www/git.dupunkto.org:/var/www/html:rw \
     -v /volume1/git:/var/git:rw \
     -e "SCAN_PATH=/var/git" \
