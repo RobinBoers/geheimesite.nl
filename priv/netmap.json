@@ -22,7 +22,7 @@
   },
   {
     "domain": "git.geheimesite.nl",
-    "description": "Personal git hosting.",
+    "description": "Personalised view of the <a href=\"//git.dupunkto.org\">{du}punkto Gitz instance</a> for personal repositories.",
     "status": "active",
     "pinned": true,
     "datetime": "2026-08-26"
