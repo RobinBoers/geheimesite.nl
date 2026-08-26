@@ -10,21 +10,21 @@
     "domain": "school.geheimesite.nl",
     "description": "Study materials for high school.",
     "status": "active",
-    "pinned": true,
+    "pinned": false,
     "datetime": "2023-06-14"
   },
   {
     "domain": "uni.geheimesite.nl",
     "description": "Study materials for university.",
     "status": "active",
-    "pinned": true,
+    "pinned": false,
     "datetime": "2025-09-04"
   },
   {
     "domain": "git.geheimesite.nl",
     "description": "Personalised view of the <a href=\"//git.dupunkto.org\">{du}punkto Gitz instance</a> for personal repositories.",
     "status": "active",
-    "pinned": true,
+    "pinned": false,
     "datetime": "2026-08-26"
   },
   {
