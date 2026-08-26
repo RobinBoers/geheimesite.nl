@@ -21,6 +21,13 @@
     "datetime": "2025-09-04"
   },
   {
+    "domain": "git.geheimesite.nl",
+    "description": "Personal git hosting.",
+    "status": "active",
+    "pinned": true,
+    "datetime": "2026-08-26"
+  },
+  {
     "domain": "classic.geheimesite.nl",
     "description": "A public archive of older versions of this website.",
     "status": "active",
