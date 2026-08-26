@@ -199,11 +199,6 @@ schravenland.nl {
 	redir https://lyceumschravenland.nl
 }
 
-git.geheimesite.nl {
-	import security
-	redir https://git.dupunkto.org temporary
-}
-
 # The CDN is running via Bunny, so Bunny is
 # managing SSL rather than Caddy.
 http://cdn.dupunkto.org,
@@ -438,6 +433,21 @@ cipher.dupunkto.org {
 	}
 }
 
+git.geheimesite.nl {
+	import logging
+	import security
+	import errors
+
+	route {
+		import txts
+		import favicon
+
+		handle {
+			reverse_proxy repoz:80
+		}
+	}
+}
+
 git.dupunkto.org {
 	import logging
 	import security
@@ -468,23 +478,6 @@ bugs.dupunkto.org {
 	}
 }
 
-api.dupunkto.org {
-	import logging
-	import security
-	import errors
-
-	route {
-		import txts
-		import favicon
-		import landing
-
-		handle {
-			rewrite * /api{path}
-			reverse_proxy vik:4000
-		}
-	}
-}
-
 api.geheimesite.nl {
 	import logging
 	import security
@@ -507,6 +500,23 @@ api.geheimesite.nl {
 		handle {
 			rewrite * /api{path}
 			reverse_proxy fog:4000
+		}
+	}
+}
+
+api.dupunkto.org {
+	import logging
+	import security
+	import errors
+
+	route {
+		import txts
+		import favicon
+		import landing
+
+		handle {
+			rewrite * /api{path}
+			reverse_proxy vik:4000
 		}
 	}
 }

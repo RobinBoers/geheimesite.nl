@@ -199,6 +199,19 @@ if target uptime; then
     louislam/uptime-kuma:2
 fi
 
+if target repoz; then
+  docker run -dit --name repoz \
+    --net $NET --restart always --log-driver none \
+    -v /volume1/www/git.dupunkto.org:/var/www/html:rw \
+    -v /volume1/www/git.geheimesite.nl:/var/www/html/ext:rw \
+    -v /volume1/git:/var/git:rw \
+    -e "SCAN_PATH=/var/git" \
+    --env-file /volume1/www/git.geheimesite.nl/.env \
+    ghcr.io/dupunkto/php
+
+  # Make sure the container is allowed to read git repos.
+  docker exec repoz git config --system --add safe.directory '*'
+fi
 
 if target gitz; then
   docker run -dit --name gitz \
@@ -206,10 +219,7 @@ if target gitz; then
     -v /volume1/www/git.dupunkto.org:/var/www/html:rw \
     -v /volume1/git:/var/git:rw \
     -e "SCAN_PATH=/var/git" \
-    -e "NAMESPACES=axcelott,ggijs,dupunkto,sites,meta,neopub,grape-lang,nindo,skylight,unlibrary,legacy,forks" \
-    -e "SHARED_NAMESPACES=axcelott,ggijs" \
-    -e "LEGACY_NAMESPACES=neopub,grape-lang,nindo,skylight,unlibrary,legacy" \
-    -e "HIDDEN_NAMESPACES=meta" \
+    --env-file /volume1/www/git.dupunkto.org/.env \
     ghcr.io/dupunkto/php
 
   # Make sure the container is allowed to read git repos.
