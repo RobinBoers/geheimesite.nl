@@ -206,6 +206,10 @@ if target gitz; then
     -v /volume1/www/git.dupunkto.org:/var/www/html:rw \
     -v /volume1/git:/var/git:rw \
     -e "SCAN_PATH=/var/git" \
+    -e "NAMESPACES=axcelott,ggijs,dupunkto,sites,meta,neopub,grape-lang,nindo,skylight,unlibrary,legacy,forks" \
+    -e "SHARED_NAMESPACES=axcelott,ggijs" \
+    -e "LEGACY_NAMESPACES=neopub,grape-lang,nindo,skylight,unlibrary,legacy" \
+    -e "HIDDEN_NAMESPACES=meta" \
     ghcr.io/dupunkto/php
 
   # Make sure the container is allowed to read git repos.
