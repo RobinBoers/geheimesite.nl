@@ -202,14 +202,9 @@ fi
 if target repoz; then
   docker run -dit --name repoz \
     --net $NET --restart always \
-    -v /volume1/www/git.dupunkto.org:/var/www/html:rw \
-    -v /volume1/www/git.geheimesite.nl:/var/www/html/ext:rw \
+    -v /volume1/www/git.geheimesite.nl:/var/www/html:rw \
     -v /volume1/git:/var/git:rw \
     -e "SCAN_PATH=/var/git" \
-    -e "CUSTOM_CSS=/var/www/html/ext/custom.css" \
-    -e "HEADER_TEMPLATE=/var/www/html/ext/header.php" \
-    -e "LISTING_TEMPLATE=/var/www/html/ext/listing.php" \
-    -e "SUMMARY_TEMPLATE=/var/www/html/ext/summary.php" \
     --env-file /volume1/www/git.geheimesite.nl/.env \
     ghcr.io/dupunkto/php
 
