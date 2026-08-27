@@ -66,6 +66,23 @@ window.addEventListener("keydown", (event) => {
 
 const link = (label, uri) => `\x1b]8;;${uri}\x1b\\\x1b[3m${label}\x1b[23m\x1b]8;;\x1b\\`;
 const strikethrough = (text) => `\x1b[9m${text}\x1b[29m`;
+const wrap = (text, width) => {
+  if(term.cols <= width) return text;
+
+  return text.split("\n").map((line) => line.split(/\s+/).reduce((lines, word) => {
+    const current = lines.at(-1);
+
+    const len = (text) => text
+      .replaceAll(/\x1b\]8;;[^\x1b]*\x1b\\/g, "")
+      .replaceAll(/\x1b\[[0-?]*[ -/]*[@-~]/g, "")
+      .length;
+
+    if(!current || len(current) + len(word) + 1 > width) lines.push(word);
+    else lines[lines.length - 1] += ` ${word}`;
+
+    return lines;
+  }, []).join("\n")).join("\n");
+};
 
 // Terminal helpers
 
@@ -112,7 +129,7 @@ ${new Date().toUTCString()}
 // const uptime = await resolve_uptime();
 // if(uptime) write(uptime + "\n");
 
-write(`
+write(wrap(`
 Greetings, dear traveler. You've reached november, the server powering most of ${link("{du}punkto", "https://dupunkto.org")} and ${link("geheimesite.nl", "https://geheimesite.nl")}.
 
 You can contact the webmaster at ${link("geheimesite.nl/contact", "https://geheimesite.nl/contact")}.
@@ -121,7 +138,7 @@ This site provides a terminal interface to poke at the server, running a ${link(
 
 Find documentation at ${link("docs.dupunkto.org/signo", "https://docs.dupunkto.org/signo")}.
 
-`);
+`, 60));
 
 // Loading animation
 
