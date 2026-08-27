@@ -31,6 +31,26 @@ term.loadAddon(ligaturesAddon);
 term.focus();
 fitAddon.fit();
 
+// Positioning of logo
+
+term.onScroll((position) => {
+  const global = document.querySelector("#le-global");
+  const row = document.querySelector(".xterm-rows > div");
+
+  if(!global || !row) return;
+
+  global.style.transform = `translateY(-${position * row.getBoundingClientRect().height}px)`;
+});
+
+term.parser.registerCsiHandler({ final: "J" }, (params) => {
+  if(params[0] == 2 || params[0] == 3)
+    document.querySelector("#le-global")?.remove();
+
+  return false;
+});
+
+// Keyboard shortcuts
+
 window.addEventListener("keydown", (event) => {
   const key = event.key.toLowerCase();
 
@@ -43,13 +63,17 @@ window.addEventListener("keydown", (event) => {
 });
 
 // Formatting helpers
+
 const link = (label, uri) => `\x1b]8;;${uri}\x1b\\\x1b[3m${label}\x1b[23m\x1b]8;;\x1b\\`;
 const strikethrough = (text) => `\x1b[9m${text}\x1b[29m`;
 
 // Terminal helpers
+
 const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const write = (text) => new Promise((resolve) => term.write(text.replaceAll("\n", "\r\n"), resolve));
 const writeln = (text) => rl.write(text == "\x1b[H\x1b[2J" ? text : text + "\r\n");
+
+// Uptime integration
 
 const resolve_uptime = async () => {
   try {
@@ -72,9 +96,10 @@ const resolve_uptime = async () => {
   }
 }
 
+// Boot message
 
-
-await write(`                       _
+await write(`
+                       _
  ___ ___ _ _ ___ _____| |_ ___ ___
 |   | . | | | -_|     | . | -_|  _|
 |_|_|___|\\_/|___|_|_|_|___|___|_|
@@ -98,6 +123,8 @@ Find documentation at ${link("docs.dupunkto.org/signo", "https://docs.dupunkto.o
 
 `);
 
+// Loading animation
+
 for(const path of ["/iframe.mjs", "/AtomVM.mjs", "/AtomVM.wasm", "/wasm/bundle.avm"]) {
   await write(`\r\x1b[2KLoading ${path}...`);
   await fetch(path).then((response) => response.arrayBuffer());
@@ -111,6 +138,8 @@ const popcorn = await Popcorn.init({
   onStdout: writeln,
   onStderr: writeln,
 });
+
+// REPL
 
 let ln = 1;
 

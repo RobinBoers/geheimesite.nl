@@ -13,7 +13,7 @@ html {
 }
 
 .terminal {
-  padding: 15px;
+  padding: clamp(7px, 0.5rem, 20px);
 }
 
 /* I didn't know how else to get rid of the underline, sorry. */
