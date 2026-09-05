@@ -286,6 +286,23 @@ ftp.dupunkto.org {
 	}
 }
 
+# Infrastructure
+
+dsm.console.ilysm.fr {
+	import logging
+	import security
+	import errors
+
+	route {
+		import txts
+		import favicon
+
+		handle {
+			reverse_proxy host.docker.internal:5000
+		}
+	}
+}
+
 # Services
 
 rss.dupunkto.org {
