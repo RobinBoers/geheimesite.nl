@@ -288,6 +288,36 @@ ftp.dupunkto.org {
 
 # Infrastructure
 
+drive.cloud.ilysm.fr {
+	import logging
+	import security
+	import errors
+
+	route {
+		import txts
+		import favicon
+
+		handle {
+			reverse_proxy host.docker.internal:7000
+		}
+	}
+}
+
+photos.cloud.ilysm.fr {
+	import logging
+	import security
+	import errors
+
+	route {
+		import txts
+		import favicon
+
+		handle {
+			reverse_proxy host.docker.internal:5080
+		}
+	}
+}
+
 dsm.console.ilysm.fr {
 	import logging
 	import security
