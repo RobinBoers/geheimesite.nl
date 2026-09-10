@@ -1,4 +1,4 @@
-handle {
+route {
   @personal {
     host roblog.nl scatterbrain.nl geheimesite.nl robin.is.enorm.moe
   }
