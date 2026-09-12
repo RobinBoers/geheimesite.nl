@@ -1,8 +1,10 @@
-@novsh host nov.dupunkto.org november.geheimesite.nl
+route {
+	@nov host nov.dupunkto.org november.geheimesite.nl
 
-handle @novsh {
-	header {
-		Cross-Origin-Resource-Policy "cross-origin"
-		Cross-Origin-Embedder-Policy "require-corp"
+	handle @nov {
+		header {
+			Cross-Origin-Resource-Policy "cross-origin"
+			Cross-Origin-Embedder-Policy "require-corp"
+		}
 	}
 }
