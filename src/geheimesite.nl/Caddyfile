@@ -9,7 +9,11 @@ route {
 
     # Actually, use my Obliviously pf instead.
     # (this is the canonical URL tho, hence the temporary redirect)
-    redir /me.jpeg https://obliviously.eu/uploads/48e6a52868e7d0bcae77aa5b853ed807.jpg temporary
+    # redir /me.jpeg https://obliviously.eu/uploads/48e6a52868e7d0bcae77aa5b853ed807.jpg temporary
+
+    # I switched to Gravatar as the source-of-truth for my avatars
+    # (this is still the canonical URL tho, hence the temporary redirect)
+    redir /me.jpeg https://gravatar.com/avatar/584e1240037fb0b12f1cecb245ffac85?s=400 temporary
 
     # Moved to CDN
     # (these are the canonical URLs tho, hence the temporary redirects)
