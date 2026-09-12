@@ -3,6 +3,8 @@
 use elixir
 
 ASSETS="$(pwd)/assets"
+PUBLIC="$(pwd)/public"
+DIST="$(pwd)/dist"
 
 setup() {
 	super
@@ -15,6 +17,7 @@ build() {
 
 	mix popcorn.cook
   npm run build --prefix "$ASSETS"
+	cp $PUBLIC/Caddyfile $DIST
 }
 
 serve() {
