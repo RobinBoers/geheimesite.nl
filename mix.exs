@@ -7,7 +7,7 @@ defmodule Vygotsky.MixProject do
       description: "The *.geheimesite.nl webspace.",
       app: :vygotsky,
       version: "0.1.0",
-      elixir: "~> 1.18",
+      elixir: "~> 1.17",
       deps: deps(),
 
       # This project is non-standard because I have opinions.
@@ -27,7 +27,10 @@ defmodule Vygotsky.MixProject do
       {:mdex, "~> 0.10.0"},
       {:html_entities, "~> 0.5.2"},
       {:yaml_elixir, "~> 2.12"},
-      {:phoenix_live_view, "~> 1.1"}
+      {:phoenix_live_view, "~> 1.1"},
+      {:signo, "~> 0.0.2"},
+      {:popcorn, "~> 0.3.3"},
+      {:jason, "~> 1.4"}
     ]
   end
 end
