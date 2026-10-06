@@ -29,7 +29,7 @@ defmodule Vygotsky.MixProject do
       {:yaml_elixir, "~> 2.12"},
       {:phoenix_live_view, "~> 1.1"},
       {:signo, "~> 0.0.2"},
-      {:popcorn, "~> 0.3.3"},
+      {:popcorn, github: "RobinBoers/popcorn", sparse: "popcorn-2/elixir"},
       {:jason, "~> 1.4"}
     ]
   end

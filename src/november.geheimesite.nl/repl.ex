@@ -13,7 +13,10 @@ defmodule November.REPL do
   @hidden_result :"do not show this result in output"
 
   def start do
-    GenServer.start_link(__MODULE__, [], name: __MODULE__)
+    with {:ok, _} <- GenServer.start_link(__MODULE__, [], name: __MODULE__) do
+      # Needed to keep the application alive in AtomVM
+      Process.sleep(:infinity)
+    end
   end
 
   @impl GenServer

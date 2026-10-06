@@ -38,7 +38,7 @@ defmodule Vycorn do
     bundle = Path.join(output, "bundle.avm")
 
     with_beam(module, bytecode, fn beam ->
-      digest = digest([beam | dependency_beams()])
+      digest = digest([@self, beam | dependency_beams()])
 
       if stale?(marker, digest) or !File.exists?(bundle) or !File.exists?(bundle <> ".gz") do
         with_application_spec(module, fn ->
@@ -46,7 +46,8 @@ defmodule Vycorn do
             out_dir: Path.dirname(bundle),
             start_module: module,
             extra_beams: [beam],
-            treeshake: true
+            treeshake: true,
+            keep: [Signo.StdLib, Signo.SpecialForms]
           )
         end)
 
