@@ -208,6 +208,10 @@ defmodule Vygotsky do
     end
   end
 
+  def tmp! do
+    Path.join(System.tmp_dir!(), "vygotsky-#{System.unique_integer([:positive])}")
+  end
+
   defmacro glob(path, opts \\ []) do
     quote do
       [__DIR__, unquote(path)]

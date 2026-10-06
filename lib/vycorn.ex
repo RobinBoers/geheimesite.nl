@@ -1,7 +1,10 @@
 defmodule Vycorn do
   @moduledoc false
 
-  @source __ENV__.file
+  import Vygotsky, only: [tmp!: 0]
+
+  @self __ENV__.file
+
   @output Path.join(Mix.Project.build_path(), "vycorn")
   @digest Path.join(@output, ".popcorn_build.digest")
 
@@ -9,7 +12,6 @@ defmodule Vycorn do
 
   def __after_compile__(env, bytecode) do
     File.mkdir_p!(@output)
-
     cook(env.module, bytecode, @output)
     File.write!(@digest, build_digest(env.file))
   end
@@ -23,22 +25,22 @@ defmodule Vycorn do
   end
 
   defp await(marker, digest, attempts) do
-    if File.read(marker) == {:ok, digest} do
-      :ok
-    else
+    if stale?(marker, digest) do
       Process.sleep(50)
       await(marker, digest, attempts - 1)
+    else
+      :ok
     end
   end
 
   defp cook(module, bytecode, output) do
-    inputs = dependency_beams()
-    digest = digest([bytecode | Enum.map(inputs, &File.read!/1)])
     marker = Path.join(output, ".popcorn.digest")
     bundle = Path.join(output, "bundle.avm")
 
-    if stale?(marker, digest) or not File.exists?(bundle) or not File.exists?(bundle <> ".gz") do
-      with_beam(module, bytecode, fn beam ->
+    with_beam(module, bytecode, fn beam ->
+      digest = digest([beam | dependency_beams()])
+
+      if stale?(marker, digest) or !File.exists?(bundle) or !File.exists?(bundle <> ".gz") do
         with_application_spec(module, fn ->
           Popcorn.cook(
             out_dir: Path.dirname(bundle),
@@ -47,14 +49,15 @@ defmodule Vycorn do
             treeshake: true
           )
         end)
-      end)
 
-      File.write!(marker, digest)
-    end
+        File.write!(marker, digest)
+      end
+    end)
   end
 
   defp with_beam(module, bytecode, fun) do
-    temporary = Path.join(System.tmp_dir!(), "vygotsky-#{System.unique_integer([:positive])}")
+    temporary = tmp!()
+
     filename = Atom.to_string(module) <> ".beam"
     beam = Path.join(temporary, filename)
     existing = Path.join([Mix.Project.app_path(), "ebin", filename])
@@ -62,6 +65,7 @@ defmodule Vycorn do
 
     File.mkdir_p!(temporary)
     File.write!(beam, bytecode)
+
     if File.exists?(existing), do: File.rename!(existing, backup)
 
     try do
@@ -91,8 +95,7 @@ defmodule Vycorn do
   end
 
   defp build_digest(source) do
-    inputs = [@source, source | dependency_beams()]
-    digest(Enum.map(inputs, &File.read!/1))
+    digest([@self, source | dependency_beams()])
   end
 
   defp dependency_beams do
@@ -102,9 +105,10 @@ defmodule Vycorn do
     |> Enum.reject(&String.contains?(&1, "/vygotsky/"))
   end
 
-  defp digest(contents) do
-    :sha256
-    |> :crypto.hash(contents)
+  defp digest(paths) do
+    paths
+    |> Enum.map(&File.read!/1)
+    |> then(&:crypto.hash(:sha256, &1))
     |> Base.encode16(case: :lower)
   end
 
