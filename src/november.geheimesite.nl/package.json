@@ -1,10 +1,6 @@
 {
-  "name": "novsh",
+  "name": "november",
   "private": true,
-  "scripts": {
-    "build": "node build.mjs",
-    "watch": "node build.mjs --watch"
-  },
   "dependencies": {
     "@swmansion/popcorn": "^0.3.3",
     "@xterm/addon-fit": "^0.11.0",

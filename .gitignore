@@ -3,3 +3,5 @@ dist
 _deps
 _build
 erl_crash.dump
+*.ez
+*.tar

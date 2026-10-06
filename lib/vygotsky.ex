@@ -30,6 +30,8 @@ defmodule Vygotsky do
         def __mix_recompile__? do
           length(Path.wildcard(@everything)) != @count
         end
+
+        defoverridable __mix_recompile__?: 0
       end
     end
   end
@@ -145,14 +147,30 @@ defmodule Vygotsky do
     Application.app_dir(:vygotsky, "priv/refs/#{path}")
   end
 
+  @vyignore []
+  @ignores Application.app_dir(:vygotsky, "src/**/.vyignore")
+
+  for path <- Path.wildcard(@ignores) do
+    @external_resource path
+
+    contents =
+      path
+      |> File.read!()
+      |> String.split("\n", trim: true)
+      |> Enum.reject(&(&1 =~ ~r/^\s*#/))
+      |> Enum.map(&Path.join(Path.dirname(path), &1))
+
+    @vyignore Enum.concat(@vyignore, contents)
+  end
+
   # This black-magic fuckery ensures the current module is
   # recompiled if there are new files in `icons` or `refs`.
 
   @priv Application.app_dir(:vygotsky, "priv/**/*")
-  @count length(Path.wildcard(@priv))
+  @count @priv |> Path.wildcard() |> Enum.reject(&String.starts_with?(&1, @vyignore)) |> length()
 
   def __mix_recompile__? do
-    length(Path.wildcard(@priv)) != @count
+    @priv |> Path.wildcard() |> Enum.reject(&String.starts_with?(&1, @vyignore)) |> length() != @count
   end
 
   # During a compilations, freshly-compiled modules live in the compiler's
@@ -190,11 +208,18 @@ defmodule Vygotsky do
     end
   end
 
-  defmacro glob(path) do
+  defmacro glob(path, opts \\ []) do
     quote do
       [__DIR__, unquote(path)]
       |> Path.join()
       |> Path.wildcard()
+      |> then(fn paths ->
+        if exclude = Keyword.get(unquote(opts), :exclude) do
+          Enum.reject(paths, &String.starts_with?(&1, exclude))
+        else
+          paths
+        end
+      end)
     end
   end
 
@@ -301,6 +326,9 @@ defmodule Vygotsky do
         String.ends_with?(path, ".heex") -> path |> Path.rootname(".heex") |> output()
         String.ends_with?(path, ".md") -> Path.rootname(path, ".md") <> ".html"
         Enum.any?(~w(html shtml xml json txt js css ico), &String.ends_with?(path, ".#{&1}")) -> path
+
+        # TODO(robin): remove this
+        true -> path
       end
 
     if Keyword.get(opts, :basename, true) do

@@ -11,6 +11,7 @@ export VALIDATE="vnu --exit-zero-always --filterfile .vnuignore"
 
 setup() {
   required elixir
+  required npm
   required lightningcss
   required pandoc
   required fswatch
@@ -19,8 +20,17 @@ setup() {
   required achecker
   required vnu
 
-  p:step "Fetching dependencies"; mix deps.get >/dev/null && p:done
-  p:step "Compiling dependencies"; mix deps.compile >/dev/null && p:done
+  p:step "Fetching dependencies"; quiet mix deps.get && p:done
+  p:step "Compiling dependencies"; quiet mix deps.compile && p:done
+
+  p:step "Installing npm dependencies"
+
+  while read -r package; do
+    [ -f "$package" ] || continue
+    quiet npm ci --prefix "${package%/*}"
+  done < <(git ls-files -co --exclude-standard ':(glob)**/package.json')
+
+  p:done
 }
 
 build() {

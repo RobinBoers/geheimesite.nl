@@ -1,4 +1,4 @@
-defmodule Novsh.REPL do
+defmodule November.REPL do
   @moduledoc false
   use GenServer
 
@@ -7,34 +7,30 @@ defmodule Novsh.REPL do
   alias Signo.Position
   alias Signo.StdLib
 
+  Code.ensure_compiled!(Vycorn)
+  @after_compile Vycorn
+
   @hidden_result :"do not show this result in output"
 
-  def start_link(opts) do
-    GenServer.start_link(__MODULE__, opts, name: __MODULE__)
+  def start do
+    GenServer.start_link(__MODULE__, [], name: __MODULE__)
   end
 
-  defp erlang_info, do: :erlang.system_info(:system_version)
-  defp elixir_info, do: "Elixir/#{System.version()}"
-
-  @impl true
+  @impl GenServer
   def init(_opts) do
-    IO.puts(erlang_info())
-    IO.puts("Interactive Signo v#{Signo.version()} (#{elixir_info()})")
+    IO.puts(:erlang.system_info(:system_version))
+    IO.puts("Interactive Signo v#{Signo.version()} (Elixir/#{System.version()})")
 
     Popcorn.Wasm.ready(__MODULE__)
 
     {:ok, %{ln: 1, env: StdLib.kernel() |> Env.new()}}
   end
 
-  @impl true
+  @impl GenServer
   def handle_info(message, state) do
-    {:wasm_call, source, promise} =
-      Popcorn.Wasm.parse_message!(message)
-
+    {:wasm_call, source, promise} = Popcorn.Wasm.parse_message!(message)
     state = eval(source, state)
-
     Popcorn.Wasm.resolve(state.ln, promise)
-
     {:noreply, state}
   end
 
@@ -48,7 +44,6 @@ defmodule Novsh.REPL do
       |> Signo.evaluate!(state.env)
 
     Logger.log_expression(value)
-
     maybe_flush_output(value)
 
     %{state | env: env, ln: state.ln + 1}
