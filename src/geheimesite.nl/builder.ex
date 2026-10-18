@@ -25,7 +25,7 @@ defmodule Personal do
   end
 
   # Same goes for the blog feeds.
-  async path <- glob("*.{xml,json}.eex"), load: [Blog, Git] do
+  async path <- glob("*.{xml,json,txt}.eex"), load: [Blog, Git] do
     File.write!(target(path), VEEx.render_template!(path))
   end
 

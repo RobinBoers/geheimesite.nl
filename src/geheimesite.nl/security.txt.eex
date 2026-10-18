@@ -1,4 +1,4 @@
 Contact: https://geheimesite.nl/contact
 Canonical: https://geheimesite.nl/security.txt
-Expires: 2029-01-01T12:00:00.000Z
+Expires: <%= DateTime.utc_now(:second) |> DateTime.shift(month: 6) |> DateTime.to_iso8601() %>
 Preferred-Languages: nl,en
