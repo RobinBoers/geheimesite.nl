@@ -316,7 +316,7 @@ if target mesh; then
     -e "RELAY_SECRET=$MESH_SECRET" \
     -e "WEBHOOK_URL=$DISCORD_MESH_WEBHOOK" \
     -e "NODE=nov.mesh.dupunkto.org" \
-    -e "PEERS=dec.mesh.dupunkto.org,feb.mesh.dupunkto.org,jun.mesh.dupunkto.org" \
+    -e "PEERS=oct.mesh.dupunkto.org,dec.mesh.dupunkto.org,feb.mesh.dupunkto.org,jun.mesh.dupunkto.org" \
     ducr.io/dupunkto/mesh:latest
 fi
 
