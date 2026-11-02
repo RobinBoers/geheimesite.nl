@@ -317,6 +317,37 @@ photos.cloud.ilysm.fr {
 	}
 }
 
+stream.cloud.ilysm.fr {
+	import logging
+	import security
+	import errors
+
+	route {
+		import txts
+		import favicon
+		import landing
+
+		handle {
+			reverse_proxy host.docker.internal:8096
+		}
+	}
+}
+
+budget.home.ilysm.fr {
+	import logging
+	import security
+	import errors
+
+	route {
+		import txts
+		import favicon
+
+		handle {
+			reverse_proxy actual:5006
+		}
+	}
+}
+
 dsm.console.ilysm.fr {
 	import logging
 	import security
@@ -362,21 +393,6 @@ inv.dupunkto.org {
 	}
 }
 
-mpv.dupunkto.org {
-	import logging
-	import security
-	import errors
-
-	route {
-		import txts
-		import favicon
-		import landing
-
-		handle {
-			reverse_proxy host.docker.internal:8096
-		}
-	}
-}
 
 vik.dupunkto.org {
 	import logging

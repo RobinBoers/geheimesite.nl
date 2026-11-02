@@ -65,6 +65,18 @@ if target miniflux; then
     miniflux/miniflux:latest
 fi
 
+if target actual; then
+  docker run -dit --name actual --log-driver none \
+    --net $NET --restart no \
+    -v /volume1/docker/actual:/data:rw \
+    -e "ACTUAL_OPENID_DISCOVERY_URL=https://nym.dupunkto.org/.well-known/openid-configuration" \
+    -e "ACTUAL_OPENID_CLIENT_ID=novid" \
+    -e "ACTUAL_OPENID_CLIENT_SECRET=$NOVID_SECRET" \
+    -e "ACTUAL_OPENID_SERVER_HOSTNAME=https://budget.home.ilysm.fr" \
+    -e "ACTUAL_OPENID_ENFORCE=true" \
+    actualbudget/actual-server:latest
+fi
+
 if target grobid; then
   docker run -dit --name grobid \
     --net $NET --restart always \
