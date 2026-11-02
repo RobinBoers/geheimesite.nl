@@ -10,6 +10,8 @@ else
   exit 1
 fi
 
+source /volume1/docker/.env
+
 # This file is used to provision docker containers. The `target` command
 # indicates whether the given docker container is scheduled for provisioning:
 
@@ -277,7 +279,7 @@ if target hop; then
 	  -e "REDIRECT_DOMAIN=dupunk.to" \
     -e "AUTH_PROVIDER=nym" \
     -e "AUTH_ENDPOINT=https://nym.dupunkto.org" \
-	  reg.dupunkto.org/dupunkto/hop
+	  ducr.io/dupunkto/hop:latest
 fi
 
 if target scry; then
@@ -291,7 +293,7 @@ if target scry; then
     -e "AUTH_PROVIDER=nym" \
     -e "AUTH_ENDPOINT=https://nym.dupunkto.org" \
     -e "SECRET_KEY_BASE=$KEY_BASE" \
-    reg.dupunkto.org/dupunkto/scry
+    ducr.io/dupunkto/scry:latest
 fi
 
 if target cipher; then
@@ -302,7 +304,7 @@ if target cipher; then
     -e "DATABASE_URL=postgres://$DB_USER:$DB_PASS@master-db/cipher" \
     -e "SECRET_KEY_BASE=$KEY_BASE" \
   	--env-file /volume1/docker/.env \
-    reg.dupunkto.org/dupunkto/cipher:latest
+    ducr.io/dupunkto/cipher:latest
 fi
 
 if target mesh; then
@@ -315,7 +317,7 @@ if target mesh; then
     -e "WEBHOOK_URL=$DISCORD_MESH_WEBHOOK" \
     -e "NODE=nov.mesh.dupunkto.org" \
     -e "PEERS=dec.mesh.dupunkto.org,feb.mesh.dupunkto.org,jun.mesh.dupunkto.org" \
-    reg.dupunkto.org/dupunkto/mesh:latest
+    ducr.io/dupunkto/mesh:latest
 fi
 
 if target vik; then
