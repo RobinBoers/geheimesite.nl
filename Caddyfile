@@ -1,210 +1,8 @@
-{
-	email webmaster@dupunkto.org
-	#acme_ca https://acme.zerossl.com/v2/DV90
-}
-
-(logging) {
-#	log {
-#		format json
-#		output file /var/log/access.log {
-#			roll_disabled
-#		}
-#	}
-}
-
-(errors) {
-	handle_errors {
-		root * /var/www/html/nov.dupunkto.org
-		try_files /{err.status_code}.shtml /500.shtml
-		file_server
-	}
-}
-
-(favicon) {
-	@favicon_dupunkto {
-		path /favicon.ico
-		host dupunkto.org *.dupunkto.org
-	}
-	file_server @favicon_dupunkto {
-		root /var/www/html/dupunkto.org
-	}
-
-	@favicon_geheimesite {
-		path /favicon.ico
-		host geheimesite.nl *.geheimesite.nl
-	}
-	file_server @favicon_geheimesite {
-		root /var/www/html/geheimesite.nl
-	}
-}
-
-(txts) {
-	redir /.well-known/robots.txt /robots.txt
-	redir /.well-known/security.txt /security.txt
-
-	@robots {
-		path /robots.txt
-	}
-
-	file_server @robots {
-		root /var/www/html/geheimesite.nl
-	}
-
-	@security {
-		path /security.txt
-	}
-
-	file_server @security {
-		root /var/www/html/geheimesite.nl
-	}
-}
-
-(autodiscover) {
-	@config {
-		path /.well-known/autoconfig/mail/config-v1.1.xml
-	}
-
-	file_server @config {
-		root /var/www/html/geheimesite.nl
-	}
-}
-
-(landing) {
-	@landing {
-		path /
-		expression `{query} == ""`
-	}
-
-	handle @landing {
-		root * /var/www/html
-		rewrite {host}/index.html
-		file_server
-	}
-}
-
-(nym) {
-  rewrite * /proxy?{query}
-  reverse_proxy nym:80 {
-    header_up X-Forwarded-Host {host}
-    header_up X-Forwarded-Proto {scheme}
-    header_up X-Forwarded-To {args[0]}
-    header_up X-Forwarded-Path {http.request.orig_uri.path}
-  }
-}
-
-(security) {
-	header {
-		-Server
-		Referrer-Policy "no-referrer"
-		X-Content-Type-Options "nosniff"
-		X-Frame-Options "deny"
-		Cross-Origin-Opener-Policy "same-origin"
-		Cross-Origin-Resource-Policy "cross-origin"
-
-		# HSTS: Enable automatic HTTPS redirects for a year
-		Strict-Transport-Security "max-age=31536000"
-
-		# Allow other sites to get content
-		# See https://ncase.me/nutshell/#CORSForWebDevs
-		Access-Control-Allow-Origin "*"
-	}
-}
-
-(caching) {
-	encode zstd gzip
-
-	@static {
-		file
-		path *.jpg *.jpeg *.png *.gif *.webp *.ico *.svg *.woff *.woff2 *.onnx
-	}
-	handle @static {
-		header Cache-Control "max-age=31536000, immutable"
-	}
-
-	@assets {
-		file
-		path *.js *.css
-	}
-	handle @assets {
-		header Cache-Control "max-age=604800, stale-while-revalidate=86400"
-	}
-
-	@content {
-		file
-		path *.html *.pdf *.txt *.json
-	}
-	handle @content {
-		header Cache-Control "max-age=129600"
-	}
-}
-
-(static) {
-	@strip_index {
-		path_regexp index ^(.*)/index\.html$
-	}
-	redir @strip_index {scheme}://{host}{re.index.1}/ 301
-
-	@strip_html {
-		path_regexp html ^(.*)\.html$
-	}
-	redir @strip_html {scheme}://{host}{re.html.1} 301
-
-	@strip_php {
-		path_regexp php ^(.*)\.php$
-	}
-	redir @strip_php {scheme}://{host}{re.php.1} 301
-
-	root * /var/www/html
-
-	@enter_dir_html {
-		file {host}{path}/index.html
-		not path */
-	}
-	redir @enter_dir_html {uri}/ 301
-
-	@enter_dir_php {
-		file {host}{path}/index.php
-		not path */
-	}
-	redir @enter_dir_php {uri}/ 301
-
-	try_files {host}{path} {host}{path}/index.html {host}{path}/index.php {host}{path}.html {host}{path}.php
-	file_server
-}
-
-# Remove www. from domain names
-www.enorm.moe,
-www.roblog.nl,
-www.ilysm.fr,
-www.scatterbrain.nl,
-www.geheimesite.nl,
-www.dupunkto.org,
-www.dupunk.to,
-www.dupunkto.nl,
-www.dupunkto.com {
+www.ilysm.fr {
+	import logging
 	import security
+
 	redir https://{labels.1}.{labels.0}{uri}
-}
-
-enorm.moe,
-dupunkto.nl,
-dupunkto.com {
-	import security
-	redir https://dupunkto.org
-}
-
-schravenland.nl {
-	import security
-	redir https://lyceumschravenland.nl
-}
-
-# The CDN is running via Bunny, so Bunny is
-# managing SSL rather than Caddy.
-http://cdn.dupunkto.org,
-http://cdn.geheimesite.nl {
-	import caching
-	import security
-	import static
 }
 
 ilysm.fr {
@@ -229,45 +27,8 @@ ilysm.fr {
 	}
 }
 
-geheimesite.nl,
-scatterbrain.nl,
-dupunkto.org,
-wiki.dupunkto.org,
-docs.dupunkto.org,
-support.dupunkto.org,
-tools.dupunkto.org,
-canvas.dupunkto.org,
-nm.geheimesite.nl,
-november.geheimesite.nl,
-nov.dupunkto.org,
-classic.geheimesite.nl,
-blog.geheimesite.nl,
-nindo.geheimesite.nl,
-keys.geheimesite.nl,
-repo.dupunkto.org,
-cydia.geheimesite.nl,
-# I need these APT repos on legacy versions of iOS and
-# Linux, on which modern TLS/SSL is a pain to set up.
-http://repo.dupunkto.org,
-http://cydia.geheimesite.nl,
-lyceumschravenland.nl,
-robin.is.enorm.moe {
-	import logging
-	import security
-	import errors
-
-	route {
-		import /var/www/html/*/Caddyfile
-
-		import txts
-		import autodiscover
-		import favicon
-		import caching
-		import static
-	}
-}
-
-ftp.dupunkto.org {
+dsm.console.ilysm.fr {
+	import tailnet
 	import logging
 	import security
 	import errors
@@ -276,18 +37,14 @@ ftp.dupunkto.org {
 		import txts
 		import favicon
 
-		root * /var/www/html/ftp.dupunkto.org
 		handle {
-			file_server {
-				browse /var/www/html/simple.tpl
-			}
+			reverse_proxy host.docker.internal:5000
 		}
 	}
 }
 
-# Infrastructure
-
 drive.cloud.ilysm.fr {
+	import tailnet
 	import logging
 	import security
 	import errors
@@ -303,6 +60,7 @@ drive.cloud.ilysm.fr {
 }
 
 photos.cloud.ilysm.fr {
+	import tailnet
 	import logging
 	import security
 	import errors
@@ -318,6 +76,7 @@ photos.cloud.ilysm.fr {
 }
 
 stream.cloud.ilysm.fr {
+	import tailnet
 	import logging
 	import security
 	import errors
@@ -334,6 +93,7 @@ stream.cloud.ilysm.fr {
 }
 
 budget.home.ilysm.fr {
+	import tailnet
 	import logging
 	import security
 	import errors
@@ -343,12 +103,13 @@ budget.home.ilysm.fr {
 		import favicon
 
 		handle {
-			reverse_proxy actual:5006
+			reverse_proxy actual.nov.dupunk.to:5006
 		}
 	}
 }
 
-dsm.console.ilysm.fr {
+uptime.console.ilysm.fr {
+	import dns robinb
 	import logging
 	import security
 	import errors
@@ -357,325 +118,12 @@ dsm.console.ilysm.fr {
 		import txts
 		import favicon
 
-		handle {
-			reverse_proxy host.docker.internal:5000
-		}
+		reverse_proxy uptime.dec.dupunk.to:3001
 	}
 }
 
-# Services
+# Very temporary because I need to setup proper forwarding
 
-rss.dupunkto.org {
-	import logging
-	import security
-	import errors
-
-	route {
-		import txts
-		import favicon
-		import landing
-		import nym miniflux:8080
-	}
-}
-
-inv.dupunkto.org {
-	import logging
-	import security
-	import errors
-
-	route {
-		import txts
-		import favicon
-		import landing
-		handle {
-			# reverse_proxy invidious:3000
-		}
-	}
-}
-
-
-vik.dupunkto.org {
-	import logging
-	import security
-	import errors
-
-	route {
-		import txts
-		import favicon
-
-		handle_path /api/* {
-			redir https://api.dupunkto.org{uri}
-		}
-
-		handle {
-			reverse_proxy vik:4000
-		}
-	}
-}
-
-fog.geheimesite.nl {
-	import logging
-	import security
-	import errors
-
-	route {
-		import txts
-		import favicon
-
-		handle_path /api/* {
-			redir https://api.geheimesite.nl{uri}
-		}
-
-		handle {
-			reverse_proxy fog:4000
-		}
-	}
-}
-
-dupunk.to,
-hop.dupunkto.org {
-	import logging
-	import security
-	import errors
-
-	route {
-		import txts
-		import favicon
-
-		handle {
-			reverse_proxy hop:4000
-		}
-	}
-}
-
-nym.dupunkto.org {
-	import logging
-	import security
-	import errors
-
-	route {
-		import txts
-		import favicon
-
-		@forbidden path /proxy /users.json
-		rewrite @forbidden /
-
-		handle {
-			reverse_proxy nym:80
-		}
-	}
-}
-
-scry.dupunkto.org {
-	import logging
-	import security
-	import errors
-
-	route {
-		import txts
-		import favicon
-
-		handle {
-			reverse_proxy scry:4000
-		}
-	}
-}
-
-cipher.dupunkto.org {
-	import logging
-	import security
-	import errors
-
-	route {
-		import txts
-		import favicon
-
-		handle {
-			reverse_proxy cipher:4000
-		}
-	}
-}
-
-git.geheimesite.nl {
-	import logging
-	import security
-	import errors
-
-	route {
-		import txts
-		import favicon
-
-		handle {
-			reverse_proxy repoz:80
-		}
-	}
-}
-
-git.dupunkto.org {
-	import logging
-	import security
-	import errors
-
-	route {
-		import txts
-		import favicon
-
-		handle {
-			reverse_proxy gitz:80
-		}
-	}
-}
-
-bugs.dupunkto.org {
-	import logging
-	import security
-	import errors
-
-	route {
-		import txts
-		import favicon
-
-		handle {
-			reverse_proxy bugz:80
-		}
-	}
-}
-
-api.geheimesite.nl {
-	import logging
-	import security
-	import errors
-
-	route {
-		import txts
-		import favicon
-		import landing
-
-		@files path /*.js /resources/*
-
-		handle @files {
-			import caching
-			root * /var/www/html/api.geheimesite.nl
-			try_files {path} {path}.json {path}.opml
-			file_server
-		}
-
-		handle {
-			rewrite * /api{path}
-			reverse_proxy fog:4000
-		}
-	}
-}
-
-api.dupunkto.org {
-	import logging
-	import security
-	import errors
-
-	route {
-		import txts
-		import favicon
-		import landing
-
-		handle {
-			rewrite * /api{path}
-			reverse_proxy vik:4000
-		}
-	}
-}
-
-# Miscellaneous
-
-atlas.gijs6.nl,
-compass.gijs6.nl {
-	import logging
-	import security
-	import errors
-	reverse_proxy atlas:80
-}
-
-uptime.gijs6.nl {
-	import logging
-	import security
-	import errors
-	reverse_proxy uptime:3001
-}
-
-inbox.gijs6.nl,
-inbox.geheimesite.nl {
-	import logging
-	import security
-	import errors
-
-	route {
-		import txts
-		import favicon
-
-		rewrite / /send/{host}
-		handle {
-			reverse_proxy cipher:4000
-		}
-	}
-}
-
-# Websites implemented in Vik.
-
-ikwilvanmijnleraaraf.nl {
-	import logging
-	import security
-	import errors
-	import txts
-
-	rewrite * /api/ikwilvanmijnleraaraf.nl?{query}&_path={path}
-	reverse_proxy vik:4000
-}
-
-ikwilvanmijnleerlingaf.nl {
-	import logging
-	import security
-	import errors
-	import txts
-
-	rewrite * /api/ikwilvanmijnleerlingaf.nl?{query}&_path={path}
-	reverse_proxy vik:4000
-}
-
-# Cool URLs don't change
-
-roblog.nl {
-	import security
-	redir https://geheimesite.nl{uri}
-}
-
-pages.geheimesite.nl,
-demo.geheimesite.nl,
-docs.geheimesite.nl {
-	import security
-	redir https://robinboers.github.io{uri}
-}
-
-# Uptime
-
-nov.mesh.dupunkto.org {
-	import logging
-	import security
-	import errors
-
-	route {
-		import txts
-		import favicon
-
-		handle {
-			reverse_proxy mesh:4000
-		}
-	}
-}
-
-# Fall-trough
-
-http:// {
-	@everything {
-			path /*
-	}
-	redir @everything https://nm.geheimesite.nl?from=http://{host}{uri} 302
+memberpagina.svvocus.nl {
+	redir https://www.svvocus.nl{uri}
 }
