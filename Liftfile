@@ -3,12 +3,10 @@ runner: nov.dupunk.to
 services:
 - name: router
   src: Caddyfile
-  target: Caddyfile
-  restart:
-  - router
+  target: /etc/lift/caddy.d/20-local
 - name: bootstrap
   src: bootstrap.sh
-  target: /volume1/docker/bootstrap.sh
+  target: /etc/lift/containers.d/20-local
 - name: priv
   src: priv/*.tpl
   target: /volume1/www
