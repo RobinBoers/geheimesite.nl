@@ -47,9 +47,4 @@ defmodule November do
   for file <- ~w(iframe.mjs AtomVM.mjs AtomVM.wasm) do
     File.cp!(Path.join(@runtime, file), target(file))
   end
-
-  for code <- 400..599 do
-    @dest target("#{code}.shtml")
-    File.write!(@dest, VEEx.render_layout!(:bsod, "", %{code: code}))
-  end
 end

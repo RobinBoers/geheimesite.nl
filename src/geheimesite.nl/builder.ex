@@ -96,4 +96,9 @@ defmodule Personal do
       File.write!(dest, VEEx.render_layout!(:entry, entry.content, entry))
     end
   end
+
+  for code <- 400..599 do
+    @dest target("#{code}.shtml")
+    File.write!(@dest, VEEx.render_layout!(:bsod, "", %{code: code}))
+  end
 end
