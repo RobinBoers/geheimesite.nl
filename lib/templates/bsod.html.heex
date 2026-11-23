@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <.head title={@code} stylesheet="/bsod.css" root {assigns} />
+    <.head title={@code} stylesheet="/bsod.css" root host={"november.geheimesite.nl"} {assigns} />
 
     <%
       segment = :io_lib.format("~4.16.0B", [:rand.uniform(0x10000) - 1]) |> IO.iodata_to_binary()
